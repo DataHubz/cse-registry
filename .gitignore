@@ -1,0 +1,122 @@
+```gitignore
+# ------------------------------------------------------------------
+# General
+# ------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ------------------------------------------------------------------
+# Editor / IDE
+# ------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+
+# ------------------------------------------------------------------
+# Node / Frontend (if used for site or tooling)
+# ------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.out/
+.cache/
+.next/
+
+# ------------------------------------------------------------------
+# Python (tooling / generators)
+# ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+
+# ------------------------------------------------------------------
+# Go (if used for tooling)
+# ------------------------------------------------------------------
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ------------------------------------------------------------------
+# Generated registry artifacts (optional policy)
+# ------------------------------------------------------------------
+# Uncomment if registry artifacts are generated and not committed
+# registry/**/cse-registry.json
+# registry/**/cse-registry.min.json
+# registry/**/cse-registry.ndjson
+# registry/**/cse-index.json
+# registry/**/SHA256SUMS
+
+# ------------------------------------------------------------------
+# Temporary / local tooling output
+# ------------------------------------------------------------------
+tmp/
+temp/
+.cache/
+logs/
+*.log
+
+# ------------------------------------------------------------------
+# OS / System
+# ------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+
+# ------------------------------------------------------------------
+# Security / Secrets
+# ------------------------------------------------------------------
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+secrets.*
+credentials.*
+.env.*
+
+# ------------------------------------------------------------------
+# Misc
+# ------------------------------------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+```
+
+### Notes (for you, not to commit):
+
+* I **did not** ignore `registry/` by default
+
+  * Registry artifacts *should* be committed if they are authoritative.
+* I included Node, Python, and Go because:
+
+  * You may use any of them for registry generators, validation, or site builds.
+* Secret patterns are conservative to avoid accidental leakage.
+
+If you want, I can:
+
+* Tailor this further once you decide how registry artifacts are generated
+* Provide a **pre-commit hook** to validate signal JSON
+* Add a **CI lint config** for schema validation
