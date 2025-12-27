@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-ASSESSMENT-NO-POA-003",
+  "canonical_name": "Plan of Action Not Maintained",
+  "description": "A Plan of Action and Milestones (POA&M) for addressing security deficiencies is not developed or maintained. This signal indicates that identified security gaps may not be tracked to resolution.",
+  "domain": "CMMC",
+  "category": "ASSESSMENT",
+  "applicability": "Applicable to all identified security deficiencies. Includes vulnerability findings, assessment gaps, audit findings, and other security weaknesses requiring remediation.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["security-assessment", "remediation", "compliance"],
+    "related_controls": ["CMMC CA.L2-3.12.2", "NIST SP 800-171 3.12.2"],
+    "detection_notes": "Detected through POA&M documentation review, remediation tracking verification, and milestone progress assessment."
+  }
+}

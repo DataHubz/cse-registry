@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-MAINTENANCE-TOOLS-NOT-CONTROLLED-002",
+  "canonical_name": "Maintenance Tools Not Controlled",
+  "description": "Tools used for system maintenance are not approved, controlled, or monitored. This signal indicates that unauthorized or compromised tools may be used during maintenance activities.",
+  "domain": "CMMC",
+  "category": "MAINTENANCE",
+  "applicability": "Applicable to all maintenance tools and utilities. Includes diagnostic software, repair tools, remote support utilities, and any software or hardware used for maintenance purposes.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["maintenance", "tool-security", "supply-chain"],
+    "related_controls": ["CMMC MA.L2-3.7.2", "NIST SP 800-171 3.7.2"],
+    "detection_notes": "Detected through maintenance tool inventory review, tool authorization verification, and tool integrity checking."
+  }
+}

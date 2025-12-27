@@ -1,0 +1,17 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-PENETRATION-TEST-008",
+  "canonical_name": "Penetration Testing Not Conducted",
+  "description": "Regular penetration testing of systems and applications is not conducted. This signal indicates that exploitable vulnerabilities may exist without detection.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments requiring offensive security testing. Includes network penetration tests, application security testing, and social engineering assessments.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["enhanced-security", "vulnerability-management", "offensive-security"],
+    "related_controls": ["CMMC L3-CA.3.12.3e", "NIST SP 800-172 3.12.3e"],
+    "detection_notes": "Detected through penetration testing program review, test schedule verification, and remediation tracking assessment.",
+    "cmmc_level": 3
+  }
+}

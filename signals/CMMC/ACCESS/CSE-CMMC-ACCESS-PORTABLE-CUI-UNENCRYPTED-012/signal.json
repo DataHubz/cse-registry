@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-ACCESS-PORTABLE-CUI-UNENCRYPTED-012",
+  "canonical_name": "CUI on Portable Storage Not Encrypted",
+  "description": "Controlled Unclassified Information stored on portable storage devices is not encrypted. This signal indicates that CUI may be exposed if portable storage devices are lost, stolen, or improperly accessed.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to all portable storage devices containing CUI. Includes USB drives, external hard drives, SD cards, and other removable media used to store or transport CUI.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": ["access-control", "data-protection", "encryption"],
+    "related_controls": ["CMMC AC.L2-3.1.19", "NIST SP 800-171 3.1.19"],
+    "detection_notes": "Detected through portable storage encryption policy review, device encryption status verification, and DLP monitoring for unencrypted CUI transfers."
+  }
+}

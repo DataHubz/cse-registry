@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-MEDIA-NO-PHYSICAL-PROTECTION-007",
+  "canonical_name": "Media Physical Protection Insufficient",
+  "description": "Physical protection measures for CUI-containing media are inadequate against environmental threats or tampering. This signal indicates media may be vulnerable to damage, theft, or unauthorized modification.",
+  "domain": "CMMC",
+  "category": "MEDIA",
+  "applicability": "Applicable to physical protection of all CUI media. Includes fire protection, environmental controls, tamper-evident measures, and physical security mechanisms.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["media-protection", "physical-security", "environmental"],
+    "related_controls": ["CMMC MP.L2-3.8.1", "NIST SP 800-171 3.8.1"],
+    "detection_notes": "Detected through physical protection assessment, environmental control verification, and tamper evidence review."
+  }
+}

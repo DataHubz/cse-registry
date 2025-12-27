@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-ACCESS-NO-PRIVILEGED-REMOTE-AUTH-019",
+  "canonical_name": "Privileged Remote Access Not Separately Authenticated",
+  "description": "Privileged commands executed via remote access are not authenticated separately from initial session authentication. This signal indicates that elevated privileges may be exercised without additional verification.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to all privileged remote access scenarios. Includes remote administrative sessions, privileged access management systems, and any remote elevation of privileges.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["access-control", "authentication", "privileged-access"],
+    "related_controls": ["CMMC AC.L2-3.1.15", "NIST SP 800-171 3.1.15"],
+    "detection_notes": "Detected through remote access authentication flow review, privileged session management assessment, and step-up authentication verification."
+  }
+}

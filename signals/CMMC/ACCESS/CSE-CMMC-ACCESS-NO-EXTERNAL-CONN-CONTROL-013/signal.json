@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-ACCESS-NO-EXTERNAL-CONN-CONTROL-013",
+  "canonical_name": "External System Connections Not Controlled",
+  "description": "Connections to external systems are not verified or controlled before allowing access to organizational systems. This signal indicates that external system connections may bypass security verification and authorization processes.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to all external system interconnections. Includes connections to partner systems, cloud services, third-party APIs, and any external information systems accessing organizational resources.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["access-control", "network-security", "third-party-risk"],
+    "related_controls": ["CMMC AC.L2-3.1.20", "NIST SP 800-171 3.1.20"],
+    "detection_notes": "Detected through external connection inventory review, interconnection agreement verification, and network boundary monitoring."
+  }
+}

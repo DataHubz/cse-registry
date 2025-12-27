@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-MAINTENANCE-MEDIA-NOT-SANITIZED-003",
+  "canonical_name": "Maintenance Media Not Sanitized",
+  "description": "Media containing diagnostic or maintenance data is not sanitized before reuse or disposal. This signal indicates that sensitive information captured during maintenance may be exposed.",
+  "domain": "CMMC",
+  "category": "MAINTENANCE",
+  "applicability": "Applicable to all media used during maintenance activities. Includes diagnostic logs, memory dumps, backup media, and any storage used to capture maintenance data.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["maintenance", "data-protection", "media-sanitization"],
+    "related_controls": ["CMMC MA.L2-3.7.3", "NIST SP 800-171 3.7.3"],
+    "detection_notes": "Detected through maintenance media handling procedure review, sanitization record verification, and media tracking assessment."
+  }
+}

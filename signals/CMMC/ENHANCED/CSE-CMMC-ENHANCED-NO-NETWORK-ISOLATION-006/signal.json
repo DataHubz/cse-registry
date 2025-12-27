@@ -1,0 +1,17 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-NETWORK-ISOLATION-006",
+  "canonical_name": "Network Isolation for High-Value Assets Not Implemented",
+  "description": "High-value assets are not isolated on dedicated network segments. This signal indicates that critical systems may be accessible through compromised standard network segments.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments with high-value assets. Includes network micro-segmentation, isolated management networks, and air-gapped systems for critical assets.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["enhanced-security", "network-security", "isolation"],
+    "related_controls": ["CMMC L3-SC.3.13.1e", "NIST SP 800-172 3.13.1e"],
+    "detection_notes": "Detected through network architecture review, micro-segmentation verification, and high-value asset isolation assessment.",
+    "cmmc_level": 3
+  }
+}

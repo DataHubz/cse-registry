@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-AUDIT-INSUFFICIENT-CONTENT-005",
+  "canonical_name": "Audit Record Content Insufficient",
+  "description": "Audit records do not contain sufficient information to establish what events occurred, when they occurred, where they occurred, and who was involved. This signal indicates that audit logs may lack critical details needed for incident investigation.",
+  "domain": "CMMC",
+  "category": "AUDIT",
+  "applicability": "Applicable to all audit logging configurations. Includes event timestamp, source, user identity, event type, outcome, and affected resources in audit record format.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["audit", "forensics", "accountability"],
+    "related_controls": ["CMMC AU.L2-3.3.1", "NIST SP 800-171 3.3.1"],
+    "detection_notes": "Detected through audit log format review, sample log analysis, and comparison against required audit content standards."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-ARCHITECTURE-PROTECTION-015",
+  "canonical_name": "System Architecture Protection Not Implemented",
+  "description": "Security architecture principles such as defense in depth and least privilege are not implemented in system design. This signal indicates that the system may lack layered security controls.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to all system architectures. Includes defense in depth, network segmentation, security zones, and architectural security controls.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["system-communications", "architecture", "security-design"],
+    "related_controls": ["CMMC SC.L2-3.13.2", "NIST SP 800-171 3.13.2"],
+    "detection_notes": "Detected through architecture review, security zone assessment, and defense-in-depth verification."
+  }
+}

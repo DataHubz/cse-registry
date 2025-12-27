@@ -1,0 +1,17 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-SECURITY-DOMAIN-002",
+  "canonical_name": "Security Domain Separation Not Implemented",
+  "description": "Security domains for different sensitivity levels are not separated. This signal indicates that CUI of varying impact levels may not be adequately isolated from each other.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments with varying data sensitivity. Includes logical and physical separation of security domains, cross-domain solutions, and data classification enforcement.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["enhanced-security", "data-protection", "isolation"],
+    "related_controls": ["CMMC L3-SC.3.13.4e", "NIST SP 800-172 3.13.4e"],
+    "detection_notes": "Detected through security domain architecture review, isolation mechanism verification, and cross-domain flow assessment.",
+    "cmmc_level": 3
+  }
+}

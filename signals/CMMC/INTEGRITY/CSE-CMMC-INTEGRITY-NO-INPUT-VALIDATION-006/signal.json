@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-INTEGRITY-NO-INPUT-VALIDATION-006",
+  "canonical_name": "Input Validation Not Implemented",
+  "description": "Applications do not validate input data before processing, creating vulnerability to injection attacks. This signal indicates that SQL injection, XSS, and command injection vulnerabilities may exist.",
+  "domain": "CMMC",
+  "category": "INTEGRITY",
+  "applicability": "Applicable to all applications accepting user input. Includes web applications, APIs, command-line tools, and any software processing external data.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["system-integrity", "application-security", "injection-prevention"],
+    "related_controls": ["CMMC SI.L2-3.14.6", "NIST SP 800-171 3.14.6"],
+    "detection_notes": "Detected through application security testing, code review, and input validation assessment."
+  }
+}

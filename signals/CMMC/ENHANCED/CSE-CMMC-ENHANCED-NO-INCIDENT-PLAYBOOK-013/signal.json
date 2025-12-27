@@ -1,0 +1,17 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-INCIDENT-PLAYBOOK-013",
+  "canonical_name": "Incident Response Playbooks Not Developed",
+  "description": "Detailed incident response playbooks for common attack scenarios are not developed. This signal indicates that incident response may be inconsistent or delayed during security events.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments with incident response requirements. Includes attack-specific playbooks, automated response procedures, and escalation workflows.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["enhanced-security", "incident-response", "operational-security"],
+    "related_controls": ["CMMC L3-IR.3.6.1e", "NIST SP 800-172 3.6.1e"],
+    "detection_notes": "Detected through playbook inventory review, scenario coverage assessment, and response procedure testing.",
+    "cmmc_level": 3
+  }
+}

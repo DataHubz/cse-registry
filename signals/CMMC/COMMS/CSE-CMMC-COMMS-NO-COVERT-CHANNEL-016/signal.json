@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-COVERT-CHANNEL-016",
+  "canonical_name": "Covert Channel Detection Not Implemented",
+  "description": "Mechanisms to detect covert communication channels are not implemented. This signal indicates that data may be exfiltrated through hidden or non-standard communication methods.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to systems requiring advanced threat protection. Includes DNS tunneling detection, steganography detection, and non-standard protocol monitoring.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["system-communications", "threat-detection", "data-exfiltration"],
+    "related_controls": ["CMMC SC.L2-3.13.5", "NIST SP 800-171 3.13.5"],
+    "detection_notes": "Detected through covert channel analysis capability review, protocol anomaly detection, and non-standard traffic monitoring."
+  }
+}

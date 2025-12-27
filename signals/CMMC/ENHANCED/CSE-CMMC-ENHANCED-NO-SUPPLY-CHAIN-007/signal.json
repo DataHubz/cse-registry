@@ -1,0 +1,17 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-SUPPLY-CHAIN-007",
+  "canonical_name": "Supply Chain Risk Management Not Implemented",
+  "description": "Supply chain risk management for critical components is not implemented. This signal indicates that compromised or counterfeit components may enter the environment.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments with supply chain concerns. Includes vendor risk assessment, component verification, and supply chain security programs.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["enhanced-security", "supply-chain", "third-party-risk"],
+    "related_controls": ["CMMC L3-SR.3.1.1e", "NIST SP 800-172 3.1.1e"],
+    "detection_notes": "Detected through supply chain program review, vendor assessment verification, and component authenticity testing.",
+    "cmmc_level": 3
+  }
+}

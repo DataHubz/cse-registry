@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-COLLABORATIVE-CONTROL-008",
+  "canonical_name": "Collaborative Computing Device Control Not Implemented",
+  "description": "Collaborative computing devices such as cameras, microphones, and screen sharing are not controlled against unauthorized activation. This signal indicates that eavesdropping or surveillance may be possible.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to all collaborative computing features. Includes webcams, microphones, screen sharing, remote desktop, and unified communications devices.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["system-communications", "privacy", "endpoint-security"],
+    "related_controls": ["CMMC SC.L2-3.13.12", "NIST SP 800-171 3.13.12"],
+    "detection_notes": "Detected through device policy review, camera/microphone control verification, and collaboration tool security assessment."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-CONFIG-NO-NONESSENTIAL-RESTRICT-007",
+  "canonical_name": "Nonessential Functions Not Restricted",
+  "description": "Nonessential programs, functions, ports, protocols, and services are not disabled or restricted. This signal indicates that the attack surface may be unnecessarily expanded due to unused functionality remaining enabled.",
+  "domain": "CMMC",
+  "category": "CONFIG",
+  "applicability": "Applicable to all organizational systems. Includes service hardening, port management, protocol restrictions, and removal of unnecessary software components.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["configuration-management", "attack-surface", "hardening"],
+    "related_controls": ["CMMC CM.L2-3.4.7", "NIST SP 800-171 3.4.7"],
+    "detection_notes": "Detected through service enumeration, port scanning, protocol analysis, and comparison against minimum required functionality."
+  }
+}

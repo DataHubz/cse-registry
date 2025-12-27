@@ -1,0 +1,17 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-RECOVERY-PLAN-016",
+  "canonical_name": "Cyber Resilience Recovery Plan Not Established",
+  "description": "A comprehensive recovery plan for restoring operations after cyber incidents is not established. This signal indicates that recovery from significant attacks may be prolonged or incomplete.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments requiring operational resilience. Includes disaster recovery, business continuity, and cyber resilience planning.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["enhanced-security", "resilience", "business-continuity"],
+    "related_controls": ["CMMC L3-CP.3.4.2e", "NIST SP 800-172 3.4.2e"],
+    "detection_notes": "Detected through recovery plan review, recovery testing verification, and RTO/RPO assessment.",
+    "cmmc_level": 3
+  }
+}

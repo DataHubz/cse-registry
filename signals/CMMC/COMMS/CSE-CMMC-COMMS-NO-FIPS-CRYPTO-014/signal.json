@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-FIPS-CRYPTO-014",
+  "canonical_name": "FIPS-Validated Cryptography Not Used",
+  "description": "Cryptographic modules are not FIPS 140-2/140-3 validated when protecting CUI. This signal indicates that cryptographic implementations may not meet federal security standards.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to all cryptographic protection of CUI. Includes encryption modules, key management systems, and cryptographic libraries used for CUI protection.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["system-communications", "cryptography", "compliance"],
+    "related_controls": ["CMMC SC.L2-3.13.11", "NIST SP 800-171 3.13.11"],
+    "detection_notes": "Detected through cryptographic module validation verification, FIPS mode configuration review, and encryption library assessment."
+  }
+}

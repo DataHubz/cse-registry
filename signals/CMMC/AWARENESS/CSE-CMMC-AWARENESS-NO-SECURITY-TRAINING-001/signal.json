@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-AWARENESS-NO-SECURITY-TRAINING-001",
+  "canonical_name": "Security Awareness Training Not Provided",
+  "description": "Users do not receive security awareness training on recognizing and reporting potential security threats. This signal indicates that personnel may lack the knowledge to identify phishing, social engineering, or other security risks.",
+  "domain": "CMMC",
+  "category": "AWARENESS",
+  "applicability": "Applicable to all organizations with personnel who access information systems. Includes security awareness programs, phishing training, and general security education for all users.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["awareness-training", "human-factors", "security-culture"],
+    "related_controls": ["CMMC AT.L2-3.2.1", "CMMC AT.L2-3.2.2", "NIST SP 800-171 3.2.1", "NIST SP 800-171 3.2.2"],
+    "detection_notes": "Detected through training program review, training completion records, and security awareness assessment."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-MAINTENANCE-REMOTE-NOT-MONITORED-004",
+  "canonical_name": "Remote Maintenance Not Monitored",
+  "description": "Remote maintenance sessions are not monitored or recorded. This signal indicates that remote maintenance activities may occur without oversight, increasing risk of unauthorized changes.",
+  "domain": "CMMC",
+  "category": "MAINTENANCE",
+  "applicability": "Applicable to all remote maintenance access. Includes remote support sessions, vendor remote access, and any off-site maintenance activities performed over network connections.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["maintenance", "remote-access", "monitoring"],
+    "related_controls": ["CMMC MA.L2-3.7.5", "NIST SP 800-171 3.7.5"],
+    "detection_notes": "Detected through remote maintenance configuration review, session recording verification, and monitoring capability assessment."
+  }
+}

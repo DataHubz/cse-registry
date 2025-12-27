@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-AUDIT-NO-NONREPUDIATION-009",
+  "canonical_name": "Non-Repudiation Controls Not Implemented",
+  "description": "Audit mechanisms do not provide non-repudiation capabilities to prove that actions occurred. This signal indicates that users may be able to deny performing actions due to lack of cryptographic or tamper-evident logging.",
+  "domain": "CMMC",
+  "category": "AUDIT",
+  "applicability": "Applicable to systems requiring strong accountability. Includes digitally signed logs, tamper-evident logging, write-once storage, and cryptographic timestamps.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["audit", "non-repudiation", "integrity"],
+    "related_controls": ["CMMC AU.L2-3.3.2", "NIST SP 800-171 3.3.2"],
+    "detection_notes": "Detected through audit integrity mechanism review, log signing verification, and tamper detection capability assessment."
+  }
+}

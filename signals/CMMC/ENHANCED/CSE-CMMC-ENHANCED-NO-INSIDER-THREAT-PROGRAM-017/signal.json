@@ -1,0 +1,17 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-INSIDER-THREAT-PROGRAM-017",
+  "canonical_name": "Insider Threat Program Not Established",
+  "description": "A formal insider threat program to detect and prevent malicious insider activity is not established. This signal indicates that insider threats may not be systematically detected or addressed.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments with insider threat concerns. Includes insider threat detection, user behavior monitoring, and insider threat investigations.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["enhanced-security", "insider-threat", "monitoring"],
+    "related_controls": ["CMMC L3-PS.3.9.1e", "NIST SP 800-172 3.9.1e"],
+    "detection_notes": "Detected through insider threat program review, UBA deployment verification, and investigation process assessment.",
+    "cmmc_level": 3
+  }
+}

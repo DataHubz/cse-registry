@@ -1,0 +1,17 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-DECEPTION-005",
+  "canonical_name": "Deception Technologies Not Deployed",
+  "description": "Deception technologies such as honeypots and honeynets are not deployed to detect attackers. This signal indicates that adversary reconnaissance and lateral movement may not be detected early.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments requiring advanced detection. Includes honeypots, honeynets, decoy systems, and deception-based detection mechanisms.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["enhanced-security", "threat-detection", "deception"],
+    "related_controls": ["CMMC L3-SC.3.13.3e", "NIST SP 800-172 3.13.3e"],
+    "detection_notes": "Detected through deception technology deployment review, honeypot presence verification, and decoy system assessment.",
+    "cmmc_level": 3
+  }
+}

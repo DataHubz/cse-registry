@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-MAINTENANCE-PERSONNEL-NOT-SUPERVISED-006",
+  "canonical_name": "Maintenance Personnel Not Supervised",
+  "description": "Personnel performing maintenance without required access authorizations are not supervised during maintenance activities. This signal indicates that unauthorized individuals may have unsupervised access to systems.",
+  "domain": "CMMC",
+  "category": "MAINTENANCE",
+  "applicability": "Applicable to all maintenance scenarios involving personnel without proper clearances. Includes vendor technicians, contractors, and any maintenance personnel requiring escort or supervision.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["maintenance", "personnel-security", "physical-security"],
+    "related_controls": ["CMMC MA.L2-3.7.6", "NIST SP 800-171 3.7.6"],
+    "detection_notes": "Detected through maintenance supervision policy review, escort log verification, and personnel authorization assessment."
+  }
+}

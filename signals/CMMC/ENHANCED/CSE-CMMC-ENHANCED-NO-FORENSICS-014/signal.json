@@ -1,0 +1,17 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-FORENSICS-014",
+  "canonical_name": "Digital Forensics Capability Not Established",
+  "description": "Digital forensics capabilities for incident investigation are not established. This signal indicates that incident root cause analysis and evidence preservation may not be possible.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments requiring forensic capabilities. Includes forensic tools, evidence handling procedures, and chain of custody processes.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["enhanced-security", "incident-response", "forensics"],
+    "related_controls": ["CMMC L3-IR.3.6.2e", "NIST SP 800-172 3.6.2e"],
+    "detection_notes": "Detected through forensic capability assessment, tool inventory review, and evidence handling procedure verification.",
+    "cmmc_level": 3
+  }
+}

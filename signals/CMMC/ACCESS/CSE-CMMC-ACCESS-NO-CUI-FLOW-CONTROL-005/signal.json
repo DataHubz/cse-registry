@@ -1,0 +1,16 @@
+{
+  "id": "CSE-CMMC-ACCESS-NO-CUI-FLOW-CONTROL-005",
+  "canonical_name": "CUI Flow Not Controlled",
+  "description": "The flow of Controlled Unclassified Information (CUI) between systems, networks, or organizational boundaries is not controlled or restricted. This signal indicates that CUI may be transmitted or shared without appropriate authorization or technical controls.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to systems processing, storing, or transmitting CUI. Includes data loss prevention controls, network segmentation, and information flow policies between security domains.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["access-control", "data-protection", "information-flow"],
+    "related_controls": ["CMMC AC.L2-3.1.3", "NIST SP 800-171 3.1.3"],
+    "detection_notes": "Detected through review of DLP configurations, network segmentation policies, and information flow controls between systems handling CUI."
+  }
+}
