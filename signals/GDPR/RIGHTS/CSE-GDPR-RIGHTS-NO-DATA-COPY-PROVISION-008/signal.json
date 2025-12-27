@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-DATA-COPY-PROVISION-008",
+  "canonical_name": "Data Copy Provision Not Implemented",
+  "description": "The controller cannot provide a copy of personal data undergoing processing in a commonly used electronic format when requested electronically.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable when access requests are made electronically. Data should be provided in a commonly used electronic format unless otherwise requested.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["data-protection", "data-subject-rights", "access"],
+    "related_controls": ["GDPR Art. 15.3"],
+    "detection_notes": "Detected through review of data export capabilities and format options. Verify ability to provide structured, machine-readable copies of personal data."
+  }
+}

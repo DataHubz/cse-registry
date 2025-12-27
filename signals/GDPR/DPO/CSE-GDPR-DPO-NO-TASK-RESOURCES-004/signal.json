@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-DPO-NO-TASK-RESOURCES-004",
+  "canonical_name": "DPO Task Resources Not Provided",
+  "description": "Data Protection Officer has not been provided with necessary resources, support, or access to perform required tasks effectively. Article 38.2 requires controllers to support DPO in performing tasks.",
+  "domain": "GDPR",
+  "category": "DPO",
+  "applicability": "Applicable to all organizations with designated DPO. Controller must provide resources including staff, premises, equipment, and access to personal data and processing operations.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["data-protection", "resource-allocation", "effectiveness"],
+    "related_controls": ["GDPR Art. 38.2"],
+    "detection_notes": "Detected through assessment of DPO resources, budget allocation, staff support, and access to data and systems."
+  }
+}

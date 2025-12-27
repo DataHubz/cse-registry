@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-IMPACT-NO-DPIA-DOCUMENTATION-002",
+  "canonical_name": "DPIA Documentation Incomplete",
+  "description": "Data Protection Impact Assessment exists but does not contain required elements specified in Article 35.7, including systematic description of processing, necessity assessment, risk assessment, or mitigation measures.",
+  "domain": "GDPR",
+  "category": "IMPACT",
+  "applicability": "Applicable to all DPIAs conducted under Article 35. Documentation must include processing description, necessity and proportionality assessment, risk assessment, and safeguards.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["data-protection", "documentation", "risk-assessment"],
+    "related_controls": ["GDPR Art. 35.7"],
+    "detection_notes": "Detected through review of existing DPIA documentation for completeness against Article 35.7 requirements."
+  }
+}

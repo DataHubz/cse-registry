@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-DESIGN-NO-PRIVACY-BY-DEFAULT-002",
+  "canonical_name": "Privacy by Default Not Implemented",
+  "description": "The controller has not implemented data protection by default as required by Article 25.2. By default, systems process more personal data than necessary, make data accessible to more individuals than necessary, or retain data longer than necessary without individual intervention.",
+  "domain": "GDPR",
+  "category": "DESIGN",
+  "applicability": "Applicable to all processing operations and system configurations. Default settings must ensure that only personal data necessary for each specific purpose is processed by default.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["privacy-engineering", "data-minimization", "configuration"],
+    "related_controls": ["GDPR Art. 25.2", "GDPR Art. 5.1.c"],
+    "detection_notes": "Detected through review of default system configurations, access permissions, data retention settings, and user consent flows. Requires verification that privacy-protective defaults are in place."
+  }
+}

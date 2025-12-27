@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-CONSENT-NO-INFORMED-003",
+  "canonical_name": "Consent Not Informed",
+  "description": "Consent is obtained without providing data subjects with adequate information about the processing. Article 7 requires informed consent, meaning data subjects must know identity of controller, purposes, and other Article 13/14 information.",
+  "domain": "GDPR",
+  "category": "CONSENT",
+  "applicability": "Applicable when obtaining consent for processing. Data subjects must receive all required transparency information before or at the time of consent to make informed decision.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["data-protection", "consent-validity", "transparency"],
+    "related_controls": ["GDPR Art. 7", "GDPR Art. 13", "GDPR Art. 14"],
+    "detection_notes": "Detected through review of consent mechanisms and absence of required information at point of consent collection."
+  }
+}

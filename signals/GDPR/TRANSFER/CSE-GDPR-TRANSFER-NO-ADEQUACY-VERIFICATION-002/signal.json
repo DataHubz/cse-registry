@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-TRANSFER-NO-ADEQUACY-VERIFICATION-002",
+  "canonical_name": "Adequacy Decision Not Verified",
+  "description": "Transfer to third country relies on adequacy decision but verification of current adequacy status has not been performed. Article 45 allows transfers based on Commission adequacy decisions.",
+  "domain": "GDPR",
+  "category": "TRANSFER",
+  "applicability": "Applicable when relying on European Commission adequacy decisions for data transfers. Must verify country/territory has valid adequacy decision and monitor for changes or invalidations.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["data-protection", "international-transfers", "legal-basis"],
+    "related_controls": ["GDPR Art. 45"],
+    "detection_notes": "Detected through review of transfer mechanisms and absence of adequacy decision verification or monitoring processes."
+  }
+}

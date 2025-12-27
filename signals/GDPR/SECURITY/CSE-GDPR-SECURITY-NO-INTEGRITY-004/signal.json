@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-SECURITY-NO-INTEGRITY-004",
+  "canonical_name": "Integrity Measures Not Implemented",
+  "description": "Systems lack adequate measures to ensure ongoing integrity of personal data. Integrity ensures that data remains accurate, complete, and unaltered except by authorized processes, protecting against unauthorized modification or corruption.",
+  "domain": "GDPR",
+  "category": "SECURITY",
+  "applicability": "Applicable to all systems storing or processing personal data. Includes data validation, checksums, audit trails, version control, input sanitization, and protection against tampering or corruption.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["data-protection", "security", "integrity", "data-quality"],
+    "related_controls": ["GDPR Art. 32.1.b", "GDPR Art. 5.1.d", "GDPR Art. 5.1.f"],
+    "detection_notes": "Detected through code review and architecture analysis. Look for missing input validation, lack of checksums or hashing for data verification, no audit logs for data modifications, missing database constraints, absence of data integrity checks, and inadequate protection against SQL injection or data corruption."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-COLLECTION-NOTICE-004",
+  "canonical_name": "Privacy Notice at Collection Missing",
+  "description": "When personal data is collected directly from data subjects, required information is not provided at the time of collection. Article 13 specifies mandatory information elements.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable to all direct data collection from data subjects. Includes online forms, registration processes, and any point where personal data is collected from individuals.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["data-protection", "transparency", "notice"],
+    "related_controls": ["GDPR Art. 13"],
+    "detection_notes": "Detected through review of data collection points and associated privacy notices. Verify all Article 13 required elements are provided at collection time."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-CONTROLLER-NO-PROCESSOR-RECORDS-009",
+  "canonical_name": "Processor Processing Records Not Maintained",
+  "description": "The processor has not maintained records of all categories of processing activities carried out on behalf of controllers as required by Article 30.2. Records must include processor and representative details, categories of processing, transfers, and security measures.",
+  "domain": "GDPR",
+  "category": "CONTROLLER",
+  "applicability": "Applicable to all processors processing personal data on behalf of controllers, subject to same exceptions as controllers. Processors must maintain separate records for each controller and make them available to supervisory authorities.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["accountability", "processor-obligations", "documentation"],
+    "related_controls": ["GDPR Art. 30.2", "GDPR Art. 28.3.f"],
+    "detection_notes": "Detected through review of processor documentation, service records, and compliance with contractual record-keeping obligations. Requires verification that processors maintain adequate records for supervisory oversight."
+  }
+}

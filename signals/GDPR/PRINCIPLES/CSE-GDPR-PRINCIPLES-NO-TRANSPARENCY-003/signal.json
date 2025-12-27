@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-PRINCIPLES-NO-TRANSPARENCY-003",
+  "canonical_name": "Lack of Processing Transparency",
+  "description": "Data subjects are not adequately informed about how their personal data is collected, used, or processed. Transparency requires clear, accessible, and comprehensive information about processing activities.",
+  "domain": "GDPR",
+  "category": "PRINCIPLES",
+  "applicability": "Applicable to all personal data processing where data subjects should be informed. Includes direct and indirect data collection, and all subsequent processing activities.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["data-protection", "transparency", "communication"],
+    "related_controls": ["GDPR Art. 5.1.a", "GDPR Art. 12", "GDPR Art. 13", "GDPR Art. 14"],
+    "detection_notes": "Detected through review of privacy notices, consent mechanisms, and data subject communications. Assess completeness, clarity, and accessibility of information provided."
+  }
+}

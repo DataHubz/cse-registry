@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-TRANSPARENT-COMMUNICATION-001",
+  "canonical_name": "Transparent Communication Not Provided",
+  "description": "Information about data processing is not provided in a concise, transparent, intelligible, and easily accessible form using clear and plain language, particularly when addressing children.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable to all communications with data subjects about processing activities. Includes privacy notices, consent forms, and responses to data subject requests.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["data-protection", "transparency", "communication"],
+    "related_controls": ["GDPR Art. 12.1"],
+    "detection_notes": "Detected through review of privacy communications for clarity, accessibility, and language. Assess readability level and presentation format."
+  }
+}

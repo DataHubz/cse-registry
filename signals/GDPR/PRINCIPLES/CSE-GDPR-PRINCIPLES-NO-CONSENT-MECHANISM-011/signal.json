@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-PRINCIPLES-NO-CONSENT-MECHANISM-011",
+  "canonical_name": "Valid Consent Mechanism Missing",
+  "description": "When consent is the lawful basis for processing, no valid mechanism exists to obtain, record, or verify consent that meets GDPR requirements for being freely given, specific, informed, and unambiguous.",
+  "domain": "GDPR",
+  "category": "PRINCIPLES",
+  "applicability": "Applicable where consent is used as the lawful basis for processing. Includes consent collection interfaces, preference centers, and consent management platforms.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["data-protection", "consent", "lawfulness"],
+    "related_controls": ["GDPR Art. 7", "GDPR Art. 4(11)"],
+    "detection_notes": "Detected through review of consent collection mechanisms, consent records, and user interfaces. Assess whether consent meets all GDPR validity requirements."
+  }
+}

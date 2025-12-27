@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-SECURITY-NO-PSEUDONYMIZATION-001",
+  "canonical_name": "Pseudonymization Not Implemented",
+  "description": "Personal data is not pseudonymized where appropriate, increasing risk in case of unauthorized access or breach. Pseudonymization renders data less identifiable while allowing processing for legitimate purposes.",
+  "domain": "GDPR",
+  "category": "SECURITY",
+  "applicability": "Applicable to systems processing personal data where pseudonymization is technically feasible and appropriate given the nature, scope, context, and purposes of processing. Particularly relevant for analytics, research, and systems with elevated breach risk.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["data-protection", "security", "pseudonymization"],
+    "related_controls": ["GDPR Art. 32.1.a", "GDPR Art. 25"],
+    "detection_notes": "Detected through code review of data processing pipelines, database schemas, and data transformation logic. Look for direct storage of identifiers (names, emails, IDs) without tokenization or hashing. Review data minimization practices and whether direct identifiers are necessary for processing purposes."
+  }
+}

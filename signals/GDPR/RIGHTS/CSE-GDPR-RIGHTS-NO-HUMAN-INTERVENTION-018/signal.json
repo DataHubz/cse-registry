@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-HUMAN-INTERVENTION-018",
+  "canonical_name": "Human Intervention Mechanism Missing",
+  "description": "No mechanism exists for data subjects to obtain human intervention, express their point of view, or contest automated decisions that produce legal or similarly significant effects.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable when automated decision-making is permitted under Article 22.2 exceptions. Safeguards must include human intervention capability.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["data-protection", "automated-decisions", "human-oversight"],
+    "related_controls": ["GDPR Art. 22.3"],
+    "detection_notes": "Detected through review of automated decision systems and appeal/review mechanisms. Verify human review process exists and is accessible."
+  }
+}

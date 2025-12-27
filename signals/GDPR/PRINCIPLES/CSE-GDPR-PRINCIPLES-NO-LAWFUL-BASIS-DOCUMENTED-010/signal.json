@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-PRINCIPLES-NO-LAWFUL-BASIS-DOCUMENTED-010",
+  "canonical_name": "Lawful Basis Not Documented",
+  "description": "The lawful basis for processing personal data is not documented for each processing activity. Controllers must identify and record the appropriate lawful basis before processing begins.",
+  "domain": "GDPR",
+  "category": "PRINCIPLES",
+  "applicability": "Applicable to all personal data processing activities. Documentation should be maintained in records of processing activities as required by Article 30.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["data-protection", "lawfulness", "documentation"],
+    "related_controls": ["GDPR Art. 6", "GDPR Art. 30"],
+    "detection_notes": "Detected through review of records of processing activities and privacy documentation. Each processing activity should have an explicitly documented lawful basis."
+  }
+}

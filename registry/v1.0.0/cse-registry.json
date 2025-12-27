@@ -1217,6 +1217,726 @@
       "status": "active"
     },
     {
+      "id": "CSE-GDPR-CHILDREN-NO-AGE-VERIFICATION-001",
+      "domain": "GDPR",
+      "category": "CHILDREN",
+      "name": "Age Verification Not Implemented",
+      "definition_ref": "/signals/GDPR/CHILDREN/CSE-GDPR-CHILDREN-NO-AGE-VERIFICATION-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CHILDREN-NO-PARENTAL-CONSENT-002",
+      "domain": "GDPR",
+      "category": "CHILDREN",
+      "name": "Parental Consent Not Obtained",
+      "definition_ref": "/signals/GDPR/CHILDREN/CSE-GDPR-CHILDREN-NO-PARENTAL-CONSENT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONSENT-NO-FREELY-GIVEN-001",
+      "domain": "GDPR",
+      "category": "CONSENT",
+      "name": "Consent Not Freely Given",
+      "definition_ref": "/signals/GDPR/CONSENT/CSE-GDPR-CONSENT-NO-FREELY-GIVEN-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONSENT-NO-INFORMED-003",
+      "domain": "GDPR",
+      "category": "CONSENT",
+      "name": "Consent Not Informed",
+      "definition_ref": "/signals/GDPR/CONSENT/CSE-GDPR-CONSENT-NO-INFORMED-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONSENT-NO-RECORDS-005",
+      "domain": "GDPR",
+      "category": "CONSENT",
+      "name": "Consent Records Not Maintained",
+      "definition_ref": "/signals/GDPR/CONSENT/CSE-GDPR-CONSENT-NO-RECORDS-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONSENT-NO-SPECIFIC-002",
+      "domain": "GDPR",
+      "category": "CONSENT",
+      "name": "Consent Not Specific",
+      "definition_ref": "/signals/GDPR/CONSENT/CSE-GDPR-CONSENT-NO-SPECIFIC-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONSENT-NO-WITHDRAWAL-MECHANISM-004",
+      "domain": "GDPR",
+      "category": "CONSENT",
+      "name": "Consent Withdrawal Mechanism Missing",
+      "definition_ref": "/signals/GDPR/CONSENT/CSE-GDPR-CONSENT-NO-WITHDRAWAL-MECHANISM-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONTROLLER-NO-COMPLIANCE-MEASURES-001",
+      "domain": "GDPR",
+      "category": "CONTROLLER",
+      "name": "Compliance Measures Not Implemented",
+      "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-COMPLIANCE-MEASURES-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONTROLLER-NO-DATA-RETURN-PROCESS-012",
+      "domain": "GDPR",
+      "category": "CONTROLLER",
+      "name": "Data Return Process Not Established",
+      "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-DATA-RETURN-PROCESS-012/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONTROLLER-NO-EU-REPRESENTATIVE-004",
+      "domain": "GDPR",
+      "category": "CONTROLLER",
+      "name": "EU Representative Not Designated",
+      "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-EU-REPRESENTATIVE-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONTROLLER-NO-JOINT-CONTROLLER-ARRANGEMENT-003",
+      "domain": "GDPR",
+      "category": "CONTROLLER",
+      "name": "Joint Controller Arrangement Not Established",
+      "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-JOINT-CONTROLLER-ARRANGEMENT-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONTROLLER-NO-POLICY-DOCUMENTATION-002",
+      "domain": "GDPR",
+      "category": "CONTROLLER",
+      "name": "Policy Documentation Not Maintained",
+      "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-POLICY-DOCUMENTATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONTROLLER-NO-PROCESSING-INSTRUCTIONS-007",
+      "domain": "GDPR",
+      "category": "CONTROLLER",
+      "name": "Processing Instructions Not Documented",
+      "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-PROCESSING-INSTRUCTIONS-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONTROLLER-NO-PROCESSING-RECORDS-008",
+      "domain": "GDPR",
+      "category": "CONTROLLER",
+      "name": "Controller Processing Records Not Maintained",
+      "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-PROCESSING-RECORDS-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONTROLLER-NO-PROCESSOR-CONTRACT-005",
+      "domain": "GDPR",
+      "category": "CONTROLLER",
+      "name": "Processor Contract Not Established",
+      "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-PROCESSOR-CONTRACT-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONTROLLER-NO-PROCESSOR-DUE-DILIGENCE-006",
+      "domain": "GDPR",
+      "category": "CONTROLLER",
+      "name": "Processor Due Diligence Not Performed",
+      "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-PROCESSOR-DUE-DILIGENCE-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONTROLLER-NO-PROCESSOR-RECORDS-009",
+      "domain": "GDPR",
+      "category": "CONTROLLER",
+      "name": "Processor Processing Records Not Maintained",
+      "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-PROCESSOR-RECORDS-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-CONTROLLER-NO-SUB-PROCESSOR-CONTROLS-011",
+      "domain": "GDPR",
+      "category": "CONTROLLER",
+      "name": "Sub-Processor Controls Not Implemented",
+      "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-SUB-PROCESSOR-CONTROLS-011/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-DESIGN-NO-DATA-MINIMIZATION-DEFAULT-003",
+      "domain": "GDPR",
+      "category": "DESIGN",
+      "name": "Data Minimization Not Default",
+      "definition_ref": "/signals/GDPR/DESIGN/CSE-GDPR-DESIGN-NO-DATA-MINIMIZATION-DEFAULT-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-DESIGN-NO-PRIVACY-BY-DEFAULT-002",
+      "domain": "GDPR",
+      "category": "DESIGN",
+      "name": "Privacy by Default Not Implemented",
+      "definition_ref": "/signals/GDPR/DESIGN/CSE-GDPR-DESIGN-NO-PRIVACY-BY-DEFAULT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-DESIGN-NO-PRIVACY-BY-DESIGN-001",
+      "domain": "GDPR",
+      "category": "DESIGN",
+      "name": "Privacy by Design Not Implemented",
+      "definition_ref": "/signals/GDPR/DESIGN/CSE-GDPR-DESIGN-NO-PRIVACY-BY-DESIGN-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-DPO-NO-CONTACT-PUBLISHED-002",
+      "domain": "GDPR",
+      "category": "DPO",
+      "name": "DPO Contact Details Not Published",
+      "definition_ref": "/signals/GDPR/DPO/CSE-GDPR-DPO-NO-CONTACT-PUBLISHED-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-DPO-NO-DESIGNATION-001",
+      "domain": "GDPR",
+      "category": "DPO",
+      "name": "DPO Not Designated",
+      "definition_ref": "/signals/GDPR/DPO/CSE-GDPR-DPO-NO-DESIGNATION-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-DPO-NO-INDEPENDENCE-003",
+      "domain": "GDPR",
+      "category": "DPO",
+      "name": "DPO Independence Not Ensured",
+      "definition_ref": "/signals/GDPR/DPO/CSE-GDPR-DPO-NO-INDEPENDENCE-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-DPO-NO-TASK-RESOURCES-004",
+      "domain": "GDPR",
+      "category": "DPO",
+      "name": "DPO Task Resources Not Provided",
+      "definition_ref": "/signals/GDPR/DPO/CSE-GDPR-DPO-NO-TASK-RESOURCES-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-IMPACT-NO-DPIA-DOCUMENTATION-002",
+      "domain": "GDPR",
+      "category": "IMPACT",
+      "name": "DPIA Documentation Incomplete",
+      "definition_ref": "/signals/GDPR/IMPACT/CSE-GDPR-IMPACT-NO-DPIA-DOCUMENTATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-IMPACT-NO-DPIA-PROCESS-001",
+      "domain": "GDPR",
+      "category": "IMPACT",
+      "name": "DPIA Process Not Established",
+      "definition_ref": "/signals/GDPR/IMPACT/CSE-GDPR-IMPACT-NO-DPIA-PROCESS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-IMPACT-NO-DPIA-REVIEW-003",
+      "domain": "GDPR",
+      "category": "IMPACT",
+      "name": "DPIA Review Not Conducted",
+      "definition_ref": "/signals/GDPR/IMPACT/CSE-GDPR-IMPACT-NO-DPIA-REVIEW-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-IMPACT-NO-PRIOR-CONSULTATION-004",
+      "domain": "GDPR",
+      "category": "IMPACT",
+      "name": "Prior Consultation Not Conducted",
+      "definition_ref": "/signals/GDPR/IMPACT/CSE-GDPR-IMPACT-NO-PRIOR-CONSULTATION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-PRINCIPLES-CRIMINAL-DATA-UNPROTECTED-013",
+      "domain": "GDPR",
+      "category": "PRINCIPLES",
+      "name": "Criminal Data Processing Without Authorization",
+      "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-CRIMINAL-DATA-UNPROTECTED-013/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-PRINCIPLES-NO-ACCOUNTABILITY-009",
+      "domain": "GDPR",
+      "category": "PRINCIPLES",
+      "name": "Accountability Not Demonstrated",
+      "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-ACCOUNTABILITY-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-PRINCIPLES-NO-ACCURACY-006",
+      "domain": "GDPR",
+      "category": "PRINCIPLES",
+      "name": "Data Accuracy Not Maintained",
+      "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-ACCURACY-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-PRINCIPLES-NO-CONSENT-MECHANISM-011",
+      "domain": "GDPR",
+      "category": "PRINCIPLES",
+      "name": "Valid Consent Mechanism Missing",
+      "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-CONSENT-MECHANISM-011/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-PRINCIPLES-NO-DATA-MINIMIZATION-005",
+      "domain": "GDPR",
+      "category": "PRINCIPLES",
+      "name": "Data Minimization Not Implemented",
+      "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-DATA-MINIMIZATION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-PRINCIPLES-NO-FAIRNESS-002",
+      "domain": "GDPR",
+      "category": "PRINCIPLES",
+      "name": "Unfair Processing Practices",
+      "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-FAIRNESS-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-PRINCIPLES-NO-INTEGRITY-CONFIDENTIALITY-008",
+      "domain": "GDPR",
+      "category": "PRINCIPLES",
+      "name": "Integrity and Confidentiality Not Ensured",
+      "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-INTEGRITY-CONFIDENTIALITY-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-PRINCIPLES-NO-LAWFUL-BASIS-DOCUMENTED-010",
+      "domain": "GDPR",
+      "category": "PRINCIPLES",
+      "name": "Lawful Basis Not Documented",
+      "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-LAWFUL-BASIS-DOCUMENTED-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-PRINCIPLES-NO-LAWFULNESS-001",
+      "domain": "GDPR",
+      "category": "PRINCIPLES",
+      "name": "Processing Without Lawful Basis",
+      "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-LAWFULNESS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-PRINCIPLES-NO-PURPOSE-LIMITATION-004",
+      "domain": "GDPR",
+      "category": "PRINCIPLES",
+      "name": "Purpose Limitation Not Enforced",
+      "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-PURPOSE-LIMITATION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-PRINCIPLES-NO-STORAGE-LIMITATION-007",
+      "domain": "GDPR",
+      "category": "PRINCIPLES",
+      "name": "Storage Limitation Not Enforced",
+      "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-STORAGE-LIMITATION-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-PRINCIPLES-NO-TRANSPARENCY-003",
+      "domain": "GDPR",
+      "category": "PRINCIPLES",
+      "name": "Lack of Processing Transparency",
+      "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-TRANSPARENCY-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-PRINCIPLES-SPECIAL-CATEGORY-UNPROTECTED-012",
+      "domain": "GDPR",
+      "category": "PRINCIPLES",
+      "name": "Special Category Data Not Protected",
+      "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-SPECIAL-CATEGORY-UNPROTECTED-012/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-ACCESS-MECHANISM-007",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Subject Access Request Mechanism Missing",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-ACCESS-MECHANISM-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-AUTOMATED-DECISION-DISCLOSURE-016",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Automated Decision-Making Not Disclosed",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-AUTOMATED-DECISION-DISCLOSURE-016/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-COLLECTION-NOTICE-004",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Privacy Notice at Collection Missing",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-COLLECTION-NOTICE-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-DATA-COPY-PROVISION-008",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Data Copy Provision Not Implemented",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-DATA-COPY-PROVISION-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-ERASURE-MECHANISM-010",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Data Erasure Mechanism Missing",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-ERASURE-MECHANISM-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-ERASURE-PROPAGATION-011",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Erasure Not Propagated to Recipients",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-ERASURE-PROPAGATION-011/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-HUMAN-INTERVENTION-018",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Human Intervention Mechanism Missing",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-HUMAN-INTERVENTION-018/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-IDENTITY-VERIFICATION-003",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Identity Verification Not Implemented",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-IDENTITY-VERIFICATION-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-INDIRECT-COLLECTION-NOTICE-005",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Indirect Collection Notice Missing",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-INDIRECT-COLLECTION-NOTICE-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-MARKETING-OPT-OUT-017",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Direct Marketing Opt-Out Missing",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-MARKETING-OPT-OUT-017/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-OBJECTION-MECHANISM-015",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Objection Mechanism Missing",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-OBJECTION-MECHANISM-015/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-PORTABILITY-MECHANISM-014",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Data Portability Mechanism Missing",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-PORTABILITY-MECHANISM-014/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-PRIVACY-POLICY-006",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Privacy Policy Not Accessible",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-PRIVACY-POLICY-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-RECIPIENT-NOTIFICATION-013",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Recipient Notification Not Implemented",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-RECIPIENT-NOTIFICATION-013/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-RECTIFICATION-MECHANISM-009",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Data Rectification Mechanism Missing",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-RECTIFICATION-MECHANISM-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-RESPONSE-MECHANISM-002",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Data Subject Request Response Missing",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-RESPONSE-MECHANISM-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-RESTRICTION-MECHANISM-012",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Processing Restriction Mechanism Missing",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-RESTRICTION-MECHANISM-012/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-RIGHTS-NO-TRANSPARENT-COMMUNICATION-001",
+      "domain": "GDPR",
+      "category": "RIGHTS",
+      "name": "Transparent Communication Not Provided",
+      "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-TRANSPARENT-COMMUNICATION-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-ACCESS-CONTROL-010",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Access Control Not Implemented",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-ACCESS-CONTROL-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-AVAILABILITY-005",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Availability Measures Not Implemented",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-AVAILABILITY-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-BREACH-DETECTION-011",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Breach Detection Mechanisms Not Implemented",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-BREACH-DETECTION-011/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-BREACH-DOCUMENTATION-013",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Breach Documentation Not Maintained",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-BREACH-DOCUMENTATION-013/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-BREACH-NOTIFICATION-PROCESS-012",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Breach Notification Process Not Established",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-BREACH-NOTIFICATION-PROCESS-012/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-CONFIDENTIALITY-003",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Confidentiality Measures Not Implemented",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-CONFIDENTIALITY-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-ENCRYPTION-002",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Encryption Not Implemented",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-ENCRYPTION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-INTEGRITY-004",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Integrity Measures Not Implemented",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-INTEGRITY-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-PSEUDONYMIZATION-001",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Pseudonymization Not Implemented",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-PSEUDONYMIZATION-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-RECOVERY-CAPABILITY-007",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Recovery Capability Not Implemented",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-RECOVERY-CAPABILITY-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-RESILIENCE-006",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Resilience Measures Not Implemented",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-RESILIENCE-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-RISK-ASSESSMENT-009",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Security Risk Assessment Not Performed",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-RISK-ASSESSMENT-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-SECURITY-TESTING-008",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Security Testing Not Implemented",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-SECURITY-TESTING-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-SECURITY-NO-SUBJECT-BREACH-NOTIFICATION-014",
+      "domain": "GDPR",
+      "category": "SECURITY",
+      "name": "Data Subject Breach Notification Process Not Established",
+      "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-SUBJECT-BREACH-NOTIFICATION-014/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-TRANSFER-NO-ADEQUACY-VERIFICATION-002",
+      "domain": "GDPR",
+      "category": "TRANSFER",
+      "name": "Adequacy Decision Not Verified",
+      "definition_ref": "/signals/GDPR/TRANSFER/CSE-GDPR-TRANSFER-NO-ADEQUACY-VERIFICATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-TRANSFER-NO-BCR-005",
+      "domain": "GDPR",
+      "category": "TRANSFER",
+      "name": "Binding Corporate Rules Not Approved",
+      "definition_ref": "/signals/GDPR/TRANSFER/CSE-GDPR-TRANSFER-NO-BCR-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-TRANSFER-NO-DEROGATION-DOCUMENTATION-006",
+      "domain": "GDPR",
+      "category": "TRANSFER",
+      "name": "Derogation Not Documented",
+      "definition_ref": "/signals/GDPR/TRANSFER/CSE-GDPR-TRANSFER-NO-DEROGATION-DOCUMENTATION-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-TRANSFER-NO-SAFEGUARDS-003",
+      "domain": "GDPR",
+      "category": "TRANSFER",
+      "name": "Appropriate Safeguards Not Implemented",
+      "definition_ref": "/signals/GDPR/TRANSFER/CSE-GDPR-TRANSFER-NO-SAFEGUARDS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-TRANSFER-NO-SCC-004",
+      "domain": "GDPR",
+      "category": "TRANSFER",
+      "name": "Standard Contractual Clauses Not Used",
+      "definition_ref": "/signals/GDPR/TRANSFER/CSE-GDPR-TRANSFER-NO-SCC-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GDPR-TRANSFER-NO-TRANSFER-ASSESSMENT-001",
+      "domain": "GDPR",
+      "category": "TRANSFER",
+      "name": "Transfer Assessment Not Conducted",
+      "definition_ref": "/signals/GDPR/TRANSFER/CSE-GDPR-TRANSFER-NO-TRANSFER-ASSESSMENT-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
       "id": "CSE-GEN-SECRETS-PLAINTEXT-001",
       "domain": "GEN",
       "category": "SECRETS",

@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-DPO-NO-CONTACT-PUBLISHED-002",
+  "canonical_name": "DPO Contact Details Not Published",
+  "description": "Contact details of the Data Protection Officer have not been published or communicated to the supervisory authority. Article 37.7 requires publication of DPO contact details and communication to the authority.",
+  "domain": "GDPR",
+  "category": "DPO",
+  "applicability": "Applicable to all organizations that have designated a DPO under Article 37. Contact details must be publicly available and communicated to the relevant supervisory authority.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["data-protection", "transparency", "accessibility"],
+    "related_controls": ["GDPR Art. 37.7"],
+    "detection_notes": "Detected through review of privacy notices, website publications, and supervisory authority notification records."
+  }
+}

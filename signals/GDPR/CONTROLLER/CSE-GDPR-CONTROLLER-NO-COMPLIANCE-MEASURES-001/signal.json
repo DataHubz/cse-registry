@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-CONTROLLER-NO-COMPLIANCE-MEASURES-001",
+  "canonical_name": "Compliance Measures Not Implemented",
+  "description": "The controller has not implemented appropriate technical and organizational measures to ensure and demonstrate GDPR compliance in accordance with Article 24.1. This includes failure to implement measures proportionate to processing risks and data volumes.",
+  "domain": "GDPR",
+  "category": "CONTROLLER",
+  "applicability": "Applicable to all data controllers processing personal data. Measures must be appropriate to the nature, scope, context, and purposes of processing as well as the risks to rights and freedoms of data subjects.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["accountability", "compliance", "data-protection"],
+    "related_controls": ["GDPR Art. 24.1", "GDPR Art. 5.2"],
+    "detection_notes": "Detected through assessment of organizational policies, technical controls, privacy documentation, and risk management frameworks. Requires evaluation of whether measures are appropriate and demonstrable."
+  }
+}

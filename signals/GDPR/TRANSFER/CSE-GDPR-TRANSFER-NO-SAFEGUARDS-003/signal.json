@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-TRANSFER-NO-SAFEGUARDS-003",
+  "canonical_name": "Appropriate Safeguards Not Implemented",
+  "description": "Transfer to third country without adequacy decision lacks appropriate safeguards as required by Article 46. Safeguards include binding corporate rules, standard contractual clauses, or approved codes of conduct.",
+  "domain": "GDPR",
+  "category": "TRANSFER",
+  "applicability": "Applicable to transfers to third countries without adequacy decision. Controller or processor must provide appropriate safeguards and ensure enforceable data subject rights.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": ["data-protection", "international-transfers", "contractual-safeguards"],
+    "related_controls": ["GDPR Art. 46"],
+    "detection_notes": "Detected through review of contracts with third country processors and absence of appropriate safeguards mechanisms."
+  }
+}

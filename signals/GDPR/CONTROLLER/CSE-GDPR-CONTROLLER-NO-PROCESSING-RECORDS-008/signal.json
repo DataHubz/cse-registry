@@ -1,0 +1,16 @@
+{
+  "id": "CSE-GDPR-CONTROLLER-NO-PROCESSING-RECORDS-008",
+  "canonical_name": "Controller Processing Records Not Maintained",
+  "description": "The controller has not maintained records of processing activities under its responsibility as required by Article 30.1. Records must include controller and representative details, processing purposes, data subject and personal data categories, recipients, transfers, retention periods, and security measures.",
+  "domain": "GDPR",
+  "category": "CONTROLLER",
+  "applicability": "Applicable to all controllers except organizations with fewer than 250 employees unless processing is not occasional, likely to risk rights and freedoms, or includes special categories or criminal data. Records must be in writing and available to supervisory authorities.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["accountability", "documentation", "compliance"],
+    "related_controls": ["GDPR Art. 30.1", "GDPR Art. 5.2"],
+    "detection_notes": "Detected through review of processing records, ROPA (Record of Processing Activities), data inventory, and compliance documentation. Requires verification that records are complete, current, and accessible."
+  }
+}
