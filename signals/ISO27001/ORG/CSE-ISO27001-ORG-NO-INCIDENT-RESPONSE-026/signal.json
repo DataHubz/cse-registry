@@ -1,0 +1,16 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-INCIDENT-RESPONSE-026",
+  "canonical_name": "No Information Security Incident Response",
+  "description": "Security incidents are not responded to according to documented procedures.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization does not have documented incident response procedures or fails to follow established procedures when responding to information security incidents, including detection, containment, eradication, recovery, and post-incident activities.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": ["incident-response", "business-continuity", "operations"],
+    "related_controls": ["ISO 27001:2022 A.5.26"],
+    "detection_notes": "Review incident response procedures documentation, verify incident handling records and timelines, check for evidence of containment and recovery actions, assess communication procedures during incidents, examine root cause analysis and remediation tracking."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CSE-ISO27001-TECH-NO-DATA-MASKING-011",
+  "canonical_name": "No Data Masking",
+  "description": "Data masking is not used according to access control policy and business requirements.",
+  "domain": "ISO27001",
+  "category": "TECH",
+  "applicability": "Applies to organizations that do not implement data masking, redaction, or obfuscation techniques to protect sensitive information in non-production environments, displays, reports, or for users without need-to-know access.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["technology", "data-protection", "privacy", "access-control"],
+    "related_controls": ["ISO 27001:2022 A.8.11"],
+    "detection_notes": "Review data masking implementations in test/development environments, production databases, application displays, reporting systems, and compliance with privacy requirements for handling PII, PHI, or payment card data."
+  }
+}

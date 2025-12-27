@@ -1,0 +1,23 @@
+{
+  "id": "CSE-ISO27001-TECH-NO-UTILITY-CONTROLS-018",
+  "canonical_name": "Uncontrolled Use of Privileged Utility Programs",
+  "description": "Use of utility programs capable of overriding system and application controls is not restricted and controlled. This signal indicates that privileged utilities such as system debuggers, disk editors, registry editors, diagnostic tools, and low-level system utilities are available without appropriate access restrictions, logging, or monitoring.",
+  "domain": "ISO27001",
+  "category": "TECH",
+  "applicability": "Applicable to any system or environment where privileged utility programs exist, including operating systems, database management systems, virtualization platforms, container environments, cloud infrastructure, and network devices. Includes both built-in system utilities and third-party diagnostic tools.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "privilege-management",
+      "system-integrity",
+      "audit"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.8.18"
+    ],
+    "detection_notes": "Commonly detected through analysis of file system permissions, role-based access control configurations, privileged access management (PAM) policies, system audit logs, and application control policies. May also be identified through review of group memberships, sudo/sudoers configurations, and tool inventory."
+  }
+}

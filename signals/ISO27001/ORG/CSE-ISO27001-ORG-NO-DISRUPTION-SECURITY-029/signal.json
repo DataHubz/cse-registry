@@ -1,0 +1,16 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-DISRUPTION-SECURITY-029",
+  "canonical_name": "No Information Security During Disruption",
+  "description": "Plans for maintaining security at appropriate levels during disruption are not established.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization lacks plans to maintain information security controls and protections during business disruptions, emergencies, or crisis situations, including natural disasters, pandemics, system failures, or other adverse events.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["business-continuity", "resilience", "crisis-management"],
+    "related_controls": ["ISO 27001:2022 A.5.29"],
+    "detection_notes": "Review business continuity plans for security controls, verify security considerations in disaster recovery procedures, check emergency response plans for security requirements, assess alternative operating procedures for security maintenance, examine testing of security during disruption scenarios."
+  }
+}

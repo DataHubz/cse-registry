@@ -1,0 +1,16 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-ICT-CONTINUITY-030",
+  "canonical_name": "No ICT Readiness for Business Continuity",
+  "description": "ICT continuity requirements are not planned, implemented, maintained, and tested.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization has not planned, implemented, maintained, and tested ICT continuity capabilities based on business continuity objectives and ICT continuity requirements, including redundancy, backup systems, and recovery procedures for information and communication technology.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["business-continuity", "ict-resilience", "disaster-recovery"],
+    "related_controls": ["ISO 27001:2022 A.5.30"],
+    "detection_notes": "Review ICT continuity planning documentation, verify backup and redundancy implementations, check disaster recovery testing records, assess recovery time and recovery point objectives, examine ICT dependency analysis, verify business continuity integration."
+  }
+}

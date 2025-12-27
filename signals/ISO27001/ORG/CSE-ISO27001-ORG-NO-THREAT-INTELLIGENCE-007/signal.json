@@ -1,0 +1,16 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-THREAT-INTELLIGENCE-007",
+  "canonical_name": "No Threat Intelligence Program",
+  "description": "Organization does not collect and analyze threat intelligence to inform security decisions and controls.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization lacks a systematic approach to gathering, analyzing, and applying threat intelligence from internal and external sources to inform risk assessments and security control decisions.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["threat_intelligence", "risk_management", "proactive_defense"],
+    "related_controls": ["ISO 27001:2022 A.5.7"],
+    "detection_notes": "Review threat intelligence sources and subscriptions, assess threat analysis processes, verify integration of threat intelligence into risk assessments, check for threat hunting activities, evaluate security control adjustments based on threat landscape changes."
+  }
+}

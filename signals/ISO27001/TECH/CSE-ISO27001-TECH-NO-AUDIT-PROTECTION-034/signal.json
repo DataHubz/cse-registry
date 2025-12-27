@@ -1,0 +1,23 @@
+{
+  "id": "CSE-ISO27001-TECH-NO-AUDIT-PROTECTION-034",
+  "canonical_name": "Unprotected Information Systems During Audit Testing",
+  "description": "Audit tests and activities involving assessment of operational systems are not planned and controlled. This signal indicates that security audits, penetration testing, vulnerability assessments, or compliance testing activities are performed without proper planning, authorization, scope definition, or safeguards to prevent service disruption or data loss.",
+  "domain": "ISO27001",
+  "category": "TECH",
+  "applicability": "Applicable to all audit and assessment activities including internal audits, external audits, penetration testing, vulnerability scanning, compliance assessments, security reviews, and system testing that involves operational production systems or sensitive data.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "audit-management",
+      "operational-stability",
+      "testing",
+      "risk-management"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.8.34"
+    ],
+    "detection_notes": "Commonly detected through review of audit planning procedures, rules of engagement documentation, testing authorization processes, scope definitions, safeguard implementations, and incident records related to audit activities. May also be identified through absence of audit activity controls or planning documentation."
+  }
+}

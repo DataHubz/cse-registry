@@ -1,0 +1,16 @@
+{
+  "id": "CSE-ISO27001-PHYSICAL-NO-MEDIA-CONTROLS-010",
+  "canonical_name": "No Storage Media Controls",
+  "description": "Storage media is not managed through its lifecycle according to classification and handling requirements.",
+  "domain": "ISO27001",
+  "category": "PHYSICAL",
+  "applicability": "Organizations using storage media (physical and removable) that requires lifecycle management from acquisition through disposal",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["physical-security", "data-protection", "media-management", "lifecycle-management"],
+    "related_controls": ["ISO 27001:2022 A.7.10"],
+    "detection_notes": "Review media management procedures including inventory, classification, storage, transportation, and disposal. Absence of documented procedures, untracked media, improper storage, or lack of secure disposal processes indicates this deficiency."
+  }
+}

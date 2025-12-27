@@ -1,0 +1,16 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-AUTHORITY-CONTACTS-005",
+  "canonical_name": "No Contact with Authorities",
+  "description": "Organization has not established and maintained contacts with relevant authorities for security incident reporting.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization has not identified and documented contacts with law enforcement, regulatory bodies, data protection authorities, or other relevant authorities for reporting security incidents or seeking guidance.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["incident_response", "regulatory", "legal", "compliance"],
+    "related_controls": ["ISO 27001:2022 A.5.5"],
+    "detection_notes": "Review incident response plans for authority contact information, verify documentation of relationships with law enforcement and regulatory bodies, assess procedures for when to contact authorities, check records of authority communications."
+  }
+}

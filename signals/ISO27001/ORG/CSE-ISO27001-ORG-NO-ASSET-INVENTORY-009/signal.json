@@ -1,0 +1,16 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-ASSET-INVENTORY-009",
+  "canonical_name": "No Inventory of Information and Associated Assets",
+  "description": "Organization lacks a maintained inventory of information assets and associated assets with identified owners.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization cannot identify all information assets, lacks documentation of asset ownership, or does not maintain an up-to-date inventory of hardware, software, data, and other information-related assets.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["asset_management", "data_governance", "accountability"],
+    "related_controls": ["ISO 27001:2022 A.5.9"],
+    "detection_notes": "Request asset inventory documentation, verify asset ownership assignments, assess inventory update frequency, check for automated asset discovery tools, review asset classification and criticality ratings."
+  }
+}

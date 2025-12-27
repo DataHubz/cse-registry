@@ -1,0 +1,16 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-SUPPLY-CHAIN-SECURITY-021",
+  "canonical_name": "No ICT Supply Chain Security Management",
+  "description": "Processes for managing ICT supply chain security risks are not defined and implemented.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization lacks defined processes and controls to manage information security risks associated with ICT products and services throughout the supply chain lifecycle, including supplier selection, onboarding, and ongoing management.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["supply-chain", "third-party-risk", "vendor-management"],
+    "related_controls": ["ISO 27001:2022 A.5.21"],
+    "detection_notes": "Assess whether supply chain security policies exist, verify supplier security assessment procedures, check for ICT product and service security evaluation processes, review supplier risk management documentation, examine controls for supply chain transparency and integrity."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-INDEPENDENT-REVIEW-035",
+  "canonical_name": "No Independent Review of Information Security",
+  "description": "Organization's approach to managing security is not reviewed independently at planned intervals.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization does not conduct independent reviews of its information security management approach, implementation of policies and procedures, and compliance with security requirements at planned intervals or when significant changes occur.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["governance", "assurance", "compliance"],
+    "related_controls": ["ISO 27001:2022 A.5.35"],
+    "detection_notes": "Review internal audit schedules and reports, verify independence of reviewers, check for third-party security assessments, assess review findings and remediation tracking, examine review scope and frequency, verify management review of findings."
+  }
+}

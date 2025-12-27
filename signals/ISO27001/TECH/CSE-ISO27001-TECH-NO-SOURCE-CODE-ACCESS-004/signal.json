@@ -1,0 +1,16 @@
+{
+  "id": "CSE-ISO27001-TECH-NO-SOURCE-CODE-ACCESS-004",
+  "canonical_name": "No Source Code Access Control",
+  "description": "Read and write access to source code, development tools, and libraries is not appropriately managed.",
+  "domain": "ISO27001",
+  "category": "TECH",
+  "applicability": "Applies to organizations that develop software and do not properly control access to source code repositories, development tools, software libraries, and build environments through appropriate access controls and segregation.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["technology", "access-control", "software-development", "intellectual-property"],
+    "related_controls": ["ISO 27001:2022 A.8.4"],
+    "detection_notes": "Review source code repository access controls, version control system permissions, development tool access, library management, branch protection rules, code review requirements, and segregation between development and production environments."
+  }
+}

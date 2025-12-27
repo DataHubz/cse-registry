@@ -1,0 +1,16 @@
+{
+  "id": "CSE-ISO27001-TECH-NO-BACKUP-013",
+  "canonical_name": "No Information Backup",
+  "description": "Backup copies of information, software, and systems are not maintained and tested regularly.",
+  "domain": "ISO27001",
+  "category": "TECH",
+  "applicability": "Applies to organizations that do not implement regular backups of critical data, systems, and software, or fail to test backup restoration procedures to ensure recoverability in the event of data loss, system failure, or disaster.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": ["technology", "availability", "business-continuity", "disaster-recovery"],
+    "related_controls": ["ISO 27001:2022 A.8.13"],
+    "detection_notes": "Review backup policies and schedules, backup coverage, backup storage locations (onsite/offsite/cloud), encryption of backups, retention periods, restoration testing procedures, recovery time objectives (RTO), and recovery point objectives (RPO)."
+  }
+}

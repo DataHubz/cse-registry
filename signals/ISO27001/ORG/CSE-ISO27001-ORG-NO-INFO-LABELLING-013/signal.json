@@ -1,0 +1,16 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-INFO-LABELLING-013",
+  "canonical_name": "No Information Labelling Procedures",
+  "description": "Procedures for labelling information according to the classification scheme are not implemented.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization has a classification scheme but lacks procedures for labelling information assets, or when information is classified but labels are not consistently applied to documents, files, emails, and other information containers.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["data_governance", "data_handling", "user_awareness"],
+    "related_controls": ["ISO 27001:2022 A.5.13"],
+    "detection_notes": "Review labelling procedures, assess whether documents and emails include classification labels, verify metadata tagging in information systems, check for automated labelling tools, evaluate user compliance with labelling requirements."
+  }
+}
