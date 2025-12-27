@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cse-registry.org/schemas/registry.schema.json",
+  "title": "CSE Registry Schema",
+  "description": "JSON Schema for CSE registry artifacts (cse-registry.json) as defined by the CSE Registry Format Specification v1.0.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["registry", "spec", "signals"],
+  "properties": {
+    "registry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version", "published_at", "status"],
+      "properties": {
+        "version": {
+          "type": "string",
+          "description": "Registry version (semantic versioning).",
+          "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$"
+        },
+        "published_at": {
+          "type": "string",
+          "description": "Publication timestamp (ISO 8601 date or datetime).",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}([Tt ]\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?([Zz]|([+-]\\d{2}:?\\d{2}))?)?$"
+        },
+        "status": {
+          "type": "string",
+          "description": "Registry status.",
+          "enum": ["stable", "deprecated"]
+        },
+        "checksum": {
+          "type": "string",
+          "description": "Optional self-reference checksum for the full registry artifact.",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        }
+      }
+    },
+    "spec": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "version", "url"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Specification name governing this registry artifact.",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "description": "Specification version (e.g., '1.0').",
+          "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$"
+        },
+        "url": {
+          "type": "string",
+          "description": "Canonical URL for the governing specification.",
+          "minLength": 1
+        }
+      }
+    },
+    "signals": {
+      "type": "array",
+      "description": "List of signal index entries in this registry release.",
+      "minItems": 0,
+      "items": {
+        "$ref": "#/$defs/signalIndexEntry"
+      }
+    }
+  },
+  "$defs": {
+    "cseId": {
+      "type": "string",
+      "description": "CSE identifier in the format CSE-<DOMAIN>-<CATEGORY>-<NAME>-<SERIAL>.",
+      "pattern": "^CSE-[A-Z0-9]+-[A-Z0-9]+-[A-Z0-9]+(?:-[A-Z0-9]+)*-\\d{3,}$"
+    },
+    "registryVersion": {
+      "type": "string",
+      "description": "Registry semantic version (MAJOR.MINOR.PATCH).",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$"
+    },
+    "definitionRef": {
+      "type": "string",
+      "description": "Relative path to the canonical signal definition directory.",
+      "pattern": "^/signals/[A-Za-z0-9_-]+/[A-Za-z0-9_-]+/CSE-[A-Z0-9]+-[A-Z0-9]+-[A-Z0-9]+(?:-[A-Z0-9]+)*-\\d{3,}/?$"
+    },
+    "signalIndexEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "domain", "category", "name", "definition_ref", "introduced_in", "status"],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/cseId"
+        },
+        "domain": {
+          "type": "string",
+          "description": "High-level domain or framework (e.g., GEN, CMMC, ISO27001, GDPR).",
+          "pattern": "^[A-Z0-9]+$",
+          "minLength": 2,
+          "maxLength": 32
+        },
+        "category": {
+          "type": "string",
+          "description": "Functional classification category (e.g., ACCESS, SECRETS, LOGGING).",
+          "pattern": "^[A-Z0-9]+$",
+          "minLength": 2,
+          "maxLength": 32
+        },
+        "name": {
+          "type": "string",
+          "description": "Short canonical human-readable name of the signal.",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "definition_ref": {
+          "$ref": "#/$defs/definitionRef"
+        },
+        "introduced_in": {
+          "$ref": "#/$defs/registryVersion"
+        },
+        "status": {
+          "type": "string",
+          "description": "Signal lifecycle status in this registry.",
+          "enum": ["active", "deprecated"]
+        },
+        "deprecated_in": {
+          "$ref": "#/$defs/registryVersion"
+        },
+        "replaced_by": {
+          "$ref": "#/$defs/cseId"
+        },
+        "tags": {
+          "type": "array",
+          "description": "Informative tags for classification and filtering.",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._-]{0,63}$"
+          },
+          "uniqueItems": true,
+          "maxItems": 64
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": { "const": "deprecated" }
+            },
+            "required": ["status"]
+          },
+          "then": {
+            "required": ["deprecated_in"],
+            "properties": {
+              "deprecated_in": {
+                "$ref": "#/$defs/registryVersion"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
