@@ -1,0 +1,25 @@
+{
+  "id": "CSE-CMMC-IDENTITY-WEAK-PASSWORD-002",
+  "canonical_name": "Weak Password Policy",
+  "description": "Password policies do not enforce adequate complexity, length, or rotation requirements. This signal indicates that authentication credentials may be susceptible to guessing, brute force, or credential stuffing attacks due to insufficient password strength requirements.",
+  "domain": "CMMC",
+  "category": "IDENTITY",
+  "applicability": "Applicable to any identity management system, directory service, application, or database where password-based authentication is used. Includes Active Directory, cloud identity providers, application-level authentication, and database user credentials.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "identity",
+      "authentication",
+      "credential-management"
+    ],
+    "related_controls": [
+      "CMMC IA.L2-3.5.7",
+      "CMMC IA.L2-3.5.8",
+      "CMMC IA.L2-3.5.9",
+      "NIST SP 800-171 3.5.7"
+    ],
+    "detection_notes": "Detected through review of password policy configurations in identity providers, group policies, application settings, and database authentication parameters."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-CONFIG-NO-BASELINE-001",
+  "canonical_name": "Security Configuration Baseline Not Defined",
+  "description": "Systems do not have documented security configuration baselines or are not configured according to established hardening standards. This signal indicates that system configurations may be inconsistent, ad-hoc, or not aligned with security best practices.",
+  "domain": "CMMC",
+  "category": "CONFIG",
+  "applicability": "Applicable to all system types including servers, workstations, network devices, cloud resources, containers, and applications. Includes operating system configurations, application settings, and infrastructure-as-code templates.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "hardening",
+      "security-baseline"
+    ],
+    "related_controls": [
+      "CMMC CM.L2-3.4.1",
+      "CMMC CM.L2-3.4.2",
+      "NIST SP 800-171 3.4.1"
+    ],
+    "detection_notes": "Detected through comparison of system configurations against documented baselines, CIS benchmarks, STIG requirements, or vendor hardening guides. May involve automated configuration scanning tools."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-CMMC-AUDIT-NO-RETENTION-002",
+  "canonical_name": "Audit Log Retention Not Configured",
+  "description": "Audit logs are not retained for an adequate period or are subject to automatic deletion without regard to retention requirements. This signal indicates that historical audit data may not be available for incident investigation, compliance verification, or forensic analysis.",
+  "domain": "CMMC",
+  "category": "AUDIT",
+  "applicability": "Applicable to any logging infrastructure including local log storage, centralized logging systems, SIEM platforms, and cloud-native logging services. Includes retention policies for security logs, application logs, and system logs.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "audit",
+      "logging",
+      "data-retention"
+    ],
+    "related_controls": [
+      "CMMC AU.L2-3.3.1",
+      "NIST SP 800-171 3.3.1"
+    ],
+    "detection_notes": "Detected through review of log rotation configurations, retention policies, storage capacity planning, and archive procedures. May involve checking logrotate settings, cloud logging retention, or SIEM data lifecycle policies."
+  }
+}

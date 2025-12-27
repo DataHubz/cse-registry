@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-MEDIA-NO-PROTECTION-002",
+  "canonical_name": "Media Protection Not Implemented",
+  "description": "Physical and digital storage media containing sensitive information is not protected from unauthorized access. This signal indicates that media may be accessed, copied, or removed without appropriate controls.",
+  "domain": "CMMC",
+  "category": "MEDIA",
+  "applicability": "Applicable to all storage media including removable devices, backup media, printed materials, and portable storage. Includes physical access controls, encryption, and media handling procedures.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "media-handling",
+      "physical-security"
+    ],
+    "related_controls": [
+      "CMMC MP.L2-3.8.1",
+      "CMMC MP.L2-3.8.2",
+      "NIST SP 800-171 3.8.1"
+    ],
+    "detection_notes": "Detected through review of media handling procedures, physical access controls for media storage, and encryption requirements for removable media."
+  }
+}

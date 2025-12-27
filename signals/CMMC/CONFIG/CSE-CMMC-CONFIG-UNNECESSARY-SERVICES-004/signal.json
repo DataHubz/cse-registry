@@ -1,0 +1,25 @@
+{
+  "id": "CSE-CMMC-CONFIG-UNNECESSARY-SERVICES-004",
+  "canonical_name": "Unnecessary Services or Functions Enabled",
+  "description": "Systems have services, ports, protocols, or functions enabled that are not required for the system's intended purpose. This signal indicates that the attack surface includes components that could be removed or disabled to reduce risk.",
+  "domain": "CMMC",
+  "category": "CONFIG",
+  "applicability": "Applicable to all system types including servers, workstations, network devices, and cloud resources. Includes unnecessary network services, unused software packages, debugging interfaces, and legacy protocols.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "attack-surface",
+      "least-functionality"
+    ],
+    "related_controls": [
+      "CMMC CM.L2-3.4.6",
+      "CMMC CM.L2-3.4.7",
+      "CMMC CM.L2-3.4.8",
+      "NIST SP 800-171 3.4.6"
+    ],
+    "detection_notes": "Detected through port scanning, service enumeration, package audits, and comparison of running services against documented requirements."
+  }
+}

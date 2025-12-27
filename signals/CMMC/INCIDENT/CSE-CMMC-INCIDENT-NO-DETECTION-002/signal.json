@@ -1,0 +1,23 @@
+{
+  "id": "CSE-CMMC-INCIDENT-NO-DETECTION-002",
+  "canonical_name": "Incident Detection Capability Not Implemented",
+  "description": "Technical mechanisms for detecting security incidents are not deployed or configured. This signal indicates that attacks, breaches, or unauthorized activities may occur without being identified in a timely manner.",
+  "domain": "CMMC",
+  "category": "INCIDENT",
+  "applicability": "Applicable to security monitoring infrastructure including SIEM systems, intrusion detection, endpoint detection, and alerting mechanisms. Includes both automated detection and manual review capabilities.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "incident-response",
+      "detection",
+      "monitoring"
+    ],
+    "related_controls": [
+      "CMMC IR.L2-3.6.1",
+      "NIST SP 800-171 3.6.1"
+    ],
+    "detection_notes": "Detected through review of monitoring infrastructure, alerting configurations, detection rule coverage, and incident detection testing."
+  }
+}
