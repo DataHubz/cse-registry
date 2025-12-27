@@ -1,0 +1,77 @@
+{
+  "registry": {
+    "version": "1.0.0",
+    "published_at": "2025-01-01",
+    "status": "stable"
+  },
+  "spec": {
+    "name": "CSE Specification",
+    "version": "1.0",
+    "url": "https://cse-registry.org/spec/cse-spec-v1.0"
+  },
+  "domains": [
+    {
+      "name": "CMMC",
+      "signal_count": 134,
+      "categories": {
+        "ACCESS": 22,
+        "ASSESSMENT": 4,
+        "AUDIT": 9,
+        "AWARENESS": 3,
+        "COMMS": 16,
+        "CONFIG": 9,
+        "ENHANCED": 24,
+        "IDENTITY": 11,
+        "INCIDENT": 3,
+        "INTEGRITY": 7,
+        "MAINTENANCE": 6,
+        "MEDIA": 9,
+        "PERSONNEL": 2,
+        "PHYSICAL": 6,
+        "RISK": 3
+      },
+      "file": "domains/CMMC.json",
+      "file_min": "domains/CMMC.min.json"
+    },
+    {
+      "name": "GDPR",
+      "signal_count": 80,
+      "categories": {
+        "CHILDREN": 2,
+        "CONSENT": 5,
+        "CONTROLLER": 11,
+        "DESIGN": 3,
+        "DPO": 4,
+        "IMPACT": 4,
+        "PRINCIPLES": 13,
+        "RIGHTS": 18,
+        "SECURITY": 14,
+        "TRANSFER": 6
+      },
+      "file": "domains/GDPR.json",
+      "file_min": "domains/GDPR.min.json"
+    },
+    {
+      "name": "GEN",
+      "signal_count": 1,
+      "categories": {
+        "SECRETS": 1
+      },
+      "file": "domains/GEN.json",
+      "file_min": "domains/GEN.min.json"
+    },
+    {
+      "name": "ISO27001",
+      "signal_count": 93,
+      "categories": {
+        "ORG": 37,
+        "PEOPLE": 8,
+        "PHYSICAL": 14,
+        "TECH": 34
+      },
+      "file": "domains/ISO27001.json",
+      "file_min": "domains/ISO27001.min.json"
+    }
+  ],
+  "total_signals": 308
+}

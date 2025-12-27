@@ -37,17 +37,43 @@ Future registry versions MAY introduce new signals or metadata but MUST preserve
 
 ```
 v1.0.0/
-├── cse-registry.json
-├── cse-registry.min.json
-├── cse-registry.ndjson
+├── index.json                 # Registry metadata + domain listing
+├── domains/                   # Per-domain signal files
+│   ├── CMMC.json
+│   ├── CMMC.min.json
+│   ├── GDPR.json
+│   ├── GDPR.min.json
+│   ├── GEN.json
+│   ├── GEN.min.json
+│   ├── ISO27001.json
+│   └── ISO27001.min.json
+├── cse-registry.json          # Full combined registry (all signals)
+├── cse-registry.min.json      # Minified combined registry
+├── cse-registry.ndjson        # Streaming format (all signals)
 ├── SHA256SUMS
 └── README.md
 ```
 
 ### Artifact Descriptions
 
+#### index.json
+Registry metadata and domain listing. Use this to discover available domains and their signal counts without loading all signals.
+
+#### domains/
+Per-domain signal files for efficient partial loading. Each domain has:
+- `{DOMAIN}.json` - Full domain signals with formatting
+- `{DOMAIN}.min.json` - Minified for smaller payload
+
+**Available domains:**
+| Domain | Signals | Description |
+|--------|---------|-------------|
+| CMMC | 134 | Cybersecurity Maturity Model Certification 2.0 |
+| GDPR | 80 | EU General Data Protection Regulation |
+| ISO27001 | 93 | ISO/IEC 27001:2022 Information Security |
+| GEN | 1 | General/cross-domain signals |
+
 #### cse-registry.json
-Canonical JSON registry containing all signal definitions for this release.
+Canonical JSON registry containing **all** signal definitions for this release. Use for full registry access or backward compatibility.
 
 #### cse-registry.min.json
 Minified equivalent of `cse-registry.json` for efficient distribution.
@@ -80,7 +106,28 @@ Integrity verification is strongly recommended for:
 
 ## Consumption Guidance
 
+### Recommended Access Patterns
+
+**For single-domain use (most efficient):**
+```
+GET /registry/v1.0.0/index.json           # Discover domains
+GET /registry/v1.0.0/domains/GDPR.json    # Fetch only needed domain
+```
+
+**For multi-domain or full access:**
+```
+GET /registry/v1.0.0/cse-registry.json    # Full registry
+```
+
+**For streaming/ETL pipelines:**
+```
+GET /registry/v1.0.0/cse-registry.ndjson  # Line-by-line processing
+```
+
+### General Guidelines
+
 Consumers SHOULD:
+- Use domain-specific files when only one framework is needed
 - Reference registry artifacts using explicit versioned URLs
 - Cache registry data locally
 - Treat identifiers as stable references
