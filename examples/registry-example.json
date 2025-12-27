@@ -1,0 +1,39 @@
+{
+  "$comment": "This is a non-normative example of a CSE registry artifact. See /schemas/registry.schema.json for validation.",
+  "registry": {
+    "version": "1.0.0",
+    "published_at": "2025-01-01",
+    "status": "stable"
+  },
+  "spec": {
+    "name": "CSE Specification",
+    "version": "1.0",
+    "url": "https://cse-registry.org/spec/cse-spec-v1.0"
+  },
+  "signals": [
+    {
+      "id": "CSE-GEN-SECRETS-PLAINTEXT-001",
+      "domain": "GEN",
+      "category": "SECRETS",
+      "name": "Plaintext Secret in Source Code",
+      "definition_ref": "/signals/GEN/SECRETS/CSE-GEN-SECRETS-PLAINTEXT-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-EXAMPLE-DEPRECATED-001",
+      "domain": "GEN",
+      "category": "EXAMPLE",
+      "name": "Example Deprecated Signal",
+      "definition_ref": "/signals/GEN/EXAMPLE/CSE-GEN-EXAMPLE-DEPRECATED-001/",
+      "introduced_in": "1.0.0",
+      "status": "deprecated",
+      "deprecated_in": "1.1.0",
+      "replaced_by": "CSE-GEN-EXAMPLE-REPLACEMENT-001",
+      "tags": [
+        "example",
+        "deprecated"
+      ]
+    }
+  ]
+}

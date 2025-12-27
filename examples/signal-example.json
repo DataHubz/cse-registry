@@ -1,0 +1,27 @@
+{
+  "$comment": "This is a non-normative example of a CSE signal definition. See /schemas/signal.schema.json for validation.",
+  "id": "CSE-GEN-EXAMPLE-SIGNAL-001",
+  "canonical_name": "Example Signal for Documentation",
+  "description": "This is an example signal definition demonstrating the required and optional fields. The description field must contain at least 20 characters and should describe what is observable without prescribing remediation or asserting severity.",
+  "domain": "GEN",
+  "category": "EXAMPLE",
+  "applicability": "This example applies to documentation and testing scenarios. In practice, this field should describe the systems, artifacts, or environments where the signal is relevant.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "example-domain",
+      "documentation"
+    ],
+    "related_controls": [
+      "EXAMPLE-CTRL-001",
+      "EXAMPLE-CTRL-002"
+    ],
+    "detection_notes": "This field provides optional, informative notes about how the signal might commonly be detected. It should not prescribe specific tools or methods.",
+    "references": [
+      "https://example.com/reference-1",
+      "https://example.com/reference-2"
+    ]
+  }
+}
