@@ -1,6 +1,6 @@
 # Compliance Signal Enumeration (CSE)
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Registry Version](https://img.shields.io/badge/Registry-v1.0.0-green.svg)](registry/v1.0.0/) [![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)](#) [![Signals](https://img.shields.io/badge/Signals-832-orange.svg)](registry/v1.0.0/cse-registry.json) [![Domains](https://img.shields.io/badge/Domains-10-purple.svg)](registry/v1.0.0/index.json)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Registry Version](https://img.shields.io/badge/Registry-v1.0.0-green.svg)](registry/v1.0.0/) [![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)](#) [![Signals](https://img.shields.io/badge/Signals-958-orange.svg)](registry/v1.0.0/cse-registry.json) [![Domains](https://img.shields.io/badge/Domains-11-purple.svg)](registry/v1.0.0/index.json)
 
 **A neutral, framework-agnostic registry of compliance-relevant technical signals**
 
@@ -16,8 +16,8 @@ CSE provides a **shared vocabulary** for referencing *what was observed* without
 
 | Metric | Value |
 |--------|-------|
-| **Total Signals** | 832 |
-| **Domains** | 10 |
+| **Total Signals** | 958 |
+| **Domains** | 11 |
 | **Registry Version** | 1.0.0 |
 | **Status** | Stable |
 
@@ -29,6 +29,7 @@ CSE provides a **shared vocabulary** for referencing *what was observed* without
 | **CCPA** | California Consumer Privacy Act (CCPA/CPRA) | 70 | 11 |
 | **FEDRAMP** | Federal Risk and Authorization Management Program | 145 | 20 |
 | **GDPR** | General Data Protection Regulation | 80 | 10 |
+| **HITRUST** | HITRUST Common Security Framework | 126 | 19 |
 | **ISO27001** | ISO/IEC 27001:2022 | 93 | 4 |
 | **SOC2** | SOC 2 Trust Services Criteria | 64 | 5 |
 | **HIPAA** | Health Insurance Portability and Accountability Act | 75 | 6 |
@@ -149,12 +150,13 @@ A thematic subdivision within a domain (e.g., ACCESS, ENCRYPTION, LOGGING, PRIVA
 │       │   ├── CMMC.json
 │       │   ├── FEDRAMP.json
 │       │   ├── GDPR.json
+│       │   ├── GEN.json
 │       │   ├── HIPAA.json
+│       │   ├── HITRUST.json
 │       │   ├── ISO27001.json
 │       │   ├── NISTCSF.json
 │       │   ├── PCIDSS.json
-│       │   ├── SOC2.json
-│       │   └── GEN.json
+│       │   └── SOC2.json
 │       └── SHA256SUMS
 │
 ├── signals/           # Canonical signal definitions (human-readable)
@@ -162,12 +164,13 @@ A thematic subdivision within a domain (e.g., ACCESS, ENCRYPTION, LOGGING, PRIVA
 │   ├── CMMC/
 │   ├── FEDRAMP/
 │   ├── GDPR/
+│   ├── GEN/
 │   ├── HIPAA/
+│   ├── HITRUST/
 │   ├── ISO27001/
 │   ├── NISTCSF/
 │   ├── PCIDSS/
-│   ├── SOC2/
-│   └── GEN/
+│   └── SOC2/
 │
 ├── schemas/           # JSON schemas for validation
 │   ├── registry.schema.json

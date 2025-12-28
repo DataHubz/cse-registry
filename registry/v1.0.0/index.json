@@ -195,7 +195,34 @@
       },
       "file": "domains/CCPA.json",
       "file_min": "domains/CCPA.min.json"
+    },
+    {
+      "name": "HITRUST",
+      "signal_count": 126,
+      "categories": {
+        "ACCESS": 12,
+        "ASSET": 6,
+        "BCM": 6,
+        "CLOUD": 6,
+        "COMPLY": 6,
+        "ENDPOINT": 4,
+        "HR": 5,
+        "INCIDENT": 6,
+        "ISMP": 6,
+        "MOBILE": 4,
+        "NETWORK": 4,
+        "OPS": 12,
+        "ORG": 5,
+        "PHYSICAL": 8,
+        "POLICY": 4,
+        "PRIVACY": 8,
+        "RISK": 8,
+        "SDLC": 10,
+        "VENDOR": 6
+      },
+      "file": "domains/HITRUST.json",
+      "file_min": "domains/HITRUST.min.json"
     }
   ],
-  "total_signals": 832
+  "total_signals": 958
 }

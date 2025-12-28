@@ -4556,6 +4556,1140 @@
       "status": "active"
     },
     {
+      "id": "CSE-HITRUST-ACCESS-NO-ACCESS-LOGGING-012",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "name": "Access Logging Not Implemented",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-ACCESS-LOGGING-012/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ACCESS-NO-ACCOUNT-LOCKOUT-011",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "name": "Account Lockout Not Configured",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-ACCOUNT-LOCKOUT-011/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ACCESS-NO-LEAST-PRIVILEGE-010",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "name": "Least Privilege Not Implemented",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-LEAST-PRIVILEGE-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ACCESS-NO-MFA-006",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "name": "Multi-Factor Authentication Not Implemented",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-MFA-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ACCESS-NO-PASSWORD-POLICY-005",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "name": "Password Policy Not Enforced",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PASSWORD-POLICY-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ACCESS-NO-POLICY-001",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "name": "Access Control Policy Missing",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ACCESS-NO-PRIVILEGE-MANAGEMENT-003",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "name": "Privilege Management Not Implemented",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PRIVILEGE-MANAGEMENT-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ACCESS-NO-REMOTE-ACCESS-CONTROL-008",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "name": "Remote Access Controls Missing",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-REMOTE-ACCESS-CONTROL-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ACCESS-NO-SEGREGATION-009",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "name": "Segregation of Duties Not Enforced",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-SEGREGATION-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ACCESS-NO-SESSION-MANAGEMENT-007",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "name": "Session Management Controls Missing",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-SESSION-MANAGEMENT-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ACCESS-NO-USER-REGISTRATION-002",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "name": "User Registration Process Missing",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-USER-REGISTRATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ACCESS-NO-USER-REVIEW-004",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "name": "User Access Review Not Conducted",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-USER-REVIEW-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ASSET-NO-ACCEPTABLE-USE-003",
+      "domain": "HITRUST",
+      "category": "ASSET",
+      "name": "Acceptable Use Policy Missing",
+      "definition_ref": "/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-ACCEPTABLE-USE-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ASSET-NO-CLASSIFICATION-004",
+      "domain": "HITRUST",
+      "category": "ASSET",
+      "name": "Information Classification Missing",
+      "definition_ref": "/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-CLASSIFICATION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ASSET-NO-HANDLING-006",
+      "domain": "HITRUST",
+      "category": "ASSET",
+      "name": "Asset Handling Procedures Missing",
+      "definition_ref": "/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-HANDLING-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ASSET-NO-INVENTORY-001",
+      "domain": "HITRUST",
+      "category": "ASSET",
+      "name": "Asset Inventory Not Maintained",
+      "definition_ref": "/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-INVENTORY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ASSET-NO-LABELING-005",
+      "domain": "HITRUST",
+      "category": "ASSET",
+      "name": "Information Labeling Missing",
+      "definition_ref": "/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-LABELING-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ASSET-NO-OWNERSHIP-002",
+      "domain": "HITRUST",
+      "category": "ASSET",
+      "name": "Asset Ownership Not Assigned",
+      "definition_ref": "/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-OWNERSHIP-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-BCM-NO-BIA-002",
+      "domain": "HITRUST",
+      "category": "BCM",
+      "name": "Business Impact Analysis Missing",
+      "definition_ref": "/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-BIA-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-BCM-NO-MAINTENANCE-005",
+      "domain": "HITRUST",
+      "category": "BCM",
+      "name": "BCM Maintenance Missing",
+      "definition_ref": "/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-MAINTENANCE-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-BCM-NO-PLANS-003",
+      "domain": "HITRUST",
+      "category": "BCM",
+      "name": "Continuity Plans Missing",
+      "definition_ref": "/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-PLANS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-BCM-NO-PROGRAM-001",
+      "domain": "HITRUST",
+      "category": "BCM",
+      "name": "BCM Program Missing",
+      "definition_ref": "/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-PROGRAM-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-BCM-NO-REDUNDANCY-006",
+      "domain": "HITRUST",
+      "category": "BCM",
+      "name": "Information Redundancy Missing",
+      "definition_ref": "/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-REDUNDANCY-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-BCM-NO-TESTING-004",
+      "domain": "HITRUST",
+      "category": "BCM",
+      "name": "BCM Testing Missing",
+      "definition_ref": "/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-TESTING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-CLOUD-NO-CONFIGURATION-005",
+      "domain": "HITRUST",
+      "category": "CLOUD",
+      "name": "Cloud Configuration Management Missing",
+      "definition_ref": "/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-CONFIGURATION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-CLOUD-NO-DATA-LOCATION-003",
+      "domain": "HITRUST",
+      "category": "CLOUD",
+      "name": "Data Location Not Controlled",
+      "definition_ref": "/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-DATA-LOCATION-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-CLOUD-NO-ENCRYPTION-004",
+      "domain": "HITRUST",
+      "category": "CLOUD",
+      "name": "Cloud Encryption Missing",
+      "definition_ref": "/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-ENCRYPTION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-CLOUD-NO-GOVERNANCE-001",
+      "domain": "HITRUST",
+      "category": "CLOUD",
+      "name": "Cloud Governance Missing",
+      "definition_ref": "/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-GOVERNANCE-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-CLOUD-NO-MONITORING-006",
+      "domain": "HITRUST",
+      "category": "CLOUD",
+      "name": "Cloud Monitoring Missing",
+      "definition_ref": "/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-MONITORING-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-CLOUD-NO-SHARED-RESPONSIBILITY-002",
+      "domain": "HITRUST",
+      "category": "CLOUD",
+      "name": "Shared Responsibility Not Defined",
+      "definition_ref": "/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-SHARED-RESPONSIBILITY-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-COMPLY-NO-AUDIT-006",
+      "domain": "HITRUST",
+      "category": "COMPLY",
+      "name": "Compliance Audit Not Conducted",
+      "definition_ref": "/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-AUDIT-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-COMPLY-NO-IPR-002",
+      "domain": "HITRUST",
+      "category": "COMPLY",
+      "name": "Intellectual Property Rights Not Protected",
+      "definition_ref": "/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-IPR-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-COMPLY-NO-LEGAL-IDENTIFICATION-001",
+      "domain": "HITRUST",
+      "category": "COMPLY",
+      "name": "Legal Requirements Not Identified",
+      "definition_ref": "/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-LEGAL-IDENTIFICATION-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-COMPLY-NO-PRIVACY-COMPLIANCE-004",
+      "domain": "HITRUST",
+      "category": "COMPLY",
+      "name": "Privacy Compliance Not Verified",
+      "definition_ref": "/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-PRIVACY-COMPLIANCE-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-COMPLY-NO-RECORDS-PROTECTION-003",
+      "domain": "HITRUST",
+      "category": "COMPLY",
+      "name": "Records Not Protected",
+      "definition_ref": "/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-RECORDS-PROTECTION-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-COMPLY-NO-TECHNICAL-COMPLIANCE-005",
+      "domain": "HITRUST",
+      "category": "COMPLY",
+      "name": "Technical Compliance Not Checked",
+      "definition_ref": "/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-TECHNICAL-COMPLIANCE-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ENDPOINT-NO-DETECTION-002",
+      "domain": "HITRUST",
+      "category": "ENDPOINT",
+      "name": "Endpoint Detection Missing",
+      "definition_ref": "/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-DETECTION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ENDPOINT-NO-DLP-004",
+      "domain": "HITRUST",
+      "category": "ENDPOINT",
+      "name": "Data Loss Prevention Missing",
+      "definition_ref": "/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-DLP-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ENDPOINT-NO-HARDENING-003",
+      "domain": "HITRUST",
+      "category": "ENDPOINT",
+      "name": "Endpoint Hardening Missing",
+      "definition_ref": "/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-HARDENING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ENDPOINT-NO-PROTECTION-001",
+      "domain": "HITRUST",
+      "category": "ENDPOINT",
+      "name": "Endpoint Protection Missing",
+      "definition_ref": "/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-PROTECTION-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-HR-NO-AWARENESS-003",
+      "domain": "HITRUST",
+      "category": "HR",
+      "name": "Security Awareness Training Missing",
+      "definition_ref": "/signals/HITRUST/HR/CSE-HITRUST-HR-NO-AWARENESS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-HR-NO-DISCIPLINARY-004",
+      "domain": "HITRUST",
+      "category": "HR",
+      "name": "Disciplinary Process Not Defined",
+      "definition_ref": "/signals/HITRUST/HR/CSE-HITRUST-HR-NO-DISCIPLINARY-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-HR-NO-SCREENING-001",
+      "domain": "HITRUST",
+      "category": "HR",
+      "name": "Background Screening Not Conducted",
+      "definition_ref": "/signals/HITRUST/HR/CSE-HITRUST-HR-NO-SCREENING-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-HR-NO-TERMINATION-005",
+      "domain": "HITRUST",
+      "category": "HR",
+      "name": "Termination Process Not Implemented",
+      "definition_ref": "/signals/HITRUST/HR/CSE-HITRUST-HR-NO-TERMINATION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-HR-NO-TERMS-002",
+      "domain": "HITRUST",
+      "category": "HR",
+      "name": "Employment Terms Not Defined",
+      "definition_ref": "/signals/HITRUST/HR/CSE-HITRUST-HR-NO-TERMS-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-INCIDENT-NO-BREACH-NOTIFICATION-006",
+      "domain": "HITRUST",
+      "category": "INCIDENT",
+      "name": "Breach Notification Missing",
+      "definition_ref": "/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-BREACH-NOTIFICATION-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-INCIDENT-NO-EVIDENCE-005",
+      "domain": "HITRUST",
+      "category": "INCIDENT",
+      "name": "Evidence Collection Missing",
+      "definition_ref": "/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-EVIDENCE-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-INCIDENT-NO-LEARNING-004",
+      "domain": "HITRUST",
+      "category": "INCIDENT",
+      "name": "Incident Learning Missing",
+      "definition_ref": "/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-LEARNING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-INCIDENT-NO-PROCEDURES-001",
+      "domain": "HITRUST",
+      "category": "INCIDENT",
+      "name": "Incident Procedures Missing",
+      "definition_ref": "/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-PROCEDURES-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-INCIDENT-NO-REPORTING-002",
+      "domain": "HITRUST",
+      "category": "INCIDENT",
+      "name": "Incident Reporting Missing",
+      "definition_ref": "/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-REPORTING-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-INCIDENT-NO-RESPONSE-003",
+      "domain": "HITRUST",
+      "category": "INCIDENT",
+      "name": "Incident Response Missing",
+      "definition_ref": "/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-RESPONSE-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ISMP-NO-AUTHORIZATION-PROCESS-005",
+      "domain": "HITRUST",
+      "category": "ISMP",
+      "name": "System Authorization Process Missing",
+      "definition_ref": "/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-AUTHORIZATION-PROCESS-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ISMP-NO-COORDINATION-003",
+      "domain": "HITRUST",
+      "category": "ISMP",
+      "name": "Security Coordination Not Implemented",
+      "definition_ref": "/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-COORDINATION-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ISMP-NO-MANAGEMENT-COMMITMENT-002",
+      "domain": "HITRUST",
+      "category": "ISMP",
+      "name": "Management Commitment Not Demonstrated",
+      "definition_ref": "/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-MANAGEMENT-COMMITMENT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ISMP-NO-PROGRAM-001",
+      "domain": "HITRUST",
+      "category": "ISMP",
+      "name": "Information Security Program Not Established",
+      "definition_ref": "/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-PROGRAM-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ISMP-NO-RESPONSIBILITIES-004",
+      "domain": "HITRUST",
+      "category": "ISMP",
+      "name": "Security Responsibilities Not Assigned",
+      "definition_ref": "/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-RESPONSIBILITIES-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ISMP-NO-REVIEW-006",
+      "domain": "HITRUST",
+      "category": "ISMP",
+      "name": "Program Review Not Conducted",
+      "definition_ref": "/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-REVIEW-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-MOBILE-NO-APP-SECURITY-004",
+      "domain": "HITRUST",
+      "category": "MOBILE",
+      "name": "Mobile App Security Missing",
+      "definition_ref": "/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-APP-SECURITY-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-MOBILE-NO-BYOD-003",
+      "domain": "HITRUST",
+      "category": "MOBILE",
+      "name": "BYOD Controls Missing",
+      "definition_ref": "/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-BYOD-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-MOBILE-NO-MDM-002",
+      "domain": "HITRUST",
+      "category": "MOBILE",
+      "name": "Mobile Device Management Missing",
+      "definition_ref": "/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-MDM-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-MOBILE-NO-POLICY-001",
+      "domain": "HITRUST",
+      "category": "MOBILE",
+      "name": "Mobile Device Policy Missing",
+      "definition_ref": "/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-NETWORK-NO-ENCRYPTION-003",
+      "domain": "HITRUST",
+      "category": "NETWORK",
+      "name": "Network Encryption Missing",
+      "definition_ref": "/signals/HITRUST/NETWORK/CSE-HITRUST-NETWORK-NO-ENCRYPTION-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-NETWORK-NO-MONITORING-004",
+      "domain": "HITRUST",
+      "category": "NETWORK",
+      "name": "Network Monitoring Missing",
+      "definition_ref": "/signals/HITRUST/NETWORK/CSE-HITRUST-NETWORK-NO-MONITORING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-NETWORK-NO-PERIMETER-002",
+      "domain": "HITRUST",
+      "category": "NETWORK",
+      "name": "Network Perimeter Controls Missing",
+      "definition_ref": "/signals/HITRUST/NETWORK/CSE-HITRUST-NETWORK-NO-PERIMETER-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-NETWORK-NO-SEGMENTATION-001",
+      "domain": "HITRUST",
+      "category": "NETWORK",
+      "name": "Network Segmentation Missing",
+      "definition_ref": "/signals/HITRUST/NETWORK/CSE-HITRUST-NETWORK-NO-SEGMENTATION-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-OPS-NO-BACKUP-006",
+      "domain": "HITRUST",
+      "category": "OPS",
+      "name": "Backup Procedures Missing",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-BACKUP-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-OPS-NO-CAPACITY-003",
+      "domain": "HITRUST",
+      "category": "OPS",
+      "name": "Capacity Management Missing",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-CAPACITY-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-OPS-NO-CHANGE-MANAGEMENT-002",
+      "domain": "HITRUST",
+      "category": "OPS",
+      "name": "Change Management Missing",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-CHANGE-MANAGEMENT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-OPS-NO-CLOCK-SYNC-009",
+      "domain": "HITRUST",
+      "category": "OPS",
+      "name": "Clock Synchronization Missing",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-CLOCK-SYNC-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-OPS-NO-ENVIRONMENT-SEPARATION-004",
+      "domain": "HITRUST",
+      "category": "OPS",
+      "name": "Environment Separation Missing",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-ENVIRONMENT-SEPARATION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-OPS-NO-INFORMATION-EXCHANGE-012",
+      "domain": "HITRUST",
+      "category": "OPS",
+      "name": "Information Exchange Procedures Missing",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-INFORMATION-EXCHANGE-012/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-OPS-NO-LOG-PROTECTION-008",
+      "domain": "HITRUST",
+      "category": "OPS",
+      "name": "Log Protection Missing",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-LOG-PROTECTION-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-OPS-NO-LOGGING-007",
+      "domain": "HITRUST",
+      "category": "OPS",
+      "name": "Operational Logging Missing",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-LOGGING-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-OPS-NO-MALWARE-PROTECTION-005",
+      "domain": "HITRUST",
+      "category": "OPS",
+      "name": "Malware Protection Missing",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-MALWARE-PROTECTION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-OPS-NO-MEDIA-MANAGEMENT-011",
+      "domain": "HITRUST",
+      "category": "OPS",
+      "name": "Media Management Missing",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-MEDIA-MANAGEMENT-011/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-OPS-NO-PATCH-MANAGEMENT-010",
+      "domain": "HITRUST",
+      "category": "OPS",
+      "name": "Patch Management Missing",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-PATCH-MANAGEMENT-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-OPS-NO-PROCEDURES-001",
+      "domain": "HITRUST",
+      "category": "OPS",
+      "name": "Operating Procedures Not Documented",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-PROCEDURES-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ORG-NO-AUTHORITY-003",
+      "domain": "HITRUST",
+      "category": "ORG",
+      "name": "Security Authority Not Established",
+      "definition_ref": "/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-AUTHORITY-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ORG-NO-EXTERNAL-CONTACT-005",
+      "domain": "HITRUST",
+      "category": "ORG",
+      "name": "External Contact Process Missing",
+      "definition_ref": "/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-EXTERNAL-CONTACT-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ORG-NO-ROLES-001",
+      "domain": "HITRUST",
+      "category": "ORG",
+      "name": "Security Roles Not Defined",
+      "definition_ref": "/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-ROLES-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ORG-NO-SEGREGATION-002",
+      "domain": "HITRUST",
+      "category": "ORG",
+      "name": "Organizational Segregation Missing",
+      "definition_ref": "/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-SEGREGATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ORG-NO-SPECIALIST-004",
+      "domain": "HITRUST",
+      "category": "ORG",
+      "name": "Security Specialist Contact Missing",
+      "definition_ref": "/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-SPECIALIST-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PHYSICAL-NO-CABLING-006",
+      "domain": "HITRUST",
+      "category": "PHYSICAL",
+      "name": "Cabling Security Missing",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-CABLING-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PHYSICAL-NO-DISPOSAL-008",
+      "domain": "HITRUST",
+      "category": "PHYSICAL",
+      "name": "Secure Disposal Missing",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-DISPOSAL-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PHYSICAL-NO-ENTRY-CONTROLS-002",
+      "domain": "HITRUST",
+      "category": "PHYSICAL",
+      "name": "Physical Entry Controls Missing",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-ENTRY-CONTROLS-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PHYSICAL-NO-EQUIPMENT-PROTECTION-004",
+      "domain": "HITRUST",
+      "category": "PHYSICAL",
+      "name": "Equipment Protection Missing",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-EQUIPMENT-PROTECTION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PHYSICAL-NO-MAINTENANCE-007",
+      "domain": "HITRUST",
+      "category": "PHYSICAL",
+      "name": "Equipment Maintenance Missing",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-MAINTENANCE-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PHYSICAL-NO-PERIMETER-001",
+      "domain": "HITRUST",
+      "category": "PHYSICAL",
+      "name": "Physical Security Perimeter Missing",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-PERIMETER-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PHYSICAL-NO-SECURE-AREAS-003",
+      "domain": "HITRUST",
+      "category": "PHYSICAL",
+      "name": "Secure Area Procedures Missing",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-SECURE-AREAS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PHYSICAL-NO-SUPPORTING-UTILITIES-005",
+      "domain": "HITRUST",
+      "category": "PHYSICAL",
+      "name": "Supporting Utilities Not Protected",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-SUPPORTING-UTILITIES-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-POLICY-NO-APPROVAL-002",
+      "domain": "HITRUST",
+      "category": "POLICY",
+      "name": "Policy Approval Not Obtained",
+      "definition_ref": "/signals/HITRUST/POLICY/CSE-HITRUST-POLICY-NO-APPROVAL-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-POLICY-NO-COMMUNICATION-003",
+      "domain": "HITRUST",
+      "category": "POLICY",
+      "name": "Policy Not Communicated",
+      "definition_ref": "/signals/HITRUST/POLICY/CSE-HITRUST-POLICY-NO-COMMUNICATION-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-POLICY-NO-DOCUMENT-001",
+      "domain": "HITRUST",
+      "category": "POLICY",
+      "name": "Security Policy Not Documented",
+      "definition_ref": "/signals/HITRUST/POLICY/CSE-HITRUST-POLICY-NO-DOCUMENT-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-POLICY-NO-REVIEW-004",
+      "domain": "HITRUST",
+      "category": "POLICY",
+      "name": "Policy Review Not Conducted",
+      "definition_ref": "/signals/HITRUST/POLICY/CSE-HITRUST-POLICY-NO-REVIEW-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PRIVACY-NO-ACCESS-RIGHTS-004",
+      "domain": "HITRUST",
+      "category": "PRIVACY",
+      "name": "Individual Access Rights Missing",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-ACCESS-RIGHTS-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PRIVACY-NO-AMENDMENT-006",
+      "domain": "HITRUST",
+      "category": "PRIVACY",
+      "name": "Amendment Process Missing",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-AMENDMENT-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PRIVACY-NO-COMPLAINTS-007",
+      "domain": "HITRUST",
+      "category": "PRIVACY",
+      "name": "Complaints Process Missing",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-COMPLAINTS-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PRIVACY-NO-CONSENT-002",
+      "domain": "HITRUST",
+      "category": "PRIVACY",
+      "name": "Consent Management Missing",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-CONSENT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PRIVACY-NO-DISCLOSURE-TRACKING-005",
+      "domain": "HITRUST",
+      "category": "PRIVACY",
+      "name": "Disclosure Tracking Missing",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-DISCLOSURE-TRACKING-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PRIVACY-NO-NOTICE-001",
+      "domain": "HITRUST",
+      "category": "PRIVACY",
+      "name": "Privacy Notice Missing",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-NOTICE-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PRIVACY-NO-TRAINING-008",
+      "domain": "HITRUST",
+      "category": "PRIVACY",
+      "name": "Privacy Training Missing",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-TRAINING-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-PRIVACY-NO-USE-LIMITATION-003",
+      "domain": "HITRUST",
+      "category": "PRIVACY",
+      "name": "Use Limitation Missing",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-USE-LIMITATION-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-RISK-NO-ACCEPTANCE-004",
+      "domain": "HITRUST",
+      "category": "RISK",
+      "name": "Risk Acceptance Not Documented",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-ACCEPTANCE-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-RISK-NO-ASSESSMENT-001",
+      "domain": "HITRUST",
+      "category": "RISK",
+      "name": "Risk Assessment Not Conducted",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-ASSESSMENT-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-RISK-NO-METHODOLOGY-002",
+      "domain": "HITRUST",
+      "category": "RISK",
+      "name": "Risk Assessment Methodology Missing",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-METHODOLOGY-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-RISK-NO-MONITORING-005",
+      "domain": "HITRUST",
+      "category": "RISK",
+      "name": "Risk Monitoring Not Implemented",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-MONITORING-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-RISK-NO-PERIODIC-REVIEW-008",
+      "domain": "HITRUST",
+      "category": "RISK",
+      "name": "Periodic Risk Review Not Conducted",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-PERIODIC-REVIEW-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-RISK-NO-THREAT-INTELLIGENCE-006",
+      "domain": "HITRUST",
+      "category": "RISK",
+      "name": "Threat Intelligence Not Utilized",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-THREAT-INTELLIGENCE-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-RISK-NO-TREATMENT-003",
+      "domain": "HITRUST",
+      "category": "RISK",
+      "name": "Risk Treatment Plan Missing",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-TREATMENT-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-RISK-NO-VULNERABILITY-MANAGEMENT-007",
+      "domain": "HITRUST",
+      "category": "RISK",
+      "name": "Vulnerability Management Missing",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-VULNERABILITY-MANAGEMENT-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-SDLC-NO-CODE-REVIEW-008",
+      "domain": "HITRUST",
+      "category": "SDLC",
+      "name": "Code Review Not Conducted",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-CODE-REVIEW-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-SDLC-NO-CRYPTOGRAPHY-005",
+      "domain": "HITRUST",
+      "category": "SDLC",
+      "name": "Cryptographic Controls Missing",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-CRYPTOGRAPHY-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-SDLC-NO-INPUT-VALIDATION-002",
+      "domain": "HITRUST",
+      "category": "SDLC",
+      "name": "Input Validation Missing",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-INPUT-VALIDATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-SDLC-NO-INTEGRITY-CONTROLS-003",
+      "domain": "HITRUST",
+      "category": "SDLC",
+      "name": "Processing Integrity Controls Missing",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-INTEGRITY-CONTROLS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-SDLC-NO-KEY-MANAGEMENT-006",
+      "domain": "HITRUST",
+      "category": "SDLC",
+      "name": "Key Management Missing",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-KEY-MANAGEMENT-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-SDLC-NO-OUTPUT-VALIDATION-004",
+      "domain": "HITRUST",
+      "category": "SDLC",
+      "name": "Output Validation Missing",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-OUTPUT-VALIDATION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-SDLC-NO-REQUIREMENTS-001",
+      "domain": "HITRUST",
+      "category": "SDLC",
+      "name": "Security Requirements Not Specified",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-REQUIREMENTS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-SDLC-NO-SECURE-DEVELOPMENT-007",
+      "domain": "HITRUST",
+      "category": "SDLC",
+      "name": "Secure Development Practices Missing",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-SECURE-DEVELOPMENT-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-SDLC-NO-TEST-DATA-010",
+      "domain": "HITRUST",
+      "category": "SDLC",
+      "name": "Test Data Protection Missing",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-TEST-DATA-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-SDLC-NO-TESTING-009",
+      "domain": "HITRUST",
+      "category": "SDLC",
+      "name": "Security Testing Missing",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-TESTING-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-VENDOR-NO-CONTRACT-REQUIREMENTS-002",
+      "domain": "HITRUST",
+      "category": "VENDOR",
+      "name": "Security Contract Requirements Missing",
+      "definition_ref": "/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-CONTRACT-REQUIREMENTS-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-VENDOR-NO-DUE-DILIGENCE-003",
+      "domain": "HITRUST",
+      "category": "VENDOR",
+      "name": "Vendor Due Diligence Missing",
+      "definition_ref": "/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-DUE-DILIGENCE-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-VENDOR-NO-INHERITANCE-006",
+      "domain": "HITRUST",
+      "category": "VENDOR",
+      "name": "Control Inheritance Not Documented",
+      "definition_ref": "/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-INHERITANCE-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-VENDOR-NO-MONITORING-004",
+      "domain": "HITRUST",
+      "category": "VENDOR",
+      "name": "Vendor Monitoring Missing",
+      "definition_ref": "/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-MONITORING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-VENDOR-NO-RISK-ASSESSMENT-001",
+      "domain": "HITRUST",
+      "category": "VENDOR",
+      "name": "Vendor Risk Assessment Missing",
+      "definition_ref": "/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-RISK-ASSESSMENT-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-VENDOR-NO-TERMINATION-005",
+      "domain": "HITRUST",
+      "category": "VENDOR",
+      "name": "Vendor Termination Process Missing",
+      "definition_ref": "/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-TERMINATION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
       "id": "CSE-ISO27001-ORG-NO-ACCEPTABLE-USE-POLICY-010",
       "domain": "ISO27001",
       "category": "ORG",
