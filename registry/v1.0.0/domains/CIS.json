@@ -1,0 +1,1086 @@
+{
+  "domain": "CIS",
+  "signal_count": 120,
+  "signals": [
+    {
+      "id": "CSE-CIS-ACCESS-NO-MFA-ADMIN-005",
+      "domain": "CIS",
+      "category": "ACCESS",
+      "name": "MFA for Admin Access Missing",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-MFA-ADMIN-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ACCESS-NO-MFA-ALL-007",
+      "domain": "CIS",
+      "category": "ACCESS",
+      "name": "MFA for All Applications Missing",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-MFA-ALL-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ACCESS-NO-MFA-EXTERNAL-003",
+      "domain": "CIS",
+      "category": "ACCESS",
+      "name": "MFA for External Access Missing",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-MFA-EXTERNAL-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ACCESS-NO-MFA-REMOTE-004",
+      "domain": "CIS",
+      "category": "ACCESS",
+      "name": "MFA for Remote Network Access Missing",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-MFA-REMOTE-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ACCESS-NO-PROCESS-001",
+      "domain": "CIS",
+      "category": "ACCESS",
+      "name": "Access Granting Process Missing",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-PROCESS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ACCESS-NO-REVOCATION-002",
+      "domain": "CIS",
+      "category": "ACCESS",
+      "name": "Access Revocation Process Missing",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-REVOCATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ACCESS-NO-ROLE-BASED-006",
+      "domain": "CIS",
+      "category": "ACCESS",
+      "name": "Role-Based Access Control Missing",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-ROLE-BASED-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ACCOUNT-NO-ACCESS-RESTRICTION-004",
+      "domain": "CIS",
+      "category": "ACCOUNT",
+      "name": "Admin Account Access Not Restricted",
+      "definition_ref": "/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-ACCESS-RESTRICTION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ACCOUNT-NO-CENTRALIZED-MGMT-006",
+      "domain": "CIS",
+      "category": "ACCOUNT",
+      "name": "Centralized Account Management Missing",
+      "definition_ref": "/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-CENTRALIZED-MGMT-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ACCOUNT-NO-DEFAULT-PASSWORDS-002",
+      "domain": "CIS",
+      "category": "ACCOUNT",
+      "name": "Default Passwords Not Changed",
+      "definition_ref": "/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-DEFAULT-PASSWORDS-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ACCOUNT-NO-INACTIVE-DISABLE-003",
+      "domain": "CIS",
+      "category": "ACCOUNT",
+      "name": "Inactive Accounts Not Disabled",
+      "definition_ref": "/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-INACTIVE-DISABLE-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ACCOUNT-NO-INVENTORY-001",
+      "domain": "CIS",
+      "category": "ACCOUNT",
+      "name": "Account Inventory Missing",
+      "definition_ref": "/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-INVENTORY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ACCOUNT-NO-UNIQUE-ADMIN-005",
+      "domain": "CIS",
+      "category": "ACCOUNT",
+      "name": "Unique Admin Accounts Missing",
+      "definition_ref": "/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-UNIQUE-ADMIN-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-APPSEC-NO-CODE-REVIEW-009",
+      "domain": "CIS",
+      "category": "APPSEC",
+      "name": "Security Code Review Missing",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-CODE-REVIEW-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-APPSEC-NO-DAST-006",
+      "domain": "CIS",
+      "category": "APPSEC",
+      "name": "Dynamic Application Security Testing Missing",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-DAST-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-APPSEC-NO-ROOT-CAUSE-003",
+      "domain": "CIS",
+      "category": "APPSEC",
+      "name": "Vulnerability Root Cause Analysis Missing",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-ROOT-CAUSE-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-APPSEC-NO-SAST-005",
+      "domain": "CIS",
+      "category": "APPSEC",
+      "name": "Static Application Security Testing Missing",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-SAST-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-APPSEC-NO-SDLC-001",
+      "domain": "CIS",
+      "category": "APPSEC",
+      "name": "Secure SDLC Missing",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-SDLC-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-APPSEC-NO-SEPARATION-008",
+      "domain": "CIS",
+      "category": "APPSEC",
+      "name": "Production Separation Missing",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-SEPARATION-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-APPSEC-NO-STANDARDS-002",
+      "domain": "CIS",
+      "category": "APPSEC",
+      "name": "Secure Coding Standards Missing",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-STANDARDS-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-APPSEC-NO-THIRD-PARTY-COMPONENTS-004",
+      "domain": "CIS",
+      "category": "APPSEC",
+      "name": "Third-Party Component Inventory Missing",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-THIRD-PARTY-COMPONENTS-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-APPSEC-NO-THREAT-MODELING-007",
+      "domain": "CIS",
+      "category": "APPSEC",
+      "name": "Threat Modeling Missing",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-THREAT-MODELING-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-APPSEC-NO-WAF-010",
+      "domain": "CIS",
+      "category": "APPSEC",
+      "name": "Web Application Firewall Missing",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-WAF-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ASSET-NO-ACCURATE-INVENTORY-004",
+      "domain": "CIS",
+      "category": "ASSET",
+      "name": "Asset Inventory Not Accurate",
+      "definition_ref": "/signals/CIS/ASSET/CSE-CIS-ASSET-NO-ACCURATE-INVENTORY-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ASSET-NO-DHCP-LOGGING-003",
+      "domain": "CIS",
+      "category": "ASSET",
+      "name": "DHCP Logging Not Implemented",
+      "definition_ref": "/signals/CIS/ASSET/CSE-CIS-ASSET-NO-DHCP-LOGGING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ASSET-NO-INVENTORY-001",
+      "domain": "CIS",
+      "category": "ASSET",
+      "name": "Enterprise Asset Inventory Missing",
+      "definition_ref": "/signals/CIS/ASSET/CSE-CIS-ASSET-NO-INVENTORY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ASSET-NO-NETWORK-DISCOVERY-005",
+      "domain": "CIS",
+      "category": "ASSET",
+      "name": "Network-Based Asset Discovery Missing",
+      "definition_ref": "/signals/CIS/ASSET/CSE-CIS-ASSET-NO-NETWORK-DISCOVERY-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-ASSET-NO-UNAUTHORIZED-DETECTION-002",
+      "domain": "CIS",
+      "category": "ASSET",
+      "name": "Unauthorized Asset Detection Missing",
+      "definition_ref": "/signals/CIS/ASSET/CSE-CIS-ASSET-NO-UNAUTHORIZED-DETECTION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-AUDIT-NO-ADEQUATE-STORAGE-002",
+      "domain": "CIS",
+      "category": "AUDIT",
+      "name": "Audit Log Storage Inadequate",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-ADEQUATE-STORAGE-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-AUDIT-NO-CENTRALIZED-007",
+      "domain": "CIS",
+      "category": "AUDIT",
+      "name": "Centralized Log Management Missing",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-CENTRALIZED-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-AUDIT-NO-DETAILED-LOGGING-004",
+      "domain": "CIS",
+      "category": "AUDIT",
+      "name": "Detailed Command Logging Missing",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-DETAILED-LOGGING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-AUDIT-NO-DNS-LOGGING-005",
+      "domain": "CIS",
+      "category": "AUDIT",
+      "name": "DNS Query Logging Missing",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-DNS-LOGGING-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-AUDIT-NO-PROCESS-001",
+      "domain": "CIS",
+      "category": "AUDIT",
+      "name": "Audit Log Management Process Missing",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-PROCESS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-AUDIT-NO-REVIEW-008",
+      "domain": "CIS",
+      "category": "AUDIT",
+      "name": "Audit Log Review Missing",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-REVIEW-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-AUDIT-NO-TIMESTAMPS-003",
+      "domain": "CIS",
+      "category": "AUDIT",
+      "name": "Audit Log Timestamps Missing",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-TIMESTAMPS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-AUDIT-NO-URL-LOGGING-006",
+      "domain": "CIS",
+      "category": "AUDIT",
+      "name": "URL Request Logging Missing",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-URL-LOGGING-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-CONFIG-NO-CERTIFICATES-008",
+      "domain": "CIS",
+      "category": "CONFIG",
+      "name": "Certificate Management Missing",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-CERTIFICATES-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-CONFIG-NO-DEFAULT-DENY-004",
+      "domain": "CIS",
+      "category": "CONFIG",
+      "name": "Default Deny Firewall Rule Missing",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-DEFAULT-DENY-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-CONFIG-NO-FIREWALL-CONFIG-003",
+      "domain": "CIS",
+      "category": "CONFIG",
+      "name": "Host-Based Firewall Configuration Missing",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-FIREWALL-CONFIG-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-CONFIG-NO-LOCKOUT-005",
+      "domain": "CIS",
+      "category": "CONFIG",
+      "name": "Automatic Lockout Not Configured",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-LOCKOUT-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-CONFIG-NO-NETWORK-SECURITY-002",
+      "domain": "CIS",
+      "category": "CONFIG",
+      "name": "Network Infrastructure Security Configuration Missing",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-NETWORK-SECURITY-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-CONFIG-NO-REMOTE-WIPE-006",
+      "domain": "CIS",
+      "category": "CONFIG",
+      "name": "Remote Wipe Capability Missing",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-REMOTE-WIPE-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-CONFIG-NO-SECURE-PROCESS-001",
+      "domain": "CIS",
+      "category": "CONFIG",
+      "name": "Secure Configuration Process Missing",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-SECURE-PROCESS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-CONFIG-NO-UNUSED-PORTS-007",
+      "domain": "CIS",
+      "category": "CONFIG",
+      "name": "Unused Ports Not Disabled",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-UNUSED-PORTS-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-DATA-NO-CLASSIFICATION-007",
+      "domain": "CIS",
+      "category": "DATA",
+      "name": "Data Classification Missing",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-CLASSIFICATION-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-DATA-NO-DISPOSAL-005",
+      "domain": "CIS",
+      "category": "DATA",
+      "name": "Secure Data Disposal Missing",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-DISPOSAL-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-DATA-NO-DLP-008",
+      "domain": "CIS",
+      "category": "DATA",
+      "name": "Data Loss Prevention Missing",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-DLP-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-DATA-NO-ENCRYPTION-AT-REST-006",
+      "domain": "CIS",
+      "category": "DATA",
+      "name": "Encryption at Rest Missing",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-ENCRYPTION-AT-REST-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-DATA-NO-ENCRYPTION-REMOVABLE-009",
+      "domain": "CIS",
+      "category": "DATA",
+      "name": "Removable Media Encryption Missing",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-ENCRYPTION-REMOVABLE-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-DATA-NO-ENCRYPTION-TRANSIT-010",
+      "domain": "CIS",
+      "category": "DATA",
+      "name": "Encryption in Transit Missing",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-ENCRYPTION-TRANSIT-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-DATA-NO-INVENTORY-002",
+      "domain": "CIS",
+      "category": "DATA",
+      "name": "Sensitive Data Inventory Missing",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-INVENTORY-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-DATA-NO-MANAGEMENT-PROCESS-001",
+      "domain": "CIS",
+      "category": "DATA",
+      "name": "Data Management Process Missing",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-MANAGEMENT-PROCESS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-DATA-NO-REMOVAL-003",
+      "domain": "CIS",
+      "category": "DATA",
+      "name": "Unnecessary Data Not Removed",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-REMOVAL-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-DATA-NO-RETENTION-POLICY-004",
+      "domain": "CIS",
+      "category": "DATA",
+      "name": "Data Retention Policy Missing",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-RETENTION-POLICY-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-EMAIL-NO-DMARC-005",
+      "domain": "CIS",
+      "category": "EMAIL",
+      "name": "DMARC Not Implemented",
+      "definition_ref": "/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-DMARC-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-EMAIL-NO-DNS-FILTERING-002",
+      "domain": "CIS",
+      "category": "EMAIL",
+      "name": "DNS Filtering Missing",
+      "definition_ref": "/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-DNS-FILTERING-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-EMAIL-NO-FILE-TYPE-BLOCKING-004",
+      "domain": "CIS",
+      "category": "EMAIL",
+      "name": "Email File Type Blocking Missing",
+      "definition_ref": "/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-FILE-TYPE-BLOCKING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-EMAIL-NO-SANDBOX-006",
+      "domain": "CIS",
+      "category": "EMAIL",
+      "name": "Email Attachment Sandboxing Missing",
+      "definition_ref": "/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-SANDBOX-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-EMAIL-NO-SUPPORTED-BROWSERS-001",
+      "domain": "CIS",
+      "category": "EMAIL",
+      "name": "Unsupported Browsers in Use",
+      "definition_ref": "/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-SUPPORTED-BROWSERS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-EMAIL-NO-URL-FILTERING-003",
+      "domain": "CIS",
+      "category": "EMAIL",
+      "name": "URL Filtering Missing",
+      "definition_ref": "/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-URL-FILTERING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-INCIDENT-NO-CONTACTS-002",
+      "domain": "CIS",
+      "category": "INCIDENT",
+      "name": "Incident Reporting Contacts Missing",
+      "definition_ref": "/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-CONTACTS-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-INCIDENT-NO-EXERCISES-004",
+      "domain": "CIS",
+      "category": "INCIDENT",
+      "name": "Incident Response Exercises Missing",
+      "definition_ref": "/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-EXERCISES-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-INCIDENT-NO-LESSONS-LEARNED-005",
+      "domain": "CIS",
+      "category": "INCIDENT",
+      "name": "Post-Incident Review Missing",
+      "definition_ref": "/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-LESSONS-LEARNED-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-INCIDENT-NO-PLAN-001",
+      "domain": "CIS",
+      "category": "INCIDENT",
+      "name": "Incident Response Plan Missing",
+      "definition_ref": "/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-PLAN-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-INCIDENT-NO-ROLES-003",
+      "domain": "CIS",
+      "category": "INCIDENT",
+      "name": "Incident Response Roles Missing",
+      "definition_ref": "/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-ROLES-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-INCIDENT-NO-THRESHOLDS-006",
+      "domain": "CIS",
+      "category": "INCIDENT",
+      "name": "Incident Escalation Thresholds Missing",
+      "definition_ref": "/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-THRESHOLDS-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MALWARE-NO-AUTO-SCAN-004",
+      "domain": "CIS",
+      "category": "MALWARE",
+      "name": "Automatic Scanning Missing",
+      "definition_ref": "/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-AUTO-SCAN-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MALWARE-NO-AUTO-UPDATE-002",
+      "domain": "CIS",
+      "category": "MALWARE",
+      "name": "Auto-Update for Anti-Malware Missing",
+      "definition_ref": "/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-AUTO-UPDATE-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MALWARE-NO-BEHAVIORAL-005",
+      "domain": "CIS",
+      "category": "MALWARE",
+      "name": "Behavioral Analysis Missing",
+      "definition_ref": "/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-BEHAVIORAL-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MALWARE-NO-CENTRALIZED-MGMT-006",
+      "domain": "CIS",
+      "category": "MALWARE",
+      "name": "Centralized Anti-Malware Management Missing",
+      "definition_ref": "/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-CENTRALIZED-MGMT-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MALWARE-NO-PROTECTION-001",
+      "domain": "CIS",
+      "category": "MALWARE",
+      "name": "Anti-Malware Software Missing",
+      "definition_ref": "/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-PROTECTION-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MALWARE-NO-USB-SCANNING-003",
+      "domain": "CIS",
+      "category": "MALWARE",
+      "name": "Removable Media Scanning Missing",
+      "definition_ref": "/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-USB-SCANNING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MONITOR-NO-ACCESS-CONTROL-005",
+      "domain": "CIS",
+      "category": "MONITOR",
+      "name": "Network Access Control Missing",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-ACCESS-CONTROL-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MONITOR-NO-DEVICE-MGMT-006",
+      "domain": "CIS",
+      "category": "MONITOR",
+      "name": "Remote Device Management Missing",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-DEVICE-MGMT-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MONITOR-NO-FILTERING-EGRESS-004",
+      "domain": "CIS",
+      "category": "MONITOR",
+      "name": "Egress Traffic Filtering Missing",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-FILTERING-EGRESS-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MONITOR-NO-IDS-001",
+      "domain": "CIS",
+      "category": "MONITOR",
+      "name": "Intrusion Detection Missing",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-IDS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MONITOR-NO-IPS-002",
+      "domain": "CIS",
+      "category": "MONITOR",
+      "name": "Intrusion Prevention Missing",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-IPS-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MONITOR-NO-NETFLOW-003",
+      "domain": "CIS",
+      "category": "MONITOR",
+      "name": "Network Traffic Collection Missing",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-NETFLOW-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MONITOR-NO-SIEM-007",
+      "domain": "CIS",
+      "category": "MONITOR",
+      "name": "SIEM/Log Correlation Missing",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-SIEM-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-MONITOR-NO-THREAT-INTEL-008",
+      "domain": "CIS",
+      "category": "MONITOR",
+      "name": "Threat Intelligence Integration Missing",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-THREAT-INTEL-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-NETWORK-NO-ARCHITECTURE-DIAGRAMS-004",
+      "domain": "CIS",
+      "category": "NETWORK",
+      "name": "Network Architecture Diagrams Missing",
+      "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-ARCHITECTURE-DIAGRAMS-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-NETWORK-NO-INFRASTRUCTURE-INVENTORY-001",
+      "domain": "CIS",
+      "category": "NETWORK",
+      "name": "Network Infrastructure Inventory Missing",
+      "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-INFRASTRUCTURE-INVENTORY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-NETWORK-NO-MGMT-ISOLATION-003",
+      "domain": "CIS",
+      "category": "NETWORK",
+      "name": "Network Management Isolation Missing",
+      "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-MGMT-ISOLATION-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-NETWORK-NO-SECURE-AAA-006",
+      "domain": "CIS",
+      "category": "NETWORK",
+      "name": "Secure AAA Infrastructure Missing",
+      "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-SECURE-AAA-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-NETWORK-NO-SECURE-CONFIG-002",
+      "domain": "CIS",
+      "category": "NETWORK",
+      "name": "Secure Network Configuration Missing",
+      "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-SECURE-CONFIG-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-NETWORK-NO-SEGMENTATION-005",
+      "domain": "CIS",
+      "category": "NETWORK",
+      "name": "Network Segmentation Missing",
+      "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-SEGMENTATION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-PENTEST-NO-EXTERNAL-002",
+      "domain": "CIS",
+      "category": "PENTEST",
+      "name": "External Penetration Testing Missing",
+      "definition_ref": "/signals/CIS/PENTEST/CSE-CIS-PENTEST-NO-EXTERNAL-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-PENTEST-NO-INTERNAL-003",
+      "domain": "CIS",
+      "category": "PENTEST",
+      "name": "Internal Penetration Testing Missing",
+      "definition_ref": "/signals/CIS/PENTEST/CSE-CIS-PENTEST-NO-INTERNAL-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-PENTEST-NO-PROGRAM-001",
+      "domain": "CIS",
+      "category": "PENTEST",
+      "name": "Penetration Testing Program Missing",
+      "definition_ref": "/signals/CIS/PENTEST/CSE-CIS-PENTEST-NO-PROGRAM-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-PENTEST-NO-REMEDIATION-VALIDATION-004",
+      "domain": "CIS",
+      "category": "PENTEST",
+      "name": "Remediation Validation Testing Missing",
+      "definition_ref": "/signals/CIS/PENTEST/CSE-CIS-PENTEST-NO-REMEDIATION-VALIDATION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-RECOVERY-NO-AUTOMATED-BACKUP-002",
+      "domain": "CIS",
+      "category": "RECOVERY",
+      "name": "Automated Backups Missing",
+      "definition_ref": "/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-AUTOMATED-BACKUP-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-RECOVERY-NO-ISOLATED-BACKUP-004",
+      "domain": "CIS",
+      "category": "RECOVERY",
+      "name": "Isolated Backup Copies Missing",
+      "definition_ref": "/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-ISOLATED-BACKUP-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-RECOVERY-NO-PROCESS-001",
+      "domain": "CIS",
+      "category": "RECOVERY",
+      "name": "Data Recovery Process Missing",
+      "definition_ref": "/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-PROCESS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-RECOVERY-NO-PROTECTED-BACKUP-003",
+      "domain": "CIS",
+      "category": "RECOVERY",
+      "name": "Backup Data Protection Missing",
+      "definition_ref": "/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-PROTECTED-BACKUP-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-RECOVERY-NO-TESTING-005",
+      "domain": "CIS",
+      "category": "RECOVERY",
+      "name": "Backup Recovery Testing Missing",
+      "definition_ref": "/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-TESTING-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-SOFTWARE-NO-ALLOWLISTING-005",
+      "domain": "CIS",
+      "category": "SOFTWARE",
+      "name": "Software Allowlisting Not Implemented",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-ALLOWLISTING-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-SOFTWARE-NO-ALLOWLISTING-LIBRARIES-006",
+      "domain": "CIS",
+      "category": "SOFTWARE",
+      "name": "Library Allowlisting Not Implemented",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-ALLOWLISTING-LIBRARIES-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-SOFTWARE-NO-ALLOWLISTING-SCRIPTS-007",
+      "domain": "CIS",
+      "category": "SOFTWARE",
+      "name": "Script Allowlisting Not Implemented",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-ALLOWLISTING-SCRIPTS-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-SOFTWARE-NO-AUTHORIZED-LIST-002",
+      "domain": "CIS",
+      "category": "SOFTWARE",
+      "name": "Authorized Software List Missing",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-AUTHORIZED-LIST-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-SOFTWARE-NO-INVENTORY-001",
+      "domain": "CIS",
+      "category": "SOFTWARE",
+      "name": "Software Inventory Missing",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-INVENTORY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-SOFTWARE-NO-LIBRARY-INVENTORY-004",
+      "domain": "CIS",
+      "category": "SOFTWARE",
+      "name": "Software Library Inventory Missing",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-LIBRARY-INVENTORY-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-SOFTWARE-NO-UNAUTHORIZED-DETECTION-003",
+      "domain": "CIS",
+      "category": "SOFTWARE",
+      "name": "Unauthorized Software Detection Missing",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-UNAUTHORIZED-DETECTION-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-TRAINING-NO-PHISHING-EXERCISES-004",
+      "domain": "CIS",
+      "category": "TRAINING",
+      "name": "Phishing Exercises Missing",
+      "definition_ref": "/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-PHISHING-EXERCISES-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-TRAINING-NO-PROGRAM-001",
+      "domain": "CIS",
+      "category": "TRAINING",
+      "name": "Security Awareness Program Missing",
+      "definition_ref": "/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-PROGRAM-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-TRAINING-NO-ROLE-SPECIFIC-002",
+      "domain": "CIS",
+      "category": "TRAINING",
+      "name": "Role-Specific Training Missing",
+      "definition_ref": "/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-ROLE-SPECIFIC-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-TRAINING-NO-SECURE-CODING-006",
+      "domain": "CIS",
+      "category": "TRAINING",
+      "name": "Secure Coding Training Missing",
+      "definition_ref": "/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-SECURE-CODING-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-TRAINING-NO-SKILLS-ASSESSMENT-005",
+      "domain": "CIS",
+      "category": "TRAINING",
+      "name": "Security Skills Assessment Missing",
+      "definition_ref": "/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-SKILLS-ASSESSMENT-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-TRAINING-NO-SOCIAL-ENGINEERING-003",
+      "domain": "CIS",
+      "category": "TRAINING",
+      "name": "Social Engineering Awareness Missing",
+      "definition_ref": "/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-SOCIAL-ENGINEERING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-VENDOR-NO-ASSESSMENT-004",
+      "domain": "CIS",
+      "category": "VENDOR",
+      "name": "Service Provider Assessment Missing",
+      "definition_ref": "/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-ASSESSMENT-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-VENDOR-NO-CLASSIFICATION-002",
+      "domain": "CIS",
+      "category": "VENDOR",
+      "name": "Service Provider Classification Missing",
+      "definition_ref": "/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-CLASSIFICATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-VENDOR-NO-INVENTORY-001",
+      "domain": "CIS",
+      "category": "VENDOR",
+      "name": "Service Provider Inventory Missing",
+      "definition_ref": "/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-INVENTORY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-VENDOR-NO-MONITORING-005",
+      "domain": "CIS",
+      "category": "VENDOR",
+      "name": "Service Provider Monitoring Missing",
+      "definition_ref": "/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-MONITORING-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-VENDOR-NO-REQUIREMENTS-003",
+      "domain": "CIS",
+      "category": "VENDOR",
+      "name": "Security Requirements Missing in Contracts",
+      "definition_ref": "/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-REQUIREMENTS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-VULN-NO-AUTO-APP-PATCHING-004",
+      "domain": "CIS",
+      "category": "VULN",
+      "name": "Automated Application Patching Missing",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-AUTO-APP-PATCHING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-VULN-NO-AUTO-PATCHING-003",
+      "domain": "CIS",
+      "category": "VULN",
+      "name": "Automated OS Patching Missing",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-AUTO-PATCHING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-VULN-NO-EXTERNAL-SCANNING-006",
+      "domain": "CIS",
+      "category": "VULN",
+      "name": "External Vulnerability Scanning Missing",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-EXTERNAL-SCANNING-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-VULN-NO-INTERNAL-SCANNING-005",
+      "domain": "CIS",
+      "category": "VULN",
+      "name": "Internal Vulnerability Scanning Missing",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-INTERNAL-SCANNING-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-VULN-NO-PROCESS-001",
+      "domain": "CIS",
+      "category": "VULN",
+      "name": "Vulnerability Management Process Missing",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-PROCESS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-VULN-NO-REMEDIATION-002",
+      "domain": "CIS",
+      "category": "VULN",
+      "name": "Vulnerability Remediation Process Missing",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-REMEDIATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-CIS-VULN-NO-RISK-REMEDIATION-007",
+      "domain": "CIS",
+      "category": "VULN",
+      "name": "Risk-Based Remediation Missing",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-RISK-REMEDIATION-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    }
+  ]
+}

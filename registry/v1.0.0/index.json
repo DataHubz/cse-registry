@@ -222,7 +222,33 @@
       },
       "file": "domains/HITRUST.json",
       "file_min": "domains/HITRUST.min.json"
+    },
+    {
+      "name": "CIS",
+      "signal_count": 120,
+      "categories": {
+        "ACCESS": 7,
+        "ACCOUNT": 6,
+        "APPSEC": 10,
+        "ASSET": 5,
+        "AUDIT": 8,
+        "CONFIG": 8,
+        "DATA": 10,
+        "EMAIL": 6,
+        "INCIDENT": 6,
+        "MALWARE": 6,
+        "MONITOR": 8,
+        "NETWORK": 6,
+        "PENTEST": 4,
+        "RECOVERY": 5,
+        "SOFTWARE": 7,
+        "TRAINING": 6,
+        "VENDOR": 5,
+        "VULN": 7
+      },
+      "file": "domains/CIS.json",
+      "file_min": "domains/CIS.min.json"
     }
   ],
-  "total_signals": 958
+  "total_signals": 1078
 }

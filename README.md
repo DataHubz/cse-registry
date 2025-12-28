@@ -1,6 +1,6 @@
 # Compliance Signal Enumeration (CSE)
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Registry Version](https://img.shields.io/badge/Registry-v1.0.0-green.svg)](registry/v1.0.0/) [![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)](#) [![Signals](https://img.shields.io/badge/Signals-958-orange.svg)](registry/v1.0.0/cse-registry.json) [![Domains](https://img.shields.io/badge/Domains-11-purple.svg)](registry/v1.0.0/index.json)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Registry Version](https://img.shields.io/badge/Registry-v1.0.0-green.svg)](registry/v1.0.0/) [![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)](#) [![Signals](https://img.shields.io/badge/Signals-1078-orange.svg)](registry/v1.0.0/cse-registry.json) [![Domains](https://img.shields.io/badge/Domains-12-purple.svg)](registry/v1.0.0/index.json)
 
 **A neutral, framework-agnostic registry of compliance-relevant technical signals**
 
@@ -16,8 +16,8 @@ CSE provides a **shared vocabulary** for referencing *what was observed* without
 
 | Metric | Value |
 |--------|-------|
-| **Total Signals** | 958 |
-| **Domains** | 11 |
+| **Total Signals** | 1078 |
+| **Domains** | 12 |
 | **Registry Version** | 1.0.0 |
 | **Status** | Stable |
 
@@ -35,6 +35,7 @@ CSE provides a **shared vocabulary** for referencing *what was observed* without
 | **HIPAA** | Health Insurance Portability and Accountability Act | 75 | 6 |
 | **PCIDSS** | Payment Card Industry Data Security Standard v4.0 | 64 | 12 |
 | **NISTCSF** | NIST Cybersecurity Framework 2.0 | 106 | 22 |
+| **CIS** | CIS Controls v8.1 | 120 | 18 |
 | **GEN** | General Security Signals | 1 | 1 |
 
 ## Why CSE Exists
@@ -151,6 +152,7 @@ A thematic subdivision within a domain (e.g., ACCESS, ENCRYPTION, LOGGING, PRIVA
 │       │   ├── FEDRAMP.json
 │       │   ├── GDPR.json
 │       │   ├── GEN.json
+│       │   ├── CIS.json
 │       │   ├── HIPAA.json
 │       │   ├── HITRUST.json
 │       │   ├── ISO27001.json
@@ -161,6 +163,7 @@ A thematic subdivision within a domain (e.g., ACCESS, ENCRYPTION, LOGGING, PRIVA
 │
 ├── signals/           # Canonical signal definitions (human-readable)
 │   ├── CCPA/
+│   ├── CIS/
 │   ├── CMMC/
 │   ├── FEDRAMP/
 │   ├── GDPR/
