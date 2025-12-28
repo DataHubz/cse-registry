@@ -1,0 +1,140 @@
+{
+  "id": "FEDRAMP",
+  "name": "Federal Risk and Authorization Management Program",
+  "version": "Rev 5",
+  "authority": "U.S. General Services Administration (GSA)",
+  "effective_date": "2023-05-30",
+  "supersedes": "FedRAMP Rev 4",
+  "source_url": "https://www.fedramp.gov/",
+  "description": "FedRAMP provides a standardized approach to security authorizations for cloud service offerings. Based on NIST SP 800-53 Rev 5, it defines security requirements across Low, Moderate, and High impact levels.",
+  "control_count": 421,
+  "levels": ["Low", "Moderate", "High"],
+  "domains": [
+    {
+      "id": "AC",
+      "name": "Access Control",
+      "description": "Policies and procedures for access control",
+      "control_count": 25
+    },
+    {
+      "id": "AT",
+      "name": "Awareness and Training",
+      "description": "Security awareness and training program",
+      "control_count": 6
+    },
+    {
+      "id": "AU",
+      "name": "Audit and Accountability",
+      "description": "Audit record creation, protection, and analysis",
+      "control_count": 16
+    },
+    {
+      "id": "CA",
+      "name": "Assessment, Authorization, and Monitoring",
+      "description": "Security assessment and continuous monitoring",
+      "control_count": 9
+    },
+    {
+      "id": "CM",
+      "name": "Configuration Management",
+      "description": "Baseline configurations and change control",
+      "control_count": 14
+    },
+    {
+      "id": "CP",
+      "name": "Contingency Planning",
+      "description": "Contingency plans and system recovery",
+      "control_count": 13
+    },
+    {
+      "id": "IA",
+      "name": "Identification and Authentication",
+      "description": "User and device identification and authentication",
+      "control_count": 12
+    },
+    {
+      "id": "IR",
+      "name": "Incident Response",
+      "description": "Incident handling and reporting",
+      "control_count": 10
+    },
+    {
+      "id": "MA",
+      "name": "Maintenance",
+      "description": "System maintenance and tools",
+      "control_count": 7
+    },
+    {
+      "id": "MP",
+      "name": "Media Protection",
+      "description": "Media access, marking, storage, and sanitization",
+      "control_count": 8
+    },
+    {
+      "id": "PE",
+      "name": "Physical and Environmental Protection",
+      "description": "Physical access and environmental controls",
+      "control_count": 23
+    },
+    {
+      "id": "PL",
+      "name": "Planning",
+      "description": "Security planning and rules of behavior",
+      "control_count": 11
+    },
+    {
+      "id": "PM",
+      "name": "Program Management",
+      "description": "Information security program management",
+      "control_count": 32
+    },
+    {
+      "id": "PS",
+      "name": "Personnel Security",
+      "description": "Position risk and personnel security",
+      "control_count": 9
+    },
+    {
+      "id": "PT",
+      "name": "PII Processing and Transparency",
+      "description": "Privacy requirements for PII processing",
+      "control_count": 8
+    },
+    {
+      "id": "RA",
+      "name": "Risk Assessment",
+      "description": "Risk assessment and vulnerability scanning",
+      "control_count": 10
+    },
+    {
+      "id": "SA",
+      "name": "System and Services Acquisition",
+      "description": "Acquisition process and supply chain",
+      "control_count": 23
+    },
+    {
+      "id": "SC",
+      "name": "System and Communications Protection",
+      "description": "Boundary protection and cryptographic mechanisms",
+      "control_count": 51
+    },
+    {
+      "id": "SI",
+      "name": "System and Information Integrity",
+      "description": "Flaw remediation and system monitoring",
+      "control_count": 23
+    },
+    {
+      "id": "SR",
+      "name": "Supply Chain Risk Management",
+      "description": "Supply chain risk management",
+      "control_count": 12
+    }
+  ],
+  "metadata": {
+    "created": "2025-12-28T00:00:00Z",
+    "updated": "2025-12-28T00:00:00Z",
+    "source_version": "FedRAMP Rev 5 Baselines (May 2023)",
+    "notes": "Based on NIST SP 800-53 Rev 5; applicable to cloud service providers serving federal agencies"
+  }
+}

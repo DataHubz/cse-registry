@@ -1,0 +1,591 @@
+{
+  "schema_version": "1.0.0",
+  "type": "cross-framework-mapping",
+  "description": "Control mappings from Cybersecurity Maturity Model Certification to ISO/IEC 27001:2022 via CSE signal bridge",
+  "source_framework": {
+    "id": "CMMC-2.0",
+    "name": "Cybersecurity Maturity Model Certification",
+    "version": "2.0"
+  },
+  "target_framework": {
+    "id": "ISO27001-2022",
+    "name": "ISO/IEC 27001:2022",
+    "version": "2022"
+  },
+  "generated": "2025-12-28T00:00:00Z",
+  "statistics": {
+    "total_mappings": 19
+  },
+  "mappings": [
+    {
+      "id": "XFW-CMMC20-AC-L2-3-1-1-TO-ISO270012022-A-5-15",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.1",
+        "title": "Authorized Access Control"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.15",
+        "title": "Access Control"
+      },
+      "bridge_signal": "CSE-CMMC-ACCESS-NO-AUTHORIZED-ACCESS-CONTROL-020",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both controls require authorized access control mechanisms",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-AC-L2-3-1-2-TO-ISO270012022-A-5-18",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.2",
+        "title": "Transaction & Function Control"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.18",
+        "title": "Access Rights"
+      },
+      "bridge_signal": "CSE-CMMC-ACCESS-NO-LEAST-PRIVILEGE-002",
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both address least privilege and function restrictions",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-AC-L2-3-1-5-TO-ISO270012022-A-5-18",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.5",
+        "title": "Least Privilege"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.18",
+        "title": "Access Rights"
+      },
+      "bridge_signal": "CSE-CMMC-ACCESS-NO-LEAST-PRIVILEGE-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Direct mapping for least privilege requirement",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-AU-L2-3-3-1-TO-ISO270012022-A-8-15",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AU.L2-3.3.1",
+        "title": "System Auditing"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.15",
+        "title": "Logging"
+      },
+      "bridge_signal": "CSE-CMMC-AUDIT-NO-LOGGING-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require audit logging capabilities",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-AU-L2-3-3-2-TO-ISO270012022-A-8-15",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AU.L2-3.3.2",
+        "title": "Audit Record Content"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.15",
+        "title": "Logging"
+      },
+      "bridge_signal": "CSE-CMMC-AUDIT-NO-LOGGING-001",
+      "relationship": "subset",
+      "confidence": 0.85,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "CMMC specifies content; ISO is broader",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-CM-L2-3-4-1-TO-ISO270012022-A-8-9",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CM.L2-3.4.1",
+        "title": "System Baseline Configurations"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.9",
+        "title": "Configuration Management"
+      },
+      "bridge_signal": "CSE-CMMC-CONFIG-NO-BASELINE-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require configuration baselines",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-CM-L2-3-4-2-TO-ISO270012022-A-8-9",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CM.L2-3.4.2",
+        "title": "Security Configuration Enforcement"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.9",
+        "title": "Configuration Management"
+      },
+      "bridge_signal": "CSE-CMMC-CONFIG-NO-BASELINE-001",
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both address security configuration enforcement",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-IA-L2-3-5-1-TO-ISO270012022-A-8-2",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.1",
+        "title": "Identification"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.2",
+        "title": "Identity Information"
+      },
+      "bridge_signal": "CSE-CMMC-IDENTITY-NO-UNIQUE-ID-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require unique user identification",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-IA-L2-3-5-3-TO-ISO270012022-A-8-5",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.3",
+        "title": "Multifactor Authentication"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.5",
+        "title": "Secure Authentication"
+      },
+      "bridge_signal": "CSE-CMMC-IDENTITY-NO-MFA-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require strong authentication",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-IR-L2-3-6-1-TO-ISO270012022-A-5-26",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IR.L2-3.6.1",
+        "title": "Incident Handling"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.26",
+        "title": "Response to Information Security Incidents"
+      },
+      "bridge_signal": "CSE-CMMC-INCIDENT-NO-PLAN-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require incident response capability",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-IR-L2-3-6-2-TO-ISO270012022-A-5-26",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IR.L2-3.6.2",
+        "title": "Incident Reporting"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.26",
+        "title": "Response to Information Security Incidents"
+      },
+      "bridge_signal": "CSE-CMMC-INCIDENT-NO-REPORTING-002",
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both address incident reporting",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-RA-L2-3-11-1-TO-ISO270012022-A-5-7",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "RA.L2-3.11.1",
+        "title": "Risk Assessments"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.7",
+        "title": "Threat Intelligence"
+      },
+      "bridge_signal": "CSE-CMMC-RISK-NO-ASSESSMENT-001",
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require risk assessment processes",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-RA-L2-3-11-2-TO-ISO270012022-A-8-8",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "RA.L2-3.11.2",
+        "title": "Vulnerability Remediation"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.8",
+        "title": "Management of Technical Vulnerabilities"
+      },
+      "bridge_signal": "CSE-CMMC-RISK-NO-VULN-SCAN-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both address vulnerability management",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SC-L2-3-13-1-TO-ISO270012022-A-8-20",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.1",
+        "title": "Boundary Protection"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.20",
+        "title": "Networks Security"
+      },
+      "bridge_signal": "CSE-CMMC-COMMS-NO-BOUNDARY-PROTECTION-003",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require network boundary protection",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SC-L2-3-13-8-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.8",
+        "title": "Transmission Confidentiality"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.24",
+        "title": "Use of Cryptography"
+      },
+      "bridge_signal": "CSE-CMMC-COMMS-NO-ENCRYPTION-TRANSIT-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require encryption in transit",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SC-L2-3-13-16-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.16",
+        "title": "Data at Rest Encryption"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.24",
+        "title": "Use of Cryptography"
+      },
+      "bridge_signal": "CSE-CMMC-COMMS-NO-ENCRYPTION-REST-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require encryption at rest",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SI-L2-3-14-1-TO-ISO270012022-A-8-8",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SI.L2-3.14.1",
+        "title": "Flaw Remediation"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.8",
+        "title": "Management of Technical Vulnerabilities"
+      },
+      "bridge_signal": "CSE-CMMC-INTEGRITY-NO-PATCHING-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require timely patching",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SI-L2-3-14-2-TO-ISO270012022-A-8-7",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SI.L2-3.14.2",
+        "title": "Malicious Code Protection"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.7",
+        "title": "Protection Against Malware"
+      },
+      "bridge_signal": "CSE-CMMC-INTEGRITY-NO-MALWARE-PROTECTION-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require malware protection",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SI-L2-3-14-4-TO-ISO270012022-A-8-7",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SI.L2-3.14.4",
+        "title": "Update Malicious Code Protection"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.7",
+        "title": "Protection Against Malware"
+      },
+      "bridge_signal": "CSE-CMMC-INTEGRITY-NO-MALWARE-PROTECTION-001",
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both address malware protection updates",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "version": "1.0.0",
+  "cse_registry_version": "1.0.0",
+  "created": "2025-12-27T00:00:00Z",
+  "updated": "2025-12-28T00:00:00Z",
+  "description": "CSE Mappings Dataset v1.0.0 - Complete release with signal-to-control mappings, GEN cross-framework mappings, equivalence mappings, and cross-framework mappings",
+  "statistics": {
+    "total_mappings": 1308,
+    "signal_to_control_mappings": 1166,
+    "equivalence_mappings": 80,
+    "cross_framework_mappings": 62,
+    "frameworks": 11,
+    "controls": 1031,
+    "signals_mapped": 1077,
+    "coverage": {
+      "CCPA": {
+        "signals": 70,
+        "signals_mapped": 70,
+        "controls_mapped": 70,
+        "coverage_pct": 100.0
+      },
+      "CIS": {
+        "signals": 120,
+        "signals_mapped": 120,
+        "controls_mapped": 120,
+        "coverage_pct": 100.0
+      },
+      "CMMC": {
+        "signals": 134,
+        "signals_mapped": 134,
+        "controls_mapped": 134,
+        "coverage_pct": 100.0
+      },
+      "FEDRAMP": {
+        "signals": 145,
+        "signals_mapped": 145,
+        "controls_mapped": 145,
+        "coverage_pct": 100.0
+      },
+      "GDPR": {
+        "signals": 80,
+        "signals_mapped": 80,
+        "controls_mapped": 80,
+        "coverage_pct": 100.0
+      },
+      "GEN": {
+        "signals": 55,
+        "signals_mapped": 55,
+        "controls_mapped": 95,
+        "coverage_pct": 100.0,
+        "note": "GEN signals mapped to controls across all frameworks and to domain-specific signals via equivalence mappings"
+      },
+      "HIPAA": {
+        "signals": 75,
+        "signals_mapped": 75,
+        "controls_mapped": 75,
+        "coverage_pct": 100.0
+      },
+      "HITRUST": {
+        "signals": 126,
+        "signals_mapped": 126,
+        "controls_mapped": 126,
+        "coverage_pct": 100.0
+      },
+      "ISO27001": {
+        "signals": 93,
+        "signals_mapped": 93,
+        "controls_mapped": 93,
+        "coverage_pct": 100.0
+      },
+      "NISTCSF": {
+        "signals": 106,
+        "signals_mapped": 106,
+        "controls_mapped": 106,
+        "coverage_pct": 100.0
+      },
+      "PCIDSS": {
+        "signals": 64,
+        "signals_mapped": 64,
+        "controls_mapped": 64,
+        "coverage_pct": 100.0
+      },
+      "SOC2": {
+        "signals": 58,
+        "signals_mapped": 58,
+        "controls_mapped": 58,
+        "coverage_pct": 100.0
+      }
+    },
+    "by_relationship": {
+      "equivalent": 1222,
+      "subset": 7,
+      "superset": 3,
+      "intersects": 2,
+      "related": 0
+    },
+    "by_provenance": {
+      "authoritative": 0,
+      "expert": 1308,
+      "derived": 0,
+      "community": 0
+    }
+  },
+  "mapping_types": {
+    "signal_to_control": {
+      "description": "Primary mappings from CSE signals to framework controls",
+      "directory": "signal-to-control/",
+      "total_mappings": 1166,
+      "files": 12
+    },
+    "gen_cross_framework": {
+      "description": "GEN (framework-agnostic) signals mapped to controls across all frameworks",
+      "file": "signal-to-control/GEN.json",
+      "total_mappings": 95
+    },
+    "equivalence": {
+      "description": "Signal-to-signal equivalence mappings between GEN and domain-specific signals",
+      "directory": "equivalence/",
+      "total_mappings": 80
+    },
+    "cross_framework": {
+      "description": "Framework-to-framework control mappings via signal bridge",
+      "directory": "cross-framework/",
+      "total_mappings": 62,
+      "pairs": 4
+    }
+  },
+  "frameworks": [
+    {
+      "id": "CCPA",
+      "name": "California Consumer Privacy Act",
+      "version": "2023",
+      "file": "frameworks/CCPA.json",
+      "controls_file": null,
+      "control_count": 35,
+      "mapping_count": 70,
+      "mapping_file": "signal-to-control/CCPA.json"
+    },
+    {
+      "id": "CIS-CONTROLS-8.1",
+      "name": "CIS Controls",
+      "version": "8.1",
+      "file": "frameworks/CIS-CONTROLS-8.1.json",
+      "controls_file": null,
+      "control_count": 153,
+      "mapping_count": 120,
+      "mapping_file": "signal-to-control/CIS.json"
+    },
+    {
+      "id": "CMMC-2.0",
+      "name": "Cybersecurity Maturity Model Certification",
+      "version": "2.0",
+      "file": "frameworks/CMMC-2.0.json",
+      "controls_file": "controls/CMMC-2.0.json",
+      "control_count": 110,
+      "mapping_count": 134,
+      "mapping_file": "signal-to-control/CMMC.json"
+    },
+    {
+      "id": "FEDRAMP",
+      "name": "Federal Risk and Authorization Management Program",
+      "version": "Rev 5",
+      "file": "frameworks/FEDRAMP.json",
+      "controls_file": null,
+      "control_count": 421,
+      "mapping_count": 145,
+      "mapping_file": "signal-to-control/FEDRAMP.json"
+    },
+    {
+      "id": "GDPR",
+      "name": "General Data Protection Regulation",
+      "version": "2016/679",
+      "file": "frameworks/GDPR.json",
+      "controls_file": null,
+      "control_count": 50,
+      "mapping_count": 80,
+      "mapping_file": "signal-to-control/GDPR.json"
+    },
+    {
+      "id": "GEN",
+      "name": "General Security Signals",
+      "version": "1.0.0",
+      "file": null,
+      "controls_file": null,
+      "control_count": 0,
+      "mapping_count": 95,
+      "mapping_file": "signal-to-control/GEN.json",
+      "note": "GEN signals are framework-agnostic and map to controls across all frameworks"
+    },
+    {
+      "id": "HIPAA",
+      "name": "Health Insurance Portability and Accountability Act",
+      "version": "2013",
+      "file": "frameworks/HIPAA.json",
+      "controls_file": null,
+      "control_count": 54,
+      "mapping_count": 75,
+      "mapping_file": "signal-to-control/HIPAA.json"
+    },
+    {
+      "id": "HITRUST-11",
+      "name": "HITRUST Common Security Framework",
+      "version": "11",
+      "file": "frameworks/HITRUST-11.json",
+      "controls_file": null,
+      "control_count": 156,
+      "mapping_count": 126,
+      "mapping_file": "signal-to-control/HITRUST.json"
+    },
+    {
+      "id": "ISO27001-2022",
+      "name": "ISO/IEC 27001",
+      "version": "2022",
+      "file": "frameworks/ISO27001-2022.json",
+      "controls_file": "controls/ISO27001-2022.json",
+      "control_count": 93,
+      "mapping_count": 93,
+      "mapping_file": "signal-to-control/ISO27001.json"
+    },
+    {
+      "id": "NIST-CSF-2.0",
+      "name": "NIST Cybersecurity Framework",
+      "version": "2.0",
+      "file": "frameworks/NIST-CSF-2.0.json",
+      "controls_file": "controls/NIST-CSF-2.0.json",
+      "control_count": 106,
+      "mapping_count": 106,
+      "mapping_file": "signal-to-control/NISTCSF.json"
+    },
+    {
+      "id": "PCI-DSS-4.0",
+      "name": "Payment Card Industry Data Security Standard",
+      "version": "4.0",
+      "file": "frameworks/PCI-DSS-4.0.json",
+      "controls_file": "controls/PCI-DSS-4.0.json",
+      "control_count": 64,
+      "mapping_count": 64,
+      "mapping_file": "signal-to-control/PCIDSS.json"
+    },
+    {
+      "id": "SOC2-2017",
+      "name": "SOC 2 Trust Services Criteria",
+      "version": "2017",
+      "file": "frameworks/SOC2-2017.json",
+      "controls_file": "controls/SOC2-2017.json",
+      "control_count": 64,
+      "mapping_count": 58,
+      "mapping_file": "signal-to-control/SOC2.json"
+    }
+  ],
+  "equivalence_mappings": [
+    {
+      "id": "GEN-to-domains",
+      "description": "Signal equivalence mappings between GEN (generic) signals and domain-specific signals",
+      "file": "equivalence/GEN-to-domains.json",
+      "mapping_count": 80
+    }
+  ],
+  "cross_framework_mappings": [
+    {
+      "id": "CMMC-to-ISO27001",
+      "source": "CMMC-2.0",
+      "target": "ISO27001-2022",
+      "description": "Control mappings from CMMC 2.0 to ISO 27001:2022 via signal bridge",
+      "file": "cross-framework/CMMC-2.0-to-ISO27001-2022.json",
+      "mapping_count": 19
+    },
+    {
+      "id": "CMMC-to-NISTCSF",
+      "source": "CMMC-2.0",
+      "target": "NIST-CSF-2.0",
+      "description": "Control mappings from CMMC 2.0 to NIST CSF 2.0 via signal bridge",
+      "file": "cross-framework/CMMC-2.0-to-NIST-CSF-2.0.json",
+      "mapping_count": 13
+    },
+    {
+      "id": "PCIDSS-to-ISO27001",
+      "source": "PCI-DSS-4.0",
+      "target": "ISO27001-2022",
+      "description": "Control mappings from PCI DSS 4.0 to ISO 27001:2022 via signal bridge",
+      "file": "cross-framework/PCI-DSS-4.0-to-ISO27001-2022.json",
+      "mapping_count": 18
+    },
+    {
+      "id": "SOC2-to-ISO27001",
+      "source": "SOC2-2017",
+      "target": "ISO27001-2022",
+      "description": "Control mappings from SOC 2 to ISO 27001:2022 via signal bridge",
+      "file": "cross-framework/SOC2-2017-to-ISO27001-2022.json",
+      "mapping_count": 12
+    }
+  ]
+}

@@ -235,15 +235,79 @@ Implementations may:
 
 Detection is performed by implementations, not by CSE itself. CSE defines what signals mean; implementations determine where and when they occur.
 
+## Mapping Concepts
+
 ### Mapping
 
-A **Mapping** connects CSE signals to external frameworks, controls, or requirements.
+A **Mapping** is a directional relationship between a CSE signal and a target (either an external control or another signal).
 
-Examples:
-- `CSE-CMMC-ACCESS-UNRESTRICTED-ADMIN-001` → CMMC AC.L2-3.1.1
-- `CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001` → ISO 27001 A.8.24
+Mappings are:
+- **Directional** — Source is always a CSE signal
+- **Versioned** — Track CSE version, framework version, and dataset version
+- **Separate** — Maintained independently from signal definitions
+- **Informative** — Do not alter signal semantics
 
-Mappings are informative and maintained separately from signal definitions.
+Example:
+```
+CSE-CMMC-ACCESS-UNRESTRICTED-ADMIN-001 → CMMC AC.L2-3.1.1 (subset)
+```
+
+See [Mapping Format Specification v1.0](spec/mapping-format-v1.0.md) for the full specification.
+
+### Relationship Type
+
+A **Relationship Type** defines the semantic connection between a signal and its target using set-theoretic concepts.
+
+| Type | Symbol | Meaning |
+|------|--------|---------|
+| `equivalent` | ≡ | Signal and target have identical scope |
+| `subset` | ⊂ | Signal addresses part of target |
+| `superset` | ⊃ | Signal exceeds target scope |
+| `intersects` | ∩ | Partial overlap between signal and target |
+| `related` | ~ | Conceptual relationship without formal overlap |
+
+### Provenance
+
+**Provenance** declares the origin and authority of a mapping.
+
+| Source | Description | Typical Confidence |
+|--------|-------------|-------------------|
+| `authoritative` | From framework authority | 0.95–1.00 |
+| `expert` | Domain expert curated | 0.80–0.94 |
+| `derived` | Algorithmically inferred | 0.60–0.79 |
+| `community` | Community contributed | 0.40–0.59 |
+
+### Confidence Score
+
+A **Confidence Score** is a numeric value (0.0–1.0) indicating the reliability of a mapping.
+
+Higher confidence indicates:
+- Verified by authoritative sources
+- Expert review completed
+- Strong semantic alignment
+
+### Signal Equivalence
+
+**Signal Equivalence** is a mapping between two CSE signals indicating they represent the same concept.
+
+Used primarily for:
+- GEN signals ↔ domain-specific signals
+- Cross-domain signal relationships
+
+Example: `CSE-GEN-AUTH-NO-MFA-002` ≡ `CSE-CMMC-IDENTITY-NO-MFA-001`
+
+### Mapping Dataset
+
+A **Mapping Dataset** is a versioned collection of mappings.
+
+Contains:
+- Framework definitions
+- Control definitions
+- Signal-to-control mappings
+- Signal-to-signal equivalences
+- Cross-framework mappings
+
+Organized in `/mappings/v<VERSION>/`.
 
 ## Related Standards
 

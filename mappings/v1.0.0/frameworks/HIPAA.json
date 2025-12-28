@@ -1,0 +1,49 @@
+{
+  "id": "HIPAA",
+  "name": "Health Insurance Portability and Accountability Act",
+  "version": "2013",
+  "authority": "U.S. Department of Health and Human Services (HHS)",
+  "effective_date": "2013-03-26",
+  "source_url": "https://www.hhs.gov/hipaa/for-professionals/index.html",
+  "description": "HIPAA establishes national standards for the protection of health information. The Security Rule requires appropriate administrative, physical, and technical safeguards to ensure confidentiality, integrity, and availability of electronic protected health information (ePHI).",
+  "control_count": 54,
+  "levels": [],
+  "domains": [
+    {
+      "id": "164.308",
+      "name": "Administrative Safeguards",
+      "description": "Administrative actions, policies, and procedures to manage security measures",
+      "control_count": 22
+    },
+    {
+      "id": "164.310",
+      "name": "Physical Safeguards",
+      "description": "Physical measures, policies, and procedures to protect electronic systems",
+      "control_count": 10
+    },
+    {
+      "id": "164.312",
+      "name": "Technical Safeguards",
+      "description": "Technology and policies for protecting and controlling access to ePHI",
+      "control_count": 16
+    },
+    {
+      "id": "164.314",
+      "name": "Organizational Requirements",
+      "description": "Requirements for business associate contracts and group health plans",
+      "control_count": 3
+    },
+    {
+      "id": "164.316",
+      "name": "Policies and Procedures",
+      "description": "Documentation and review requirements",
+      "control_count": 3
+    }
+  ],
+  "metadata": {
+    "created": "2025-12-28T00:00:00Z",
+    "updated": "2025-12-28T00:00:00Z",
+    "source_version": "45 CFR Parts 160, 162, and 164 (HIPAA Omnibus Rule 2013)",
+    "notes": "Security Rule applies to covered entities and business associates"
+  }
+}

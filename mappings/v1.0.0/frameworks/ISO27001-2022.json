@@ -1,0 +1,44 @@
+{
+  "id": "ISO27001-2022",
+  "name": "ISO/IEC 27001",
+  "version": "2022",
+  "authority": "International Organization for Standardization (ISO)",
+  "effective_date": "2022-10-25",
+  "supersedes": "ISO27001-2013",
+  "source_url": "https://www.iso.org/standard/27001",
+  "description": "ISO/IEC 27001 is an international standard for information security management systems (ISMS). The 2022 revision restructured Annex A controls into four themes: Organizational, People, Physical, and Technological.",
+  "control_count": 93,
+  "levels": [],
+  "domains": [
+    {
+      "id": "A.5",
+      "name": "Organizational Controls",
+      "description": "Controls related to organizational policies, roles, and responsibilities",
+      "control_count": 37
+    },
+    {
+      "id": "A.6",
+      "name": "People Controls",
+      "description": "Controls related to personnel security and awareness",
+      "control_count": 8
+    },
+    {
+      "id": "A.7",
+      "name": "Physical Controls",
+      "description": "Controls related to physical and environmental security",
+      "control_count": 14
+    },
+    {
+      "id": "A.8",
+      "name": "Technological Controls",
+      "description": "Controls related to technical security measures",
+      "control_count": 34
+    }
+  ],
+  "metadata": {
+    "created": "2025-12-28T00:00:00Z",
+    "updated": "2025-12-28T00:00:00Z",
+    "source_version": "ISO/IEC 27001:2022",
+    "notes": "Annex A controls restructured from 14 domains (2013) to 4 themes (2022)"
+  }
+}

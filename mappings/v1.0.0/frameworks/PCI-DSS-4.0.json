@@ -1,0 +1,92 @@
+{
+  "id": "PCI-DSS-4.0",
+  "name": "Payment Card Industry Data Security Standard",
+  "version": "4.0",
+  "authority": "PCI Security Standards Council",
+  "effective_date": "2022-03-31",
+  "supersedes": "PCI-DSS-3.2.1",
+  "source_url": "https://www.pcisecuritystandards.org/document_library/",
+  "description": "PCI DSS 4.0 provides a framework for developing robust payment account data security processes and controls. Version 4.0 introduces customized implementation options and enhanced authentication requirements.",
+  "control_count": 64,
+  "levels": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Install and Maintain Network Security Controls",
+      "description": "Network security controls and configuration management",
+      "control_count": 5
+    },
+    {
+      "id": "2",
+      "name": "Apply Secure Configurations to All System Components",
+      "description": "Secure default configurations and system hardening",
+      "control_count": 3
+    },
+    {
+      "id": "3",
+      "name": "Protect Stored Account Data",
+      "description": "Protection of stored cardholder data and sensitive authentication data",
+      "control_count": 7
+    },
+    {
+      "id": "4",
+      "name": "Protect Cardholder Data with Strong Cryptography During Transmission",
+      "description": "Encryption of cardholder data during transmission",
+      "control_count": 2
+    },
+    {
+      "id": "5",
+      "name": "Protect All Systems and Networks from Malicious Software",
+      "description": "Anti-malware and anti-virus protection",
+      "control_count": 4
+    },
+    {
+      "id": "6",
+      "name": "Develop and Maintain Secure Systems and Software",
+      "description": "Secure development and vulnerability management",
+      "control_count": 5
+    },
+    {
+      "id": "7",
+      "name": "Restrict Access to System Components and Cardholder Data by Business Need to Know",
+      "description": "Access control and least privilege",
+      "control_count": 3
+    },
+    {
+      "id": "8",
+      "name": "Identify Users and Authenticate Access to System Components",
+      "description": "User identification and authentication",
+      "control_count": 6
+    },
+    {
+      "id": "9",
+      "name": "Restrict Physical Access to Cardholder Data",
+      "description": "Physical access controls",
+      "control_count": 5
+    },
+    {
+      "id": "10",
+      "name": "Log and Monitor All Access to System Components and Cardholder Data",
+      "description": "Logging and monitoring",
+      "control_count": 7
+    },
+    {
+      "id": "11",
+      "name": "Test Security of Systems and Networks Regularly",
+      "description": "Security testing and vulnerability scanning",
+      "control_count": 6
+    },
+    {
+      "id": "12",
+      "name": "Support Information Security with Organizational Policies and Programs",
+      "description": "Security policies and awareness programs",
+      "control_count": 11
+    }
+  ],
+  "metadata": {
+    "created": "2025-12-28T00:00:00Z",
+    "updated": "2025-12-28T00:00:00Z",
+    "source_version": "PCI DSS v4.0 (March 2022)",
+    "notes": "Mandatory for all entities that store, process, or transmit payment card data"
+  }
+}

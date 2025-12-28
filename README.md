@@ -131,6 +131,136 @@ A logical grouping of signals aligned with a compliance framework or regulatory 
 
 A thematic subdivision within a domain (e.g., ACCESS, ENCRYPTION, LOGGING, PRIVACY).
 
+## Mappings
+
+CSE includes a comprehensive mappings dataset that enables automated compliance mapping and cross-framework analysis. The mappings support four distinct use cases:
+
+| Mapping Type | Description | Count |
+|--------------|-------------|-------|
+| **Signal-to-Control** | Links CSE signals to framework controls | 1,166 |
+| **GEN Cross-Framework** | Maps generic signals to controls across all frameworks | 95 |
+| **Equivalence** | Links GEN signals to domain-specific equivalents | 80 |
+| **Cross-Framework** | Maps controls between frameworks via signal bridge | 62 |
+
+**Total: 1,308 mappings**
+
+### Signal-to-Control Mappings
+
+Primary mappings that link CSE signals to their corresponding framework controls:
+
+| Framework | Signals | Mappings | Coverage |
+|-----------|---------|----------|----------|
+| **CCPA** | 70 | 70 | 100% |
+| **CIS** | 120 | 120 | 100% |
+| **CMMC** | 134 | 134 | 100% |
+| **FedRAMP** | 145 | 145 | 100% |
+| **GDPR** | 80 | 80 | 100% |
+| **GEN** | 55 | 95 | 100% |
+| **HIPAA** | 75 | 75 | 100% |
+| **HITRUST** | 126 | 126 | 100% |
+| **ISO27001** | 93 | 93 | 100% |
+| **NIST CSF** | 106 | 106 | 100% |
+| **PCI DSS** | 64 | 64 | 100% |
+| **SOC2** | 58 | 58 | 100% |
+
+```json
+{
+  "id": "MAP-CSE-PCIDSS-STORE-SAD-RETAINED-003-TO-PCIDSS-3-3",
+  "source": {
+    "type": "cse-signal",
+    "id": "CSE-PCIDSS-STORE-SAD-RETAINED-003",
+    "version": "1.0.0"
+  },
+  "target": {
+    "type": "control",
+    "framework": "PCI-DSS-4.0",
+    "id": "3.3",
+    "title": "Sensitive authentication data is not stored after authorization"
+  },
+  "relationship": "equivalent",
+  "confidence": 0.95
+}
+```
+
+### GEN Cross-Framework Mappings
+
+GEN (Generic) signals are framework-agnostic and map to controls across multiple frameworks simultaneously. This enables unified security posture assessment:
+
+```json
+{
+  "id": "MAP-CSE-GEN-AUTH-NO-MFA-002-TO-CIS-6-3",
+  "source": {
+    "type": "cse-signal",
+    "id": "CSE-GEN-AUTH-NO-MFA-002",
+    "version": "1.0.0"
+  },
+  "target": {
+    "type": "control",
+    "framework": "CIS-CONTROLS-8.1",
+    "id": "6.3",
+    "title": "Require MFA for Externally-Exposed Applications"
+  },
+  "relationship": "equivalent",
+  "confidence": 0.95
+}
+```
+
+### Equivalence Mappings
+
+Signal-to-signal mappings that establish equivalence between GEN signals and domain-specific signals:
+
+```json
+{
+  "id": "EQ-CSE-GEN-AUTH-NO-MFA-002-TO-CMMC-IDENTITY-NO-MFA-001",
+  "source": {
+    "type": "cse-signal",
+    "id": "CSE-GEN-AUTH-NO-MFA-002",
+    "version": "1.0.0"
+  },
+  "target": {
+    "type": "cse-signal",
+    "id": "CSE-CMMC-IDENTITY-NO-MFA-001",
+    "version": "1.0.0"
+  },
+  "relationship": "equivalent",
+  "confidence": 0.95
+}
+```
+
+### Cross-Framework Mappings
+
+Framework-to-framework control mappings that use CSE signals as a bridge:
+
+| Source Framework | Target Framework | Mappings |
+|------------------|------------------|----------|
+| CMMC 2.0 | ISO 27001:2022 | 19 |
+| CMMC 2.0 | NIST CSF 2.0 | 13 |
+| PCI DSS 4.0 | ISO 27001:2022 | 18 |
+| SOC 2 | ISO 27001:2022 | 12 |
+
+```json
+{
+  "id": "XFW-CMMC20-AC-L2-3-1-1-TO-ISO270012022-A-5-15",
+  "source": {
+    "type": "control",
+    "framework": "CMMC-2.0",
+    "id": "AC.L2-3.1.1",
+    "title": "Authorized Access Control"
+  },
+  "target": {
+    "type": "control",
+    "framework": "ISO27001-2022",
+    "id": "A.5.15",
+    "title": "Access control"
+  },
+  "bridge_signal": "CSE-CMMC-ACCESS-NO-AUTHORIZED-ACCESS-CONTROL-020",
+  "relationship": "equivalent",
+  "confidence": 0.95
+}
+```
+
+Mappings are located in `mappings/v1.0.0/`.
+
 ## Repository Structure
 
 ```
@@ -160,6 +290,32 @@ A thematic subdivision within a domain (e.g., ACCESS, ENCRYPTION, LOGGING, PRIVA
 │       │   ├── PCIDSS.json
 │       │   └── SOC2.json
 │       └── SHA256SUMS
+│
+├── mappings/          # Signal-to-control and cross-framework mappings
+│   └── v1.0.0/
+│       ├── index.json
+│       ├── frameworks/
+│       ├── controls/
+│       ├── signal-to-control/
+│       │   ├── CCPA.json
+│       │   ├── CIS.json
+│       │   ├── CMMC.json
+│       │   ├── FEDRAMP.json
+│       │   ├── GDPR.json
+│       │   ├── GEN.json           # Cross-framework GEN mappings
+│       │   ├── HIPAA.json
+│       │   ├── HITRUST.json
+│       │   ├── ISO27001.json
+│       │   ├── NISTCSF.json
+│       │   ├── PCIDSS.json
+│       │   └── SOC2.json
+│       ├── equivalence/
+│       │   └── GEN-to-domains.json  # GEN signal equivalences
+│       └── cross-framework/
+│           ├── CMMC-2.0-to-ISO27001-2022.json
+│           ├── CMMC-2.0-to-NIST-CSF-2.0.json
+│           ├── PCI-DSS-4.0-to-ISO27001-2022.json
+│           └── SOC2-2017-to-ISO27001-2022.json
 │
 ├── signals/           # Canonical signal definitions (human-readable)
 │   ├── CCPA/

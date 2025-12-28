@@ -1,0 +1,3252 @@
+{
+  "metadata": {
+    "framework": "CIS-CONTROLS-8.1",
+    "cse_registry_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "generated": "2025-12-28T00:00:00Z",
+    "mapping_count": 120,
+    "description": "Signal-to-control mappings for CIS domain signals to CIS Controls v8.1"
+  },
+  "mappings": [
+    {
+      "id": "MAP-CSE-CIS-ACCESS-NO-MFA-ADMIN-005-TO-6.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCESS-NO-MFA-ADMIN-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "6.5",
+        "title": "Require MFA for Administrative Access"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Require MFA for Administrative Access.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ACCESS-NO-MFA-ALL-007-TO-6.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCESS-NO-MFA-ALL-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "6.7",
+        "title": "Centralize Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Centralize Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ACCESS-NO-MFA-EXTERNAL-003-TO-6.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCESS-NO-MFA-EXTERNAL-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "6.3",
+        "title": "Require MFA for Externally-Exposed Applications"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Require MFA for Externally-Exposed Applications.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ACCESS-NO-MFA-REMOTE-004-TO-6.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCESS-NO-MFA-REMOTE-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "6.4",
+        "title": "Require MFA for Remote Network Access"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Require MFA for Remote Network Access.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ACCESS-NO-PROCESS-001-TO-6.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCESS-NO-PROCESS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "6.1",
+        "title": "Establish an Access Granting Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Establish an Access Granting Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ACCESS-NO-REVOCATION-002-TO-6.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCESS-NO-REVOCATION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "6.2",
+        "title": "Establish an Access Revoking Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Establish an Access Revoking Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ACCESS-NO-ROLE-BASED-006-TO-6.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCESS-NO-ROLE-BASED-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "6.6",
+        "title": "Inventory of Authentication Systems"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Inventory of Authentication Systems.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ACCOUNT-NO-ACCESS-RESTRICTION-004-TO-5.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCOUNT-NO-ACCESS-RESTRICTION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "5.4",
+        "title": "Restrict Administrator Privileges"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Restrict Administrator Privileges.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ACCOUNT-NO-CENTRALIZED-MGMT-006-TO-5.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCOUNT-NO-CENTRALIZED-MGMT-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "5.6",
+        "title": "Centralize Account Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Centralize Account Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ACCOUNT-NO-DEFAULT-PASSWORDS-002-TO-5.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCOUNT-NO-DEFAULT-PASSWORDS-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "5.2",
+        "title": "Use Unique Passwords"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Use Unique Passwords.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ACCOUNT-NO-INACTIVE-DISABLE-003-TO-5.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCOUNT-NO-INACTIVE-DISABLE-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "5.3",
+        "title": "Disable Dormant Accounts"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Disable Dormant Accounts.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ACCOUNT-NO-INVENTORY-001-TO-5.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCOUNT-NO-INVENTORY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "5.1",
+        "title": "Inventory of Accounts"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Inventory of Accounts.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ACCOUNT-NO-UNIQUE-ADMIN-005-TO-5.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCOUNT-NO-UNIQUE-ADMIN-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "5.5",
+        "title": "Inventory of Service Accounts"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Inventory of Service Accounts.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-APPSEC-NO-CODE-REVIEW-009-TO-16.9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-APPSEC-NO-CODE-REVIEW-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "16.9",
+        "title": "Train Developers in Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Train Developers in Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-APPSEC-NO-DAST-006-TO-16.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-APPSEC-NO-DAST-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "16.6",
+        "title": "Severity Rating for Vulnerabilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Severity Rating for Vulnerabilities.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-APPSEC-NO-ROOT-CAUSE-003-TO-16.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-APPSEC-NO-ROOT-CAUSE-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "16.3",
+        "title": "Root Cause Analysis"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Root Cause Analysis.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-APPSEC-NO-SAST-005-TO-16.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-APPSEC-NO-SAST-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "16.5",
+        "title": "Up-to-Date Third-Party Components"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Up-to-Date Third-Party Components.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-APPSEC-NO-SDLC-001-TO-16.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-APPSEC-NO-SDLC-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "16.1",
+        "title": "Secure Application Development Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Secure Application Development Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-APPSEC-NO-SEPARATION-008-TO-16.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-APPSEC-NO-SEPARATION-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "16.8",
+        "title": "Separate Production Systems"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Separate Production Systems.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-APPSEC-NO-STANDARDS-002-TO-16.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-APPSEC-NO-STANDARDS-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "16.2",
+        "title": "Accept and Address Vulnerabilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Accept and Address Vulnerabilities.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-APPSEC-NO-THIRD-PARTY-COMPONENTS-004-TO-16.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-APPSEC-NO-THIRD-PARTY-COMPONENTS-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "16.4",
+        "title": "Inventory Third-Party Components"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Inventory Third-Party Components.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-APPSEC-NO-THREAT-MODELING-007-TO-16.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-APPSEC-NO-THREAT-MODELING-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "16.7",
+        "title": "Hardening Configuration Templates"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Hardening Configuration Templates.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-APPSEC-NO-WAF-010-TO-16.10",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-APPSEC-NO-WAF-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "16.10",
+        "title": "Secure Design Principles"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Secure Design Principles.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ASSET-NO-INVENTORY-001-TO-1.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ASSET-NO-INVENTORY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "1.1",
+        "title": "Detailed Enterprise Asset Inventory"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Detailed Enterprise Asset Inventory.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ASSET-NO-UNAUTHORIZED-DETECTION-002-TO-1.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ASSET-NO-UNAUTHORIZED-DETECTION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "1.2",
+        "title": "Detect Unauthorized Assets"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Detect Unauthorized Assets.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ASSET-NO-DHCP-LOGGING-003-TO-1.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ASSET-NO-DHCP-LOGGING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "1.3",
+        "title": "Enable DHCP Logging"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Enable DHCP Logging.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ASSET-NO-ACCURATE-INVENTORY-004-TO-1.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ASSET-NO-ACCURATE-INVENTORY-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "1.4",
+        "title": "Maintain Accurate Asset Inventory"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Maintain Accurate Asset Inventory.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-ASSET-NO-NETWORK-DISCOVERY-005-TO-1.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ASSET-NO-NETWORK-DISCOVERY-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "1.5",
+        "title": "Enable Network Discovery"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Enable Network Discovery.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-AUDIT-NO-PROCESS-001-TO-8.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-AUDIT-NO-PROCESS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "8.1",
+        "title": "Audit Log Management Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Audit Log Management Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-AUDIT-NO-ADEQUATE-STORAGE-002-TO-8.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-AUDIT-NO-ADEQUATE-STORAGE-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "8.2",
+        "title": "Adequate Audit Log Storage"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Adequate Audit Log Storage.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-AUDIT-NO-TIMESTAMPS-003-TO-8.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-AUDIT-NO-TIMESTAMPS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "8.3",
+        "title": "Time Synchronization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Time Synchronization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-AUDIT-NO-DETAILED-LOGGING-004-TO-8.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-AUDIT-NO-DETAILED-LOGGING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "8.4",
+        "title": "Detailed Audit Logs"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Detailed Audit Logs.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-AUDIT-NO-DNS-LOGGING-005-TO-8.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-AUDIT-NO-DNS-LOGGING-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "8.5",
+        "title": "DNS Query Logging"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for DNS Query Logging.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-AUDIT-NO-URL-LOGGING-006-TO-8.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-AUDIT-NO-URL-LOGGING-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "8.6",
+        "title": "WAF Data Collection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for WAF Data Collection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-AUDIT-NO-CENTRALIZED-007-TO-8.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-AUDIT-NO-CENTRALIZED-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "8.7",
+        "title": "Centralized Log Collection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Centralized Log Collection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-AUDIT-NO-REVIEW-008-TO-8.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-AUDIT-NO-REVIEW-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "8.8",
+        "title": "Audit Log Review"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Audit Log Review.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-CONFIG-NO-SECURE-PROCESS-001-TO-4.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-CONFIG-NO-SECURE-PROCESS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "4.1",
+        "title": "Secure Configuration Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Secure Configuration Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-CONFIG-NO-NETWORK-SECURITY-002-TO-4.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-CONFIG-NO-NETWORK-SECURITY-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "4.2",
+        "title": "Network Infrastructure Configuration"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Network Infrastructure Configuration.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-CONFIG-NO-FIREWALL-CONFIG-003-TO-4.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-CONFIG-NO-FIREWALL-CONFIG-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "4.3",
+        "title": "Host-Based Firewalls"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Host-Based Firewalls.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-CONFIG-NO-DEFAULT-DENY-004-TO-4.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-CONFIG-NO-DEFAULT-DENY-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "4.4",
+        "title": "Default Deny Policies"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Default Deny Policies.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-CONFIG-NO-LOCKOUT-005-TO-4.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-CONFIG-NO-LOCKOUT-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "4.5",
+        "title": "Account Lockout Controls"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Account Lockout Controls.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-CONFIG-NO-REMOTE-WIPE-006-TO-4.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-CONFIG-NO-REMOTE-WIPE-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "4.6",
+        "title": "Remote Wipe Capability"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Remote Wipe Capability.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-CONFIG-NO-UNUSED-PORTS-007-TO-4.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-CONFIG-NO-UNUSED-PORTS-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "4.7",
+        "title": "Disable Unnecessary Ports"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Disable Unnecessary Ports.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-CONFIG-NO-CERTIFICATES-008-TO-4.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-CONFIG-NO-CERTIFICATES-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "4.8",
+        "title": "Digital Certificates"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Digital Certificates.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-DATA-NO-MANAGEMENT-PROCESS-001-TO-3.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-DATA-NO-MANAGEMENT-PROCESS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "3.1",
+        "title": "Data Management Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Data Management Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-DATA-NO-INVENTORY-002-TO-3.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-DATA-NO-INVENTORY-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "3.2",
+        "title": "Data Inventory"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Data Inventory.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-DATA-NO-REMOVAL-003-TO-3.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-DATA-NO-REMOVAL-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "3.3",
+        "title": "Data Access Control Lists"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Data Access Control Lists.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-DATA-NO-RETENTION-POLICY-004-TO-3.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-DATA-NO-RETENTION-POLICY-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "3.4",
+        "title": "Enforce Data Retention"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Enforce Data Retention.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-DATA-NO-DISPOSAL-005-TO-3.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-DATA-NO-DISPOSAL-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "3.5",
+        "title": "Securely Dispose of Data"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Securely Dispose of Data.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-DATA-NO-ENCRYPTION-AT-REST-006-TO-3.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-DATA-NO-ENCRYPTION-AT-REST-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "3.6",
+        "title": "Encrypt End-User Devices"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Encrypt End-User Devices.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-DATA-NO-CLASSIFICATION-007-TO-3.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-DATA-NO-CLASSIFICATION-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "3.7",
+        "title": "Data Classification Scheme"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Data Classification Scheme.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-DATA-NO-DLP-008-TO-3.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-DATA-NO-DLP-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "3.8",
+        "title": "Document Data Flows"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Document Data Flows.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-DATA-NO-ENCRYPTION-REMOVABLE-009-TO-3.9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-DATA-NO-ENCRYPTION-REMOVABLE-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "3.9",
+        "title": "Encrypt Removable Media"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Encrypt Removable Media.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-DATA-NO-ENCRYPTION-TRANSIT-010-TO-3.10",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-DATA-NO-ENCRYPTION-TRANSIT-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "3.10",
+        "title": "Encrypt Data in Transit"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Encrypt Data in Transit.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-EMAIL-NO-SUPPORTED-BROWSERS-001-TO-9.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-EMAIL-NO-SUPPORTED-BROWSERS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "9.1",
+        "title": "Approved Browsers"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Approved Browsers.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-EMAIL-NO-DNS-FILTERING-002-TO-9.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-EMAIL-NO-DNS-FILTERING-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "9.2",
+        "title": "DNS Filtering"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for DNS Filtering.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-EMAIL-NO-URL-FILTERING-003-TO-9.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-EMAIL-NO-URL-FILTERING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "9.3",
+        "title": "URL Filters"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for URL Filters.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-EMAIL-NO-FILE-TYPE-BLOCKING-004-TO-9.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-EMAIL-NO-FILE-TYPE-BLOCKING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "9.4",
+        "title": "Browser Extensions"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Browser Extensions.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-EMAIL-NO-DMARC-005-TO-9.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-EMAIL-NO-DMARC-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "9.5",
+        "title": "DMARC"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for DMARC.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-EMAIL-NO-SANDBOX-006-TO-9.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-EMAIL-NO-SANDBOX-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "9.6",
+        "title": "Block File Types"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Block File Types.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-INCIDENT-NO-PLAN-001-TO-17.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-INCIDENT-NO-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "17.1",
+        "title": "Incident Response Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Incident Response Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-INCIDENT-NO-CONTACTS-002-TO-17.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-INCIDENT-NO-CONTACTS-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "17.2",
+        "title": "Incident Response Contacts"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Incident Response Contacts.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-INCIDENT-NO-ROLES-003-TO-17.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-INCIDENT-NO-ROLES-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "17.3",
+        "title": "Incident Response Roles"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Incident Response Roles.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-INCIDENT-NO-EXERCISES-004-TO-17.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-INCIDENT-NO-EXERCISES-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "17.4",
+        "title": "Incident Response Exercises"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Incident Response Exercises.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-INCIDENT-NO-LESSONS-LEARNED-005-TO-17.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-INCIDENT-NO-LESSONS-LEARNED-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "17.5",
+        "title": "Lessons Learned"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Lessons Learned.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-INCIDENT-NO-THRESHOLDS-006-TO-17.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-INCIDENT-NO-THRESHOLDS-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "17.6",
+        "title": "Incident Thresholds"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Incident Thresholds.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MALWARE-NO-PROTECTION-001-TO-10.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MALWARE-NO-PROTECTION-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "10.1",
+        "title": "Anti-Malware Software"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Anti-Malware Software.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MALWARE-NO-AUTO-UPDATE-002-TO-10.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MALWARE-NO-AUTO-UPDATE-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "10.2",
+        "title": "Auto-Update Anti-Malware"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Auto-Update Anti-Malware.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MALWARE-NO-USB-SCANNING-003-TO-10.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MALWARE-NO-USB-SCANNING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "10.3",
+        "title": "Removable Media Scanning"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Removable Media Scanning.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MALWARE-NO-AUTO-SCAN-004-TO-10.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MALWARE-NO-AUTO-SCAN-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "10.4",
+        "title": "Automatic Scanning"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Automatic Scanning.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MALWARE-NO-BEHAVIORAL-005-TO-10.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MALWARE-NO-BEHAVIORAL-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "10.5",
+        "title": "Behavioral Analysis"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Behavioral Analysis.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MALWARE-NO-CENTRALIZED-MGMT-006-TO-10.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MALWARE-NO-CENTRALIZED-MGMT-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "10.6",
+        "title": "Centralized Anti-Malware"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Centralized Anti-Malware.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MONITOR-NO-IDS-001-TO-13.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MONITOR-NO-IDS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "13.1",
+        "title": "Network IDS"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Network IDS.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MONITOR-NO-IPS-002-TO-13.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MONITOR-NO-IPS-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "13.2",
+        "title": "Network IPS"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Network IPS.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MONITOR-NO-NETFLOW-003-TO-13.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MONITOR-NO-NETFLOW-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "13.3",
+        "title": "Network Traffic Data"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Network Traffic Data.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MONITOR-NO-FILTERING-EGRESS-004-TO-13.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MONITOR-NO-FILTERING-EGRESS-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "13.4",
+        "title": "Egress Filtering"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Egress Filtering.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MONITOR-NO-ACCESS-CONTROL-005-TO-13.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MONITOR-NO-ACCESS-CONTROL-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "13.5",
+        "title": "Network Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Network Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MONITOR-NO-DEVICE-MGMT-006-TO-13.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MONITOR-NO-DEVICE-MGMT-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "13.6",
+        "title": "Network Device Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Network Device Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MONITOR-NO-SIEM-007-TO-13.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MONITOR-NO-SIEM-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "13.7",
+        "title": "SIEM"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for SIEM.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-MONITOR-NO-THREAT-INTEL-008-TO-13.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-MONITOR-NO-THREAT-INTEL-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "13.8",
+        "title": "Threat Intelligence"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Threat Intelligence.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-NETWORK-NO-INFRASTRUCTURE-INVENTORY-001-TO-12.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-NETWORK-NO-INFRASTRUCTURE-INVENTORY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "12.1",
+        "title": "Network Infrastructure"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Network Infrastructure.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-NETWORK-NO-SECURE-CONFIG-002-TO-12.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-NETWORK-NO-SECURE-CONFIG-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "12.2",
+        "title": "Network Configuration"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Network Configuration.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-NETWORK-NO-MGMT-ISOLATION-003-TO-12.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-NETWORK-NO-MGMT-ISOLATION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "12.3",
+        "title": "Secure Network Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Secure Network Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-NETWORK-NO-ARCHITECTURE-DIAGRAMS-004-TO-12.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-NETWORK-NO-ARCHITECTURE-DIAGRAMS-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "12.4",
+        "title": "Architecture Diagrams"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Architecture Diagrams.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-NETWORK-NO-SEGMENTATION-005-TO-12.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-NETWORK-NO-SEGMENTATION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "12.5",
+        "title": "Centralize Network AAA"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Centralize Network AAA.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-NETWORK-NO-SECURE-AAA-006-TO-12.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-NETWORK-NO-SECURE-AAA-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "12.6",
+        "title": "Secure Management Protocols"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Secure Management Protocols.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-PENTEST-NO-PROGRAM-001-TO-18.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-PENTEST-NO-PROGRAM-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "18.1",
+        "title": "Penetration Testing Program"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Penetration Testing Program.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-PENTEST-NO-EXTERNAL-002-TO-18.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-PENTEST-NO-EXTERNAL-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "18.2",
+        "title": "External Penetration Testing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for External Penetration Testing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-PENTEST-NO-INTERNAL-003-TO-18.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-PENTEST-NO-INTERNAL-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "18.3",
+        "title": "Internal Penetration Testing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Internal Penetration Testing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-PENTEST-NO-REMEDIATION-VALIDATION-004-TO-18.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-PENTEST-NO-REMEDIATION-VALIDATION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "18.4",
+        "title": "Validate Remediation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Validate Remediation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-RECOVERY-NO-PROCESS-001-TO-11.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-RECOVERY-NO-PROCESS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "11.1",
+        "title": "Data Recovery Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Data Recovery Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-RECOVERY-NO-AUTOMATED-BACKUP-002-TO-11.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-RECOVERY-NO-AUTOMATED-BACKUP-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "11.2",
+        "title": "Automated Backups"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Automated Backups.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-RECOVERY-NO-PROTECTED-BACKUP-003-TO-11.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-RECOVERY-NO-PROTECTED-BACKUP-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "11.3",
+        "title": "Protect Recovery Data"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Protect Recovery Data.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-RECOVERY-NO-ISOLATED-BACKUP-004-TO-11.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-RECOVERY-NO-ISOLATED-BACKUP-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "11.4",
+        "title": "Isolated Recovery Data"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Isolated Recovery Data.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-RECOVERY-NO-TESTING-005-TO-11.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-RECOVERY-NO-TESTING-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "11.5",
+        "title": "Test Data Recovery"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Test Data Recovery.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-SOFTWARE-NO-INVENTORY-001-TO-2.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-SOFTWARE-NO-INVENTORY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "2.1",
+        "title": "Software Inventory"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Software Inventory.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-SOFTWARE-NO-AUTHORIZED-LIST-002-TO-2.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-SOFTWARE-NO-AUTHORIZED-LIST-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "2.2",
+        "title": "Authorized Software List"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Authorized Software List.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-SOFTWARE-NO-UNAUTHORIZED-DETECTION-003-TO-2.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-SOFTWARE-NO-UNAUTHORIZED-DETECTION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "2.3",
+        "title": "Detect Unauthorized Software"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Detect Unauthorized Software.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-SOFTWARE-NO-LIBRARY-INVENTORY-004-TO-2.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-SOFTWARE-NO-LIBRARY-INVENTORY-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "2.4",
+        "title": "Software Library Inventory"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Software Library Inventory.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-SOFTWARE-NO-ALLOWLISTING-005-TO-2.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-SOFTWARE-NO-ALLOWLISTING-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "2.5",
+        "title": "Application Allowlisting"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Application Allowlisting.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-SOFTWARE-NO-ALLOWLISTING-LIBRARIES-006-TO-2.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-SOFTWARE-NO-ALLOWLISTING-LIBRARIES-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "2.6",
+        "title": "Library Allowlisting"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Library Allowlisting.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-SOFTWARE-NO-ALLOWLISTING-SCRIPTS-007-TO-2.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-SOFTWARE-NO-ALLOWLISTING-SCRIPTS-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "2.7",
+        "title": "Script Allowlisting"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Script Allowlisting.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-TRAINING-NO-PROGRAM-001-TO-14.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-TRAINING-NO-PROGRAM-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "14.1",
+        "title": "Security Awareness Program"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Security Awareness Program.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-TRAINING-NO-ROLE-SPECIFIC-002-TO-14.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-TRAINING-NO-ROLE-SPECIFIC-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "14.2",
+        "title": "Role-Specific Training"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Role-Specific Training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-TRAINING-NO-SOCIAL-ENGINEERING-003-TO-14.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-TRAINING-NO-SOCIAL-ENGINEERING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "14.3",
+        "title": "Social Engineering Training"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Social Engineering Training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-TRAINING-NO-PHISHING-EXERCISES-004-TO-14.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-TRAINING-NO-PHISHING-EXERCISES-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "14.4",
+        "title": "Phishing Exercises"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Phishing Exercises.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-TRAINING-NO-SKILLS-ASSESSMENT-005-TO-14.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-TRAINING-NO-SKILLS-ASSESSMENT-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "14.5",
+        "title": "Assess Training Effectiveness"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Assess Training Effectiveness.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-TRAINING-NO-SECURE-CODING-006-TO-14.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-TRAINING-NO-SECURE-CODING-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "14.6",
+        "title": "Secure Coding Training"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Secure Coding Training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-VENDOR-NO-INVENTORY-001-TO-15.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-VENDOR-NO-INVENTORY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "15.1",
+        "title": "Vendor Inventory"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Vendor Inventory.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-VENDOR-NO-CLASSIFICATION-002-TO-15.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-VENDOR-NO-CLASSIFICATION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "15.2",
+        "title": "Vendor Risk Classification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Vendor Risk Classification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-VENDOR-NO-REQUIREMENTS-003-TO-15.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-VENDOR-NO-REQUIREMENTS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "15.3",
+        "title": "Vendor Security Requirements"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Vendor Security Requirements.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-VENDOR-NO-ASSESSMENT-004-TO-15.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-VENDOR-NO-ASSESSMENT-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "15.4",
+        "title": "Vendor Security Assessment"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Vendor Security Assessment.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-VENDOR-NO-MONITORING-005-TO-15.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-VENDOR-NO-MONITORING-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "15.5",
+        "title": "Vendor Security Monitoring"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Vendor Security Monitoring.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-VULN-NO-PROCESS-001-TO-7.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-VULN-NO-PROCESS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "7.1",
+        "title": "Vulnerability Management Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Vulnerability Management Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-VULN-NO-REMEDIATION-002-TO-7.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-VULN-NO-REMEDIATION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "7.2",
+        "title": "Remediation Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Remediation Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-VULN-NO-AUTO-PATCHING-003-TO-7.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-VULN-NO-AUTO-PATCHING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "7.3",
+        "title": "Automated OS Patching"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Automated OS Patching.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-VULN-NO-AUTO-APP-PATCHING-004-TO-7.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-VULN-NO-AUTO-APP-PATCHING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "7.4",
+        "title": "Automated App Patching"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Automated App Patching.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-VULN-NO-INTERNAL-SCANNING-005-TO-7.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-VULN-NO-INTERNAL-SCANNING-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "7.5",
+        "title": "Internal Vulnerability Scans"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Internal Vulnerability Scans.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-VULN-NO-EXTERNAL-SCANNING-006-TO-7.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-VULN-NO-EXTERNAL-SCANNING-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "7.6",
+        "title": "External Vulnerability Scans"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for External Vulnerability Scans.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CIS-VULN-NO-RISK-REMEDIATION-007-TO-7.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-VULN-NO-RISK-REMEDIATION-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CIS-CONTROLS-8.1",
+        "version": "8.1",
+        "id": "7.7",
+        "title": "Remediate Vulnerabilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CIS Control for Remediate Vulnerabilities.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    }
+  ]
+}

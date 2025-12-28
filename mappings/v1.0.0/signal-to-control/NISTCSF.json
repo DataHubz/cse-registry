@@ -1,0 +1,1072 @@
+{
+  "metadata": {
+    "framework": "NIST-CSF-2.0",
+    "cse_registry_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "generated": "2025-12-28T00:00:00Z",
+    "mapping_count": 106,
+    "description": "Signal-to-control mappings for NISTCSF domain signals to NIST Cybersecurity Framework 2.0 subcategories"
+  },
+  "mappings": [
+    {
+      "id": "MAP-CSE-NISTCSF-AM-NO-HARDWARE-INVENTORY-001-TO-ID.AM-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AM-NO-HARDWARE-INVENTORY-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.AM-01", "title": "Inventories of hardware managed by the organization are maintained"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of hardware inventory maintenance.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AM-NO-SOFTWARE-INVENTORY-002-TO-ID.AM-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AM-NO-SOFTWARE-INVENTORY-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.AM-02", "title": "Inventories of software, services, and systems managed by the organization are maintained"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of software inventory maintenance.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AM-NO-NETWORK-FLOWS-003-TO-ID.AM-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AM-NO-NETWORK-FLOWS-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.AM-03", "title": "Representations of the organization's authorized network communication and internal and external network data flows are maintained"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of network flow documentation.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AM-NO-SUPPLIER-INVENTORY-004-TO-ID.AM-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AM-NO-SUPPLIER-INVENTORY-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.AM-04", "title": "Inventories of services provided by suppliers are maintained"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of supplier service inventory.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AM-NO-ASSET-PRIORITIZATION-005-TO-ID.AM-05",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AM-NO-ASSET-PRIORITIZATION-005", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.AM-05", "title": "Assets are prioritized based on classification, criticality, resources, and impact on the mission"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of asset prioritization.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AM-NO-DATA-INVENTORY-007-TO-ID.AM-07",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AM-NO-DATA-INVENTORY-007", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.AM-07", "title": "Inventories of data and corresponding metadata for designated data types are maintained"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of data inventory.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AM-NO-LIFECYCLE-MGMT-008-TO-ID.AM-08",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AM-NO-LIFECYCLE-MGMT-008", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.AM-08", "title": "Systems, hardware, software, and services are managed throughout their life cycles"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of asset lifecycle management.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AA-NO-IDENTITY-MGMT-001-TO-PR.AA-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AA-NO-IDENTITY-MGMT-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.AA-01", "title": "Identities and credentials for authorized users, services, and hardware are managed by the organization"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of identity management.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AA-NO-IDENTITY-PROOFING-002-TO-PR.AA-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AA-NO-IDENTITY-PROOFING-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.AA-02", "title": "Identities are proofed and bound to credentials based on the context of interactions"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of identity proofing.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AA-NO-AUTHENTICATION-003-TO-PR.AA-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AA-NO-AUTHENTICATION-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.AA-03", "title": "Users, services, and hardware are authenticated"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of authentication.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AA-NO-ASSERTION-PROTECTION-004-TO-PR.AA-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AA-NO-ASSERTION-PROTECTION-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.AA-04", "title": "Identity assertions are protected, conveyed, and verified"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of identity assertion protection.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AA-NO-ACCESS-POLICY-005-TO-PR.AA-05",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AA-NO-ACCESS-POLICY-005", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.AA-05", "title": "Access permissions, entitlements, and authorizations are defined in a policy, managed, enforced, and reviewed, and incorporate the principles of least privilege and separation of duties"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of access policy.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AA-NO-PHYSICAL-ACCESS-006-TO-PR.AA-06",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AA-NO-PHYSICAL-ACCESS-006", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.AA-06", "title": "Physical access to assets is managed, monitored, and enforced commensurate with risk"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of physical access management.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AT-NO-GENERAL-AWARENESS-001-TO-PR.AT-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AT-NO-GENERAL-AWARENESS-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.AT-01", "title": "Personnel are provided with awareness and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of general security awareness training.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AT-NO-SPECIALIZED-TRAINING-002-TO-PR.AT-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AT-NO-SPECIALIZED-TRAINING-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.AT-02", "title": "Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of specialized security training.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-DS-NO-DATA-AT-REST-001-TO-PR.DS-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-DS-NO-DATA-AT-REST-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.DS-01", "title": "The confidentiality, integrity, and availability of data-at-rest are protected"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of data-at-rest protection.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-DS-NO-DATA-IN-TRANSIT-002-TO-PR.DS-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-DS-NO-DATA-IN-TRANSIT-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.DS-02", "title": "The confidentiality, integrity, and availability of data-in-transit are protected"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of data-in-transit protection.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-DS-NO-DATA-IN-USE-010-TO-PR.DS-10",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-DS-NO-DATA-IN-USE-010", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.DS-10", "title": "The confidentiality, integrity, and availability of data-in-use are protected"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of data-in-use protection.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-DS-NO-BACKUP-PROTECTION-011-TO-PR.DS-11",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-DS-NO-BACKUP-PROTECTION-011", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.DS-11", "title": "Backups of data are created, protected, maintained, and tested"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of backup protection.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-PS-NO-CONFIG-MGMT-001-TO-PR.PS-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-PS-NO-CONFIG-MGMT-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.PS-01", "title": "Configuration management practices are established and applied"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of configuration management.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-PS-NO-SOFTWARE-MAINTENANCE-002-TO-PR.PS-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-PS-NO-SOFTWARE-MAINTENANCE-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.PS-02", "title": "Software is maintained, replaced, and removed commensurate with risk"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of software maintenance.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-PS-NO-HARDWARE-MAINTENANCE-003-TO-PR.PS-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-PS-NO-HARDWARE-MAINTENANCE-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.PS-03", "title": "Hardware is maintained, replaced, and removed commensurate with risk"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of hardware maintenance.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-PS-NO-LOG-GENERATION-004-TO-PR.PS-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-PS-NO-LOG-GENERATION-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.PS-04", "title": "Log records are generated and made available for continuous monitoring"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of log generation.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-PS-NO-UNAUTHORIZED-SW-PREVENTION-005-TO-PR.PS-05",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-PS-NO-UNAUTHORIZED-SW-PREVENTION-005", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.PS-05", "title": "Installation and execution of unauthorized software are prevented"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of unauthorized software prevention.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-PS-NO-SECURE-DEV-006-TO-PR.PS-06",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-PS-NO-SECURE-DEV-006", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.PS-06", "title": "Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of secure development practices.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-IR-NO-NETWORK-PROTECTION-001-TO-PR.IR-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-IR-NO-NETWORK-PROTECTION-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.IR-01", "title": "Networks and environments are protected from unauthorized logical access and usage"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of network protection.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-IR-NO-ENVIRONMENTAL-PROTECTION-002-TO-PR.IR-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-IR-NO-ENVIRONMENTAL-PROTECTION-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.IR-02", "title": "The organization's technology assets are protected from environmental threats"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of environmental protection.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-IR-NO-RESILIENCE-MECHANISMS-003-TO-PR.IR-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-IR-NO-RESILIENCE-MECHANISMS-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.IR-03", "title": "Mechanisms are implemented to achieve resilience requirements in normal and adverse situations"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of resilience mechanisms.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-IR-NO-CAPACITY-MGMT-004-TO-PR.IR-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-IR-NO-CAPACITY-MGMT-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "PR.IR-04", "title": "Adequate resource capacity to ensure availability is maintained"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of capacity management.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-CM-NO-NETWORK-MONITORING-001-TO-DE.CM-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-CM-NO-NETWORK-MONITORING-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "DE.CM-01", "title": "Networks and network services are monitored to find potentially adverse events"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of network monitoring.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-CM-NO-PHYSICAL-MONITORING-002-TO-DE.CM-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-CM-NO-PHYSICAL-MONITORING-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "DE.CM-02", "title": "The physical environment is monitored to find potentially adverse events"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of physical monitoring.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-CM-NO-PERSONNEL-MONITORING-003-TO-DE.CM-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-CM-NO-PERSONNEL-MONITORING-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "DE.CM-03", "title": "Personnel activity and technology usage are monitored to find potentially adverse events"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of personnel activity monitoring.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-CM-NO-PROVIDER-MONITORING-006-TO-DE.CM-06",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-CM-NO-PROVIDER-MONITORING-006", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "DE.CM-06", "title": "External service provider activities and services are monitored to find potentially adverse events"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of provider monitoring.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-CM-NO-COMPUTING-MONITORING-009-TO-DE.CM-09",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-CM-NO-COMPUTING-MONITORING-009", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "DE.CM-09", "title": "Computing hardware and software, runtime environments, and their data are monitored to find potentially adverse events"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of computing environment monitoring.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AE-NO-EVENT-ANALYSIS-002-TO-DE.AE-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AE-NO-EVENT-ANALYSIS-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "DE.AE-02", "title": "Potentially adverse events are analyzed to better understand associated activities"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of event analysis.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AE-NO-INFO-CORRELATION-003-TO-DE.AE-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AE-NO-INFO-CORRELATION-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "DE.AE-03", "title": "Information is correlated from multiple sources"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of information correlation.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AE-NO-IMPACT-SCOPE-004-TO-DE.AE-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AE-NO-IMPACT-SCOPE-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "DE.AE-04", "title": "The estimated impact and scope of adverse events are understood"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of impact and scope analysis.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AE-NO-INFO-SHARING-006-TO-DE.AE-06",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AE-NO-INFO-SHARING-006", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "DE.AE-06", "title": "Information on adverse events is provided to authorized staff and tools"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of adverse event information sharing.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AE-NO-THREAT-INTEL-INTEGRATION-007-TO-DE.AE-07",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AE-NO-THREAT-INTEL-INTEGRATION-007", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "DE.AE-07", "title": "Cyber threat intelligence and other contextual information are integrated into the analysis"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of threat intelligence integration.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AE-NO-INCIDENT-DECLARATION-008-TO-DE.AE-08",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AE-NO-INCIDENT-DECLARATION-008", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "DE.AE-08", "title": "Incidents are declared when adverse events meet the defined incident criteria"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of incident declaration process.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-MA-NO-PLAN-EXECUTION-001-TO-RS.MA-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-MA-NO-PLAN-EXECUTION-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RS.MA-01", "title": "The incident response plan is executed in coordination with relevant third parties once an incident is declared"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of incident response plan execution.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-MA-NO-TRIAGE-002-TO-RS.MA-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-MA-NO-TRIAGE-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RS.MA-02", "title": "Incident reports are triaged and validated"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of incident triage.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-MA-NO-CATEGORIZATION-003-TO-RS.MA-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-MA-NO-CATEGORIZATION-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RS.MA-03", "title": "Incidents are categorized and prioritized"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of incident categorization.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-MA-NO-ESCALATION-004-TO-RS.MA-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-MA-NO-ESCALATION-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RS.MA-04", "title": "Incidents are escalated or elevated as needed"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of incident escalation.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-MA-NO-RECOVERY-CRITERIA-005-TO-RS.MA-05",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-MA-NO-RECOVERY-CRITERIA-005", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RS.MA-05", "title": "The criteria for initiating incident recovery are applied"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of recovery criteria.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AN-NO-ROOT-CAUSE-003-TO-RS.AN-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AN-NO-ROOT-CAUSE-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RS.AN-03", "title": "Analysis is performed to establish what has taken place during an incident and the root cause of the incident"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of root cause analysis.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AN-NO-INVESTIGATION-RECORDS-006-TO-RS.AN-06",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AN-NO-INVESTIGATION-RECORDS-006", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RS.AN-06", "title": "Actions performed during an investigation are recorded, and the records' integrity and provenance are preserved"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of investigation records.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AN-NO-DATA-COLLECTION-007-TO-RS.AN-07",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AN-NO-DATA-COLLECTION-007", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RS.AN-07", "title": "Incident data and metadata are collected, and their integrity and provenance are preserved"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of incident data collection.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-AN-NO-MAGNITUDE-ESTIMATION-008-TO-RS.AN-08",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-AN-NO-MAGNITUDE-ESTIMATION-008", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RS.AN-08", "title": "An incident's magnitude is estimated and validated"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of magnitude estimation.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-CO-NO-STAKEHOLDER-NOTIFICATION-002-TO-RS.CO-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-CO-NO-STAKEHOLDER-NOTIFICATION-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RS.CO-02", "title": "Internal and external stakeholders are notified of incidents"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of stakeholder notification.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-CO-NO-INFO-SHARING-003-TO-RS.CO-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-CO-NO-INFO-SHARING-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RS.CO-03", "title": "Information is shared with designated internal and external stakeholders"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of information sharing.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-MI-NO-CONTAINMENT-001-TO-RS.MI-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-MI-NO-CONTAINMENT-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RS.MI-01", "title": "Incidents are contained"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of incident containment.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-MI-NO-ERADICATION-002-TO-RS.MI-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-MI-NO-ERADICATION-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RS.MI-02", "title": "Incidents are eradicated"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of incident eradication.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RP-NO-RECOVERY-EXECUTION-001-TO-RC.RP-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RP-NO-RECOVERY-EXECUTION-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RC.RP-01", "title": "The recovery portion of the incident response plan is executed once initiated from the incident response process"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of recovery execution.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RP-NO-RECOVERY-ACTIONS-002-TO-RC.RP-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RP-NO-RECOVERY-ACTIONS-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RC.RP-02", "title": "Recovery actions are selected, scoped, prioritized, and performed"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of recovery action selection.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RP-NO-BACKUP-INTEGRITY-003-TO-RC.RP-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RP-NO-BACKUP-INTEGRITY-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RC.RP-03", "title": "The integrity of backups and other restoration assets is verified before using them for restoration"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of backup integrity verification.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RP-NO-POST-INCIDENT-NORMS-004-TO-RC.RP-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RP-NO-POST-INCIDENT-NORMS-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RC.RP-04", "title": "Critical mission functions and cybersecurity risk management are considered to establish post-incident operational norms"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of post-incident operational norms.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RP-NO-RESTORATION-VERIFICATION-005-TO-RC.RP-05",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RP-NO-RESTORATION-VERIFICATION-005", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RC.RP-05", "title": "The integrity of restored assets is verified, systems and services are restored, and normal operating status is confirmed"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of restoration verification.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RP-NO-RECOVERY-CLOSURE-006-TO-RC.RP-06",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RP-NO-RECOVERY-CLOSURE-006", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RC.RP-06", "title": "The end of incident recovery is declared based on criteria, and incident-related documentation is completed"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of recovery closure.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RCOM-NO-RECOVERY-COMMS-003-TO-RC.CO-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RCOM-NO-RECOVERY-COMMS-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RC.CO-03", "title": "Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of recovery communications.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RCOM-NO-PUBLIC-UPDATES-004-TO-RC.CO-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RCOM-NO-PUBLIC-UPDATES-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "RC.CO-04", "title": "Public updates on incident recovery are shared using approved methods and messaging"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of public recovery updates.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-OC-NO-MISSION-UNDERSTANDING-001-TO-GV.OC-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-OC-NO-MISSION-UNDERSTANDING-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.OC-01", "title": "The organizational mission is understood and informs cybersecurity risk management"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of mission understanding.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-OC-NO-STAKEHOLDER-COMMS-002-TO-GV.OC-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-OC-NO-STAKEHOLDER-COMMS-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.OC-02", "title": "Internal and external stakeholders are understood, and their needs and expectations regarding cybersecurity risk management are understood and considered"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of stakeholder communications.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-OC-NO-LEGAL-REQUIREMENTS-003-TO-GV.OC-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-OC-NO-LEGAL-REQUIREMENTS-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.OC-03", "title": "Legal, regulatory, and contractual requirements regarding cybersecurity — including privacy and civil liberties obligations — are understood and managed"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of legal requirements understanding.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-OC-NO-CRITICAL-OBJECTIVES-004-TO-GV.OC-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-OC-NO-CRITICAL-OBJECTIVES-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.OC-04", "title": "Critical objectives, capabilities, and services that external stakeholders depend on or expect from the organization are understood and communicated"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of critical objectives understanding.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-OC-NO-OUTCOMES-PRIORITIZED-005-TO-GV.OC-05",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-OC-NO-OUTCOMES-PRIORITIZED-005", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.OC-05", "title": "Outcomes, capabilities, and services that the organization depends on are understood and communicated"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of outcomes prioritization.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RM-NO-RISK-MGMT-OBJECTIVES-001-TO-GV.RM-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RM-NO-RISK-MGMT-OBJECTIVES-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.RM-01", "title": "Risk management objectives are established and agreed to by organizational stakeholders"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of risk management objectives.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RM-NO-RISK-APPETITE-002-TO-GV.RM-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RM-NO-RISK-APPETITE-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.RM-02", "title": "Risk appetite and risk tolerance statements are established, communicated, and maintained"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of risk appetite statements.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RM-NO-RISK-ACTIVITIES-003-TO-GV.RM-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RM-NO-RISK-ACTIVITIES-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.RM-03", "title": "Cybersecurity risk management activities and outcomes are included in enterprise risk management processes"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of cybersecurity in ERM.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RM-NO-STRATEGIC-DIRECTION-004-TO-GV.RM-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RM-NO-STRATEGIC-DIRECTION-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.RM-04", "title": "Strategic direction that describes appropriate risk response options is established and communicated"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of strategic direction.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RM-NO-SUPPLY-CHAIN-LINES-005-TO-GV.RM-05",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RM-NO-SUPPLY-CHAIN-LINES-005", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.RM-05", "title": "Lines of communication across the organization are established for cybersecurity risks, including risks from suppliers and other third parties"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of supply chain communication lines.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RM-NO-RISK-MGMT-METHOD-006-TO-GV.RM-06",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RM-NO-RISK-MGMT-METHOD-006", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.RM-06", "title": "A standardized method for calculating, documenting, categorizing, and prioritizing cybersecurity risks is established and communicated"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of risk management methodology.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RM-NO-STRATEGIC-OPPORTUNITIES-007-TO-GV.RM-07",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RM-NO-STRATEGIC-OPPORTUNITIES-007", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.RM-07", "title": "Strategic opportunities (i.e., positive risks) are characterized and are included in organizational cybersecurity risk discussions"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of strategic opportunity consideration.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RR-NO-LEADERSHIP-ACCOUNTABILITY-001-TO-GV.RR-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RR-NO-LEADERSHIP-ACCOUNTABILITY-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.RR-01", "title": "Organizational leadership is responsible and accountable for cybersecurity risk and fosters a culture that is risk-aware, ethical, and continually improving"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of leadership accountability.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RR-NO-ROLES-DEFINED-002-TO-GV.RR-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RR-NO-ROLES-DEFINED-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.RR-02", "title": "Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, understood, and enforced"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of defined roles.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RR-NO-ADEQUATE-RESOURCES-003-TO-GV.RR-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RR-NO-ADEQUATE-RESOURCES-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.RR-03", "title": "Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of adequate resources.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RR-NO-PERFORMANCE-ASSESSMENT-004-TO-GV.RR-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RR-NO-PERFORMANCE-ASSESSMENT-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.RR-04", "title": "Cybersecurity is included in human resources practices"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of cybersecurity in HR practices.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-PO-NO-POLICY-ESTABLISHED-001-TO-GV.PO-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-PO-NO-POLICY-ESTABLISHED-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.PO-01", "title": "Policy for managing cybersecurity risks is established based on organizational context, cybersecurity strategy, and priorities and is communicated and enforced"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of cybersecurity policy.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-PO-NO-POLICY-REVIEW-002-TO-GV.PO-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-PO-NO-POLICY-REVIEW-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.PO-02", "title": "Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced to reflect changes in requirements, threats, technology, and organizational mission"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of policy review.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-OV-NO-STRATEGY-REVIEW-001-TO-GV.OV-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-OV-NO-STRATEGY-REVIEW-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.OV-01", "title": "Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of strategy review.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-OV-NO-ADJUSTMENT-STRATEGY-002-TO-GV.OV-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-OV-NO-ADJUSTMENT-STRATEGY-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.OV-02", "title": "The cybersecurity risk management strategy is reviewed and adjusted to ensure coverage of organizational requirements and risks"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of strategy adjustment.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-OV-NO-PERFORMANCE-EVALUATION-003-TO-GV.OV-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-OV-NO-PERFORMANCE-EVALUATION-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.OV-03", "title": "Organizational cybersecurity risk management performance is evaluated and reviewed for adjustments needed"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of performance evaluation.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-SC-NO-SCRM-PROGRAM-001-TO-GV.SC-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-SC-NO-SCRM-PROGRAM-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.SC-01", "title": "A cybersecurity supply chain risk management program, strategy, objectives, policies, and processes are established and agreed to by organizational stakeholders"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of supply chain risk management program.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-SC-NO-SCRM-ROLES-002-TO-GV.SC-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-SC-NO-SCRM-ROLES-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.SC-02", "title": "Cybersecurity roles and responsibilities for suppliers, customers, and partners are established, communicated, and coordinated internally and externally"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of SCRM roles.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-SC-NO-SCRM-INTEGRATION-003-TO-GV.SC-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-SC-NO-SCRM-INTEGRATION-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.SC-03", "title": "Cybersecurity supply chain risk management is integrated into cybersecurity and enterprise risk management, risk assessment, and improvement processes"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of SCRM integration.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-SC-NO-SUPPLIER-KNOWLEDGE-004-TO-GV.SC-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-SC-NO-SUPPLIER-KNOWLEDGE-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.SC-04", "title": "Suppliers are known and prioritized by criticality"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of supplier knowledge.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-SC-NO-SUPPLIER-REQUIREMENTS-005-TO-GV.SC-05",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-SC-NO-SUPPLIER-REQUIREMENTS-005", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.SC-05", "title": "Requirements to address cybersecurity risks in supply chains are established, prioritized, and integrated into contracts and other types of agreements with suppliers and other relevant third parties"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of supplier requirements.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-SC-NO-DUE-DILIGENCE-006-TO-GV.SC-06",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-SC-NO-DUE-DILIGENCE-006", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.SC-06", "title": "Planning and due diligence are performed to reduce risks before entering into formal supplier or other third-party relationships"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of due diligence.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-SC-NO-SUPPLIER-RISKS-007-TO-GV.SC-07",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-SC-NO-SUPPLIER-RISKS-007", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.SC-07", "title": "The risks posed by a supplier, their products and services, and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored over the course of the relationship"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of supplier risk understanding.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-SC-NO-CRITICAL-SUPPLIERS-008-TO-GV.SC-08",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-SC-NO-CRITICAL-SUPPLIERS-008", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.SC-08", "title": "Relevant suppliers and other third parties are included in incident planning, response, and recovery activities"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of supplier inclusion in incident activities.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-SC-NO-SCRM-PRACTICES-009-TO-GV.SC-09",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-SC-NO-SCRM-PRACTICES-009", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.SC-09", "title": "Supply chain security practices are integrated into cybersecurity and enterprise risk management programs, and their performance is monitored throughout the technology product and service life cycle"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of SCRM practice integration.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-SC-NO-POST-ACQUISITION-010-TO-GV.SC-10",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-SC-NO-POST-ACQUISITION-010", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "GV.SC-10", "title": "Cybersecurity supply chain risk management plans include provisions for activities that occur after the conclusion of a partnership or service agreement"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of post-acquisition provisions.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RA-NO-VULN-IDENTIFICATION-001-TO-ID.RA-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RA-NO-VULN-IDENTIFICATION-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.RA-01", "title": "Vulnerabilities in assets are identified, validated, and recorded"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of vulnerability identification.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RA-NO-THREAT-INTEL-002-TO-ID.RA-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RA-NO-THREAT-INTEL-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.RA-02", "title": "Cyber threat intelligence is received from information sharing forums and sources"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of threat intelligence.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RA-NO-THREAT-IDENTIFICATION-003-TO-ID.RA-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RA-NO-THREAT-IDENTIFICATION-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.RA-03", "title": "Internal and external threats to the organization are identified and recorded"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of threat identification.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RA-NO-IMPACT-LIKELIHOOD-004-TO-ID.RA-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RA-NO-IMPACT-LIKELIHOOD-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.RA-04", "title": "Potential impacts and likelihoods of threats exploiting vulnerabilities are identified and recorded"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of impact/likelihood analysis.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RA-NO-RISK-UNDERSTANDING-005-TO-ID.RA-05",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RA-NO-RISK-UNDERSTANDING-005", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.RA-05", "title": "Threats, vulnerabilities, likelihoods, and impacts are used to understand inherent risk and inform risk response prioritization"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of risk understanding.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RA-NO-RISK-RESPONSE-006-TO-ID.RA-06",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RA-NO-RISK-RESPONSE-006", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.RA-06", "title": "Risk responses are chosen, prioritized, planned, tracked, and communicated"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of risk response.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RA-NO-CHANGE-MGMT-007-TO-ID.RA-07",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RA-NO-CHANGE-MGMT-007", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.RA-07", "title": "Changes and exceptions are managed, assessed for risk impact, recorded, and tracked"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of change management.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RA-NO-VULN-DISCLOSURE-008-TO-ID.RA-08",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RA-NO-VULN-DISCLOSURE-008", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.RA-08", "title": "Processes for receiving, analyzing, and responding to vulnerability disclosures are established"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of vulnerability disclosure processes.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RA-NO-HW-SW-INTEGRITY-009-TO-ID.RA-09",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RA-NO-HW-SW-INTEGRITY-009", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.RA-09", "title": "The authenticity and integrity of hardware and software are assessed prior to acquisition and use"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of hardware/software integrity assessment.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-RA-NO-SUPPLIER-ASSESSMENT-010-TO-ID.RA-10",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-RA-NO-SUPPLIER-ASSESSMENT-010", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.RA-10", "title": "Critical suppliers are assessed prior to acquisition"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of supplier assessment.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-IM-NO-EVALUATION-IMPROVEMENTS-001-TO-ID.IM-01",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-IM-NO-EVALUATION-IMPROVEMENTS-001", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.IM-01", "title": "Improvements are identified from evaluations"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of evaluation improvements.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-IM-NO-TEST-IMPROVEMENTS-002-TO-ID.IM-02",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-IM-NO-TEST-IMPROVEMENTS-002", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.IM-02", "title": "Improvements are identified from security tests and exercises, including those done in coordination with suppliers and relevant third parties"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of test-based improvements.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-IM-NO-OPERATIONAL-IMPROVEMENTS-003-TO-ID.IM-03",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-IM-NO-OPERATIONAL-IMPROVEMENTS-003", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.IM-03", "title": "Improvements are identified from execution of operational processes, procedures, and activities"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of operational improvements.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    },
+    {
+      "id": "MAP-CSE-NISTCSF-IM-NO-PLANS-MAINTAINED-004-TO-ID.IM-04",
+      "source": {"type": "cse-signal", "id": "CSE-NISTCSF-IM-NO-PLANS-MAINTAINED-004", "version": "1.0.0"},
+      "target": {"type": "control", "framework": "NIST-CSF-2.0", "version": "2.0", "id": "ID.IM-04", "title": "Incident response plans and other cybersecurity plans that affect operations are established, communicated, maintained, and improved"},
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
+      "justification": "Signal directly addresses absence of maintained plans.",
+      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+    }
+  ]
+}

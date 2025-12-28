@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cse-registry.org/schemas/control.schema.json",
+  "title": "CSE Control Definition",
+  "description": "Schema for framework control definitions used in CSE mappings",
+  "type": "object",
+  "required": ["id", "framework", "title"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Control identifier within the framework"
+    },
+    "framework": {
+      "type": "string",
+      "description": "Parent framework identifier",
+      "pattern": "^[A-Z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Control title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Full control description text"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Control family or domain within framework"
+    },
+    "level": {
+      "type": "string",
+      "description": "Maturity or implementation level"
+    },
+    "parent": {
+      "type": "string",
+      "description": "Parent control ID for hierarchical controls"
+    },
+    "children": {
+      "type": "array",
+      "description": "Child control IDs",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_reference": {
+      "type": "string",
+      "description": "Original source reference (e.g., NIST SP 800-171)"
+    },
+    "keywords": {
+      "type": "array",
+      "description": "Keywords for search and categorization",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_controls": {
+      "type": "array",
+      "description": "Related controls within the same framework",
+      "items": {
+        "type": "string"
+      }
+    },
+    "metadata": {
+      "$ref": "#/$defs/controlMetadata"
+    }
+  },
+  "$defs": {
+    "controlMetadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "created": {
+          "type": "string",
+          "description": "When this definition was created",
+          "format": "date-time"
+        },
+        "updated": {
+          "type": "string",
+          "description": "When this definition was last updated",
+          "format": "date-time"
+        },
+        "status": {
+          "type": "string",
+          "description": "Control status",
+          "enum": ["active", "deprecated", "withdrawn"]
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional context"
+        }
+      }
+    }
+  }
+}

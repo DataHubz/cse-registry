@@ -1,0 +1,386 @@
+{
+  "framework": "PCI-DSS-4.0",
+  "version": "4.0",
+  "generated": "2025-12-28T00:00:00Z",
+  "control_count": 64,
+  "controls": [
+    {
+      "id": "1.1",
+      "domain": "1",
+      "title": "Network Security Controls Defined and Understood",
+      "description": "Processes and mechanisms for installing and maintaining network security controls are defined and understood."
+    },
+    {
+      "id": "1.2",
+      "domain": "1",
+      "title": "Network Security Controls Configured and Maintained",
+      "description": "Network security controls (NSCs) are configured and maintained."
+    },
+    {
+      "id": "1.3",
+      "domain": "1",
+      "title": "Network Access Restricted",
+      "description": "Network access to and from the cardholder data environment is restricted."
+    },
+    {
+      "id": "1.4",
+      "domain": "1",
+      "title": "Connections Controlled Between Networks",
+      "description": "Network connections between trusted and untrusted networks are controlled."
+    },
+    {
+      "id": "1.5",
+      "domain": "1",
+      "title": "Risks to CDE from Computing Devices Mitigated",
+      "description": "Risks to the CDE from computing devices that are able to connect to both untrusted networks and the CDE are mitigated."
+    },
+    {
+      "id": "2.1",
+      "domain": "2",
+      "title": "Secure Configuration Processes Defined",
+      "description": "Processes and mechanisms for applying secure configurations to all system components are defined and understood."
+    },
+    {
+      "id": "2.2",
+      "domain": "2",
+      "title": "System Components Configured Securely",
+      "description": "System components are configured and managed securely."
+    },
+    {
+      "id": "2.3",
+      "domain": "2",
+      "title": "Wireless Environments Configured Securely",
+      "description": "Wireless environments are configured and managed securely."
+    },
+    {
+      "id": "3.1",
+      "domain": "3",
+      "title": "Account Data Protection Processes Defined",
+      "description": "Processes and mechanisms for protecting stored account data are defined and understood."
+    },
+    {
+      "id": "3.2",
+      "domain": "3",
+      "title": "Sensitive Authentication Data Not Stored",
+      "description": "Storage of account data is kept to a minimum."
+    },
+    {
+      "id": "3.3",
+      "domain": "3",
+      "title": "Sensitive Authentication Data Secured",
+      "description": "Sensitive authentication data (SAD) is not stored after authorization."
+    },
+    {
+      "id": "3.4",
+      "domain": "3",
+      "title": "PAN Access Restricted",
+      "description": "Access to displays of full PAN and ability to copy cardholder data are restricted."
+    },
+    {
+      "id": "3.5",
+      "domain": "3",
+      "title": "PAN Rendered Unreadable",
+      "description": "Primary account number (PAN) is secured wherever it is stored."
+    },
+    {
+      "id": "3.6",
+      "domain": "3",
+      "title": "Cryptographic Keys Protected",
+      "description": "Cryptographic keys used to protect stored account data are secured."
+    },
+    {
+      "id": "3.7",
+      "domain": "3",
+      "title": "Account Data Retention Minimized",
+      "description": "Where cryptography is used to protect stored account data, key management processes and procedures covering all aspects of the key lifecycle are defined and implemented."
+    },
+    {
+      "id": "4.1",
+      "domain": "4",
+      "title": "Transmission Protection Processes Defined",
+      "description": "Processes and mechanisms for protecting cardholder data with strong cryptography during transmission over open, public networks are defined and documented."
+    },
+    {
+      "id": "4.2",
+      "domain": "4",
+      "title": "PAN Protected During Transmission",
+      "description": "PAN is protected with strong cryptography during transmission."
+    },
+    {
+      "id": "5.1",
+      "domain": "5",
+      "title": "Malware Protection Processes Defined",
+      "description": "Processes and mechanisms for protecting all systems and networks from malicious software are defined and understood."
+    },
+    {
+      "id": "5.2",
+      "domain": "5",
+      "title": "Malware Prevented or Detected",
+      "description": "Malicious software (malware) is prevented, or detected and addressed."
+    },
+    {
+      "id": "5.3",
+      "domain": "5",
+      "title": "Anti-malware Solutions Active",
+      "description": "Anti-malware mechanisms and processes are active, maintained, and monitored."
+    },
+    {
+      "id": "5.4",
+      "domain": "5",
+      "title": "Phishing Protections in Place",
+      "description": "Anti-phishing mechanisms protect users against phishing attacks."
+    },
+    {
+      "id": "6.1",
+      "domain": "6",
+      "title": "Secure Development Processes Defined",
+      "description": "Processes and mechanisms for developing and maintaining secure systems and software are defined and understood."
+    },
+    {
+      "id": "6.2",
+      "domain": "6",
+      "title": "Bespoke and Custom Software Developed Securely",
+      "description": "Bespoke and custom software are developed securely."
+    },
+    {
+      "id": "6.3",
+      "domain": "6",
+      "title": "Security Vulnerabilities Identified and Addressed",
+      "description": "Security vulnerabilities are identified and addressed."
+    },
+    {
+      "id": "6.4",
+      "domain": "6",
+      "title": "Public-facing Web Applications Protected",
+      "description": "Public-facing web applications are protected against attacks."
+    },
+    {
+      "id": "6.5",
+      "domain": "6",
+      "title": "Changes Managed Securely",
+      "description": "Changes to all system components are managed securely."
+    },
+    {
+      "id": "7.1",
+      "domain": "7",
+      "title": "Access Restriction Processes Defined",
+      "description": "Processes and mechanisms for restricting access to system components and cardholder data by business need to know are defined and understood."
+    },
+    {
+      "id": "7.2",
+      "domain": "7",
+      "title": "Access Appropriately Defined",
+      "description": "Access to system components and data is appropriately defined and assigned."
+    },
+    {
+      "id": "7.3",
+      "domain": "7",
+      "title": "Access Managed via Access Control System",
+      "description": "Access to system components and data is managed via an access control system(s)."
+    },
+    {
+      "id": "8.1",
+      "domain": "8",
+      "title": "User Identification Processes Defined",
+      "description": "Processes and mechanisms for identifying users and authenticating access to system components are defined and understood."
+    },
+    {
+      "id": "8.2",
+      "domain": "8",
+      "title": "User Identification Implemented",
+      "description": "User identification and related accounts for users and administrators are strictly managed throughout an account's lifecycle."
+    },
+    {
+      "id": "8.3",
+      "domain": "8",
+      "title": "Strong Authentication Established",
+      "description": "Strong authentication for users and administrators is established and managed."
+    },
+    {
+      "id": "8.4",
+      "domain": "8",
+      "title": "Multi-Factor Authentication Implemented",
+      "description": "Multi-factor authentication (MFA) is implemented to secure access into the CDE."
+    },
+    {
+      "id": "8.5",
+      "domain": "8",
+      "title": "MFA Systems Configured Properly",
+      "description": "Multi-factor authentication (MFA) systems are configured to prevent misuse."
+    },
+    {
+      "id": "8.6",
+      "domain": "8",
+      "title": "Application and System Account Use Managed",
+      "description": "Use of application and system accounts and associated authentication factors is strictly managed."
+    },
+    {
+      "id": "9.1",
+      "domain": "9",
+      "title": "Physical Access Processes Defined",
+      "description": "Processes and mechanisms for restricting physical access to cardholder data are defined and understood."
+    },
+    {
+      "id": "9.2",
+      "domain": "9",
+      "title": "Physical Access Controls Manage Entry",
+      "description": "Physical access controls manage entry into facilities and systems containing cardholder data."
+    },
+    {
+      "id": "9.3",
+      "domain": "9",
+      "title": "Physical Access for Personnel Authorized",
+      "description": "Physical access for personnel and visitors is authorized and managed."
+    },
+    {
+      "id": "9.4",
+      "domain": "9",
+      "title": "Media with Cardholder Data Secured",
+      "description": "Media with cardholder data is securely stored, accessed, distributed, and destroyed."
+    },
+    {
+      "id": "9.5",
+      "domain": "9",
+      "title": "POI Devices Protected from Tampering",
+      "description": "Point of interaction (POI) devices are protected from tampering and unauthorized substitution."
+    },
+    {
+      "id": "10.1",
+      "domain": "10",
+      "title": "Logging Processes Defined",
+      "description": "Processes and mechanisms for logging and monitoring all access to system components and cardholder data are defined and documented."
+    },
+    {
+      "id": "10.2",
+      "domain": "10",
+      "title": "Audit Logs Implemented",
+      "description": "Audit logs are implemented to support the detection of anomalies and suspicious activity."
+    },
+    {
+      "id": "10.3",
+      "domain": "10",
+      "title": "Audit Logs Protected from Destruction",
+      "description": "Audit logs are protected from destruction and unauthorized modifications."
+    },
+    {
+      "id": "10.4",
+      "domain": "10",
+      "title": "Audit Logs Reviewed",
+      "description": "Audit logs are reviewed to identify anomalies or suspicious activity."
+    },
+    {
+      "id": "10.5",
+      "domain": "10",
+      "title": "Audit Log History Retained",
+      "description": "Audit log history is retained and available for analysis."
+    },
+    {
+      "id": "10.6",
+      "domain": "10",
+      "title": "Time Synchronization Mechanisms Implemented",
+      "description": "Time-synchronization mechanisms support consistent time settings across all systems."
+    },
+    {
+      "id": "10.7",
+      "domain": "10",
+      "title": "Critical Security Control Failures Detected",
+      "description": "Failures of critical security control systems are detected, reported, and responded to promptly."
+    },
+    {
+      "id": "11.1",
+      "domain": "11",
+      "title": "Security Testing Processes Defined",
+      "description": "Processes and mechanisms for regularly testing security of systems and networks are defined and understood."
+    },
+    {
+      "id": "11.2",
+      "domain": "11",
+      "title": "Wireless Access Points Identified and Monitored",
+      "description": "Wireless access points are identified and monitored, and unauthorized wireless access points are addressed."
+    },
+    {
+      "id": "11.3",
+      "domain": "11",
+      "title": "Vulnerabilities Identified and Addressed",
+      "description": "External and internal vulnerabilities are regularly identified, prioritized, and addressed."
+    },
+    {
+      "id": "11.4",
+      "domain": "11",
+      "title": "Penetration Testing Performed",
+      "description": "External and internal penetration testing is regularly performed, and exploitable vulnerabilities and security weaknesses are corrected."
+    },
+    {
+      "id": "11.5",
+      "domain": "11",
+      "title": "Intrusions Detected and Responded To",
+      "description": "Network intrusions and unexpected file changes are detected and responded to."
+    },
+    {
+      "id": "11.6",
+      "domain": "11",
+      "title": "Payment Page Changes Detected",
+      "description": "Unauthorized changes on payment pages are detected and responded to."
+    },
+    {
+      "id": "12.1",
+      "domain": "12",
+      "title": "Security Policies and Procedures Defined",
+      "description": "A comprehensive information security policy that governs and provides direction for protection of the entity's information assets is known and current."
+    },
+    {
+      "id": "12.2",
+      "domain": "12",
+      "title": "Acceptable Use Policies Defined",
+      "description": "Acceptable use policies for end-user technologies are defined and implemented."
+    },
+    {
+      "id": "12.3",
+      "domain": "12",
+      "title": "Risks Formally Identified and Addressed",
+      "description": "Risks to the cardholder data environment are formally identified, evaluated, and managed."
+    },
+    {
+      "id": "12.4",
+      "domain": "12",
+      "title": "PCI DSS Compliance Program Managed",
+      "description": "PCI DSS compliance is managed."
+    },
+    {
+      "id": "12.5",
+      "domain": "12",
+      "title": "PCI DSS Scope Documented",
+      "description": "PCI DSS scope is documented and validated."
+    },
+    {
+      "id": "12.6",
+      "domain": "12",
+      "title": "Security Awareness Program Implemented",
+      "description": "Security awareness education is an ongoing activity."
+    },
+    {
+      "id": "12.7",
+      "domain": "12",
+      "title": "Personnel Screened",
+      "description": "Personnel are screened to reduce risks from insider threats."
+    },
+    {
+      "id": "12.8",
+      "domain": "12",
+      "title": "Third Party Service Providers Managed",
+      "description": "Risk to information assets associated with third-party service provider (TPSP) relationships is managed."
+    },
+    {
+      "id": "12.9",
+      "domain": "12",
+      "title": "TPSP PCI DSS Compliance Managed",
+      "description": "Third-party service providers (TPSPs) support their customers' PCI DSS compliance."
+    },
+    {
+      "id": "12.10",
+      "domain": "12",
+      "title": "Security Incidents Responded To",
+      "description": "Suspected and confirmed security incidents that could impact the CDE are responded to immediately."
+    }
+  ]
+}

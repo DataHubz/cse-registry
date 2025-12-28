@@ -1,0 +1,3927 @@
+{
+  "metadata": {
+    "framework": "FEDRAMP",
+    "cse_registry_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "generated": "2025-12-28T00:00:00Z",
+    "mapping_count": 145,
+    "description": "Signal-to-control mappings for FedRAMP domain signals to NIST 800-53 controls"
+  },
+  "mappings": [
+    {
+      "id": "MAP-CSE-FEDRAMP-AC-NO-ACCESS-ENFORCEMENT-003-TO-AC-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AC-NO-ACCESS-ENFORCEMENT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AC-3",
+        "title": "Access Enforcement"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Access Enforcement.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AC-NO-ACCESS-POLICY-001-TO-AC-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AC-NO-ACCESS-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AC-1",
+        "title": "Access Control Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Access Control Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AC-NO-ACCOUNT-MGMT-002-TO-AC-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AC-NO-ACCOUNT-MGMT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AC-2",
+        "title": "Account Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Account Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AC-NO-FAILED-LOGON-007-TO-AC-7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AC-NO-FAILED-LOGON-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AC-7",
+        "title": "Unsuccessful Logon Attempts"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Unsuccessful Logon Attempts.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AC-NO-INFO-FLOW-004-TO-AC-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AC-NO-INFO-FLOW-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AC-4",
+        "title": "Information Flow Enforcement"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Information Flow Enforcement.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AC-NO-LEAST-PRIVILEGE-006-TO-AC-6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AC-NO-LEAST-PRIVILEGE-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AC-6",
+        "title": "Least Privilege"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Least Privilege.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AC-NO-MOBILE-DEVICE-012-TO-AC-19",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AC-NO-MOBILE-DEVICE-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AC-19",
+        "title": "Mobile Device Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Mobile Device Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AC-NO-REMOTE-ACCESS-010-TO-AC-17",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AC-NO-REMOTE-ACCESS-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AC-17",
+        "title": "Remote Access Controls"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Remote Access Controls.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AC-NO-SEP-OF-DUTIES-005-TO-AC-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AC-NO-SEP-OF-DUTIES-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AC-5",
+        "title": "Separation of Duties"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Separation of Duties.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AC-NO-SESSION-LOCK-008-TO-AC-11",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AC-NO-SESSION-LOCK-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AC-11",
+        "title": "Session Lock"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Session Lock.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AC-NO-SESSION-TERM-009-TO-AC-12",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AC-NO-SESSION-TERM-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AC-12",
+        "title": "Session Termination"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Session Termination.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AC-NO-WIRELESS-ACCESS-011-TO-AC-18",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AC-NO-WIRELESS-ACCESS-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AC-18",
+        "title": "Wireless Access Controls"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Wireless Access Controls.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AT-NO-AWARENESS-TRAINING-002-TO-AT-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AT-NO-AWARENESS-TRAINING-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AT-2",
+        "title": "Security Awareness Training"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Security Awareness Training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AT-NO-ROLE-TRAINING-003-TO-AT-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AT-NO-ROLE-TRAINING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AT-3",
+        "title": "Role-Based Security Training"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Role-Based Security Training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AT-NO-TRAINING-POLICY-001-TO-AT-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AT-NO-TRAINING-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AT-1",
+        "title": "Security Training Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Security Training Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AT-NO-TRAINING-RECORDS-004-TO-AT-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AT-NO-TRAINING-RECORDS-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AT-4",
+        "title": "Training Records"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Training Records.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AU-NO-AUDIT-CONTENT-003-TO-AU-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AU-NO-AUDIT-CONTENT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AU-3",
+        "title": "Audit Content Requirements"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Audit Content Requirements.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AU-NO-AUDIT-EVENTS-002-TO-AU-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AU-NO-AUDIT-EVENTS-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AU-2",
+        "title": "Audit Events"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Audit Events.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AU-NO-AUDIT-FAILURE-005-TO-AU-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AU-NO-AUDIT-FAILURE-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AU-5",
+        "title": "Audit Failure Response"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Audit Failure Response.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AU-NO-AUDIT-GENERATION-008-TO-AU-12",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AU-NO-AUDIT-GENERATION-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AU-12",
+        "title": "Audit Record Generation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Audit Record Generation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AU-NO-AUDIT-POLICY-001-TO-AU-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AU-NO-AUDIT-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AU-1",
+        "title": "Audit Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Audit Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AU-NO-AUDIT-RETENTION-007-TO-AU-11",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AU-NO-AUDIT-RETENTION-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AU-11",
+        "title": "Audit Record Retention"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Audit Record Retention.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AU-NO-AUDIT-REVIEW-006-TO-AU-6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AU-NO-AUDIT-REVIEW-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AU-6",
+        "title": "Audit Record Review"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Audit Record Review.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-AU-NO-AUDIT-STORAGE-004-TO-AU-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-AU-NO-AUDIT-STORAGE-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "AU-4",
+        "title": "Audit Log Storage Capacity"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Audit Log Storage Capacity.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CA-NO-ASSESSMENT-POLICY-001-TO-CA-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CA-NO-ASSESSMENT-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CA-1",
+        "title": "Assessment Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Assessment Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CA-NO-AUTHORIZATION-005-TO-CA-6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CA-NO-AUTHORIZATION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CA-6",
+        "title": "Authorization Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Authorization Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CA-NO-CONTINUOUS-MONITORING-006-TO-CA-7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CA-NO-CONTINUOUS-MONITORING-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CA-7",
+        "title": "Continuous Monitoring"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Continuous Monitoring.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CA-NO-CONTROL-ASSESSMENT-002-TO-CA-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CA-NO-CONTROL-ASSESSMENT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CA-2",
+        "title": "Control Assessments"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Control Assessments.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CA-NO-INTERCONNECTIONS-003-TO-CA-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CA-NO-INTERCONNECTIONS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CA-3",
+        "title": "System Interconnection Authorization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for System Interconnection Authorization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CA-NO-POA-M-004-TO-CA-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CA-NO-POA-M-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CA-5",
+        "title": "Plan of Action and Milestones"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Plan of Action and Milestones.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CM-NO-ACCESS-RESTRICTIONS-005-TO-CM-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CM-NO-ACCESS-RESTRICTIONS-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CM-5",
+        "title": "Access Restrictions for Changes"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Access Restrictions for Changes.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CM-NO-BASELINE-002-TO-CM-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CM-NO-BASELINE-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CM-2",
+        "title": "Baseline Configuration"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Baseline Configuration.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CM-NO-CHANGE-CONTROL-003-TO-CM-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CM-NO-CHANGE-CONTROL-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CM-3",
+        "title": "Configuration Change Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Configuration Change Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CM-NO-CONFIG-POLICY-001-TO-CM-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CM-NO-CONFIG-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CM-1",
+        "title": "Configuration Management Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Configuration Management Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CM-NO-CONFIG-SETTINGS-006-TO-CM-6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CM-NO-CONFIG-SETTINGS-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CM-6",
+        "title": "Configuration Settings"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Configuration Settings.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CM-NO-IMPACT-ANALYSIS-004-TO-CM-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CM-NO-IMPACT-ANALYSIS-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CM-4",
+        "title": "Impact Analysis"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Impact Analysis.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CM-NO-INVENTORY-008-TO-CM-8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CM-NO-INVENTORY-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CM-8",
+        "title": "System Component Inventory"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for System Component Inventory.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CM-NO-LEAST-FUNCTIONALITY-007-TO-CM-7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CM-NO-LEAST-FUNCTIONALITY-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CM-7",
+        "title": "Least Functionality"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Least Functionality.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CM-NO-SW-USAGE-009-TO-CM-10",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CM-NO-SW-USAGE-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CM-10",
+        "title": "Software Usage Restrictions"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Software Usage Restrictions.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CP-NO-ALTERNATE-PROCESSING-006-TO-CP-7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CP-NO-ALTERNATE-PROCESSING-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CP-7",
+        "title": "Alternate Processing Site"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Alternate Processing Site.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CP-NO-ALTERNATE-STORAGE-005-TO-CP-6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CP-NO-ALTERNATE-STORAGE-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CP-6",
+        "title": "Alternate Storage Site"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Alternate Storage Site.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CP-NO-BACKUP-007-TO-CP-9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CP-NO-BACKUP-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CP-9",
+        "title": "System Backup"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for System Backup.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CP-NO-CONTINGENCY-PLAN-002-TO-CP-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CP-NO-CONTINGENCY-PLAN-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CP-2",
+        "title": "Contingency Plan"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Contingency Plan.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CP-NO-CONTINGENCY-POLICY-001-TO-CP-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CP-NO-CONTINGENCY-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CP-1",
+        "title": "Contingency Planning Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Contingency Planning Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CP-NO-CONTINGENCY-TESTING-004-TO-CP-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CP-NO-CONTINGENCY-TESTING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CP-4",
+        "title": "Contingency Plan Testing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Contingency Plan Testing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CP-NO-CONTINGENCY-TRAINING-003-TO-CP-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CP-NO-CONTINGENCY-TRAINING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CP-3",
+        "title": "Contingency Training"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Contingency Training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-CP-NO-RECOVERY-008-TO-CP-10",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CP-NO-RECOVERY-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "CP-10",
+        "title": "System Recovery and Reconstitution"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for System Recovery and Reconstitution.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IA-NO-AUTH-FEEDBACK-006-TO-IA-6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IA-NO-AUTH-FEEDBACK-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IA-6",
+        "title": "Authentication Feedback Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Authentication Feedback Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IA-NO-AUTH-MGMT-005-TO-IA-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IA-NO-AUTH-MGMT-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IA-5",
+        "title": "Authenticator Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Authenticator Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IA-NO-CRYPTO-AUTH-007-TO-IA-7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IA-NO-CRYPTO-AUTH-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IA-7",
+        "title": "Cryptographic Module Authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Cryptographic Module Authentication.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IA-NO-DEVICE-IDENT-003-TO-IA-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IA-NO-DEVICE-IDENT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IA-3",
+        "title": "Device Identification and Authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Device Identification and Authentication.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IA-NO-IDENT-POLICY-001-TO-IA-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IA-NO-IDENT-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IA-1",
+        "title": "Identification and Authentication Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Identification and Authentication Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IA-NO-IDENTIFIER-MGMT-004-TO-IA-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IA-NO-IDENTIFIER-MGMT-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IA-4",
+        "title": "Identifier Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Identifier Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IA-NO-PKI-IDENT-008-TO-IA-8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IA-NO-PKI-IDENT-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IA-8",
+        "title": "Non-Organizational User Identification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Non-Organizational User Identification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IA-NO-REPLAY-RESISTANCE-010-TO-IA-11",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IA-NO-REPLAY-RESISTANCE-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IA-11",
+        "title": "Re-authentication Requirements"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Re-authentication Requirements.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IA-NO-SERVICE-IDENT-009-TO-IA-9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IA-NO-SERVICE-IDENT-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IA-9",
+        "title": "Service Identification and Authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Service Identification and Authentication.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IA-NO-USER-IDENT-002-TO-IA-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IA-NO-USER-IDENT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IA-2",
+        "title": "User Identification and Authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for User Identification and Authentication.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IR-NO-INCIDENT-HANDLING-004-TO-IR-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IR-NO-INCIDENT-HANDLING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IR-4",
+        "title": "Incident Handling"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Incident Handling.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IR-NO-INCIDENT-MONITORING-005-TO-IR-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IR-NO-INCIDENT-MONITORING-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IR-5",
+        "title": "Incident Monitoring"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Incident Monitoring.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IR-NO-INCIDENT-PLAN-007-TO-IR-8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IR-NO-INCIDENT-PLAN-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IR-8",
+        "title": "Incident Response Plan"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Incident Response Plan.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IR-NO-INCIDENT-POLICY-001-TO-IR-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IR-NO-INCIDENT-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IR-1",
+        "title": "Incident Response Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Incident Response Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IR-NO-INCIDENT-REPORTING-006-TO-IR-6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IR-NO-INCIDENT-REPORTING-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IR-6",
+        "title": "Incident Reporting"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Incident Reporting.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IR-NO-INCIDENT-TESTING-003-TO-IR-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IR-NO-INCIDENT-TESTING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IR-3",
+        "title": "Incident Response Testing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Incident Response Testing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-IR-NO-INCIDENT-TRAINING-002-TO-IR-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IR-NO-INCIDENT-TRAINING-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "IR-2",
+        "title": "Incident Response Training"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Incident Response Training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-MA-NO-CONTROLLED-MAINT-002-TO-MA-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-MA-NO-CONTROLLED-MAINT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "MA-2",
+        "title": "Controlled Maintenance"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Controlled Maintenance.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-MA-NO-MAINT-PERSONNEL-005-TO-MA-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-MA-NO-MAINT-PERSONNEL-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "MA-5",
+        "title": "Maintenance Personnel Authorization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Maintenance Personnel Authorization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-MA-NO-MAINT-TOOLS-003-TO-MA-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-MA-NO-MAINT-TOOLS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "MA-3",
+        "title": "Maintenance Tools Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Maintenance Tools Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-MA-NO-MAINTENANCE-POLICY-001-TO-MA-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-MA-NO-MAINTENANCE-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "MA-1",
+        "title": "System Maintenance Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for System Maintenance Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-MA-NO-NONLOCAL-MAINT-004-TO-MA-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-MA-NO-NONLOCAL-MAINT-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "MA-4",
+        "title": "Nonlocal Maintenance Controls"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Nonlocal Maintenance Controls.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-MP-NO-MEDIA-ACCESS-002-TO-MP-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-MP-NO-MEDIA-ACCESS-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "MP-2",
+        "title": "Media Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Media Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-MP-NO-MEDIA-MARKING-003-TO-MP-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-MP-NO-MEDIA-MARKING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "MP-3",
+        "title": "Media Marking"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Media Marking.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-MP-NO-MEDIA-POLICY-001-TO-MP-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-MP-NO-MEDIA-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "MP-1",
+        "title": "Media Protection Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Media Protection Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-MP-NO-MEDIA-SANITIZATION-005-TO-MP-6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-MP-NO-MEDIA-SANITIZATION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "MP-6",
+        "title": "Media Sanitization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Media Sanitization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-MP-NO-MEDIA-STORAGE-004-TO-MP-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-MP-NO-MEDIA-STORAGE-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "MP-4",
+        "title": "Media Storage"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Media Storage.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PE-NO-ACCESS-MONITORING-004-TO-PE-6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PE-NO-ACCESS-MONITORING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PE-6",
+        "title": "Physical Access Monitoring"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Physical Access Monitoring.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PE-NO-DELIVERY-008-TO-PE-16",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PE-NO-DELIVERY-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PE-16",
+        "title": "Delivery and Removal Controls"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Delivery and Removal Controls.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PE-NO-ENVIRONMENTAL-006-TO-PE-13",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PE-NO-ENVIRONMENTAL-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PE-13",
+        "title": "Fire Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Fire Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PE-NO-PHYSICAL-AUTH-002-TO-PE-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PE-NO-PHYSICAL-AUTH-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PE-2",
+        "title": "Physical Access Authorizations"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Physical Access Authorizations.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PE-NO-PHYSICAL-CONTROL-003-TO-PE-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PE-NO-PHYSICAL-CONTROL-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PE-3",
+        "title": "Physical Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Physical Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PE-NO-PHYSICAL-POLICY-001-TO-PE-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PE-NO-PHYSICAL-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PE-1",
+        "title": "Physical Security Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Physical Security Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PE-NO-TEMP-HUMIDITY-007-TO-PE-14",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PE-NO-TEMP-HUMIDITY-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PE-14",
+        "title": "Temperature and Humidity Controls"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Temperature and Humidity Controls.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PE-NO-VISITOR-ACCESS-005-TO-PE-8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PE-NO-VISITOR-ACCESS-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PE-8",
+        "title": "Visitor Access Records"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Visitor Access Records.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PL-NO-BEHAVIOR-RULES-003-TO-PL-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PL-NO-BEHAVIOR-RULES-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PL-4",
+        "title": "Rules of Behavior"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Rules of Behavior.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PL-NO-PLANNING-POLICY-001-TO-PL-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PL-NO-PLANNING-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PL-1",
+        "title": "Planning Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Planning Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PL-NO-PRIVACY-IMPACT-004-TO-PL-8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PL-NO-PRIVACY-IMPACT-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PL-8",
+        "title": "Security and Privacy Architectures"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Security and Privacy Architectures.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PL-NO-SSP-002-TO-PL-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PL-NO-SSP-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PL-2",
+        "title": "System Security Plan"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for System Security Plan.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PM-NO-INVENTORY-005-TO-PM-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PM-NO-INVENTORY-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PM-5",
+        "title": "System Inventory"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for System Inventory.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PM-NO-POA-M-PROGRAM-004-TO-PM-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PM-NO-POA-M-PROGRAM-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PM-4",
+        "title": "Plan of Action and Milestones Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Plan of Action and Milestones Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PM-NO-RISK-MGMT-006-TO-PM-9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PM-NO-RISK-MGMT-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PM-9",
+        "title": "Risk Management Strategy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Risk Management Strategy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PM-NO-SECURITY-PROGRAM-001-TO-PM-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PM-NO-SECURITY-PROGRAM-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PM-1",
+        "title": "Information Security Program Plan"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Information Security Program Plan.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PM-NO-SECURITY-RESOURCES-003-TO-PM-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PM-NO-SECURITY-RESOURCES-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PM-3",
+        "title": "Information Security Resources"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Information Security Resources.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PM-NO-SENIOR-OFFICIAL-002-TO-PM-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PM-NO-SENIOR-OFFICIAL-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PM-2",
+        "title": "Information Security Program Leadership"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Information Security Program Leadership.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PS-NO-PERSONNEL-POLICY-001-TO-PS-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PS-NO-PERSONNEL-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PS-1",
+        "title": "Personnel Security Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Personnel Security Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PS-NO-POSITION-RISK-002-TO-PS-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PS-NO-POSITION-RISK-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PS-2",
+        "title": "Position Risk Designation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Position Risk Designation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PS-NO-SCREENING-003-TO-PS-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PS-NO-SCREENING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PS-3",
+        "title": "Personnel Screening"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Personnel Screening.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PS-NO-TERMINATION-004-TO-PS-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PS-NO-TERMINATION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PS-4",
+        "title": "Personnel Termination"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Personnel Termination.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PS-NO-TRANSFER-005-TO-PS-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PS-NO-TRANSFER-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PS-5",
+        "title": "Personnel Transfer"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Personnel Transfer.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PT-NO-CONSENT-004-TO-PT-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PT-NO-CONSENT-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PT-4",
+        "title": "Consent Mechanisms"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Consent Mechanisms.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PT-NO-PII-AUTHORITY-002-TO-PT-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PT-NO-PII-AUTHORITY-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PT-2",
+        "title": "Authority to Process PII"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Authority to Process PII.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PT-NO-PII-POLICY-001-TO-PT-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PT-NO-PII-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PT-1",
+        "title": "PII Processing Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for PII Processing Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PT-NO-PII-PURPOSE-003-TO-PT-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PT-NO-PII-PURPOSE-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PT-3",
+        "title": "PII Processing Purposes"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for PII Processing Purposes.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-PT-NO-PRIVACY-NOTICE-005-TO-PT-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-PT-NO-PRIVACY-NOTICE-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "PT-5",
+        "title": "Privacy Notice"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Privacy Notice.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-RA-NO-CATEGORIZATION-002-TO-RA-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-RA-NO-CATEGORIZATION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "RA-2",
+        "title": "Security Categorization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Security Categorization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-RA-NO-CRITICALITY-ANALYSIS-006-TO-RA-9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-RA-NO-CRITICALITY-ANALYSIS-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "RA-9",
+        "title": "Criticality Analysis"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Criticality Analysis.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-RA-NO-RISK-ASSESSMENT-003-TO-RA-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-RA-NO-RISK-ASSESSMENT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "RA-3",
+        "title": "Risk Assessment"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Risk Assessment.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-RA-NO-RISK-POLICY-001-TO-RA-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-RA-NO-RISK-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "RA-1",
+        "title": "Risk Assessment Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Risk Assessment Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-RA-NO-TECHNICAL-SURVEILLANCE-005-TO-RA-7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-RA-NO-TECHNICAL-SURVEILLANCE-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "RA-7",
+        "title": "Risk Response"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Risk Response.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-RA-NO-VULN-MONITORING-004-TO-RA-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-RA-NO-VULN-MONITORING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "RA-5",
+        "title": "Vulnerability Monitoring and Scanning"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Vulnerability Monitoring and Scanning.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SA-NO-ACQUISITION-POLICY-001-TO-SA-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SA-NO-ACQUISITION-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SA-1",
+        "title": "System Acquisition Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for System Acquisition Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SA-NO-ACQUISITION-PROCESS-004-TO-SA-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SA-NO-ACQUISITION-PROCESS-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SA-4",
+        "title": "Acquisition Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Acquisition Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SA-NO-ALLOCATION-002-TO-SA-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SA-NO-ALLOCATION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SA-2",
+        "title": "Allocation of Resources"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Allocation of Resources.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SA-NO-DEV-CONFIG-007-TO-SA-10",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SA-NO-DEV-CONFIG-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SA-10",
+        "title": "Developer Configuration Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Developer Configuration Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SA-NO-DEV-SECURITY-010-TO-SA-15",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SA-NO-DEV-SECURITY-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SA-15",
+        "title": "Development Process and Standards"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Development Process and Standards.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SA-NO-DEV-TESTING-008-TO-SA-11",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SA-NO-DEV-TESTING-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SA-11",
+        "title": "Developer Testing and Evaluation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Developer Testing and Evaluation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SA-NO-DOCUMENTATION-005-TO-SA-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SA-NO-DOCUMENTATION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SA-5",
+        "title": "System Documentation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for System Documentation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SA-NO-EXTERNAL-SERVICES-006-TO-SA-9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SA-NO-EXTERNAL-SERVICES-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SA-9",
+        "title": "External System Services"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for External System Services.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SA-NO-LIFECYCLE-003-TO-SA-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SA-NO-LIFECYCLE-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SA-3",
+        "title": "System Development Life Cycle"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for System Development Life Cycle.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SA-NO-SUPPLY-CHAIN-009-TO-SA-12",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SA-NO-SUPPLY-CHAIN-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SA-12",
+        "title": "Supply Chain Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Supply Chain Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SC-NO-BOUNDARY-005-TO-SC-7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SC-NO-BOUNDARY-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SC-7",
+        "title": "Boundary Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Boundary Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SC-NO-CRYPTO-KEYS-008-TO-SC-12",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SC-NO-CRYPTO-KEYS-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SC-12",
+        "title": "Cryptographic Key Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Cryptographic Key Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SC-NO-CRYPTO-PROTECTION-009-TO-SC-13",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SC-NO-CRYPTO-PROTECTION-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SC-13",
+        "title": "Cryptographic Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Cryptographic Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SC-NO-DATA-AT-REST-012-TO-SC-28",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SC-NO-DATA-AT-REST-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SC-28",
+        "title": "Protection of Information at Rest"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Protection of Information at Rest.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SC-NO-DOS-PROTECTION-004-TO-SC-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SC-NO-DOS-PROTECTION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SC-5",
+        "title": "Denial-of-Service Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Denial-of-Service Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SC-NO-INFO-IN-SHARED-003-TO-SC-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SC-NO-INFO-IN-SHARED-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SC-4",
+        "title": "Information in Shared System Resources"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Information in Shared System Resources.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SC-NO-MOBILE-CODE-010-TO-SC-18",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SC-NO-MOBILE-CODE-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SC-18",
+        "title": "Mobile Code Controls"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Mobile Code Controls.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SC-NO-NET-DISCONNECT-007-TO-SC-10",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SC-NO-NET-DISCONNECT-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SC-10",
+        "title": "Network Disconnect"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Network Disconnect.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SC-NO-SC-POLICY-001-TO-SC-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SC-NO-SC-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SC-1",
+        "title": "System and Communications Protection Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for System and Communications Protection Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SC-NO-SEPARATION-002-TO-SC-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SC-NO-SEPARATION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SC-2",
+        "title": "Separation of System and User Functionality"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Separation of System and User Functionality.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SC-NO-SESSION-AUTH-011-TO-SC-23",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SC-NO-SESSION-AUTH-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SC-23",
+        "title": "Session Authenticity"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Session Authenticity.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SC-NO-TRANSMISSION-006-TO-SC-8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SC-NO-TRANSMISSION-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SC-8",
+        "title": "Transmission Confidentiality and Integrity"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Transmission Confidentiality and Integrity.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SI-NO-ALERTS-005-TO-SI-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SI-NO-ALERTS-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SI-5",
+        "title": "Security Alerts and Advisories"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Security Alerts and Advisories.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SI-NO-ERROR-HANDLING-010-TO-SI-11",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SI-NO-ERROR-HANDLING-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SI-11",
+        "title": "Error Handling"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Error Handling.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SI-NO-FLAW-REMEDIATION-002-TO-SI-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SI-NO-FLAW-REMEDIATION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SI-2",
+        "title": "Flaw Remediation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Flaw Remediation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SI-NO-INPUT-VALIDATION-009-TO-SI-10",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SI-NO-INPUT-VALIDATION-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SI-10",
+        "title": "Information Input Validation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Information Input Validation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SI-NO-MALWARE-003-TO-SI-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SI-NO-MALWARE-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SI-3",
+        "title": "Malicious Code Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Malicious Code Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SI-NO-MONITORING-004-TO-SI-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SI-NO-MONITORING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SI-4",
+        "title": "System Monitoring"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for System Monitoring.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SI-NO-SI-POLICY-001-TO-SI-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SI-NO-SI-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SI-1",
+        "title": "System and Information Integrity Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for System and Information Integrity Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SI-NO-SPAM-008-TO-SI-8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SI-NO-SPAM-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SI-8",
+        "title": "Spam Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Spam Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SI-NO-SW-FIRMWARE-007-TO-SI-7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SI-NO-SW-FIRMWARE-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SI-7",
+        "title": "Software Firmware and Information Integrity"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Software Firmware and Information Integrity.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SI-NO-VERIFICATION-006-TO-SI-6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SI-NO-VERIFICATION-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SI-6",
+        "title": "Security and Privacy Function Verification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Security and Privacy Function Verification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SR-NO-ACQUISITION-005-TO-SR-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SR-NO-ACQUISITION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SR-5",
+        "title": "Acquisition Strategies and Tools"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Acquisition Strategies and Tools.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SR-NO-PROVENANCE-004-TO-SR-4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SR-NO-PROVENANCE-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SR-4",
+        "title": "Provenance"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Provenance.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SR-NO-SCRM-CONTROLS-003-TO-SR-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SR-NO-SCRM-CONTROLS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SR-3",
+        "title": "Supply Chain Controls and Processes"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Supply Chain Controls and Processes.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SR-NO-SCRM-PLAN-002-TO-SR-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SR-NO-SCRM-PLAN-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SR-2",
+        "title": "Supply Chain Risk Management Plan"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Supply Chain Risk Management Plan.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-FEDRAMP-SR-NO-SCRM-POLICY-001-TO-SR-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-SR-NO-SCRM-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "FEDRAMP",
+        "version": "Rev 5",
+        "id": "SR-1",
+        "title": "Supply Chain Risk Management Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses FedRAMP control for Supply Chain Risk Management Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    }
+  ]
+}

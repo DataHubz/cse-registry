@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cse-registry.org/schemas/mapping.schema.json",
+  "title": "CSE Mapping",
+  "description": "Schema for CSE signal-to-control and signal-to-signal mappings",
+  "type": "object",
+  "required": ["id", "source", "target", "relationship", "provenance", "metadata"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique mapping identifier",
+      "pattern": "^(MAP|EQ)-CSE-[A-Z0-9]+-[A-Z]+-[A-Z0-9-]+-[0-9]{3}-TO-.+$"
+    },
+    "source": {
+      "$ref": "#/$defs/signalReference",
+      "description": "Source CSE signal reference"
+    },
+    "target": {
+      "description": "Target reference (control or signal)",
+      "oneOf": [
+        { "$ref": "#/$defs/controlReference" },
+        { "$ref": "#/$defs/signalReference" }
+      ]
+    },
+    "relationship": {
+      "$ref": "#/$defs/relationshipType",
+      "description": "Semantic relationship between source and target"
+    },
+    "confidence": {
+      "type": "number",
+      "description": "Confidence score from 0.0 to 1.0",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "provenance": {
+      "$ref": "#/$defs/provenance",
+      "description": "Origin and authority of the mapping"
+    },
+    "justification": {
+      "type": "string",
+      "description": "Human-readable rationale for the mapping"
+    },
+    "metadata": {
+      "$ref": "#/$defs/metadata",
+      "description": "Lifecycle metadata"
+    }
+  },
+  "$defs": {
+    "signalReference": {
+      "type": "object",
+      "required": ["type", "id"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "cse-signal",
+          "description": "Reference type identifier"
+        },
+        "id": {
+          "type": "string",
+          "description": "CSE signal identifier",
+          "pattern": "^CSE-[A-Z0-9]+-[A-Z]+-[A-Z0-9-]+-[0-9]{3}$"
+        },
+        "version": {
+          "type": "string",
+          "description": "CSE registry version",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        }
+      }
+    },
+    "controlReference": {
+      "type": "object",
+      "required": ["type", "framework", "version", "id"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "control",
+          "description": "Reference type identifier"
+        },
+        "framework": {
+          "type": "string",
+          "description": "Framework identifier",
+          "pattern": "^[A-Z0-9-]+$"
+        },
+        "version": {
+          "type": "string",
+          "description": "Framework version"
+        },
+        "id": {
+          "type": "string",
+          "description": "Control identifier within framework"
+        },
+        "title": {
+          "type": "string",
+          "description": "Control title for display"
+        }
+      }
+    },
+    "relationshipType": {
+      "type": "string",
+      "description": "Set-theoretic relationship type",
+      "enum": ["equivalent", "subset", "superset", "intersects", "related"]
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["source"],
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": "string",
+          "description": "Provenance source type",
+          "enum": ["authoritative", "expert", "derived", "community"]
+        },
+        "authority": {
+          "type": "string",
+          "description": "Authoritative body or organization"
+        },
+        "reference": {
+          "type": "string",
+          "description": "URL to source documentation",
+          "format": "uri"
+        },
+        "reviewed_date": {
+          "type": "string",
+          "description": "Date of last expert review",
+          "format": "date"
+        },
+        "reviewer": {
+          "type": "string",
+          "description": "Reviewer identifier or organization"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["created", "status"],
+      "additionalProperties": false,
+      "properties": {
+        "created": {
+          "type": "string",
+          "description": "Creation timestamp",
+          "format": "date-time"
+        },
+        "updated": {
+          "type": "string",
+          "description": "Last update timestamp",
+          "format": "date-time"
+        },
+        "status": {
+          "type": "string",
+          "description": "Mapping status",
+          "enum": ["active", "review", "deprecated"]
+        },
+        "deprecated_by": {
+          "type": "string",
+          "description": "Replacement mapping ID if deprecated"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional context"
+        }
+      }
+    }
+  }
+}

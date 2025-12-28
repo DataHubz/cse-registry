@@ -1,0 +1,166 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cse-registry.org/schemas/mapping-index.schema.json",
+  "title": "CSE Mapping Dataset Index",
+  "description": "Schema for mapping dataset index files",
+  "type": "object",
+  "required": ["version", "cse_registry_version", "created", "updated", "statistics", "frameworks"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Mapping dataset version",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "cse_registry_version": {
+      "type": "string",
+      "description": "Referenced CSE registry version",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "created": {
+      "type": "string",
+      "description": "Dataset creation timestamp",
+      "format": "date-time"
+    },
+    "updated": {
+      "type": "string",
+      "description": "Dataset last update timestamp",
+      "format": "date-time"
+    },
+    "statistics": {
+      "$ref": "#/$defs/statistics"
+    },
+    "frameworks": {
+      "type": "array",
+      "description": "List of included frameworks",
+      "items": {
+        "$ref": "#/$defs/frameworkEntry"
+      }
+    }
+  },
+  "$defs": {
+    "statistics": {
+      "type": "object",
+      "required": ["total_mappings", "frameworks", "signals_mapped"],
+      "additionalProperties": false,
+      "properties": {
+        "total_mappings": {
+          "type": "integer",
+          "description": "Total number of mappings in dataset",
+          "minimum": 0
+        },
+        "frameworks": {
+          "type": "integer",
+          "description": "Number of frameworks included",
+          "minimum": 0
+        },
+        "controls": {
+          "type": "integer",
+          "description": "Number of unique controls referenced",
+          "minimum": 0
+        },
+        "signals_mapped": {
+          "type": "integer",
+          "description": "Number of signals with at least one mapping",
+          "minimum": 0
+        },
+        "coverage": {
+          "type": "object",
+          "description": "Coverage statistics by CSE domain",
+          "additionalProperties": {
+            "$ref": "#/$defs/domainCoverage"
+          }
+        },
+        "by_relationship": {
+          "type": "object",
+          "description": "Mapping counts by relationship type",
+          "properties": {
+            "equivalent": { "type": "integer", "minimum": 0 },
+            "subset": { "type": "integer", "minimum": 0 },
+            "superset": { "type": "integer", "minimum": 0 },
+            "intersects": { "type": "integer", "minimum": 0 },
+            "related": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "by_provenance": {
+          "type": "object",
+          "description": "Mapping counts by provenance source",
+          "properties": {
+            "authoritative": { "type": "integer", "minimum": 0 },
+            "expert": { "type": "integer", "minimum": 0 },
+            "derived": { "type": "integer", "minimum": 0 },
+            "community": { "type": "integer", "minimum": 0 }
+          }
+        }
+      }
+    },
+    "domainCoverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "signals": {
+          "type": "integer",
+          "description": "Total signals in this CSE domain",
+          "minimum": 0
+        },
+        "signals_mapped": {
+          "type": "integer",
+          "description": "Signals with at least one mapping",
+          "minimum": 0
+        },
+        "controls_mapped": {
+          "type": "integer",
+          "description": "Unique controls mapped to",
+          "minimum": 0
+        },
+        "coverage_pct": {
+          "type": "number",
+          "description": "Percentage of signals mapped",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    "frameworkEntry": {
+      "type": "object",
+      "required": ["id", "file"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Framework identifier"
+        },
+        "name": {
+          "type": "string",
+          "description": "Framework display name"
+        },
+        "version": {
+          "type": "string",
+          "description": "Framework version"
+        },
+        "file": {
+          "type": "string",
+          "description": "Path to framework definition file"
+        },
+        "controls_file": {
+          "type": "string",
+          "description": "Path to controls file"
+        },
+        "mappings_file": {
+          "type": "string",
+          "description": "Path to mappings file for this framework"
+        },
+        "control_count": {
+          "type": "integer",
+          "description": "Number of controls in framework",
+          "minimum": 0
+        },
+        "mapping_count": {
+          "type": "integer",
+          "description": "Number of mappings to this framework",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

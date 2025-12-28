@@ -1,0 +1,128 @@
+{
+  "id": "CIS-CONTROLS-8.1",
+  "name": "CIS Controls",
+  "version": "8.1",
+  "authority": "Center for Internet Security (CIS)",
+  "effective_date": "2024-06-25",
+  "supersedes": "CIS-CONTROLS-8.0",
+  "source_url": "https://www.cisecurity.org/controls",
+  "description": "CIS Controls v8.1 is a prioritized set of actions that collectively form a defense-in-depth set of best practices to mitigate the most common attacks against systems and networks. Version 8.1 includes 18 controls with 153 safeguards across three implementation groups.",
+  "control_count": 153,
+  "levels": ["IG1", "IG2", "IG3"],
+  "domains": [
+    {
+      "id": "01",
+      "name": "Inventory and Control of Enterprise Assets",
+      "description": "Actively manage all enterprise assets connected to the infrastructure",
+      "control_count": 5
+    },
+    {
+      "id": "02",
+      "name": "Inventory and Control of Software Assets",
+      "description": "Actively manage all software on the network",
+      "control_count": 7
+    },
+    {
+      "id": "03",
+      "name": "Data Protection",
+      "description": "Develop processes and controls to identify, classify, and protect sensitive data",
+      "control_count": 14
+    },
+    {
+      "id": "04",
+      "name": "Secure Configuration of Enterprise Assets and Software",
+      "description": "Establish and maintain secure configurations",
+      "control_count": 12
+    },
+    {
+      "id": "05",
+      "name": "Account Management",
+      "description": "Use processes and tools to assign and manage authorization to credentials",
+      "control_count": 6
+    },
+    {
+      "id": "06",
+      "name": "Access Control Management",
+      "description": "Use processes and tools to create, assign, manage access rights",
+      "control_count": 8
+    },
+    {
+      "id": "07",
+      "name": "Continuous Vulnerability Management",
+      "description": "Develop a plan to continuously assess and track vulnerabilities",
+      "control_count": 7
+    },
+    {
+      "id": "08",
+      "name": "Audit Log Management",
+      "description": "Collect, alert, review, and retain audit logs",
+      "control_count": 12
+    },
+    {
+      "id": "09",
+      "name": "Email and Web Browser Protections",
+      "description": "Improve protections and detections of email and web vector threats",
+      "control_count": 7
+    },
+    {
+      "id": "10",
+      "name": "Malware Defenses",
+      "description": "Prevent or control installation and execution of malicious applications",
+      "control_count": 7
+    },
+    {
+      "id": "11",
+      "name": "Data Recovery",
+      "description": "Establish and maintain data recovery practices",
+      "control_count": 5
+    },
+    {
+      "id": "12",
+      "name": "Network Infrastructure Management",
+      "description": "Establish and maintain security of network infrastructure",
+      "control_count": 8
+    },
+    {
+      "id": "13",
+      "name": "Network Monitoring and Defense",
+      "description": "Operate processes and tooling to establish network monitoring and defense",
+      "control_count": 11
+    },
+    {
+      "id": "14",
+      "name": "Security Awareness and Skills Training",
+      "description": "Establish and maintain a security awareness program",
+      "control_count": 9
+    },
+    {
+      "id": "15",
+      "name": "Service Provider Management",
+      "description": "Develop a process to evaluate service providers",
+      "control_count": 7
+    },
+    {
+      "id": "16",
+      "name": "Application Software Security",
+      "description": "Manage security lifecycle of in-house and acquired software",
+      "control_count": 14
+    },
+    {
+      "id": "17",
+      "name": "Incident Response Management",
+      "description": "Establish a program to develop incident response capability",
+      "control_count": 9
+    },
+    {
+      "id": "18",
+      "name": "Penetration Testing",
+      "description": "Test effectiveness and resiliency through penetration testing",
+      "control_count": 5
+    }
+  ],
+  "metadata": {
+    "created": "2025-12-28T00:00:00Z",
+    "updated": "2025-12-28T00:00:00Z",
+    "source_version": "CIS Controls v8.1 (June 2024)",
+    "notes": "IG1 = Essential Cyber Hygiene, IG2 = Foundational, IG3 = Organizational"
+  }
+}

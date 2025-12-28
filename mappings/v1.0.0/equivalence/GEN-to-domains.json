@@ -1,0 +1,2011 @@
+{
+  "metadata": {
+    "cse_registry_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "generated": "2025-12-28T00:00:00Z",
+    "mapping_count": 80,
+    "description": "Signal equivalence mappings between GEN (generic) signals and domain-specific signals. GEN signals represent framework-agnostic fundamentals that map to equivalent signals across specific compliance frameworks."
+  },
+  "mappings": [
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-MFA-002-TO-CMMC-IDENTITY-NO-MFA-001",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-MFA-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-NO-MFA-001",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify the absence of multi-factor authentication. GEN signal is framework-agnostic; CMMC signal applies CMMC-specific context.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-MFA-002-TO-CIS-ACCESS-NO-MFA-ALL-007",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-MFA-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCESS-NO-MFA-ALL-007",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of MFA for all applications and systems.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-MFA-002-TO-CIS-ACCESS-NO-MFA-ADMIN-005",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-MFA-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCESS-NO-MFA-ADMIN-005",
+        "version": "1.0.0"
+      },
+      "relationship": "subset",
+      "confidence": 0.85,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "CIS signal specifically addresses admin access MFA, which is a subset of general MFA requirement.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-MFA-002-TO-CIS-ACCESS-NO-MFA-REMOTE-004",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-MFA-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCESS-NO-MFA-REMOTE-004",
+        "version": "1.0.0"
+      },
+      "relationship": "subset",
+      "confidence": 0.85,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "CIS signal specifically addresses remote access MFA, which is a subset of general MFA requirement.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-MFA-002-TO-CIS-ACCESS-NO-MFA-EXTERNAL-003",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-MFA-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-ACCESS-NO-MFA-EXTERNAL-003",
+        "version": "1.0.0"
+      },
+      "relationship": "subset",
+      "confidence": 0.85,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "CIS signal specifically addresses external access MFA, which is a subset of general MFA requirement.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-MFA-002-TO-HITRUST-ACCESS-NO-MFA-006",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-MFA-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-MFA-006",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of MFA for system access.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-MFA-002-TO-PCIDSS-AUTH-NO-MFA-004",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-MFA-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-AUTH-NO-MFA-004",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of MFA; PCI DSS applies to CDE access.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001-TO-CIS-DATA-NO-ENCRYPTION-AT-REST-006",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-DATA-NO-ENCRYPTION-AT-REST-006",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of encryption for data at rest.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001-TO-CMMC-COMMS-NO-ENCRYPTION-REST-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-ENCRYPTION-REST-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of encryption at rest; CMMC applies to CUI.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001-TO-GDPR-SECURITY-NO-ENCRYPTION-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-GDPR-SECURITY-NO-ENCRYPTION-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals address encryption; GDPR applies to personal data.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001-TO-HIPAA-TECH-NO-ENCRYPTION-004",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-TECH-NO-ENCRYPTION-004",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals address encryption; HIPAA applies to ePHI.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001-TO-CCPA-SECURITY-NO-ENCRYPTION-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-SECURITY-NO-ENCRYPTION-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals address encryption for data protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002-TO-CMMC-COMMS-NO-ENCRYPTION-TRANSIT-001",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-ENCRYPTION-TRANSIT-001",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of data encryption in transit.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002-TO-CIS-DATA-NO-ENCRYPTION-TRANSIT-010",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-DATA-NO-ENCRYPTION-TRANSIT-010",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of encryption in transit.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002-TO-HIPAA-TECH-NO-TRANSMISSION-ENCRYPTION-009",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-TECH-NO-TRANSMISSION-ENCRYPTION-009",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals address transmission encryption; HIPAA applies to ePHI.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002-TO-PCIDSS-TRANSIT-NO-PAN-ENCRYPTION-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-TRANSIT-NO-PAN-ENCRYPTION-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals address encryption in transit; PCI DSS applies to cardholder data.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUDIT-NO-LOGGING-001-TO-CMMC-AUDIT-NO-LOGGING-001",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUDIT-NO-LOGGING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AUDIT-NO-LOGGING-001",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of audit logging.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUDIT-NO-LOGGING-001-TO-ISO27001-TECH-NO-LOGGING-015",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUDIT-NO-LOGGING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-LOGGING-015",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of event logging.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUDIT-NO-LOGGING-001-TO-CIS-AUDIT-NO-DETAILED-LOGGING-004",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUDIT-NO-LOGGING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-AUDIT-NO-DETAILED-LOGGING-004",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals address comprehensive audit logging.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUDIT-NO-LOGGING-001-TO-HITRUST-OPS-NO-LOGGING-007",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUDIT-NO-LOGGING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-OPS-NO-LOGGING-007",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of audit logging.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUDIT-NO-LOGGING-001-TO-PCIDSS-LOG-NO-LOGGING-PROCESS-001",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUDIT-NO-LOGGING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-LOG-NO-LOGGING-PROCESS-001",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals address audit logging processes.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUDIT-NO-LOG-PROTECTION-002-TO-PCIDSS-LOG-NO-LOG-PROTECTION-003",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUDIT-NO-LOG-PROTECTION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-LOG-NO-LOG-PROTECTION-003",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of audit log protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUDIT-NO-LOG-RETENTION-003-TO-PCIDSS-LOG-NO-LOG-RETENTION-005",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUDIT-NO-LOG-RETENTION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-LOG-NO-LOG-RETENTION-005",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of log retention policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUDIT-NO-LOG-REVIEW-004-TO-PCIDSS-LOG-NO-LOG-REVIEW-004",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUDIT-NO-LOG-REVIEW-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-LOG-NO-LOG-REVIEW-004",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of log review processes.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-ACCESS-CONTROL-003-TO-ISO27001-ORG-NO-ACCESS-CONTROL-POLICY-015",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-ACCESS-CONTROL-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-ACCESS-CONTROL-POLICY-015",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of access control policies.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-ACCESS-CONTROL-003-TO-HITRUST-ACCESS-NO-POLICY-001",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-ACCESS-CONTROL-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-POLICY-001",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of access control policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-ACCESS-CONTROL-003-TO-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-ACCESS-CONTROL-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals address logical access controls.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-ACCESS-CONTROL-003-TO-GDPR-SECURITY-NO-ACCESS-CONTROL-010",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-ACCESS-CONTROL-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-GDPR-SECURITY-NO-ACCESS-CONTROL-010",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals address access control for data protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-ACCESS-CONTROL-003-TO-CMMC-ACCESS-NO-LEAST-PRIVILEGE-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-ACCESS-CONTROL-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-LEAST-PRIVILEGE-002",
+        "version": "1.0.0"
+      },
+      "relationship": "superset",
+      "confidence": 0.8,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "GEN access control is broader; CMMC specifically addresses least privilege.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-RBAC-004-TO-PCIDSS-ACCESS-NO-RBAC-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-RBAC-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-ACCESS-NO-RBAC-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of role-based access control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-PRIVILEGED-MGMT-005-TO-CMMC-ACCESS-UNRESTRICTED-ADMIN-001",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-PRIVILEGED-MGMT-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-UNRESTRICTED-ADMIN-001",
+        "version": "1.0.0"
+      },
+      "relationship": "intersects",
+      "confidence": 0.8,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both address privileged access; GEN focuses on management, CMMC on unrestricted access.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-AUTH-NO-SESSION-MGMT-006-TO-CMMC-ACCESS-NO-SESSION-LOCK-003",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-SESSION-MGMT-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-SESSION-LOCK-003",
+        "version": "1.0.0"
+      },
+      "relationship": "superset",
+      "confidence": 0.8,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "GEN session management is broader; CMMC specifically addresses session lock.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-VULN-NO-VULNERABILITY-MGMT-001-TO-HITRUST-RISK-NO-VULNERABILITY-MANAGEMENT-007",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-VULN-NO-VULNERABILITY-MGMT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-RISK-NO-VULNERABILITY-MANAGEMENT-007",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of vulnerability management program.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-VULN-NO-VULNERABILITY-MGMT-001-TO-PCIDSS-SECDEV-NO-VULN-MGMT-003",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-VULN-NO-VULNERABILITY-MGMT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-SECDEV-NO-VULN-MGMT-003",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals address vulnerability management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-VULN-NO-VULNERABILITY-MGMT-001-TO-ISO27001-TECH-NO-VULN-MANAGEMENT-008",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-VULN-NO-VULNERABILITY-MGMT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-VULN-MANAGEMENT-008",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of vulnerability management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-VULN-NO-SCANNING-002-TO-CMMC-RISK-NO-VULN-SCAN-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-VULN-NO-SCANNING-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-RISK-NO-VULN-SCAN-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of vulnerability scanning.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-VULN-NO-SCANNING-002-TO-PCIDSS-TEST-NO-VULN-SCANNING-003",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-VULN-NO-SCANNING-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-TEST-NO-VULN-SCANNING-003",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of vulnerability scanning.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-VULN-NO-PATCHING-003-TO-CMMC-INTEGRITY-NO-PATCHING-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-VULN-NO-PATCHING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INTEGRITY-NO-PATCHING-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of patch management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-VULN-NO-MALWARE-PROTECTION-004-TO-PCIDSS-MALWARE-NO-DETECTION-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-VULN-NO-MALWARE-PROTECTION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-MALWARE-NO-DETECTION-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of malware protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-VULN-NO-PENETRATION-TESTING-005-TO-CMMC-ENHANCED-NO-PENETRATION-TEST-008",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-VULN-NO-PENETRATION-TESTING-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-PENETRATION-TEST-008",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of penetration testing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-VULN-NO-PENETRATION-TESTING-005-TO-PCIDSS-TEST-NO-PENTEST-004",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-VULN-NO-PENETRATION-TESTING-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-TEST-NO-PENTEST-004",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of penetration testing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001-TO-CMMC-INCIDENT-NO-PLAN-001",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INCIDENT-NO-PLAN-001",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of incident response planning.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001-TO-ISO27001-ORG-NO-INCIDENT-PLANNING-024",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-INCIDENT-PLANNING-024",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of incident response planning.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001-TO-HITRUST-INCIDENT-NO-PROCEDURES-001",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-INCIDENT-NO-PROCEDURES-001",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of incident procedures.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001-TO-FEDRAMP-IR-NO-INCIDENT-PLAN-007",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-IR-NO-INCIDENT-PLAN-007",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of incident response plan.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001-TO-PCIDSS-POLICY-NO-INCIDENT-RESPONSE-010",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-POLICY-NO-INCIDENT-RESPONSE-010",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of incident response.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001-TO-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of incident response.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001-TO-SOC2-CC-NO-INCIDENT-RESPONSE-029",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of incident response.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-BACKUP-002-TO-CIS-RECOVERY-NO-AUTOMATED-BACKUP-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-BACKUP-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CIS-RECOVERY-NO-AUTOMATED-BACKUP-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of data backup.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-BACKUP-002-TO-FEDRAMP-CP-NO-BACKUP-007",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-BACKUP-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-FEDRAMP-CP-NO-BACKUP-007",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of backup.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-BACKUP-002-TO-HIPAA-ADMIN-NO-DATA-BACKUP-016",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-BACKUP-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-DATA-BACKUP-016",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of data backup.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-BACKUP-002-TO-ISO27001-TECH-NO-BACKUP-013",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-BACKUP-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-BACKUP-013",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of backup.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-BACKUP-002-TO-GDPR-SECURITY-NO-RECOVERY-CAPABILITY-007",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-BACKUP-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-GDPR-SECURITY-NO-RECOVERY-CAPABILITY-007",
+        "version": "1.0.0"
+      },
+      "relationship": "intersects",
+      "confidence": 0.8,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "GEN focuses on backup; GDPR focuses on recovery capability.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-RECOVERY-PLAN-003-TO-CMMC-ENHANCED-NO-RECOVERY-PLAN-016",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-RECOVERY-PLAN-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-RECOVERY-PLAN-016",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of recovery plan.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-RECOVERY-PLAN-003-TO-HIPAA-ADMIN-NO-DISASTER-RECOVERY-017",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-RECOVERY-PLAN-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-DISASTER-RECOVERY-017",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of disaster recovery.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-RECOVERY-PLAN-003-TO-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-RECOVERY-PLAN-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals address recovery planning.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-INCIDENT-NO-TESTING-004-TO-SOC2-AVAIL-NO-RECOVERY-TESTING-003",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-TESTING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-AVAIL-NO-RECOVERY-TESTING-003",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of recovery/incident testing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CRYPTO-NO-KEY-MGMT-003-TO-HITRUST-SDLC-NO-KEY-MANAGEMENT-006",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-KEY-MGMT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-SDLC-NO-KEY-MANAGEMENT-006",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of key management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CRYPTO-NO-KEY-MGMT-003-TO-PCIDSS-STORE-NO-KEY-MGMT-PROCESS-007",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-KEY-MGMT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-STORE-NO-KEY-MGMT-PROCESS-007",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of key management processes.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CRYPTO-NO-KEY-MGMT-003-TO-CMMC-COMMS-NO-KEY-MANAGEMENT-007",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-KEY-MGMT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-KEY-MANAGEMENT-007",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of key management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CRYPTO-NO-KEY-MGMT-003-TO-ISO27001-TECH-NO-CRYPTOGRAPHY-024",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-KEY-MGMT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-CRYPTOGRAPHY-024",
+        "version": "1.0.0"
+      },
+      "relationship": "subset",
+      "confidence": 0.85,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "GEN key management is a subset of ISO27001 cryptography controls.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-GOVERN-NO-SECURITY-POLICY-001-TO-ISO27001-ORG-NO-SECURITY-POLICIES-001",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-GOVERN-NO-SECURITY-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-SECURITY-POLICIES-001",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of security policies.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-GOVERN-NO-SECURITY-POLICY-001-TO-PCIDSS-POLICY-NO-SECURITY-POLICY-001",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-GOVERN-NO-SECURITY-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-POLICY-NO-SECURITY-POLICY-001",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of security policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-GOVERN-NO-RISK-ASSESSMENT-002-TO-CMMC-RISK-NO-ASSESSMENT-001",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-GOVERN-NO-RISK-ASSESSMENT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-RISK-NO-ASSESSMENT-001",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of risk assessment.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-GOVERN-NO-RISK-ASSESSMENT-002-TO-PCIDSS-POLICY-NO-RISK-ASSESSMENT-003",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-GOVERN-NO-RISK-ASSESSMENT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-POLICY-NO-RISK-ASSESSMENT-003",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of risk assessment.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-GOVERN-NO-SECURITY-ROLES-003-TO-ISO27001-ORG-NO-SECURITY-ROLES-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-GOVERN-NO-SECURITY-ROLES-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-SECURITY-ROLES-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of security roles.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-GOVERN-NO-TRAINING-004-TO-CMMC-AWARENESS-NO-SECURITY-TRAINING-001",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-GOVERN-NO-TRAINING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AWARENESS-NO-SECURITY-TRAINING-001",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of security training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-GOVERN-NO-TRAINING-004-TO-PCIDSS-POLICY-NO-SECURITY-TRAINING-006",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-GOVERN-NO-TRAINING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-POLICY-NO-SECURITY-TRAINING-006",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of security training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-DATA-NO-CLASSIFICATION-001-TO-ISO27001-ORG-NO-INFO-CLASSIFICATION-012",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-DATA-NO-CLASSIFICATION-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-INFO-CLASSIFICATION-012",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of data classification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-DATA-NO-INVENTORY-002-TO-ISO27001-ORG-NO-ASSET-INVENTORY-009",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-DATA-NO-INVENTORY-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-ASSET-INVENTORY-009",
+        "version": "1.0.0"
+      },
+      "relationship": "subset",
+      "confidence": 0.85,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Data inventory is a subset of broader asset inventory.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-DATA-NO-RETENTION-POLICY-003-TO-GDPR-RETENTION-NO-DEFINED-PERIODS-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-DATA-NO-RETENTION-POLICY-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-GDPR-RETENTION-NO-DEFINED-PERIODS-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of data retention policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CONFIG-NO-BASELINE-003-TO-CMMC-CONFIG-NO-BASELINE-001",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CONFIG-NO-BASELINE-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-CONFIG-NO-BASELINE-001",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of configuration baselines.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-CONFIG-NO-CHANGE-MGMT-002-TO-PCIDSS-SECDEV-NO-CHANGE-MGMT-005",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CONFIG-NO-CHANGE-MGMT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-SECDEV-NO-CHANGE-MGMT-005",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of change management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-IDENTITY-NO-LIFECYCLE-001-TO-PCIDSS-AUTH-NO-ID-LIFECYCLE-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-IDENTITY-NO-LIFECYCLE-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-AUTH-NO-ID-LIFECYCLE-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of identity lifecycle management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-IDENTITY-NO-PROVISIONING-002-TO-HITRUST-ACCESS-NO-PROVISIONING-003",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-IDENTITY-NO-PROVISIONING-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-PROVISIONING-003",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of access provisioning process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-IDENTITY-NO-DEPROVISIONING-003-TO-HITRUST-ACCESS-NO-TERMINATION-004",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-IDENTITY-NO-DEPROVISIONING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-TERMINATION-004",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of access deprovisioning.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-IDENTITY-NO-ACCESS-REVIEW-004-TO-HITRUST-ACCESS-NO-PERIODIC-REVIEW-005",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-IDENTITY-NO-ACCESS-REVIEW-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-PERIODIC-REVIEW-005",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of periodic access review.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-PHYSICAL-NO-ACCESS-CONTROLS-001-TO-PCIDSS-PHYSICAL-NO-ACCESS-CONTROLS-002",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-PHYSICAL-NO-ACCESS-CONTROLS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-PHYSICAL-NO-ACCESS-CONTROLS-002",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of physical access controls.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-PHYSICAL-NO-MEDIA-CONTROLS-003-TO-PCIDSS-PHYSICAL-NO-MEDIA-SECURITY-004",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-PHYSICAL-NO-MEDIA-CONTROLS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-PHYSICAL-NO-MEDIA-SECURITY-004",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of physical media controls.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "EQ-CSE-GEN-VENDOR-NO-RISK-MGMT-001-TO-PCIDSS-POLICY-NO-TPSP-MGMT-008",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-VENDOR-NO-RISK-MGMT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-POLICY-NO-TPSP-MGMT-008",
+        "version": "1.0.0"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both signals identify absence of vendor/third-party risk management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    }
+  ]
+}

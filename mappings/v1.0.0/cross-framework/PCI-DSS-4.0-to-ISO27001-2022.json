@@ -1,0 +1,561 @@
+{
+  "schema_version": "1.0.0",
+  "type": "cross-framework-mapping",
+  "description": "Control mappings from Payment Card Industry Data Security Standard to ISO/IEC 27001:2022 via CSE signal bridge",
+  "source_framework": {
+    "id": "PCI-DSS-4.0",
+    "name": "Payment Card Industry Data Security Standard",
+    "version": "4.0"
+  },
+  "target_framework": {
+    "id": "ISO27001-2022",
+    "name": "ISO/IEC 27001:2022",
+    "version": "2022"
+  },
+  "generated": "2025-12-28T00:00:00Z",
+  "statistics": {
+    "total_mappings": 18
+  },
+  "mappings": [
+    {
+      "id": "XFW-PCIDSS40-1-1-TO-ISO270012022-A-8-20",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "1.1",
+        "title": "NSC Processes Defined"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.20",
+        "title": "Networks Security"
+      },
+      "bridge_signal": "CSE-PCIDSS-NET-NO-NSC-PROCESS-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require network security controls",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-1-2-TO-ISO270012022-A-8-20",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "1.2",
+        "title": "NSC Configuration"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.20",
+        "title": "Networks Security"
+      },
+      "bridge_signal": "CSE-PCIDSS-NET-NO-NSC-CONFIG-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require network security configuration",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-2-1-TO-ISO270012022-A-8-9",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "2.1",
+        "title": "Secure Configuration Processes"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.9",
+        "title": "Configuration Management"
+      },
+      "bridge_signal": "CSE-PCIDSS-CONFIG-NO-SECURE-CONFIG-PROCESS-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require configuration management",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-2-2-TO-ISO270012022-A-8-9",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "2.2",
+        "title": "Secure System Configuration"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.9",
+        "title": "Configuration Management"
+      },
+      "bridge_signal": "CSE-PCIDSS-CONFIG-NO-SECURE-SYSTEM-CONFIG-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require secure configurations",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-3-5-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "3.5",
+        "title": "PAN Protection"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.24",
+        "title": "Use of Cryptography"
+      },
+      "bridge_signal": "CSE-PCIDSS-STORE-NO-PAN-PROTECTION-005",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require data encryption",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-3-6-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "3.6",
+        "title": "Key Security"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.24",
+        "title": "Use of Cryptography"
+      },
+      "bridge_signal": "CSE-PCIDSS-STORE-NO-KEY-SECURITY-006",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require key protection",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-3-7-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "3.7",
+        "title": "Key Management"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.24",
+        "title": "Use of Cryptography"
+      },
+      "bridge_signal": "CSE-PCIDSS-STORE-NO-KEY-MGMT-PROCESS-007",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require key management",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-4-2-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "4.2",
+        "title": "PAN Transmission Encryption"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.24",
+        "title": "Use of Cryptography"
+      },
+      "bridge_signal": "CSE-PCIDSS-TRANSIT-NO-PAN-ENCRYPTION-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require encryption in transit",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-6-1-TO-ISO270012022-A-8-25",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "6.1",
+        "title": "Secure Development Processes"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.25",
+        "title": "Secure Development Life Cycle"
+      },
+      "bridge_signal": "CSE-PCIDSS-SECDEV-NO-SECURE-DEV-PROCESS-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require secure development",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-6-3-TO-ISO270012022-A-8-8",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "6.3",
+        "title": "Vulnerability Management"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.8",
+        "title": "Management of Technical Vulnerabilities"
+      },
+      "bridge_signal": "CSE-PCIDSS-SECDEV-NO-VULN-MGMT-003",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require vulnerability management",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-7-1-TO-ISO270012022-A-5-15",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "7.1",
+        "title": "Access Restriction Processes"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.15",
+        "title": "Access Control"
+      },
+      "bridge_signal": "CSE-PCIDSS-ACCESS-NO-ACCESS-PROCESS-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require access control",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-7-2-TO-ISO270012022-A-5-18",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "7.2",
+        "title": "Access Assignment"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.18",
+        "title": "Access Rights"
+      },
+      "bridge_signal": "CSE-PCIDSS-ACCESS-NO-RBAC-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require access rights management",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-8-3-TO-ISO270012022-A-8-5",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "8.3",
+        "title": "Strong Authentication"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.5",
+        "title": "Secure Authentication"
+      },
+      "bridge_signal": "CSE-PCIDSS-AUTH-NO-STRONG-AUTH-003",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require strong authentication",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-8-4-TO-ISO270012022-A-8-5",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "8.4",
+        "title": "MFA Implementation"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.5",
+        "title": "Secure Authentication"
+      },
+      "bridge_signal": "CSE-PCIDSS-AUTH-NO-MFA-004",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require multi-factor authentication",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-10-2-TO-ISO270012022-A-8-15",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "10.2",
+        "title": "Audit Logs"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.15",
+        "title": "Logging"
+      },
+      "bridge_signal": "CSE-PCIDSS-LOG-NO-AUDIT-LOGS-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require audit logging",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-10-3-TO-ISO270012022-A-8-15",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "10.3",
+        "title": "Log Protection"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.15",
+        "title": "Logging"
+      },
+      "bridge_signal": "CSE-PCIDSS-LOG-NO-LOG-PROTECTION-003",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require log protection",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-12-1-TO-ISO270012022-A-5-1",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "12.1",
+        "title": "Security Policy"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.1",
+        "title": "Policies for Information Security"
+      },
+      "bridge_signal": "CSE-PCIDSS-POLICY-NO-SECURITY-POLICY-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require security policies",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-12-10-TO-ISO270012022-A-5-26",
+      "source": {
+        "type": "control",
+        "framework": "PCI-DSS-4.0",
+        "version": "4.0",
+        "id": "12.10",
+        "title": "Incident Response"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.26",
+        "title": "Response to Information Security Incidents"
+      },
+      "bridge_signal": "CSE-PCIDSS-POLICY-NO-INCIDENT-RESPONSE-010",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require incident response",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2037 @@
+{
+  "metadata": {
+    "framework": "HIPAA",
+    "cse_registry_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "generated": "2025-12-28T00:00:00Z",
+    "mapping_count": 75,
+    "description": "Signal-to-control mappings for HIPAA domain signals to HIPAA Security and Privacy Rule requirements"
+  },
+  "mappings": [
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-ACCESS-AUTH-009-TO-164.308(a)(4)(ii)(B)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-ACCESS-AUTH-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(4)(ii)(B)",
+        "title": "Access Authorization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Access Authorization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-ACCESS-MODIFY-010-TO-164.308(a)(4)(ii)(C)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-ACCESS-MODIFY-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(4)(ii)(C)",
+        "title": "Access Modification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Access Modification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-ACTIVITY-REVIEW-004-TO-164.308(a)(1)(ii)(D)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-ACTIVITY-REVIEW-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(1)(ii)(D)",
+        "title": "Activity Review"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Activity Review.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-CLEARANCE-PROC-007-TO-164.308(a)(3)(ii)(B)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-CLEARANCE-PROC-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(3)(ii)(B)",
+        "title": "Clearance Procedures"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Clearance Procedures.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-DATA-BACKUP-016-TO-164.308(a)(7)(ii)(A)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-DATA-BACKUP-016",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(7)(ii)(A)",
+        "title": "Data Backup Plan"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Data Backup Plan.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-DISASTER-RECOVERY-017-TO-164.308(a)(7)(ii)(B)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-DISASTER-RECOVERY-017",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(7)(ii)(B)",
+        "title": "Disaster Recovery Plan"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Disaster Recovery Plan.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-EMERGENCY-MODE-018-TO-164.308(a)(7)(ii)(C)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-EMERGENCY-MODE-018",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(7)(ii)(C)",
+        "title": "Emergency Mode Operations"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Emergency Mode Operations.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015-TO-164.308(a)(6)(ii)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(6)(ii)",
+        "title": "Incident Response"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Incident Response.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-LOGIN-MONITORING-013-TO-164.308(a)(5)(ii)(C)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-LOGIN-MONITORING-013",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(5)(ii)(C)",
+        "title": "Login Monitoring"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Login Monitoring.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-MALWARE-PROTECTION-012-TO-164.308(a)(5)(ii)(B)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-MALWARE-PROTECTION-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(5)(ii)(B)",
+        "title": "Malware Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Malware Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-PASSWORD-MGMT-014-TO-164.308(a)(5)(ii)(D)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-PASSWORD-MGMT-014",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(5)(ii)(D)",
+        "title": "Password Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Password Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-RISK-ANALYSIS-001-TO-164.308(a)(1)(ii)(A)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-RISK-ANALYSIS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(1)(ii)(A)",
+        "title": "Risk Analysis"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Risk Analysis.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-RISK-MANAGEMENT-002-TO-164.308(a)(1)(ii)(B)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-RISK-MANAGEMENT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(1)(ii)(B)",
+        "title": "Risk Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Risk Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-SANCTION-POLICY-003-TO-164.308(a)(1)(ii)(C)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-SANCTION-POLICY-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(1)(ii)(C)",
+        "title": "Sanction Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Sanction Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-SECURITY-OFFICIAL-005-TO-164.308(a)(2)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-SECURITY-OFFICIAL-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(2)",
+        "title": "Security Official"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Security Official.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-SECURITY-REMINDERS-011-TO-164.308(a)(5)(ii)(A)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-SECURITY-REMINDERS-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(5)(ii)(A)",
+        "title": "Security Reminders"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Security Reminders.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-TERMINATION-PROC-008-TO-164.308(a)(3)(ii)(C)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-TERMINATION-PROC-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(3)(ii)(C)",
+        "title": "Termination Procedures"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Termination Procedures.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ADMIN-NO-WORKFORCE-AUTH-006-TO-164.308(a)(3)(ii)(A)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ADMIN-NO-WORKFORCE-AUTH-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.308(a)(3)(ii)(A)",
+        "title": "Workforce Authorization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Workforce Authorization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-BREACH-NO-BA-NOTIFY-006-TO-164.410",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-BREACH-NO-BA-NOTIFY-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.410",
+        "title": "BA Breach Notification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for BA Breach Notification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-BREACH-NO-BURDEN-PROOF-008-TO-164.414(b)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-BREACH-NO-BURDEN-PROOF-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.414(b)",
+        "title": "Burden of Proof"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Burden of Proof.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-BREACH-NO-HHS-NOTIFY-005-TO-164.408",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-BREACH-NO-HHS-NOTIFY-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.408",
+        "title": "HHS Notification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for HHS Notification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-BREACH-NO-INDIVIDUAL-NOTIFY-001-TO-164.404(a)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-BREACH-NO-INDIVIDUAL-NOTIFY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.404(a)",
+        "title": "Individual Notification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Individual Notification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-BREACH-NO-LOG-MAINTENANCE-007-TO-164.408(c)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-BREACH-NO-LOG-MAINTENANCE-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.408(c)",
+        "title": "Breach Log Maintenance"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Breach Log Maintenance.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-BREACH-NO-MEDIA-NOTIFY-004-TO-164.406",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-BREACH-NO-MEDIA-NOTIFY-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.406",
+        "title": "Media Notification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Media Notification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-BREACH-NO-NOTIFY-CONTENT-003-TO-164.404(c)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-BREACH-NO-NOTIFY-CONTENT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.404(c)",
+        "title": "Notification Content"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Notification Content.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-BREACH-NO-TIMELY-NOTIFY-002-TO-164.404(b)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-BREACH-NO-TIMELY-NOTIFY-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.404(b)",
+        "title": "Timely Notification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Timely Notification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ORG-NO-BA-CONTRACT-001-TO-164.314(a)(2)(i)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ORG-NO-BA-CONTRACT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.314(a)(2)(i)",
+        "title": "BA Contracts"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for BA Contracts.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ORG-NO-DOCUMENTATION-005-TO-164.316(b)(1)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ORG-NO-DOCUMENTATION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.316(b)(1)",
+        "title": "Documentation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Documentation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ORG-NO-GROUP-HEALTH-SAFEGUARDS-003-TO-164.314(b)(2)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ORG-NO-GROUP-HEALTH-SAFEGUARDS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.314(b)(2)",
+        "title": "Group Health Plan Safeguards"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Group Health Plan Safeguards.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ORG-NO-POLICIES-PROCEDURES-004-TO-164.316(a)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ORG-NO-POLICIES-PROCEDURES-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.316(a)",
+        "title": "Policies and Procedures"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Policies and Procedures.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ORG-NO-RETENTION-006-TO-164.316(b)(2)(i)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ORG-NO-RETENTION-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.316(b)(2)(i)",
+        "title": "Retention"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Retention.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-ORG-NO-SUBCONTRACTOR-REQ-002-TO-164.314(a)(2)(iii)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-ORG-NO-SUBCONTRACTOR-REQ-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.314(a)(2)(iii)",
+        "title": "Subcontractor Requirements"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Subcontractor Requirements.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PHYSICAL-NO-ACCESS-CONTROL-003-TO-164.310(a)(2)(iii)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PHYSICAL-NO-ACCESS-CONTROL-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.310(a)(2)(iii)",
+        "title": "Facility Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Facility Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PHYSICAL-NO-CONTINGENCY-OPS-001-TO-164.310(a)(2)(i)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PHYSICAL-NO-CONTINGENCY-OPS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.310(a)(2)(i)",
+        "title": "Contingency Operations"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Contingency Operations.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PHYSICAL-NO-FACILITY-PLAN-002-TO-164.310(a)(2)(ii)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PHYSICAL-NO-FACILITY-PLAN-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.310(a)(2)(ii)",
+        "title": "Facility Security Plan"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Facility Security Plan.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PHYSICAL-NO-MAINTENANCE-RECORDS-004-TO-164.310(a)(2)(iv)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PHYSICAL-NO-MAINTENANCE-RECORDS-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.310(a)(2)(iv)",
+        "title": "Maintenance Records"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Maintenance Records.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PHYSICAL-NO-MEDIA-DISPOSAL-007-TO-164.310(d)(2)(i)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PHYSICAL-NO-MEDIA-DISPOSAL-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.310(d)(2)(i)",
+        "title": "Media Disposal"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Media Disposal.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PHYSICAL-NO-MEDIA-REUSE-008-TO-164.310(d)(2)(ii)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PHYSICAL-NO-MEDIA-REUSE-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.310(d)(2)(ii)",
+        "title": "Media Re-use"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Media Re-use.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PHYSICAL-NO-WORKSTATION-SECURITY-006-TO-164.310(c)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PHYSICAL-NO-WORKSTATION-SECURITY-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.310(c)",
+        "title": "Workstation Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Workstation Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PHYSICAL-NO-WORKSTATION-USE-005-TO-164.310(b)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PHYSICAL-NO-WORKSTATION-USE-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.310(b)",
+        "title": "Workstation Use"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Workstation Use.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-ACCESS-RIGHTS-014-TO-164.524",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-ACCESS-RIGHTS-014",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.524",
+        "title": "Access Rights"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Access Rights.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-ACCESS-TIMELINESS-015-TO-164.524(b)(2)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-ACCESS-TIMELINESS-015",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.524(b)(2)",
+        "title": "Access Timeliness"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Access Timeliness.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-ACCOUNTING-DISCLOSURES-017-TO-164.528",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-ACCOUNTING-DISCLOSURES-017",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.528",
+        "title": "Accounting of Disclosures"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Accounting of Disclosures.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-AMENDMENT-RIGHTS-016-TO-164.526",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-AMENDMENT-RIGHTS-016",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.526",
+        "title": "Amendment Rights"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Amendment Rights.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-AUTHORIZATION-005-TO-164.508",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-AUTHORIZATION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.508",
+        "title": "Authorization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Authorization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-COMPLAINT-PROCESS-022-TO-164.530(d)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-COMPLAINT-PROCESS-022",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.530(d)",
+        "title": "Complaint Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Complaint Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-CONFIDENTIAL-COMMS-013-TO-164.522(b)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-CONFIDENTIAL-COMMS-013",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.522(b)",
+        "title": "Confidential Communications"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Confidential Communications.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-DEIDENTIFICATION-003-TO-164.514(a)-(b)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-DEIDENTIFICATION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.514(a)-(b)",
+        "title": "De-identification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for De-identification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-MARKETING-AUTHORIZATION-007-TO-164.508(a)(3)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-MARKETING-AUTHORIZATION-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.508(a)(3)",
+        "title": "Marketing Authorization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Marketing Authorization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-MINIMUM-NECESSARY-002-TO-164.502(b)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-MINIMUM-NECESSARY-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.502(b)",
+        "title": "Minimum Necessary"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Minimum Necessary.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-MITIGATION-024-TO-164.530(f)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-MITIGATION-024",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.530(f)",
+        "title": "Mitigation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Mitigation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-NOTICE-CONTENT-010-TO-164.520(b)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-NOTICE-CONTENT-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.520(b)",
+        "title": "Notice Content"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Notice Content.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-NOTICE-PROVISION-011-TO-164.520(c)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-NOTICE-PROVISION-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.520(c)",
+        "title": "Notice Provision"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Notice Provision.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-PRIVACY-CONTACT-019-TO-164.530(a)(1)(ii)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-CONTACT-019",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.530(a)(1)(ii)",
+        "title": "Privacy Contact"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Privacy Contact.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-PRIVACY-NOTICE-009-TO-164.520",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-NOTICE-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.520",
+        "title": "Privacy Notice"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Privacy Notice.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-PRIVACY-OFFICER-018-TO-164.530(a)(1)(i)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-OFFICER-018",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.530(a)(1)(i)",
+        "title": "Privacy Officer"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Privacy Officer.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-PRIVACY-TRAINING-020-TO-164.530(b)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-TRAINING-020",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.530(b)",
+        "title": "Privacy Training"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Privacy Training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-PSYCHOTHERAPY-PROTECTION-006-TO-164.508(a)(2)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-PSYCHOTHERAPY-PROTECTION-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.508(a)(2)",
+        "title": "Psychotherapy Notes"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Psychotherapy Notes.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-RESTRICTION-RIGHTS-012-TO-164.522(a)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-RESTRICTION-RIGHTS-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.522(a)",
+        "title": "Restriction Rights"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Restriction Rights.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-RETALIATION-PROTECTION-025-TO-164.530(g)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-RETALIATION-PROTECTION-025",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.530(g)",
+        "title": "Retaliation Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Retaliation Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-SAFEGUARDS-021-TO-164.530(c)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-SAFEGUARDS-021",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.530(c)",
+        "title": "Safeguards"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Safeguards.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-SALE-PROHIBITION-008-TO-164.508(a)(4)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-SALE-PROHIBITION-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.508(a)(4)",
+        "title": "Sale Prohibition"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Sale Prohibition.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-SANCTIONS-023-TO-164.530(e)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-SANCTIONS-023",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.530(e)",
+        "title": "Sanctions"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Sanctions.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-TPO-LIMITS-004-TO-164.506",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-TPO-LIMITS-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.506",
+        "title": "TPO Limits"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for TPO Limits.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-USE-LIMITS-001-TO-164.502(a)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-USE-LIMITS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.502(a)",
+        "title": "Use and Disclosure Limits"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Use and Disclosure Limits.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-PRIVACY-NO-WAIVER-PROHIBITION-026-TO-164.530(h)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-PRIVACY-NO-WAIVER-PROHIBITION-026",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.530(h)",
+        "title": "Waiver Prohibition"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Waiver Prohibition.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-TECH-NO-AUDIT-CONTROLS-005-TO-164.312(b)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-TECH-NO-AUDIT-CONTROLS-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.312(b)",
+        "title": "Audit Controls"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Audit Controls.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-TECH-NO-AUTHENTICATION-007-TO-164.312(d)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-TECH-NO-AUTHENTICATION-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.312(d)",
+        "title": "Authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Authentication.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-TECH-NO-AUTO-LOGOFF-003-TO-164.312(a)(2)(iii)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-TECH-NO-AUTO-LOGOFF-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.312(a)(2)(iii)",
+        "title": "Automatic Logoff"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Automatic Logoff.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-TECH-NO-EMERGENCY-ACCESS-002-TO-164.312(a)(2)(ii)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-TECH-NO-EMERGENCY-ACCESS-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.312(a)(2)(ii)",
+        "title": "Emergency Access"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Emergency Access.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-TECH-NO-ENCRYPTION-004-TO-164.312(a)(2)(iv)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-TECH-NO-ENCRYPTION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.312(a)(2)(iv)",
+        "title": "Encryption"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Encryption.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-TECH-NO-INTEGRITY-MECHANISM-006-TO-164.312(c)(2)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-TECH-NO-INTEGRITY-MECHANISM-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.312(c)(2)",
+        "title": "Integrity Mechanism"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Integrity Mechanism.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-TECH-NO-TRANSMISSION-ENCRYPTION-009-TO-164.312(e)(2)(ii)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-TECH-NO-TRANSMISSION-ENCRYPTION-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.312(e)(2)(ii)",
+        "title": "Transmission Encryption"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Transmission Encryption.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-TECH-NO-TRANSMISSION-INTEGRITY-008-TO-164.312(e)(2)(i)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-TECH-NO-TRANSMISSION-INTEGRITY-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.312(e)(2)(i)",
+        "title": "Transmission Integrity"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Transmission Integrity.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HIPAA-TECH-NO-UNIQUE-USER-ID-001-TO-164.312(a)(2)(i)",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HIPAA-TECH-NO-UNIQUE-USER-ID-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HIPAA",
+        "version": "2013",
+        "id": "164.312(a)(2)(i)",
+        "title": "Unique User ID"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses HIPAA requirement for Unique User ID.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    }
+  ]
+}

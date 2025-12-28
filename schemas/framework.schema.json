@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cse-registry.org/schemas/framework.schema.json",
+  "title": "CSE Framework Definition",
+  "description": "Schema for compliance framework definitions used in CSE mappings",
+  "type": "object",
+  "required": ["id", "name", "version", "authority"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique framework identifier (NAME-VERSION format)",
+      "pattern": "^[A-Z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable framework name"
+    },
+    "version": {
+      "type": "string",
+      "description": "Framework version"
+    },
+    "authority": {
+      "type": "string",
+      "description": "Issuing organization or body"
+    },
+    "effective_date": {
+      "type": "string",
+      "description": "Date framework became effective",
+      "format": "date"
+    },
+    "supersedes": {
+      "type": "string",
+      "description": "Previous version identifier this version replaces"
+    },
+    "source_url": {
+      "type": "string",
+      "description": "Official framework URL",
+      "format": "uri"
+    },
+    "control_count": {
+      "type": "integer",
+      "description": "Total number of controls defined",
+      "minimum": 0
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the framework"
+    },
+    "domains": {
+      "type": "array",
+      "description": "Control domains or families within the framework",
+      "items": {
+        "$ref": "#/$defs/domain"
+      }
+    },
+    "levels": {
+      "type": "array",
+      "description": "Maturity or implementation levels (if applicable)",
+      "items": {
+        "type": "string"
+      }
+    },
+    "metadata": {
+      "$ref": "#/$defs/frameworkMetadata"
+    }
+  },
+  "$defs": {
+    "domain": {
+      "type": "object",
+      "required": ["id", "name"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Domain identifier"
+        },
+        "name": {
+          "type": "string",
+          "description": "Domain name"
+        },
+        "description": {
+          "type": "string",
+          "description": "Domain description"
+        },
+        "control_count": {
+          "type": "integer",
+          "description": "Number of controls in this domain",
+          "minimum": 0
+        }
+      }
+    },
+    "frameworkMetadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "created": {
+          "type": "string",
+          "description": "When this definition was created",
+          "format": "date-time"
+        },
+        "updated": {
+          "type": "string",
+          "description": "When this definition was last updated",
+          "format": "date-time"
+        },
+        "source_version": {
+          "type": "string",
+          "description": "Version of the source document used"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional context about this framework definition"
+        }
+      }
+    }
+  }
+}

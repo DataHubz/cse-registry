@@ -1,0 +1,3414 @@
+{
+  "metadata": {
+    "framework": "HITRUST-11",
+    "cse_registry_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "generated": "2025-12-28T00:00:00Z",
+    "mapping_count": 126,
+    "description": "Signal-to-control mappings for HITRUST domain signals to HITRUST CSF v11 controls"
+  },
+  "mappings": [
+    {
+      "id": "MAP-CSE-HITRUST-ACCESS-NO-ACCESS-LOGGING-012-TO-01.l",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-ACCESS-LOGGING-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "01.l",
+        "title": "Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ACCESS-NO-ACCOUNT-LOCKOUT-011-TO-01.k",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-ACCOUNT-LOCKOUT-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "01.k",
+        "title": "Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ACCESS-NO-LEAST-PRIVILEGE-010-TO-01.j",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-LEAST-PRIVILEGE-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "01.j",
+        "title": "Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ACCESS-NO-MFA-006-TO-01.f",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-MFA-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "01.f",
+        "title": "Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ACCESS-NO-PASSWORD-POLICY-005-TO-01.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-PASSWORD-POLICY-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "01.e",
+        "title": "Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ACCESS-NO-POLICY-001-TO-01.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "01.a",
+        "title": "Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ACCESS-NO-PRIVILEGE-MANAGEMENT-003-TO-01.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-PRIVILEGE-MANAGEMENT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "01.c",
+        "title": "Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ACCESS-NO-REMOTE-ACCESS-CONTROL-008-TO-01.h",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-REMOTE-ACCESS-CONTROL-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "01.h",
+        "title": "Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ACCESS-NO-SEGREGATION-009-TO-01.i",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-SEGREGATION-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "01.i",
+        "title": "Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ACCESS-NO-SESSION-MANAGEMENT-007-TO-01.g",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-SESSION-MANAGEMENT-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "01.g",
+        "title": "Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ACCESS-NO-USER-REGISTRATION-002-TO-01.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-USER-REGISTRATION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "01.b",
+        "title": "Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ACCESS-NO-USER-REVIEW-004-TO-01.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ACCESS-NO-USER-REVIEW-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "01.d",
+        "title": "Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ASSET-NO-ACCEPTABLE-USE-003-TO-07.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ASSET-NO-ACCEPTABLE-USE-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "07.c",
+        "title": "Acceptable Use of Assets"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Acceptable Use of Assets.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ASSET-NO-CLASSIFICATION-004-TO-07.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ASSET-NO-CLASSIFICATION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "07.d",
+        "title": "Information Classification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Information Classification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ASSET-NO-HANDLING-006-TO-07.f",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ASSET-NO-HANDLING-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "07.f",
+        "title": "Handling of Assets"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Handling of Assets.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ASSET-NO-INVENTORY-001-TO-07.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ASSET-NO-INVENTORY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "07.a",
+        "title": "Inventory of Assets"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Inventory of Assets.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ASSET-NO-LABELING-005-TO-07.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ASSET-NO-LABELING-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "07.e",
+        "title": "Labeling and Handling of Information"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Labeling and Handling of Information.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ASSET-NO-OWNERSHIP-002-TO-07.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ASSET-NO-OWNERSHIP-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "07.b",
+        "title": "Ownership of Assets"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Ownership of Assets.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-BCM-NO-BIA-002-TO-12.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-BCM-NO-BIA-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "12.b",
+        "title": "Business Impact Analysis"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Business Impact Analysis.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-BCM-NO-MAINTENANCE-005-TO-12.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-BCM-NO-MAINTENANCE-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "12.e",
+        "title": "Business Continuity Maintenance"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Business Continuity Maintenance.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-BCM-NO-PLANS-003-TO-12.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-BCM-NO-PLANS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "12.c",
+        "title": "Business Continuity Plans"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Business Continuity Plans.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-BCM-NO-PROGRAM-001-TO-12.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-BCM-NO-PROGRAM-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "12.a",
+        "title": "Business Continuity Management Program"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Business Continuity Management Program.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-BCM-NO-REDUNDANCY-006-TO-12.f",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-BCM-NO-REDUNDANCY-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "12.f",
+        "title": "Information Redundancy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Information Redundancy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-BCM-NO-TESTING-004-TO-12.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-BCM-NO-TESTING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "12.d",
+        "title": "Business Continuity Testing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Business Continuity Testing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-CLOUD-NO-CONFIGURATION-005-TO-14.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-CLOUD-NO-CONFIGURATION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "14.e",
+        "title": "Cloud Configuration Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Cloud Configuration Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-CLOUD-NO-DATA-LOCATION-003-TO-14.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-CLOUD-NO-DATA-LOCATION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "14.c",
+        "title": "Data Location and Jurisdiction"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Data Location and Jurisdiction.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-CLOUD-NO-ENCRYPTION-004-TO-14.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-CLOUD-NO-ENCRYPTION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "14.d",
+        "title": "Cloud Encryption"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Cloud Encryption.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-CLOUD-NO-GOVERNANCE-001-TO-14.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-CLOUD-NO-GOVERNANCE-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "14.a",
+        "title": "Cloud Governance"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Cloud Governance.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-CLOUD-NO-MONITORING-006-TO-14.f",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-CLOUD-NO-MONITORING-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "14.f",
+        "title": "Cloud Monitoring and Logging"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Cloud Monitoring and Logging.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-CLOUD-NO-SHARED-RESPONSIBILITY-002-TO-14.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-CLOUD-NO-SHARED-RESPONSIBILITY-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "14.b",
+        "title": "Shared Responsibility Model"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Shared Responsibility Model.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-COMPLY-NO-AUDIT-006-TO-06.f",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-COMPLY-NO-AUDIT-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "06.f",
+        "title": "Compliance Audit"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Compliance Audit.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-COMPLY-NO-IPR-002-TO-06.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-COMPLY-NO-IPR-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "06.b",
+        "title": "Intellectual Property Rights"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Intellectual Property Rights.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-COMPLY-NO-LEGAL-IDENTIFICATION-001-TO-06.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-COMPLY-NO-LEGAL-IDENTIFICATION-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "06.a",
+        "title": "Compliance with Legal and Contractual Requirements"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Compliance with Legal and Contractual Requirements.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-COMPLY-NO-PRIVACY-COMPLIANCE-004-TO-06.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-COMPLY-NO-PRIVACY-COMPLIANCE-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "06.d",
+        "title": "Privacy and Protection of PII"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Privacy and Protection of PII.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-COMPLY-NO-RECORDS-PROTECTION-003-TO-06.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-COMPLY-NO-RECORDS-PROTECTION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "06.c",
+        "title": "Protection of Records"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Protection of Records.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-COMPLY-NO-TECHNICAL-COMPLIANCE-005-TO-06.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-COMPLY-NO-TECHNICAL-COMPLIANCE-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "06.e",
+        "title": "Technical Compliance"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Technical Compliance.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ENDPOINT-NO-DETECTION-002-TO-17.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ENDPOINT-NO-DETECTION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "17.b",
+        "title": "Endpoint Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Endpoint Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ENDPOINT-NO-DLP-004-TO-17.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ENDPOINT-NO-DLP-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "17.d",
+        "title": "Endpoint Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Endpoint Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ENDPOINT-NO-HARDENING-003-TO-17.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ENDPOINT-NO-HARDENING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "17.c",
+        "title": "Endpoint Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Endpoint Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ENDPOINT-NO-PROTECTION-001-TO-17.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ENDPOINT-NO-PROTECTION-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "17.a",
+        "title": "Endpoint Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Endpoint Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-HR-NO-AWARENESS-003-TO-02.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-HR-NO-AWARENESS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "02.c",
+        "title": "HR Security - Awareness Training"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for HR Security - Awareness Training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-HR-NO-DISCIPLINARY-004-TO-02.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-HR-NO-DISCIPLINARY-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "02.d",
+        "title": "HR Security - Disciplinary Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for HR Security - Disciplinary Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-HR-NO-SCREENING-001-TO-02.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-HR-NO-SCREENING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "02.a",
+        "title": "HR Security - Screening"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for HR Security - Screening.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-HR-NO-TERMINATION-005-TO-02.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-HR-NO-TERMINATION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "02.e",
+        "title": "HR Security - Termination"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for HR Security - Termination.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-HR-NO-TERMS-002-TO-02.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-HR-NO-TERMS-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "02.b",
+        "title": "HR Security - Terms of Employment"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for HR Security - Terms of Employment.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-INCIDENT-NO-BREACH-NOTIFICATION-006-TO-11.f",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-INCIDENT-NO-BREACH-NOTIFICATION-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "11.f",
+        "title": "Breach Notification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Breach Notification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-INCIDENT-NO-EVIDENCE-005-TO-11.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-INCIDENT-NO-EVIDENCE-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "11.e",
+        "title": "Collection of Evidence"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Collection of Evidence.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-INCIDENT-NO-LEARNING-004-TO-11.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-INCIDENT-NO-LEARNING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "11.d",
+        "title": "Learning from Incidents"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Learning from Incidents.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-INCIDENT-NO-PROCEDURES-001-TO-11.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-INCIDENT-NO-PROCEDURES-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "11.a",
+        "title": "Incident Procedures"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Incident Procedures.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-INCIDENT-NO-REPORTING-002-TO-11.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-INCIDENT-NO-REPORTING-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "11.b",
+        "title": "Incident Reporting"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Incident Reporting.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-INCIDENT-NO-RESPONSE-003-TO-11.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-INCIDENT-NO-RESPONSE-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "11.c",
+        "title": "Incident Response"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Incident Response.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ISMP-NO-AUTHORIZATION-PROCESS-005-TO-00.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ISMP-NO-AUTHORIZATION-PROCESS-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "00.c",
+        "title": "ISMP"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for ISMP.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ISMP-NO-COORDINATION-003-TO-00.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ISMP-NO-COORDINATION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "00.b",
+        "title": "ISMP"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for ISMP.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ISMP-NO-MANAGEMENT-COMMITMENT-002-TO-00.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ISMP-NO-MANAGEMENT-COMMITMENT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "00.a",
+        "title": "ISMP"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for ISMP.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ISMP-NO-PROGRAM-001-TO-00.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ISMP-NO-PROGRAM-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "00.a",
+        "title": "ISMP"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for ISMP.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ISMP-NO-RESPONSIBILITIES-004-TO-00.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ISMP-NO-RESPONSIBILITIES-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "00.b",
+        "title": "ISMP"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for ISMP.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ISMP-NO-REVIEW-006-TO-00.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ISMP-NO-REVIEW-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "00.d",
+        "title": "ISMP"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for ISMP.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-MOBILE-NO-APP-SECURITY-004-TO-15.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-MOBILE-NO-APP-SECURITY-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "15.d",
+        "title": "Mobile Device Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Mobile Device Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-MOBILE-NO-BYOD-003-TO-15.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-MOBILE-NO-BYOD-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "15.c",
+        "title": "Mobile Device Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Mobile Device Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-MOBILE-NO-MDM-002-TO-15.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-MOBILE-NO-MDM-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "15.b",
+        "title": "Mobile Device Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Mobile Device Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-MOBILE-NO-POLICY-001-TO-15.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-MOBILE-NO-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "15.a",
+        "title": "Mobile Device Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Mobile Device Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-NETWORK-NO-ENCRYPTION-003-TO-18.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-NETWORK-NO-ENCRYPTION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "18.c",
+        "title": "Network Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Network Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-NETWORK-NO-MONITORING-004-TO-18.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-NETWORK-NO-MONITORING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "18.d",
+        "title": "Network Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Network Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-NETWORK-NO-PERIMETER-002-TO-18.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-NETWORK-NO-PERIMETER-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "18.b",
+        "title": "Network Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Network Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-NETWORK-NO-SEGMENTATION-001-TO-18.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-NETWORK-NO-SEGMENTATION-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "18.a",
+        "title": "Network Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Network Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-OPS-NO-BACKUP-006-TO-09.f",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-OPS-NO-BACKUP-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "09.f",
+        "title": "Back-up"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Back-up.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-OPS-NO-CAPACITY-003-TO-09.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-OPS-NO-CAPACITY-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "09.c",
+        "title": "Capacity Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Capacity Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-OPS-NO-CHANGE-MANAGEMENT-002-TO-09.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-OPS-NO-CHANGE-MANAGEMENT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "09.b",
+        "title": "Change Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Change Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-OPS-NO-CLOCK-SYNC-009-TO-09.i",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-OPS-NO-CLOCK-SYNC-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "09.i",
+        "title": "Clock Synchronization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Clock Synchronization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-OPS-NO-ENVIRONMENT-SEPARATION-004-TO-09.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-OPS-NO-ENVIRONMENT-SEPARATION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "09.d",
+        "title": "Environment Separation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Environment Separation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-OPS-NO-INFORMATION-EXCHANGE-012-TO-09.l",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-OPS-NO-INFORMATION-EXCHANGE-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "09.l",
+        "title": "Information Exchange"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Information Exchange.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-OPS-NO-LOG-PROTECTION-008-TO-09.h",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-OPS-NO-LOG-PROTECTION-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "09.h",
+        "title": "Log Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Log Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-OPS-NO-LOGGING-007-TO-09.g",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-OPS-NO-LOGGING-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "09.g",
+        "title": "Audit Logging"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Audit Logging.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-OPS-NO-MALWARE-PROTECTION-005-TO-09.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-OPS-NO-MALWARE-PROTECTION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "09.e",
+        "title": "Malware Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Malware Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-OPS-NO-MEDIA-MANAGEMENT-011-TO-09.k",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-OPS-NO-MEDIA-MANAGEMENT-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "09.k",
+        "title": "Media Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Media Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-OPS-NO-PATCH-MANAGEMENT-010-TO-09.j",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-OPS-NO-PATCH-MANAGEMENT-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "09.j",
+        "title": "Patch Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Patch Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-OPS-NO-PROCEDURES-001-TO-09.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-OPS-NO-PROCEDURES-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "09.a",
+        "title": "Operating Procedures"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Operating Procedures.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ORG-NO-AUTHORITY-003-TO-05.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ORG-NO-AUTHORITY-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "05.c",
+        "title": "Contact with Authorities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Contact with Authorities.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ORG-NO-EXTERNAL-CONTACT-005-TO-05.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ORG-NO-EXTERNAL-CONTACT-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "05.e",
+        "title": "Independent Review"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Independent Review.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ORG-NO-ROLES-001-TO-05.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ORG-NO-ROLES-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "05.a",
+        "title": "Security Responsibilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Security Responsibilities.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ORG-NO-SEGREGATION-002-TO-05.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ORG-NO-SEGREGATION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "05.b",
+        "title": "Segregation of Duties"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Segregation of Duties.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-ORG-NO-SPECIALIST-004-TO-05.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-ORG-NO-SPECIALIST-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "05.d",
+        "title": "Special Interest Groups"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Special Interest Groups.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PHYSICAL-NO-CABLING-006-TO-08.f",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PHYSICAL-NO-CABLING-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "08.f",
+        "title": "Physical Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Physical Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PHYSICAL-NO-DISPOSAL-008-TO-08.h",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PHYSICAL-NO-DISPOSAL-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "08.h",
+        "title": "Physical Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Physical Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PHYSICAL-NO-ENTRY-CONTROLS-002-TO-08.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PHYSICAL-NO-ENTRY-CONTROLS-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "08.b",
+        "title": "Physical Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Physical Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PHYSICAL-NO-EQUIPMENT-PROTECTION-004-TO-08.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PHYSICAL-NO-EQUIPMENT-PROTECTION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "08.d",
+        "title": "Physical Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Physical Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PHYSICAL-NO-MAINTENANCE-007-TO-08.g",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PHYSICAL-NO-MAINTENANCE-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "08.g",
+        "title": "Physical Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Physical Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PHYSICAL-NO-PERIMETER-001-TO-08.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PHYSICAL-NO-PERIMETER-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "08.a",
+        "title": "Physical Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Physical Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PHYSICAL-NO-SECURE-AREAS-003-TO-08.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PHYSICAL-NO-SECURE-AREAS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "08.c",
+        "title": "Physical Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Physical Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PHYSICAL-NO-SUPPORTING-UTILITIES-005-TO-08.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PHYSICAL-NO-SUPPORTING-UTILITIES-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "08.e",
+        "title": "Physical Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Physical Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-POLICY-NO-APPROVAL-002-TO-04.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-POLICY-NO-APPROVAL-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "04.a",
+        "title": "Security Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Security Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-POLICY-NO-COMMUNICATION-003-TO-04.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-POLICY-NO-COMMUNICATION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "04.b",
+        "title": "Security Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Security Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-POLICY-NO-DOCUMENT-001-TO-04.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-POLICY-NO-DOCUMENT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "04.a",
+        "title": "Security Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Security Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-POLICY-NO-REVIEW-004-TO-04.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-POLICY-NO-REVIEW-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "04.c",
+        "title": "Security Policy"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Security Policy.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PRIVACY-NO-ACCESS-RIGHTS-004-TO-13.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PRIVACY-NO-ACCESS-RIGHTS-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "13.d",
+        "title": "Privacy Practices"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Privacy Practices.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PRIVACY-NO-AMENDMENT-006-TO-13.f",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PRIVACY-NO-AMENDMENT-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "13.f",
+        "title": "Privacy Practices"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Privacy Practices.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PRIVACY-NO-COMPLAINTS-007-TO-13.g",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PRIVACY-NO-COMPLAINTS-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "13.g",
+        "title": "Privacy Practices"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Privacy Practices.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PRIVACY-NO-CONSENT-002-TO-13.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PRIVACY-NO-CONSENT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "13.b",
+        "title": "Privacy Practices"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Privacy Practices.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PRIVACY-NO-DISCLOSURE-TRACKING-005-TO-13.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PRIVACY-NO-DISCLOSURE-TRACKING-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "13.e",
+        "title": "Privacy Practices"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Privacy Practices.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PRIVACY-NO-NOTICE-001-TO-13.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PRIVACY-NO-NOTICE-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "13.a",
+        "title": "Privacy Practices"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Privacy Practices.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PRIVACY-NO-TRAINING-008-TO-13.h",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PRIVACY-NO-TRAINING-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "13.h",
+        "title": "Privacy Practices"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Privacy Practices.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-PRIVACY-NO-USE-LIMITATION-003-TO-13.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-PRIVACY-NO-USE-LIMITATION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "13.c",
+        "title": "Privacy Practices"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Privacy Practices.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-RISK-NO-ACCEPTANCE-004-TO-03.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-RISK-NO-ACCEPTANCE-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "03.b",
+        "title": "Risk Treatment"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Risk Treatment.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-RISK-NO-ASSESSMENT-001-TO-03.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-RISK-NO-ASSESSMENT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "03.a",
+        "title": "Risk Assessment"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Risk Assessment.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-RISK-NO-METHODOLOGY-002-TO-03.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-RISK-NO-METHODOLOGY-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "03.a",
+        "title": "Risk Assessment"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Risk Assessment.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-RISK-NO-MONITORING-005-TO-03.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-RISK-NO-MONITORING-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "03.c",
+        "title": "Risk Monitoring"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Risk Monitoring.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-RISK-NO-PERIODIC-REVIEW-008-TO-03.f",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-RISK-NO-PERIODIC-REVIEW-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "03.f",
+        "title": "Periodic Risk Review"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Periodic Risk Review.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-RISK-NO-THREAT-INTELLIGENCE-006-TO-03.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-RISK-NO-THREAT-INTELLIGENCE-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "03.d",
+        "title": "Threat Intelligence"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Threat Intelligence.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-RISK-NO-TREATMENT-003-TO-03.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-RISK-NO-TREATMENT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "03.b",
+        "title": "Risk Treatment"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Risk Treatment.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-RISK-NO-VULNERABILITY-MANAGEMENT-007-TO-03.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-RISK-NO-VULNERABILITY-MANAGEMENT-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "03.e",
+        "title": "Vulnerability Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Vulnerability Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-SDLC-NO-CODE-REVIEW-008-TO-10.h",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-SDLC-NO-CODE-REVIEW-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "10.h",
+        "title": "SDLC"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for SDLC.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-SDLC-NO-CRYPTOGRAPHY-005-TO-10.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-SDLC-NO-CRYPTOGRAPHY-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "10.e",
+        "title": "SDLC"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for SDLC.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-SDLC-NO-INPUT-VALIDATION-002-TO-10.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-SDLC-NO-INPUT-VALIDATION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "10.b",
+        "title": "SDLC"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for SDLC.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-SDLC-NO-INTEGRITY-CONTROLS-003-TO-10.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-SDLC-NO-INTEGRITY-CONTROLS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "10.c",
+        "title": "SDLC"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for SDLC.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-SDLC-NO-KEY-MANAGEMENT-006-TO-10.f",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-SDLC-NO-KEY-MANAGEMENT-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "10.f",
+        "title": "SDLC"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for SDLC.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-SDLC-NO-OUTPUT-VALIDATION-004-TO-10.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-SDLC-NO-OUTPUT-VALIDATION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "10.d",
+        "title": "SDLC"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for SDLC.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-SDLC-NO-REQUIREMENTS-001-TO-10.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-SDLC-NO-REQUIREMENTS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "10.a",
+        "title": "SDLC"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for SDLC.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-SDLC-NO-SECURE-DEVELOPMENT-007-TO-10.g",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-SDLC-NO-SECURE-DEVELOPMENT-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "10.g",
+        "title": "SDLC"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for SDLC.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-SDLC-NO-TEST-DATA-010-TO-10.j",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-SDLC-NO-TEST-DATA-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "10.j",
+        "title": "SDLC"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for SDLC.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-SDLC-NO-TESTING-009-TO-10.i",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-SDLC-NO-TESTING-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "10.i",
+        "title": "SDLC"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for SDLC.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-VENDOR-NO-CONTRACT-REQUIREMENTS-002-TO-16.b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-VENDOR-NO-CONTRACT-REQUIREMENTS-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "16.b",
+        "title": "Third Party Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Third Party Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-VENDOR-NO-DUE-DILIGENCE-003-TO-16.c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-VENDOR-NO-DUE-DILIGENCE-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "16.c",
+        "title": "Third Party Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Third Party Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-VENDOR-NO-INHERITANCE-006-TO-16.f",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-VENDOR-NO-INHERITANCE-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "16.f",
+        "title": "Third Party Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Third Party Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-VENDOR-NO-MONITORING-004-TO-16.d",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-VENDOR-NO-MONITORING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "16.d",
+        "title": "Third Party Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Third Party Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-VENDOR-NO-RISK-ASSESSMENT-001-TO-16.a",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-VENDOR-NO-RISK-ASSESSMENT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "16.a",
+        "title": "Third Party Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Third Party Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-HITRUST-VENDOR-NO-TERMINATION-005-TO-16.e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-HITRUST-VENDOR-NO-TERMINATION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "HITRUST-11",
+        "version": "11",
+        "id": "16.e",
+        "title": "Third Party Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses control requirement for Third Party Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "schema_version": "1.0.0",
+  "type": "cross-framework-mapping",
+  "description": "Control mappings from Cybersecurity Maturity Model Certification to NIST Cybersecurity Framework via CSE signal bridge",
+  "source_framework": {
+    "id": "CMMC-2.0",
+    "name": "Cybersecurity Maturity Model Certification",
+    "version": "2.0"
+  },
+  "target_framework": {
+    "id": "NIST-CSF-2.0",
+    "name": "NIST Cybersecurity Framework",
+    "version": "2.0"
+  },
+  "generated": "2025-12-28T00:00:00Z",
+  "statistics": {
+    "total_mappings": 13
+  },
+  "mappings": [
+    {
+      "id": "XFW-CMMC20-AC-L2-3-1-1-TO-NISTCSF20-PR-AA-05",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.1",
+        "title": "Authorized Access Control"
+      },
+      "target": {
+        "type": "control",
+        "framework": "NIST-CSF-2.0",
+        "version": "2.0",
+        "id": "PR.AA-05",
+        "title": "Access Permissions and Authorizations"
+      },
+      "bridge_signal": "CSE-CMMC-ACCESS-NO-AUTHORIZED-ACCESS-CONTROL-020",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both address access control requirements",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-AC-L2-3-1-2-TO-NISTCSF20-PR-AA-05",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.2",
+        "title": "Transaction & Function Control"
+      },
+      "target": {
+        "type": "control",
+        "framework": "NIST-CSF-2.0",
+        "version": "2.0",
+        "id": "PR.AA-05",
+        "title": "Access Permissions and Authorizations"
+      },
+      "bridge_signal": "CSE-CMMC-ACCESS-NO-LEAST-PRIVILEGE-002",
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both address function-level access",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-AU-L2-3-3-1-TO-NISTCSF20-DE-CM-03",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AU.L2-3.3.1",
+        "title": "System Auditing"
+      },
+      "target": {
+        "type": "control",
+        "framework": "NIST-CSF-2.0",
+        "version": "2.0",
+        "id": "DE.CM-03",
+        "title": "Monitoring Computing Hardware and Software"
+      },
+      "bridge_signal": "CSE-CMMC-AUDIT-NO-LOGGING-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require monitoring and logging",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-CM-L2-3-4-1-TO-NISTCSF20-PR-PS-01",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CM.L2-3.4.1",
+        "title": "System Baseline Configurations"
+      },
+      "target": {
+        "type": "control",
+        "framework": "NIST-CSF-2.0",
+        "version": "2.0",
+        "id": "PR.PS-01",
+        "title": "Configuration Management Practices"
+      },
+      "bridge_signal": "CSE-CMMC-CONFIG-NO-BASELINE-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require configuration management",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-IA-L2-3-5-1-TO-NISTCSF20-PR-AA-01",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.1",
+        "title": "Identification"
+      },
+      "target": {
+        "type": "control",
+        "framework": "NIST-CSF-2.0",
+        "version": "2.0",
+        "id": "PR.AA-01",
+        "title": "Identity and Access Authentication"
+      },
+      "bridge_signal": "CSE-CMMC-IDENTITY-NO-UNIQUE-ID-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require identity management",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-IA-L2-3-5-3-TO-NISTCSF20-PR-AA-01",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.3",
+        "title": "Multifactor Authentication"
+      },
+      "target": {
+        "type": "control",
+        "framework": "NIST-CSF-2.0",
+        "version": "2.0",
+        "id": "PR.AA-01",
+        "title": "Identity and Access Authentication"
+      },
+      "bridge_signal": "CSE-CMMC-IDENTITY-NO-MFA-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require strong authentication",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-IR-L2-3-6-1-TO-NISTCSF20-RS-MA-01",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IR.L2-3.6.1",
+        "title": "Incident Handling"
+      },
+      "target": {
+        "type": "control",
+        "framework": "NIST-CSF-2.0",
+        "version": "2.0",
+        "id": "RS.MA-01",
+        "title": "Incident Response Plan Execution"
+      },
+      "bridge_signal": "CSE-CMMC-INCIDENT-NO-PLAN-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require incident response",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-RA-L2-3-11-1-TO-NISTCSF20-ID-RA-05",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "RA.L2-3.11.1",
+        "title": "Risk Assessments"
+      },
+      "target": {
+        "type": "control",
+        "framework": "NIST-CSF-2.0",
+        "version": "2.0",
+        "id": "ID.RA-05",
+        "title": "Risk Responses Identified"
+      },
+      "bridge_signal": "CSE-CMMC-RISK-NO-ASSESSMENT-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require risk assessment",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-RA-L2-3-11-2-TO-NISTCSF20-ID-RA-01",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "RA.L2-3.11.2",
+        "title": "Vulnerability Remediation"
+      },
+      "target": {
+        "type": "control",
+        "framework": "NIST-CSF-2.0",
+        "version": "2.0",
+        "id": "ID.RA-01",
+        "title": "Asset Vulnerabilities Identified"
+      },
+      "bridge_signal": "CSE-CMMC-RISK-NO-VULN-SCAN-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both address vulnerability identification",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SC-L2-3-13-8-TO-NISTCSF20-PR-DS-02",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.8",
+        "title": "Transmission Confidentiality"
+      },
+      "target": {
+        "type": "control",
+        "framework": "NIST-CSF-2.0",
+        "version": "2.0",
+        "id": "PR.DS-02",
+        "title": "Data-in-Transit Protection"
+      },
+      "bridge_signal": "CSE-CMMC-COMMS-NO-ENCRYPTION-TRANSIT-001",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require data protection in transit",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SC-L2-3-13-16-TO-NISTCSF20-PR-DS-01",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.16",
+        "title": "Data at Rest Encryption"
+      },
+      "target": {
+        "type": "control",
+        "framework": "NIST-CSF-2.0",
+        "version": "2.0",
+        "id": "PR.DS-01",
+        "title": "Data-at-Rest Protection"
+      },
+      "bridge_signal": "CSE-CMMC-COMMS-NO-ENCRYPTION-REST-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require data protection at rest",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SI-L2-3-14-1-TO-NISTCSF20-PR-PS-02",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SI.L2-3.14.1",
+        "title": "Flaw Remediation"
+      },
+      "target": {
+        "type": "control",
+        "framework": "NIST-CSF-2.0",
+        "version": "2.0",
+        "id": "PR.PS-02",
+        "title": "Software Maintenance"
+      },
+      "bridge_signal": "CSE-CMMC-INTEGRITY-NO-PATCHING-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require vulnerability remediation",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SI-L2-3-14-2-TO-NISTCSF20-DE-CM-01",
+      "source": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SI.L2-3.14.2",
+        "title": "Malicious Code Protection"
+      },
+      "target": {
+        "type": "control",
+        "framework": "NIST-CSF-2.0",
+        "version": "2.0",
+        "id": "DE.CM-01",
+        "title": "Monitoring for Adverse Events"
+      },
+      "bridge_signal": "CSE-CMMC-INTEGRITY-NO-MALWARE-PROTECTION-001",
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both address threat detection",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3630 @@
+{
+  "metadata": {
+    "framework": "CMMC-2.0",
+    "cse_registry_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "generated": "2025-12-28T00:00:00Z",
+    "mapping_count": 134,
+    "description": "Signal-to-control mappings for CMMC domain signals to CMMC 2.0 controls"
+  },
+  "mappings": [
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-MOBILE-UNCONTROLLED-011-TO-AC.L2-3.1.18",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-MOBILE-UNCONTROLLED-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.18",
+        "title": "Mobile Device Access"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Mobile Device Access.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-AUTHORIZED-ACCESS-CONTROL-020-TO-AC.L1-3.1.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-AUTHORIZED-ACCESS-CONTROL-020",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L1-3.1.1",
+        "title": "Authorized Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Authorized Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-CONCURRENT-SESSION-CONTROL-022-TO-AC.L2-3.1.11",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-CONCURRENT-SESSION-CONTROL-022",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.11",
+        "title": "Concurrent Session Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Concurrent Session Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-CUI-FLOW-CONTROL-005-TO-AC.L2-3.1.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-CUI-FLOW-CONTROL-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.3",
+        "title": "CUI Flow Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for CUI Flow Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-EXTERNAL-CONN-CONTROL-013-TO-AC.L2-3.1.20",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-EXTERNAL-CONN-CONTROL-013",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.20",
+        "title": "External Connection Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for External Connection Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-LEAST-PRIVILEGE-002-TO-AC.L2-3.1.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-LEAST-PRIVILEGE-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.5",
+        "title": "Least Privilege"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Least Privilege.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-PORTABLE-USE-CONTROL-014-TO-AC.L2-3.1.21",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-PORTABLE-USE-CONTROL-014",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.21",
+        "title": "Portable Storage Use"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Portable Storage Use.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-PRIVACY-NOTICE-008-TO-AC.L2-3.1.9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-PRIVACY-NOTICE-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.9",
+        "title": "Privacy Notice"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Privacy Notice.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-PRIVILEGED-FUNCTION-LOG-017-TO-AC.L2-3.1.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-PRIVILEGED-FUNCTION-LOG-017",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.7",
+        "title": "Privileged Function Logging"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Privileged Function Logging.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-PRIVILEGED-REMOTE-AUTH-019-TO-AC.L2-3.1.15",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-PRIVILEGED-REMOTE-AUTH-019",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.15",
+        "title": "Privileged Remote Auth"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Privileged Remote Auth.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-REMOTE-MANAGED-POINT-018-TO-AC.L2-3.1.14",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-REMOTE-MANAGED-POINT-018",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.14",
+        "title": "Remote Managed Access Point"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Remote Managed Access Point.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-SEPARATION-DUTIES-006-TO-AC.L2-3.1.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-SEPARATION-DUTIES-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.4",
+        "title": "Separation of Duties"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Separation of Duties.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-SESSION-LOCK-003-TO-AC.L2-3.1.10",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-SESSION-LOCK-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.10",
+        "title": "Session Lock"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Session Lock.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-SESSION-TERMINATION-021-TO-AC.L2-3.1.10",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-SESSION-TERMINATION-021",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.10",
+        "title": "Session Termination"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Session Termination.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-TRANSACTION-CONTROL-016-TO-AC.L2-3.1.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-TRANSACTION-CONTROL-016",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.5",
+        "title": "Transaction Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Transaction Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-NO-UNSUCCESSFUL-LOGON-007-TO-AC.L2-3.1.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-UNSUCCESSFUL-LOGON-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.8",
+        "title": "Unsuccessful Logon"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Unsuccessful Logon.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-PORTABLE-CUI-UNENCRYPTED-012-TO-AC.L2-3.1.19",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-PORTABLE-CUI-UNENCRYPTED-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.19",
+        "title": "Portable CUI Encryption"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Portable CUI Encryption.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-PUBLIC-NO-CONTROL-015-TO-AC.L2-3.1.22",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-PUBLIC-NO-CONTROL-015",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.22",
+        "title": "Public Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Public Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-REMOTE-NO-CONTROL-004-TO-AC.L2-3.1.12",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-REMOTE-NO-CONTROL-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.12",
+        "title": "Remote Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Remote Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-UNRESTRICTED-ADMIN-001-TO-AC.L2-3.1.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-UNRESTRICTED-ADMIN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.5",
+        "title": "Admin Privilege Restriction"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Admin Privilege Restriction.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-WIRELESS-NO-AUTH-010-TO-AC.L2-3.1.17",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-WIRELESS-NO-AUTH-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.17",
+        "title": "Wireless Authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Wireless Authentication.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ACCESS-WIRELESS-UNCONTROLLED-009-TO-AC.L2-3.1.16",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-WIRELESS-UNCONTROLLED-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AC.L2-3.1.16",
+        "title": "Wireless Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Wireless Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ASSESSMENT-NO-CONTINUOUS-MONITORING-004-TO-CA.L2-3.12.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ASSESSMENT-NO-CONTINUOUS-MONITORING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CA.L2-3.12.3",
+        "title": "Continuous Monitoring"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Continuous Monitoring.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ASSESSMENT-NO-PERIODIC-REVIEW-002-TO-CA.L2-3.12.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ASSESSMENT-NO-PERIODIC-REVIEW-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CA.L2-3.12.1",
+        "title": "Periodic Review"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Periodic Review.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ASSESSMENT-NO-PLAN-001-TO-CA.L2-3.12.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ASSESSMENT-NO-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CA.L2-3.12.1",
+        "title": "Assessment Plan"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Assessment Plan.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ASSESSMENT-NO-POA-003-TO-CA.L2-3.12.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ASSESSMENT-NO-POA-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CA.L2-3.12.2",
+        "title": "Plan of Action"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Plan of Action.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-AUDIT-INSUFFICIENT-CAPACITY-008-TO-AU.L2-3.3.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AUDIT-INSUFFICIENT-CAPACITY-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AU.L2-3.3.4",
+        "title": "Audit Capacity"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Audit Capacity.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-AUDIT-INSUFFICIENT-CONTENT-005-TO-AU.L2-3.3.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AUDIT-INSUFFICIENT-CONTENT-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AU.L2-3.3.1",
+        "title": "Audit Content"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Audit Content.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-AUDIT-NO-CENTRAL-MANAGEMENT-006-TO-AU.L2-3.3.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AUDIT-NO-CENTRAL-MANAGEMENT-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AU.L2-3.3.1",
+        "title": "Central Audit Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Central Audit Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-AUDIT-NO-CORRELATION-007-TO-AU.L2-3.3.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AUDIT-NO-CORRELATION-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AU.L2-3.3.1",
+        "title": "Audit Correlation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Audit Correlation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-AUDIT-NO-LOGGING-001-TO-AU.L2-3.3.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AUDIT-NO-LOGGING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AU.L2-3.3.1",
+        "title": "Audit Logging"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Audit Logging.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-AUDIT-NO-NONREPUDIATION-009-TO-AU.L2-3.3.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AUDIT-NO-NONREPUDIATION-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AU.L2-3.3.2",
+        "title": "Nonrepudiation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Nonrepudiation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-AUDIT-NO-PROTECTION-003-TO-AU.L2-3.3.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AUDIT-NO-PROTECTION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AU.L2-3.3.8",
+        "title": "Audit Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Audit Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-AUDIT-NO-RETENTION-002-TO-AU.L2-3.3.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AUDIT-NO-RETENTION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AU.L2-3.3.1",
+        "title": "Audit Retention"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Audit Retention.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-AUDIT-NO-REVIEW-004-TO-AU.L2-3.3.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AUDIT-NO-REVIEW-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AU.L2-3.3.5",
+        "title": "Audit Review"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Audit Review.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-AWARENESS-NO-INSIDER-THREAT-TRAINING-002-TO-AT.L2-3.2.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AWARENESS-NO-INSIDER-THREAT-TRAINING-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AT.L2-3.2.3",
+        "title": "Insider Threat Training"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Insider Threat Training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-AWARENESS-NO-ROLE-BASED-TRAINING-003-TO-AT.L2-3.2.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AWARENESS-NO-ROLE-BASED-TRAINING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AT.L2-3.2.2",
+        "title": "Role-Based Training"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Role-Based Training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-AWARENESS-NO-SECURITY-TRAINING-001-TO-AT.L2-3.2.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AWARENESS-NO-SECURITY-TRAINING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "AT.L2-3.2.1",
+        "title": "Security Training"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Security Training.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-ARCHITECTURE-PROTECTION-015-TO-SC.L2-3.13.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-ARCHITECTURE-PROTECTION-015",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.2",
+        "title": "Architecture Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Architecture Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-BOUNDARY-PROTECTION-003-TO-SC.L2-3.13.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-BOUNDARY-PROTECTION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.1",
+        "title": "Boundary Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Boundary Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-COLLABORATIVE-CONTROL-008-TO-SC.L2-3.13.12",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-COLLABORATIVE-CONTROL-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.12",
+        "title": "Collaborative Computing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Collaborative Computing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-COVERT-CHANNEL-016-TO-SC.L2-3.13.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-COVERT-CHANNEL-016",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.5",
+        "title": "Covert Channel Analysis"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Covert Channel Analysis.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-CUI-REST-PROTECTION-012-TO-SC.L2-3.13.16",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-CUI-REST-PROTECTION-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.16",
+        "title": "CUI at Rest Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for CUI at Rest Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-DNS-PROTECTION-013-TO-SC.L2-3.13.11",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-DNS-PROTECTION-013",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.11",
+        "title": "DNS Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for DNS Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-ENCRYPTION-REST-002-TO-SC.L2-3.13.16",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-ENCRYPTION-REST-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.16",
+        "title": "Encryption at Rest"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Encryption at Rest.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-ENCRYPTION-TRANSIT-001-TO-SC.L2-3.13.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-ENCRYPTION-TRANSIT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.8",
+        "title": "Encryption in Transit"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Encryption in Transit.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-FIPS-CRYPTO-014-TO-SC.L2-3.13.11",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-FIPS-CRYPTO-014",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.11",
+        "title": "FIPS Cryptography"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for FIPS Cryptography.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-KEY-MANAGEMENT-007-TO-SC.L2-3.13.10",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-KEY-MANAGEMENT-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.10",
+        "title": "Key Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Key Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-MOBILE-CODE-CONTROL-009-TO-SC.L2-3.13.13",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-MOBILE-CODE-CONTROL-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.13",
+        "title": "Mobile Code Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Mobile Code Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-NETWORK-TERMINATION-006-TO-SC.L2-3.13.9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-NETWORK-TERMINATION-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.9",
+        "title": "Network Termination"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Network Termination.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-SESSION-AUTHENTICITY-011-TO-SC.L2-3.13.15",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-SESSION-AUTHENTICITY-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.15",
+        "title": "Session Authenticity"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Session Authenticity.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-SHARED-RESOURCE-005-TO-SC.L2-3.13.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-SHARED-RESOURCE-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.4",
+        "title": "Shared Resource Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Shared Resource Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-NO-VOIP-PROTECTION-010-TO-SC.L2-3.13.14",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-VOIP-PROTECTION-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.14",
+        "title": "VoIP Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for VoIP Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-COMMS-WEAK-CRYPTO-004-TO-SC.L2-3.13.11",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-WEAK-CRYPTO-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SC.L2-3.13.11",
+        "title": "Cryptographic Standards"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Cryptographic Standards.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-CONFIG-INSECURE-DEFAULTS-003-TO-CM.L2-3.4.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-CONFIG-INSECURE-DEFAULTS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CM.L2-3.4.2",
+        "title": "Secure Defaults"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Secure Defaults.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-CONFIG-NO-AUTHORIZED-SOFTWARE-005-TO-CM.L2-3.4.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-CONFIG-NO-AUTHORIZED-SOFTWARE-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CM.L2-3.4.8",
+        "title": "Authorized Software"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Authorized Software.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-CONFIG-NO-BASELINE-001-TO-CM.L2-3.4.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-CONFIG-NO-BASELINE-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CM.L2-3.4.1",
+        "title": "Configuration Baseline"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Configuration Baseline.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-CONFIG-NO-BLACKLIST-008-TO-CM.L2-3.4.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-CONFIG-NO-BLACKLIST-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CM.L2-3.4.8",
+        "title": "Software Blacklist"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Software Blacklist.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-CONFIG-NO-CHANGE-CONTROL-002-TO-CM.L2-3.4.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-CONFIG-NO-CHANGE-CONTROL-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CM.L2-3.4.3",
+        "title": "Change Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Change Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-CONFIG-NO-NONESSENTIAL-RESTRICT-007-TO-CM.L2-3.4.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-CONFIG-NO-NONESSENTIAL-RESTRICT-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CM.L2-3.4.7",
+        "title": "Nonessential Restriction"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Nonessential Restriction.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-CONFIG-NO-PHYSICAL-ACCESS-CONTROL-009-TO-PE.L1-3.10.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-CONFIG-NO-PHYSICAL-ACCESS-CONTROL-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "PE.L1-3.10.1",
+        "title": "Physical Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Physical Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-CONFIG-NO-USER-SOFTWARE-CONTROL-006-TO-CM.L2-3.4.9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-CONFIG-NO-USER-SOFTWARE-CONTROL-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CM.L2-3.4.9",
+        "title": "User Software Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for User Software Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-CONFIG-UNNECESSARY-SERVICES-004-TO-CM.L2-3.4.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-CONFIG-UNNECESSARY-SERVICES-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "CM.L2-3.4.6",
+        "title": "Unnecessary Services"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Unnecessary Services.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-APT-PROTECTION-003-TO-L3-SI.3.14.1e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-APT-PROTECTION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-SI.3.14.1e",
+        "title": "APT Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for APT Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-BACKUP-ISOLATION-015-TO-L3-CP.3.4.1e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-BACKUP-ISOLATION-015",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-CP.3.4.1e",
+        "title": "Backup Isolation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Backup Isolation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-BEHAVIOR-ANALYTICS-021-TO-L3-SI.3.14.6e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-BEHAVIOR-ANALYTICS-021",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-SI.3.14.6e",
+        "title": "Behavior Analytics"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Behavior Analytics.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-COMPONENT-AUTH-023-TO-L3-IA.3.5.2e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-COMPONENT-AUTH-023",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-IA.3.5.2e",
+        "title": "Component Authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Component Authentication.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-CRYPTO-AGILITY-022-TO-L3-SC.3.13.6e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-CRYPTO-AGILITY-022",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-SC.3.13.6e",
+        "title": "Cryptographic Agility"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Cryptographic Agility.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-DATA-PROVENANCE-018-TO-L3-SI.3.14.5e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-DATA-PROVENANCE-018",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-SI.3.14.5e",
+        "title": "Data Provenance"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Data Provenance.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-DECEPTION-005-TO-L3-SC.3.13.3e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-DECEPTION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-SC.3.13.3e",
+        "title": "Deception Technologies"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Deception Technologies.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-DUAL-AUTH-001-TO-L3-AC.3.1.2e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-DUAL-AUTH-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-AC.3.1.2e",
+        "title": "Dual Authorization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Dual Authorization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-FORENSICS-014-TO-L3-IR.3.6.2e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-FORENSICS-014",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-IR.3.6.2e",
+        "title": "Forensics Capability"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Forensics Capability.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-HARDWARE-AUTH-020-TO-L3-IA.3.5.1e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-HARDWARE-AUTH-020",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-IA.3.5.1e",
+        "title": "Hardware Authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Hardware Authentication.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-INCIDENT-PLAYBOOK-013-TO-L3-IR.3.6.1e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-INCIDENT-PLAYBOOK-013",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-IR.3.6.1e",
+        "title": "Incident Playbooks"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Incident Playbooks.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-INSIDER-THREAT-PROGRAM-017-TO-L3-PS.3.9.1e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-INSIDER-THREAT-PROGRAM-017",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-PS.3.9.1e",
+        "title": "Insider Threat Program"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Insider Threat Program.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-NETWORK-ISOLATION-006-TO-L3-SC.3.13.1e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-NETWORK-ISOLATION-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-SC.3.13.1e",
+        "title": "Network Isolation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Network Isolation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-OPERATIONAL-RESILIENCE-024-TO-L3-CP.3.4.3e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-OPERATIONAL-RESILIENCE-024",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-CP.3.4.3e",
+        "title": "Operational Resilience"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Operational Resilience.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-PENETRATION-TEST-008-TO-L3-CA.3.12.3e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-PENETRATION-TEST-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-CA.3.12.3e",
+        "title": "Penetration Testing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Penetration Testing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-RECOVERY-PLAN-016-TO-L3-CP.3.4.2e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-RECOVERY-PLAN-016",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-CP.3.4.2e",
+        "title": "Recovery Plan"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Recovery Plan.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-RED-TEAM-009-TO-L3-CA.3.12.4e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-RED-TEAM-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-CA.3.12.4e",
+        "title": "Red Team Exercises"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Red Team Exercises.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-SECURITY-DOMAIN-002-TO-L3-SC.3.13.4e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-SECURITY-DOMAIN-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-SC.3.13.4e",
+        "title": "Security Domains"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Security Domains.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-SIEM-012-TO-L3-AU.3.3.1e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-SIEM-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-AU.3.3.1e",
+        "title": "SIEM"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for SIEM.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-SOC-010-TO-L3-SI.3.14.3e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-SOC-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-SI.3.14.3e",
+        "title": "Security Operations Center"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Security Operations Center.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-SUPPLY-CHAIN-007-TO-L3-SR.3.1.1e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-SUPPLY-CHAIN-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-SR.3.1.1e",
+        "title": "Supply Chain Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Supply Chain Security.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-THREAT-HUNTING-004-TO-L3-SI.3.14.2e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-THREAT-HUNTING-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-SI.3.14.2e",
+        "title": "Threat Hunting"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Threat Hunting.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-THREAT-INTEL-011-TO-L3-SI.3.14.4e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-THREAT-INTEL-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-SI.3.14.4e",
+        "title": "Threat Intelligence"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Threat Intelligence.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-ENHANCED-NO-ZERO-TRUST-019-TO-L3-AC.3.1.3e",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ENHANCED-NO-ZERO-TRUST-019",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "L3-AC.3.1.3e",
+        "title": "Zero Trust Architecture"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Zero Trust Architecture.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-IDENTITY-NO-AUTHENTICATOR-MANAGEMENT-007-TO-IA.L2-3.5.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-NO-AUTHENTICATOR-MANAGEMENT-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.6",
+        "title": "Authenticator Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Authenticator Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-IDENTITY-NO-CACHED-AUTH-PROTECTION-010-TO-IA.L2-3.5.10",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-NO-CACHED-AUTH-PROTECTION-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.10",
+        "title": "Cached Authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Cached Authentication.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-IDENTITY-NO-DEVICE-AUTH-004-TO-IA.L2-3.5.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-NO-DEVICE-AUTH-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.1",
+        "title": "Device Authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Device Authentication.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-IDENTITY-NO-DEVICE-AUTH-005-TO-IA.L2-3.5.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-NO-DEVICE-AUTH-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.1",
+        "title": "Device Identification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Device Identification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-IDENTITY-NO-IDENTIFIER-MANAGEMENT-006-TO-IA.L2-3.5.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-NO-IDENTIFIER-MANAGEMENT-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.5",
+        "title": "Identifier Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Identifier Management.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-IDENTITY-NO-MFA-001-TO-IA.L2-3.5.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-NO-MFA-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.3",
+        "title": "Multi-Factor Authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Multi-Factor Authentication.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-IDENTITY-NO-REPLAY-RESISTANCE-009-TO-IA.L2-3.5.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-NO-REPLAY-RESISTANCE-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.8",
+        "title": "Replay Resistance"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Replay Resistance.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-IDENTITY-OBSCURED-FEEDBACK-MISSING-011-TO-IA.L2-3.5.11",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-OBSCURED-FEEDBACK-MISSING-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.11",
+        "title": "Obscured Feedback"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Obscured Feedback.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-IDENTITY-SHARED-ACCOUNT-003-TO-IA.L2-3.5.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-SHARED-ACCOUNT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.1",
+        "title": "Shared Account Prohibition"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Shared Account Prohibition.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-IDENTITY-WEAK-AUTHENTICATOR-008-TO-IA.L2-3.5.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-WEAK-AUTHENTICATOR-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.7",
+        "title": "Authenticator Strength"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Authenticator Strength.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-IDENTITY-WEAK-PASSWORD-002-TO-IA.L2-3.5.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-WEAK-PASSWORD-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IA.L2-3.5.7",
+        "title": "Password Strength"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Password Strength.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-INCIDENT-NO-DETECTION-002-TO-IR.L2-3.6.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INCIDENT-NO-DETECTION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IR.L2-3.6.1",
+        "title": "Incident Detection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Incident Detection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-INCIDENT-NO-PLAN-001-TO-IR.L2-3.6.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INCIDENT-NO-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IR.L2-3.6.1",
+        "title": "Incident Response Plan"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Incident Response Plan.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-INCIDENT-NO-REPORTING-003-TO-IR.L2-3.6.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INCIDENT-NO-REPORTING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "IR.L2-3.6.2",
+        "title": "Incident Reporting"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Incident Reporting.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-INTEGRITY-NO-ERROR-HANDLING-007-TO-SI.L2-3.14.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INTEGRITY-NO-ERROR-HANDLING-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SI.L2-3.14.7",
+        "title": "Error Handling"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Error Handling.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-INTEGRITY-NO-INPUT-VALIDATION-004-TO-SI.L2-3.14.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INTEGRITY-NO-INPUT-VALIDATION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SI.L2-3.14.5",
+        "title": "Input Validation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Input Validation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-INTEGRITY-NO-INPUT-VALIDATION-006-TO-SI.L2-3.14.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INTEGRITY-NO-INPUT-VALIDATION-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SI.L2-3.14.6",
+        "title": "Input Validation Advanced"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Input Validation Advanced.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-INTEGRITY-NO-MALWARE-PROTECTION-001-TO-SI.L2-3.14.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INTEGRITY-NO-MALWARE-PROTECTION-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SI.L2-3.14.1",
+        "title": "Malware Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Malware Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-INTEGRITY-NO-MONITORING-003-TO-SI.L2-3.14.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INTEGRITY-NO-MONITORING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SI.L2-3.14.6",
+        "title": "System Monitoring"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for System Monitoring.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-INTEGRITY-NO-PATCHING-002-TO-SI.L2-3.14.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INTEGRITY-NO-PATCHING-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SI.L2-3.14.1",
+        "title": "Security Patching"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Security Patching.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-INTEGRITY-NO-SPAM-PROTECTION-005-TO-SI.L2-3.14.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INTEGRITY-NO-SPAM-PROTECTION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "SI.L2-3.14.5",
+        "title": "Spam Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Spam Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MAINTENANCE-MEDIA-NOT-SANITIZED-003-TO-MA.L2-3.7.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MAINTENANCE-MEDIA-NOT-SANITIZED-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MA.L2-3.7.3",
+        "title": "Media Sanitization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Media Sanitization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MAINTENANCE-NOT-CONTROLLED-001-TO-MA.L2-3.7.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MAINTENANCE-NOT-CONTROLLED-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MA.L2-3.7.1",
+        "title": "Controlled Maintenance"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Controlled Maintenance.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MAINTENANCE-PERSONNEL-NOT-SUPERVISED-006-TO-MA.L2-3.7.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MAINTENANCE-PERSONNEL-NOT-SUPERVISED-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MA.L2-3.7.6",
+        "title": "Maintenance Personnel"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Maintenance Personnel.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MAINTENANCE-REMOTE-NOT-AUTHORIZED-005-TO-MA.L2-3.7.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MAINTENANCE-REMOTE-NOT-AUTHORIZED-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MA.L2-3.7.5",
+        "title": "Remote Maintenance Auth"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Remote Maintenance Auth.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MAINTENANCE-REMOTE-NOT-MONITORED-004-TO-MA.L2-3.7.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MAINTENANCE-REMOTE-NOT-MONITORED-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MA.L2-3.7.5",
+        "title": "Remote Maintenance Monitor"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Remote Maintenance Monitor.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MAINTENANCE-TOOLS-NOT-CONTROLLED-002-TO-MA.L2-3.7.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MAINTENANCE-TOOLS-NOT-CONTROLLED-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MA.L2-3.7.2",
+        "title": "Maintenance Tools"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Maintenance Tools.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MEDIA-ACCESS-NOT-CONTROLLED-003-TO-MP.L2-3.8.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MEDIA-ACCESS-NOT-CONTROLLED-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MP.L2-3.8.1",
+        "title": "Media Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Media Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MEDIA-NO-ACCOUNTABILITY-008-TO-MP.L2-3.8.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MEDIA-NO-ACCOUNTABILITY-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MP.L2-3.8.5",
+        "title": "Media Accountability"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Media Accountability.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MEDIA-NO-CUI-MARKING-005-TO-MP.L2-3.8.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MEDIA-NO-CUI-MARKING-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MP.L2-3.8.4",
+        "title": "CUI Marking"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for CUI Marking.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MEDIA-NO-DISPOSAL-TRACKING-009-TO-MP.L2-3.8.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MEDIA-NO-DISPOSAL-TRACKING-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MP.L2-3.8.3",
+        "title": "Media Disposal Tracking"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Media Disposal Tracking.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MEDIA-NO-PHYSICAL-PROTECTION-007-TO-MP.L2-3.8.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MEDIA-NO-PHYSICAL-PROTECTION-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MP.L2-3.8.1",
+        "title": "Physical Media Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Physical Media Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MEDIA-NO-PROTECTION-002-TO-MP.L2-3.8.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MEDIA-NO-PROTECTION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MP.L2-3.8.1",
+        "title": "Media Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Media Protection.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MEDIA-NO-SANITIZATION-001-TO-MP.L2-3.8.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MEDIA-NO-SANITIZATION-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MP.L2-3.8.3",
+        "title": "Media Sanitization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Media Sanitization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MEDIA-STORAGE-NOT-CONTROLLED-006-TO-MP.L2-3.8.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MEDIA-STORAGE-NOT-CONTROLLED-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MP.L2-3.8.1",
+        "title": "Media Storage Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Media Storage Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-MEDIA-TRANSPORT-NOT-CONTROLLED-004-TO-MP.L2-3.8.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-MEDIA-TRANSPORT-NOT-CONTROLLED-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "MP.L2-3.8.5",
+        "title": "Media Transport Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Media Transport Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-PERSONNEL-NO-SCREENING-001-TO-PS.L2-3.9.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-PERSONNEL-NO-SCREENING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "PS.L2-3.9.1",
+        "title": "Personnel Screening"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Personnel Screening.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-PERSONNEL-NO-TERMINATION-PROCESS-002-TO-PS.L2-3.9.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-PERSONNEL-NO-TERMINATION-PROCESS-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "PS.L2-3.9.2",
+        "title": "Termination Process"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Termination Process.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-PHYSICAL-NO-ACCESS-CONTROL-001-TO-PE.L1-3.10.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-PHYSICAL-NO-ACCESS-CONTROL-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "PE.L1-3.10.1",
+        "title": "Physical Access Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Physical Access Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-PHYSICAL-NO-ACCESS-LOGS-003-TO-PE.L2-3.10.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-PHYSICAL-NO-ACCESS-LOGS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "PE.L2-3.10.4",
+        "title": "Physical Access Logs"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Physical Access Logs.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-PHYSICAL-NO-ALTERNATE-SITE-005-TO-PE.L2-3.10.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-PHYSICAL-NO-ALTERNATE-SITE-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "PE.L2-3.10.6",
+        "title": "Alternate Site"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Alternate Site.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-PHYSICAL-NO-DEVICE-CONTROL-004-TO-PE.L2-3.10.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-PHYSICAL-NO-DEVICE-CONTROL-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "PE.L2-3.10.5",
+        "title": "Device Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Device Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-PHYSICAL-NO-MONITORING-006-TO-PE.L1-3.10.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-PHYSICAL-NO-MONITORING-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "PE.L1-3.10.2",
+        "title": "Physical Monitoring"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Physical Monitoring.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-PHYSICAL-NO-VISITOR-CONTROL-002-TO-PE.L2-3.10.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-PHYSICAL-NO-VISITOR-CONTROL-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "PE.L2-3.10.3",
+        "title": "Visitor Control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Visitor Control.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-RISK-NO-ASSESSMENT-001-TO-RA.L2-3.11.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-RISK-NO-ASSESSMENT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "RA.L2-3.11.1",
+        "title": "Risk Assessment"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Risk Assessment.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-RISK-NO-REMEDIATION-003-TO-RA.L2-3.11.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-RISK-NO-REMEDIATION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "RA.L2-3.11.3",
+        "title": "Vulnerability Remediation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Vulnerability Remediation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CMMC-RISK-NO-VULN-SCAN-002-TO-RA.L2-3.11.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-RISK-NO-VULN-SCAN-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CMMC-2.0",
+        "version": "2.0",
+        "id": "RA.L2-3.11.2",
+        "title": "Vulnerability Scanning"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CMMC requirement for Vulnerability Scanning.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    }
+  ]
+}

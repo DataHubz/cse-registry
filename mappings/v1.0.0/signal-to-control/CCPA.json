@@ -1,0 +1,1902 @@
+{
+  "schema_version": "1.0.0",
+  "type": "signal-to-control-mapping",
+  "framework": {
+    "id": "CCPA",
+    "name": "California Consumer Privacy Act",
+    "version": "2023"
+  },
+  "generated": "2025-12-28T00:00:00Z",
+  "mappings": [
+    {
+      "id": "MAP-CSE-CCPA-AUTOMATED-NO-ACCESS-LOGIC-002-TO-CCPA-Section-1798-185",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-AUTOMATED-NO-ACCESS-LOGIC-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.185",
+        "title": "Logic of Automated Decisions Not Accessible"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.185: Logic of Automated Decisions Not Accessible.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-AUTOMATED-NO-DISCLOSURE-001-TO-CCPA-Section-1798-185",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-AUTOMATED-NO-DISCLOSURE-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.185",
+        "title": "Automated Decision-Making Not Disclosed"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.185: Automated Decision-Making Not Disclosed.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-AUTOMATED-NO-HUMAN-REVIEW-004-TO-CCPA-Section-1798-185",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-AUTOMATED-NO-HUMAN-REVIEW-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.185",
+        "title": "Human Review Not Available"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.185: Human Review Not Available.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-AUTOMATED-NO-OPTOUT-003-TO-CCPA-Section-1798-185",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-AUTOMATED-NO-OPTOUT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.185",
+        "title": "Opt-Out of Automated Decisions Not Available"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.185: Opt-Out of Automated Decisions Not Available.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-AUTOMATED-NO-RISK-ASSESSMENT-005-TO-CCPA-Section-1798-185",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-AUTOMATED-NO-RISK-ASSESSMENT-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.185",
+        "title": "Automated Decision Risk Assessment Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.185: Automated Decision Risk Assessment Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-CONSENT-NO-CHILD-PARENT-002-TO-CCPA-Section-1798-120",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-CONSENT-NO-CHILD-PARENT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.120",
+        "title": "Parental Consent Missing (Under 13)"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.120: Parental Consent Missing (Under 13).",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-CONSENT-NO-FINANCIAL-INCENTIVE-003-TO-CCPA-Section-1798-125",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-CONSENT-NO-FINANCIAL-INCENTIVE-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.125",
+        "title": "Financial Incentive Notice Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.125: Financial Incentive Notice Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-CONSENT-NO-INCENTIVE-OPTIN-004-TO-CCPA-Section-1798-125",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-CONSENT-NO-INCENTIVE-OPTIN-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.125",
+        "title": "Financial Incentive Opt-In Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.125: Financial Incentive Opt-In Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-CONSENT-NO-MINOR-OPTIN-001-TO-CCPA-Section-1798-120",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-CONSENT-NO-MINOR-OPTIN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.120",
+        "title": "Minor Opt-In Consent Missing (13-16)"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.120: Minor Opt-In Consent Missing (13-16).",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-CONSENT-NO-REAUTHORIZATION-005-TO-CCPA-Section-1798-135",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-CONSENT-NO-REAUTHORIZATION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.135",
+        "title": "Opt-In Reauthorization (12-Month Wait) Not Enforced"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.135: Opt-In Reauthorization (12-Month Wait) Not Enforced.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-CONTRACTS-NO-AUDIT-RIGHTS-006-TO-CCPA-Section-1798-140",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-CONTRACTS-NO-AUDIT-RIGHTS-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.140",
+        "title": "Audit Rights Not Included (CPPA Regulations)"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.140: Audit Rights Not Included (CPPA Regulations).",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-CONTRACTS-NO-COMPLIANCE-CERT-004-TO-CCPA-Section-1798-140",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-CONTRACTS-NO-COMPLIANCE-CERT-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.140",
+        "title": "Compliance Certification Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.140: Compliance Certification Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-CONTRACTS-NO-CONTRACTOR-CONTRACT-002-TO-CCPA-Section-1798-140",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-CONTRACTS-NO-CONTRACTOR-CONTRACT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.140",
+        "title": "Contractor Contract Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.140: Contractor Contract Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-CONTRACTS-NO-DELETION-COOPERATION-008-TO-CCPA-Section-1798-105",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-CONTRACTS-NO-DELETION-COOPERATION-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.105",
+        "title": "Contract Lacks Deletion Cooperation Requirement"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.105: Contract Lacks Deletion Cooperation Requirement.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-CONTRACTS-NO-PURPOSE-LIMIT-003-TO-CCPA-Section-1798-140",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-CONTRACTS-NO-PURPOSE-LIMIT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.140",
+        "title": "Contract Lacks Purpose Limitation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.140: Contract Lacks Purpose Limitation.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-CONTRACTS-NO-SP-CONTRACT-001-TO-CCPA-Section-1798-140",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-CONTRACTS-NO-SP-CONTRACT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.140",
+        "title": "Service Provider Contract Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.140: Service Provider Contract Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-CONTRACTS-NO-SUBCONTRACTOR-FLOW-005-TO-CCPA-Section-1798-140",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-CONTRACTS-NO-SUBCONTRACTOR-FLOW-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.140",
+        "title": "Subcontractor Obligations Not Flowed Down"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.140: Subcontractor Obligations Not Flowed Down.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-CONTRACTS-SELLING-WITHOUT-AUTH-007-TO-CCPA-Section-1798-140",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-CONTRACTS-SELLING-WITHOUT-AUTH-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.140",
+        "title": "SP/Contractor Selling PI Without Authorization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.140: SP/Contractor Selling PI Without Authorization.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-NOTICE-NO-COLLECTION-DISCLOSURE-002-TO-CCPA-Section-1798-100",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-NOTICE-NO-COLLECTION-DISCLOSURE-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.100",
+        "title": "Collection Notice at Point of Collection Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.100: Collection Notice at Point of Collection Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-NOTICE-NO-PI-CATEGORIES-003-TO-CCPA-Section-1798-110",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-NOTICE-NO-PI-CATEGORIES-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.110",
+        "title": "Personal Information Categories Not Disclosed"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.110: Personal Information Categories Not Disclosed.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-NOTICE-NO-PRIVACY-POLICY-001-TO-CCPA-Section-1798-130",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-NOTICE-NO-PRIVACY-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.130",
+        "title": "Privacy Policy Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.130: Privacy Policy Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-NOTICE-NO-PURPOSE-DISCLOSURE-004-TO-CCPA-Section-1798-100",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-NOTICE-NO-PURPOSE-DISCLOSURE-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.100",
+        "title": "Collection Purposes Not Disclosed"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.100: Collection Purposes Not Disclosed.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-NOTICE-NO-RETENTION-DISCLOSURE-005-TO-CCPA-Section-1798-100",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-NOTICE-NO-RETENTION-DISCLOSURE-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.100",
+        "title": "Retention Periods Not Disclosed"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.100: Retention Periods Not Disclosed.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-NOTICE-NO-RIGHTS-DISCLOSURE-006-TO-CCPA-Section-1798-130",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-NOTICE-NO-RIGHTS-DISCLOSURE-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.130",
+        "title": "Consumer Rights Not Disclosed"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.130: Consumer Rights Not Disclosed.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-NOTICE-NO-SALE-SHARE-DISCLOSURE-008-TO-CCPA-Section-1798-115",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-NOTICE-NO-SALE-SHARE-DISCLOSURE-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.115",
+        "title": "Sale/Sharing Not Disclosed"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.115: Sale/Sharing Not Disclosed.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-NOTICE-NO-SPI-DISCLOSURE-007-TO-CCPA-Section-1798-121",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-NOTICE-NO-SPI-DISCLOSURE-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.121",
+        "title": "Sensitive PI Use/Disclosure Not Disclosed"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.121: Sensitive PI Use/Disclosure Not Disclosed.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-OPTOUT-NO-COMBINED-LINK-003-TO-CCPA-Section-1798-135",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-OPTOUT-NO-COMBINED-LINK-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.135",
+        "title": "Combined Opt-Out Link Not Properly Implemented"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.135: Combined Opt-Out Link Not Properly Implemented.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-OPTOUT-NO-GPC-SUPPORT-004-TO-CCPA-Section-1798-135",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-OPTOUT-NO-GPC-SUPPORT-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.135",
+        "title": "Global Privacy Control Not Honored"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.135: Global Privacy Control Not Honored.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-OPTOUT-NO-LIMIT-SPI-LINK-005-TO-CCPA-Section-1798-135",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-OPTOUT-NO-LIMIT-SPI-LINK-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.135",
+        "title": "Limit Use of My Sensitive Personal Information Link Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.135: Limit Use of My Sensitive Personal Information Link Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-OPTOUT-NO-PREFERENCE-SIGNAL-006-TO-CCPA-Section-1798-135",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-OPTOUT-NO-PREFERENCE-SIGNAL-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.135",
+        "title": "Opt-Out Preference Signal Not Processed"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.135: Opt-Out Preference Signal Not Processed.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-OPTOUT-NO-SALE-LINK-001-TO-CCPA-Section-1798-135",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-OPTOUT-NO-SALE-LINK-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.135",
+        "title": "Do Not Sell My Personal Information Link Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.135: Do Not Sell My Personal Information Link Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-OPTOUT-NO-SHARE-LINK-002-TO-CCPA-Section-1798-135",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-OPTOUT-NO-SHARE-LINK-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.135",
+        "title": "Do Not Share My Personal Information Link Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.135: Do Not Share My Personal Information Link Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-OPTOUT-NO-THIRD-PARTY-NOTICE-008-TO-CCPA-Section-1798-115",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-OPTOUT-NO-THIRD-PARTY-NOTICE-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.115",
+        "title": "Third Parties Not Notified of Opt-Out"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.115: Third Parties Not Notified of Opt-Out.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-OPTOUT-SALE-AFTER-OPTOUT-007-TO-CCPA-Section-1798-120",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-OPTOUT-SALE-AFTER-OPTOUT-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.120",
+        "title": "Personal Information Sold After Opt-Out"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.120: Personal Information Sold After Opt-Out.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RETENTION-BEYOND-NECESSARY-004-TO-CCPA-Section-1798-100",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RETENTION-BEYOND-NECESSARY-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.100",
+        "title": "PI Retained Beyond Reasonably Necessary"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.100: PI Retained Beyond Reasonably Necessary.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RETENTION-EXCESSIVE-COLLECTION-002-TO-CCPA-Section-1798-100",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RETENTION-EXCESSIVE-COLLECTION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.100",
+        "title": "PI Collected Beyond Disclosed Purposes"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.100: PI Collected Beyond Disclosed Purposes.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RETENTION-NO-MINIMIZATION-001-TO-CCPA-Section-1798-100",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RETENTION-NO-MINIMIZATION-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.100",
+        "title": "Data Minimization Not Implemented"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.100: Data Minimization Not Implemented.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RETENTION-NO-POLICY-003-TO-CCPA-Section-1798-100",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RETENTION-NO-POLICY-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.100",
+        "title": "Retention Policy Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.100: Retention Policy Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RETENTION-NO-SCHEDULE-005-TO-CCPA-Section-1798-130",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RETENTION-NO-SCHEDULE-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.130",
+        "title": "Retention Schedule Not Disclosed"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.130: Retention Schedule Not Disclosed.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RIGHTS-NO-ACCESS-MECHANISM-001-TO-CCPA-Section-1798-110",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RIGHTS-NO-ACCESS-MECHANISM-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.110",
+        "title": "Right to Know Mechanism Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.110: Right to Know Mechanism Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RIGHTS-NO-APPEAL-PROCESS-011-TO-CCPA-CPPA-Regulations-7103",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RIGHTS-NO-APPEAL-PROCESS-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "CPPA Regulations \u00a77103",
+        "title": "Appeal Process Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA CPPA Regulations \u00a77103: Appeal Process Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RIGHTS-NO-AUTHORIZED-AGENT-008-TO-CCPA-Section-1798-185",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RIGHTS-NO-AUTHORIZED-AGENT-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.185",
+        "title": "Authorized Agent Requests Not Supported"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.185: Authorized Agent Requests Not Supported.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RIGHTS-NO-CONFIRMATION-012-TO-CCPA-Section-1798-130",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RIGHTS-NO-CONFIRMATION-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.130",
+        "title": "Request Confirmation Not Provided"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.130: Request Confirmation Not Provided.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RIGHTS-NO-CORRECT-MECHANISM-003-TO-CCPA-Section-1798-106",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RIGHTS-NO-CORRECT-MECHANISM-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.106",
+        "title": "Right to Correct Mechanism Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.106: Right to Correct Mechanism Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RIGHTS-NO-DELETE-MECHANISM-002-TO-CCPA-Section-1798-105",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RIGHTS-NO-DELETE-MECHANISM-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.105",
+        "title": "Right to Delete Mechanism Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.105: Right to Delete Mechanism Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RIGHTS-NO-FREE-DISCLOSURE-007-TO-CCPA-Section-1798-130",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RIGHTS-NO-FREE-DISCLOSURE-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.130",
+        "title": "Disclosure Not Free of Charge"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.130: Disclosure Not Free of Charge.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RIGHTS-NO-NON-DISCRIMINATION-010-TO-CCPA-Section-1798-125",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RIGHTS-NO-NON-DISCRIMINATION-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.125",
+        "title": "Discrimination for Exercising Rights"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.125: Discrimination for Exercising Rights.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RIGHTS-NO-PORTABILITY-MECHANISM-004-TO-CCPA-Section-1798-130",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RIGHTS-NO-PORTABILITY-MECHANISM-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.130",
+        "title": "Data Portability Mechanism Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.130: Data Portability Mechanism Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RIGHTS-NO-REQUEST-METHODS-005-TO-CCPA-Section-1798-130",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RIGHTS-NO-REQUEST-METHODS-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.130",
+        "title": "Insufficient Request Submission Methods"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.130: Insufficient Request Submission Methods.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RIGHTS-NO-RESPONSE-TIMELINE-006-TO-CCPA-Section-1798-130",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RIGHTS-NO-RESPONSE-TIMELINE-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.130",
+        "title": "Response Timeline Not Met"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.130: Response Timeline Not Met.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-RIGHTS-NO-SERVICE-PROVIDER-FORWARD-009-TO-CCPA-Section-1798-105",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-RIGHTS-NO-SERVICE-PROVIDER-FORWARD-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.105",
+        "title": "Requests Not Forwarded to Service Providers"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.105: Requests Not Forwarded to Service Providers.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-SECURITY-NO-BREACH-PROCEDURES-003-TO-CCPA-Section-1798-150",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-SECURITY-NO-BREACH-PROCEDURES-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.150",
+        "title": "Breach Response Procedures Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.150: Breach Response Procedures Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-SECURITY-NO-ENCRYPTION-002-TO-CCPA-Section-1798-150",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-SECURITY-NO-ENCRYPTION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.150",
+        "title": "PI Not Encrypted"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.150: PI Not Encrypted.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-SECURITY-NO-REASONABLE-MEASURES-001-TO-CCPA-Section-1798-150",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-SECURITY-NO-REASONABLE-MEASURES-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.150",
+        "title": "Reasonable Security Measures Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.150: Reasonable Security Measures Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-SECURITY-NO-RISK-ASSESSMENT-005-TO-CCPA-Section-1798-150",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-SECURITY-NO-RISK-ASSESSMENT-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.150",
+        "title": "Security Risk Assessment Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.150: Security Risk Assessment Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-SECURITY-UNREDACTED-EXPOSURE-004-TO-CCPA-Section-1798-150",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-SECURITY-UNREDACTED-EXPOSURE-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.150",
+        "title": "Nonencrypted/Nonredacted PI Exposed"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.150: Nonencrypted/Nonredacted PI Exposed.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-SENSITIVE-INFERENCE-UNCONTROLLED-006-TO-CCPA-Section-1798-140",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-SENSITIVE-INFERENCE-UNCONTROLLED-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.140",
+        "title": "SPI Inferences Not Controlled"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.140: SPI Inferences Not Controlled.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-SENSITIVE-NO-LIMIT-MECHANISM-003-TO-CCPA-Section-1798-121",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-SENSITIVE-NO-LIMIT-MECHANISM-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.121",
+        "title": "Limit SPI Use Mechanism Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.121: Limit SPI Use Mechanism Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-SENSITIVE-NO-LIMITATION-001-TO-CCPA-Section-1798-121",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-SENSITIVE-NO-LIMITATION-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.121",
+        "title": "SPI Use Not Limited to Disclosed Purposes"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.121: SPI Use Not Limited to Disclosed Purposes.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-SENSITIVE-NO-NECESSITY-002-TO-CCPA-Section-1798-100",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-SENSITIVE-NO-NECESSITY-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.100",
+        "title": "SPI Collected Beyond Necessity"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.100: SPI Collected Beyond Necessity.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-SENSITIVE-NO-SAFEGUARDS-005-TO-CCPA-Section-1798-121",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-SENSITIVE-NO-SAFEGUARDS-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.121",
+        "title": "Additional SPI Safeguards Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.121: Additional SPI Safeguards Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-SENSITIVE-SECONDARY-USE-004-TO-CCPA-Section-1798-121",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-SENSITIVE-SECONDARY-USE-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.121",
+        "title": "SPI Used for Unauthorized Secondary Purpose"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.121: SPI Used for Unauthorized Secondary Purpose.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-TRAINING-NO-ANNUAL-REFRESH-003-TO-CCPA-CPPA-Regulations",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-TRAINING-NO-ANNUAL-REFRESH-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "CPPA Regulations",
+        "title": "Annual Training Refresh Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA CPPA Regulations: Annual Training Refresh Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-TRAINING-NO-PRIVACY-TRAINING-001-TO-CCPA-Section-1798-130",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-TRAINING-NO-PRIVACY-TRAINING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.130",
+        "title": "Privacy Training Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.130: Privacy Training Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-TRAINING-NO-REQUEST-HANDLING-002-TO-CCPA-Section-1798-130",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-TRAINING-NO-REQUEST-HANDLING-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.130",
+        "title": "Request Handling Training Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.130: Request Handling Training Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-VERIFY-EXCESSIVE-PI-REQUIRED-004-TO-CCPA-Section-1798-185",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-VERIFY-EXCESSIVE-PI-REQUIRED-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.185",
+        "title": "Excessive PI Required for Verification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.185: Excessive PI Required for Verification.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-VERIFY-INSUFFICIENT-MATCH-002-TO-CCPA-Section-1798-185",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-VERIFY-INSUFFICIENT-MATCH-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.185",
+        "title": "Verification Not Reasonably Matched"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.185: Verification Not Reasonably Matched.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-VERIFY-NO-AGENT-VERIFICATION-003-TO-CCPA-Section-1798-185",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-VERIFY-NO-AGENT-VERIFICATION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.185",
+        "title": "Authorized Agent Verification Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.185: Authorized Agent Verification Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-VERIFY-NO-HOUSEHOLD-PROCESS-005-TO-CCPA-Section-1798-140",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-VERIFY-NO-HOUSEHOLD-PROCESS-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.140",
+        "title": "Household Verification Process Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.140: Household Verification Process Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "MAP-CSE-CCPA-VERIFY-NO-VERIFICATION-PROCESS-001-TO-CCPA-Section-1798-185",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CCPA-VERIFY-NO-VERIFICATION-PROCESS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "CCPA",
+        "version": "2023",
+        "id": "Section 1798.185",
+        "title": "Identity Verification Process Missing"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Signal directly addresses CCPA Section 1798.185: Identity Verification Process Missing.",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    }
+  ]
+}

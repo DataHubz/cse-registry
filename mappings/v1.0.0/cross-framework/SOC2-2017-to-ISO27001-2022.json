@@ -1,0 +1,381 @@
+{
+  "schema_version": "1.0.0",
+  "type": "cross-framework-mapping",
+  "description": "Control mappings from SOC 2 Trust Services Criteria to ISO/IEC 27001:2022 via CSE signal bridge",
+  "source_framework": {
+    "id": "SOC2-2017",
+    "name": "SOC 2 Trust Services Criteria",
+    "version": "2017"
+  },
+  "target_framework": {
+    "id": "ISO27001-2022",
+    "name": "ISO/IEC 27001:2022",
+    "version": "2022"
+  },
+  "generated": "2025-12-28T00:00:00Z",
+  "statistics": {
+    "total_mappings": 12
+  },
+  "mappings": [
+    {
+      "id": "XFW-SOC22017-CC1-1-TO-ISO270012022-A-5-1",
+      "source": {
+        "type": "control",
+        "framework": "SOC2-2017",
+        "version": "2017",
+        "id": "CC1.1",
+        "title": "Control Environment - COSO Principle 1"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.1",
+        "title": "Policies for Information Security"
+      },
+      "bridge_signal": "CSE-SOC2-CC-NO-GOVERNANCE-001",
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both address governance and policies",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC6-1-TO-ISO270012022-A-5-15",
+      "source": {
+        "type": "control",
+        "framework": "SOC2-2017",
+        "version": "2017",
+        "id": "CC6.1",
+        "title": "Logical Access Security"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.15",
+        "title": "Access Control"
+      },
+      "bridge_signal": "CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require access control mechanisms",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC6-2-TO-ISO270012022-A-5-16",
+      "source": {
+        "type": "control",
+        "framework": "SOC2-2017",
+        "version": "2017",
+        "id": "CC6.2",
+        "title": "User Registration and Authorization"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.16",
+        "title": "Identity Management"
+      },
+      "bridge_signal": "CSE-SOC2-CC-NO-USER-REGISTRATION-019",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require user management",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC6-3-TO-ISO270012022-A-5-18",
+      "source": {
+        "type": "control",
+        "framework": "SOC2-2017",
+        "version": "2017",
+        "id": "CC6.3",
+        "title": "User Removal"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.18",
+        "title": "Access Rights"
+      },
+      "bridge_signal": "CSE-SOC2-CC-NO-USER-REMOVAL-020",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require access revocation",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC6-6-TO-ISO270012022-A-8-20",
+      "source": {
+        "type": "control",
+        "framework": "SOC2-2017",
+        "version": "2017",
+        "id": "CC6.6",
+        "title": "Boundary Protection"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.20",
+        "title": "Networks Security"
+      },
+      "bridge_signal": "CSE-SOC2-CC-NO-BOUNDARY-PROTECTION-023",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require network protection",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC6-7-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "control",
+        "framework": "SOC2-2017",
+        "version": "2017",
+        "id": "CC6.7",
+        "title": "Transmission Protection"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.24",
+        "title": "Use of Cryptography"
+      },
+      "bridge_signal": "CSE-SOC2-CC-NO-TRANSMISSION-PROTECTION-024",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require transmission encryption",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC7-2-TO-ISO270012022-A-8-16",
+      "source": {
+        "type": "control",
+        "framework": "SOC2-2017",
+        "version": "2017",
+        "id": "CC7.2",
+        "title": "Anomaly Detection"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.16",
+        "title": "Monitoring Activities"
+      },
+      "bridge_signal": "CSE-SOC2-CC-NO-ANOMALY-DETECTION-027",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require monitoring",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC7-3-TO-ISO270012022-A-5-26",
+      "source": {
+        "type": "control",
+        "framework": "SOC2-2017",
+        "version": "2017",
+        "id": "CC7.3",
+        "title": "Incident Response"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.26",
+        "title": "Response to Information Security Incidents"
+      },
+      "bridge_signal": "CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require incident response",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC7-4-TO-ISO270012022-A-5-26",
+      "source": {
+        "type": "control",
+        "framework": "SOC2-2017",
+        "version": "2017",
+        "id": "CC7.4",
+        "title": "Incident Resolution"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.5.26",
+        "title": "Response to Information Security Incidents"
+      },
+      "bridge_signal": "CSE-SOC2-CC-NO-INCIDENT-RESOLUTION-030",
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both address incident resolution",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC8-1-TO-ISO270012022-A-8-9",
+      "source": {
+        "type": "control",
+        "framework": "SOC2-2017",
+        "version": "2017",
+        "id": "CC8.1",
+        "title": "Change Management"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.9",
+        "title": "Configuration Management"
+      },
+      "bridge_signal": "CSE-SOC2-CC-NO-CHANGE-MANAGEMENT-031",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require change management",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-A1-1-TO-ISO270012022-A-8-6",
+      "source": {
+        "type": "control",
+        "framework": "SOC2-2017",
+        "version": "2017",
+        "id": "A1.1",
+        "title": "System Availability"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.6",
+        "title": "Capacity Management"
+      },
+      "bridge_signal": "CSE-SOC2-AVAIL-NO-CAPACITY-PLANNING-001",
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both address availability",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-A1-2-TO-ISO270012022-A-8-13",
+      "source": {
+        "type": "control",
+        "framework": "SOC2-2017",
+        "version": "2017",
+        "id": "A1.2",
+        "title": "Recovery Procedures"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001-2022",
+        "version": "2022",
+        "id": "A.8.13",
+        "title": "Information Backup"
+      },
+      "bridge_signal": "CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002",
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "authority": "CSE Registry Maintainers",
+        "reviewed_date": "2025-12-28"
+      },
+      "justification": "Both require recovery capability",
+      "metadata": {
+        "created": "2025-12-28T00:00:00Z",
+        "status": "active"
+      }
+    }
+  ]
+}

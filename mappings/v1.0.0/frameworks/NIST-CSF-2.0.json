@@ -1,0 +1,56 @@
+{
+  "id": "NIST-CSF-2.0",
+  "name": "NIST Cybersecurity Framework",
+  "version": "2.0",
+  "authority": "National Institute of Standards and Technology (NIST)",
+  "effective_date": "2024-02-26",
+  "supersedes": "NIST-CSF-1.1",
+  "source_url": "https://www.nist.gov/cyberframework",
+  "description": "The NIST Cybersecurity Framework 2.0 provides a taxonomy of cybersecurity outcomes and a methodology for organizations to assess and improve their ability to prevent, detect, and respond to cyber attacks. Version 2.0 adds a new Govern function.",
+  "control_count": 106,
+  "levels": [],
+  "domains": [
+    {
+      "id": "GV",
+      "name": "Govern",
+      "description": "The organization's cybersecurity risk management strategy, expectations, and policy are established, communicated, and monitored",
+      "control_count": 22
+    },
+    {
+      "id": "ID",
+      "name": "Identify",
+      "description": "The organization's current cybersecurity risks are understood",
+      "control_count": 17
+    },
+    {
+      "id": "PR",
+      "name": "Protect",
+      "description": "Safeguards to manage the organization's cybersecurity risks are used",
+      "control_count": 27
+    },
+    {
+      "id": "DE",
+      "name": "Detect",
+      "description": "Possible cybersecurity attacks and compromises are found and analyzed",
+      "control_count": 8
+    },
+    {
+      "id": "RS",
+      "name": "Respond",
+      "description": "Actions regarding a detected cybersecurity incident are taken",
+      "control_count": 16
+    },
+    {
+      "id": "RC",
+      "name": "Recover",
+      "description": "Assets and operations affected by a cybersecurity incident are restored",
+      "control_count": 16
+    }
+  ],
+  "metadata": {
+    "created": "2025-12-28T00:00:00Z",
+    "updated": "2025-12-28T00:00:00Z",
+    "source_version": "NIST CSF 2.0 (February 2024)",
+    "notes": "Added Govern function; expanded supply chain and cloud considerations"
+  }
+}

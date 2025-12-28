@@ -1,0 +1,49 @@
+{
+  "id": "SOC2-2017",
+  "name": "SOC 2 Trust Services Criteria",
+  "version": "2017",
+  "authority": "American Institute of Certified Public Accountants (AICPA)",
+  "effective_date": "2017-12-15",
+  "source_url": "https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/trustservicescriteria.html",
+  "description": "SOC 2 Trust Services Criteria provides a framework for evaluating an organization's controls relevant to Security, Availability, Processing Integrity, Confidentiality, and Privacy. The 2017 criteria align with COSO 2013.",
+  "control_count": 64,
+  "levels": [],
+  "domains": [
+    {
+      "id": "CC",
+      "name": "Common Criteria",
+      "description": "Common criteria related to security that apply across all trust services categories",
+      "control_count": 33
+    },
+    {
+      "id": "A",
+      "name": "Availability",
+      "description": "Criteria for systems available for operation and use as committed or agreed",
+      "control_count": 3
+    },
+    {
+      "id": "PI",
+      "name": "Processing Integrity",
+      "description": "Criteria for system processing that is complete, valid, accurate, timely, and authorized",
+      "control_count": 5
+    },
+    {
+      "id": "C",
+      "name": "Confidentiality",
+      "description": "Criteria for information designated as confidential is protected as committed or agreed",
+      "control_count": 3
+    },
+    {
+      "id": "P",
+      "name": "Privacy",
+      "description": "Criteria for personal information collected, used, retained, disclosed, and disposed",
+      "control_count": 20
+    }
+  ],
+  "metadata": {
+    "created": "2025-12-28T00:00:00Z",
+    "updated": "2025-12-28T00:00:00Z",
+    "source_version": "2017 Trust Services Criteria (with 2022 updates)",
+    "notes": "Common Criteria (CC) apply to all engagements; other categories are optional based on scope"
+  }
+}
