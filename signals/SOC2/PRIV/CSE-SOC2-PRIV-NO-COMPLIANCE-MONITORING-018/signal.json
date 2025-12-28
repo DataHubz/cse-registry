@@ -1,0 +1,23 @@
+{
+  "id": "CSE-SOC2-PRIV-NO-COMPLIANCE-MONITORING-018",
+  "canonical_name": "No Privacy Compliance Monitoring",
+  "description": "The entity does not implement a process for receiving, addressing, resolving, and communicating the resolution of inquiries, complaints, and disputes from data subjects. This signal indicates that the organization lacks mechanisms to handle privacy concerns from individuals, undermining accountability and data subject rights.",
+  "domain": "SOC2",
+  "category": "PRIV",
+  "applicability": "Applicable to privacy complaint handling systems, customer service operations, data subject inquiry workflows, privacy team processes, and complaint tracking systems.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "privacy",
+      "data-protection",
+      "pii"
+    ],
+    "related_controls": [
+      "SOC 2 P8.1",
+      "GAPP"
+    ],
+    "detection_notes": "Commonly detected through review of complaint handling procedures, customer service workflows, privacy inquiry tracking systems, and resolution documentation. May be identified by absence of complaint channels, missing resolution processes, or lack of communication protocols."
+  }
+}

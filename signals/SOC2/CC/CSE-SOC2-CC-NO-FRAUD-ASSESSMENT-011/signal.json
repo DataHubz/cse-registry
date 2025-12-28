@@ -1,0 +1,16 @@
+{
+  "id": "CSE-SOC2-CC-NO-FRAUD-ASSESSMENT-011",
+  "canonical_name": "No Fraud Risk Assessment",
+  "description": "The entity does not consider the potential for fraud in assessing risks to the achievement of objectives.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Applies to all entities when fraud risk assessments are not conducted, fraud scenarios are not identified, anti-fraud controls are not evaluated, or fraud prevention is not part of the risk management process.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["fraud", "risk_management", "internal_controls"],
+    "related_controls": ["SOC 2 CC3.3", "COSO Principle 8"],
+    "detection_notes": "Review fraud risk assessment documentation, fraud scenario analysis, anti-fraud control design, whistleblower procedures, and evidence of fraud considerations in risk assessments. Look for absence of fraud risk assessments, lack of fraud-specific controls, or no consideration of fraud in control design."
+  }
+}

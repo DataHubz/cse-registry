@@ -1,0 +1,16 @@
+{
+  "id": "CSE-SOC2-PI-NO-PROCESSING-CONTROLS-003",
+  "canonical_name": "No Processing Policies and Procedures",
+  "description": "The entity does not implement policies and procedures over system processing to result in products, services, and reporting to meet the entity's product or service specifications.",
+  "domain": "SOC2",
+  "category": "PI",
+  "applicability": "Data processing controls, batch processing",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["processing_integrity", "data_processing", "quality_control"],
+    "related_controls": ["SOC 2 PI1.3"],
+    "detection_notes": "Review data processing procedures, transformation logic, quality controls during processing, reconciliation processes, and error handling. Check for absence of processing controls, validation during processing, or quality assurance measures."
+  }
+}

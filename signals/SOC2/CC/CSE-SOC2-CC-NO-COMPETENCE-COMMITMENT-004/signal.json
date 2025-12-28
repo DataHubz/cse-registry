@@ -1,0 +1,16 @@
+{
+  "id": "CSE-SOC2-CC-NO-COMPETENCE-COMMITMENT-004",
+  "canonical_name": "No Commitment to Competence",
+  "description": "The entity does not demonstrate commitment to attract, develop, and retain competent individuals in alignment with objectives.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Applies to all entities when hiring processes do not assess competence, training and development programs are absent or inadequate, succession planning is missing, or retention of skilled personnel is not prioritized.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["human_resources", "competency", "training"],
+    "related_controls": ["SOC 2 CC1.4", "COSO Principle 4"],
+    "detection_notes": "Review job descriptions with required competencies, hiring criteria, onboarding programs, training records, performance evaluations, succession plans, and turnover rates. Look for absence of competency requirements, lack of training programs, or high turnover in critical roles."
+  }
+}

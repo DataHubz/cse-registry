@@ -1,0 +1,16 @@
+{
+  "id": "CSE-SOC2-PRIV-NO-SENSITIVE-DATA-CONSENT-005",
+  "canonical_name": "No Explicit Consent for Sensitive Data",
+  "description": "The entity does not obtain explicit consent for collection of sensitive personal information.",
+  "domain": "SOC2",
+  "category": "PRIV",
+  "applicability": "Sensitive data categories, explicit consent",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["privacy", "data-protection", "pii"],
+    "related_controls": ["SOC 2 P3.2", "GAPP"],
+    "detection_notes": "Review consent mechanisms for sensitive information categories including health data, financial data, biometric data, and protected characteristics"
+  }
+}

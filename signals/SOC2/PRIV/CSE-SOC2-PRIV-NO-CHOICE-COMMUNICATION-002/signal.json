@@ -1,0 +1,16 @@
+{
+  "id": "CSE-SOC2-PRIV-NO-CHOICE-COMMUNICATION-002",
+  "canonical_name": "No Communication of Choices",
+  "description": "The entity does not communicate choices available regarding the collection, use, retention, disclosure, and disposal of personal information to data subjects.",
+  "domain": "SOC2",
+  "category": "PRIV",
+  "applicability": "Consent mechanisms, preference centers",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["privacy", "data-protection", "pii"],
+    "related_controls": ["SOC 2 P2.1", "GAPP"],
+    "detection_notes": "Verify presence and clarity of mechanisms for data subjects to understand and exercise choices regarding their personal information"
+  }
+}

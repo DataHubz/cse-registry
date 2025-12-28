@@ -1,0 +1,16 @@
+{
+  "id": "CSE-SOC2-CC-NO-TRANSMISSION-SECURITY-024",
+  "canonical_name": "No Information Transmission Security",
+  "description": "The entity does not restrict the transmission, movement, and removal of information to authorized internal and external users and processes and does not protect it during transmission, movement, or removal.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Data transfer, encryption in transit, data movement",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["Data Protection", "Encryption", "Data Transfer"],
+    "related_controls": ["SOC 2 CC6.7"],
+    "detection_notes": "Review data transmission mechanisms, encryption protocols (TLS/SSL), data transfer policies, and controls over data movement. Test whether data is protected during transmission across networks."
+  }
+}

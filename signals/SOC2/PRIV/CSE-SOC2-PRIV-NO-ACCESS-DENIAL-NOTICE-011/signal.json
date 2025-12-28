@@ -1,0 +1,23 @@
+{
+  "id": "CSE-SOC2-PRIV-NO-ACCESS-DENIAL-NOTICE-011",
+  "canonical_name": "No Access Denial Notification",
+  "description": "The entity does not inform data subjects if access to their personal information is denied and provides the reason for denial. This signal indicates that individuals are not adequately notified when their access requests are rejected, which undermines transparency and privacy rights.",
+  "domain": "SOC2",
+  "category": "PRIV",
+  "applicability": "Applicable to data subject access request workflows, customer service procedures, self-service portals, and any system or process that may deny access to personal information.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "privacy",
+      "data-protection",
+      "pii"
+    ],
+    "related_controls": [
+      "SOC 2 P5.3",
+      "GAPP"
+    ],
+    "detection_notes": "Commonly detected through review of access request procedures, denial notification templates, customer service scripts, and workflow automation. May be identified by absence of denial notification mechanisms, missing reason documentation, or incomplete response procedures."
+  }
+}

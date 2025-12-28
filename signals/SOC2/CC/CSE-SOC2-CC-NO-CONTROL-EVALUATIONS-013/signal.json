@@ -1,0 +1,16 @@
+{
+  "id": "CSE-SOC2-CC-NO-CONTROL-EVALUATIONS-013",
+  "canonical_name": "No Ongoing and Separate Evaluations",
+  "description": "The entity does not select, develop, and perform ongoing and/or separate evaluations to ascertain whether the components of internal control are present and functioning.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Applies to all entities when control monitoring is not performed, control testing is absent, internal audits are not conducted, or there is no evidence of evaluating control effectiveness.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["monitoring", "control_testing", "assurance"],
+    "related_controls": ["SOC 2 CC4.1", "COSO Principle 16"],
+    "detection_notes": "Review control monitoring procedures, control testing schedules and results, internal audit plans and reports, management self-assessments, and evidence of ongoing control evaluations. Look for absence of control testing, lack of monitoring activities, or no evidence of control effectiveness evaluations."
+  }
+}

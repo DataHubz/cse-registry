@@ -1,0 +1,582 @@
+{
+  "domain": "SOC2",
+  "signal_count": 64,
+  "signals": [
+    {
+      "id": "CSE-SOC2-AVAIL-NO-CAPACITY-MGMT-001",
+      "domain": "SOC2",
+      "category": "AVAIL",
+      "name": "No Capacity Management",
+      "definition_ref": "/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-CAPACITY-MGMT-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002",
+      "domain": "SOC2",
+      "category": "AVAIL",
+      "name": "No Environmental Protections and Recovery Infrastructure",
+      "definition_ref": "/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-AVAIL-NO-RECOVERY-TESTING-003",
+      "domain": "SOC2",
+      "category": "AVAIL",
+      "name": "No Recovery Testing",
+      "definition_ref": "/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-RECOVERY-TESTING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-ANOMALY-DETECTION-027",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Anomaly Detection and Analysis",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-ANOMALY-DETECTION-027/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Board Independence and Oversight",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-BOUNDARY-PROTECTION-023",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No External Threat Protection",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-BOUNDARY-PROTECTION-023/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-CHANGE-IMPACT-012",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Change Impact Assessment",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CHANGE-IMPACT-012/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-CHANGE-MANAGEMENT-031",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Infrastructure and Software Change Management",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CHANGE-MANAGEMENT-031/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-COMPETENCE-COMMITMENT-004",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Commitment to Competence",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-COMPETENCE-COMMITMENT-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-CONTROL-ACCOUNTABILITY-005",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Accountability for Internal Control",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-ACCOUNTABILITY-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-CONTROL-EVALUATIONS-013",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Ongoing and Separate Evaluations",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-EVALUATIONS-013/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-CONTROL-SELECTION-015",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Selection and Development of Controls",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-SELECTION-015/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-DEFICIENCY-COMMS-014",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Communication of Deficiencies",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-DEFICIENCY-COMMS-014/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-EVENT-EVALUATION-028",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Security Event Evaluation",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-EVENT-EVALUATION-028/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-EXTERNAL-COMMS-008",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No External Communication",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-EXTERNAL-COMMS-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-FRAUD-ASSESSMENT-011",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Fraud Risk Assessment",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-FRAUD-ASSESSMENT-011/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Incident Recovery",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Incident Response Program",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-INTEGRITY-COMMITMENT-001",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Commitment to Integrity and Ethical Values",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-INTEGRITY-COMMITMENT-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-INTERNAL-COMMS-007",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Internal Communication of Objectives",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-INTERNAL-COMMS-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Logical Access Security Software",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-MALWARE-PREVENTION-025",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Malicious Software Prevention",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-MALWARE-PREVENTION-025/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-MGMT-STRUCTURE-003",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Management Structure and Authority",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-MGMT-STRUCTURE-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-OBJECTIVES-SPEC-009",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Specification of Objectives",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-OBJECTIVES-SPEC-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-PHYSICAL-ACCESS-021",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Physical Access Restrictions",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-PHYSICAL-ACCESS-021/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-POLICY-DEPLOYMENT-017",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Deployment Through Policies",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-POLICY-DEPLOYMENT-017/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-QUALITY-INFO-006",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Quality Information for Internal Control",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-QUALITY-INFO-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-RBAC-CONTROLS-020",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Role-Based Access and Least Privilege",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-RBAC-CONTROLS-020/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-RISK-IDENTIFICATION-010",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Risk Identification and Analysis",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-RISK-IDENTIFICATION-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-RISK-MITIGATION-032",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Risk Mitigation Activities",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-RISK-MITIGATION-032/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-SECURE-DISPOSAL-022",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Secure Asset Disposal",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-SECURE-DISPOSAL-022/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-TECH-CONTROLS-016",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Technology General Controls",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-TECH-CONTROLS-016/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-TRANSMISSION-SECURITY-024",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Information Transmission Security",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-TRANSMISSION-SECURITY-024/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-USER-REGISTRATION-019",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No User Registration and Authorization",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-USER-REGISTRATION-019/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Vendor and Partner Risk Management",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-VULN-DETECTION-026",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "No Vulnerability Detection and Monitoring",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-VULN-DETECTION-026/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CONF-NO-DATA-CLASSIFICATION-001",
+      "domain": "SOC2",
+      "category": "CONF",
+      "name": "No Confidential Information Identification",
+      "definition_ref": "/signals/SOC2/CONF/CSE-SOC2-CONF-NO-DATA-CLASSIFICATION-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CONF-NO-DATA-DISPOSAL-002",
+      "domain": "SOC2",
+      "category": "CONF",
+      "name": "No Confidential Information Disposal",
+      "definition_ref": "/signals/SOC2/CONF/CSE-SOC2-CONF-NO-DATA-DISPOSAL-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PI-NO-DATA-STORAGE-CONTROLS-005",
+      "domain": "SOC2",
+      "category": "PI",
+      "name": "No Input and Output Storage Controls",
+      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-DATA-STORAGE-CONTROLS-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PI-NO-INPUT-VALIDATION-002",
+      "domain": "SOC2",
+      "category": "PI",
+      "name": "No Input Completeness and Accuracy Controls",
+      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-INPUT-VALIDATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PI-NO-OUTPUT-VALIDATION-004",
+      "domain": "SOC2",
+      "category": "PI",
+      "name": "No Output Completeness and Accuracy Controls",
+      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-OUTPUT-VALIDATION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PI-NO-PROCESSING-CONTROLS-003",
+      "domain": "SOC2",
+      "category": "PI",
+      "name": "No Processing Policies and Procedures",
+      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-PROCESSING-CONTROLS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PI-NO-PROCESSING-SPECS-001",
+      "domain": "SOC2",
+      "category": "PI",
+      "name": "No Processing Specifications",
+      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-PROCESSING-SPECS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-ACCESS-DENIAL-NOTICE-011",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Access Denial Notification",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-ACCESS-DENIAL-NOTICE-011/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-BREACH-NOTIFICATION-015",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Data Breach Notification",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-BREACH-NOTIFICATION-015/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-CHOICE-COMMUNICATION-002",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Communication of Choices",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-CHOICE-COMMUNICATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-COLLECTION-LIMITATION-004",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Collection Limitation",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COLLECTION-LIMITATION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-COMPLIANCE-MONITORING-018",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Privacy Compliance Monitoring",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COMPLIANCE-MONITORING-018/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-COMPLIANCE-REVIEW-020",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Privacy Compliance Review",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COMPLIANCE-REVIEW-020/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-CONSENT-MECHANISM-003",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Consent for New Uses",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-CONSENT-MECHANISM-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-DATA-QUALITY-016",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Data Accuracy and Completeness",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DATA-QUALITY-016/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-DATA-RELEVANCE-017",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Data Relevance",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DATA-RELEVANCE-017/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-DISCLOSURE-LIMITS-012",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Disclosure Limitation",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISCLOSURE-LIMITS-012/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-DISCLOSURE-RECORDS-014",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Disclosure Records",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISCLOSURE-RECORDS-014/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-DISPUTE-RESOLUTION-019",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Dispute Resolution",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISPUTE-RESOLUTION-019/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-IDENTITY-VERIFICATION-010",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Confirmation of Identity",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-IDENTITY-VERIFICATION-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-INCIDENT-REPORTING-021",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Privacy Incident Reporting",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-INCIDENT-REPORTING-021/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-PRIVACY-NOTICE-001",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Privacy Notice",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-PRIVACY-NOTICE-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-RETENTION-POLICY-007",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Retention Policies",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-RETENTION-POLICY-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-SECURE-PII-DISPOSAL-008",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Secure PII Disposal",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SECURE-PII-DISPOSAL-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-SENSITIVE-DATA-CONSENT-005",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Explicit Consent for Sensitive Data",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SENSITIVE-DATA-CONSENT-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-SUBJECT-ACCESS-009",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Data Subject Access",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SUBJECT-ACCESS-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-THIRD-PARTY-AUTH-013",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Third-Party Disclosure Authorization",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-THIRD-PARTY-AUTH-013/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-PRIV-NO-USE-LIMITATION-006",
+      "domain": "SOC2",
+      "category": "PRIV",
+      "name": "No Limitation on Use",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-USE-LIMITATION-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CSE-SOC2-CC-NO-POLICY-DEPLOYMENT-017",
+  "canonical_name": "No Deployment Through Policies",
+  "description": "The entity does not deploy control activities through policies that establish what is expected and procedures that put policies into action.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Applies to all entities when policies do not exist, procedures are not documented, policies are not communicated or enforced, or there is a gap between policy and actual practice.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": ["policy_management", "procedures", "control_implementation"],
+    "related_controls": ["SOC 2 CC5.3", "COSO Principle 12"],
+    "detection_notes": "Review policy documentation, procedure manuals, evidence of policy communication and acknowledgment, policy enforcement mechanisms, and compliance monitoring. Look for absence of policies, lack of procedures, policies not followed in practice, or no evidence of policy enforcement."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-SOC2-PRIV-NO-COMPLIANCE-REVIEW-020",
+  "canonical_name": "No Privacy Compliance Review",
+  "description": "The entity does not periodically monitor compliance with its privacy policies and procedures. This signal indicates that the organization lacks ongoing oversight of privacy practices, potentially allowing policy violations and privacy risks to go undetected.",
+  "domain": "SOC2",
+  "category": "PRIV",
+  "applicability": "Applicable to privacy compliance programs, audit and review processes, privacy monitoring systems, internal controls, and privacy governance frameworks.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "privacy",
+      "data-protection",
+      "pii"
+    ],
+    "related_controls": [
+      "SOC 2 P8.3",
+      "GAPP"
+    ],
+    "detection_notes": "Commonly detected through review of privacy audit schedules, compliance monitoring procedures, privacy assessment documentation, and oversight mechanisms. May be identified by absence of periodic reviews, missing monitoring controls, or lack of compliance reporting."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-SOC2-PRIV-NO-DISCLOSURE-LIMITS-012",
+  "canonical_name": "No Disclosure Limitation",
+  "description": "The entity does not disclose personal information to third parties only for the purposes identified in the privacy notice and with the implicit or explicit consent of the data subject. This signal indicates that personal data may be shared beyond stated purposes or without proper consent mechanisms, violating privacy commitments and data protection principles.",
+  "domain": "SOC2",
+  "category": "PRIV",
+  "applicability": "Applicable to any system, service, or process that shares personal information with third parties, including API integrations, data partnerships, marketing platforms, service providers, and data sharing agreements.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "privacy",
+      "data-protection",
+      "pii"
+    ],
+    "related_controls": [
+      "SOC 2 P6.1",
+      "GAPP"
+    ],
+    "detection_notes": "Commonly detected through analysis of third-party integrations, data sharing agreements, API configurations, privacy policies, and consent management systems. May be identified by overly broad data sharing, missing consent mechanisms, or discrepancies between privacy notices and actual practices."
+  }
+}

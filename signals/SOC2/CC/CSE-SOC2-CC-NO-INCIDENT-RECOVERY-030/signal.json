@@ -1,0 +1,16 @@
+{
+  "id": "CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030",
+  "canonical_name": "No Incident Recovery",
+  "description": "The entity does not identify, develop, and implement activities to recover from identified security incidents.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Recovery procedures, business continuity",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": ["Incident Recovery", "Business Continuity", "Disaster Recovery"],
+    "related_controls": ["SOC 2 CC7.5"],
+    "detection_notes": "Review incident recovery procedures, business continuity plans, disaster recovery processes, and recovery time objectives (RTOs). Verify recovery activities are documented and tested."
+  }
+}

@@ -71,7 +71,20 @@
       },
       "file": "domains/ISO27001.json",
       "file_min": "domains/ISO27001.min.json"
+    },
+    {
+      "name": "SOC2",
+      "signal_count": 64,
+      "categories": {
+        "AVAIL": 3,
+        "CC": 33,
+        "CONF": 2,
+        "PI": 5,
+        "PRIV": 21
+      },
+      "file": "domains/SOC2.json",
+      "file_min": "domains/SOC2.min.json"
     }
   ],
-  "total_signals": 308
+  "total_signals": 372
 }
