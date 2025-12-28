@@ -1,0 +1,681 @@
+{
+  "domain": "HIPAA",
+  "signal_count": 75,
+  "signals": [
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-ACCESS-AUTH-009",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Access Authorization",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACCESS-AUTH-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-ACCESS-MODIFY-010",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Access Establishment and Modification",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACCESS-MODIFY-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-ACTIVITY-REVIEW-004",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Information System Activity Review",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACTIVITY-REVIEW-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-CLEARANCE-PROC-007",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Workforce Clearance Procedure",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-CLEARANCE-PROC-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-DATA-BACKUP-016",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Data Backup Plan",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-DATA-BACKUP-016/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-DISASTER-RECOVERY-017",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Disaster Recovery Plan",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-DISASTER-RECOVERY-017/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-EMERGENCY-MODE-018",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Emergency Mode Operation Plan",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-EMERGENCY-MODE-018/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Security Incident Response and Reporting",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-LOGIN-MONITORING-013",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Log-in Monitoring",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-LOGIN-MONITORING-013/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-MALWARE-PROTECTION-012",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Protection from Malicious Software",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-MALWARE-PROTECTION-012/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-PASSWORD-MGMT-014",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Password Management",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-PASSWORD-MGMT-014/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-RISK-ANALYSIS-001",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Risk Analysis",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-RISK-ANALYSIS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-RISK-MANAGEMENT-002",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Risk Management",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-RISK-MANAGEMENT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-SANCTION-POLICY-003",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Sanction Policy",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SANCTION-POLICY-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-SECURITY-OFFICIAL-005",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Assigned Security Responsibility",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SECURITY-OFFICIAL-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-SECURITY-REMINDERS-011",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Security Reminders",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SECURITY-REMINDERS-011/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-TERMINATION-PROC-008",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Termination Procedures",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-TERMINATION-PROC-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ADMIN-NO-WORKFORCE-AUTH-006",
+      "domain": "HIPAA",
+      "category": "ADMIN",
+      "name": "No Workforce Authorization/Supervision",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-WORKFORCE-AUTH-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-ACCESS-CONTROL-003",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Access Control and Validation Procedures",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-ACCESS-CONTROL-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-CONTINGENCY-OPS-001",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Contingency Operations",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-CONTINGENCY-OPS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-FACILITY-PLAN-002",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Facility Security Plan",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-FACILITY-PLAN-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-MAINTENANCE-RECORDS-004",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Maintenance Records",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MAINTENANCE-RECORDS-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-MEDIA-DISPOSAL-007",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Media Disposal",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MEDIA-DISPOSAL-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-MEDIA-REUSE-008",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Media Re-use Controls",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MEDIA-REUSE-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-WORKSTATION-SECURITY-006",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Workstation Security",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-WORKSTATION-SECURITY-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-WORKSTATION-USE-005",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Workstation Use Policy",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-WORKSTATION-USE-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-AUDIT-CONTROLS-005",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Audit Controls",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUDIT-CONTROLS-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-AUTHENTICATION-007",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Person or Entity Authentication",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUTHENTICATION-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-AUTO-LOGOFF-003",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Automatic Logoff",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUTO-LOGOFF-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-EMERGENCY-ACCESS-002",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Emergency Access Procedure",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-EMERGENCY-ACCESS-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-ENCRYPTION-004",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Encryption and Decryption",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-ENCRYPTION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-INTEGRITY-MECHANISM-006",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No ePHI Integrity Mechanism",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-INTEGRITY-MECHANISM-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-TRANSMISSION-ENCRYPTION-009",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Transmission Encryption",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-TRANSMISSION-ENCRYPTION-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-TRANSMISSION-INTEGRITY-008",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Transmission Integrity Controls",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-TRANSMISSION-INTEGRITY-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-UNIQUE-USER-ID-001",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Unique User Identification",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-UNIQUE-USER-ID-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ORG-NO-BA-CONTRACT-001",
+      "domain": "HIPAA",
+      "category": "ORG",
+      "name": "No Business Associate Contracts",
+      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-BA-CONTRACT-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ORG-NO-DOCUMENTATION-005",
+      "domain": "HIPAA",
+      "category": "ORG",
+      "name": "No Documentation Maintenance",
+      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-DOCUMENTATION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ORG-NO-GROUP-HEALTH-SAFEGUARDS-003",
+      "domain": "HIPAA",
+      "category": "ORG",
+      "name": "No Group Health Plan Safeguards",
+      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-GROUP-HEALTH-SAFEGUARDS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ORG-NO-POLICIES-PROCEDURES-004",
+      "domain": "HIPAA",
+      "category": "ORG",
+      "name": "No Policies and Procedures",
+      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-POLICIES-PROCEDURES-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ORG-NO-RETENTION-006",
+      "domain": "HIPAA",
+      "category": "ORG",
+      "name": "No 6-Year Retention",
+      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-RETENTION-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-ORG-NO-SUBCONTRACTOR-REQ-002",
+      "domain": "HIPAA",
+      "category": "ORG",
+      "name": "No Subcontractor Requirements",
+      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-SUBCONTRACTOR-REQ-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-ACCESS-RIGHTS-014",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Individual Access Rights",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCESS-RIGHTS-014/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-ACCESS-TIMELINESS-015",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Timely Access Response",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCESS-TIMELINESS-015/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-ACCOUNTING-DISCLOSURES-017",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Accounting of Disclosures",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCOUNTING-DISCLOSURES-017/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-AMENDMENT-RIGHTS-016",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Amendment Rights",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-AMENDMENT-RIGHTS-016/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-AUTHORIZATION-005",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Valid Authorization",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-AUTHORIZATION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-COMPLAINT-PROCESS-022",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Complaint Process",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-COMPLAINT-PROCESS-022/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-CONFIDENTIAL-COMMS-013",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Confidential Communications",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-CONFIDENTIAL-COMMS-013/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-DEIDENTIFICATION-003",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No De-identification Standards",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-DEIDENTIFICATION-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-MARKETING-AUTHORIZATION-007",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Marketing Authorization",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MARKETING-AUTHORIZATION-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-MINIMUM-NECESSARY-002",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Minimum Necessary Standard",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MINIMUM-NECESSARY-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-MITIGATION-024",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Mitigation of Harmful Effects",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MITIGATION-024/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-NOTICE-CONTENT-010",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "Incomplete Notice Content",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-NOTICE-CONTENT-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-NOTICE-PROVISION-011",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Notice Provision to Individuals",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-NOTICE-PROVISION-011/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-CONTACT-019",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Privacy Contact Person",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-CONTACT-019/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-NOTICE-009",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Notice of Privacy Practices",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-NOTICE-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-OFFICER-018",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Designated Privacy Official",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-OFFICER-018/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-TRAINING-020",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Privacy Training",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-TRAINING-020/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-PSYCHOTHERAPY-PROTECTION-006",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Psychotherapy Notes Protection",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PSYCHOTHERAPY-PROTECTION-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-RESTRICTION-RIGHTS-012",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Rights to Request Restrictions",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-RESTRICTION-RIGHTS-012/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-RETALIATION-PROTECTION-025",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Retaliation Protection",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-RETALIATION-PROTECTION-025/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-SAFEGUARDS-021",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Administrative/Technical/Physical Safeguards",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SAFEGUARDS-021/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-SALE-PROHIBITION-008",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No PHI Sale Prohibition",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SALE-PROHIBITION-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-SANCTIONS-023",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Sanctions for Non-Compliance",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SANCTIONS-023/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-TPO-LIMITS-004",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Treatment/Payment/Operations Limits",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-TPO-LIMITS-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-USE-LIMITS-001",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Limits on Uses and Disclosures",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-USE-LIMITS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-WAIVER-PROHIBITION-026",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Waiver Prohibition",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-WAIVER-PROHIBITION-026/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-BREACH-NO-BA-NOTIFY-006",
+      "domain": "HIPAA",
+      "category": "BREACH",
+      "name": "No Business Associate Notification",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-BA-NOTIFY-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-BREACH-NO-BURDEN-PROOF-008",
+      "domain": "HIPAA",
+      "category": "BREACH",
+      "name": "No Documentation for Burden of Proof",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-BURDEN-PROOF-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-BREACH-NO-HHS-NOTIFY-005",
+      "domain": "HIPAA",
+      "category": "BREACH",
+      "name": "No HHS Secretary Notification",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-HHS-NOTIFY-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-BREACH-NO-INDIVIDUAL-NOTIFY-001",
+      "domain": "HIPAA",
+      "category": "BREACH",
+      "name": "No Individual Notification",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-INDIVIDUAL-NOTIFY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-BREACH-NO-LOG-MAINTENANCE-007",
+      "domain": "HIPAA",
+      "category": "BREACH",
+      "name": "No Breach Log for Small Breaches",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-LOG-MAINTENANCE-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-BREACH-NO-MEDIA-NOTIFY-004",
+      "domain": "HIPAA",
+      "category": "BREACH",
+      "name": "No Media Notification (500+ affected)",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-MEDIA-NOTIFY-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-BREACH-NO-NOTIFY-CONTENT-003",
+      "domain": "HIPAA",
+      "category": "BREACH",
+      "name": "Incomplete Notification Content",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-NOTIFY-CONTENT-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-HIPAA-BREACH-NO-TIMELY-NOTIFY-002",
+      "domain": "HIPAA",
+      "category": "BREACH",
+      "name": "No Timely Notification (60 days)",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-TIMELY-NOTIFY-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    }
+  ]
+}

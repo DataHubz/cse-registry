@@ -84,7 +84,21 @@
       },
       "file": "domains/SOC2.json",
       "file_min": "domains/SOC2.min.json"
+    },
+    {
+      "name": "HIPAA",
+      "signal_count": 75,
+      "categories": {
+        "ADMIN": 18,
+        "BREACH": 8,
+        "ORG": 6,
+        "PHYSICAL": 8,
+        "PRIVACY": 26,
+        "TECH": 9
+      },
+      "file": "domains/HIPAA.json",
+      "file_min": "domains/HIPAA.min.json"
     }
   ],
-  "total_signals": 372
+  "total_signals": 447
 }
