@@ -52,11 +52,11 @@ The tooling landscape compounds this complexity. Organizations deploy an average
 
 **This fragmentation has measurable costs:**
 
-- **Manual correlation effort** — Security teams spend significant time mapping findings between tools, often maintaining custom spreadsheets or scripts to translate between proprietary formats
-- **Inconsistent audit evidence** — The same technical condition appears differently across reports, creating confusion during audits and requiring manual reconciliation
-- **Delayed remediation** — Without unified tracking, the same issue may be reported multiple times by different tools, obscuring the true scope and priority of vulnerabilities
-- **Integration overhead** — Every new tool requires custom integration logic to normalize its output, creating maintenance burden and technical debt
-- **Framework mapping duplication** — Each organization independently maps tool outputs to compliance controls, duplicating effort across the industry
+- **Manual correlation effort**: Security teams spend significant time mapping findings between tools, often maintaining custom spreadsheets or scripts to translate between proprietary formats
+- **Inconsistent audit evidence**: The same technical condition appears differently across reports, creating confusion during audits and requiring manual reconciliation
+- **Delayed remediation**: Without unified tracking, the same issue may be reported multiple times by different tools, obscuring the true scope and priority of vulnerabilities
+- **Integration overhead**: Every new tool requires custom integration logic to normalize its output, creating maintenance burden and technical debt
+- **Framework mapping duplication**: Each organization independently maps tool outputs to compliance controls, duplicating effort across the industry
 
 ### The Interoperability Gap
 
@@ -85,7 +85,7 @@ CSE addresses this gap by providing what the compliance ecosystem has been missi
 CSE-CMMC-COMMS-UNRESTRICTED-SSH-001
 ```
 
-A single, stable identifier that any tool can emit and any consumer can understand—regardless of vendor, framework, or implementation.
+A single, stable identifier that any tool can emit and any consumer can understand, regardless of vendor, framework, or implementation.
 
 But CSE is more than a catalog of identifiers. It provides:
 
@@ -111,7 +111,7 @@ As organizations adopt infrastructure-as-code, shift security left, and automate
 - **Auditors** receive evidence with consistent, unambiguous references that map directly to control requirements
 - **Organizations** maintain a single source of truth for compliance observations, regardless of which tools detected them
 
-This is not about replacing existing tools or frameworks. CSE provides the connective tissue that allows them to work together—a shared language that reduces the friction inherent in a fragmented ecosystem.
+This is not about replacing existing tools or frameworks. CSE provides the connective tissue that allows them to work together, a shared language that reduces the friction inherent in a fragmented ecosystem.
 
 **The alternative is the status quo:** continued fragmentation, manual mapping, integration overhead, and audit inconsistency. As compliance requirements multiply and tooling landscapes expand, these costs will only increase.
 
@@ -325,10 +325,10 @@ While findings are **not stored** in this registry, CSE provides a standardized 
 
 Without a common format, integrating findings across tools requires custom parsers and mappers for each source. CSE's finding format provides:
 
-- **Cross-tool correlation** — Aggregate findings from multiple scanners using a common structure
-- **Consistent import/export** — Exchange findings between platforms without data loss
-- **Unified audit trails** — Maintain consistent finding records across the compliance lifecycle
-- **Automated workflows** — Enable programmatic finding management and remediation tracking
+- **Cross-tool correlation**: Aggregate findings from multiple scanners using a common structure
+- **Consistent import/export**: Exchange findings between platforms without data loss
+- **Unified audit trails**: Maintain consistent finding records across the compliance lifecycle
+- **Automated workflows**: Enable programmatic finding management and remediation tracking
 
 ### Finding Structure
 
@@ -597,10 +597,10 @@ After the issue is fixed, the finding is updated:
 ```
 
 This integrated approach enables:
-- **Automated compliance mapping** — One finding, multiple framework impacts
-- **Consistent audit trails** — Same signal ID across all tools and reports
-- **Cross-tool correlation** — Findings from different scanners share the same vocabulary
-- **Evidence-based remediation** — Clear tracking from detection to verification
+- **Automated compliance mapping**: One finding, multiple framework impacts
+- **Consistent audit trails**: Same signal ID across all tools and reports
+- **Cross-tool correlation**: Findings from different scanners share the same vocabulary
+- **Evidence-based remediation**: Clear tracking from detection to verification
 
 ## Repository Structure
 
@@ -789,9 +789,9 @@ The specification and registry are public and versioned. Stewardship is centrali
 ### Contributing
 
 Contributions and feedback are welcome. See:
-- [`CONTRIBUTING.md`](CONTRIBUTING.md) — Contribution guidelines
-- [`GOVERNANCE.md`](GOVERNANCE.md) — Governance model and decision process
-- [`CHANGELOG.md`](CHANGELOG.md) — Version history
+- [`CONTRIBUTING.md`](CONTRIBUTING.md): Contribution guidelines
+- [`GOVERNANCE.md`](GOVERNANCE.md): Governance model and decision process
+- [`CHANGELOG.md`](CHANGELOG.md): Version history
 
 ## License
 
