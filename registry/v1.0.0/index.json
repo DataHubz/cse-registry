@@ -53,9 +53,20 @@
     },
     {
       "name": "GEN",
-      "signal_count": 1,
+      "signal_count": 55,
       "categories": {
-        "SECRETS": 1
+        "AUDIT": 5,
+        "AUTH": 6,
+        "CONFIG": 4,
+        "CRYPTO": 5,
+        "DATA": 5,
+        "GOVERN": 5,
+        "IDENTITY": 4,
+        "INCIDENT": 5,
+        "PHYSICAL": 4,
+        "SECRETS": 3,
+        "VENDOR": 4,
+        "VULN": 5
       },
       "file": "domains/GEN.json",
       "file_min": "domains/GEN.min.json"
@@ -250,5 +261,5 @@
       "file_min": "domains/CIS.min.json"
     }
   ],
-  "total_signals": 1078
+  "total_signals": 1132
 }

@@ -1,13 +1,499 @@
 {
   "domain": "GEN",
-  "signal_count": 1,
+  "signal_count": 55,
   "signals": [
+    {
+      "id": "CSE-GEN-AUDIT-NO-CENTRALIZED-LOGGING-005",
+      "domain": "GEN",
+      "category": "AUDIT",
+      "name": "Centralized Logging Missing",
+      "definition_ref": "/signals/GEN/AUDIT/CSE-GEN-AUDIT-NO-CENTRALIZED-LOGGING-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-AUDIT-NO-LOG-PROTECTION-002",
+      "domain": "GEN",
+      "category": "AUDIT",
+      "name": "Audit Log Protection Missing",
+      "definition_ref": "/signals/GEN/AUDIT/CSE-GEN-AUDIT-NO-LOG-PROTECTION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-AUDIT-NO-LOG-RETENTION-003",
+      "domain": "GEN",
+      "category": "AUDIT",
+      "name": "Audit Log Retention Missing",
+      "definition_ref": "/signals/GEN/AUDIT/CSE-GEN-AUDIT-NO-LOG-RETENTION-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-AUDIT-NO-LOG-REVIEW-004",
+      "domain": "GEN",
+      "category": "AUDIT",
+      "name": "Audit Log Review Missing",
+      "definition_ref": "/signals/GEN/AUDIT/CSE-GEN-AUDIT-NO-LOG-REVIEW-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-AUDIT-NO-LOGGING-001",
+      "domain": "GEN",
+      "category": "AUDIT",
+      "name": "Audit Logging Missing",
+      "definition_ref": "/signals/GEN/AUDIT/CSE-GEN-AUDIT-NO-LOGGING-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-AUTH-NO-ACCESS-CONTROL-003",
+      "domain": "GEN",
+      "category": "AUTH",
+      "name": "Access Control Mechanism Missing",
+      "definition_ref": "/signals/GEN/AUTH/CSE-GEN-AUTH-NO-ACCESS-CONTROL-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-AUTH-NO-AUTHENTICATION-001",
+      "domain": "GEN",
+      "category": "AUTH",
+      "name": "Authentication Mechanism Missing",
+      "definition_ref": "/signals/GEN/AUTH/CSE-GEN-AUTH-NO-AUTHENTICATION-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-AUTH-NO-MFA-002",
+      "domain": "GEN",
+      "category": "AUTH",
+      "name": "Multi-Factor Authentication Missing",
+      "definition_ref": "/signals/GEN/AUTH/CSE-GEN-AUTH-NO-MFA-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-AUTH-NO-PRIVILEGED-MGMT-005",
+      "domain": "GEN",
+      "category": "AUTH",
+      "name": "Privileged Access Management Missing",
+      "definition_ref": "/signals/GEN/AUTH/CSE-GEN-AUTH-NO-PRIVILEGED-MGMT-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-AUTH-NO-RBAC-004",
+      "domain": "GEN",
+      "category": "AUTH",
+      "name": "Role-Based Access Control Missing",
+      "definition_ref": "/signals/GEN/AUTH/CSE-GEN-AUTH-NO-RBAC-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-AUTH-NO-SESSION-MGMT-006",
+      "domain": "GEN",
+      "category": "AUTH",
+      "name": "Session Management Missing",
+      "definition_ref": "/signals/GEN/AUTH/CSE-GEN-AUTH-NO-SESSION-MGMT-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-CONFIG-DEFAULT-CREDENTIALS-004",
+      "domain": "GEN",
+      "category": "CONFIG",
+      "name": "Default Credentials Not Changed",
+      "definition_ref": "/signals/GEN/CONFIG/CSE-GEN-CONFIG-DEFAULT-CREDENTIALS-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-CONFIG-NO-BASELINE-003",
+      "domain": "GEN",
+      "category": "CONFIG",
+      "name": "Secure Configuration Baseline Missing",
+      "definition_ref": "/signals/GEN/CONFIG/CSE-GEN-CONFIG-NO-BASELINE-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-CONFIG-NO-CHANGE-MGMT-002",
+      "domain": "GEN",
+      "category": "CONFIG",
+      "name": "Change Management Missing",
+      "definition_ref": "/signals/GEN/CONFIG/CSE-GEN-CONFIG-NO-CHANGE-MGMT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-CONFIG-NO-HARDENING-001",
+      "domain": "GEN",
+      "category": "CONFIG",
+      "name": "System Hardening Missing",
+      "definition_ref": "/signals/GEN/CONFIG/CSE-GEN-CONFIG-NO-HARDENING-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-CRYPTO-NO-CERTIFICATE-MGMT-005",
+      "domain": "GEN",
+      "category": "CRYPTO",
+      "name": "Certificate Management Missing",
+      "definition_ref": "/signals/GEN/CRYPTO/CSE-GEN-CRYPTO-NO-CERTIFICATE-MGMT-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001",
+      "domain": "GEN",
+      "category": "CRYPTO",
+      "name": "Encryption at Rest Missing",
+      "definition_ref": "/signals/GEN/CRYPTO/CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002",
+      "domain": "GEN",
+      "category": "CRYPTO",
+      "name": "Encryption in Transit Missing",
+      "definition_ref": "/signals/GEN/CRYPTO/CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-CRYPTO-NO-KEY-MGMT-003",
+      "domain": "GEN",
+      "category": "CRYPTO",
+      "name": "Cryptographic Key Management Missing",
+      "definition_ref": "/signals/GEN/CRYPTO/CSE-GEN-CRYPTO-NO-KEY-MGMT-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-CRYPTO-WEAK-ALGORITHMS-004",
+      "domain": "GEN",
+      "category": "CRYPTO",
+      "name": "Weak Cryptographic Algorithms Used",
+      "definition_ref": "/signals/GEN/CRYPTO/CSE-GEN-CRYPTO-WEAK-ALGORITHMS-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-DATA-NO-CLASSIFICATION-001",
+      "domain": "GEN",
+      "category": "DATA",
+      "name": "Data Classification Missing",
+      "definition_ref": "/signals/GEN/DATA/CSE-GEN-DATA-NO-CLASSIFICATION-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-DATA-NO-DISPOSAL-004",
+      "domain": "GEN",
+      "category": "DATA",
+      "name": "Secure Data Disposal Missing",
+      "definition_ref": "/signals/GEN/DATA/CSE-GEN-DATA-NO-DISPOSAL-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-DATA-NO-INVENTORY-002",
+      "domain": "GEN",
+      "category": "DATA",
+      "name": "Data Inventory Missing",
+      "definition_ref": "/signals/GEN/DATA/CSE-GEN-DATA-NO-INVENTORY-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-DATA-NO-MINIMIZATION-005",
+      "domain": "GEN",
+      "category": "DATA",
+      "name": "Data Minimization Missing",
+      "definition_ref": "/signals/GEN/DATA/CSE-GEN-DATA-NO-MINIMIZATION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-DATA-NO-RETENTION-POLICY-003",
+      "domain": "GEN",
+      "category": "DATA",
+      "name": "Data Retention Policy Missing",
+      "definition_ref": "/signals/GEN/DATA/CSE-GEN-DATA-NO-RETENTION-POLICY-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-GOVERN-NO-COMPLIANCE-REVIEW-005",
+      "domain": "GEN",
+      "category": "GOVERN",
+      "name": "Compliance Review Missing",
+      "definition_ref": "/signals/GEN/GOVERN/CSE-GEN-GOVERN-NO-COMPLIANCE-REVIEW-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-GOVERN-NO-RISK-ASSESSMENT-002",
+      "domain": "GEN",
+      "category": "GOVERN",
+      "name": "Risk Assessment Missing",
+      "definition_ref": "/signals/GEN/GOVERN/CSE-GEN-GOVERN-NO-RISK-ASSESSMENT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-GOVERN-NO-SECURITY-POLICY-001",
+      "domain": "GEN",
+      "category": "GOVERN",
+      "name": "Information Security Policy Missing",
+      "definition_ref": "/signals/GEN/GOVERN/CSE-GEN-GOVERN-NO-SECURITY-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-GOVERN-NO-SECURITY-ROLES-003",
+      "domain": "GEN",
+      "category": "GOVERN",
+      "name": "Security Roles Missing",
+      "definition_ref": "/signals/GEN/GOVERN/CSE-GEN-GOVERN-NO-SECURITY-ROLES-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-GOVERN-NO-TRAINING-004",
+      "domain": "GEN",
+      "category": "GOVERN",
+      "name": "Security Awareness Training Missing",
+      "definition_ref": "/signals/GEN/GOVERN/CSE-GEN-GOVERN-NO-TRAINING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-IDENTITY-NO-ACCESS-REVIEW-004",
+      "domain": "GEN",
+      "category": "IDENTITY",
+      "name": "Access Review Missing",
+      "definition_ref": "/signals/GEN/IDENTITY/CSE-GEN-IDENTITY-NO-ACCESS-REVIEW-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-IDENTITY-NO-DEPROVISIONING-003",
+      "domain": "GEN",
+      "category": "IDENTITY",
+      "name": "Access Deprovisioning Missing",
+      "definition_ref": "/signals/GEN/IDENTITY/CSE-GEN-IDENTITY-NO-DEPROVISIONING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-IDENTITY-NO-LIFECYCLE-001",
+      "domain": "GEN",
+      "category": "IDENTITY",
+      "name": "Identity Lifecycle Management Missing",
+      "definition_ref": "/signals/GEN/IDENTITY/CSE-GEN-IDENTITY-NO-LIFECYCLE-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-IDENTITY-NO-PROVISIONING-002",
+      "domain": "GEN",
+      "category": "IDENTITY",
+      "name": "Access Provisioning Process Missing",
+      "definition_ref": "/signals/GEN/IDENTITY/CSE-GEN-IDENTITY-NO-PROVISIONING-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-INCIDENT-NO-BACKUP-002",
+      "domain": "GEN",
+      "category": "INCIDENT",
+      "name": "Data Backup Missing",
+      "definition_ref": "/signals/GEN/INCIDENT/CSE-GEN-INCIDENT-NO-BACKUP-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-INCIDENT-NO-LESSONS-LEARNED-005",
+      "domain": "GEN",
+      "category": "INCIDENT",
+      "name": "Post-Incident Review Missing",
+      "definition_ref": "/signals/GEN/INCIDENT/CSE-GEN-INCIDENT-NO-LESSONS-LEARNED-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-INCIDENT-NO-RECOVERY-PLAN-003",
+      "domain": "GEN",
+      "category": "INCIDENT",
+      "name": "Disaster Recovery Plan Missing",
+      "definition_ref": "/signals/GEN/INCIDENT/CSE-GEN-INCIDENT-NO-RECOVERY-PLAN-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
+      "domain": "GEN",
+      "category": "INCIDENT",
+      "name": "Incident Response Plan Missing",
+      "definition_ref": "/signals/GEN/INCIDENT/CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-INCIDENT-NO-TESTING-004",
+      "domain": "GEN",
+      "category": "INCIDENT",
+      "name": "Incident Response Testing Missing",
+      "definition_ref": "/signals/GEN/INCIDENT/CSE-GEN-INCIDENT-NO-TESTING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-PHYSICAL-NO-ACCESS-CONTROLS-001",
+      "domain": "GEN",
+      "category": "PHYSICAL",
+      "name": "Physical Access Controls Missing",
+      "definition_ref": "/signals/GEN/PHYSICAL/CSE-GEN-PHYSICAL-NO-ACCESS-CONTROLS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-PHYSICAL-NO-EQUIPMENT-PROTECTION-004",
+      "domain": "GEN",
+      "category": "PHYSICAL",
+      "name": "Equipment Protection Missing",
+      "definition_ref": "/signals/GEN/PHYSICAL/CSE-GEN-PHYSICAL-NO-EQUIPMENT-PROTECTION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-PHYSICAL-NO-MEDIA-CONTROLS-003",
+      "domain": "GEN",
+      "category": "PHYSICAL",
+      "name": "Physical Media Controls Missing",
+      "definition_ref": "/signals/GEN/PHYSICAL/CSE-GEN-PHYSICAL-NO-MEDIA-CONTROLS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-PHYSICAL-NO-PERIMETER-002",
+      "domain": "GEN",
+      "category": "PHYSICAL",
+      "name": "Physical Perimeter Security Missing",
+      "definition_ref": "/signals/GEN/PHYSICAL/CSE-GEN-PHYSICAL-NO-PERIMETER-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-SECRETS-COMMITTED-HISTORY-003",
+      "domain": "GEN",
+      "category": "SECRETS",
+      "name": "Secret in Version Control History",
+      "definition_ref": "/signals/GEN/SECRETS/CSE-GEN-SECRETS-COMMITTED-HISTORY-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-SECRETS-NO-ROTATION-002",
+      "domain": "GEN",
+      "category": "SECRETS",
+      "name": "Secret Rotation Missing",
+      "definition_ref": "/signals/GEN/SECRETS/CSE-GEN-SECRETS-NO-ROTATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
     {
       "id": "CSE-GEN-SECRETS-PLAINTEXT-001",
       "domain": "GEN",
       "category": "SECRETS",
       "name": "Plaintext Secret in Source Code",
       "definition_ref": "/signals/GEN/SECRETS/CSE-GEN-SECRETS-PLAINTEXT-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-VENDOR-NO-AGREEMENTS-002",
+      "domain": "GEN",
+      "category": "VENDOR",
+      "name": "Vendor Security Agreements Missing",
+      "definition_ref": "/signals/GEN/VENDOR/CSE-GEN-VENDOR-NO-AGREEMENTS-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-VENDOR-NO-INVENTORY-004",
+      "domain": "GEN",
+      "category": "VENDOR",
+      "name": "Vendor Inventory Missing",
+      "definition_ref": "/signals/GEN/VENDOR/CSE-GEN-VENDOR-NO-INVENTORY-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-VENDOR-NO-MONITORING-003",
+      "domain": "GEN",
+      "category": "VENDOR",
+      "name": "Vendor Monitoring Missing",
+      "definition_ref": "/signals/GEN/VENDOR/CSE-GEN-VENDOR-NO-MONITORING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-VENDOR-NO-RISK-MGMT-001",
+      "domain": "GEN",
+      "category": "VENDOR",
+      "name": "Vendor Risk Management Missing",
+      "definition_ref": "/signals/GEN/VENDOR/CSE-GEN-VENDOR-NO-RISK-MGMT-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-VULN-NO-MALWARE-PROTECTION-004",
+      "domain": "GEN",
+      "category": "VULN",
+      "name": "Malware Protection Missing",
+      "definition_ref": "/signals/GEN/VULN/CSE-GEN-VULN-NO-MALWARE-PROTECTION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-VULN-NO-PATCHING-003",
+      "domain": "GEN",
+      "category": "VULN",
+      "name": "Patch Management Missing",
+      "definition_ref": "/signals/GEN/VULN/CSE-GEN-VULN-NO-PATCHING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-VULN-NO-PENETRATION-TESTING-005",
+      "domain": "GEN",
+      "category": "VULN",
+      "name": "Penetration Testing Missing",
+      "definition_ref": "/signals/GEN/VULN/CSE-GEN-VULN-NO-PENETRATION-TESTING-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-VULN-NO-SCANNING-002",
+      "domain": "GEN",
+      "category": "VULN",
+      "name": "Vulnerability Scanning Missing",
+      "definition_ref": "/signals/GEN/VULN/CSE-GEN-VULN-NO-SCANNING-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-GEN-VULN-NO-VULNERABILITY-MGMT-001",
+      "domain": "GEN",
+      "category": "VULN",
+      "name": "Vulnerability Management Program Missing",
+      "definition_ref": "/signals/GEN/VULN/CSE-GEN-VULN-NO-VULNERABILITY-MGMT-001/",
       "introduced_in": "1.0.0",
       "status": "active"
     }
