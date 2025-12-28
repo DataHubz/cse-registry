@@ -1,6 +1,6 @@
 # Compliance Signal Enumeration (CSE)
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Registry Version](https://img.shields.io/badge/Registry-v1.0.0-green.svg)](registry/v1.0.0/) [![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)](#) [![Signals](https://img.shields.io/badge/Signals-762-orange.svg)](registry/v1.0.0/cse-registry.json) [![Domains](https://img.shields.io/badge/Domains-9-purple.svg)](registry/v1.0.0/index.json)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Registry Version](https://img.shields.io/badge/Registry-v1.0.0-green.svg)](registry/v1.0.0/) [![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)](#) [![Signals](https://img.shields.io/badge/Signals-832-orange.svg)](registry/v1.0.0/cse-registry.json) [![Domains](https://img.shields.io/badge/Domains-10-purple.svg)](registry/v1.0.0/index.json)
 
 **A neutral, framework-agnostic registry of compliance-relevant technical signals**
 
@@ -16,8 +16,8 @@ CSE provides a **shared vocabulary** for referencing *what was observed* without
 
 | Metric | Value |
 |--------|-------|
-| **Total Signals** | 762 |
-| **Domains** | 9 |
+| **Total Signals** | 832 |
+| **Domains** | 10 |
 | **Registry Version** | 1.0.0 |
 | **Status** | Stable |
 
@@ -26,6 +26,7 @@ CSE provides a **shared vocabulary** for referencing *what was observed* without
 | Domain | Framework | Signals | Categories |
 |--------|-----------|---------|------------|
 | **CMMC** | Cybersecurity Maturity Model Certification | 134 | 15 |
+| **CCPA** | California Consumer Privacy Act (CCPA/CPRA) | 70 | 11 |
 | **FEDRAMP** | Federal Risk and Authorization Management Program | 145 | 20 |
 | **GDPR** | General Data Protection Regulation | 80 | 10 |
 | **ISO27001** | ISO/IEC 27001:2022 | 93 | 4 |
@@ -144,6 +145,7 @@ A thematic subdivision within a domain (e.g., ACCESS, ENCRYPTION, LOGGING, PRIVA
 │       ├── cse-registry.min.json
 │       ├── cse-registry.ndjson
 │       ├── domains/
+│       │   ├── CCPA.json
 │       │   ├── CMMC.json
 │       │   ├── FEDRAMP.json
 │       │   ├── GDPR.json
@@ -156,6 +158,7 @@ A thematic subdivision within a domain (e.g., ACCESS, ENCRYPTION, LOGGING, PRIVA
 │       └── SHA256SUMS
 │
 ├── signals/           # Canonical signal definitions (human-readable)
+│   ├── CCPA/
 │   ├── CMMC/
 │   ├── FEDRAMP/
 │   ├── GDPR/

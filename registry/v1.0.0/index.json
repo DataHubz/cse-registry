@@ -176,7 +176,26 @@
       },
       "file": "domains/FEDRAMP.json",
       "file_min": "domains/FEDRAMP.min.json"
+    },
+    {
+      "name": "CCPA",
+      "signal_count": 70,
+      "categories": {
+        "AUTOMATED": 5,
+        "CONSENT": 5,
+        "CONTRACTS": 8,
+        "NOTICE": 8,
+        "OPTOUT": 8,
+        "RETENTION": 5,
+        "RIGHTS": 12,
+        "SECURITY": 5,
+        "SENSITIVE": 6,
+        "TRAINING": 3,
+        "VERIFY": 5
+      },
+      "file": "domains/CCPA.json",
+      "file_min": "domains/CCPA.min.json"
     }
   ],
-  "total_signals": 762
+  "total_signals": 832
 }
