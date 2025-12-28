@@ -148,7 +148,35 @@
       },
       "file": "domains/NISTCSF.json",
       "file_min": "domains/NISTCSF.min.json"
+    },
+    {
+      "name": "FEDRAMP",
+      "signal_count": 145,
+      "categories": {
+        "AC": 12,
+        "AT": 4,
+        "AU": 8,
+        "CA": 6,
+        "CM": 9,
+        "CP": 8,
+        "IA": 10,
+        "IR": 7,
+        "MA": 5,
+        "MP": 5,
+        "PE": 8,
+        "PL": 4,
+        "PM": 6,
+        "PS": 5,
+        "PT": 5,
+        "RA": 6,
+        "SA": 10,
+        "SC": 12,
+        "SI": 10,
+        "SR": 5
+      },
+      "file": "domains/FEDRAMP.json",
+      "file_min": "domains/FEDRAMP.min.json"
     }
   ],
-  "total_signals": 617
+  "total_signals": 762
 }

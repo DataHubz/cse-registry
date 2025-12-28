@@ -1,0 +1,1335 @@
+{
+  "domain": "FEDRAMP",
+  "name": "Federal Risk and Authorization Management Program",
+  "version": "1.0.0",
+  "signal_count": 145,
+  "categories": {
+    "AC": 12,
+    "AT": 4,
+    "AU": 8,
+    "CA": 6,
+    "CM": 9,
+    "CP": 8,
+    "IA": 10,
+    "IR": 7,
+    "MA": 5,
+    "MP": 5,
+    "PE": 8,
+    "PL": 4,
+    "PM": 6,
+    "PS": 5,
+    "PT": 5,
+    "RA": 6,
+    "SA": 10,
+    "SC": 12,
+    "SI": 10,
+    "SR": 5
+  },
+  "signals": [
+    {
+      "id": "CSE-FEDRAMP-AC-NO-ACCESS-ENFORCEMENT-003",
+      "domain": "FEDRAMP",
+      "category": "AC",
+      "name": "No Access Enforcement",
+      "definition_ref": "/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-ACCESS-ENFORCEMENT-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AC-NO-ACCESS-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "AC",
+      "name": "No Access Control Policy",
+      "definition_ref": "/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-ACCESS-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AC-NO-ACCOUNT-MGMT-002",
+      "domain": "FEDRAMP",
+      "category": "AC",
+      "name": "No Account Management",
+      "definition_ref": "/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-ACCOUNT-MGMT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AC-NO-FAILED-LOGON-007",
+      "domain": "FEDRAMP",
+      "category": "AC",
+      "name": "No Unsuccessful Logon Attempts Handling",
+      "definition_ref": "/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-FAILED-LOGON-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AC-NO-INFO-FLOW-004",
+      "domain": "FEDRAMP",
+      "category": "AC",
+      "name": "No Information Flow Enforcement",
+      "definition_ref": "/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-INFO-FLOW-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AC-NO-LEAST-PRIVILEGE-006",
+      "domain": "FEDRAMP",
+      "category": "AC",
+      "name": "No Least Privilege",
+      "definition_ref": "/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-LEAST-PRIVILEGE-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AC-NO-MOBILE-DEVICE-012",
+      "domain": "FEDRAMP",
+      "category": "AC",
+      "name": "No Mobile Device Access Control",
+      "definition_ref": "/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-MOBILE-DEVICE-012/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AC-NO-REMOTE-ACCESS-010",
+      "domain": "FEDRAMP",
+      "category": "AC",
+      "name": "No Remote Access Controls",
+      "definition_ref": "/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-REMOTE-ACCESS-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AC-NO-SEP-OF-DUTIES-005",
+      "domain": "FEDRAMP",
+      "category": "AC",
+      "name": "No Separation of Duties",
+      "definition_ref": "/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-SEP-OF-DUTIES-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AC-NO-SESSION-LOCK-008",
+      "domain": "FEDRAMP",
+      "category": "AC",
+      "name": "No Session Lock",
+      "definition_ref": "/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-SESSION-LOCK-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AC-NO-SESSION-TERM-009",
+      "domain": "FEDRAMP",
+      "category": "AC",
+      "name": "No Session Termination",
+      "definition_ref": "/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-SESSION-TERM-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AC-NO-WIRELESS-ACCESS-011",
+      "domain": "FEDRAMP",
+      "category": "AC",
+      "name": "No Wireless Access Controls",
+      "definition_ref": "/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-WIRELESS-ACCESS-011/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AT-NO-AWARENESS-TRAINING-002",
+      "domain": "FEDRAMP",
+      "category": "AT",
+      "name": "No Security Awareness Training",
+      "definition_ref": "/signals/FEDRAMP/AT/CSE-FEDRAMP-AT-NO-AWARENESS-TRAINING-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AT-NO-ROLE-TRAINING-003",
+      "domain": "FEDRAMP",
+      "category": "AT",
+      "name": "No Role-Based Security Training",
+      "definition_ref": "/signals/FEDRAMP/AT/CSE-FEDRAMP-AT-NO-ROLE-TRAINING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AT-NO-TRAINING-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "AT",
+      "name": "No Security Training Policy",
+      "definition_ref": "/signals/FEDRAMP/AT/CSE-FEDRAMP-AT-NO-TRAINING-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AT-NO-TRAINING-RECORDS-004",
+      "domain": "FEDRAMP",
+      "category": "AT",
+      "name": "No Training Records",
+      "definition_ref": "/signals/FEDRAMP/AT/CSE-FEDRAMP-AT-NO-TRAINING-RECORDS-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AU-NO-AUDIT-CONTENT-003",
+      "domain": "FEDRAMP",
+      "category": "AU",
+      "name": "No Audit Content Requirements",
+      "definition_ref": "/signals/FEDRAMP/AU/CSE-FEDRAMP-AU-NO-AUDIT-CONTENT-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AU-NO-AUDIT-EVENTS-002",
+      "domain": "FEDRAMP",
+      "category": "AU",
+      "name": "No Audit Events Defined",
+      "definition_ref": "/signals/FEDRAMP/AU/CSE-FEDRAMP-AU-NO-AUDIT-EVENTS-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AU-NO-AUDIT-FAILURE-005",
+      "domain": "FEDRAMP",
+      "category": "AU",
+      "name": "No Audit Failure Response",
+      "definition_ref": "/signals/FEDRAMP/AU/CSE-FEDRAMP-AU-NO-AUDIT-FAILURE-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AU-NO-AUDIT-GENERATION-008",
+      "domain": "FEDRAMP",
+      "category": "AU",
+      "name": "No Audit Record Generation",
+      "definition_ref": "/signals/FEDRAMP/AU/CSE-FEDRAMP-AU-NO-AUDIT-GENERATION-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AU-NO-AUDIT-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "AU",
+      "name": "No Audit Policy",
+      "definition_ref": "/signals/FEDRAMP/AU/CSE-FEDRAMP-AU-NO-AUDIT-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AU-NO-AUDIT-RETENTION-007",
+      "domain": "FEDRAMP",
+      "category": "AU",
+      "name": "No Audit Record Retention",
+      "definition_ref": "/signals/FEDRAMP/AU/CSE-FEDRAMP-AU-NO-AUDIT-RETENTION-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AU-NO-AUDIT-REVIEW-006",
+      "domain": "FEDRAMP",
+      "category": "AU",
+      "name": "No Audit Record Review",
+      "definition_ref": "/signals/FEDRAMP/AU/CSE-FEDRAMP-AU-NO-AUDIT-REVIEW-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-AU-NO-AUDIT-STORAGE-004",
+      "domain": "FEDRAMP",
+      "category": "AU",
+      "name": "No Audit Log Storage Capacity",
+      "definition_ref": "/signals/FEDRAMP/AU/CSE-FEDRAMP-AU-NO-AUDIT-STORAGE-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CA-NO-ASSESSMENT-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "CA",
+      "name": "No Assessment Policy",
+      "definition_ref": "/signals/FEDRAMP/CA/CSE-FEDRAMP-CA-NO-ASSESSMENT-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CA-NO-AUTHORIZATION-005",
+      "domain": "FEDRAMP",
+      "category": "CA",
+      "name": "No Authorization Process",
+      "definition_ref": "/signals/FEDRAMP/CA/CSE-FEDRAMP-CA-NO-AUTHORIZATION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CA-NO-CONTINUOUS-MONITORING-006",
+      "domain": "FEDRAMP",
+      "category": "CA",
+      "name": "No Continuous Monitoring",
+      "definition_ref": "/signals/FEDRAMP/CA/CSE-FEDRAMP-CA-NO-CONTINUOUS-MONITORING-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CA-NO-CONTROL-ASSESSMENT-002",
+      "domain": "FEDRAMP",
+      "category": "CA",
+      "name": "No Control Assessments",
+      "definition_ref": "/signals/FEDRAMP/CA/CSE-FEDRAMP-CA-NO-CONTROL-ASSESSMENT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CA-NO-INTERCONNECTIONS-003",
+      "domain": "FEDRAMP",
+      "category": "CA",
+      "name": "No System Interconnection Authorization",
+      "definition_ref": "/signals/FEDRAMP/CA/CSE-FEDRAMP-CA-NO-INTERCONNECTIONS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CA-NO-POA-M-004",
+      "domain": "FEDRAMP",
+      "category": "CA",
+      "name": "No Plan of Action and Milestones",
+      "definition_ref": "/signals/FEDRAMP/CA/CSE-FEDRAMP-CA-NO-POA-M-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CM-NO-ACCESS-RESTRICTIONS-005",
+      "domain": "FEDRAMP",
+      "category": "CM",
+      "name": "No Access Restrictions for Changes",
+      "definition_ref": "/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-ACCESS-RESTRICTIONS-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CM-NO-BASELINE-002",
+      "domain": "FEDRAMP",
+      "category": "CM",
+      "name": "No Baseline Configuration",
+      "definition_ref": "/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-BASELINE-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CM-NO-CHANGE-CONTROL-003",
+      "domain": "FEDRAMP",
+      "category": "CM",
+      "name": "No Configuration Change Control",
+      "definition_ref": "/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-CHANGE-CONTROL-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CM-NO-CONFIG-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "CM",
+      "name": "No Configuration Management Policy",
+      "definition_ref": "/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-CONFIG-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CM-NO-CONFIG-SETTINGS-006",
+      "domain": "FEDRAMP",
+      "category": "CM",
+      "name": "No Configuration Settings",
+      "definition_ref": "/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-CONFIG-SETTINGS-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CM-NO-IMPACT-ANALYSIS-004",
+      "domain": "FEDRAMP",
+      "category": "CM",
+      "name": "No Impact Analysis",
+      "definition_ref": "/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-IMPACT-ANALYSIS-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CM-NO-INVENTORY-008",
+      "domain": "FEDRAMP",
+      "category": "CM",
+      "name": "No System Component Inventory",
+      "definition_ref": "/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-INVENTORY-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CM-NO-LEAST-FUNCTIONALITY-007",
+      "domain": "FEDRAMP",
+      "category": "CM",
+      "name": "No Least Functionality",
+      "definition_ref": "/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-LEAST-FUNCTIONALITY-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CM-NO-SW-USAGE-009",
+      "domain": "FEDRAMP",
+      "category": "CM",
+      "name": "No Software Usage Restrictions",
+      "definition_ref": "/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-SW-USAGE-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CP-NO-ALTERNATE-PROCESSING-006",
+      "domain": "FEDRAMP",
+      "category": "CP",
+      "name": "No Alternate Processing Site",
+      "definition_ref": "/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-ALTERNATE-PROCESSING-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CP-NO-ALTERNATE-STORAGE-005",
+      "domain": "FEDRAMP",
+      "category": "CP",
+      "name": "No Alternate Storage Site",
+      "definition_ref": "/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-ALTERNATE-STORAGE-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CP-NO-BACKUP-007",
+      "domain": "FEDRAMP",
+      "category": "CP",
+      "name": "No System Backup",
+      "definition_ref": "/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-BACKUP-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CP-NO-CONTINGENCY-PLAN-002",
+      "domain": "FEDRAMP",
+      "category": "CP",
+      "name": "No Contingency Plan",
+      "definition_ref": "/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-CONTINGENCY-PLAN-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CP-NO-CONTINGENCY-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "CP",
+      "name": "No Contingency Planning Policy",
+      "definition_ref": "/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-CONTINGENCY-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CP-NO-CONTINGENCY-TESTING-004",
+      "domain": "FEDRAMP",
+      "category": "CP",
+      "name": "No Contingency Plan Testing",
+      "definition_ref": "/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-CONTINGENCY-TESTING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CP-NO-CONTINGENCY-TRAINING-003",
+      "domain": "FEDRAMP",
+      "category": "CP",
+      "name": "No Contingency Training",
+      "definition_ref": "/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-CONTINGENCY-TRAINING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-CP-NO-RECOVERY-008",
+      "domain": "FEDRAMP",
+      "category": "CP",
+      "name": "No System Recovery and Reconstitution",
+      "definition_ref": "/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-RECOVERY-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IA-NO-AUTH-FEEDBACK-006",
+      "domain": "FEDRAMP",
+      "category": "IA",
+      "name": "No Authentication Feedback Protection",
+      "definition_ref": "/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-AUTH-FEEDBACK-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IA-NO-AUTH-MGMT-005",
+      "domain": "FEDRAMP",
+      "category": "IA",
+      "name": "No Authenticator Management",
+      "definition_ref": "/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-AUTH-MGMT-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IA-NO-CRYPTO-AUTH-007",
+      "domain": "FEDRAMP",
+      "category": "IA",
+      "name": "No Cryptographic Module Authentication",
+      "definition_ref": "/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-CRYPTO-AUTH-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IA-NO-DEVICE-IDENT-003",
+      "domain": "FEDRAMP",
+      "category": "IA",
+      "name": "No Device Identification and Authentication",
+      "definition_ref": "/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-DEVICE-IDENT-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IA-NO-IDENT-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "IA",
+      "name": "No Identification and Authentication Policy",
+      "definition_ref": "/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-IDENT-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IA-NO-IDENTIFIER-MGMT-004",
+      "domain": "FEDRAMP",
+      "category": "IA",
+      "name": "No Identifier Management",
+      "definition_ref": "/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-IDENTIFIER-MGMT-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IA-NO-PKI-IDENT-008",
+      "domain": "FEDRAMP",
+      "category": "IA",
+      "name": "No Non-Organizational User Identification",
+      "definition_ref": "/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-PKI-IDENT-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IA-NO-REPLAY-RESISTANCE-010",
+      "domain": "FEDRAMP",
+      "category": "IA",
+      "name": "No Re-authentication Requirements",
+      "definition_ref": "/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-REPLAY-RESISTANCE-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IA-NO-SERVICE-IDENT-009",
+      "domain": "FEDRAMP",
+      "category": "IA",
+      "name": "No Service Identification and Authentication",
+      "definition_ref": "/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-SERVICE-IDENT-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IA-NO-USER-IDENT-002",
+      "domain": "FEDRAMP",
+      "category": "IA",
+      "name": "No User Identification and Authentication",
+      "definition_ref": "/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-USER-IDENT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IR-NO-INCIDENT-HANDLING-004",
+      "domain": "FEDRAMP",
+      "category": "IR",
+      "name": "No Incident Handling",
+      "definition_ref": "/signals/FEDRAMP/IR/CSE-FEDRAMP-IR-NO-INCIDENT-HANDLING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IR-NO-INCIDENT-MONITORING-005",
+      "domain": "FEDRAMP",
+      "category": "IR",
+      "name": "No Incident Monitoring",
+      "definition_ref": "/signals/FEDRAMP/IR/CSE-FEDRAMP-IR-NO-INCIDENT-MONITORING-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IR-NO-INCIDENT-PLAN-007",
+      "domain": "FEDRAMP",
+      "category": "IR",
+      "name": "No Incident Response Plan",
+      "definition_ref": "/signals/FEDRAMP/IR/CSE-FEDRAMP-IR-NO-INCIDENT-PLAN-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IR-NO-INCIDENT-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "IR",
+      "name": "No Incident Response Policy",
+      "definition_ref": "/signals/FEDRAMP/IR/CSE-FEDRAMP-IR-NO-INCIDENT-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IR-NO-INCIDENT-REPORTING-006",
+      "domain": "FEDRAMP",
+      "category": "IR",
+      "name": "No Incident Reporting",
+      "definition_ref": "/signals/FEDRAMP/IR/CSE-FEDRAMP-IR-NO-INCIDENT-REPORTING-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IR-NO-INCIDENT-TESTING-003",
+      "domain": "FEDRAMP",
+      "category": "IR",
+      "name": "No Incident Response Testing",
+      "definition_ref": "/signals/FEDRAMP/IR/CSE-FEDRAMP-IR-NO-INCIDENT-TESTING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-IR-NO-INCIDENT-TRAINING-002",
+      "domain": "FEDRAMP",
+      "category": "IR",
+      "name": "No Incident Response Training",
+      "definition_ref": "/signals/FEDRAMP/IR/CSE-FEDRAMP-IR-NO-INCIDENT-TRAINING-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-MA-NO-CONTROLLED-MAINT-002",
+      "domain": "FEDRAMP",
+      "category": "MA",
+      "name": "No Controlled Maintenance",
+      "definition_ref": "/signals/FEDRAMP/MA/CSE-FEDRAMP-MA-NO-CONTROLLED-MAINT-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-MA-NO-MAINT-PERSONNEL-005",
+      "domain": "FEDRAMP",
+      "category": "MA",
+      "name": "No Maintenance Personnel Authorization",
+      "definition_ref": "/signals/FEDRAMP/MA/CSE-FEDRAMP-MA-NO-MAINT-PERSONNEL-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-MA-NO-MAINT-TOOLS-003",
+      "domain": "FEDRAMP",
+      "category": "MA",
+      "name": "No Maintenance Tools Control",
+      "definition_ref": "/signals/FEDRAMP/MA/CSE-FEDRAMP-MA-NO-MAINT-TOOLS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-MA-NO-MAINTENANCE-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "MA",
+      "name": "No System Maintenance Policy",
+      "definition_ref": "/signals/FEDRAMP/MA/CSE-FEDRAMP-MA-NO-MAINTENANCE-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-MA-NO-NONLOCAL-MAINT-004",
+      "domain": "FEDRAMP",
+      "category": "MA",
+      "name": "No Nonlocal Maintenance Controls",
+      "definition_ref": "/signals/FEDRAMP/MA/CSE-FEDRAMP-MA-NO-NONLOCAL-MAINT-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-MP-NO-MEDIA-ACCESS-002",
+      "domain": "FEDRAMP",
+      "category": "MP",
+      "name": "No Media Access Control",
+      "definition_ref": "/signals/FEDRAMP/MP/CSE-FEDRAMP-MP-NO-MEDIA-ACCESS-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-MP-NO-MEDIA-MARKING-003",
+      "domain": "FEDRAMP",
+      "category": "MP",
+      "name": "No Media Marking",
+      "definition_ref": "/signals/FEDRAMP/MP/CSE-FEDRAMP-MP-NO-MEDIA-MARKING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-MP-NO-MEDIA-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "MP",
+      "name": "No Media Protection Policy",
+      "definition_ref": "/signals/FEDRAMP/MP/CSE-FEDRAMP-MP-NO-MEDIA-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-MP-NO-MEDIA-SANITIZATION-005",
+      "domain": "FEDRAMP",
+      "category": "MP",
+      "name": "No Media Sanitization",
+      "definition_ref": "/signals/FEDRAMP/MP/CSE-FEDRAMP-MP-NO-MEDIA-SANITIZATION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-MP-NO-MEDIA-STORAGE-004",
+      "domain": "FEDRAMP",
+      "category": "MP",
+      "name": "No Media Storage",
+      "definition_ref": "/signals/FEDRAMP/MP/CSE-FEDRAMP-MP-NO-MEDIA-STORAGE-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PE-NO-ACCESS-MONITORING-004",
+      "domain": "FEDRAMP",
+      "category": "PE",
+      "name": "No Physical Access Monitoring",
+      "definition_ref": "/signals/FEDRAMP/PE/CSE-FEDRAMP-PE-NO-ACCESS-MONITORING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PE-NO-DELIVERY-008",
+      "domain": "FEDRAMP",
+      "category": "PE",
+      "name": "No Delivery and Removal Controls",
+      "definition_ref": "/signals/FEDRAMP/PE/CSE-FEDRAMP-PE-NO-DELIVERY-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PE-NO-ENVIRONMENTAL-006",
+      "domain": "FEDRAMP",
+      "category": "PE",
+      "name": "No Fire Protection",
+      "definition_ref": "/signals/FEDRAMP/PE/CSE-FEDRAMP-PE-NO-ENVIRONMENTAL-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PE-NO-PHYSICAL-AUTH-002",
+      "domain": "FEDRAMP",
+      "category": "PE",
+      "name": "No Physical Access Authorizations",
+      "definition_ref": "/signals/FEDRAMP/PE/CSE-FEDRAMP-PE-NO-PHYSICAL-AUTH-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PE-NO-PHYSICAL-CONTROL-003",
+      "domain": "FEDRAMP",
+      "category": "PE",
+      "name": "No Physical Access Control",
+      "definition_ref": "/signals/FEDRAMP/PE/CSE-FEDRAMP-PE-NO-PHYSICAL-CONTROL-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PE-NO-PHYSICAL-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "PE",
+      "name": "No Physical Security Policy",
+      "definition_ref": "/signals/FEDRAMP/PE/CSE-FEDRAMP-PE-NO-PHYSICAL-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PE-NO-TEMP-HUMIDITY-007",
+      "domain": "FEDRAMP",
+      "category": "PE",
+      "name": "No Temperature and Humidity Controls",
+      "definition_ref": "/signals/FEDRAMP/PE/CSE-FEDRAMP-PE-NO-TEMP-HUMIDITY-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PE-NO-VISITOR-ACCESS-005",
+      "domain": "FEDRAMP",
+      "category": "PE",
+      "name": "No Visitor Access Records",
+      "definition_ref": "/signals/FEDRAMP/PE/CSE-FEDRAMP-PE-NO-VISITOR-ACCESS-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PL-NO-BEHAVIOR-RULES-003",
+      "domain": "FEDRAMP",
+      "category": "PL",
+      "name": "No Rules of Behavior",
+      "definition_ref": "/signals/FEDRAMP/PL/CSE-FEDRAMP-PL-NO-BEHAVIOR-RULES-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PL-NO-PLANNING-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "PL",
+      "name": "No Planning Policy",
+      "definition_ref": "/signals/FEDRAMP/PL/CSE-FEDRAMP-PL-NO-PLANNING-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PL-NO-PRIVACY-IMPACT-004",
+      "domain": "FEDRAMP",
+      "category": "PL",
+      "name": "No Security and Privacy Architectures",
+      "definition_ref": "/signals/FEDRAMP/PL/CSE-FEDRAMP-PL-NO-PRIVACY-IMPACT-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PL-NO-SSP-002",
+      "domain": "FEDRAMP",
+      "category": "PL",
+      "name": "No System Security Plan",
+      "definition_ref": "/signals/FEDRAMP/PL/CSE-FEDRAMP-PL-NO-SSP-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PM-NO-INVENTORY-005",
+      "domain": "FEDRAMP",
+      "category": "PM",
+      "name": "No System Inventory",
+      "definition_ref": "/signals/FEDRAMP/PM/CSE-FEDRAMP-PM-NO-INVENTORY-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PM-NO-POA-M-PROGRAM-004",
+      "domain": "FEDRAMP",
+      "category": "PM",
+      "name": "No Plan of Action and Milestones Process",
+      "definition_ref": "/signals/FEDRAMP/PM/CSE-FEDRAMP-PM-NO-POA-M-PROGRAM-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PM-NO-RISK-MGMT-006",
+      "domain": "FEDRAMP",
+      "category": "PM",
+      "name": "No Risk Management Strategy",
+      "definition_ref": "/signals/FEDRAMP/PM/CSE-FEDRAMP-PM-NO-RISK-MGMT-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PM-NO-SECURITY-PROGRAM-001",
+      "domain": "FEDRAMP",
+      "category": "PM",
+      "name": "No Information Security Program Plan",
+      "definition_ref": "/signals/FEDRAMP/PM/CSE-FEDRAMP-PM-NO-SECURITY-PROGRAM-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PM-NO-SECURITY-RESOURCES-003",
+      "domain": "FEDRAMP",
+      "category": "PM",
+      "name": "No Information Security Resources",
+      "definition_ref": "/signals/FEDRAMP/PM/CSE-FEDRAMP-PM-NO-SECURITY-RESOURCES-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PM-NO-SENIOR-OFFICIAL-002",
+      "domain": "FEDRAMP",
+      "category": "PM",
+      "name": "No Information Security Program Leadership",
+      "definition_ref": "/signals/FEDRAMP/PM/CSE-FEDRAMP-PM-NO-SENIOR-OFFICIAL-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PS-NO-PERSONNEL-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "PS",
+      "name": "No Personnel Security Policy",
+      "definition_ref": "/signals/FEDRAMP/PS/CSE-FEDRAMP-PS-NO-PERSONNEL-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PS-NO-POSITION-RISK-002",
+      "domain": "FEDRAMP",
+      "category": "PS",
+      "name": "No Position Risk Designation",
+      "definition_ref": "/signals/FEDRAMP/PS/CSE-FEDRAMP-PS-NO-POSITION-RISK-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PS-NO-SCREENING-003",
+      "domain": "FEDRAMP",
+      "category": "PS",
+      "name": "No Personnel Screening",
+      "definition_ref": "/signals/FEDRAMP/PS/CSE-FEDRAMP-PS-NO-SCREENING-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PS-NO-TERMINATION-004",
+      "domain": "FEDRAMP",
+      "category": "PS",
+      "name": "No Personnel Termination",
+      "definition_ref": "/signals/FEDRAMP/PS/CSE-FEDRAMP-PS-NO-TERMINATION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PS-NO-TRANSFER-005",
+      "domain": "FEDRAMP",
+      "category": "PS",
+      "name": "No Personnel Transfer",
+      "definition_ref": "/signals/FEDRAMP/PS/CSE-FEDRAMP-PS-NO-TRANSFER-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PT-NO-CONSENT-004",
+      "domain": "FEDRAMP",
+      "category": "PT",
+      "name": "No Consent Mechanisms",
+      "definition_ref": "/signals/FEDRAMP/PT/CSE-FEDRAMP-PT-NO-CONSENT-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PT-NO-PII-AUTHORITY-002",
+      "domain": "FEDRAMP",
+      "category": "PT",
+      "name": "No Authority to Process PII",
+      "definition_ref": "/signals/FEDRAMP/PT/CSE-FEDRAMP-PT-NO-PII-AUTHORITY-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PT-NO-PII-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "PT",
+      "name": "No PII Processing Policy",
+      "definition_ref": "/signals/FEDRAMP/PT/CSE-FEDRAMP-PT-NO-PII-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PT-NO-PII-PURPOSE-003",
+      "domain": "FEDRAMP",
+      "category": "PT",
+      "name": "No PII Processing Purposes",
+      "definition_ref": "/signals/FEDRAMP/PT/CSE-FEDRAMP-PT-NO-PII-PURPOSE-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-PT-NO-PRIVACY-NOTICE-005",
+      "domain": "FEDRAMP",
+      "category": "PT",
+      "name": "No Privacy Notice",
+      "definition_ref": "/signals/FEDRAMP/PT/CSE-FEDRAMP-PT-NO-PRIVACY-NOTICE-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-RA-NO-CATEGORIZATION-002",
+      "domain": "FEDRAMP",
+      "category": "RA",
+      "name": "No Security Categorization",
+      "definition_ref": "/signals/FEDRAMP/RA/CSE-FEDRAMP-RA-NO-CATEGORIZATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-RA-NO-CRITICALITY-ANALYSIS-006",
+      "domain": "FEDRAMP",
+      "category": "RA",
+      "name": "No Criticality Analysis",
+      "definition_ref": "/signals/FEDRAMP/RA/CSE-FEDRAMP-RA-NO-CRITICALITY-ANALYSIS-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-RA-NO-RISK-ASSESSMENT-003",
+      "domain": "FEDRAMP",
+      "category": "RA",
+      "name": "No Risk Assessment",
+      "definition_ref": "/signals/FEDRAMP/RA/CSE-FEDRAMP-RA-NO-RISK-ASSESSMENT-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-RA-NO-RISK-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "RA",
+      "name": "No Risk Assessment Policy",
+      "definition_ref": "/signals/FEDRAMP/RA/CSE-FEDRAMP-RA-NO-RISK-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-RA-NO-TECHNICAL-SURVEILLANCE-005",
+      "domain": "FEDRAMP",
+      "category": "RA",
+      "name": "No Risk Response",
+      "definition_ref": "/signals/FEDRAMP/RA/CSE-FEDRAMP-RA-NO-TECHNICAL-SURVEILLANCE-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-RA-NO-VULN-MONITORING-004",
+      "domain": "FEDRAMP",
+      "category": "RA",
+      "name": "No Vulnerability Monitoring and Scanning",
+      "definition_ref": "/signals/FEDRAMP/RA/CSE-FEDRAMP-RA-NO-VULN-MONITORING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SA-NO-ACQUISITION-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "SA",
+      "name": "No System Acquisition Policy",
+      "definition_ref": "/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-ACQUISITION-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SA-NO-ACQUISITION-PROCESS-004",
+      "domain": "FEDRAMP",
+      "category": "SA",
+      "name": "No Acquisition Process",
+      "definition_ref": "/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-ACQUISITION-PROCESS-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SA-NO-ALLOCATION-002",
+      "domain": "FEDRAMP",
+      "category": "SA",
+      "name": "No Allocation of Resources",
+      "definition_ref": "/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-ALLOCATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SA-NO-DEV-CONFIG-007",
+      "domain": "FEDRAMP",
+      "category": "SA",
+      "name": "No Developer Configuration Management",
+      "definition_ref": "/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-DEV-CONFIG-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SA-NO-DEV-SECURITY-010",
+      "domain": "FEDRAMP",
+      "category": "SA",
+      "name": "No Development Process and Standards",
+      "definition_ref": "/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-DEV-SECURITY-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SA-NO-DEV-TESTING-008",
+      "domain": "FEDRAMP",
+      "category": "SA",
+      "name": "No Developer Testing and Evaluation",
+      "definition_ref": "/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-DEV-TESTING-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SA-NO-DOCUMENTATION-005",
+      "domain": "FEDRAMP",
+      "category": "SA",
+      "name": "No System Documentation",
+      "definition_ref": "/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-DOCUMENTATION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SA-NO-EXTERNAL-SERVICES-006",
+      "domain": "FEDRAMP",
+      "category": "SA",
+      "name": "No External System Services",
+      "definition_ref": "/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-EXTERNAL-SERVICES-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SA-NO-LIFECYCLE-003",
+      "domain": "FEDRAMP",
+      "category": "SA",
+      "name": "No System Development Life Cycle",
+      "definition_ref": "/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-LIFECYCLE-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SA-NO-SUPPLY-CHAIN-009",
+      "domain": "FEDRAMP",
+      "category": "SA",
+      "name": "No Supply Chain Protection",
+      "definition_ref": "/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-SUPPLY-CHAIN-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SC-NO-BOUNDARY-005",
+      "domain": "FEDRAMP",
+      "category": "SC",
+      "name": "No Boundary Protection",
+      "definition_ref": "/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-BOUNDARY-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SC-NO-CRYPTO-KEYS-008",
+      "domain": "FEDRAMP",
+      "category": "SC",
+      "name": "No Cryptographic Key Management",
+      "definition_ref": "/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-CRYPTO-KEYS-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SC-NO-CRYPTO-PROTECTION-009",
+      "domain": "FEDRAMP",
+      "category": "SC",
+      "name": "No Cryptographic Protection",
+      "definition_ref": "/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-CRYPTO-PROTECTION-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SC-NO-DATA-AT-REST-012",
+      "domain": "FEDRAMP",
+      "category": "SC",
+      "name": "No Protection of Information at Rest",
+      "definition_ref": "/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-DATA-AT-REST-012/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SC-NO-DOS-PROTECTION-004",
+      "domain": "FEDRAMP",
+      "category": "SC",
+      "name": "No Denial-of-Service Protection",
+      "definition_ref": "/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-DOS-PROTECTION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SC-NO-INFO-IN-SHARED-003",
+      "domain": "FEDRAMP",
+      "category": "SC",
+      "name": "No Information in Shared System Resources",
+      "definition_ref": "/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-INFO-IN-SHARED-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SC-NO-MOBILE-CODE-010",
+      "domain": "FEDRAMP",
+      "category": "SC",
+      "name": "No Mobile Code Controls",
+      "definition_ref": "/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-MOBILE-CODE-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SC-NO-NET-DISCONNECT-007",
+      "domain": "FEDRAMP",
+      "category": "SC",
+      "name": "No Network Disconnect",
+      "definition_ref": "/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-NET-DISCONNECT-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SC-NO-SC-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "SC",
+      "name": "No System and Communications Protection Policy",
+      "definition_ref": "/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-SC-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SC-NO-SEPARATION-002",
+      "domain": "FEDRAMP",
+      "category": "SC",
+      "name": "No Separation of System and User Functionality",
+      "definition_ref": "/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-SEPARATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SC-NO-SESSION-AUTH-011",
+      "domain": "FEDRAMP",
+      "category": "SC",
+      "name": "No Session Authenticity",
+      "definition_ref": "/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-SESSION-AUTH-011/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SC-NO-TRANSMISSION-006",
+      "domain": "FEDRAMP",
+      "category": "SC",
+      "name": "No Transmission Confidentiality and Integrity",
+      "definition_ref": "/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-TRANSMISSION-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SI-NO-ALERTS-005",
+      "domain": "FEDRAMP",
+      "category": "SI",
+      "name": "No Security Alerts and Advisories",
+      "definition_ref": "/signals/FEDRAMP/SI/CSE-FEDRAMP-SI-NO-ALERTS-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SI-NO-ERROR-HANDLING-010",
+      "domain": "FEDRAMP",
+      "category": "SI",
+      "name": "No Error Handling",
+      "definition_ref": "/signals/FEDRAMP/SI/CSE-FEDRAMP-SI-NO-ERROR-HANDLING-010/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SI-NO-FLAW-REMEDIATION-002",
+      "domain": "FEDRAMP",
+      "category": "SI",
+      "name": "No Flaw Remediation",
+      "definition_ref": "/signals/FEDRAMP/SI/CSE-FEDRAMP-SI-NO-FLAW-REMEDIATION-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SI-NO-INPUT-VALIDATION-009",
+      "domain": "FEDRAMP",
+      "category": "SI",
+      "name": "No Information Input Validation",
+      "definition_ref": "/signals/FEDRAMP/SI/CSE-FEDRAMP-SI-NO-INPUT-VALIDATION-009/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SI-NO-MALWARE-003",
+      "domain": "FEDRAMP",
+      "category": "SI",
+      "name": "No Malicious Code Protection",
+      "definition_ref": "/signals/FEDRAMP/SI/CSE-FEDRAMP-SI-NO-MALWARE-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SI-NO-MONITORING-004",
+      "domain": "FEDRAMP",
+      "category": "SI",
+      "name": "No System Monitoring",
+      "definition_ref": "/signals/FEDRAMP/SI/CSE-FEDRAMP-SI-NO-MONITORING-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SI-NO-SI-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "SI",
+      "name": "No System and Information Integrity Policy",
+      "definition_ref": "/signals/FEDRAMP/SI/CSE-FEDRAMP-SI-NO-SI-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SI-NO-SPAM-008",
+      "domain": "FEDRAMP",
+      "category": "SI",
+      "name": "No Spam Protection",
+      "definition_ref": "/signals/FEDRAMP/SI/CSE-FEDRAMP-SI-NO-SPAM-008/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SI-NO-SW-FIRMWARE-007",
+      "domain": "FEDRAMP",
+      "category": "SI",
+      "name": "No Software, Firmware, and Information Integrity",
+      "definition_ref": "/signals/FEDRAMP/SI/CSE-FEDRAMP-SI-NO-SW-FIRMWARE-007/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SI-NO-VERIFICATION-006",
+      "domain": "FEDRAMP",
+      "category": "SI",
+      "name": "No Security and Privacy Function Verification",
+      "definition_ref": "/signals/FEDRAMP/SI/CSE-FEDRAMP-SI-NO-VERIFICATION-006/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SR-NO-ACQUISITION-005",
+      "domain": "FEDRAMP",
+      "category": "SR",
+      "name": "No Acquisition Strategies and Tools",
+      "definition_ref": "/signals/FEDRAMP/SR/CSE-FEDRAMP-SR-NO-ACQUISITION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SR-NO-PROVENANCE-004",
+      "domain": "FEDRAMP",
+      "category": "SR",
+      "name": "No Provenance",
+      "definition_ref": "/signals/FEDRAMP/SR/CSE-FEDRAMP-SR-NO-PROVENANCE-004/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SR-NO-SCRM-CONTROLS-003",
+      "domain": "FEDRAMP",
+      "category": "SR",
+      "name": "No Supply Chain Controls and Processes",
+      "definition_ref": "/signals/FEDRAMP/SR/CSE-FEDRAMP-SR-NO-SCRM-CONTROLS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SR-NO-SCRM-PLAN-002",
+      "domain": "FEDRAMP",
+      "category": "SR",
+      "name": "No Supply Chain Risk Management Plan",
+      "definition_ref": "/signals/FEDRAMP/SR/CSE-FEDRAMP-SR-NO-SCRM-PLAN-002/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    },
+    {
+      "id": "CSE-FEDRAMP-SR-NO-SCRM-POLICY-001",
+      "domain": "FEDRAMP",
+      "category": "SR",
+      "name": "No Supply Chain Risk Management Policy",
+      "definition_ref": "/signals/FEDRAMP/SR/CSE-FEDRAMP-SR-NO-SCRM-POLICY-001/",
+      "introduced_in": "1.0.0",
+      "status": "active"
+    }
+  ]
+}

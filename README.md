@@ -14,8 +14,8 @@ CSE provides a **shared vocabulary** for referencing *what was observed* without
 
 | Metric | Value |
 |--------|-------|
-| **Total Signals** | 617 |
-| **Domains** | 8 |
+| **Total Signals** | 762 |
+| **Domains** | 9 |
 | **Registry Version** | 1.0.0 |
 | **Status** | Stable |
 
@@ -24,6 +24,7 @@ CSE provides a **shared vocabulary** for referencing *what was observed* without
 | Domain | Framework | Signals | Categories |
 |--------|-----------|---------|------------|
 | **CMMC** | Cybersecurity Maturity Model Certification | 134 | 15 |
+| **FEDRAMP** | Federal Risk and Authorization Management Program | 145 | 20 |
 | **GDPR** | General Data Protection Regulation | 80 | 10 |
 | **ISO27001** | ISO/IEC 27001:2022 | 93 | 4 |
 | **SOC2** | SOC 2 Trust Services Criteria | 64 | 5 |
@@ -142,6 +143,7 @@ A thematic subdivision within a domain (e.g., ACCESS, ENCRYPTION, LOGGING, PRIVA
 │       ├── cse-registry.ndjson
 │       ├── domains/
 │       │   ├── CMMC.json
+│       │   ├── FEDRAMP.json
 │       │   ├── GDPR.json
 │       │   ├── HIPAA.json
 │       │   ├── ISO27001.json
@@ -153,6 +155,7 @@ A thematic subdivision within a domain (e.g., ACCESS, ENCRYPTION, LOGGING, PRIVA
 │
 ├── signals/           # Canonical signal definitions (human-readable)
 │   ├── CMMC/
+│   ├── FEDRAMP/
 │   ├── GDPR/
 │   ├── HIPAA/
 │   ├── ISO27001/
