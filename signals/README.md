@@ -23,19 +23,24 @@ Signals are organized hierarchically by domain and category:
 ```
 signals/
 ├── README.md
-├── GEN/                          # General, framework-agnostic signals
-│   └── <CATEGORY>/
-│       └── <CSE-ID>/
-│           ├── signal.json       # Normative definition
-│           └── README.md         # Human-readable explanation
-├── CMMC/                         # CMMC-specific signals
-│   └── <CATEGORY>/
-│       └── <CSE-ID>/
-│           ├── signal.json
-│           └── README.md
-├── ISO27001/                     # ISO/IEC 27001 signals
-├── GDPR/                         # GDPR signals
-└── SOC2/                         # SOC 2 signals
+├── CCPA/                         # California Consumer Privacy Act (70 signals)
+├── CIS/                          # CIS Controls v8.1 (120 signals)
+├── CMMC/                         # CMMC 2.0 (134 signals)
+├── FEDRAMP/                      # FedRAMP (145 signals)
+├── GDPR/                         # General Data Protection Regulation (80 signals)
+├── GEN/                          # General Security Signals (55 signals)
+├── HIPAA/                        # HIPAA (75 signals)
+├── HITRUST/                      # HITRUST CSF (126 signals)
+├── ISO27001/                     # ISO/IEC 27001:2022 (93 signals)
+├── NISTCSF/                      # NIST Cybersecurity Framework 2.0 (106 signals)
+├── PCIDSS/                       # PCI DSS v4.0 (64 signals)
+└── SOC2/                         # SOC 2 Trust Services Criteria (64 signals)
+
+Each domain follows this structure:
+<DOMAIN>/
+└── <CATEGORY>/
+    └── <CSE-ID>/
+        └── README.md             # Signal definition
 ```
 
 ### Naming Conventions
@@ -46,79 +51,65 @@ signals/
 
 ## Signal Definition Files
 
-Each signal is represented by a directory containing two files:
+Each signal is represented by a directory containing a README.md file with:
 
-### signal.json
-
-The **normative, machine-readable definition** of the signal.
-
-Required fields:
-- `id` — CSE identifier
-- `canonical_name` — Human-readable name
-- `description` — Normative description of what is observable
-- `domain` — Applicable domain or framework
-- `category` — Functional classification
-- `applicability` — Scope and context of relevance
-- `introduced_in` — Registry version where first introduced
-- `status` — `active` or `deprecated`
-
-Optional fields:
-- `metadata` — Informative, non-normative enrichment
-
-See `/schemas/signal.schema.json` for the full validation schema.
-
-### README.md
-
-A **human-readable explanation** of the signal, including:
-
+- Signal identifier and canonical name
 - Plain-language description
-- Non-normative examples
-- Contextual notes
+- Framework-specific context (where applicable)
 - Cross-references to related signals or controls
 
-The README MUST NOT contradict `signal.json`.
+Signal definitions are **normative** and serve as the source of truth for registry generation.
 
 ## Domains
 
-### GEN (General)
+| Domain | Framework | Signals | Categories |
+|--------|-----------|---------|------------|
+| **CCPA** | California Consumer Privacy Act (CCPA/CPRA) | 70 | 11 |
+| **CIS** | CIS Controls v8.1 | 120 | 18 |
+| **CMMC** | Cybersecurity Maturity Model Certification 2.0 | 134 | 15 |
+| **FEDRAMP** | Federal Risk and Authorization Management Program | 145 | 20 |
+| **GDPR** | General Data Protection Regulation | 80 | 10 |
+| **GEN** | General Security Signals (framework-agnostic) | 55 | 12 |
+| **HIPAA** | Health Insurance Portability and Accountability Act | 75 | 6 |
+| **HITRUST** | HITRUST Common Security Framework | 126 | 19 |
+| **ISO27001** | ISO/IEC 27001:2022 | 93 | 4 |
+| **NISTCSF** | NIST Cybersecurity Framework 2.0 | 106 | 22 |
+| **PCIDSS** | Payment Card Industry Data Security Standard v4.0 | 64 | 12 |
+| **SOC2** | SOC 2 Trust Services Criteria | 64 | 5 |
 
-Framework-agnostic signals applicable across industries and compliance regimes.
+**Total: 1,132 signals across 12 domains**
 
-Use `GEN` for signals that are not specific to any single framework.
+### GEN (General Security Signals)
 
-### CMMC
-
-Signals relevant to the Cybersecurity Maturity Model Certification.
-
-### ISO27001
-
-Signals relevant to ISO/IEC 27001 information security management.
-
-### GDPR
-
-Signals relevant to the General Data Protection Regulation.
-
-### SOC2
-
-Signals relevant to SOC 2 Trust Services Criteria.
+Framework-agnostic signals representing universal security concepts that appear across multiple compliance frameworks. Use `GEN` for foundational security requirements common to all environments.
 
 ## Categories
 
-Categories represent functional classifications of signals. Common categories include:
+Categories represent functional classifications of signals. Categories vary by domain, but common categories include:
 
-| Category   | Description                                      |
-|------------|--------------------------------------------------|
-| ACCESS     | Access control and authorization                 |
-| SECRETS    | Secrets management and credential handling       |
-| LOGGING    | Audit logging and monitoring                     |
-| CONFIG     | Configuration and hardening                      |
-| CRYPTO     | Cryptographic controls                           |
-| DATA       | Data protection and handling                     |
-| IDENTITY   | Identity and authentication                      |
-| NETWORK    | Network security                                 |
-| SUPPLY     | Supply chain and dependency management           |
+| Category | Description |
+|----------|-------------|
+| ACCESS | Access control and authorization |
+| ACCOUNT | Account management |
+| APPSEC | Application security |
+| ASSET | Asset management |
+| AUDIT | Audit logging and monitoring |
+| AUTH | Authentication mechanisms |
+| CONFIG | Configuration and hardening |
+| CRYPTO | Cryptographic controls |
+| DATA | Data protection and handling |
+| GOVERN | Governance and policy |
+| IDENTITY | Identity and authentication |
+| INCIDENT | Incident response |
+| NETWORK | Network security |
+| PHYSICAL | Physical security |
+| PRIVACY | Privacy controls |
+| RISK | Risk management |
+| SECRETS | Secrets management and credential handling |
+| VENDOR | Third-party/vendor management |
+| VULN | Vulnerability management |
 
-New categories may be introduced as the registry evolves.
+Each domain defines its own set of categories aligned with the framework's structure. See individual domain directories for category listings.
 
 ## Stability Guarantees
 
@@ -131,11 +122,7 @@ Once published:
 
 ## Validation
 
-Signal definitions SHOULD be validated against the schema:
-
-```
-/schemas/signal.schema.json
-```
+Signal definitions are validated during registry generation to ensure consistency and completeness.
 
 ## Relationship to Registry
 
