@@ -183,7 +183,7 @@ Contributors are expected to:
 
 ## Questions
 
-For questions about contributing, open an issue in the repository.
+For questions about contributing, open an issue on [GitHub](https://github.com/DataHubz/cse-registry/issues).
 
 ## License
 

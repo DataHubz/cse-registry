@@ -127,7 +127,7 @@ Decisions prioritize:
 
 ## Contact
 
-Questions, feedback, or governance discussions may be raised via repository issues.
+Questions, feedback, or governance discussions may be raised via [GitHub Issues](https://github.com/DataHubz/cse-registry/issues).
 
 ## Changes to This Document
 

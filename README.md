@@ -233,10 +233,10 @@ Signal definitions are stored as individual README.md files within the `signals/
 
 ```bash
 # View registry index
-curl -s https://raw.githubusercontent.com/.../registry/v1.0.0/index.json | jq .
+curl -s https://raw.githubusercontent.com/DataHubz/cse-registry/main/registry/v1.0.0/index.json | jq .
 
 # List all signals for a domain
-curl -s https://raw.githubusercontent.com/.../registry/v1.0.0/domains/HIPAA.json | jq '.signals[].id'
+curl -s https://raw.githubusercontent.com/DataHubz/cse-registry/main/registry/v1.0.0/domains/HIPAA.json | jq '.signals[].id'
 ```
 
 ### Validate Against Schema
@@ -307,7 +307,7 @@ Organizations are responsible for their own compliance determinations, assessmen
 
 ## Contact
 
-Questions, feedback, or discussion can be opened via repository issues.
+Questions, feedback, or discussion can be opened via [GitHub Issues](https://github.com/DataHubz/cse-registry/issues).
 
 
 <p align="center">
