@@ -14,8 +14,8 @@ CSE provides a **shared vocabulary** for referencing *what was observed* without
 
 | Metric | Value |
 |--------|-------|
-| **Total Signals** | 511 |
-| **Domains** | 7 |
+| **Total Signals** | 617 |
+| **Domains** | 8 |
 | **Registry Version** | 1.0.0 |
 | **Status** | Stable |
 
@@ -29,6 +29,7 @@ CSE provides a **shared vocabulary** for referencing *what was observed* without
 | **SOC2** | SOC 2 Trust Services Criteria | 64 | 5 |
 | **HIPAA** | Health Insurance Portability and Accountability Act | 75 | 6 |
 | **PCIDSS** | Payment Card Industry Data Security Standard v4.0 | 64 | 12 |
+| **NISTCSF** | NIST Cybersecurity Framework 2.0 | 106 | 22 |
 | **GEN** | General Security Signals | 1 | 1 |
 
 ## Why CSE Exists
@@ -144,6 +145,7 @@ A thematic subdivision within a domain (e.g., ACCESS, ENCRYPTION, LOGGING, PRIVA
 │       │   ├── GDPR.json
 │       │   ├── HIPAA.json
 │       │   ├── ISO27001.json
+│       │   ├── NISTCSF.json
 │       │   ├── PCIDSS.json
 │       │   ├── SOC2.json
 │       │   └── GEN.json
@@ -154,6 +156,7 @@ A thematic subdivision within a domain (e.g., ACCESS, ENCRYPTION, LOGGING, PRIVA
 │   ├── GDPR/
 │   ├── HIPAA/
 │   ├── ISO27001/
+│   ├── NISTCSF/
 │   ├── PCIDSS/
 │   ├── SOC2/
 │   └── GEN/

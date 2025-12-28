@@ -118,7 +118,37 @@
       },
       "file": "domains/PCIDSS.json",
       "file_min": "domains/PCIDSS.min.json"
+    },
+    {
+      "name": "NISTCSF",
+      "signal_count": 106,
+      "categories": {
+        "AA": 6,
+        "AE": 6,
+        "AM": 7,
+        "AN": 4,
+        "AT": 2,
+        "CM": 5,
+        "CO": 2,
+        "DS": 4,
+        "IM": 4,
+        "IR": 4,
+        "MA": 5,
+        "MI": 2,
+        "OC": 5,
+        "OV": 3,
+        "PO": 2,
+        "PS": 6,
+        "RA": 10,
+        "RCOM": 2,
+        "RM": 7,
+        "RP": 6,
+        "RR": 4,
+        "SC": 10
+      },
+      "file": "domains/NISTCSF.json",
+      "file_min": "domains/NISTCSF.min.json"
     }
   ],
-  "total_signals": 511
+  "total_signals": 617
 }
