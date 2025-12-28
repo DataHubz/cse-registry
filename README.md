@@ -1,5 +1,7 @@
 # Compliance Signal Enumeration (CSE)
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Registry Version](https://img.shields.io/badge/Registry-v1.0.0-green.svg)](registry/v1.0.0/) [![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)](#) [![Signals](https://img.shields.io/badge/Signals-762-orange.svg)](registry/v1.0.0/cse-registry.json) [![Domains](https://img.shields.io/badge/Domains-9-purple.svg)](registry/v1.0.0/index.json)
+
 **A neutral, framework-agnostic registry of compliance-relevant technical signals**
 
 ## Overview
