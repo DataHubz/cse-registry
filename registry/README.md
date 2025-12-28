@@ -106,7 +106,7 @@ Both MUST remain consistent.
 
 ## Governance
 
-The registry is stewarded by **DataHubz**.
+The registry is stewarded by **[DataHubz](https://www.datahubz.com/)**.
 
 Changes to registry content follow the governance rules defined in:
 - `spec/cse-spec-v1.0.md`

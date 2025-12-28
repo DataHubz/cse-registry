@@ -195,7 +195,7 @@ Registry releases are immutable once published.
 
 ## 11. Governance and Change Control
 
-CSE is stewarded by **DataHubz**.
+CSE is stewarded by **[DataHubz](https://www.datahubz.com/)**.
 
 Governance principles:
 - Stability over speed

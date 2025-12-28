@@ -69,7 +69,7 @@ All other artifacts must conform to it.
 
 ## Change Control
 
-The specification is stewarded by **DataHubz**.
+The specification is stewarded by **[DataHubz](https://www.datahubz.com/)**.
 
 Changes are introduced conservatively and guided by:
 - Stability

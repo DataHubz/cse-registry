@@ -138,7 +138,7 @@ Consumers MUST NOT:
 
 ## Governance
 
-This registry release is stewarded by **DataHubz**.
+This registry release is stewarded by **[DataHubz](https://www.datahubz.com/)**.
 
 All content conforms to the governance rules defined in the CSE Specification.
 
