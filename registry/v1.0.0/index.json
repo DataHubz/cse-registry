@@ -98,7 +98,27 @@
       },
       "file": "domains/HIPAA.json",
       "file_min": "domains/HIPAA.min.json"
+    },
+    {
+      "name": "PCIDSS",
+      "signal_count": 64,
+      "categories": {
+        "ACCESS": 3,
+        "AUTH": 6,
+        "CONFIG": 3,
+        "LOG": 7,
+        "MALWARE": 4,
+        "NET": 5,
+        "PHYSICAL": 5,
+        "POLICY": 11,
+        "SECDEV": 5,
+        "STORE": 7,
+        "TEST": 6,
+        "TRANSIT": 2
+      },
+      "file": "domains/PCIDSS.json",
+      "file_min": "domains/PCIDSS.min.json"
     }
   ],
-  "total_signals": 447
+  "total_signals": 511
 }
