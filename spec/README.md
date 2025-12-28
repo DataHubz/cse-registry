@@ -37,10 +37,13 @@ The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, and **MAY** in
 
 ### Current Version
 
-- **CSE Specification v1.0**
-  - File: `cse-spec-v1.0.md`
-  - Status: Stable
-  - Scope: Core identifier system, registry model, schemas, and governance rules
+| Specification | File | Status | Scope |
+|---------------|------|--------|-------|
+| **CSE Specification v1.0** | `cse-spec-v1.0.md` | Stable | Core identifier system, registry model, schemas, and governance rules |
+| **Signal Format v1.0** | `signal-format-v1.0.md` | Stable | Signal definition structure and required fields |
+| **Registry Format v1.0** | `registry-format-v1.0.md` | Stable | Registry artifact structure and formats |
+| **Mapping Format v1.0** | `mapping-format-v1.0.md` | Stable | Signal-to-control and signal-to-signal mappings |
+| **Finding Format v1.0** | `finding-format-v1.0.md` | Stable | Finding and artifact structure for interoperability |
 
 ### Future Versions
 
@@ -52,19 +55,22 @@ Minor clarifications and additions may be released as v1.x revisions without bre
 
 ## Relationship to Other Directories
 
-- `/registry`  
+- `/registry`
   Contains versioned, machine-readable registry artifacts derived from this specification.
 
-- `/signals`  
+- `/signals`
   Contains canonical, human-readable signal definitions that conform to this specification.
 
-- `/schemas`  
+- `/mappings`
+  Contains versioned signal-to-control and cross-framework mappings.
+
+- `/schemas`
   Contains validation schemas that enforce the rules defined here.
 
-- `/examples`  
+- `/examples`
   Contains non-normative examples to aid adoption.
 
-The specification is the **source of truth**.  
+The specification is the **source of truth**.
 All other artifacts must conform to it.
 
 ## Change Control

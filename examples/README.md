@@ -10,6 +10,7 @@ The examples in this directory are intended to:
 - Provide starting points for implementers
 - Demonstrate expected structure and content
 - Support testing and validation workflows
+- Show how signals, mappings, findings, and artifacts work together
 
 ## Status
 
@@ -23,6 +24,10 @@ They do not define requirements and may be updated for clarity without following
 |------|-------------|
 | `registry-example.json` | Example registry artifact structure |
 | `signal-example.json` | Example signal definition |
+| `finding-example.json` | Complete finding with all fields |
+| `finding-minimal-example.json` | Minimal valid finding structure |
+| `finding-set-example.json` | Collection of findings for bulk export |
+| `artifact-example.json` | Standalone artifact definition |
 
 ## Usage
 
@@ -34,12 +39,18 @@ Examples can be validated against the official schemas in `/schemas`:
 # Using ajv-cli (Node.js)
 npx ajv validate -s ../schemas/registry.schema.json -d registry-example.json
 npx ajv validate -s ../schemas/signal.schema.json -d signal-example.json
+npx ajv validate -s ../schemas/finding.schema.json -d finding-example.json
+npx ajv validate -s ../schemas/finding.schema.json -d finding-minimal-example.json
+npx ajv validate -s ../schemas/finding-set.schema.json -d finding-set-example.json
+npx ajv validate -s ../schemas/artifact.schema.json -d artifact-example.json
 ```
 
 ```bash
 # Using jsonschema (Python)
 jsonschema -i registry-example.json ../schemas/registry.schema.json
 jsonschema -i signal-example.json ../schemas/signal.schema.json
+jsonschema -i finding-example.json ../schemas/finding.schema.json
+jsonschema -i artifact-example.json ../schemas/artifact.schema.json
 ```
 
 ### As Templates
@@ -48,6 +59,8 @@ Implementers may use these examples as templates when:
 
 - Building tools that produce CSE-compatible output
 - Creating new signal definitions
+- Implementing finding export/import functionality
+- Building compliance dashboards and reports
 - Testing registry consumption logic
 
 ## Relationship to Canonical Data

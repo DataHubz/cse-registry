@@ -19,40 +19,52 @@ See [Mapping Format Specification v1.0](../spec/mapping-format-v1.0.md) for the 
 
 ```
 mappings/
-├── README.md                           # This file
-├── v1.0.0/                             # Mapping dataset version
-│   ├── index.json                      # Dataset metadata and statistics
-│   │
-│   ├── frameworks/                     # Framework definitions
-│   │   ├── CMMC-2.0.json
-│   │   ├── ISO27001-2022.json
-│   │   └── ...
-│   │
-│   ├── controls/                       # Control definitions by framework
-│   │   ├── CMMC-2.0/
-│   │   │   ├── AC.json                 # Access Control domain
-│   │   │   └── ...
-│   │   └── ...
-│   │
-│   ├── signal-to-control/              # Signal → Control mappings
-│   │   ├── by-domain/                  # Organized by CSE domain
-│   │   │   ├── CMMC.json
-│   │   │   ├── GEN.json
-│   │   │   └── ...
-│   │   ├── by-framework/               # Organized by target framework
-│   │   │   ├── CMMC-2.0.json
-│   │   │   ├── ISO27001-2022.json
-│   │   │   └── ...
-│   │   └── complete.json               # All mappings
-│   │
-│   ├── cross-framework/                # Framework ↔ Framework via signals
-│   │   ├── CMMC-2.0-to-ISO27001-2022.json
-│   │   └── ...
-│   │
-│   ├── equivalence/                    # Signal ↔ Signal mappings
-│   │   └── gen-to-domains.json         # GEN ↔ domain-specific signals
-│   │
-│   └── SHA256SUMS                      # Integrity verification
+├── README.md                              # This file
+└── v1.0.0/                                # Mapping dataset version
+    ├── index.json                         # Dataset metadata and statistics
+    │
+    ├── frameworks/                        # Framework definitions
+    │   ├── CCPA.json
+    │   ├── CIS-CONTROLS-8.1.json
+    │   ├── CMMC-2.0.json
+    │   ├── FEDRAMP.json
+    │   ├── GDPR.json
+    │   ├── HIPAA.json
+    │   ├── HITRUST-11.json
+    │   ├── ISO27001-2022.json
+    │   ├── NIST-CSF-2.0.json
+    │   ├── PCI-DSS-4.0.json
+    │   └── SOC2-2017.json
+    │
+    ├── controls/                          # Control definitions by framework
+    │   ├── CMMC-2.0.json
+    │   ├── ISO27001-2022.json
+    │   ├── NIST-CSF-2.0.json
+    │   ├── PCI-DSS-4.0.json
+    │   └── SOC2-2017.json
+    │
+    ├── signal-to-control/                 # Signal → Control mappings
+    │   ├── CCPA.json
+    │   ├── CIS.json
+    │   ├── CMMC.json
+    │   ├── FEDRAMP.json
+    │   ├── GDPR.json
+    │   ├── GEN.json                       # Cross-framework GEN mappings
+    │   ├── HIPAA.json
+    │   ├── HITRUST.json
+    │   ├── ISO27001.json
+    │   ├── NISTCSF.json
+    │   ├── PCIDSS.json
+    │   └── SOC2.json
+    │
+    ├── equivalence/                       # Signal ↔ Signal mappings
+    │   └── GEN-to-domains.json            # GEN ↔ domain-specific signals
+    │
+    └── cross-framework/                   # Framework ↔ Framework via signals
+        ├── CMMC-2.0-to-ISO27001-2022.json
+        ├── CMMC-2.0-to-NIST-CSF-2.0.json
+        ├── PCI-DSS-4.0-to-ISO27001-2022.json
+        └── SOC2-2017-to-ISO27001-2022.json
 ```
 
 ## Relationship Types
@@ -134,6 +146,21 @@ Mappings are **separate artifacts** from signals:
 - Mappings can **evolve** as frameworks update
 - Mappings do not change signal semantics
 - Multiple mapping sources may coexist
+
+## Relationship to Findings
+
+Mappings enable **automated compliance mapping** from findings:
+
+1. A finding references a CSE signal (e.g., `CSE-HIPAA-TECH-NO-ENCRYPTION-004`)
+2. Mappings link that signal to framework controls (e.g., HIPAA 164.312(a)(2)(iv))
+3. Compliance platforms can automatically show which controls are impacted
+
+This enables:
+- **Multi-framework reporting** — One finding, multiple framework impacts
+- **Gap analysis** — Identify controls without signal coverage
+- **Evidence collection** — Connect findings to compliance requirements
+
+See [Finding Format Specification](../spec/finding-format-v1.0.md) for how findings reference signals.
 
 ## Contributing
 

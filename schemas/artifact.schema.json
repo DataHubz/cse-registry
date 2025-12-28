@@ -1,0 +1,607 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cse-registry.org/schemas/artifact.schema.json",
+  "title": "CSE Artifact",
+  "description": "Schema for CSE artifacts - technical objects where signals may be observed. This standalone schema allows tools to represent artifacts independently of findings.",
+  "type": "object",
+  "required": ["type", "id"],
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "$ref": "#/$defs/artifactType",
+      "description": "Artifact type category"
+    },
+    "id": {
+      "type": "string",
+      "description": "Unique artifact identifier or path",
+      "minLength": 1,
+      "maxLength": 2048
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable artifact name",
+      "maxLength": 512
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the artifact",
+      "maxLength": 4096
+    },
+    "location": {
+      "$ref": "#/$defs/location",
+      "description": "Precise location within artifact (for file-based artifacts)"
+    },
+    "provider": {
+      "type": "string",
+      "description": "Cloud/platform provider (e.g., aws, azure, gcp)",
+      "maxLength": 64
+    },
+    "account": {
+      "type": "string",
+      "description": "Account, subscription, or project identifier",
+      "maxLength": 256
+    },
+    "region": {
+      "type": "string",
+      "description": "Geographic region or availability zone",
+      "maxLength": 64
+    },
+    "environment": {
+      "type": "string",
+      "description": "Environment where artifact resides",
+      "enum": ["production", "staging", "development", "testing", "unknown"]
+    },
+    "tags": {
+      "type": "object",
+      "description": "Resource tags or labels",
+      "additionalProperties": {
+        "type": "string",
+        "maxLength": 256
+      }
+    },
+    "parent": {
+      "$ref": "#/$defs/artifactReference",
+      "description": "Parent artifact reference (for hierarchical relationships)"
+    },
+    "children": {
+      "type": "array",
+      "description": "Child artifact references",
+      "items": {
+        "$ref": "#/$defs/artifactReference"
+      },
+      "maxItems": 1000
+    },
+    "properties": {
+      "$ref": "#/$defs/artifactProperties",
+      "description": "Type-specific artifact properties"
+    },
+    "metadata": {
+      "$ref": "#/$defs/metadata",
+      "description": "Additional metadata"
+    }
+  },
+  "$defs": {
+    "artifactType": {
+      "type": "string",
+      "description": "Artifact type category",
+      "enum": [
+        "source-file",
+        "config-file",
+        "iac-template",
+        "container-image",
+        "cloud-resource",
+        "k8s-resource",
+        "api-endpoint",
+        "secret",
+        "log-entry",
+        "network-config",
+        "identity",
+        "database",
+        "storage",
+        "compute",
+        "repository",
+        "pipeline",
+        "package",
+        "certificate",
+        "dns-record",
+        "load-balancer",
+        "queue",
+        "function",
+        "other"
+      ]
+    },
+    "location": {
+      "type": "object",
+      "description": "Precise location within an artifact",
+      "additionalProperties": false,
+      "properties": {
+        "line_start": {
+          "type": "integer",
+          "description": "Starting line number (1-indexed)",
+          "minimum": 1
+        },
+        "line_end": {
+          "type": "integer",
+          "description": "Ending line number",
+          "minimum": 1
+        },
+        "column_start": {
+          "type": "integer",
+          "description": "Starting column (1-indexed)",
+          "minimum": 1
+        },
+        "column_end": {
+          "type": "integer",
+          "description": "Ending column",
+          "minimum": 1
+        },
+        "path": {
+          "type": "string",
+          "description": "JSON path, XPath, or other path within artifact",
+          "maxLength": 1024
+        },
+        "hash": {
+          "type": "string",
+          "description": "Content hash at location",
+          "maxLength": 128
+        }
+      }
+    },
+    "artifactReference": {
+      "type": "object",
+      "description": "Reference to another artifact",
+      "required": ["type", "id"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "$ref": "#/$defs/artifactType"
+        },
+        "id": {
+          "type": "string",
+          "description": "Artifact identifier",
+          "maxLength": 2048
+        },
+        "relationship": {
+          "type": "string",
+          "description": "Relationship to this artifact",
+          "enum": ["contains", "contained_by", "depends_on", "depended_by", "related"]
+        }
+      }
+    },
+    "artifactProperties": {
+      "type": "object",
+      "description": "Type-specific artifact properties",
+      "additionalProperties": false,
+      "properties": {
+        "source_file": {
+          "$ref": "#/$defs/sourceFileProperties"
+        },
+        "container_image": {
+          "$ref": "#/$defs/containerImageProperties"
+        },
+        "cloud_resource": {
+          "$ref": "#/$defs/cloudResourceProperties"
+        },
+        "k8s_resource": {
+          "$ref": "#/$defs/k8sResourceProperties"
+        },
+        "api_endpoint": {
+          "$ref": "#/$defs/apiEndpointProperties"
+        },
+        "identity": {
+          "$ref": "#/$defs/identityProperties"
+        },
+        "repository": {
+          "$ref": "#/$defs/repositoryProperties"
+        },
+        "certificate": {
+          "$ref": "#/$defs/certificateProperties"
+        }
+      }
+    },
+    "sourceFileProperties": {
+      "type": "object",
+      "description": "Properties specific to source/config files",
+      "additionalProperties": false,
+      "properties": {
+        "language": {
+          "type": "string",
+          "description": "Programming language or file format",
+          "maxLength": 64
+        },
+        "encoding": {
+          "type": "string",
+          "description": "File encoding",
+          "maxLength": 32
+        },
+        "size_bytes": {
+          "type": "integer",
+          "description": "File size in bytes",
+          "minimum": 0
+        },
+        "hash": {
+          "type": "string",
+          "description": "File content hash (SHA-256)",
+          "maxLength": 128
+        },
+        "last_modified": {
+          "type": "string",
+          "description": "Last modification timestamp",
+          "format": "date-time"
+        },
+        "repository": {
+          "type": "string",
+          "description": "Source repository URL or identifier",
+          "maxLength": 1024
+        },
+        "branch": {
+          "type": "string",
+          "description": "Git branch name",
+          "maxLength": 256
+        },
+        "commit": {
+          "type": "string",
+          "description": "Git commit SHA",
+          "maxLength": 64
+        }
+      }
+    },
+    "containerImageProperties": {
+      "type": "object",
+      "description": "Properties specific to container images",
+      "additionalProperties": false,
+      "properties": {
+        "registry": {
+          "type": "string",
+          "description": "Container registry",
+          "maxLength": 512
+        },
+        "repository": {
+          "type": "string",
+          "description": "Image repository name",
+          "maxLength": 256
+        },
+        "tag": {
+          "type": "string",
+          "description": "Image tag",
+          "maxLength": 128
+        },
+        "digest": {
+          "type": "string",
+          "description": "Image digest (sha256)",
+          "maxLength": 128
+        },
+        "base_image": {
+          "type": "string",
+          "description": "Base image reference",
+          "maxLength": 512
+        },
+        "created_at": {
+          "type": "string",
+          "description": "Image creation timestamp",
+          "format": "date-time"
+        },
+        "size_bytes": {
+          "type": "integer",
+          "description": "Image size in bytes",
+          "minimum": 0
+        },
+        "os": {
+          "type": "string",
+          "description": "Operating system",
+          "maxLength": 64
+        },
+        "architecture": {
+          "type": "string",
+          "description": "CPU architecture",
+          "maxLength": 32
+        }
+      }
+    },
+    "cloudResourceProperties": {
+      "type": "object",
+      "description": "Properties specific to cloud resources",
+      "additionalProperties": false,
+      "properties": {
+        "resource_type": {
+          "type": "string",
+          "description": "Cloud-specific resource type (e.g., aws::s3::bucket)",
+          "maxLength": 256
+        },
+        "arn": {
+          "type": "string",
+          "description": "Amazon Resource Name (for AWS)",
+          "maxLength": 2048
+        },
+        "resource_id": {
+          "type": "string",
+          "description": "Provider-specific resource ID",
+          "maxLength": 256
+        },
+        "created_at": {
+          "type": "string",
+          "description": "Resource creation timestamp",
+          "format": "date-time"
+        },
+        "state": {
+          "type": "string",
+          "description": "Resource state (e.g., running, stopped)",
+          "maxLength": 64
+        },
+        "vpc_id": {
+          "type": "string",
+          "description": "VPC identifier",
+          "maxLength": 128
+        },
+        "subnet_id": {
+          "type": "string",
+          "description": "Subnet identifier",
+          "maxLength": 128
+        },
+        "security_groups": {
+          "type": "array",
+          "description": "Associated security groups",
+          "items": {
+            "type": "string",
+            "maxLength": 128
+          },
+          "maxItems": 50
+        }
+      }
+    },
+    "k8sResourceProperties": {
+      "type": "object",
+      "description": "Properties specific to Kubernetes resources",
+      "additionalProperties": false,
+      "properties": {
+        "api_version": {
+          "type": "string",
+          "description": "Kubernetes API version",
+          "maxLength": 64
+        },
+        "kind": {
+          "type": "string",
+          "description": "Resource kind",
+          "maxLength": 64
+        },
+        "namespace": {
+          "type": "string",
+          "description": "Kubernetes namespace",
+          "maxLength": 256
+        },
+        "cluster": {
+          "type": "string",
+          "description": "Cluster identifier",
+          "maxLength": 256
+        },
+        "uid": {
+          "type": "string",
+          "description": "Kubernetes UID",
+          "maxLength": 64
+        },
+        "labels": {
+          "type": "object",
+          "description": "Kubernetes labels",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "annotations": {
+          "type": "object",
+          "description": "Kubernetes annotations",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "apiEndpointProperties": {
+      "type": "object",
+      "description": "Properties specific to API endpoints",
+      "additionalProperties": false,
+      "properties": {
+        "method": {
+          "type": "string",
+          "description": "HTTP method",
+          "enum": ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"]
+        },
+        "path": {
+          "type": "string",
+          "description": "API path",
+          "maxLength": 2048
+        },
+        "host": {
+          "type": "string",
+          "description": "API host",
+          "maxLength": 512
+        },
+        "protocol": {
+          "type": "string",
+          "description": "Protocol (http, https, grpc)",
+          "maxLength": 32
+        },
+        "authentication": {
+          "type": "string",
+          "description": "Authentication method",
+          "enum": ["none", "api_key", "oauth2", "jwt", "basic", "mtls", "other"]
+        },
+        "openapi_spec": {
+          "type": "string",
+          "description": "Reference to OpenAPI specification",
+          "maxLength": 1024
+        }
+      }
+    },
+    "identityProperties": {
+      "type": "object",
+      "description": "Properties specific to identity/principal artifacts",
+      "additionalProperties": false,
+      "properties": {
+        "identity_type": {
+          "type": "string",
+          "description": "Type of identity",
+          "enum": ["user", "service_account", "role", "group", "machine_identity", "federated"]
+        },
+        "provider": {
+          "type": "string",
+          "description": "Identity provider",
+          "maxLength": 128
+        },
+        "principal_id": {
+          "type": "string",
+          "description": "Principal identifier",
+          "maxLength": 256
+        },
+        "email": {
+          "type": "string",
+          "description": "Associated email",
+          "format": "email"
+        },
+        "created_at": {
+          "type": "string",
+          "description": "Identity creation timestamp",
+          "format": "date-time"
+        },
+        "last_used": {
+          "type": "string",
+          "description": "Last activity timestamp",
+          "format": "date-time"
+        },
+        "mfa_enabled": {
+          "type": "boolean",
+          "description": "Whether MFA is enabled"
+        }
+      }
+    },
+    "repositoryProperties": {
+      "type": "object",
+      "description": "Properties specific to code repositories",
+      "additionalProperties": false,
+      "properties": {
+        "platform": {
+          "type": "string",
+          "description": "Repository platform",
+          "enum": ["github", "gitlab", "bitbucket", "azure_devops", "codecommit", "other"]
+        },
+        "url": {
+          "type": "string",
+          "description": "Repository URL",
+          "format": "uri",
+          "maxLength": 2048
+        },
+        "default_branch": {
+          "type": "string",
+          "description": "Default branch name",
+          "maxLength": 256
+        },
+        "visibility": {
+          "type": "string",
+          "description": "Repository visibility",
+          "enum": ["public", "private", "internal"]
+        },
+        "language": {
+          "type": "string",
+          "description": "Primary language",
+          "maxLength": 64
+        }
+      }
+    },
+    "certificateProperties": {
+      "type": "object",
+      "description": "Properties specific to certificates",
+      "additionalProperties": false,
+      "properties": {
+        "subject": {
+          "type": "string",
+          "description": "Certificate subject",
+          "maxLength": 512
+        },
+        "issuer": {
+          "type": "string",
+          "description": "Certificate issuer",
+          "maxLength": 512
+        },
+        "serial_number": {
+          "type": "string",
+          "description": "Serial number",
+          "maxLength": 128
+        },
+        "not_before": {
+          "type": "string",
+          "description": "Valid from timestamp",
+          "format": "date-time"
+        },
+        "not_after": {
+          "type": "string",
+          "description": "Valid until timestamp",
+          "format": "date-time"
+        },
+        "algorithm": {
+          "type": "string",
+          "description": "Signature algorithm",
+          "maxLength": 64
+        },
+        "key_size": {
+          "type": "integer",
+          "description": "Key size in bits",
+          "minimum": 0
+        },
+        "san": {
+          "type": "array",
+          "description": "Subject Alternative Names",
+          "items": {
+            "type": "string",
+            "maxLength": 256
+          },
+          "maxItems": 100
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Additional artifact metadata",
+      "additionalProperties": false,
+      "properties": {
+        "discovered_at": {
+          "type": "string",
+          "description": "When artifact was discovered",
+          "format": "date-time"
+        },
+        "last_scanned": {
+          "type": "string",
+          "description": "Last scan timestamp",
+          "format": "date-time"
+        },
+        "source_system": {
+          "type": "string",
+          "description": "System that reported this artifact",
+          "maxLength": 128
+        },
+        "owner": {
+          "type": "string",
+          "description": "Artifact owner",
+          "maxLength": 256
+        },
+        "classification": {
+          "type": "string",
+          "description": "Data classification level",
+          "enum": ["public", "internal", "confidential", "restricted", "phi", "pii", "pci"]
+        },
+        "compliance_scope": {
+          "type": "array",
+          "description": "Compliance frameworks in scope",
+          "items": {
+            "type": "string",
+            "maxLength": 32
+          },
+          "maxItems": 20
+        },
+        "custom": {
+          "type": "object",
+          "description": "Implementation-specific data",
+          "additionalProperties": true
+        }
+      }
+    }
+  }
+}

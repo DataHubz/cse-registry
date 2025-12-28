@@ -1,0 +1,114 @@
+{
+  "id": "FND-550e8400-e29b-41d4-a716-446655440000",
+  "signal": {
+    "id": "CSE-HIPAA-TECH-NO-ENCRYPTION-004",
+    "version": "1.0.0"
+  },
+  "artifact": {
+    "type": "cloud-resource",
+    "id": "arn:aws:s3:::patient-records-bucket",
+    "name": "Patient Records Storage",
+    "provider": "aws",
+    "account": "123456789012",
+    "region": "us-east-1",
+    "tags": {
+      "Environment": "production",
+      "DataClassification": "PHI",
+      "Owner": "healthcare-team"
+    }
+  },
+  "observed_at": "2025-01-15T10:30:00Z",
+  "status": "resolved",
+  "severity": {
+    "level": "critical",
+    "score": 9.5,
+    "source": "policy",
+    "justification": "Unencrypted Protected Health Information (PHI) in production S3 bucket violates HIPAA encryption requirements"
+  },
+  "evidence": [
+    {
+      "type": "api-response",
+      "content": "{\"ServerSideEncryptionConfiguration\": null, \"BucketName\": \"patient-records-bucket\"}",
+      "format": "json",
+      "collected_at": "2025-01-15T10:30:00Z",
+      "description": "S3 GetBucketEncryption API response showing no encryption configured"
+    },
+    {
+      "type": "config-excerpt",
+      "content": "resource \"aws_s3_bucket\" \"patient_records\" {\n  bucket = \"patient-records-bucket\"\n  # No server_side_encryption_configuration block\n}",
+      "format": "text",
+      "description": "Terraform configuration missing encryption settings"
+    }
+  ],
+  "context": {
+    "environment": "production",
+    "scan": {
+      "id": "scan-20250115-daily-compliance",
+      "type": "scheduled",
+      "tool": {
+        "name": "AWS Config",
+        "version": "2.0",
+        "vendor": "Amazon Web Services"
+      },
+      "started_at": "2025-01-15T10:00:00Z",
+      "completed_at": "2025-01-15T10:45:00Z"
+    },
+    "organization": {
+      "id": "healthcare-corp",
+      "name": "HealthCare Corporation",
+      "business_unit": "Cloud Infrastructure"
+    }
+  },
+  "remediation": {
+    "status": "verified",
+    "owner": "cloud-security@healthcare-corp.com",
+    "due_date": "2025-01-17",
+    "completed_at": "2025-01-16T14:00:00Z",
+    "method": "config-change",
+    "verification": {
+      "verified_at": "2025-01-16T15:00:00Z",
+      "verified_by": "compliance-team@healthcare-corp.com",
+      "scan_id": "scan-20250116-verification"
+    },
+    "notes": "Enabled AES-256 server-side encryption using AWS KMS customer-managed key (CMK). Updated Terraform configuration to enforce encryption."
+  },
+  "status_history": [
+    {
+      "status": "open",
+      "changed_at": "2025-01-15T10:30:00Z",
+      "changed_by": "aws-config-scanner",
+      "comment": "Finding detected during scheduled compliance scan"
+    },
+    {
+      "status": "in_progress",
+      "changed_at": "2025-01-15T14:00:00Z",
+      "changed_by": "alice@healthcare-corp.com",
+      "comment": "Assigned to Cloud Security team for immediate remediation"
+    },
+    {
+      "status": "resolved",
+      "changed_at": "2025-01-16T14:00:00Z",
+      "changed_by": "bob@healthcare-corp.com",
+      "comment": "Encryption enabled via PR #1234, deployed to production"
+    }
+  ],
+  "metadata": {
+    "created_at": "2025-01-15T10:30:00Z",
+    "updated_at": "2025-01-16T15:00:00Z",
+    "created_by": "aws-config-scanner",
+    "source_system": "aws-config",
+    "external_refs": [
+      {
+        "type": "jira",
+        "id": "SEC-5678",
+        "url": "https://jira.healthcare-corp.com/browse/SEC-5678"
+      },
+      {
+        "type": "github-pr",
+        "id": "1234",
+        "url": "https://github.com/healthcare-corp/infrastructure/pull/1234"
+      }
+    ],
+    "tags": ["hipaa", "phi", "encryption", "s3", "critical", "remediated"]
+  }
+}

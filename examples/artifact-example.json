@@ -1,0 +1,52 @@
+{
+  "type": "cloud-resource",
+  "id": "arn:aws:s3:::patient-records-bucket",
+  "name": "Patient Records Storage Bucket",
+  "description": "S3 bucket containing encrypted patient health records for the healthcare application",
+  "provider": "aws",
+  "account": "123456789012",
+  "region": "us-east-1",
+  "environment": "production",
+  "tags": {
+    "Environment": "production",
+    "DataClassification": "PHI",
+    "Owner": "healthcare-team",
+    "CostCenter": "HC-001",
+    "Compliance": "HIPAA"
+  },
+  "properties": {
+    "cloud_resource": {
+      "resource_type": "aws::s3::bucket",
+      "arn": "arn:aws:s3:::patient-records-bucket",
+      "resource_id": "patient-records-bucket",
+      "created_at": "2024-06-15T09:00:00Z",
+      "state": "available",
+      "vpc_id": "vpc-0123456789abcdef0"
+    }
+  },
+  "parent": {
+    "type": "cloud-resource",
+    "id": "arn:aws:organizations::123456789012:account/production",
+    "relationship": "contained_by"
+  },
+  "children": [
+    {
+      "type": "storage",
+      "id": "arn:aws:s3:::patient-records-bucket/records/*",
+      "relationship": "contains"
+    },
+    {
+      "type": "storage",
+      "id": "arn:aws:s3:::patient-records-bucket/archives/*",
+      "relationship": "contains"
+    }
+  ],
+  "metadata": {
+    "discovered_at": "2024-06-15T09:00:00Z",
+    "last_scanned": "2025-01-15T10:30:00Z",
+    "source_system": "aws-config",
+    "owner": "cloud-infrastructure@healthcare-corp.com",
+    "classification": "phi",
+    "compliance_scope": ["HIPAA", "HITRUST", "SOC2"]
+  }
+}

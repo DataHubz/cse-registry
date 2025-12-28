@@ -1,0 +1,12 @@
+{
+  "id": "FND-12345",
+  "signal": {
+    "id": "CSE-PCIDSS-STORE-SAD-RETAINED-003"
+  },
+  "artifact": {
+    "type": "source-file",
+    "id": "src/payment/processor.py"
+  },
+  "observed_at": "2025-01-15T10:30:00Z",
+  "status": "open"
+}

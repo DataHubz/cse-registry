@@ -1,0 +1,239 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cse-registry.org/schemas/finding-set.schema.json",
+  "title": "CSE Finding Set",
+  "description": "Schema for collections of CSE findings for bulk export/import operations. Provides a standard wrapper for multiple findings with collection-level metadata and statistics.",
+  "type": "object",
+  "required": ["finding_set", "findings"],
+  "additionalProperties": false,
+  "properties": {
+    "finding_set": {
+      "$ref": "#/$defs/findingSetMetadata",
+      "description": "Metadata about the finding collection"
+    },
+    "findings": {
+      "type": "array",
+      "description": "Array of individual findings",
+      "items": {
+        "$ref": "finding.schema.json"
+      }
+    }
+  },
+  "$defs": {
+    "findingSetMetadata": {
+      "type": "object",
+      "required": ["id", "created_at"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for this finding set",
+          "maxLength": 256
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable name for the finding set",
+          "maxLength": 256
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the finding set",
+          "maxLength": 2048
+        },
+        "created_at": {
+          "type": "string",
+          "description": "Creation timestamp",
+          "format": "date-time"
+        },
+        "source": {
+          "$ref": "#/$defs/source",
+          "description": "Source system and scan information"
+        },
+        "cse_version": {
+          "type": "string",
+          "description": "CSE registry version for signals in this set",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "schema_version": {
+          "type": "string",
+          "description": "Finding schema version",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "statistics": {
+          "$ref": "#/$defs/statistics",
+          "description": "Aggregate statistics for the finding set"
+        },
+        "filters": {
+          "$ref": "#/$defs/filters",
+          "description": "Filters applied to create this set"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "system": {
+          "type": "string",
+          "description": "Source system identifier",
+          "maxLength": 128
+        },
+        "version": {
+          "type": "string",
+          "description": "Source system version",
+          "maxLength": 64
+        },
+        "scan_id": {
+          "type": "string",
+          "description": "Associated scan identifier",
+          "maxLength": 256
+        },
+        "export_format": {
+          "type": "string",
+          "description": "Export format used",
+          "enum": ["json", "ndjson"]
+        }
+      }
+    },
+    "statistics": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "total": {
+          "type": "integer",
+          "description": "Total number of findings",
+          "minimum": 0
+        },
+        "by_status": {
+          "type": "object",
+          "description": "Count of findings by status",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "by_severity": {
+          "type": "object",
+          "description": "Count of findings by severity level",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "by_domain": {
+          "type": "object",
+          "description": "Count of findings by CSE domain",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "by_artifact_type": {
+          "type": "object",
+          "description": "Count of findings by artifact type",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "by_environment": {
+          "type": "object",
+          "description": "Count of findings by environment",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "unique_signals": {
+          "type": "integer",
+          "description": "Number of unique CSE signals",
+          "minimum": 0
+        },
+        "unique_artifacts": {
+          "type": "integer",
+          "description": "Number of unique artifacts",
+          "minimum": 0
+        },
+        "time_range": {
+          "type": "object",
+          "description": "Time range of observations",
+          "additionalProperties": false,
+          "properties": {
+            "earliest": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "latest": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        }
+      }
+    },
+    "filters": {
+      "type": "object",
+      "description": "Filters applied when generating this finding set",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "array",
+          "description": "Status filter",
+          "items": {
+            "type": "string"
+          }
+        },
+        "severity": {
+          "type": "array",
+          "description": "Severity filter",
+          "items": {
+            "type": "string"
+          }
+        },
+        "domains": {
+          "type": "array",
+          "description": "CSE domain filter",
+          "items": {
+            "type": "string"
+          }
+        },
+        "artifact_types": {
+          "type": "array",
+          "description": "Artifact type filter",
+          "items": {
+            "type": "string"
+          }
+        },
+        "environments": {
+          "type": "array",
+          "description": "Environment filter",
+          "items": {
+            "type": "string"
+          }
+        },
+        "date_range": {
+          "type": "object",
+          "description": "Date range filter",
+          "additionalProperties": false,
+          "properties": {
+            "start": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "end": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        },
+        "tags": {
+          "type": "array",
+          "description": "Tag filter",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

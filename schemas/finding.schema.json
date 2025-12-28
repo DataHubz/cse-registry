@@ -1,0 +1,566 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cse-registry.org/schemas/finding.schema.json",
+  "title": "CSE Finding",
+  "description": "Schema for CSE findings - concrete observations where signals are detected in specific contexts. Findings are not stored in the CSE Registry but this schema standardizes their format for interoperability.",
+  "type": "object",
+  "required": ["id", "signal", "artifact", "observed_at", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique finding identifier",
+      "pattern": "^FND-[A-Za-z0-9_-]+$",
+      "minLength": 5,
+      "maxLength": 256
+    },
+    "signal": {
+      "$ref": "#/$defs/signalReference",
+      "description": "Reference to the observed CSE signal"
+    },
+    "artifact": {
+      "$ref": "#/$defs/artifact",
+      "description": "Reference to the artifact where signal was observed"
+    },
+    "observed_at": {
+      "type": "string",
+      "description": "ISO 8601 timestamp of observation",
+      "format": "date-time"
+    },
+    "status": {
+      "$ref": "#/$defs/findingStatus",
+      "description": "Current finding status"
+    },
+    "severity": {
+      "$ref": "#/$defs/severity",
+      "description": "Severity assessment"
+    },
+    "evidence": {
+      "type": "array",
+      "description": "Supporting evidence for the finding",
+      "items": {
+        "$ref": "#/$defs/evidence"
+      },
+      "maxItems": 100
+    },
+    "context": {
+      "$ref": "#/$defs/context",
+      "description": "Environmental and scan context"
+    },
+    "remediation": {
+      "$ref": "#/$defs/remediation",
+      "description": "Remediation tracking information"
+    },
+    "related_findings": {
+      "type": "array",
+      "description": "Related finding references",
+      "items": {
+        "$ref": "#/$defs/relatedFinding"
+      },
+      "maxItems": 50
+    },
+    "status_history": {
+      "type": "array",
+      "description": "History of status changes",
+      "items": {
+        "$ref": "#/$defs/statusHistoryEntry"
+      },
+      "maxItems": 1000
+    },
+    "metadata": {
+      "$ref": "#/$defs/metadata",
+      "description": "Additional metadata"
+    }
+  },
+  "$defs": {
+    "signalReference": {
+      "type": "object",
+      "required": ["id"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "CSE signal identifier",
+          "pattern": "^CSE-[A-Z0-9]+-[A-Z]+-[A-Z0-9-]+-[0-9]{3}$"
+        },
+        "version": {
+          "type": "string",
+          "description": "CSE registry version",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        }
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "required": ["type", "id"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Artifact type category",
+          "enum": [
+            "source-file",
+            "config-file",
+            "iac-template",
+            "container-image",
+            "cloud-resource",
+            "k8s-resource",
+            "api-endpoint",
+            "secret",
+            "log-entry",
+            "network-config",
+            "identity",
+            "database",
+            "storage",
+            "compute",
+            "other"
+          ]
+        },
+        "id": {
+          "type": "string",
+          "description": "Unique artifact identifier or path",
+          "minLength": 1,
+          "maxLength": 2048
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable artifact name",
+          "maxLength": 512
+        },
+        "location": {
+          "$ref": "#/$defs/location",
+          "description": "Precise location within artifact"
+        },
+        "provider": {
+          "type": "string",
+          "description": "Cloud/platform provider",
+          "maxLength": 64
+        },
+        "account": {
+          "type": "string",
+          "description": "Account or project identifier",
+          "maxLength": 256
+        },
+        "region": {
+          "type": "string",
+          "description": "Geographic region",
+          "maxLength": 64
+        },
+        "tags": {
+          "type": "object",
+          "description": "Resource tags/labels",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "metadata": {
+          "type": "object",
+          "description": "Additional artifact metadata",
+          "additionalProperties": true
+        }
+      }
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "line_start": {
+          "type": "integer",
+          "description": "Starting line number (1-indexed)",
+          "minimum": 1
+        },
+        "line_end": {
+          "type": "integer",
+          "description": "Ending line number",
+          "minimum": 1
+        },
+        "column_start": {
+          "type": "integer",
+          "description": "Starting column (1-indexed)",
+          "minimum": 1
+        },
+        "column_end": {
+          "type": "integer",
+          "description": "Ending column",
+          "minimum": 1
+        },
+        "path": {
+          "type": "string",
+          "description": "Path within artifact (for nested structures)",
+          "maxLength": 1024
+        },
+        "hash": {
+          "type": "string",
+          "description": "Content hash at location",
+          "maxLength": 128
+        }
+      }
+    },
+    "findingStatus": {
+      "type": "string",
+      "description": "Finding lifecycle status",
+      "enum": [
+        "open",
+        "in_progress",
+        "resolved",
+        "accepted",
+        "false_positive",
+        "duplicate",
+        "suppressed"
+      ]
+    },
+    "severity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "level": {
+          "type": "string",
+          "description": "Severity level",
+          "enum": ["critical", "high", "medium", "low", "info"]
+        },
+        "score": {
+          "type": "number",
+          "description": "Numeric severity score (0.0–10.0)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "source": {
+          "type": "string",
+          "description": "Source of severity assessment",
+          "enum": ["signal-default", "tool", "policy", "manual", "cvss"]
+        },
+        "justification": {
+          "type": "string",
+          "description": "Rationale for severity",
+          "maxLength": 2048
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["type", "content"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Evidence type",
+          "enum": [
+            "code-snippet",
+            "config-excerpt",
+            "log-entry",
+            "api-response",
+            "screenshot",
+            "command-output",
+            "policy-document",
+            "network-capture",
+            "runtime-state"
+          ]
+        },
+        "content": {
+          "type": "string",
+          "description": "Evidence content or reference",
+          "maxLength": 65536
+        },
+        "format": {
+          "type": "string",
+          "description": "Content format",
+          "enum": ["text", "json", "yaml", "xml", "base64", "url"]
+        },
+        "hash": {
+          "type": "string",
+          "description": "Content hash for integrity",
+          "maxLength": 128
+        },
+        "collected_at": {
+          "type": "string",
+          "description": "Timestamp of collection",
+          "format": "date-time"
+        },
+        "description": {
+          "type": "string",
+          "description": "Human-readable description",
+          "maxLength": 1024
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "environment": {
+          "type": "string",
+          "description": "Environment identifier",
+          "enum": ["production", "staging", "development", "testing", "ci-cd", "unknown"]
+        },
+        "scan": {
+          "$ref": "#/$defs/scan",
+          "description": "Scan execution details"
+        },
+        "organization": {
+          "$ref": "#/$defs/organization",
+          "description": "Organizational context"
+        }
+      }
+    },
+    "scan": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique scan identifier",
+          "maxLength": 256
+        },
+        "type": {
+          "type": "string",
+          "description": "Scan type",
+          "enum": ["scheduled", "on-demand", "ci-cd", "real-time", "audit"]
+        },
+        "tool": {
+          "$ref": "#/$defs/tool",
+          "description": "Tool information"
+        },
+        "started_at": {
+          "type": "string",
+          "description": "Scan start timestamp",
+          "format": "date-time"
+        },
+        "completed_at": {
+          "type": "string",
+          "description": "Scan completion timestamp",
+          "format": "date-time"
+        }
+      }
+    },
+    "tool": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Tool name",
+          "maxLength": 128
+        },
+        "version": {
+          "type": "string",
+          "description": "Tool version",
+          "maxLength": 64
+        },
+        "vendor": {
+          "type": "string",
+          "description": "Tool vendor",
+          "maxLength": 128
+        }
+      }
+    },
+    "organization": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Organization identifier",
+          "maxLength": 128
+        },
+        "name": {
+          "type": "string",
+          "description": "Organization name",
+          "maxLength": 256
+        },
+        "business_unit": {
+          "type": "string",
+          "description": "Business unit or department",
+          "maxLength": 256
+        }
+      }
+    },
+    "remediation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "description": "Remediation status",
+          "enum": ["pending", "planned", "in_progress", "completed", "verified", "blocked", "deferred"]
+        },
+        "owner": {
+          "type": "string",
+          "description": "Assigned owner",
+          "maxLength": 256
+        },
+        "due_date": {
+          "type": "string",
+          "description": "Target remediation date",
+          "format": "date"
+        },
+        "completed_at": {
+          "type": "string",
+          "description": "Actual completion timestamp",
+          "format": "date-time"
+        },
+        "method": {
+          "type": "string",
+          "description": "How the finding was remediated",
+          "enum": [
+            "code-fix",
+            "config-change",
+            "infrastructure-change",
+            "policy-update",
+            "compensating-control",
+            "risk-acceptance",
+            "decommission"
+          ]
+        },
+        "verification": {
+          "$ref": "#/$defs/verification",
+          "description": "Verification details"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Remediation notes",
+          "maxLength": 4096
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "verified_at": {
+          "type": "string",
+          "description": "Verification timestamp",
+          "format": "date-time"
+        },
+        "verified_by": {
+          "type": "string",
+          "description": "Verifier identifier",
+          "maxLength": 256
+        },
+        "scan_id": {
+          "type": "string",
+          "description": "Verification scan identifier",
+          "maxLength": 256
+        }
+      }
+    },
+    "relatedFinding": {
+      "type": "object",
+      "required": ["id", "relationship"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Related finding ID",
+          "maxLength": 256
+        },
+        "relationship": {
+          "type": "string",
+          "description": "Relationship type",
+          "enum": ["duplicate", "related", "caused_by", "causes", "supersedes", "superseded_by"]
+        },
+        "description": {
+          "type": "string",
+          "description": "Relationship description",
+          "maxLength": 512
+        }
+      }
+    },
+    "statusHistoryEntry": {
+      "type": "object",
+      "required": ["status", "changed_at"],
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/findingStatus"
+        },
+        "changed_at": {
+          "type": "string",
+          "description": "Timestamp of status change",
+          "format": "date-time"
+        },
+        "changed_by": {
+          "type": "string",
+          "description": "Who made the change",
+          "maxLength": 256
+        },
+        "comment": {
+          "type": "string",
+          "description": "Comment on the status change",
+          "maxLength": 2048
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "created_at": {
+          "type": "string",
+          "description": "Finding creation timestamp",
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "description": "Last update timestamp",
+          "format": "date-time"
+        },
+        "created_by": {
+          "type": "string",
+          "description": "Finding creator",
+          "maxLength": 256
+        },
+        "source_system": {
+          "type": "string",
+          "description": "Originating system",
+          "maxLength": 128
+        },
+        "external_refs": {
+          "type": "array",
+          "description": "External reference links",
+          "items": {
+            "$ref": "#/$defs/externalRef"
+          },
+          "maxItems": 50
+        },
+        "tags": {
+          "type": "array",
+          "description": "Classification tags",
+          "items": {
+            "type": "string",
+            "maxLength": 64
+          },
+          "maxItems": 100,
+          "uniqueItems": true
+        },
+        "custom": {
+          "type": "object",
+          "description": "Implementation-specific data",
+          "additionalProperties": true
+        }
+      }
+    },
+    "externalRef": {
+      "type": "object",
+      "required": ["type", "id"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Reference type",
+          "maxLength": 64
+        },
+        "id": {
+          "type": "string",
+          "description": "Reference identifier",
+          "maxLength": 256
+        },
+        "url": {
+          "type": "string",
+          "description": "Reference URL",
+          "format": "uri",
+          "maxLength": 2048
+        }
+      }
+    }
+  }
+}

@@ -24,26 +24,45 @@ A **Finding** is a concrete observation of a Compliance Signal in a specific con
 
 Findings are:
 - **Implementation-specific** — Created by tools, scanners, or assessments
-- **Contextual** — Include location, evidence, timestamps
+- **Contextual** — Include artifact, location, evidence, timestamps
 - **Actionable** — May include severity, remediation guidance, ownership
+- **Trackable** — Support status lifecycle and remediation tracking
 
 Findings are **not stored in the CSE registry**. CSE defines signals; implementations produce findings that reference those signals.
+
+While findings are not stored in the registry, CSE provides a **standardized finding format** to enable interoperability between tools and platforms. See [Finding Format Specification v1.0](spec/finding-format-v1.0.md) for the complete specification.
+
+**Finding Identifier Format:**
+```
+FND-<UNIQUE-ID>
+```
+
+Example: `FND-550e8400-e29b-41d4-a716-446655440000`
 
 ### Artifact
 
 An **Artifact** is any technical object from which signals can be observed.
 
-Examples of artifacts:
-- Source code files
-- Configuration files (YAML, JSON, HCL, INI)
-- Infrastructure-as-code (Terraform, CloudFormation, Pulumi)
-- Container images and Dockerfiles
-- Kubernetes manifests
-- Cloud resource configurations
-- CI/CD pipeline definitions
-- Identity and access management policies
-- Network security rules
-- Audit logs and runtime metadata
+Artifacts are categorized by type:
+
+| Type | Description |
+|------|-------------|
+| `source-file` | Source code files |
+| `config-file` | Configuration files (YAML, JSON, HCL, INI) |
+| `iac-template` | Infrastructure-as-code (Terraform, CloudFormation, Pulumi) |
+| `container-image` | Container images and Dockerfiles |
+| `cloud-resource` | Cloud provider resources (S3, EC2, RDS, etc.) |
+| `k8s-resource` | Kubernetes manifests and resources |
+| `api-endpoint` | API endpoints |
+| `secret` | Secrets and credentials |
+| `log-entry` | Audit logs and runtime metadata |
+| `network-config` | Network security rules |
+| `identity` | Identity and access management policies |
+| `database` | Database resources |
+| `storage` | Storage resources |
+| `compute` | Compute resources |
+
+See [Artifact Schema](schemas/artifact.schema.json) for the complete specification.
 
 ## Identifier Structure
 
@@ -235,6 +254,69 @@ Implementations may:
 
 Detection is performed by implementations, not by CSE itself. CSE defines what signals mean; implementations determine where and when they occur.
 
+## Finding Concepts
+
+### Finding Status
+
+A **Finding Status** indicates the current state of a finding in its lifecycle.
+
+| Status | Description |
+|--------|-------------|
+| `open` | Finding is active and unresolved |
+| `in_progress` | Remediation is underway |
+| `resolved` | Finding has been remediated |
+| `accepted` | Risk accepted, no remediation planned |
+| `false_positive` | Finding determined to be incorrect |
+| `duplicate` | Duplicate of another finding |
+| `suppressed` | Temporarily suppressed |
+
+### Severity
+
+**Severity** is the risk assessment associated with a finding.
+
+| Level | Score Range | Description |
+|-------|-------------|-------------|
+| `critical` | 9.0–10.0 | Immediate action required |
+| `high` | 7.0–8.9 | High risk, prompt attention needed |
+| `medium` | 4.0–6.9 | Moderate risk, should be addressed |
+| `low` | 1.0–3.9 | Low risk, address when convenient |
+| `info` | 0.0–0.9 | Informational, no immediate risk |
+
+Severity is determined by implementations based on context, not by CSE signals themselves.
+
+### Evidence
+
+**Evidence** is supporting data that substantiates a finding.
+
+Evidence types:
+- `code-snippet` — Relevant source code excerpt
+- `config-excerpt` — Configuration file excerpt
+- `log-entry` — Log or audit entry
+- `api-response` — API response data
+- `screenshot` — Visual evidence
+- `command-output` — CLI command output
+
+### Remediation
+
+**Remediation** is the process of addressing a finding.
+
+Remediation tracking includes:
+- **Status** — pending, planned, in_progress, completed, verified
+- **Owner** — Assigned responsible party
+- **Method** — How the finding was addressed (code-fix, config-change, etc.)
+- **Verification** — Confirmation that remediation was successful
+
+### Finding Set
+
+A **Finding Set** is a collection of findings, typically from a single scan or export operation.
+
+Finding sets include:
+- Collection metadata (source, timestamp, version)
+- Statistics (totals by status, severity, domain)
+- Array of individual findings
+
+See [Finding Set Schema](schemas/finding-set.schema.json) for the specification.
+
 ## Mapping Concepts
 
 ### Mapping
@@ -359,8 +441,12 @@ Once published:
 - [CSE Specification v1.0](spec/cse-spec-v1.0.md) — Full normative specification
 - [Signal Format v1.0](spec/signal-format-v1.0.md) — Signal definition format
 - [Registry Format v1.0](spec/registry-format-v1.0.md) — Registry artifact format
+- [Mapping Format v1.0](spec/mapping-format-v1.0.md) — Mapping format specification
+- [Finding Format v1.0](spec/finding-format-v1.0.md) — Finding and artifact format specification
 - [Signals Directory](signals/) — Canonical signal definitions
 - [Registry v1.0.0](registry/v1.0.0/) — Current registry release
+- [Mappings v1.0.0](mappings/v1.0.0/) — Current mappings release
+- [Examples](examples/) — Reference examples for all formats
 
 ## References
 
