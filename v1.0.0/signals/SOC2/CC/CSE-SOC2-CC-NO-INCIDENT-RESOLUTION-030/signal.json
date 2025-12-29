@@ -1,0 +1,21 @@
+{
+  "id": "CSE-SOC2-CC-NO-INCIDENT-RESOLUTION-030",
+  "canonical_name": "Incident Resolution Process Missing",
+  "description": "The organization has not established a formal process for resolving security incidents. This signal indicates the absence of documented procedures for investigating, containing, and remediating security incidents.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Organizations pursuing SOC 2 certification, Service organizations requiring incident management capabilities",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "incident-response",
+      "security-operations"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection involves reviewing incident response procedures, examining resolution workflows, and verifying that root cause analysis processes exist."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RESOLUTION-030/",
+  "name": "Incident Resolution Process Missing"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HITRUST-ACCESS-NO-PERIODIC-REVIEW-005",
+  "canonical_name": "Periodic Access Review Missing",
+  "description": "Regular periodic reviews of user access rights are not being conducted. This signal indicates the absence of a process to regularly validate that user access permissions remain appropriate and aligned with current job responsibilities as required by HITRUST CSF.",
+  "domain": "HITRUST",
+  "category": "ACCESS",
+  "applicability": "Healthcare organizations subject to HIPAA, Organizations pursuing HITRUST certification, Systems processing sensitive health information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection involves checking for documented access review schedules, examining review records, and verifying that periodic access certifications are performed."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PERIODIC-REVIEW-005/",
+  "name": "Periodic Access Review Missing"
+}

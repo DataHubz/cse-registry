@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HITRUST-ACCESS-NO-TERMINATION-004",
+  "canonical_name": "Access Termination Process Missing",
+  "description": "A formal access termination process has not been established for revoking user access upon employment termination or role change. This signal indicates the absence of documented procedures for timely removal of access rights when users leave the organization or change positions.",
+  "domain": "HITRUST",
+  "category": "ACCESS",
+  "applicability": "Healthcare organizations subject to HIPAA, Organizations pursuing HITRUST certification, Systems processing sensitive health information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection involves reviewing access termination procedures, examining offboarding checklists, and verifying that timely access revocation processes are in place."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-TERMINATION-004/",
+  "name": "Access Termination Process Missing"
+}

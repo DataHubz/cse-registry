@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HITRUST-ACCESS-NO-PROVISIONING-003",
+  "canonical_name": "Access Provisioning Process Missing",
+  "description": "A formal access provisioning process has not been established for granting user access to systems and data. This signal indicates the absence of documented procedures for approving, creating, and assigning user accounts and access rights in accordance with HITRUST CSF requirements.",
+  "domain": "HITRUST",
+  "category": "ACCESS",
+  "applicability": "Healthcare organizations subject to HIPAA, Organizations pursuing HITRUST certification, Systems processing sensitive health information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection involves reviewing access provisioning procedures, examining approval workflows, and verifying that formal processes exist for granting access rights."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PROVISIONING-003/",
+  "name": "Access Provisioning Process Missing"
+}

@@ -2567,6 +2567,28 @@
       "status": "active"
     },
     {
+      "id": "CSE-CMMC-IDENTITY-NO-UNIQUE-ID-002",
+      "canonical_name": "Unique User Identification Missing",
+      "description": "Users are not assigned unique identifiers for system access. This signal indicates that shared or generic accounts may be in use, violating CMMC requirements for individual accountability and audit trail maintenance.",
+      "domain": "CMMC",
+      "category": "IDENTITY",
+      "applicability": "Organizations handling Controlled Unclassified Information (CUI), Defense contractors pursuing CMMC certification, Systems requiring individual user accountability",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "identity",
+          "access-control",
+          "audit"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing user account policies, checking for shared accounts, and verifying that all users have unique identifiers."
+      },
+      "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-UNIQUE-ID-002/",
+      "name": "Unique User Identification Missing"
+    },
+    {
       "id": "CSE-CMMC-IDENTITY-OBSCURED-FEEDBACK-MISSING-011",
       "domain": "CMMC",
       "category": "IDENTITY",
@@ -2619,6 +2641,28 @@
       "definition_ref": "/v1.0.0/signals/CMMC/INCIDENT/CSE-CMMC-INCIDENT-NO-PLAN-001/",
       "introduced_in": "1.0.0",
       "status": "active"
+    },
+    {
+      "id": "CSE-CMMC-INCIDENT-NO-REPORTING-002",
+      "canonical_name": "Incident Reporting Process Missing",
+      "description": "A formal process for reporting security incidents has not been established. This signal indicates the absence of documented procedures for internal and external incident reporting as required by CMMC practices.",
+      "domain": "CMMC",
+      "category": "INCIDENT",
+      "applicability": "Organizations handling Controlled Unclassified Information (CUI), Defense contractors pursuing CMMC certification, Systems requiring incident response capabilities",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "incident-response",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing incident reporting procedures, checking for defined reporting channels, and verifying that escalation paths are documented."
+      },
+      "definition_ref": "/v1.0.0/signals/CMMC/INCIDENT/CSE-CMMC-INCIDENT-NO-REPORTING-002/",
+      "name": "Incident Reporting Process Missing"
     },
     {
       "id": "CSE-CMMC-INCIDENT-NO-REPORTING-003",
@@ -4610,6 +4654,28 @@
       "status": "active"
     },
     {
+      "id": "CSE-GDPR-RETENTION-NO-DEFINED-PERIODS-002",
+      "canonical_name": "Data Retention Periods Not Defined",
+      "description": "The organization has not established defined retention periods for personal data as required by GDPR Article 5(1)(e). This signal indicates that data may be kept longer than necessary for its original processing purpose, violating the storage limitation principle. Organizations must define and document specific retention periods for each category of personal data processed.",
+      "domain": "GDPR",
+      "category": "RETENTION",
+      "applicability": "Organizations processing personal data of EU residents, Data controllers and processors subject to GDPR, Organizations without documented data retention policies",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing data retention policies, checking for documented retention schedules, and assessing whether retention periods are defined for all categories of personal data."
+      },
+      "definition_ref": "/v1.0.0/signals/GDPR/RETENTION/CSE-GDPR-RETENTION-NO-DEFINED-PERIODS-002/",
+      "name": "Data Retention Periods Not Defined"
+    },
+    {
       "id": "CSE-GDPR-RIGHTS-NO-ACCESS-MECHANISM-007",
       "domain": "GDPR",
       "category": "RIGHTS",
@@ -6167,6 +6233,28 @@
       "status": "active"
     },
     {
+      "id": "CSE-HITRUST-ACCESS-NO-PERIODIC-REVIEW-005",
+      "canonical_name": "Periodic Access Review Missing",
+      "description": "Regular periodic reviews of user access rights are not being conducted. This signal indicates the absence of a process to regularly validate that user access permissions remain appropriate and aligned with current job responsibilities as required by HITRUST CSF.",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "applicability": "Healthcare organizations subject to HIPAA, Organizations pursuing HITRUST certification, Systems processing sensitive health information",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "access-control",
+          "identity",
+          "authorization"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves checking for documented access review schedules, examining review records, and verifying that periodic access certifications are performed."
+      },
+      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PERIODIC-REVIEW-005/",
+      "name": "Periodic Access Review Missing"
+    },
+    {
       "id": "CSE-HITRUST-ACCESS-NO-POLICY-001",
       "domain": "HITRUST",
       "category": "ACCESS",
@@ -6183,6 +6271,28 @@
       "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PRIVILEGE-MANAGEMENT-003/",
       "introduced_in": "1.0.0",
       "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ACCESS-NO-PROVISIONING-003",
+      "canonical_name": "Access Provisioning Process Missing",
+      "description": "A formal access provisioning process has not been established for granting user access to systems and data. This signal indicates the absence of documented procedures for approving, creating, and assigning user accounts and access rights in accordance with HITRUST CSF requirements.",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "applicability": "Healthcare organizations subject to HIPAA, Organizations pursuing HITRUST certification, Systems processing sensitive health information",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "access-control",
+          "identity",
+          "authorization"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing access provisioning procedures, examining approval workflows, and verifying that formal processes exist for granting access rights."
+      },
+      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PROVISIONING-003/",
+      "name": "Access Provisioning Process Missing"
     },
     {
       "id": "CSE-HITRUST-ACCESS-NO-REMOTE-ACCESS-CONTROL-008",
@@ -6210,6 +6320,28 @@
       "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-SESSION-MANAGEMENT-007/",
       "introduced_in": "1.0.0",
       "status": "active"
+    },
+    {
+      "id": "CSE-HITRUST-ACCESS-NO-TERMINATION-004",
+      "canonical_name": "Access Termination Process Missing",
+      "description": "A formal access termination process has not been established for revoking user access upon employment termination or role change. This signal indicates the absence of documented procedures for timely removal of access rights when users leave the organization or change positions.",
+      "domain": "HITRUST",
+      "category": "ACCESS",
+      "applicability": "Healthcare organizations subject to HIPAA, Organizations pursuing HITRUST certification, Systems processing sensitive health information",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "access-control",
+          "identity",
+          "authorization"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing access termination procedures, examining offboarding checklists, and verifying that timely access revocation processes are in place."
+      },
+      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-TERMINATION-004/",
+      "name": "Access Termination Process Missing"
     },
     {
       "id": "CSE-HITRUST-ACCESS-NO-USER-REGISTRATION-002",
@@ -9632,6 +9764,28 @@
       "status": "active"
     },
     {
+      "id": "CSE-SOC2-AVAIL-NO-CAPACITY-PLANNING-001",
+      "canonical_name": "Capacity Planning Process Missing",
+      "description": "The organization has not established a formal capacity planning process. This signal indicates the absence of procedures for monitoring and projecting system capacity needs to ensure availability.",
+      "domain": "SOC2",
+      "category": "AVAIL",
+      "applicability": "Organizations pursuing SOC 2 certification, Service organizations with availability requirements",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "availability",
+          "capacity-management",
+          "infrastructure"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing capacity planning documentation, examining monitoring configurations, and verifying that capacity projections are performed."
+      },
+      "definition_ref": "/v1.0.0/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-CAPACITY-PLANNING-001/",
+      "name": "Capacity Planning Process Missing"
+    },
+    {
       "id": "CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002",
       "domain": "SOC2",
       "category": "AVAIL",
@@ -9767,6 +9921,28 @@
       "status": "active"
     },
     {
+      "id": "CSE-SOC2-CC-NO-GOVERNANCE-001",
+      "canonical_name": "IT Governance Structure Missing",
+      "description": "The organization has not established a formal IT governance structure. This signal indicates the absence of defined oversight mechanisms for technology risk management and security decision-making as required by SOC 2 Common Criteria.",
+      "domain": "SOC2",
+      "category": "CC",
+      "applicability": "Organizations pursuing SOC 2 certification, Service organizations providing technology services, Organizations requiring formal IT governance",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "governance",
+          "compliance",
+          "risk-management"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing governance documentation, examining board and committee structures, and verifying IT oversight mechanisms are in place."
+      },
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-GOVERNANCE-001/",
+      "name": "IT Governance Structure Missing"
+    },
+    {
       "id": "CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030",
       "domain": "SOC2",
       "category": "CC",
@@ -9774,6 +9950,27 @@
       "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030/",
       "introduced_in": "1.0.0",
       "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-INCIDENT-RESOLUTION-030",
+      "canonical_name": "Incident Resolution Process Missing",
+      "description": "The organization has not established a formal process for resolving security incidents. This signal indicates the absence of documented procedures for investigating, containing, and remediating security incidents.",
+      "domain": "SOC2",
+      "category": "CC",
+      "applicability": "Organizations pursuing SOC 2 certification, Service organizations requiring incident management capabilities",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "incident-response",
+          "security-operations"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing incident response procedures, examining resolution workflows, and verifying that root cause analysis processes exist."
+      },
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RESOLUTION-030/",
+      "name": "Incident Resolution Process Missing"
     },
     {
       "id": "CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029",
@@ -9911,6 +10108,28 @@
       "status": "active"
     },
     {
+      "id": "CSE-SOC2-CC-NO-TRANSMISSION-PROTECTION-024",
+      "canonical_name": "Data Transmission Protection Missing",
+      "description": "The organization has not implemented adequate protection for data in transit. This signal indicates the absence of encryption or other security measures to protect data during transmission.",
+      "domain": "SOC2",
+      "category": "CC",
+      "applicability": "Organizations pursuing SOC 2 certification, Service organizations transmitting sensitive data",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "encryption",
+          "network-security",
+          "data-protection"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing network configurations, checking for TLS/SSL implementation, and verifying encryption is used for sensitive data transmission."
+      },
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-TRANSMISSION-PROTECTION-024/",
+      "name": "Data Transmission Protection Missing"
+    },
+    {
       "id": "CSE-SOC2-CC-NO-TRANSMISSION-SECURITY-024",
       "domain": "SOC2",
       "category": "CC",
@@ -9927,6 +10146,28 @@
       "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-USER-REGISTRATION-019/",
       "introduced_in": "1.0.0",
       "status": "active"
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-USER-REMOVAL-020",
+      "canonical_name": "User Access Removal Process Missing",
+      "description": "The organization has not established a formal process for removing user access when no longer needed. This signal indicates the absence of procedures for timely revocation of access rights upon termination or role change.",
+      "domain": "SOC2",
+      "category": "CC",
+      "applicability": "Organizations pursuing SOC 2 certification, Service organizations with user access management requirements",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "access-control",
+          "identity",
+          "authorization"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing access removal procedures, examining termination checklists, and verifying that access revocation is timely and complete."
+      },
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-USER-REMOVAL-020/",
+      "name": "User Access Removal Process Missing"
     },
     {
       "id": "CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033",

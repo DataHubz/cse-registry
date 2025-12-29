@@ -1,0 +1,22 @@
+{
+  "id": "CSE-SOC2-CC-NO-GOVERNANCE-001",
+  "canonical_name": "IT Governance Structure Missing",
+  "description": "The organization has not established a formal IT governance structure. This signal indicates the absence of defined oversight mechanisms for technology risk management and security decision-making as required by SOC 2 Common Criteria.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Organizations pursuing SOC 2 certification, Service organizations providing technology services, Organizations requiring formal IT governance",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "governance",
+      "compliance",
+      "risk-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection involves reviewing governance documentation, examining board and committee structures, and verifying IT oversight mechanisms are in place."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-GOVERNANCE-001/",
+  "name": "IT Governance Structure Missing"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "CSE-CMMC-IDENTITY-NO-UNIQUE-ID-002",
+  "canonical_name": "Unique User Identification Missing",
+  "description": "Users are not assigned unique identifiers for system access. This signal indicates that shared or generic accounts may be in use, violating CMMC requirements for individual accountability and audit trail maintenance.",
+  "domain": "CMMC",
+  "category": "IDENTITY",
+  "applicability": "Organizations handling Controlled Unclassified Information (CUI), Defense contractors pursuing CMMC certification, Systems requiring individual user accountability",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "identity",
+      "access-control",
+      "audit"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection involves reviewing user account policies, checking for shared accounts, and verifying that all users have unique identifiers."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-UNIQUE-ID-002/",
+  "name": "Unique User Identification Missing"
+}

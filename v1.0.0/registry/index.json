@@ -12,7 +12,7 @@
   "domains": [
     {
       "name": "CMMC",
-      "signal_count": 134,
+      "signal_count": 136,
       "categories": {
         "ACCESS": 22,
         "ASSESSMENT": 4,
@@ -21,8 +21,8 @@
         "COMMS": 16,
         "CONFIG": 9,
         "ENHANCED": 24,
-        "IDENTITY": 11,
-        "INCIDENT": 3,
+        "IDENTITY": 12,
+        "INCIDENT": 4,
         "INTEGRITY": 7,
         "MAINTENANCE": 6,
         "MEDIA": 9,
@@ -35,7 +35,7 @@
     },
     {
       "name": "GDPR",
-      "signal_count": 80,
+      "signal_count": 81,
       "categories": {
         "CHILDREN": 2,
         "CONSENT": 5,
@@ -44,6 +44,7 @@
         "DPO": 4,
         "IMPACT": 4,
         "PRINCIPLES": 13,
+        "RETENTION": 1,
         "RIGHTS": 18,
         "SECURITY": 14,
         "TRANSFER": 6
@@ -85,10 +86,10 @@
     },
     {
       "name": "SOC2",
-      "signal_count": 64,
+      "signal_count": 68,
       "categories": {
-        "AVAIL": 3,
-        "CC": 33,
+        "AVAIL": 4,
+        "CC": 36,
         "CONF": 2,
         "PI": 5,
         "PRIV": 21
@@ -209,9 +210,9 @@
     },
     {
       "name": "HITRUST",
-      "signal_count": 126,
+      "signal_count": 129,
       "categories": {
-        "ACCESS": 12,
+        "ACCESS": 15,
         "ASSET": 6,
         "BCM": 6,
         "CLOUD": 6,
@@ -261,5 +262,5 @@
       "file_min": "domains/CIS.min.json"
     }
   ],
-  "total_signals": 1132
+  "total_signals": 1143
 }

@@ -1,0 +1,22 @@
+{
+  "id": "CSE-CMMC-INCIDENT-NO-REPORTING-002",
+  "canonical_name": "Incident Reporting Process Missing",
+  "description": "A formal process for reporting security incidents has not been established. This signal indicates the absence of documented procedures for internal and external incident reporting as required by CMMC practices.",
+  "domain": "CMMC",
+  "category": "INCIDENT",
+  "applicability": "Organizations handling Controlled Unclassified Information (CUI), Defense contractors pursuing CMMC certification, Systems requiring incident response capabilities",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "incident-response",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection involves reviewing incident reporting procedures, checking for defined reporting channels, and verifying that escalation paths are documented."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/INCIDENT/CSE-CMMC-INCIDENT-NO-REPORTING-002/",
+  "name": "Incident Reporting Process Missing"
+}

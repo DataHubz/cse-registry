@@ -1,0 +1,22 @@
+{
+  "id": "CSE-SOC2-CC-NO-USER-REMOVAL-020",
+  "canonical_name": "User Access Removal Process Missing",
+  "description": "The organization has not established a formal process for removing user access when no longer needed. This signal indicates the absence of procedures for timely revocation of access rights upon termination or role change.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Organizations pursuing SOC 2 certification, Service organizations with user access management requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection involves reviewing access removal procedures, examining termination checklists, and verifying that access revocation is timely and complete."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-USER-REMOVAL-020/",
+  "name": "User Access Removal Process Missing"
+}
