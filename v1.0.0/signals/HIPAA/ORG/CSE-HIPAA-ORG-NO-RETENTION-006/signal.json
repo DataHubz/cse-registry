@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-ORG-NO-RETENTION-006",
+  "canonical_name": "No 6-Year Retention",
+  "description": "Documentation not retained for 6 years from date of creation or when last in effect.",
+  "domain": "HIPAA",
+  "category": "ORG",
+  "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "45 CFR 164.316(b)(2)(i)"
+    ],
+    "detection_notes": "Detection guidance: Review records retention policies and practices to ensure Security Rule documentation is retained for the required 6-year period. Examine document management systems for appropriate retention schedules. Verify that both current and superseded policies, procedures, and required documentation are retained. Assess whether retention periods are calculated correctly from the later of creation date or when the document was last in effect."
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-RETENTION-006/"
+}

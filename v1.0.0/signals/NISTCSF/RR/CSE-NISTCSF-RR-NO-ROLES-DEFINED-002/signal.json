@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-RR-NO-ROLES-DEFINED-002",
+  "canonical_name": "Cybersecurity Roles and Responsibilities Not Defined",
+  "description": "Roles, responsibilities, and authorities for cybersecurity are not established and communicated.",
+  "domain": "NISTCSF",
+  "category": "RR",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Identify organizations lacking documented cybersecurity roles and responsibilities, absence of RACI matrices or equivalent documentation, unclear authority delegation for security decisions, or evidence that personnel are unaware of their cybersecurity obligations."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/RR/CSE-NISTCSF-RR-NO-ROLES-DEFINED-002/"
+}

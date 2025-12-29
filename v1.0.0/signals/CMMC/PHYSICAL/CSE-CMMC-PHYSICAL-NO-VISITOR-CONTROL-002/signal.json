@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-PHYSICAL-NO-VISITOR-CONTROL-002",
+  "canonical_name": "Visitor Access Not Controlled",
+  "description": "Visitors are not authenticated, escorted, or monitored while in facilities containing CUI. This signal indicates that unauthorized access by visitors may go undetected.",
+  "domain": "CMMC",
+  "category": "PHYSICAL",
+  "applicability": "Applicable to all visitor management procedures. Includes visitor sign-in, badge issuance, escort requirements, and visitor monitoring in secure areas.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "visitor-management",
+      "access-control"
+    ],
+    "related_controls": [
+      "CMMC PE.L2-3.10.3",
+      "NIST SP 800-171 3.10.3"
+    ],
+    "detection_notes": "Detected through visitor management procedure review, escort policy verification, and visitor log assessment."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-VISITOR-CONTROL-002/"
+}

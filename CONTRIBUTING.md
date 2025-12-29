@@ -12,8 +12,8 @@ Please read and understand:
 
 - [README.md](README.md) — Project overview
 - [GOVERNANCE.md](GOVERNANCE.md) — Governance model and principles
-- [spec/cse-spec-v1.0.md](spec/cse-spec-v1.0.md) — Core specification
-- [spec/signal-format-v1.0.md](spec/signal-format-v1.0.md) — Signal definition format
+- [v1.0.0/spec/cse-spec-v1.0.md](v1.0.0/spec/cse-spec-v1.0.md) — Core specification
+- [v1.0.0/spec/signal-format-v1.0.md](v1.0.0/spec/signal-format-v1.0.md) — Signal definition format
 
 ## What You Can Contribute
 
@@ -62,14 +62,14 @@ The following will not be accepted:
 
 ### Step 1: Check for Duplicates
 
-Search the `/signals` directory and existing issues to ensure the signal doesn't already exist.
+Search the `/v1.0.0/signals` directory and existing issues to ensure the signal doesn't already exist.
 
 ### Step 2: Draft the Signal
 
 Create the following files following the directory structure:
 
 ```
-signals/<DOMAIN>/<CATEGORY>/<CSE-ID>/
+v1.0.0/signals/<DOMAIN>/<CATEGORY>/<CSE-ID>/
 ├── signal.json
 └── README.md
 ```
@@ -121,7 +121,7 @@ Include:
 Validate your signal against the schema:
 
 ```bash
-npx ajv validate -s schemas/signal.schema.json -d signals/<path>/signal.json
+npx ajv validate -s v1.0.0/schemas/signal.schema.json -d v1.0.0/signals/<path>/signal.json
 ```
 
 ### Step 4: Submit

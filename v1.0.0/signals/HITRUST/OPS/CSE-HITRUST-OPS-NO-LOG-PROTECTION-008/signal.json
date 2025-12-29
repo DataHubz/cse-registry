@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-OPS-NO-LOG-PROTECTION-008",
+  "canonical_name": "Log Protection Missing",
+  "description": "Logging facilities and log information are not protected against tampering, unauthorized access, or deletion. This signal indicates that audit logs lack adequate protection mechanisms, which may allow attackers to hide their activities, prevent incident detection, or compromise forensic evidence.",
+  "domain": "HITRUST",
+  "category": "OPS",
+  "applicability": "This signal applies to: Log file access controls and permissions Log storage encryption and integrity protection Centralized log aggregation systems Log retention and archival systems Log modification detection mechanisms Write-once or immutable log storage Log backup and recovery procedures Administrative access to logging infrastructure",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of log file permissions and access controls Assessment of log encryption at rest and in transit Examination of log integrity verification mechanisms Verification of centralized log aggregation security Review of log retention enforcement Analysis of administrative access to logs Inspection of log backup and archival protection Verification of tamper-evident or immutable log storage The presence of this signal indicates a condition that warrants review in the context of audit integrity and non-repudiation requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-LOG-PROTECTION-008/"
+}

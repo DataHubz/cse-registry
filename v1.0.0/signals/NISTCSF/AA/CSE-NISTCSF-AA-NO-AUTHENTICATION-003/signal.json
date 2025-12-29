@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-AA-NO-AUTHENTICATION-003",
+  "canonical_name": "No Authentication",
+  "description": "Users, services, and hardware are not authenticated.",
+  "domain": "NISTCSF",
+  "category": "AA",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Identity and access management teams Security awareness and training programs Organizations managing user authentication",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Identify systems and services that lack authentication mechanisms or allow unauthenticated access to resources, including missing authentication requirements for users, service accounts, APIs, and hardware devices before granting access to systems or data."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-AUTHENTICATION-003/"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-RESPONSE-MECHANISM-002",
+  "canonical_name": "Data Subject Request Response Missing",
+  "description": "No mechanism exists to respond to data subject requests without undue delay and within the required one-month timeframe. Controllers must be able to receive, process, and respond to rights requests.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable to all data subject rights request handling. Includes access requests, erasure requests, and all other rights under Articles 15-22.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "data-subject-rights",
+      "response"
+    ],
+    "related_controls": [
+      "GDPR Art. 12.3",
+      "GDPR Art. 12.4"
+    ],
+    "detection_notes": "Detected through review of request handling procedures, response tracking systems, and historical response times. Verify ability to meet one-month deadline."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-RESPONSE-MECHANISM-002/"
+}

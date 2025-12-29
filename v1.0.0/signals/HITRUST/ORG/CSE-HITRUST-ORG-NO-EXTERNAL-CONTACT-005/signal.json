@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-ORG-NO-EXTERNAL-CONTACT-005",
+  "canonical_name": "External Contact Process Missing",
+  "description": "No documented process exists for engaging with external authorities or special interest groups on security matters. This signal indicates that the organization has not established formal procedures for maintaining relationships with, reporting to, or coordinating with external entities such as law enforcement, regulatory authorities, industry groups, information sharing organizations, or security response teams (e.g., CERT/CC, ISACs).",
+  "domain": "HITRUST",
+  "category": "ORG",
+  "applicability": "This signal applies to: Incident response procedures Breach notification processes Regulatory compliance programs Information sharing agreements Law enforcement coordination Industry partnership documentation Security operations procedures Crisis management plans",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of incident response procedures Analysis of breach notification processes Examination of regulatory compliance documentation Assessment of information sharing agreements Review of law enforcement coordination procedures Inspection of industry partnership documentation Analysis of crisis management plans Evaluation of external contact lists The presence of this signal indicates a condition that warrants review in the context of external stakeholder engagement and regulatory coordination requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-EXTERNAL-CONTACT-005/"
+}

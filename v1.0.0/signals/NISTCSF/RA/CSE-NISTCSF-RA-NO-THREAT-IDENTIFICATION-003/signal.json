@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-RA-NO-THREAT-IDENTIFICATION-003",
+  "canonical_name": "No Threat Identification",
+  "description": "Internal and external threats to the organization are not identified and recorded.",
+  "domain": "NISTCSF",
+  "category": "RA",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Risk assessment and vulnerability management teams Security operations and threat intelligence functions Organizations conducting security assessments",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: This signal indicates that threat identification processes are not established or maintained. Organizations should implement threat modeling, threat intelligence analysis, and threat documentation processes to identify both external threat actors and internal threat scenarios relevant to their environment."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-THREAT-IDENTIFICATION-003/"
+}

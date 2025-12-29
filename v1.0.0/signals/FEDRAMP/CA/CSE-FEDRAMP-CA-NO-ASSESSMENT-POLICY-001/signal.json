@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-CA-NO-ASSESSMENT-POLICY-001",
+  "canonical_name": "No Assessment Policy",
+  "description": "An organization lacks a documented security assessment and authorization policy or procedures for control assessment activities. This signal indicates the absence of formal policies and procedures governing how security controls are assessed, documented, and authorized within the organization's information systems, which is a foundational requirement for FedRAMP authorization.",
+  "domain": "FEDRAMP",
+  "category": "CA",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) seeking FedRAMP authorization Federal agencies implementing cloud services Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems requiring authorization",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security-assessment",
+      "authorization",
+      "compliance"
+    ],
+    "related_controls": [
+      "CA-1 - Security Assessment and Authorization Policy and Procedures"
+    ],
+    "detection_notes": "Detection guidance: Check for the existence of documented security assessment and authorization policies Verify that policies address purpose, scope, roles, responsibilities, and compliance requirements Confirm that procedures exist to facilitate implementation of the policy Validate that policies and procedures are disseminated to appropriate personnel Review policy update frequency and version control mechanisms Examine whether policies align with FedRAMP requirements and organizational risk management framework"
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/CA/CSE-FEDRAMP-CA-NO-ASSESSMENT-POLICY-001/"
+}

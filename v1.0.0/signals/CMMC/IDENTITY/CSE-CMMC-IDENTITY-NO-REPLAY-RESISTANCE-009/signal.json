@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-IDENTITY-NO-REPLAY-RESISTANCE-009",
+  "canonical_name": "Replay-Resistant Authentication Not Implemented",
+  "description": "Authentication mechanisms do not prevent replay attacks where captured credentials are reused. This signal indicates that intercepted authentication data may be replayed to gain unauthorized access.",
+  "domain": "CMMC",
+  "category": "IDENTITY",
+  "applicability": "Applicable to network authentication and privileged access. Includes challenge-response protocols, time-based tokens, nonce usage, and session binding mechanisms.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "identification-authentication",
+      "network-security",
+      "attack-prevention"
+    ],
+    "related_controls": [
+      "CMMC IA.L2-3.5.8",
+      "NIST SP 800-171 3.5.8"
+    ],
+    "detection_notes": "Detected through authentication protocol analysis, replay attack testing, and session management review."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-REPLAY-RESISTANCE-009/"
+}

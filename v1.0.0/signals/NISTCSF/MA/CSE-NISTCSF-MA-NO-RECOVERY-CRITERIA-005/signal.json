@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-MA-NO-RECOVERY-CRITERIA-005",
+  "canonical_name": "Criteria for Initiating Incident Recovery Not Applied",
+  "description": "Criteria for initiating incident recovery are not applied.",
+  "domain": "NISTCSF",
+  "category": "RS.MA",
+  "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Look for incidents transitioning to recovery phase without documented criteria being met, premature recovery initiation before containment verification, missing approval checkpoints for recovery operations, or recovery activities starting without validation that threats have been eradicated. Monitor for gaps between incident resolution and formal recovery criteria assessment."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/MA/CSE-NISTCSF-MA-NO-RECOVERY-CRITERIA-005/"
+}

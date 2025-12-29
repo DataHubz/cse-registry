@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CCPA-NOTICE-NO-RIGHTS-DISCLOSURE-006",
+  "canonical_name": "Consumer Rights Not Disclosed",
+  "description": "A business fails to inform consumers of their CCPA rights in its privacy policy or other required notices. This signal indicates missing or incomplete disclosure of consumer rights such as the right to know, right to delete, right to opt-out of sale/sharing, right to correct, and right to limit sensitive personal information use. CCPA mandates that businesses clearly describe consumer rights and provide instructions for exercising those rights.",
+  "domain": "CCPA",
+  "category": "NOTICE",
+  "applicability": "This signal applies to: Privacy policies and comprehensive privacy notices \"Your Privacy Choices\" or \"Your Rights\" dedicated pages Account settings and preference centers Mobile application privacy sections Marketing communications and customer portals Website footers with privacy-related links Right-to-know and right-to-delete request forms Cookie consent and tracking preference interfaces",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "transparency",
+      "privacy-notice",
+      "disclosure"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Natural language processing of privacy policy text for rights-related keywords Pattern matching for statutory rights language (know, delete, opt-out, correct, limit) Analysis of website navigation for \"Your Rights\" or \"Privacy Choices\" links Review of account settings for privacy rights controls Checking for \"Do Not Sell or Share My Personal Information\" links Scanning privacy notices for rights exercise instructions Evaluating mobile app privacy screens for rights disclosure The presence of this signal indicates a fundamental transparency gap that may impair consumers' ability to understand and exercise their legal rights."
+  },
+  "definition_ref": "/v1.0.0/signals/CCPA/NOTICE/CSE-CCPA-NOTICE-NO-RIGHTS-DISCLOSURE-006/"
+}

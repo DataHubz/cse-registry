@@ -1,0 +1,21 @@
+{
+  "id": "CSE-FEDRAMP-CP-NO-CONTINGENCY-PLAN-002",
+  "canonical_name": "No Contingency Plan",
+  "description": "The information system does not have a documented contingency plan that identifies essential missions, business functions, recovery objectives, restoration priorities, and plan activation criteria. This signal indicates that the organization may lack a comprehensive plan for maintaining or restoring operations in the event of disruptions, compromises, or failures.",
+  "domain": "FEDRAMP",
+  "category": "CP",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "contingency-planning",
+      "disaster-recovery",
+      "resilience"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of contingency plan documentation Analysis of essential missions and business functions identification Verification of recovery objectives (RTO/RPO) definitions Assessment of restoration priorities and procedures Examination of plan distribution and maintenance records Inspection of coordination with incident response activities Review of plan update and review schedules The presence of this signal indicates a condition that warrants review in the context of FedRAMP contingency planning requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-CONTINGENCY-PLAN-002/"
+}

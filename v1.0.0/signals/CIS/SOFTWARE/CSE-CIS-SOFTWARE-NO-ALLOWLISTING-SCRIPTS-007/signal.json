@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-SOFTWARE-NO-ALLOWLISTING-SCRIPTS-007",
+  "canonical_name": "Script Allowlisting Not Implemented",
+  "description": "An organization does not implement technical controls to restrict the execution of unauthorized scripts on enterprise assets. This signal indicates that scripts in languages such as PowerShell, Bash, Python, JavaScript, and others can execute without verification or authorization checks, potentially allowing malicious code execution through scripting engines.",
+  "domain": "CIS",
+  "category": "SOFTWARE",
+  "applicability": "This signal applies to: Windows systems with PowerShell Linux/Unix systems with shell access macOS systems with Terminal access Web browsers executing JavaScript Application servers running server-side scripts Automation and orchestration platforms Database systems with stored procedures Configuration management tools",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for SOFTWARE requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-ALLOWLISTING-SCRIPTS-007/"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-PCIDSS-SECDEV-NO-SECURE-DEV-PROCESS-001",
+  "canonical_name": "No Secure Development Processes",
+  "description": "No defined processes for developing secure systems and software.",
+  "domain": "PCIDSS",
+  "category": "SECDEV",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment application developers E-commerce platforms and merchants Systems and endpoints within CDE scope Web applications handling payment data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "6.1 - Processes and mechanisms for developing and maintaining secure systems and software are defined and understood"
+    ],
+    "detection_notes": "Detection guidance: Monitor for absence of secure software development lifecycle (SDLC) documentation and procedures. Review development processes for lack of security requirements, design reviews, or security testing phases. Check for missing secure coding standards, guidelines, or training materials. Identify gaps in development environment security controls and separation of duties. Verify that security activities are integrated throughout the development lifecycle rather than added as an afterthought."
+  },
+  "definition_ref": "/v1.0.0/signals/PCIDSS/SECDEV/CSE-PCIDSS-SECDEV-NO-SECURE-DEV-PROCESS-001/"
+}

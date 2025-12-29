@@ -1,0 +1,25 @@
+{
+  "id": "CSE-CMMC-ACCESS-UNRESTRICTED-ADMIN-001",
+  "canonical_name": "Unrestricted Administrative Access",
+  "description": "Administrative or privileged access to a system, service, or resource is not restricted by defined conditions or constraints. This signal indicates that administrative privileges are available without limitations such as network boundaries, time-based restrictions, multi-factor authentication requirements, or role-based scoping.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to any system, cloud service, infrastructure component, or application where administrative access is configured. Includes identity providers, cloud management consoles, server administration interfaces, database management systems, and network device configurations.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "privilege-management",
+      "identity"
+    ],
+    "related_controls": [
+      "CMMC AC.L2-3.1.5",
+      "CMMC AC.L2-3.1.6",
+      "CMMC AC.L2-3.1.7"
+    ],
+    "detection_notes": "Commonly detected through analysis of IAM policies, role configurations, conditional access policies, and network access control lists. May also be identified through review of authentication configuration and session management settings."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-UNRESTRICTED-ADMIN-001/"
+}

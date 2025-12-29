@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-CLOUD-NO-GOVERNANCE-001",
+  "canonical_name": "Cloud Governance Missing",
+  "description": "A cloud governance framework has not been established or documented for an organization utilizing cloud services to process, store, or transmit protected health information (PHI) or other sensitive data. This signal indicates the absence of a formal governance structure for cloud services, including policies, procedures, standards, and oversight mechanisms. Cloud governance should define decision-making authority, risk management processes, compliance requirements, and accountability for cloud s",
+  "domain": "HITRUST",
+  "category": "CLOUD",
+  "applicability": "This signal applies to: Healthcare organizations utilizing cloud services for PHI Business associates hosting applications in cloud environments Organizations pursuing HITRUST certification using cloud infrastructure Multi-cloud or hybrid cloud deployments Organizations using SaaS, PaaS, or IaaS cloud services Cloud service providers serving healthcare clients Healthcare applications migrating to cloud platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of cloud governance documentation and frameworks Assessment of cloud service approval processes Examination of cloud strategy and planning documents Verification of cloud oversight committees or roles Review of cloud vendor management procedures Analysis of cloud risk management processes The presence of this signal indicates a foundational gap in cloud governance that should be addressed as a priority for HITRUST compliance and secure cloud operations."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-GOVERNANCE-001/"
+}

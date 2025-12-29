@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-ADMIN-NO-CLEARANCE-PROC-007",
+  "canonical_name": "No Workforce Clearance Procedure",
+  "description": "No procedures exist to determine that the access of a workforce member to electronic protected health information (ePHI) is appropriate. This signal indicates the absence of documented processes to verify and validate that workforce members have legitimate business needs for the level of ePHI access they are granted.",
+  "domain": "HIPAA",
+  "category": "ADMIN",
+  "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "governance",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.308(a)(3)(ii)(B)"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of workforce clearance procedures and documentation Examination of access appropriateness review processes Analysis of role-based access determination workflows Verification of business need justification for access requests Assessment of periodic access appropriateness reviews The presence of this signal indicates that workforce members may have inappropriate or excessive access to ePHI."
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-CLEARANCE-PROC-007/"
+}

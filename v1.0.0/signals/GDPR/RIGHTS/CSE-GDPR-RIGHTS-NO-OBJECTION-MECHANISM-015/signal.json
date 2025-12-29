@@ -1,0 +1,23 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-OBJECTION-MECHANISM-015",
+  "canonical_name": "Objection Mechanism Missing",
+  "description": "No mechanism exists for data subjects to object to processing based on legitimate interests or public task grounds. Controllers must cease processing unless compelling legitimate grounds exist.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable when processing is based on legitimate interests (Art. 6.1.f) or public task (Art. 6.1.e). Must enable objection handling and assessment.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "data-subject-rights",
+      "objection"
+    ],
+    "related_controls": [
+      "GDPR Art. 21.1"
+    ],
+    "detection_notes": "Detected through review of objection handling procedures and processing controls. Verify ability to receive, assess, and act on objections."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-OBJECTION-MECHANISM-015/"
+}

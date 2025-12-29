@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-CONFIG-NO-DEFAULT-DENY-004",
+  "canonical_name": "Default Deny Firewall Rule Missing",
+  "description": "Firewalls and filtering systems do not implement a default deny rule, allowing traffic that is not explicitly permitted rather than blocking all traffic except what is specifically allowed. This signal indicates that network traffic control follows a permissive rather than restrictive security model.",
+  "domain": "CIS",
+  "category": "CONFIG",
+  "applicability": "This signal applies to: Host-based firewalls Network firewalls and ACLs Security groups (cloud environments) Web application firewalls Packet filtering systems Network access control lists Endpoint protection platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "hardening",
+      "baseline"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for CONFIG requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-DEFAULT-DENY-004/"
+}

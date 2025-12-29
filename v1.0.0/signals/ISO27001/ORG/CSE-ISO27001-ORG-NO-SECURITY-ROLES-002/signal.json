@@ -1,0 +1,23 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-SECURITY-ROLES-002",
+  "canonical_name": "No Information Security Roles and Responsibilities",
+  "description": "Information security roles and responsibilities are not defined and allocated according to organizational needs.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization has not formally defined and documented security roles, responsibilities are not clearly allocated, or personnel are unclear about their information security obligations.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "governance",
+      "accountability",
+      "organizational"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.5.2"
+    ],
+    "detection_notes": "Review organizational charts and role descriptions for security responsibilities, interview personnel about their security obligations, assess RACI matrices for security functions, verify documentation of security role assignments."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SECURITY-ROLES-002/"
+}

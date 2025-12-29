@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-COMMS-WEAK-CRYPTO-004",
+  "canonical_name": "Weak Cryptographic Configuration",
+  "description": "Cryptographic implementations use deprecated algorithms, insufficient key lengths, or insecure configurations. This signal indicates that encryption may not provide adequate protection against modern cryptographic attacks.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to any cryptographic implementation including TLS/SSL configurations, encryption algorithms, key management, and certificate handling. Includes both data encryption and communication encryption.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "cryptography",
+      "encryption",
+      "data-protection"
+    ],
+    "related_controls": [
+      "CMMC SC.L2-3.13.11",
+      "NIST SP 800-171 3.13.11"
+    ],
+    "detection_notes": "Detected through TLS configuration scanning, cipher suite analysis, certificate validation, and cryptographic library version review. May involve tools like SSL Labs, testssl.sh, or cryptographic audit tools."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-WEAK-CRYPTO-004/"
+}

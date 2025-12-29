@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-SESSION-AUTHENTICITY-011",
+  "canonical_name": "Communication Session Authenticity Not Ensured",
+  "description": "Authenticity of communication sessions is not verified through cryptographic mechanisms. This signal indicates that session hijacking or man-in-the-middle attacks may be possible.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to all authenticated communication sessions. Includes TLS certificate validation, session token protection, and mutual authentication requirements.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "system-communications",
+      "authentication",
+      "session-security"
+    ],
+    "related_controls": [
+      "CMMC SC.L2-3.13.15",
+      "NIST SP 800-171 3.13.15"
+    ],
+    "detection_notes": "Detected through session authentication configuration review, certificate validation testing, and mutual authentication verification."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-SESSION-AUTHENTICITY-011/"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-BACKUP-ISOLATION-015",
+  "canonical_name": "Backup Isolation from Production Not Implemented",
+  "description": "Backup systems are not isolated from production networks to prevent compromise. This signal indicates that ransomware or other attacks may compromise both production and backup data.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments with critical backup requirements. Includes air-gapped backups, immutable storage, and isolated backup networks.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "enhanced-security",
+      "data-protection",
+      "resilience"
+    ],
+    "related_controls": [
+      "CMMC L3-CP.3.4.1e",
+      "NIST SP 800-172 3.4.1e"
+    ],
+    "detection_notes": "Detected through backup architecture review, network isolation verification, and backup immutability testing.",
+    "cmmc_level": 3
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-BACKUP-ISOLATION-015/"
+}

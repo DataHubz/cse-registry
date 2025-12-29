@@ -1,0 +1,23 @@
+{
+  "id": "CSE-ISO27001-PEOPLE-NO-SCREENING-001",
+  "canonical_name": "No Personnel Screening",
+  "description": "Background verification checks on candidates are not carried out prior to joining and on an ongoing basis.",
+  "domain": "ISO27001",
+  "category": "PEOPLE",
+  "applicability": "HR processes, contractor onboarding, privileged access roles",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "human-resources",
+      "access-control",
+      "insider-threat"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.6.1"
+    ],
+    "detection_notes": "Review HR onboarding procedures, background check policies, and verification records for candidates and existing personnel with privileged access."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-SCREENING-001/"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-INTEGRITY-NO-SPAM-PROTECTION-005",
+  "canonical_name": "Spam Protection Not Implemented",
+  "description": "Email systems do not implement spam filtering and protection mechanisms. This signal indicates that phishing, malware, and unwanted messages may reach users without filtering.",
+  "domain": "CMMC",
+  "category": "INTEGRITY",
+  "applicability": "Applicable to all email systems. Includes spam filtering, email security gateways, phishing detection, and malicious attachment scanning.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-integrity",
+      "email-security",
+      "malware-prevention"
+    ],
+    "related_controls": [
+      "CMMC SI.L2-3.14.5",
+      "NIST SP 800-171 3.14.5"
+    ],
+    "detection_notes": "Detected through email security configuration review, spam filter deployment verification, and email gateway assessment."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-SPAM-PROTECTION-005/"
+}

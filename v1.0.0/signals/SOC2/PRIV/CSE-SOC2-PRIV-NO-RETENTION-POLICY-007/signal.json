@@ -1,0 +1,24 @@
+{
+  "id": "CSE-SOC2-PRIV-NO-RETENTION-POLICY-007",
+  "canonical_name": "No Retention Policies",
+  "description": "The entity does not retain personal information for only as long as necessary to fulfill the stated purposes or as required by law or regulations.",
+  "domain": "SOC2",
+  "category": "PRIV",
+  "applicability": "Data retention schedules, storage limitation",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "privacy",
+      "data-protection",
+      "pii"
+    ],
+    "related_controls": [
+      "SOC 2 P4.2",
+      "GAPP"
+    ],
+    "detection_notes": "Review data retention policies, automated deletion processes, and storage duration practices across data categories"
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-RETENTION-POLICY-007/"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-GDPR-PRINCIPLES-SPECIAL-CATEGORY-UNPROTECTED-012",
+  "canonical_name": "Special Category Data Not Protected",
+  "description": "Special category personal data (sensitive data) is processed without meeting the additional requirements of Article 9. This includes data revealing racial origin, political opinions, religious beliefs, health data, biometric data, and data concerning sex life or sexual orientation.",
+  "domain": "GDPR",
+  "category": "PRINCIPLES",
+  "applicability": "Applicable to processing of special category data as defined in Article 9. Requires both a lawful basis under Article 6 and an exemption under Article 9.2.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": [
+      "data-protection",
+      "sensitive-data",
+      "special-categories"
+    ],
+    "related_controls": [
+      "GDPR Art. 9"
+    ],
+    "detection_notes": "Detected through data classification review and processing activity assessment. Identify all special category data and verify appropriate exemptions and safeguards."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-SPECIAL-CATEGORY-UNPROTECTED-012/"
+}

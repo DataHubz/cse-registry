@@ -1,0 +1,25 @@
+{
+  "id": "CSE-CMMC-IDENTITY-SHARED-ACCOUNT-003",
+  "canonical_name": "Shared Account Usage",
+  "description": "Multiple users share a single account or credential set rather than using individually assigned identities. This signal indicates that user actions cannot be uniquely attributed to individuals, reducing accountability and audit trail effectiveness.",
+  "domain": "CMMC",
+  "category": "IDENTITY",
+  "applicability": "Applicable to any system where user identification and authentication is performed. Includes shared service accounts, generic admin accounts, shared application logins, and credentials stored in shared locations accessible to multiple individuals.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "identity",
+      "accountability",
+      "audit"
+    ],
+    "related_controls": [
+      "CMMC IA.L2-3.5.1",
+      "CMMC IA.L2-3.5.2",
+      "NIST SP 800-171 3.5.1"
+    ],
+    "detection_notes": "Detected through analysis of account naming conventions, login patterns from multiple locations, credential storage practices, and documentation review indicating shared credential usage."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-SHARED-ACCOUNT-003/"
+}

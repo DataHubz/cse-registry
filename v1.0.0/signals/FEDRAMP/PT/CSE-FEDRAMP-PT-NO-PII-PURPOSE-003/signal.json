@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-PT-NO-PII-PURPOSE-003",
+  "canonical_name": "No PII Processing Purposes",
+  "description": "The organization does not identify and document the purpose(s) for which PII is collected, used, maintained, and shared, or processes PII outside of documented purposes.",
+  "domain": "FEDRAMP",
+  "category": "PT",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information containing PII",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "pii-processing",
+      "privacy",
+      "data-protection"
+    ],
+    "related_controls": [
+      "PT-3"
+    ],
+    "detection_notes": "Detection guidance: Look for missing purpose documentation in privacy notices and system documentation, vague or overly broad purpose statements, lack of processing restrictions aligned with stated purposes, absence of purpose specification reviews, and evidence of PII processing that is incompatible with documented purposes."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/PT/CSE-FEDRAMP-PT-NO-PII-PURPOSE-003/"
+}

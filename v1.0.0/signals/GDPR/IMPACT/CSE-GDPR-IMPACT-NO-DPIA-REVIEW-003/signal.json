@@ -1,0 +1,23 @@
+{
+  "id": "CSE-GDPR-IMPACT-NO-DPIA-REVIEW-003",
+  "canonical_name": "DPIA Review Not Conducted",
+  "description": "Data Protection Impact Assessment is not reviewed when there is a change to the risk represented by processing operations. Article 35.11 requires controllers to assess whether processing is performed in accordance with the DPIA.",
+  "domain": "GDPR",
+  "category": "IMPACT",
+  "applicability": "Applicable when processing operations change materially, when risks evolve, or when new technologies are adopted that affect the original DPIA scope and conclusions.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "risk-management",
+      "ongoing-compliance"
+    ],
+    "related_controls": [
+      "GDPR Art. 35.11"
+    ],
+    "detection_notes": "Detected through comparison of processing operations with original DPIA and absence of review records when changes occur."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/IMPACT/CSE-GDPR-IMPACT-NO-DPIA-REVIEW-003/"
+}

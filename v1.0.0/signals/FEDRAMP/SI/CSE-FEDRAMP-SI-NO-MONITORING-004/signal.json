@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-SI-NO-MONITORING-004",
+  "canonical_name": "No System Monitoring",
+  "description": "System monitoring capabilities to detect attacks and indicators of potential attacks are not implemented.",
+  "domain": "FEDRAMP",
+  "category": "SI",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-integrity",
+      "vulnerability-management",
+      "malware-protection"
+    ],
+    "related_controls": [
+      "SI-4"
+    ],
+    "detection_notes": "Detection guidance: Look for missing intrusion detection systems (IDS), absent security information and event management (SIEM) tools, lack of network monitoring capabilities, and no monitoring device deployment strategy."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/SI/CSE-FEDRAMP-SI-NO-MONITORING-004/"
+}

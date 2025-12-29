@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-RA-NO-VULN-IDENTIFICATION-001",
+  "canonical_name": "No Vulnerability Identification",
+  "description": "Vulnerabilities in assets are not identified, validated, and recorded.",
+  "domain": "NISTCSF",
+  "category": "RA",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Risk assessment and vulnerability management teams Security operations and threat intelligence functions Organizations conducting security assessments",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: This signal indicates that vulnerability scanning, validation, and documentation processes are not in place or functioning. Organizations should implement vulnerability assessment programs including automated scanning, manual testing, and vulnerability tracking systems."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-VULN-IDENTIFICATION-001/"
+}

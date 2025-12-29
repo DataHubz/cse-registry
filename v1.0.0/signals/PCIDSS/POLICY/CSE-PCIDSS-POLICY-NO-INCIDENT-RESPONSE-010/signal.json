@@ -1,0 +1,23 @@
+{
+  "id": "CSE-PCIDSS-POLICY-NO-INCIDENT-RESPONSE-010",
+  "canonical_name": "No Incident Response Plan",
+  "description": "No incident response plan for security incidents affecting the CDE.",
+  "domain": "PCIDSS",
+  "category": "POLICY",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security-policy",
+      "governance",
+      "compliance"
+    ],
+    "related_controls": [
+      "12.10 - Suspected and confirmed security incidents that could impact the cardholder data environment are responded to immediately"
+    ],
+    "detection_notes": "Detection guidance: Verify existence of documented incident response plan covering detection, containment, analysis, recovery, and post-incident activities. Monitor for annual plan reviews, testing exercises, incident response team training, and 24/7 incident response availability. Check for incident logging and evidence retention procedures."
+  },
+  "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-INCIDENT-RESPONSE-010/"
+}

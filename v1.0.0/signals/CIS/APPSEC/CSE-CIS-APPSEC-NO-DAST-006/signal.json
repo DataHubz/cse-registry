@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-APPSEC-NO-DAST-006",
+  "canonical_name": "Dynamic Application Security Testing Missing",
+  "description": "An organization has not implemented dynamic application security testing (DAST) in the software development lifecycle. This signal indicates the absence of automated security testing of running applications to identify vulnerabilities that are only detectable during runtime, such as authentication issues, server configuration errors, and injection flaws.",
+  "domain": "CIS",
+  "category": "APPSEC",
+  "applicability": "This signal applies to: Application security teams DevOps and DevSecOps teams Security engineering teams Quality assurance teams Web application development teams API development teams CI/CD pipeline administrators Penetration testing teams",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of security testing processes Assessment of DAST tool deployment and usage Evaluation of CI/CD pipeline security integration Examination of pre-production security validation Review of API security testing practices Assessment of authenticated scanning capabilities Analysis of vulnerability findings management DAST implementation typically includes: **Tool selection**: Web scanners, API scanners, commercial or open-source **Scan types**: Passive scanning, active scanning, authenticated scanning **Test environments**: Staging, QA, pre-production **Coverage**: Web applications, APIs, mobile backends **Authentication**: Credential management, session handling **Integration**: CI/CD pipelines, scheduled scans **Findings management**: Triage,"
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-DAST-006/"
+}

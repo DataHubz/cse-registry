@@ -1,0 +1,23 @@
+{
+  "id": "CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033",
+  "canonical_name": "No Vendor and Partner Risk Management",
+  "description": "The entity does not assess and manage risks associated with vendors and business partners.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Third-party risk management, vendor assessments",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "Third-Party Risk",
+      "Vendor Management",
+      "Supply Chain Security"
+    ],
+    "related_controls": [
+      "SOC 2 CC9.2"
+    ],
+    "detection_notes": "Review vendor risk management program, third-party assessments, due diligence procedures, and ongoing vendor monitoring. Verify vendor contracts include security requirements and vendor performance is monitored."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033/"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-ISO27001-PEOPLE-NO-SECURITY-TRAINING-003",
+  "canonical_name": "No Security Awareness Training",
+  "description": "Personnel do not receive appropriate security awareness education, training, and updates.",
+  "domain": "ISO27001",
+  "category": "PEOPLE",
+  "applicability": "All personnel, contractors, regular training programs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "security-awareness",
+      "human-resources",
+      "training-development"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.6.3"
+    ],
+    "detection_notes": "Review training records, security awareness program documentation, and onboarding materials to verify presence and currency of security education initiatives."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-SECURITY-TRAINING-003/"
+}

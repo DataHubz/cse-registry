@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-PS-NO-SECURE-DEV-006",
+  "canonical_name": "Secure Development Practices Not Integrated",
+  "description": "Secure software development practices are not integrated.",
+  "domain": "NISTCSF",
+  "category": "Platform Security",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Monitor for lack of security requirements in development, missing secure coding standards, absence of code review processes, inadequate security testing, failure to track security metrics in SDLC, and missing security training for developers."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-SECURE-DEV-006/"
+}

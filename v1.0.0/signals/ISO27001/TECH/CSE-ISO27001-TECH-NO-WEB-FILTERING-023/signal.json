@@ -1,0 +1,24 @@
+{
+  "id": "CSE-ISO27001-TECH-NO-WEB-FILTERING-023",
+  "canonical_name": "Missing Web Filtering Controls",
+  "description": "Access to external websites is not managed to reduce exposure to malicious content. This signal indicates that web filtering, URL categorization, content inspection, or safe browsing controls are not implemented to protect against web-based threats such as malware, phishing, and inappropriate content.",
+  "domain": "ISO27001",
+  "category": "TECH",
+  "applicability": "Applicable to all systems with internet access including workstations, servers, mobile devices, cloud services, and network infrastructure. Includes web browsers, HTTP/HTTPS traffic, proxy servers, secure web gateways, and DNS-based filtering solutions.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "malware-protection",
+      "phishing-prevention",
+      "content-security",
+      "network-security"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.8.23"
+    ],
+    "detection_notes": "Commonly detected through review of proxy server configurations, secure web gateway policies, DNS filtering settings, browser security policies, endpoint protection configurations, and network traffic inspection capabilities. May also be identified through absence of web content filtering solutions or policies."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-WEB-FILTERING-023/"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "CSE-GDPR-SECURITY-NO-SUBJECT-BREACH-NOTIFICATION-014",
+  "canonical_name": "Data Subject Breach Notification Process Not Established",
+  "description": "Organization lacks a process for notifying data subjects of personal data breaches when the breach is likely to result in a high risk to their rights and freedoms. Data subject notification must be clear, direct, and timely when high risk is identified.",
+  "domain": "GDPR",
+  "category": "SECURITY",
+  "applicability": "Applicable to controllers when a breach is likely to result in high risk to data subjects. Process must include high-risk assessment criteria, notification content requirements, communication methods, timing, and exceptions where notification can be avoided through protective measures.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "compliance",
+      "breach-notification",
+      "transparency"
+    ],
+    "related_controls": [
+      "GDPR Art. 34",
+      "GDPR Art. 34.3"
+    ],
+    "detection_notes": "Detected through incident response documentation review. Look for missing data subject notification procedures, no high-risk assessment criteria, lack of notification templates, undefined communication channels, no process for mass notification, missing exceptions documentation, and absence of notification tracking. Verify process considers encryption and other protective measures that may eliminate notification requirement."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-SUBJECT-BREACH-NOTIFICATION-014/"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-MEDIA-NO-DISPOSAL-TRACKING-009",
+  "canonical_name": "Media Disposal Not Tracked",
+  "description": "Disposal or destruction of CUI-containing media is not documented or verified. This signal indicates that media may be improperly disposed of without confirmation of secure destruction.",
+  "domain": "CMMC",
+  "category": "MEDIA",
+  "applicability": "Applicable to all CUI media disposal processes. Includes destruction certificates, disposal logs, vendor verification, and media lifecycle completion records.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "media-protection",
+      "data-destruction",
+      "compliance"
+    ],
+    "related_controls": [
+      "CMMC MP.L2-3.8.3",
+      "NIST SP 800-171 3.8.3"
+    ],
+    "detection_notes": "Detected through disposal record review, destruction certificate verification, and vendor compliance assessment."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-DISPOSAL-TRACKING-009/"
+}

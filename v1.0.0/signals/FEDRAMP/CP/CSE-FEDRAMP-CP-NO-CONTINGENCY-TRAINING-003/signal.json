@@ -1,0 +1,21 @@
+{
+  "id": "CSE-FEDRAMP-CP-NO-CONTINGENCY-TRAINING-003",
+  "canonical_name": "No Contingency Training",
+  "description": "The organization does not provide contingency plan training to information system users consistent with assigned roles and responsibilities within required timeframes. This signal indicates that personnel may not be adequately prepared to execute contingency procedures during disruptions or emergencies.",
+  "domain": "FEDRAMP",
+  "category": "CP",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "contingency-planning",
+      "disaster-recovery",
+      "resilience"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of training program documentation Analysis of training schedules and completion records Verification of role-based training assignments Assessment of training frequency and timeliness Examination of training content coverage Inspection of training effectiveness measurements Review of training updates based on system changes The presence of this signal indicates a condition that warrants review in the context of FedRAMP contingency planning requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-CONTINGENCY-TRAINING-003/"
+}

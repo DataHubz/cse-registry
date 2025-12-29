@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-OPS-NO-PATCH-MANAGEMENT-010",
+  "canonical_name": "Patch Management Missing",
+  "description": "Technical vulnerabilities are not identified and evaluated in a timely manner, and appropriate software updates or patches are not applied to address identified vulnerabilities. This signal indicates that an organization lacks a systematic approach to patch management, which may leave systems exposed to known vulnerabilities and increase the risk of exploitation.",
+  "domain": "HITRUST",
+  "category": "OPS",
+  "applicability": "This signal applies to: Operating system security updates Application and middleware patches Third-party library and dependency updates Firmware and BIOS updates Container base image updates Cloud service agent and extension updates Database management system patches Network device and security appliance updates",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of patch management policies and procedures Assessment of vulnerability scanning frequency Examination of patch deployment timelines Verification of security update testing processes Review of patch compliance reporting Analysis of dependency update automation Inspection of emergency patch procedures Verification of patch rollback capabilities The presence of this signal indicates a condition that warrants review in the context of vulnerability management and security hygiene requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-PATCH-MANAGEMENT-010/"
+}

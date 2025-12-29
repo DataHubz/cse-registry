@@ -1,0 +1,23 @@
+{
+  "id": "CSE-GDPR-IMPACT-NO-DPIA-PROCESS-001",
+  "canonical_name": "DPIA Process Not Established",
+  "description": "No Data Protection Impact Assessment (DPIA) process exists for processing operations likely to result in high risk to rights and freedoms. Article 35.1 requires controllers to carry out DPIAs before processing.",
+  "domain": "GDPR",
+  "category": "IMPACT",
+  "applicability": "Applicable when processing operations are likely to result in high risk to rights and freedoms, including systematic evaluation, large-scale processing of special categories, or systematic monitoring of public areas.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "risk-assessment",
+      "compliance"
+    ],
+    "related_controls": [
+      "GDPR Art. 35.1"
+    ],
+    "detection_notes": "Detected through review of data protection governance framework and absence of DPIA procedures for high-risk processing activities."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/IMPACT/CSE-GDPR-IMPACT-NO-DPIA-PROCESS-001/"
+}

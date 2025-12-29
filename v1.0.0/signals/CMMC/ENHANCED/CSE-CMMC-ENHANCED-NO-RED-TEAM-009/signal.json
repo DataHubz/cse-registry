@@ -1,0 +1,25 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-RED-TEAM-009",
+  "canonical_name": "Red Team Exercises Not Conducted",
+  "description": "Red team exercises simulating adversary tactics are not conducted. This signal indicates that the organization's defense capabilities against realistic attacks are not validated.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments requiring adversary simulation. Includes red team exercises, purple team activities, and adversary emulation.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "enhanced-security",
+      "security-assessment",
+      "adversary-simulation"
+    ],
+    "related_controls": [
+      "CMMC L3-CA.3.12.4e",
+      "NIST SP 800-172 3.12.4e"
+    ],
+    "detection_notes": "Detected through red team program review, exercise history verification, and defensive improvement tracking.",
+    "cmmc_level": 3
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-RED-TEAM-009/"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CCPA-SENSITIVE-INFERENCE-UNCONTROLLED-006",
+  "canonical_name": "SPI Inferences Not Controlled",
+  "description": "A business creates inferences or derives characteristics that qualify as sensitive personal information from non-sensitive data, or uses such inferences for purposes beyond those permitted under CPRA, without providing consumers the ability to limit such use. This signal indicates that the business is inferring sensitive attributes (health status, sexual orientation, religious beliefs, racial/ethnic origin) through profiling, algorithmic analysis, or data correlation, effectively creating new se",
+  "domain": "CCPA",
+  "category": "SENSITIVE",
+  "applicability": "This signal applies to: Social media platforms inferring health conditions from behavioral patterns Advertising networks deriving sexual orientation from browsing history E-commerce sites inferring religious beliefs from purchase patterns Data brokers creating health risk scores from non-health data Mobile apps inferring precise geolocation from network signals Analytics platforms deriving racial/ethnic characteristics from demographic data Dating apps creating sexual orientation profiles from i",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Machine learning model auditing to identify sensitive characteristic inference Data flow analysis to track creation of sensitive inferences from non-sensitive inputs User profile schema review to find inferred sensitive attributes Algorithmic transparency assessment to reveal inference mechanisms Code review to identify profiling logic that creates sensitive PI Advertising targeting analysis to detect use of sensitive inferences Privacy policy review to check disclosure of inference activities Testing of limitation mechanisms to verify they apply to inferred SPI Third-party data sharing review to detect transmission of sensitive inferences The presence of this signal indicates a condition that warrants review in the context of CPRA's treatment o"
+  },
+  "definition_ref": "/v1.0.0/signals/CCPA/SENSITIVE/CSE-CCPA-SENSITIVE-INFERENCE-UNCONTROLLED-006/"
+}

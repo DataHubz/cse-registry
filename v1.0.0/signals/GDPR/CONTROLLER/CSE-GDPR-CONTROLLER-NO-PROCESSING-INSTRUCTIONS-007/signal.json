@@ -1,0 +1,24 @@
+{
+  "id": "CSE-GDPR-CONTROLLER-NO-PROCESSING-INSTRUCTIONS-007",
+  "canonical_name": "Processing Instructions Not Documented",
+  "description": "The processor processes personal data without documented instructions from the controller or processes data beyond the scope of documented instructions as prohibited by Article 29. Processors must only process on documented instructions from the controller unless required by Union or Member State law.",
+  "domain": "GDPR",
+  "category": "CONTROLLER",
+  "applicability": "Applicable to all processor relationships. Controllers must provide clear, documented processing instructions and processors must adhere to them. Instructions should cover purposes, means, scope, and duration of processing.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "accountability",
+      "processor-oversight",
+      "data-governance"
+    ],
+    "related_controls": [
+      "GDPR Art. 29",
+      "GDPR Art. 28.3.a"
+    ],
+    "detection_notes": "Detected through review of processor contracts, processing documentation, and operational procedures. Requires verification that instructions exist, are documented, and are followed by processors."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-PROCESSING-INSTRUCTIONS-007/"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-ASSET-NO-INVENTORY-001",
+  "canonical_name": "Asset Inventory Not Maintained",
+  "description": "An organization lacks a comprehensive inventory of information assets that accurately identifies all hardware, software, data, and systems within the environment. This signal indicates that there is no systematic tracking of assets, making it difficult to protect, manage, and account for all resources that process, store, or transmit sensitive information.",
+  "domain": "HITRUST",
+  "category": "ASSET",
+  "applicability": "This signal applies to: Physical and virtual servers Workstations and end-user devices Mobile devices and tablets Network infrastructure (routers, switches, firewalls) Cloud resources and services Software applications and licenses Data repositories and databases Storage systems and media IoT and embedded devices",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of asset management system completeness Analysis of configuration management database (CMDB) coverage Assessment of IT asset tracking procedures Comparison of known assets against discovered systems Evaluation of cloud resource tagging and inventory practices The presence of this signal indicates a condition that warrants review in the context of asset management requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-INVENTORY-001/"
+}

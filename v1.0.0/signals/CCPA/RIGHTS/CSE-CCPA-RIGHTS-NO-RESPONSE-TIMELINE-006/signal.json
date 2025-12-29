@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CCPA-RIGHTS-NO-RESPONSE-TIMELINE-006",
+  "canonical_name": "Response Timeline Not Met",
+  "description": "Consumer requests are not being responded to within the required 45-day timeframe, or no process exists to ensure timely responses. CCPA mandates that businesses respond to verifiable consumer requests within 45 days of receipt, with a possible 45-day extension when reasonably necessary with notice to the consumer.",
+  "domain": "CCPA",
+  "category": "RIGHTS",
+  "applicability": "Consumer request management systems Privacy portal workflows Customer service ticketing systems Data subject access request (DSAR) tools Privacy operations processes Request tracking and case management systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-subject-rights",
+      "privacy",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for RIGHTS requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CCPA/RIGHTS/CSE-CCPA-RIGHTS-NO-RESPONSE-TIMELINE-006/"
+}

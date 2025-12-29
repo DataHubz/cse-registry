@@ -1,0 +1,21 @@
+{
+  "id": "CSE-FEDRAMP-CP-NO-RECOVERY-008",
+  "canonical_name": "No System Recovery and Reconstitution",
+  "description": "The organization does not provide for the recovery and reconstitution of the information system to a known state after a disruption, compromise, or failure. This signal indicates that the organization may lack documented procedures and capabilities to restore systems to operational status with security protections intact.",
+  "domain": "FEDRAMP",
+  "category": "CP",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "contingency-planning",
+      "disaster-recovery",
+      "resilience"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of recovery and reconstitution procedures Analysis of known-state definitions and baselines Verification of restoration time objectives Assessment of transaction recovery mechanisms Examination of configuration management integration Inspection of integrity protection measures Review of component restoration capabilities Analysis of recovery testing and validation Verification of documented recovery procedures Assessment of operational state verification methods The presence of this signal indicates a condition that warrants review in the context of FedRAMP contingency planning requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-RECOVERY-008/"
+}

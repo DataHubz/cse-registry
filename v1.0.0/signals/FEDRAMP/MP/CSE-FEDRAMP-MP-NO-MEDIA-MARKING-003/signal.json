@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-MP-NO-MEDIA-MARKING-003",
+  "canonical_name": "No Media Marking",
+  "description": "Media marking procedures are not implemented to identify information system media indicating distribution limitations and handling caveats.",
+  "domain": "FEDRAMP",
+  "category": "MP",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "media-protection",
+      "data-handling",
+      "asset-control"
+    ],
+    "related_controls": [
+      "MP-3"
+    ],
+    "detection_notes": "Detection guidance: Look for missing media labeling requirements, absence of security classification markings on media, lack of procedures for marking removable media, no guidelines for marking backup tapes or external storage, and missing documentation on handling caveat requirements for different information classifications."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/MP/CSE-FEDRAMP-MP-NO-MEDIA-MARKING-003/"
+}

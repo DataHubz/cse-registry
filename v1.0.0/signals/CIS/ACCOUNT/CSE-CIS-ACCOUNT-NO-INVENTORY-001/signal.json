@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-ACCOUNT-NO-INVENTORY-001",
+  "canonical_name": "Account Inventory Missing",
+  "description": "An organization does not maintain a complete and accurate inventory of all accounts across its enterprise systems and services. This signal indicates that there is no centralized repository, documentation, or automated tracking system that comprehensively lists all user accounts, service accounts, administrative accounts, and system accounts. Without a complete inventory, organizations cannot effectively manage account lifecycles, detect unauthorized accounts, or ensure proper access controls.",
+  "domain": "CIS",
+  "category": "ACCOUNT",
+  "applicability": "This signal applies to: Enterprise identity and access management systems Cloud service provider accounts (AWS, Azure, GCP) Active Directory and LDAP services Application-specific user accounts Database user accounts Service accounts and API credentials Local system accounts on servers and workstations SaaS application user accounts Privileged and administrative accounts Third-party vendor and contractor accounts",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "account-management",
+      "identity",
+      "credential-security"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Reviewing identity management documentation and procedures Checking for centralized account inventory systems or databases Examining account creation and deprovisioning workflows Analyzing whether automated account discovery tools are deployed Assessing cross-system account visibility and reporting capabilities Verifying the existence of periodic account reconciliation processes The presence of this signal indicates a foundational gap in account management that warrants immediate attention, as it affects the organization's ability to implement many other security controls effectively."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-INVENTORY-001/"
+}

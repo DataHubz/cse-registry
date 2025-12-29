@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CCPA-VERIFY-EXCESSIVE-PI-REQUIRED-004",
+  "canonical_name": "Excessive PI Required for Verification",
+  "description": "The verification process requires consumers to provide excessive personal information beyond what is reasonably necessary to verify their identity. CCPA requires verification methods to be proportionate to the sensitivity of the request and the risk of unauthorized access, and businesses must not use verification as a pretext to collect additional personal information.",
+  "domain": "CCPA",
+  "category": "VERIFY",
+  "applicability": "Identity verification workflows Consumer request intake forms Access and deletion verification processes Privacy portal authentication Account recovery systems Multi-step verification procedures",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for VERIFY requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CCPA/VERIFY/CSE-CCPA-VERIFY-EXCESSIVE-PI-REQUIRED-004/"
+}

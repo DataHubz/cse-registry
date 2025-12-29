@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-CONTACT-019",
+  "canonical_name": "No Privacy Contact Person",
+  "description": "No designated contact person/office for receiving complaints and providing information.",
+  "domain": "HIPAA",
+  "category": "PRIVACY",
+  "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.530(a)(1)(ii)"
+    ],
+    "detection_notes": "Detect absence of designated contact information in privacy notices, websites, or patient-facing materials. Verify that contact person/office information is current and accessible to individuals seeking to file complaints or obtain privacy information."
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-CONTACT-019/"
+}

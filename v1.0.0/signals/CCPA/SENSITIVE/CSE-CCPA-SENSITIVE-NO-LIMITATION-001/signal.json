@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CCPA-SENSITIVE-NO-LIMITATION-001",
+  "canonical_name": "SPI Use Not Limited to Disclosed Purposes",
+  "description": "A business uses or discloses sensitive personal information (SPI) for purposes beyond those disclosed in its privacy policy or permitted under CPRA without obtaining consumer consent. This signal indicates that sensitive data is being processed for secondary purposes that fall outside the narrow exceptions allowed by law, and consumers have not been given the opportunity to limit such use.",
+  "domain": "CCPA",
+  "category": "SENSITIVE",
+  "applicability": "This signal applies to: Healthcare applications using health data for marketing or analytics beyond treatment purposes Financial services platforms sharing financial account credentials beyond transaction processing Fitness apps using precise geolocation data for advertising or profiling Identity verification services using biometric data for purposes beyond authentication Social platforms using racial/ethnic origin data for undisclosed ad targeting Dating apps using sexual orientation informati",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Code analysis to identify sensitive PI processing flows Data flow mapping to track SPI beyond disclosed purposes Privacy policy review to identify permitted use disclosures API traffic analysis to detect SPI sharing with third parties Database query auditing to find SPI used in analytics or profiling Third-party service integration review for undisclosed SPI sharing Comparison of actual data use against privacy notice disclosures The presence of this signal indicates a condition that warrants review in the context of CPRA sensitive personal information use limitations."
+  },
+  "definition_ref": "/v1.0.0/signals/CCPA/SENSITIVE/CSE-CCPA-SENSITIVE-NO-LIMITATION-001/"
+}

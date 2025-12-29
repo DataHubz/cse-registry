@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-PRIVACY-NO-SALE-PROHIBITION-008",
+  "canonical_name": "No PHI Sale Prohibition",
+  "description": "PHI disclosed for remuneration without proper authorization.",
+  "domain": "HIPAA",
+  "category": "PRIVACY",
+  "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.508(a)(4)"
+    ],
+    "detection_notes": "Detection of this signal may occur when: PHI is disclosed in exchange for direct or indirect remuneration without authorization Authorization for sale of PHI does not explicitly state that remuneration is involved Exceptions for public health purposes, research, treatment/payment, business associate services, or individual-requested disclosures are improperly applied Financial arrangements involving PHI disclosure are not properly documented Data brokers or third parties receive PHI in exchange for payment without proper authorization Reasonable cost-based fees are exceeded, constituting remuneration"
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SALE-PROHIBITION-008/"
+}

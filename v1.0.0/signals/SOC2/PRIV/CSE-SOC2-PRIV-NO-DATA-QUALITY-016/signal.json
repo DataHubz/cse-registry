@@ -1,0 +1,24 @@
+{
+  "id": "CSE-SOC2-PRIV-NO-DATA-QUALITY-016",
+  "canonical_name": "No Data Accuracy and Completeness",
+  "description": "The entity does not collect and maintain accurate, up-to-date, complete, and relevant personal information for the purposes identified in the privacy notice. This signal indicates that data quality controls are insufficient, potentially leading to incorrect decisions, poor customer experiences, and privacy violations.",
+  "domain": "SOC2",
+  "category": "PRIV",
+  "applicability": "Applicable to data collection processes, data maintenance procedures, data validation systems, customer data management, and any system that stores or processes personal information.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "privacy",
+      "data-protection",
+      "pii"
+    ],
+    "related_controls": [
+      "SOC 2 P7.1",
+      "GAPP"
+    ],
+    "detection_notes": "Commonly detected through review of data validation rules, data quality procedures, update mechanisms, and data governance policies. May be identified by absence of validation controls, missing update workflows, or lack of data quality monitoring."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DATA-QUALITY-016/"
+}

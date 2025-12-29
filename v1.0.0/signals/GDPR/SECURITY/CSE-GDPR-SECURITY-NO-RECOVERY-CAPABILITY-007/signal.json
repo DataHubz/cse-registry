@@ -1,0 +1,24 @@
+{
+  "id": "CSE-GDPR-SECURITY-NO-RECOVERY-CAPABILITY-007",
+  "canonical_name": "Recovery Capability Not Implemented",
+  "description": "Systems lack the ability to restore availability and access to personal data in a timely manner after a physical or technical incident. Recovery capability includes backup procedures, disaster recovery plans, and tested restoration processes.",
+  "domain": "GDPR",
+  "category": "SECURITY",
+  "applicability": "Applicable to all systems storing or processing personal data. Includes regular backups, offsite storage, documented recovery procedures, recovery time objectives (RTO), recovery point objectives (RPO), and tested recovery processes.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "security",
+      "disaster-recovery",
+      "business-continuity"
+    ],
+    "related_controls": [
+      "GDPR Art. 32.1.c"
+    ],
+    "detection_notes": "Detected through backup and disaster recovery plan reviews. Look for missing backup schedules, no offsite backups, untested recovery procedures, undefined RTO/RPO, lack of backup verification, missing recovery documentation, and no disaster recovery drills. Review whether backups include all personal data systems."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-RECOVERY-CAPABILITY-007/"
+}

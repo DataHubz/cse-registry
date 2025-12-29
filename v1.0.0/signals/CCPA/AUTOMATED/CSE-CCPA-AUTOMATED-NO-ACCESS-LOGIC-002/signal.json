@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CCPA-AUTOMATED-NO-ACCESS-LOGIC-002",
+  "canonical_name": "Logic of Automated Decisions Not Accessible",
+  "description": "A business uses automated decision-making technology but does not provide consumers with meaningful information about the logic involved in such decisions when requested. Consumers have the right to understand how automated systems use their personal information to make decisions that affect them. This signal indicates that businesses lack processes, documentation, or technical capabilities to explain automated decision logic to consumers in an accessible manner, preventing consumers from unders",
+  "domain": "CCPA",
+  "category": "AUTOMATED",
+  "applicability": "This signal applies to: Financial services with algorithmic underwriting or credit scoring Hiring platforms using automated candidate evaluation Insurance providers with automated risk assessment models Content platforms with recommendation algorithms affecting user experience Educational institutions using automated admissions or grading systems Healthcare platforms with automated diagnostic or treatment decision support Advertising platforms with automated targeting and profiling Any business",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Testing of data access request responses for automated decision explanations Review of consumer-facing documentation about algorithmic decision logic Analysis of model explainability and interpretability capabilities Assessment of technical infrastructure for generating explanations Inspection of logged decision data for factor attribution information Review of customer support responses to logic-related inquiries Evaluation of model documentation and explanation generation processes The presence of this signal indicates a condition that warrants review in the context of CPRA requirements for transparency in automated decision-making."
+  },
+  "definition_ref": "/v1.0.0/signals/CCPA/AUTOMATED/CSE-CCPA-AUTOMATED-NO-ACCESS-LOGIC-002/"
+}

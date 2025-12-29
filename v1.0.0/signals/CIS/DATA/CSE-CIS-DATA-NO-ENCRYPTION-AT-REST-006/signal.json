@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-DATA-NO-ENCRYPTION-AT-REST-006",
+  "canonical_name": "Encryption at Rest Missing",
+  "description": "Sensitive data stored on systems, storage devices, or in cloud services is not encrypted at rest, making it vulnerable to unauthorized access if the storage medium is compromised. This signal indicates that data is stored in plaintext or without adequate encryption protection, allowing anyone with physical or logical access to the storage to read the data.",
+  "domain": "CIS",
+  "category": "DATA",
+  "applicability": "This signal applies to: Database systems (MySQL, PostgreSQL, MongoDB, etc.) Cloud storage (S3, Azure Blob Storage, GCS) Virtual machine disks and volumes File servers and network-attached storage Laptop and desktop hard drives Mobile device storage Backup systems and archives Container persistent volumes SaaS application data stores",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "classification",
+      "encryption"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Analysis of database encryption configurations Review of cloud storage encryption settings Examination of volume and disk encryption status Assessment of file system encryption Verification of backup encryption Review of encryption key management Analysis of application data storage Examination of mobile device encryption policies The presence of this signal indicates a condition that warrants review in the context of data confidentiality and protection requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-ENCRYPTION-AT-REST-006/"
+}

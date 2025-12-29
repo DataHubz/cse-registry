@@ -1,0 +1,21 @@
+{
+  "id": "CSE-GEN-INCIDENT-NO-TESTING-004",
+  "canonical_name": "Incident Response Testing Missing",
+  "description": "Incident response plans and procedures are not tested through exercises or simulations. This signal indicates that the organization has not validated the effectiveness of its incident response capabilities through tabletop exercises, simulations, or actual response drills, potentially leaving gaps and inefficiencies undiscovered.",
+  "domain": "GEN (General)",
+  "category": "INCIDENT",
+  "applicability": "This signal applies to: Incident response testing and exercise programs Tabletop exercise planning and execution Simulation and drill documentation Incident response team training and readiness Business continuity and disaster recovery testing Red team and purple team exercises Crisis management simulations Recovery procedure validation",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "recovery",
+      "threat-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Scanning for testing and exercise documentation Checking calendar systems for scheduled drills Reviewing exercise after-action reports and findings Verifying training and simulation records Looking for evidence of backup restore tests Checking for tabletop exercise plans and results Monitoring testing frequency and participation The presence of this signal indicates that response capabilities have not been validated through practical testing, which may reveal gaps only during actual incidents."
+  },
+  "definition_ref": "/v1.0.0/signals/GEN/INCIDENT/CSE-GEN-INCIDENT-NO-TESTING-004/"
+}

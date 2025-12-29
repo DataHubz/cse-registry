@@ -1,0 +1,26 @@
+{
+  "id": "CSE-CMMC-CONFIG-NO-CHANGE-CONTROL-002",
+  "canonical_name": "Configuration Change Control Not Implemented",
+  "description": "Changes to system configurations are not tracked, reviewed, or controlled through a formal change management process. This signal indicates that configuration modifications may occur without documentation, approval, or the ability to audit who made changes and when.",
+  "domain": "CMMC",
+  "category": "CONFIG",
+  "applicability": "Applicable to any system where configuration changes occur including infrastructure, applications, network devices, and cloud resources. Includes version control for infrastructure-as-code, change approval workflows, and configuration drift detection.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "change-control",
+      "accountability"
+    ],
+    "related_controls": [
+      "CMMC CM.L2-3.4.3",
+      "CMMC CM.L2-3.4.4",
+      "CMMC CM.L2-3.4.5",
+      "NIST SP 800-171 3.4.3"
+    ],
+    "detection_notes": "Detected through review of change management procedures, version control usage for configurations, configuration drift detection tools, and audit trails of system modifications."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-CHANGE-CONTROL-002/"
+}

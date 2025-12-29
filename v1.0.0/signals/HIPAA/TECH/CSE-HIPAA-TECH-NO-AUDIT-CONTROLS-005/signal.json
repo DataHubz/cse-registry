@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-TECH-NO-AUDIT-CONTROLS-005",
+  "canonical_name": "No Audit Controls",
+  "description": "No hardware, software, or procedural mechanisms to record and examine activity in systems containing ePHI.",
+  "domain": "HIPAA",
+  "category": "TECH",
+  "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "technical-security",
+      "data-protection",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.312(b)"
+    ],
+    "detection_notes": "Detection guidance: Review system logging configurations and audit trail capabilities. Verify that systems capture user access, modifications, deletions, and other activities involving ePHI. Check for centralized log management, log retention policies, and regular audit log reviews. Identify systems with disabled logging or insufficient audit trail detail."
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUDIT-CONTROLS-005/"
+}

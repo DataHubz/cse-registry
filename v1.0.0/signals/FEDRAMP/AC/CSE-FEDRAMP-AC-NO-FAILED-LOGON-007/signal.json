@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-AC-NO-FAILED-LOGON-007",
+  "canonical_name": "No Unsuccessful Logon Attempts Handling",
+  "description": "Controls for handling unsuccessful logon attempts are not implemented, including account lockout and delay mechanisms.",
+  "domain": "FEDRAMP",
+  "category": "AC",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [
+      "AC-7"
+    ],
+    "detection_notes": "Detection guidance: Look for missing account lockout policies, no tracking of failed logon attempts, absence of automatic account disabling mechanisms, lack of delay between failed attempts, and no alerting on repeated failed logon attempts."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-FAILED-LOGON-007/"
+}

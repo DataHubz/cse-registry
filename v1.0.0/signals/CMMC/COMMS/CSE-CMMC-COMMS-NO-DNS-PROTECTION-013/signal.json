@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-DNS-PROTECTION-013",
+  "canonical_name": "DNS Protection Not Implemented",
+  "description": "DNS resolution is not protected against spoofing or manipulation attacks. This signal indicates that DNS responses may be forged to redirect traffic to malicious destinations.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to all DNS resolution. Includes DNSSEC validation, DNS over HTTPS/TLS, internal DNS security, and DNS query monitoring.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-communications",
+      "network-security",
+      "dns-security"
+    ],
+    "related_controls": [
+      "CMMC SC.L2-3.13.11",
+      "NIST SP 800-171 3.13.11"
+    ],
+    "detection_notes": "Detected through DNS configuration review, DNSSEC verification, and DNS query protection assessment."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-DNS-PROTECTION-013/"
+}

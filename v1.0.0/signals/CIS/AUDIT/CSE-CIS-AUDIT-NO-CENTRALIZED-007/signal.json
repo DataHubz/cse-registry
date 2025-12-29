@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-AUDIT-NO-CENTRALIZED-007",
+  "canonical_name": "Centralized Log Management Missing",
+  "description": "The organization lacks a centralized log management system or SIEM platform to aggregate and analyze logs from distributed systems. This signal indicates that logs remain dispersed across individual systems without central collection, making it difficult to correlate events, detect distributed attacks, perform comprehensive security monitoring, or conduct effective incident response.",
+  "domain": "CIS",
+  "category": "AUDIT",
+  "applicability": "This signal applies to: Security information and event management (SIEM) platforms Log aggregation and centralization tools Cloud-based logging services (CloudWatch, Azure Monitor, Stackdriver) Open-source log management (ELK Stack, Graylog, Fluentd) Syslog servers and forwarders Enterprise monitoring platforms Security operations centers (SOC) Distributed system architectures",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "audit-logging",
+      "monitoring",
+      "detection"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for AUDIT requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-CENTRALIZED-007/"
+}

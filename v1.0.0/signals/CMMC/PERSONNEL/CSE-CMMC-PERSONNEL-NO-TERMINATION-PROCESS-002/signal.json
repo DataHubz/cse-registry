@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-PERSONNEL-NO-TERMINATION-PROCESS-002",
+  "canonical_name": "Personnel Termination Process Not Implemented",
+  "description": "Procedures for revoking access upon personnel termination are not defined or followed. This signal indicates that former employees or contractors may retain access to systems after separation.",
+  "domain": "CMMC",
+  "category": "PERSONNEL",
+  "applicability": "Applicable to all personnel access management. Includes termination checklists, access revocation procedures, and property retrieval processes for departing personnel.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "personnel-security",
+      "access-control",
+      "insider-threat"
+    ],
+    "related_controls": [
+      "CMMC PS.L2-3.9.2",
+      "NIST SP 800-171 3.9.2"
+    ],
+    "detection_notes": "Detected through termination process review, orphaned account discovery, and access revocation timeliness verification."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/PERSONNEL/CSE-CMMC-PERSONNEL-NO-TERMINATION-PROCESS-002/"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-PII-PROTECTION-034",
+  "canonical_name": "No Privacy and Protection of PII",
+  "description": "Privacy and protection of personally identifiable information is not ensured as required.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization does not identify and meet privacy and PII protection requirements applicable to the organization, including compliance with privacy laws, data subject rights, consent management, and cross-border data transfer controls.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": [
+      "privacy",
+      "data-protection",
+      "regulatory-compliance"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.5.34"
+    ],
+    "detection_notes": "Review privacy policies and procedures, verify PII inventory and data mapping, check consent management processes, assess data subject rights procedures, examine data protection impact assessments, verify cross-border transfer mechanisms, review privacy training and awareness."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-PII-PROTECTION-034/"
+}

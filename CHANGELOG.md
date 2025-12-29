@@ -15,13 +15,13 @@ Target release: January 2026
 ### Added
 
 #### Specification
-- CSE Specification v1.0 (`spec/cse-spec-v1.0.md`)
-- Registry Format Specification v1.0 (`spec/registry-format-v1.0.md`)
-- Signal Definition Format Specification v1.0 (`spec/signal-format-v1.0.md`)
+- CSE Specification v1.0 (`v1.0.0/spec/cse-spec-v1.0.md`)
+- Registry Format Specification v1.0 (`v1.0.0/spec/registry-format-v1.0.md`)
+- Signal Definition Format Specification v1.0 (`v1.0.0/spec/signal-format-v1.0.md`)
 
 #### Schemas
-- Registry schema (`schemas/registry.schema.json`)
-- Signal schema (`schemas/signal.schema.json`)
+- Registry schema (`v1.0.0/schemas/registry.schema.json`)
+- Signal schema (`v1.0.0/schemas/signal.schema.json`)
 
 #### Signals
 - `CSE-GEN-SECRETS-PLAINTEXT-001` — Plaintext Secret in Source Code
@@ -29,10 +29,10 @@ Target release: January 2026
 
 #### Registry
 - Registry v1.0.0 (draft)
-  - `registry/v1.0.0/cse-registry.json`
-  - `registry/v1.0.0/cse-registry.min.json`
-  - `registry/v1.0.0/cse-registry.ndjson`
-  - `registry/v1.0.0/SHA256SUMS`
+  - `v1.0.0/registry/cse-registry.json`
+  - `v1.0.0/registry/cse-registry.min.json`
+  - `v1.0.0/registry/cse-registry.ndjson`
+  - `v1.0.0/registry/SHA256SUMS`
 
 #### Documentation
 - Project README

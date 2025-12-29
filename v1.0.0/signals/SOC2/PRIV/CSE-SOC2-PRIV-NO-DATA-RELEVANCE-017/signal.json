@@ -1,0 +1,24 @@
+{
+  "id": "CSE-SOC2-PRIV-NO-DATA-RELEVANCE-017",
+  "canonical_name": "No Data Relevance",
+  "description": "The entity does not verify that personal information is relevant for the purposes for which it is collected and used. This signal indicates that the organization may be collecting excessive or unnecessary data, violating data minimization principles and increasing privacy risks.",
+  "domain": "SOC2",
+  "category": "PRIV",
+  "applicability": "Applicable to data collection forms, privacy impact assessments, data mapping exercises, system design reviews, and data governance processes.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "low",
+    "risk_domains": [
+      "privacy",
+      "data-protection",
+      "pii"
+    ],
+    "related_controls": [
+      "SOC 2 P7.2",
+      "GAPP"
+    ],
+    "detection_notes": "Commonly detected through review of data collection practices, privacy impact assessments, data inventory documentation, and purpose specification analysis. May be identified by excessive data fields, missing purpose justifications, or lack of data minimization reviews."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DATA-RELEVANCE-017/"
+}

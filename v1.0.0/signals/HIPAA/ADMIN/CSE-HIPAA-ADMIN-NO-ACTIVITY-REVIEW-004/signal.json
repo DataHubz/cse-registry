@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-ADMIN-NO-ACTIVITY-REVIEW-004",
+  "canonical_name": "No Information System Activity Review",
+  "description": "No regular review of information system activity records such as audit logs, access reports, and security incident tracking reports is being conducted. This signal indicates the absence of systematic monitoring and analysis of system activities to detect and respond to security events affecting ePHI.",
+  "domain": "HIPAA",
+  "category": "ADMIN",
+  "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "governance",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.308(a)(1)(ii)(D)"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of log review procedures and schedules Examination of audit log analysis tools and processes Analysis of security monitoring dashboards and reports Verification of incident review documentation Assessment of access report generation and review frequency The presence of this signal indicates that security-relevant activities may go undetected or unaddressed."
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACTIVITY-REVIEW-004/"
+}

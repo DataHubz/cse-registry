@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-RA-NO-TECHNICAL-SURVEILLANCE-005",
+  "canonical_name": "No Risk Response",
+  "description": "Risk response measures are not implemented to address identified risks, including acceptance, avoidance, mitigation, sharing, or transfer of risk.",
+  "domain": "FEDRAMP",
+  "category": "RA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "risk-assessment",
+      "vulnerability-management",
+      "threat-analysis"
+    ],
+    "related_controls": [
+      "RA-7"
+    ],
+    "detection_notes": "Detection guidance: Look for missing risk response plans, absence of documented risk decisions and mitigation measures, no evidence of risk acceptance, avoidance, mitigation, sharing, or transfer strategies, lack of regular risk response plan reviews and updates, and no process for responding to changes in the risk environment."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/RA/CSE-FEDRAMP-RA-NO-TECHNICAL-SURVEILLANCE-005/"
+}

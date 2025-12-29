@@ -1,0 +1,25 @@
+{
+  "id": "CSE-GDPR-SECURITY-NO-AVAILABILITY-005",
+  "canonical_name": "Availability Measures Not Implemented",
+  "description": "Systems lack adequate measures to ensure ongoing availability of personal data processing systems. Availability ensures that data and processing capabilities remain accessible to authorized users when needed, supporting data subject rights and business operations.",
+  "domain": "GDPR",
+  "category": "SECURITY",
+  "applicability": "Applicable to all systems processing personal data, particularly those supporting data subject rights (access, rectification, erasure). Includes redundancy, monitoring, incident response, and service continuity measures.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "security",
+      "availability",
+      "business-continuity"
+    ],
+    "related_controls": [
+      "GDPR Art. 32.1.b",
+      "GDPR Art. 32.1.c"
+    ],
+    "detection_notes": "Detected through infrastructure and architecture review. Look for single points of failure, lack of redundancy or failover mechanisms, missing health monitoring, no uptime SLAs, inadequate capacity planning, missing load balancing, and no disaster recovery testing. Assess whether system downtime impacts data subject rights."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-AVAILABILITY-005/"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-PCIDSS-STORE-NO-DATA-MINIMIZATION-002",
+  "canonical_name": "No Account Data Minimization",
+  "description": "Account data in storage exceeds the minimum necessary for business operations.",
+  "domain": "PCIDSS",
+  "category": "STORE",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Database systems containing payment card data Data transmission channels and APIs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-storage",
+      "encryption",
+      "cardholder-data"
+    ],
+    "related_controls": [
+      "3.2 Account data storage is kept to a minimum"
+    ],
+    "detection_notes": "Detection guidance: Audit data storage repositories to identify cardholder data that exceeds business justification. Review data retention policies and verify implementation. Check for excessive storage duration, unnecessary data fields, or redundant copies of cardholder data. Examine database schemas and storage systems for compliance with data minimization principles."
+  },
+  "definition_ref": "/v1.0.0/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-DATA-MINIMIZATION-002/"
+}

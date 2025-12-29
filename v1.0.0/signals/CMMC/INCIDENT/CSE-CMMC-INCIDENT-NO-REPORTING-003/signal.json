@@ -1,0 +1,25 @@
+{
+  "id": "CSE-CMMC-INCIDENT-NO-REPORTING-003",
+  "canonical_name": "Incident Reporting Not Configured",
+  "description": "Processes and mechanisms for reporting security incidents to appropriate stakeholders are not established. This signal indicates that incidents may not be communicated to management, legal, regulatory authorities, or affected parties as required.",
+  "domain": "CMMC",
+  "category": "INCIDENT",
+  "applicability": "Applicable to incident communication and reporting requirements including internal escalation, management notification, regulatory reporting, and external communications.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "reporting",
+      "governance"
+    ],
+    "related_controls": [
+      "CMMC IR.L2-3.6.2",
+      "CMMC IR.L2-3.6.3",
+      "NIST SP 800-171 3.6.2"
+    ],
+    "detection_notes": "Detected through review of incident reporting procedures, escalation matrices, communication templates, and regulatory reporting processes."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/INCIDENT/CSE-CMMC-INCIDENT-NO-REPORTING-003/"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-ISO27001-PEOPLE-NO-TERMINATION-PROCESS-005",
+  "canonical_name": "No Post-Employment Security Process",
+  "description": "Security responsibilities that remain valid after termination or change are not defined and enforced.",
+  "domain": "ISO27001",
+  "category": "PEOPLE",
+  "applicability": "Offboarding, role changes, confidentiality obligations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "human-resources",
+      "access-control",
+      "data-protection"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.6.5"
+    ],
+    "detection_notes": "Review offboarding procedures, access revocation processes, and post-employment obligation documentation to verify comprehensive security controls during employment transitions."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-TERMINATION-PROCESS-005/"
+}

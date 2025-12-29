@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-PHYSICAL-NO-PERIMETER-001",
+  "canonical_name": "Physical Security Perimeter Missing",
+  "description": "No physical security perimeters defined to protect areas containing sensitive information and information processing facilities.",
+  "domain": "HITRUST",
+  "category": "PHYSICAL",
+  "applicability": "This signal applies to: Data centers and server rooms Office facilities with sensitive information Areas housing information processing equipment Storage areas containing sensitive media Facilities with access to covered information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "facility-protection",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Review facility security documentation for defined physical security perimeters. Verify that areas containing sensitive information processing systems have clearly defined physical boundaries with appropriate security controls. Check for documented perimeter definitions including walls, card-controlled entry points, and manned reception desks where appropriate."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-PERIMETER-001/"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-RECIPIENT-NOTIFICATION-013",
+  "canonical_name": "Recipient Notification Not Implemented",
+  "description": "Recipients to whom personal data has been disclosed are not notified of rectification, erasure, or restriction of processing as required by Article 19.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable when personal data has been shared with recipients. Controllers must notify recipients of changes unless impossible or disproportionate.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "data-subject-rights",
+      "notification"
+    ],
+    "related_controls": [
+      "GDPR Art. 19"
+    ],
+    "detection_notes": "Detected through review of data sharing records and notification procedures. Verify tracking of recipients and communication mechanisms."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-RECIPIENT-NOTIFICATION-013/"
+}

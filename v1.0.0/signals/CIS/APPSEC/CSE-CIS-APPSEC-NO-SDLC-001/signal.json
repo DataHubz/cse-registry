@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-APPSEC-NO-SDLC-001",
+  "canonical_name": "Secure SDLC Missing",
+  "description": "An organization has not established a secure software development lifecycle (SDLC) process. This signal indicates the absence of a documented and implemented secure SDLC that integrates security practices throughout all phases of software development, from requirements gathering through deployment and maintenance.",
+  "domain": "CIS",
+  "category": "APPSEC",
+  "applicability": "This signal applies to: Software development organizations Application development teams DevOps and DevSecOps teams Product management teams Engineering management Quality assurance teams Organizations developing custom applications Third-party software vendors",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of development process documentation Assessment of security integration in SDLC phases Evaluation of security requirements gathering processes Examination of security review gates and checkpoints Review of developer security training programs Assessment of secure design and coding standards Analysis of security testing integration A secure SDLC typically includes: **Requirements phase**: Security and compliance requirements identification **Design phase**: Threat modeling and secure architecture design **Development phase**: Secure coding practices and code review **Testing phase**: Security testing (SAST, DAST, penetration testing) **Deployment phase**: Security configuration and deployment validation **Maintenance phase**: Vulnerability"
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-SDLC-001/"
+}

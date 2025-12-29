@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-RM-NO-RISK-APPETITE-002",
+  "canonical_name": "No Risk Appetite and Tolerance Statements",
+  "description": "Risk appetite and tolerance statements are not established, communicated, and maintained.",
+  "domain": "NISTCSF",
+  "category": "RM",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Look for absence of risk appetite statements, undefined risk tolerance levels, missing communication channels for risk thresholds, lack of risk acceptance criteria."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-RISK-APPETITE-002/"
+}

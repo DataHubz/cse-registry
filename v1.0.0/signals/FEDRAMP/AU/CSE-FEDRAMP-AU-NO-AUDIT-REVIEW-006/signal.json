@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-AU-NO-AUDIT-REVIEW-006",
+  "canonical_name": "No Audit Record Review",
+  "description": "Audit records are not reviewed and analyzed for indications of inappropriate or unusual activity.",
+  "domain": "FEDRAMP",
+  "category": "AU",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "audit-logging",
+      "monitoring",
+      "accountability"
+    ],
+    "related_controls": [
+      "AU-6"
+    ],
+    "detection_notes": "Detection guidance: Look for missing audit review schedules, undefined review procedures, or lack of documented review activities and findings."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/AU/CSE-FEDRAMP-AU-NO-AUDIT-REVIEW-006/"
+}

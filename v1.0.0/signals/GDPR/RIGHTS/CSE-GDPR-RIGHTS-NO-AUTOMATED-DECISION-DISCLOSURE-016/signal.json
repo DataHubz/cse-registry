@@ -1,0 +1,25 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-AUTOMATED-DECISION-DISCLOSURE-016",
+  "canonical_name": "Automated Decision-Making Not Disclosed",
+  "description": "Data subjects are not informed about the existence of automated decision-making including profiling, the logic involved, and the significance and envisaged consequences.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable when automated decision-making produces legal effects or similarly significantly affects data subjects. Includes profiling, algorithmic decisions, and AI-based processing.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "automated-decisions",
+      "transparency"
+    ],
+    "related_controls": [
+      "GDPR Art. 22.1",
+      "GDPR Art. 13.2.f",
+      "GDPR Art. 14.2.g"
+    ],
+    "detection_notes": "Detected through review of automated decision systems and associated disclosures. Verify meaningful information about logic and consequences is provided."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-AUTOMATED-DECISION-DISCLOSURE-016/"
+}

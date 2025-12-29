@@ -1,0 +1,24 @@
+{
+  "id": "CSE-SOC2-CC-NO-TECH-CONTROLS-016",
+  "canonical_name": "No Technology General Controls",
+  "description": "The entity does not select and develop general control activities over technology to support the achievement of objectives.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Applies to all entities when technology general controls (ITGC) are not designed or implemented, including controls over infrastructure, security management, change management, and operations.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "technology",
+      "itgc",
+      "infrastructure_security"
+    ],
+    "related_controls": [
+      "SOC 2 CC5.2",
+      "COSO Principle 11"
+    ],
+    "detection_notes": "Review ITGC documentation, change management procedures, access controls over infrastructure, backup and recovery controls, and technology operations controls. Look for absence of ITGCs, lack of change control, inadequate infrastructure security, or missing technology operations controls."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-TECH-CONTROLS-016/"
+}

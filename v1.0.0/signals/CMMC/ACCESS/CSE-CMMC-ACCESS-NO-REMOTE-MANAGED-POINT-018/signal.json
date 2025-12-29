@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-ACCESS-NO-REMOTE-MANAGED-POINT-018",
+  "canonical_name": "Remote Access Not Through Managed Access Points",
+  "description": "Remote access to organizational systems does not route through managed network access control points. This signal indicates that remote connections may bypass security monitoring, filtering, and access controls.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to all remote access configurations. Includes VPN gateways, remote desktop services, jump servers, and any mechanisms for external access to organizational systems.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "network-security",
+      "remote-access"
+    ],
+    "related_controls": [
+      "CMMC AC.L2-3.1.14",
+      "NIST SP 800-171 3.1.14"
+    ],
+    "detection_notes": "Detected through remote access architecture review, network access point inventory, and traffic flow analysis."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-REMOTE-MANAGED-POINT-018/"
+}

@@ -30,7 +30,7 @@ Findings are:
 
 Findings are **not stored in the CSE registry**. CSE defines signals; implementations produce findings that reference those signals.
 
-While findings are not stored in the registry, CSE provides a **standardized finding format** to enable interoperability between tools and platforms. See [Finding Format Specification v1.0](spec/finding-format-v1.0.md) for the complete specification.
+While findings are not stored in the registry, CSE provides a **standardized finding format** to enable interoperability between tools and platforms. See [Finding Format Specification v1.0](v1.0.0/spec/finding-format-v1.0.md) for the complete specification.
 
 **Finding Identifier Format:**
 ```
@@ -62,7 +62,7 @@ Artifacts are categorized by type:
 | `storage` | Storage resources |
 | `compute` | Compute resources |
 
-See [Artifact Schema](schemas/artifact.schema.json) for the complete specification.
+See [Artifact Schema](v1.0.0/schemas/artifact.schema.json) for the complete specification.
 
 ## Identifier Structure
 
@@ -179,7 +179,7 @@ Required elements:
 - Version introduced
 - Status (active/deprecated)
 
-Signal definitions are stored in `/signals/<DOMAIN>/<CATEGORY>/<CSE-ID>/README.md`.
+Signal definitions are stored in `/v1.0.0/signals/<DOMAIN>/<CATEGORY>/<CSE-ID>/README.md`.
 
 ### Registry Artifact
 
@@ -315,7 +315,7 @@ Finding sets include:
 - Statistics (totals by status, severity, domain)
 - Array of individual findings
 
-See [Finding Set Schema](schemas/finding-set.schema.json) for the specification.
+See [Finding Set Schema](v1.0.0/schemas/finding-set.schema.json) for the specification.
 
 ## Mapping Concepts
 
@@ -334,7 +334,7 @@ Example:
 CSE-CMMC-ACCESS-UNRESTRICTED-ADMIN-001 → CMMC AC.L2-3.1.1 (subset)
 ```
 
-See [Mapping Format Specification v1.0](spec/mapping-format-v1.0.md) for the full specification.
+See [Mapping Format Specification v1.0](v1.0.0/spec/mapping-format-v1.0.md) for the full specification.
 
 ### Relationship Type
 
@@ -389,7 +389,7 @@ Contains:
 - Signal-to-signal equivalences
 - Cross-framework mappings
 
-Organized in `/mappings/v<VERSION>/`.
+Organized in `/v1.0.0/mappings/`.
 
 ## Related Standards
 
@@ -424,7 +424,7 @@ CSE is stewarded by **[DataHubz](https://www.datahubz.com/)**.
 
 The **CSE Specification** defines the structure, semantics, and governance rules for CSE identifiers and the registry.
 
-Current version: [CSE Specification v1.0](spec/cse-spec-v1.0.md)
+Current version: [CSE Specification v1.0](v1.0.0/spec/cse-spec-v1.0.md)
 
 ### Stability Guarantee
 
@@ -438,15 +438,15 @@ Once published:
 
 ## See Also
 
-- [CSE Specification v1.0](spec/cse-spec-v1.0.md) — Full normative specification
-- [Signal Format v1.0](spec/signal-format-v1.0.md) — Signal definition format
-- [Registry Format v1.0](spec/registry-format-v1.0.md) — Registry artifact format
-- [Mapping Format v1.0](spec/mapping-format-v1.0.md) — Mapping format specification
-- [Finding Format v1.0](spec/finding-format-v1.0.md) — Finding and artifact format specification
-- [Signals Directory](signals/) — Canonical signal definitions
-- [Registry v1.0.0](registry/v1.0.0/) — Current registry release
-- [Mappings v1.0.0](mappings/v1.0.0/) — Current mappings release
-- [Examples](examples/) — Reference examples for all formats
+- [CSE Specification v1.0](v1.0.0/spec/cse-spec-v1.0.md) — Full normative specification
+- [Signal Format v1.0](v1.0.0/spec/signal-format-v1.0.md) — Signal definition format
+- [Registry Format v1.0](v1.0.0/spec/registry-format-v1.0.md) — Registry artifact format
+- [Mapping Format v1.0](v1.0.0/spec/mapping-format-v1.0.md) — Mapping format specification
+- [Finding Format v1.0](v1.0.0/spec/finding-format-v1.0.md) — Finding and artifact format specification
+- [Signals Directory](v1.0.0/signals/) — Canonical signal definitions
+- [Registry v1.0.0](v1.0.0/registry/) — Current registry release
+- [Mappings v1.0.0](v1.0.0/mappings/) — Current mappings release
+- [Examples](v1.0.0/examples/) — Reference examples for all formats
 
 ## References
 

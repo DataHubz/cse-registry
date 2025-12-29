@@ -1,0 +1,24 @@
+{
+  "id": "CSE-ISO27001-TECH-NO-CLOCK-SYNC-017",
+  "canonical_name": "No Clock Synchronization",
+  "description": "Clocks of information processing systems are not synchronized to approved time sources.",
+  "domain": "ISO27001",
+  "category": "TECH",
+  "applicability": "Applies to organizations that do not synchronize system clocks across infrastructure components to approved and accurate time sources (NTP servers, atomic clocks), impacting log correlation, forensic investigations, and compliance.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "technology",
+      "audit",
+      "incident-response",
+      "compliance"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.8.17"
+    ],
+    "detection_notes": "Review NTP (Network Time Protocol) configurations, time source accuracy and reliability, clock synchronization monitoring, time drift detection, and timestamp accuracy in logs and audit trails."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-CLOCK-SYNC-017/"
+}

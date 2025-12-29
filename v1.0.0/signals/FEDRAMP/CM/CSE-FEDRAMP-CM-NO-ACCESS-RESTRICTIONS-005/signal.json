@@ -1,0 +1,21 @@
+{
+  "id": "CSE-FEDRAMP-CM-NO-ACCESS-RESTRICTIONS-005",
+  "canonical_name": "No Access Restrictions for Changes",
+  "description": "No access restrictions are defined, documented, approved, or enforced for changes to the information system, allowing unauthorized personnel to make configuration changes.",
+  "domain": "FEDRAMP",
+  "category": "CM",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) seeking FedRAMP authorization Federal agencies operating cloud systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing government data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "change-control",
+      "baseline"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Review access control lists, role-based access controls (RBAC), and privileged access management systems to verify restrictions on who can make configuration changes. Look for overly permissive access rights, lack of separation of duties between development and production environments, missing audit logs for configuration changes, or absence of documented approval requirements for change access. Check for users with unnecessary administrative privileges or missing access controls on configuration management tools."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-ACCESS-RESTRICTIONS-005/"
+}

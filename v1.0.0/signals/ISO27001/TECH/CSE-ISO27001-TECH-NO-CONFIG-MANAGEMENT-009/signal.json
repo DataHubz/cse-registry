@@ -1,0 +1,24 @@
+{
+  "id": "CSE-ISO27001-TECH-NO-CONFIG-MANAGEMENT-009",
+  "canonical_name": "No Configuration Management",
+  "description": "Configurations including security configurations are not established, documented, and managed.",
+  "domain": "ISO27001",
+  "category": "TECH",
+  "applicability": "Applies to organizations that do not maintain documented baseline configurations for systems, applications, and network devices, or lack processes to manage, track, and enforce configuration standards including security hardening.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "technology",
+      "configuration-management",
+      "change-management",
+      "security-hardening"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.8.9"
+    ],
+    "detection_notes": "Review configuration management databases (CMDB), baseline configurations, security hardening guides, configuration drift detection, change tracking, and automated configuration enforcement tools (Infrastructure as Code, configuration management tools)."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-CONFIG-MANAGEMENT-009/"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-IR-NO-INCIDENT-POLICY-001",
+  "canonical_name": "No Incident Response Policy",
+  "description": "Incident response policy and procedures are not established.",
+  "domain": "FEDRAMP",
+  "category": "IR",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "security-operations",
+      "threat-management"
+    ],
+    "related_controls": [
+      "IR-1"
+    ],
+    "detection_notes": "Detection guidance: Look for missing incident response policy documentation, absence of incident handling procedures, and lack of defined incident response roles and responsibilities."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/IR/CSE-FEDRAMP-IR-NO-INCIDENT-POLICY-001/"
+}

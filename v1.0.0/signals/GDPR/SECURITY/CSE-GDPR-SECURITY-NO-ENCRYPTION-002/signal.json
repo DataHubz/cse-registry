@@ -1,0 +1,25 @@
+{
+  "id": "CSE-GDPR-SECURITY-NO-ENCRYPTION-002",
+  "canonical_name": "Encryption Not Implemented",
+  "description": "Personal data is not encrypted in transit or at rest where appropriate, exposing data to unauthorized access. Encryption protects data confidentiality by rendering it unreadable without proper decryption keys.",
+  "domain": "GDPR",
+  "category": "SECURITY",
+  "applicability": "Applicable to systems transmitting or storing personal data, particularly sensitive personal data or data processed at scale. Includes databases, backups, API communications, and file storage systems.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "security",
+      "encryption",
+      "confidentiality"
+    ],
+    "related_controls": [
+      "GDPR Art. 32.1.a",
+      "GDPR Art. 34.3.a"
+    ],
+    "detection_notes": "Detected through infrastructure review, code analysis, and network traffic inspection. Check for unencrypted database connections, HTTP instead of HTTPS, unencrypted storage volumes, plaintext backups, and missing TLS/SSL configurations. Review encryption key management practices."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-ENCRYPTION-002/"
+}

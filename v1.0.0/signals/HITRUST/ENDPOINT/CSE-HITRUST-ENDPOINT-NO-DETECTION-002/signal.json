@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-ENDPOINT-NO-DETECTION-002",
+  "canonical_name": "Endpoint Detection Missing",
+  "description": "Endpoint detection and response (EDR) capabilities have not been implemented on devices accessing or storing protected health information (PHI) or other sensitive data. This signal indicates the absence of advanced threat detection mechanisms on endpoints such as endpoint detection and response (EDR), behavioral analysis, or anomaly detection systems. EDR solutions provide real-time monitoring, threat detection, and incident response capabilities that go beyond traditional antivirus protection.",
+  "domain": "HITRUST",
+  "category": "ENDPOINT",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of endpoint security architecture and capabilities Examination of EDR solution deployment and coverage Analysis of threat detection and monitoring systems Verification of behavioral analysis capabilities Assessment of incident response and forensic readiness The presence of this signal indicates a gap in advanced threat detection capabilities that may leave endpoints vulnerable to sophisticated attacks and APTs. This should be addressed as a priority for HITRUST compliance and enhanced security posture."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-DETECTION-002/"
+}

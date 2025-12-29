@@ -1,0 +1,24 @@
+{
+  "id": "CSE-GDPR-CONTROLLER-NO-SUB-PROCESSOR-CONTROLS-011",
+  "canonical_name": "Sub-Processor Controls Not Implemented",
+  "description": "The processor has engaged sub-processors without prior authorization from the controller, or the controller lacks mechanisms to authorize and oversee sub-processors as required by Articles 28.2 and 28.4. This includes failure to impose equivalent data protection obligations on sub-processors.",
+  "domain": "GDPR",
+  "category": "CONTROLLER",
+  "applicability": "Applicable when processors engage other processors (sub-processors) to carry out processing activities. Requires controller authorization and contractual safeguards ensuring sub-processors meet GDPR obligations.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "third-party-risk",
+      "supply-chain",
+      "accountability"
+    ],
+    "related_controls": [
+      "GDPR Art. 28.2",
+      "GDPR Art. 28.4"
+    ],
+    "detection_notes": "Detected through review of processor contracts, sub-processor lists, authorization mechanisms, and downstream contractual requirements. Requires verification of authorization and equivalent obligations."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-SUB-PROCESSOR-CONTROLS-011/"
+}

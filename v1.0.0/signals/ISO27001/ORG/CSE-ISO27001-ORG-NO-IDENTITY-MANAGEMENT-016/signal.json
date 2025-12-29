@@ -1,0 +1,24 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-IDENTITY-MANAGEMENT-016",
+  "canonical_name": "No Identity Management Lifecycle",
+  "description": "Full lifecycle management of identities is not implemented from creation through revocation.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization lacks formal processes for managing the complete lifecycle of user identities including provisioning, modification, review, and deprovisioning across all systems and applications.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "identity_management",
+      "access_control",
+      "insider_threat",
+      "compliance"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.5.16"
+    ],
+    "detection_notes": "Review identity provisioning processes, assess deprovisioning procedures for leavers, verify identity management system capabilities, check for orphaned accounts, evaluate identity lifecycle automation, assess identity governance reviews."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-IDENTITY-MANAGEMENT-016/"
+}

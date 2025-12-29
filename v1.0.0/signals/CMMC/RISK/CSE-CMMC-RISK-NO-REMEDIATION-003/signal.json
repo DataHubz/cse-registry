@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-RISK-NO-REMEDIATION-003",
+  "canonical_name": "Vulnerability Remediation Not Performed",
+  "description": "Identified vulnerabilities are not remediated in a timely manner according to risk priorities. This signal indicates that known security weaknesses may persist and remain exploitable.",
+  "domain": "CMMC",
+  "category": "RISK",
+  "applicability": "Applicable to all vulnerability management processes. Includes patching timelines, remediation tracking, and vulnerability lifecycle management.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "risk-assessment",
+      "vulnerability-management",
+      "remediation"
+    ],
+    "related_controls": [
+      "CMMC RA.L2-3.11.3",
+      "NIST SP 800-171 3.11.3"
+    ],
+    "detection_notes": "Detected through vulnerability age analysis, remediation SLA verification, and patch compliance assessment."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/RISK/CSE-CMMC-RISK-NO-REMEDIATION-003/"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-SA-NO-DEV-SECURITY-010",
+  "canonical_name": "No Development Process and Standards",
+  "description": "Security and privacy requirements, descriptions, design considerations, and development processes are not required for the developer of the information system, component, or service.",
+  "domain": "FEDRAMP",
+  "category": "SA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-acquisition",
+      "development-security",
+      "supply-chain"
+    ],
+    "related_controls": [
+      "SA-15"
+    ],
+    "detection_notes": "Detection guidance: Look for missing documented development processes, absence of security requirements in development standards, lack of privacy considerations in design, undocumented development tools and configurations, missing change management for development processes, inadequate integrity controls for development tools, and absence of security and privacy standards integration in SDLC."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-DEV-SECURITY-010/"
+}

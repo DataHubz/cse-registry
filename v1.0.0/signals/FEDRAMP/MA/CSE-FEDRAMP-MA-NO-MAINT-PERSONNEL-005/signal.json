@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-MA-NO-MAINT-PERSONNEL-005",
+  "canonical_name": "No Maintenance Personnel Authorization",
+  "description": "Maintenance personnel are not properly authorized, escorted when required, or designated with appropriate access levels.",
+  "domain": "FEDRAMP",
+  "category": "MA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "maintenance",
+      "system-integrity",
+      "operational-security"
+    ],
+    "related_controls": [
+      "MA-5"
+    ],
+    "detection_notes": "Detection guidance: Look for missing maintenance personnel authorization lists, absence of escort procedures for uncleared personnel, lack of access authorization verification processes, and no designated supervisors for maintenance activities."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/MA/CSE-FEDRAMP-MA-NO-MAINT-PERSONNEL-005/"
+}

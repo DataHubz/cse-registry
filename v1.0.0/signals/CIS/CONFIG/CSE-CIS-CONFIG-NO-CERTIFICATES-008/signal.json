@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-CONFIG-NO-CERTIFICATES-008",
+  "canonical_name": "Certificate Management Missing",
+  "description": "The organization lacks a formal process for managing digital certificates, including certificate issuance, renewal, revocation, and inventory management for unencrypted network traffic. This signal indicates that certificate lifecycle management may be ad-hoc, leading to expired certificates, unauthorized certificate usage, or lack of visibility into certificate inventory.",
+  "domain": "CIS",
+  "category": "CONFIG",
+  "applicability": "This signal applies to: SSL/TLS certificates for web services Code signing certificates Email certificates (S/MIME) Client authentication certificates Internal CA infrastructure Certificate inventory and tracking Certificate renewal processes Certificate revocation procedures",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "hardening",
+      "baseline"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for CONFIG requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-CERTIFICATES-008/"
+}

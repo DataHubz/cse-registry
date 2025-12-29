@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-RA-NO-RISK-POLICY-001",
+  "canonical_name": "No Risk Assessment Policy",
+  "description": "Risk assessment policy and procedures are not established, documented, or disseminated to relevant personnel.",
+  "domain": "FEDRAMP",
+  "category": "RA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "risk-assessment",
+      "vulnerability-management",
+      "threat-analysis"
+    ],
+    "related_controls": [
+      "RA-1"
+    ],
+    "detection_notes": "Detection guidance: Look for missing risk assessment policy documentation, absence of risk assessment procedures, lack of defined roles and responsibilities for risk assessment activities, and no evidence of policy dissemination to relevant stakeholders."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/RA/CSE-FEDRAMP-RA-NO-RISK-POLICY-001/"
+}

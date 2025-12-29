@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-ACCOUNT-NO-INACTIVE-DISABLE-003",
+  "canonical_name": "Inactive Accounts Not Disabled",
+  "description": "User accounts that have been inactive for an extended period remain enabled and are not disabled or removed from the system. This signal indicates that accounts with no recent authentication activity, no resource access, or no operational use continue to have active access rights. Inactive accounts represent unnecessary security risks, as they may belong to former employees, unused service accounts, or forgotten test accounts that could be compromised without detection.",
+  "domain": "CIS",
+  "category": "ACCOUNT",
+  "applicability": "This signal applies to: User accounts in Active Directory or LDAP Cloud IAM users and service accounts (AWS, Azure, GCP) Application-specific user accounts Database user accounts VPN and remote access accounts SaaS application user accounts Administrative and privileged accounts Service accounts and API credentials Shared or generic accounts Contractor and temporary worker accounts",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "account-management",
+      "identity",
+      "credential-security"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Automated analysis of authentication logs and last login timestamps Correlation of account status with HR termination records Review of access key usage and API credential activity Periodic account recertification and access reviews Monitoring service account usage patterns Cross-referencing active accounts with current employee rosters Examining password age as a proxy for account activity The presence of this signal indicates a need for improved account lifecycle management processes, including automated detection and disablement of dormant accounts. Organizations should establish clear policies defining inactivity thresholds and implement automated workflows for account deactivation."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-INACTIVE-DISABLE-003/"
+}

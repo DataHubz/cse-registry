@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-TRAINING-NO-SKILLS-ASSESSMENT-005",
+  "canonical_name": "Security Skills Assessment Missing",
+  "description": "The organization lacks a program to assess security skills and knowledge of personnel with security responsibilities. This signal indicates that there is no formal process to regularly evaluate the technical security competencies and knowledge of staff members who have security-related job functions, identify skill gaps, and provide targeted training to address deficiencies.",
+  "domain": "CIS",
+  "category": "TRAINING",
+  "applicability": "This signal applies to: Security team professional development programs IT staff competency assessment initiatives Technical training needs analysis Security role qualification requirements Professional certification tracking Skills gap analysis and remediation Security operations center (SOC) capability development",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for TRAINING requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-SKILLS-ASSESSMENT-005/"
+}

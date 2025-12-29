@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CCPA-VERIFY-NO-HOUSEHOLD-PROCESS-005",
+  "canonical_name": "Household Verification Process Missing",
+  "description": "No verification process exists to confirm that all members of a household have authorized a request to know or delete household-level personal information. When businesses collect and maintain personal information at the household level, they must verify that requests are authorized by all household members to protect the privacy rights of each individual within the household.",
+  "domain": "CCPA",
+  "category": "VERIFY",
+  "applicability": "Multi-user household account systems Family plan service providers Shared subscription services Utility and telecommunications providers Streaming and entertainment platforms Smart home device platforms processing household data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for VERIFY requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CCPA/VERIFY/CSE-CCPA-VERIFY-NO-HOUSEHOLD-PROCESS-005/"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-AC-NO-SEP-OF-DUTIES-005",
+  "canonical_name": "No Separation of Duties",
+  "description": "Separation of duties controls are not implemented to prevent individuals from having conflicting responsibilities that could enable fraud or error.",
+  "domain": "FEDRAMP",
+  "category": "AC",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [
+      "AC-5"
+    ],
+    "detection_notes": "Detection guidance: Look for missing separation of duties policies, individuals with conflicting roles, lack of documented duty separation requirements, no monitoring of duty conflicts, and absence of compensating controls where separation cannot be achieved."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-SEP-OF-DUTIES-005/"
+}

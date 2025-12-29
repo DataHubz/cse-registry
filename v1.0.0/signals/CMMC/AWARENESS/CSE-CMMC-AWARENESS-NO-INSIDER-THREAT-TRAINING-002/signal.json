@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-AWARENESS-NO-INSIDER-THREAT-TRAINING-002",
+  "canonical_name": "Insider Threat Awareness Training Not Provided",
+  "description": "Personnel do not receive training on recognizing and reporting potential insider threat indicators. This signal indicates that employees may not understand how to identify suspicious behavior from colleagues or themselves.",
+  "domain": "CMMC",
+  "category": "AWARENESS",
+  "applicability": "Applicable to all organizations handling CUI. Includes insider threat awareness programs, behavioral indicator training, and reporting procedure education.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "awareness-training",
+      "insider-threat",
+      "human-factors"
+    ],
+    "related_controls": [
+      "CMMC AT.L2-3.2.3",
+      "NIST SP 800-171 3.2.3"
+    ],
+    "detection_notes": "Detected through insider threat training program review, training content assessment, and completion records verification."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/AWARENESS/CSE-CMMC-AWARENESS-NO-INSIDER-THREAT-TRAINING-002/"
+}

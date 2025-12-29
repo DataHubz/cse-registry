@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-DATA-NO-CLASSIFICATION-007",
+  "canonical_name": "Data Classification Missing",
+  "description": "An organization lacks a data classification scheme to categorize data based on sensitivity, criticality, and handling requirements. This signal indicates that data is not systematically labeled or tagged according to its confidentiality, integrity, and availability requirements, making it difficult to apply appropriate security controls.",
+  "domain": "CIS",
+  "category": "DATA",
+  "applicability": "This signal applies to: Documents and file repositories Database records and fields Cloud storage objects and containers Email and communication systems Application data stores Intellectual property repositories Customer and employee data Financial and regulatory data System and application logs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "classification",
+      "encryption"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of data classification policy documentation Assessment of classification labeling systems Examination of metadata and tagging schemes Analysis of access control based on classification Verification of handling procedures by classification Review of user training on classification Assessment of automated classification tools Examination of data protection controls alignment The presence of this signal indicates a condition that warrants review in the context of data governance and protection requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-CLASSIFICATION-007/"
+}

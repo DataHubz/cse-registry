@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-RECOVERY-NO-AUTOMATED-BACKUP-002",
+  "canonical_name": "Automated Backups Missing",
+  "description": "The organization lacks automated backups of enterprise assets, relying on manual processes or having no systematic backup approach for critical data. This signal indicates that backup operations may be inconsistent, unreliable, or dependent on individual actions, increasing the risk of data loss.",
+  "domain": "CIS",
+  "category": "RECOVERY",
+  "applicability": "This signal applies to: Backup automation systems and tools Data protection infrastructure Scheduled backup jobs and tasks Backup management platforms Cloud backup services Database backup automation File server backup systems Virtual machine backup solutions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for RECOVERY requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-AUTOMATED-BACKUP-002/"
+}

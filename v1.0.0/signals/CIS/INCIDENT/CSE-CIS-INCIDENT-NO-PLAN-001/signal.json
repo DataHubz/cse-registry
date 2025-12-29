@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-INCIDENT-NO-PLAN-001",
+  "canonical_name": "Incident Response Plan Missing",
+  "description": "The organization lacks a documented and implemented incident response plan. This signal indicates that there is no formal incident response plan defining how the organization will detect, respond to, and recover from security incidents. Without a documented plan, the organization may be unprepared to effectively handle security events, leading to extended incident durations, increased damage, and regulatory non-compliance.",
+  "domain": "CIS",
+  "category": "INCIDENT",
+  "applicability": "This signal applies to: Enterprise incident response policies and procedures Security operations center (SOC) operations Computer security incident response team (CSIRT) capabilities Business continuity and disaster recovery planning Organizational security documentation Compliance and governance frameworks Incident management programs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "recovery",
+      "threat-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for INCIDENT requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-PLAN-001/"
+}

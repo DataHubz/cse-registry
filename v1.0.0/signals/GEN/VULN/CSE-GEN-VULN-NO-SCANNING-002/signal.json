@@ -1,0 +1,21 @@
+{
+  "id": "CSE-GEN-VULN-NO-SCANNING-002",
+  "canonical_name": "Vulnerability Scanning Missing",
+  "description": "Systems and applications are not regularly scanned for known security vulnerabilities using automated vulnerability assessment tools. This signal indicates the absence of routine vulnerability scanning activities that identify security weaknesses, misconfigurations, missing patches, and other technical vulnerabilities in IT infrastructure and applications.",
+  "domain": "GEN (General)",
+  "category": "VULN",
+  "applicability": "This signal applies to: Enterprise networks and systems Web applications and APIs Mobile applications Cloud infrastructure (IaaS, PaaS, SaaS) Database servers and data stores Network devices and security appliances Operating systems and middleware Container images and orchestration platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of vulnerability scanning tool deployments Assessment of scan schedules and frequency Examination of scan coverage (systems, applications, networks) Analysis of scan types (authenticated, unauthenticated, specialized) Review of scan result repositories and reporting Evaluation of scan automation and integration Assessment of scanner maintenance and updates Effective vulnerability scanning programs typically include: **Network scanning**: Authenticated and unauthenticated scans **Application scanning**: DAST, SAST, and dependency analysis **Cloud scanning**: Configuration and posture assessment **Container scanning**: Image and runtime vulnerability detection **Frequency**: Regular scheduled scans and event-driven scans **Coverage**: All i"
+  },
+  "definition_ref": "/v1.0.0/signals/GEN/VULN/CSE-GEN-VULN-NO-SCANNING-002/"
+}

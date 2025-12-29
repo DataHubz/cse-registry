@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-TRAINING-NO-SOCIAL-ENGINEERING-003",
+  "canonical_name": "Social Engineering Awareness Missing",
+  "description": "The organization lacks training to make workforce members aware of social engineering and phishing attacks. This signal indicates that there is no formal training program focused on teaching users to recognize and respond to social engineering tactics, including phishing, pretexting, baiting, quid pro quo, and other manipulation techniques used by attackers.",
+  "domain": "CIS",
+  "category": "TRAINING",
+  "applicability": "This signal applies to: Security awareness training programs Phishing and social engineering awareness initiatives User education on email security Incident reporting procedures Human resources security training requirements Third-party and vendor personnel training Remote workforce security education",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for TRAINING requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-SOCIAL-ENGINEERING-003/"
+}

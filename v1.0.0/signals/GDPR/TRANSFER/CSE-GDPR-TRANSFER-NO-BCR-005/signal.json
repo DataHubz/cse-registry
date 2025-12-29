@@ -1,0 +1,23 @@
+{
+  "id": "CSE-GDPR-TRANSFER-NO-BCR-005",
+  "canonical_name": "Binding Corporate Rules Not Approved",
+  "description": "Multinational organization relies on Binding Corporate Rules (BCRs) for intra-group transfers but BCRs have not been approved by competent supervisory authority. Article 47 requires BCR approval.",
+  "domain": "GDPR",
+  "category": "TRANSFER",
+  "applicability": "Applicable to multinational groups transferring data between entities in different countries. BCRs must be approved by lead supervisory authority and meet Article 47 requirements.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": [
+      "data-protection",
+      "international-transfers",
+      "corporate-governance"
+    ],
+    "related_controls": [
+      "GDPR Art. 47"
+    ],
+    "detection_notes": "Detected through review of intra-group transfer mechanisms and absence of approved BCR documentation or supervisory authority approval."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/TRANSFER/CSE-GDPR-TRANSFER-NO-BCR-005/"
+}

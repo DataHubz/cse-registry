@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-ACCESS-NO-MFA-REMOTE-004",
+  "canonical_name": "MFA for Remote Network Access Missing",
+  "description": "Multi-factor authentication (MFA) is not required for users establishing remote network access to the enterprise network infrastructure. This signal indicates that remote access solutions such as VPN, remote desktop services, or jump hosts allow authentication with only username and password without requiring a second authentication factor.",
+  "domain": "CIS",
+  "category": "ACCESS",
+  "applicability": "This signal applies to: Virtual Private Network (VPN) connections Remote Desktop Protocol (RDP) gateways SSH bastion hosts and jump servers Remote access services (RAS) Zero Trust Network Access (ZTNA) solutions Cloud-based virtual desktops (VDI) Remote management interfaces Terminal services and jump boxes",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "privilege-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for ACCESS requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-MFA-REMOTE-004/"
+}

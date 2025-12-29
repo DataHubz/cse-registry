@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-CLOUD-NO-MONITORING-006",
+  "canonical_name": "Cloud Monitoring Missing",
+  "description": "Security monitoring and logging capabilities for cloud infrastructure and services have not been implemented or properly configured for systems handling protected health information (PHI) or sensitive data. This signal indicates the absence of comprehensive monitoring controls for cloud environments, including security event logging, activity monitoring, anomaly detection, and alerting mechanisms. Cloud monitoring should provide visibility into security events, compliance status, and potential t",
+  "domain": "HITRUST",
+  "category": "CLOUD",
+  "applicability": "This signal applies to: Cloud infrastructure activity and API logging Cloud security events and alerts Cloud access and identity monitoring Cloud network traffic and flow logs Cloud resource configuration changes Cloud compliance and posture monitoring Cloud cost and usage anomaly detection",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of cloud logging service configurations Assessment of log aggregation and retention policies Examination of security monitoring tools and dashboards Verification of alert rule configurations Review of SIEM integration for cloud events Analysis of compliance monitoring capabilities Assessment of log analysis and threat detection practices Validation of incident response integration The presence of this signal indicates a critical gap in security visibility that may delay or prevent detection of security incidents, unauthorized access, compliance violations, and other security events in cloud environments."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-MONITORING-006/"
+}

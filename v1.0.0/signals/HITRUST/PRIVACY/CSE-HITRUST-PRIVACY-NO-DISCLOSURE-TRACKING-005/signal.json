@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-PRIVACY-NO-DISCLOSURE-TRACKING-005",
+  "canonical_name": "Disclosure Tracking Missing",
+  "description": "Systems and processes to track and record disclosures of personal or protected health information (PHI) to third parties have not been established or maintained. This signal indicates the absence of disclosure tracking mechanisms that record when, to whom, and for what purpose personal information is shared outside the organization. Disclosure tracking is essential for accountability, enabling organizations to provide individuals with an accounting of disclosures and ensuring compliance with pri",
+  "domain": "HITRUST",
+  "category": "PRIVACY",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Health information exchanges (HIEs) Research institutions sharing health data Third-party service providers Insurance claims processors Public health reporting entities",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of data sharing and integration architectures Examination of disclosure logging mechanisms Analysis of audit trails for external data transfers Verification of disclosure record retention Assessment of accounting of disclosures capabilities Review of API and data export monitoring The presence of this signal indicates a privacy accountability gap that should be addressed to ensure transparency and regulatory compliance."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-DISCLOSURE-TRACKING-005/"
+}

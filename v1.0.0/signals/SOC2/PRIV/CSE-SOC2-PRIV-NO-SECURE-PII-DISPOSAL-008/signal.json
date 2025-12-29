@@ -1,0 +1,24 @@
+{
+  "id": "CSE-SOC2-PRIV-NO-SECURE-PII-DISPOSAL-008",
+  "canonical_name": "No Secure PII Disposal",
+  "description": "The entity does not securely dispose of personal information to meet the entity's objectives related to privacy.",
+  "domain": "SOC2",
+  "category": "PRIV",
+  "applicability": "Secure deletion, PII destruction",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "privacy",
+      "data-protection",
+      "pii"
+    ],
+    "related_controls": [
+      "SOC 2 P4.3",
+      "GAPP"
+    ],
+    "detection_notes": "Review disposal methods for electronic and physical media containing personal information, including deletion verification and media destruction procedures"
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SECURE-PII-DISPOSAL-008/"
+}

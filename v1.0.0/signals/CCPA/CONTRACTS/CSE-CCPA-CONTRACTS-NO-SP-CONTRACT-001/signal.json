@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CCPA-CONTRACTS-NO-SP-CONTRACT-001",
+  "canonical_name": "Service Provider Contract Missing (§1798.140(ag))",
+  "description": "This signal is raised when a business shares personal information with a third party that processes data on the business's behalf, but no written service provider contract exists. CCPA requires businesses to have written contracts with service providers that include specific mandatory provisions to ensure the service provider complies with CCPA obligations.",
+  "domain": "CCPA",
+  "category": "CONTRACTS",
+  "applicability": "Third parties that process personal information on behalf of a business Cloud service providers, data processors, or vendors acting as service providers Businesses subject to CCPA that engage third parties for data processing activities",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for CONTRACTS requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CCPA/CONTRACTS/CSE-CCPA-CONTRACTS-NO-SP-CONTRACT-001/"
+}

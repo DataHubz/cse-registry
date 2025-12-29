@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-NETWORK-NO-SECURE-CONFIG-002",
+  "canonical_name": "Secure Network Configuration Missing",
+  "description": "The organization lacks established secure baseline configurations for network infrastructure devices or does not consistently apply these configurations across the network environment. This signal indicates that network devices may be deployed with default settings, inconsistent security configurations, or without adherence to security hardening standards.",
+  "domain": "CIS",
+  "category": "NETWORK",
+  "applicability": "This signal applies to: Network infrastructure configuration standards Router and switch security settings Firewall rule sets and policies Network device hardening procedures Configuration management systems Change control processes Security baseline documentation Infrastructure as Code (IaC) templates",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "network-security",
+      "segmentation",
+      "monitoring"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for NETWORK requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-SECURE-CONFIG-002/"
+}

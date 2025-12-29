@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CCPA-OPTOUT-NO-THIRD-PARTY-NOTICE-008",
+  "canonical_name": "Third Parties Not Notified of Opt-Out",
+  "description": "A business that has sold a consumer's personal information to third parties does not notify those third parties that the consumer has opted out of the sale of their personal information. This signal indicates that while the business may have stopped selling the consumer's data, it has not fulfilled its obligation to inform downstream recipients of the opt-out, potentially allowing continued unauthorized use or resale of the consumer's information.",
+  "domain": "CCPA",
+  "category": "OPTOUT",
+  "applicability": "This signal applies to: Data brokers with networks of third-party buyers Marketing platforms with advertising partnerships E-commerce sites sharing customer data with affiliates Mobile app developers with SDK and analytics partners Customer data platforms (CDPs) with data syndication Advertising technology companies with data exchanges SaaS platforms with third-party integrations Any business that has sold PI and receives opt-out requests",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of opt-out request processing workflows Analysis of data sale logging and recipient tracking systems Inspection of third-party notification mechanisms (APIs, batch files, etc.) Verification of suppression list distribution processes Assessment of third-party integration capabilities Audit of contractual provisions for opt-out notification Testing of notification delivery and confirmation systems Review of data processing agreements with third parties The presence of this signal indicates a condition that warrants review in the context of CCPA third-party notification requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CCPA/OPTOUT/CSE-CCPA-OPTOUT-NO-THIRD-PARTY-NOTICE-008/"
+}

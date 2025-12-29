@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-AC-NO-SESSION-LOCK-008",
+  "canonical_name": "No Session Lock",
+  "description": "Session lock mechanisms are not implemented to prevent access to active sessions after a defined period of inactivity.",
+  "domain": "FEDRAMP",
+  "category": "AC",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [
+      "AC-11"
+    ],
+    "detection_notes": "Detection guidance: Look for missing session timeout configurations, no automatic screen lock mechanisms, absence of session lock policies, systems not requiring re-authentication after inactivity, and lack of session lock enforcement on remote access sessions."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-SESSION-LOCK-008/"
+}

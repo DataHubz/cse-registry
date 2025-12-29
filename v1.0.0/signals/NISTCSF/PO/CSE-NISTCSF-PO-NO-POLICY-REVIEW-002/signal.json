@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-PO-NO-POLICY-REVIEW-002",
+  "canonical_name": "Cybersecurity Policy Not Reviewed and Updated",
+  "description": "Cybersecurity policy is not reviewed, updated, and communicated.",
+  "domain": "NISTCSF",
+  "category": "PO",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Identify organizations with outdated cybersecurity policies, no documented policy review schedule, policies not updated to reflect current threat landscape or regulatory changes, lack of version control for policy documents, or absence of stakeholder communication when policies are updated."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/PO/CSE-NISTCSF-PO-NO-POLICY-REVIEW-002/"
+}

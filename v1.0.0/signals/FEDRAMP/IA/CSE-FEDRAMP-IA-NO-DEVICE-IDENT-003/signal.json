@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-IA-NO-DEVICE-IDENT-003",
+  "canonical_name": "No Device Identification and Authentication",
+  "description": "Information systems do not uniquely identify and authenticate devices before establishing a connection.",
+  "domain": "FEDRAMP",
+  "category": "IA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "identity",
+      "authentication",
+      "credential-management"
+    ],
+    "related_controls": [
+      "IA-3"
+    ],
+    "detection_notes": "Detection guidance: Look for systems accepting connections from unidentified devices, missing device certificates or credentials, absence of device registration or enrollment processes, systems without device authentication mechanisms (MAC filtering, certificate-based authentication), and missing device inventory with authentication status. Review configuration for mobile devices, IoT devices, and remote access endpoints."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-DEVICE-IDENT-003/"
+}

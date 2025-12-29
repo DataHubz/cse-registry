@@ -1,0 +1,24 @@
+{
+  "id": "CSE-ISO27001-PHYSICAL-NO-EQUIPMENT-MAINTENANCE-013",
+  "canonical_name": "No Equipment Maintenance Controls",
+  "description": "Equipment is not maintained correctly to ensure availability and integrity.",
+  "domain": "ISO27001",
+  "category": "PHYSICAL",
+  "applicability": "Organizations with information processing equipment requiring regular maintenance to ensure continued operation and data integrity",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "availability",
+      "integrity",
+      "asset-management"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.7.13"
+    ],
+    "detection_notes": "Review equipment maintenance schedules, service records, vendor qualifications, and data protection during maintenance. Absence of maintenance schedules, unqualified service providers, or lack of data protection procedures indicates this deficiency."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-EQUIPMENT-MAINTENANCE-013/"
+}

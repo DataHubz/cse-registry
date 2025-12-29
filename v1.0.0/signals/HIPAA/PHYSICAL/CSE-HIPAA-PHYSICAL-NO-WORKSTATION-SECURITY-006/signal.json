@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-PHYSICAL-NO-WORKSTATION-SECURITY-006",
+  "canonical_name": "No Workstation Security",
+  "description": "No physical safeguards for workstations to restrict access to authorized users only.",
+  "domain": "HIPAA",
+  "category": "PHYSICAL",
+  "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "physical-security",
+      "asset-protection",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.310(c)"
+    ],
+    "detection_notes": "Detection guidance: Assess physical security controls for workstations accessing ePHI. Verify implementation of safeguards such as locking mechanisms, secure mounting, cable locks, proximity sensors, or placement in restricted access areas. Check for controls preventing unauthorized physical access to workstations, including laptop security, screen positioning, and automatic lock features when unattended."
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-WORKSTATION-SECURITY-006/"
+}

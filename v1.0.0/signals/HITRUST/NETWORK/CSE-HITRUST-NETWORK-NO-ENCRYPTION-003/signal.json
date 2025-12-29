@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-NETWORK-NO-ENCRYPTION-003",
+  "canonical_name": "Network Encryption Missing",
+  "description": "Network communications encryption has not been implemented to protect protected health information (PHI) or other sensitive data transmitted across networks. This signal indicates the absence of encryption for data in transit over networks, including internal networks, external connections, wireless networks, and internet communications. Network encryption is essential for protecting PHI from interception, eavesdropping, and unauthorized disclosure during transmission.",
+  "domain": "HITRUST",
+  "category": "NETWORK",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers Telemedicine and remote health monitoring platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "network-security",
+      "segmentation",
+      "perimeter"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of network protocol configurations Analysis of TLS/SSL certificate deployments Examination of VPN and remote access configurations Assessment of wireless network security settings Verification of database connection encryption Analysis of application communication protocols Testing for unencrypted data transmission The presence of this signal indicates a critical gap in data protection that exposes PHI to interception and unauthorized disclosure, and should be addressed immediately for HITRUST compliance."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/NETWORK/CSE-HITRUST-NETWORK-NO-ENCRYPTION-003/"
+}

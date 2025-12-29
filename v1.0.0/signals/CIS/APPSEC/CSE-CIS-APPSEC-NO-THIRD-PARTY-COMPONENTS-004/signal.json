@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-APPSEC-NO-THIRD-PARTY-COMPONENTS-004",
+  "canonical_name": "Third-Party Component Inventory Missing",
+  "description": "An organization has not established and maintained an inventory of third-party software components used in applications. This signal indicates the absence of a comprehensive catalog of open-source libraries, commercial components, frameworks, and dependencies that are integrated into organizational applications, along with their versions and vulnerability status.",
+  "domain": "CIS",
+  "category": "APPSEC",
+  "applicability": "This signal applies to: Application development teams DevOps and DevSecOps teams Application security teams Software composition analysis teams Dependency management teams Open source program offices Supply chain security teams IT asset management teams",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of software composition analysis (SCA) practices Assessment of SBOM generation and maintenance Evaluation of dependency management processes Examination of vulnerability tracking for components Review of license compliance procedures Assessment of component approval workflows Analysis of EOL and update tracking Third-party component inventory typically includes: **Component identification**: Name, version, source **Dependency tree**: Direct and transitive dependencies **Vulnerability status**: Known CVEs, severity, patch availability **License information**: License type, compliance requirements **Lifecycle status**: Support status, EOL dates, update schedule **Usage tracking**: Which applications use which components **Risk assessment**:"
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-THIRD-PARTY-COMPONENTS-004/"
+}

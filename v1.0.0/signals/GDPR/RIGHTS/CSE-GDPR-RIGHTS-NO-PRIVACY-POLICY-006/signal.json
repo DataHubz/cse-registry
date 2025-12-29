@@ -1,0 +1,25 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-PRIVACY-POLICY-006",
+  "canonical_name": "Privacy Policy Not Accessible",
+  "description": "A comprehensive privacy policy is not accessible to data subjects. The policy should consolidate all required transparency information in an easily accessible location.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable to all organizations processing personal data. The privacy policy should be prominently linked and available across all data collection touchpoints.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "transparency",
+      "accessibility"
+    ],
+    "related_controls": [
+      "GDPR Art. 12",
+      "GDPR Art. 13",
+      "GDPR Art. 14"
+    ],
+    "detection_notes": "Detected through review of website and application for privacy policy presence and accessibility. Verify policy is findable, current, and complete."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-PRIVACY-POLICY-006/"
+}

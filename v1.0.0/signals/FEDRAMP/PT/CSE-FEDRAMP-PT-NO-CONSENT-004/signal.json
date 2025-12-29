@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-PT-NO-CONSENT-004",
+  "canonical_name": "No Consent Mechanisms",
+  "description": "The organization does not implement mechanisms to obtain consent from individuals for the collection, use, or disclosure of PII when required by applicable laws, regulations, or policies.",
+  "domain": "FEDRAMP",
+  "category": "PT",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information containing PII",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "pii-processing",
+      "privacy",
+      "data-protection"
+    ],
+    "related_controls": [
+      "PT-4"
+    ],
+    "detection_notes": "Detection guidance: Look for missing consent mechanisms in user interfaces and workflows, lack of documented consent tools or processes, absence of consent records, no mechanisms for individuals to make informed choices about PII processing, missing consent withdrawal capabilities, and processing of PII without required consent."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/PT/CSE-FEDRAMP-PT-NO-CONSENT-004/"
+}

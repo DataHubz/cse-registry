@@ -1,0 +1,23 @@
+{
+  "id": "CSE-SOC2-CONF-NO-DATA-DISPOSAL-002",
+  "canonical_name": "No Confidential Information Disposal",
+  "description": "The entity does not dispose of confidential information to meet the entity's objectives related to confidentiality.",
+  "domain": "SOC2",
+  "category": "CONF",
+  "applicability": "Secure data destruction, retention policies",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "confidentiality",
+      "data_disposal",
+      "information_lifecycle"
+    ],
+    "related_controls": [
+      "SOC 2 C1.2"
+    ],
+    "detection_notes": "Review data disposal policies, secure deletion procedures, media sanitization processes, and retention schedules. Check for absence of disposal procedures, insecure deletion methods, or retention policy violations."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CONF/CSE-SOC2-CONF-NO-DATA-DISPOSAL-002/"
+}

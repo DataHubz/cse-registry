@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-IR-NO-INCIDENT-PLAN-007",
+  "canonical_name": "No Incident Response Plan",
+  "description": "Incident response plan is not developed, documented, and implemented to provide an organized approach to responding to security incidents.",
+  "domain": "FEDRAMP",
+  "category": "IR",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "security-operations",
+      "threat-management"
+    ],
+    "related_controls": [
+      "IR-8"
+    ],
+    "detection_notes": "Detection guidance: Look for missing incident response plan documentation, absence of response procedures and workflows, lack of defined roles and responsibilities, and missing communication plans for incident response."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/IR/CSE-FEDRAMP-IR-NO-INCIDENT-PLAN-007/"
+}

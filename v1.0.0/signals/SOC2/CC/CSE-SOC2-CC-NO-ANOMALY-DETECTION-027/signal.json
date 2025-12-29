@@ -1,0 +1,23 @@
+{
+  "id": "CSE-SOC2-CC-NO-ANOMALY-DETECTION-027",
+  "canonical_name": "No Anomaly Detection and Analysis",
+  "description": "The entity does not monitor system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "SIEM, security monitoring, log analysis",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "Security Monitoring",
+      "Anomaly Detection",
+      "Threat Detection"
+    ],
+    "related_controls": [
+      "SOC 2 CC7.2"
+    ],
+    "detection_notes": "Review security monitoring capabilities, SIEM implementations, log analysis processes, and anomaly detection mechanisms. Verify continuous monitoring and alerting for abnormal activities."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-ANOMALY-DETECTION-027/"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-INCIDENT-NO-EVIDENCE-005",
+  "canonical_name": "Evidence Collection Missing",
+  "description": "Procedures have not been established for the identification, collection, acquisition, and preservation of information that can serve as evidence during incident investigation and potential legal proceedings. This signal indicates that an organization has not implemented forensically sound evidence handling procedures necessary for incident analysis, investigation, and potential legal or regulatory actions.",
+  "domain": "HITRUST",
+  "category": "INCIDENT",
+  "applicability": "This signal applies to: Organizations subject to legal discovery requirements Healthcare organizations investigating PHI breaches Financial institutions handling fraud investigations Law enforcement and government agencies Organizations with cyber insurance requirements Companies facing potential litigation Entities cooperating with regulatory investigations Organizations with internal audit requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "threat-management",
+      "recovery"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of evidence collection procedures Examination of forensic investigation documentation Analysis of chain of custody processes Review of evidence storage and retention policies Inspection of forensic capability and tools Assessment of legal coordination procedures The presence of this signal indicates a condition that warrants review in the context of information security incident management requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-EVIDENCE-005/"
+}

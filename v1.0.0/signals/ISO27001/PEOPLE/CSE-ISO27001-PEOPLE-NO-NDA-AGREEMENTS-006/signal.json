@@ -1,0 +1,23 @@
+{
+  "id": "CSE-ISO27001-PEOPLE-NO-NDA-AGREEMENTS-006",
+  "canonical_name": "No Confidentiality Agreements",
+  "description": "Confidentiality or NDA requirements are not identified, documented, and regularly reviewed.",
+  "domain": "ISO27001",
+  "category": "PEOPLE",
+  "applicability": "Employment, third parties, sensitive information access",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "legal-compliance",
+      "data-protection",
+      "third-party-risk"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.6.6"
+    ],
+    "detection_notes": "Review employment contracts, third-party agreements, and vendor contracts for presence of confidentiality clauses and NDAs. Verify regular review processes exist."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-NDA-AGREEMENTS-006/"
+}

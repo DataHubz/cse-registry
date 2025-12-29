@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-PRIVACY-NO-CONFIDENTIAL-COMMS-013",
+  "canonical_name": "No Confidential Communications",
+  "description": "No accommodation of requests for confidential communications.",
+  "domain": "HIPAA",
+  "category": "PRIVACY",
+  "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.522(b)"
+    ],
+    "detection_notes": "Detection of this signal may occur when: No process exists for individuals to request confidential communications Reasonable requests for alternative communication methods or locations are denied Healthcare providers improperly require explanations for confidential communication requests Health plans fail to accommodate requests when disclosure could endanger the individual Alternative addresses, phone numbers, or email addresses are not honored Systems are not configured to support confidential communication preferences Staff are not trained on confidential communication obligations Documentation of confidential communication requests and accommodations is inadequate"
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-CONFIDENTIAL-COMMS-013/"
+}

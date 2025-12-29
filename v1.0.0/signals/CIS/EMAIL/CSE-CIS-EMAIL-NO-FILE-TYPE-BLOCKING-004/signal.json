@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-EMAIL-NO-FILE-TYPE-BLOCKING-004",
+  "canonical_name": "Email File Type Blocking Missing",
+  "description": "Email systems do not block or quarantine high-risk file types commonly used to deliver malware. Organizations must configure email security gateways to automatically block or quarantine dangerous file types and extensions that are frequently exploited in phishing and malware campaigns, reducing the attack surface from email-based threats.",
+  "domain": "CIS",
+  "category": "EMAIL",
+  "applicability": "Email security gateways and filters Microsoft 365/Exchange Online Protection Third-party email security solutions Anti-malware scanning systems Email attachment handling policies Security awareness training programs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for EMAIL requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-FILE-TYPE-BLOCKING-004/"
+}

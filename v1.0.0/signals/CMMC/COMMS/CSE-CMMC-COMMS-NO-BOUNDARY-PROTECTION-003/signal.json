@@ -1,0 +1,26 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-BOUNDARY-PROTECTION-003",
+  "canonical_name": "Network Boundary Protection Not Implemented",
+  "description": "Communications at system and network boundaries are not monitored or controlled. This signal indicates that traffic entering or leaving security domains is not subject to inspection, filtering, or access controls.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to network perimeters, cloud VPC boundaries, security zones, and any demarcation point between trust levels. Includes firewalls, network ACLs, security groups, and web application firewalls.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "network-security",
+      "boundary-protection",
+      "access-control"
+    ],
+    "related_controls": [
+      "CMMC SC.L2-3.13.1",
+      "CMMC SC.L2-3.13.5",
+      "CMMC SC.L2-3.13.6",
+      "NIST SP 800-171 3.13.1"
+    ],
+    "detection_notes": "Detected through network architecture review, firewall and security group analysis, traffic flow inspection, and network segmentation assessment."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-BOUNDARY-PROTECTION-003/"
+}

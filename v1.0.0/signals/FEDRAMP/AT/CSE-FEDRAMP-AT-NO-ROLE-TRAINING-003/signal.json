@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-AT-NO-ROLE-TRAINING-003",
+  "canonical_name": "No Role-Based Security Training",
+  "description": "Personnel with assigned security roles and responsibilities do not receive role-based security and privacy training before being granted access and at least annually thereafter.",
+  "domain": "FEDRAMP",
+  "category": "AT",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "awareness-training",
+      "security-awareness",
+      "personnel"
+    ],
+    "related_controls": [
+      "AT-3"
+    ],
+    "detection_notes": "Detection guidance: Look for missing role-based training curricula, lack of specialized training for privileged users, absence of training completion tracking by role, and no evidence of pre-access training requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/AT/CSE-FEDRAMP-AT-NO-ROLE-TRAINING-003/"
+}

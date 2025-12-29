@@ -1,0 +1,21 @@
+{
+  "id": "CSE-FEDRAMP-CM-NO-CHANGE-CONTROL-003",
+  "canonical_name": "No Configuration Change Control",
+  "description": "No configuration change control process has been established to determine, approve, and track configuration-controlled changes to the information system.",
+  "domain": "FEDRAMP",
+  "category": "CM",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) seeking FedRAMP authorization Federal agencies operating cloud systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing government data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "change-control",
+      "baseline"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Review change management systems, ticketing systems, and deployment processes to verify existence of formal change control procedures. Look for untracked changes, absence of change approval workflows, missing change advisory boards (CAB), or lack of documented change requests. Check for direct production changes without approval, missing rollback procedures, or absence of change logs and audit trails."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-CHANGE-CONTROL-003/"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-AN-NO-MAGNITUDE-ESTIMATION-008",
+  "canonical_name": "Incident Magnitude Not Estimated and Validated",
+  "description": "An incident's magnitude is not estimated and validated.",
+  "domain": "NISTCSF",
+  "category": "RS.AN",
+  "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Look for incidents lacking scope assessments (number of affected systems, users, records), missing impact quantification (financial loss, downtime duration, data volume), or unvalidated initial estimations. Monitor for incidents closed without confirming the breadth of compromise, missing business impact analysis, or discrepancies between initial and final scope without documented validation processes."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/AN/CSE-NISTCSF-AN-NO-MAGNITUDE-ESTIMATION-008/"
+}

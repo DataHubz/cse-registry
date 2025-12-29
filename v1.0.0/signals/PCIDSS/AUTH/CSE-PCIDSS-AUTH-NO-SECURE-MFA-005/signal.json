@@ -1,0 +1,23 @@
+{
+  "id": "CSE-PCIDSS-AUTH-NO-SECURE-MFA-005",
+  "canonical_name": "No Secure MFA Configuration",
+  "description": "MFA systems are not configured securely to prevent misuse.",
+  "domain": "PCIDSS",
+  "category": "AUTH",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Identity and access management systems User directories and authentication services Administrative access to CDE components Remote access to payment systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "authentication",
+      "credential-security",
+      "identity"
+    ],
+    "related_controls": [
+      "8.5 Multi-factor authentication (MFA) systems are configured to prevent misuse."
+    ],
+    "detection_notes": "Detection guidance: Test MFA implementations for security weaknesses including replay attack vulnerabilities, bypass mechanisms, and configuration flaws. Review MFA system settings for replay protection, session management, and bypass prevention controls. Vulnerable or bypassable MFA configurations indicate this signal."
+  },
+  "definition_ref": "/v1.0.0/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-SECURE-MFA-005/"
+}

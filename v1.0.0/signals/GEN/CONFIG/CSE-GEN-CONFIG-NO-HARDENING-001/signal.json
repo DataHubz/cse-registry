@@ -1,0 +1,21 @@
+{
+  "id": "CSE-GEN-CONFIG-NO-HARDENING-001",
+  "canonical_name": "System Hardening Missing",
+  "description": "Systems are not configured according to security hardening baselines; default or insecure configurations remain in place. This signal indicates that systems may be running with vendor defaults, unnecessary services enabled, or without security hardening measures applied, increasing the attack surface and potential for compromise.",
+  "domain": "GEN (General)",
+  "category": "CONFIG",
+  "applicability": "This signal applies to: Server operating systems (Linux, Windows, Unix) Network devices (routers, switches, firewalls) Database management systems Web servers and application servers Cloud virtual machines and instances Container images and runtime environments IoT and embedded devices Mobile device management configurations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "hardening",
+      "compliance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Comparing current configurations against hardening benchmarks (CIS, DISA STIGs) Scanning for known insecure default settings Identifying unnecessary services and features enabled Checking for missing security-relevant configurations Validating against organization-specific baseline standards The presence of this signal indicates that a review of system hardening practices is warranted."
+  },
+  "definition_ref": "/v1.0.0/signals/GEN/CONFIG/CSE-GEN-CONFIG-NO-HARDENING-001/"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-VULN-NO-REMEDIATION-002",
+  "canonical_name": "Vulnerability Remediation Process Missing",
+  "description": "An organization lacks a documented and established process for remediating identified vulnerabilities. This signal indicates the absence of a formal remediation process that defines timelines, prioritization criteria, remediation methods, and verification procedures for addressing discovered vulnerabilities.",
+  "domain": "CIS",
+  "category": "VULN",
+  "applicability": "This signal applies to: Enterprise vulnerability remediation programs IT operations and system administration teams Application development and DevOps teams Cloud infrastructure management Third-party managed service providers Asset owners across all technology domains",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "vulnerability-management",
+      "patching",
+      "remediation"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of remediation policies and procedures Assessment of vulnerability tracking systems Analysis of remediation SLAs and timelines Examination of remediation workflows and assignment processes Review of remediation verification and validation procedures The presence of this signal indicates a condition that warrants review in the context of vulnerability remediation requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-REMEDIATION-002/"
+}

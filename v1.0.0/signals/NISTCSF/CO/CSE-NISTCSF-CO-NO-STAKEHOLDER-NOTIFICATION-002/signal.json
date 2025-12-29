@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-CO-NO-STAKEHOLDER-NOTIFICATION-002",
+  "canonical_name": "Internal and External Stakeholders Not Notified of Incidents",
+  "description": "Internal and external stakeholders are not notified of incidents.",
+  "domain": "NISTCSF",
+  "category": "RS.CO",
+  "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Monitor for incidents affecting stakeholders without corresponding notification records, missing breach notifications to regulatory bodies within required timeframes, lack of customer communications for data breaches, or internal incidents not reported to executive management or board. Check for gaps in notification logs, missed SLA requirements for stakeholder updates, or incidents closed without stakeholder notification documentation."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/CO/CSE-NISTCSF-CO-NO-STAKEHOLDER-NOTIFICATION-002/"
+}

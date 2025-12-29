@@ -1,0 +1,24 @@
+{
+  "id": "CSE-SOC2-CC-NO-MGMT-STRUCTURE-003",
+  "canonical_name": "No Management Structure and Authority",
+  "description": "Management has not established structures, reporting lines, and appropriate authorities and responsibilities in pursuit of objectives.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Applies to all entities when organizational structure is undefined, reporting relationships are unclear, roles and responsibilities are not documented, authority levels are ambiguous, or there is inadequate segregation of duties.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "governance",
+      "organizational_structure",
+      "accountability"
+    ],
+    "related_controls": [
+      "SOC 2 CC1.3",
+      "COSO Principle 3"
+    ],
+    "detection_notes": "Review organizational charts, role descriptions, delegation of authority policies, RACI matrices, and segregation of duties documentation. Look for absence of documented structure, conflicting authorities, or unclear accountability."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-MGMT-STRUCTURE-003/"
+}

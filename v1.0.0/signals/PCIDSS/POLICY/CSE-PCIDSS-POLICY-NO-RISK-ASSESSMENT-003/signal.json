@@ -1,0 +1,23 @@
+{
+  "id": "CSE-PCIDSS-POLICY-NO-RISK-ASSESSMENT-003",
+  "canonical_name": "No Risk Assessment",
+  "description": "Risks to the CDE are not formally identified, evaluated, and managed.",
+  "domain": "PCIDSS",
+  "category": "POLICY",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security-policy",
+      "governance",
+      "compliance"
+    ],
+    "related_controls": [
+      "12.3 - Risks to the cardholder data environment are formally identified, evaluated, and managed"
+    ],
+    "detection_notes": "Detection guidance: Check for documented risk assessment methodology and recent risk assessment reports covering the CDE. Verify annual risk assessments and assessments after significant changes. Monitor for risk treatment plans and evidence of risk-based decision making."
+  },
+  "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-RISK-ASSESSMENT-003/"
+}

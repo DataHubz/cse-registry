@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-AU-NO-AUDIT-POLICY-001",
+  "canonical_name": "No Audit Policy",
+  "description": "Audit and accountability policy and procedures are not established.",
+  "domain": "FEDRAMP",
+  "category": "AU",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "audit-logging",
+      "monitoring",
+      "accountability"
+    ],
+    "related_controls": [
+      "AU-1"
+    ],
+    "detection_notes": "Detection guidance: Look for missing audit policy documentation, undefined auditable events, and absence of audit procedures."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/AU/CSE-FEDRAMP-AU-NO-AUDIT-POLICY-001/"
+}

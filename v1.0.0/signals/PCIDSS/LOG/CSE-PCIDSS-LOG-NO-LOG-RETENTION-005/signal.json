@@ -1,0 +1,23 @@
+{
+  "id": "CSE-PCIDSS-LOG-NO-LOG-RETENTION-005",
+  "canonical_name": "No Log Retention",
+  "description": "Audit log history is not retained (3 months immediately available, 1 year archived).",
+  "domain": "PCIDSS",
+  "category": "LOG",
+  "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "audit-logging",
+      "monitoring",
+      "accountability"
+    ],
+    "related_controls": [
+      "10.5 Audit log history is retained and available for analysis"
+    ],
+    "detection_notes": "Detection guidance: Look for log rotation policies that delete logs too soon, absence of log archival systems, insufficient storage capacity for log retention, missing backup of historical logs, or evidence of logs being retained for less than the required 12-month period."
+  },
+  "definition_ref": "/v1.0.0/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-LOG-RETENTION-005/"
+}

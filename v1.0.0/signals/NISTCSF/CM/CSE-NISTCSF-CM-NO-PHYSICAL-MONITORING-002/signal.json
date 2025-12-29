@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-CM-NO-PHYSICAL-MONITORING-002",
+  "canonical_name": "No Physical Environment Monitoring",
+  "description": "The physical environment is not monitored for potentially adverse events.",
+  "domain": "NISTCSF",
+  "category": "CM",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Organizations should implement monitoring of physical facilities, data centers, and other critical areas using surveillance systems, access logs, environmental sensors, and alarm systems to detect unauthorized physical access, environmental hazards, or other potentially adverse physical events that could impact information assets."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/CM/CSE-NISTCSF-CM-NO-PHYSICAL-MONITORING-002/"
+}

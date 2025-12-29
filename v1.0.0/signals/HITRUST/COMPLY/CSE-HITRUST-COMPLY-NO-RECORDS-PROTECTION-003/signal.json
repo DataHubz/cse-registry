@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-COMPLY-NO-RECORDS-PROTECTION-003",
+  "canonical_name": "Records Not Protected",
+  "description": "Records are not protected from loss, destruction, falsification, unauthorized access, and unauthorized release in accordance with legislative, regulatory, contractual, and business requirements. This signal indicates that an organization has not implemented adequate controls to ensure the confidentiality, integrity, availability, and legal admissibility of important records throughout their lifecycle, from creation through retention to disposal.",
+  "domain": "HITRUST",
+  "category": "COMPLY",
+  "applicability": "This signal applies to: Healthcare records subject to HIPAA retention requirements Financial records subject to SOX, GLBA, or SEC regulations Personnel records with privacy and labor law obligations Legal and compliance documentation Audit logs and security event records Business continuity and disaster recovery documentation Contract and vendor agreement repositories Electronic health records (EHR) systems Document management systems and archives",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of records management policies and procedures Analysis of storage encryption and access controls Examination of retention schedules and disposal procedures Assessment of backup and recovery capabilities Review of audit logging for records access Inspection of physical and logical security controls Evaluation of records classification and handling procedures Assessment of legal hold and e-discovery capabilities The presence of this signal indicates a condition that warrants review in the context of records protection and retention compliance requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-RECORDS-PROTECTION-003/"
+}

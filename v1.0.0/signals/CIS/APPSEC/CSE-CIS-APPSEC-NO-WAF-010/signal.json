@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-APPSEC-NO-WAF-010",
+  "canonical_name": "Web Application Firewall Missing",
+  "description": "An organization has not deployed a Web Application Firewall (WAF) to protect web applications from common attacks. This signal indicates the absence of a security layer that filters, monitors, and blocks malicious HTTP/HTTPS traffic between web applications and the internet, protecting against attacks such as SQL injection, cross-site scripting (XSS), and other OWASP Top 10 vulnerabilities.",
+  "domain": "CIS",
+  "category": "APPSEC",
+  "applicability": "This signal applies to: Web application hosting environments Cloud infrastructure teams Security operations teams DevOps and DevSecOps teams Network security teams Application security teams API platform teams Organizations with internet-facing applications",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of application architecture and network topology Assessment of web application protection mechanisms Evaluation of WAF deployment and configuration Examination of security rule sets and policies Review of attack mitigation capabilities Assessment of logging and monitoring integration Analysis of virtual patching processes WAF capabilities typically include: **OWASP Top 10 protection:** SQL injection prevention Cross-site scripting (XSS) blocking Cross-site request forgery (CSRF) protection XML external entity (XXE) prevention Server-side request forgery (SSRF) blocking Insecure deserialization detection Security misconfiguration detection **Attack mitigation:** DDoS protection (application layer) Bot management and mitigation Brute force"
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-WAF-010/"
+}

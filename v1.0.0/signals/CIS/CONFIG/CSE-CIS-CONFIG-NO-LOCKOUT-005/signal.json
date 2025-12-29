@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-CONFIG-NO-LOCKOUT-005",
+  "canonical_name": "Automatic Lockout Not Configured",
+  "description": "Systems and applications do not have automatic lockout mechanisms configured for mobile devices, workstations, or sessions after a period of inactivity. This signal indicates that unattended devices and sessions remain accessible, creating opportunities for unauthorized access.",
+  "domain": "CIS",
+  "category": "CONFIG",
+  "applicability": "This signal applies to: Workstation and desktop systems Mobile devices (phones, tablets) Server console sessions Web application sessions Remote desktop sessions Kiosk systems Physical access terminals",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "hardening",
+      "baseline"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for CONFIG requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-LOCKOUT-005/"
+}

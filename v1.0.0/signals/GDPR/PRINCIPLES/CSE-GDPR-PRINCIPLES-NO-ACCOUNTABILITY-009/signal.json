@@ -1,0 +1,25 @@
+{
+  "id": "CSE-GDPR-PRINCIPLES-NO-ACCOUNTABILITY-009",
+  "canonical_name": "Accountability Not Demonstrated",
+  "description": "The controller cannot demonstrate compliance with GDPR data protection principles. Accountability requires documented evidence of compliance measures and their effectiveness.",
+  "domain": "GDPR",
+  "category": "PRINCIPLES",
+  "applicability": "Applicable to all data controllers. Includes documentation of policies, procedures, training records, impact assessments, and processing records.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "accountability",
+      "governance"
+    ],
+    "related_controls": [
+      "GDPR Art. 5.2",
+      "GDPR Art. 24",
+      "GDPR Art. 30"
+    ],
+    "detection_notes": "Detected through review of documentation, policies, and compliance evidence. Assess whether the controller can demonstrate compliance if requested by a supervisory authority."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-ACCOUNTABILITY-009/"
+}

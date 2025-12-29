@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HITRUST-RISK-NO-PERIODIC-REVIEW-008",
+  "canonical_name": "Periodic Risk Review Not Conducted",
+  "description": "Organization does not conduct periodic reviews of risk assessments, risk treatment plans, and risk management processes to ensure they remain current, effective, and aligned with business objectives. Periodic reviews must reassess risks in light of organizational changes, new threats, control effectiveness, and evolving regulatory requirements.",
+  "domain": "HITRUST",
+  "category": "RISK",
+  "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with established risk management programs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "risk-management",
+      "assessment",
+      "governance"
+    ],
+    "related_controls": [
+      "03.f - Periodic Risk Review"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of risk assessment update schedules and compliance Examination of risk review meeting records and decisions Verification of risk register currency and accuracy Analysis of organizational change impact on risk assessments Assessment of risk treatment effectiveness evaluations Validation of management review of risk management program Evaluation of review triggers for significant changes The presence of this signal indicates that risk assessments may be outdated, risk treatments may be ineffective, and the organization may be unaware of new or elevated risks requiring attention."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-PERIODIC-REVIEW-008/"
+}

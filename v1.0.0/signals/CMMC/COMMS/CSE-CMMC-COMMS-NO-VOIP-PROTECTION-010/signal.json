@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-VOIP-PROTECTION-010",
+  "canonical_name": "VoIP Communications Not Protected",
+  "description": "Voice over IP communications are not protected against eavesdropping or manipulation. This signal indicates that voice communications may be intercepted or modified in transit.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to all VoIP implementations. Includes SIP encryption, SRTP for media streams, VoIP network segmentation, and voice traffic protection.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-communications",
+      "voice-security",
+      "encryption"
+    ],
+    "related_controls": [
+      "CMMC SC.L2-3.13.14",
+      "NIST SP 800-171 3.13.14"
+    ],
+    "detection_notes": "Detected through VoIP configuration review, voice encryption verification, and SIP security assessment."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-VOIP-PROTECTION-010/"
+}

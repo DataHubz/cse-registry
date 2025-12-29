@@ -1,0 +1,21 @@
+{
+  "id": "CSE-GEN-PHYSICAL-NO-MEDIA-CONTROLS-003",
+  "canonical_name": "Physical Media Controls Missing",
+  "description": "No controls for physical storage media (hard drives, USB drives, backup tapes, optical discs, mobile devices) handling, storage, transportation, and disposal to prevent unauthorized access, data leakage, or improper destruction. This signal indicates the absence of physical media management controls including secure storage, chain of custody tracking, encryption requirements, sanitization procedures, certified destruction methods, or inventory management for removable and portable media containi",
+  "domain": "GEN (General)",
+  "category": "PHYSICAL",
+  "applicability": "This signal applies to: Backup tapes and external hard drives USB drives and flash storage devices Laptop computers and mobile devices Optical media (CDs, DVDs, Blu-ray) Paper documents containing sensitive data Decommissioned storage devices Media in transit or offsite storage End-of-life equipment disposal",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "facility-protection",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of media management policies and procedures Assessment of media inventory and tracking systems Examination of secure storage facilities Evaluation of encryption requirements for removable media Analysis of sanitization and disposal procedures Review of certificates of destruction Assessment of media transport security Examination of chain of custody records Effective physical media control programs typically include: **Inventory Management**: Complete tracking of all physical media **Secure Storage**: Locked, environmentally controlled storage areas **Encryption**: Mandatory encryption for removable and portable media **Classification**: Labeling based on data sensitivity **Access Control**: Authorization and logging of media access **Tra"
+  },
+  "definition_ref": "/v1.0.0/signals/GEN/PHYSICAL/CSE-GEN-PHYSICAL-NO-MEDIA-CONTROLS-003/"
+}

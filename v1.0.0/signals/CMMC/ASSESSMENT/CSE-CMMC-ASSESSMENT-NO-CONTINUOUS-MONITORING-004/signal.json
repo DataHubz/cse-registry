@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-ASSESSMENT-NO-CONTINUOUS-MONITORING-004",
+  "canonical_name": "Continuous Security Monitoring Not Implemented",
+  "description": "Continuous monitoring of security controls and system security status is not implemented. This signal indicates that security changes and threats may not be detected in real-time.",
+  "domain": "CMMC",
+  "category": "ASSESSMENT",
+  "applicability": "Applicable to all organizational security monitoring. Includes automated security monitoring, real-time alerting, and ongoing security status reporting.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security-assessment",
+      "monitoring",
+      "threat-detection"
+    ],
+    "related_controls": [
+      "CMMC CA.L2-3.12.3",
+      "NIST SP 800-171 3.12.3"
+    ],
+    "detection_notes": "Detected through monitoring capability review, real-time alerting assessment, and security dashboard verification."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/ASSESSMENT/CSE-CMMC-ASSESSMENT-NO-CONTINUOUS-MONITORING-004/"
+}

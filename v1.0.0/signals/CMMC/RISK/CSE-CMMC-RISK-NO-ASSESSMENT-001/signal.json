@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-RISK-NO-ASSESSMENT-001",
+  "canonical_name": "Risk Assessment Not Conducted",
+  "description": "The organization has not conducted periodic risk assessments to identify threats, vulnerabilities, and potential impacts to systems and data. This signal indicates that security risks may not be formally identified, documented, or prioritized.",
+  "domain": "CMMC",
+  "category": "RISK",
+  "applicability": "Applicable to organizational risk management processes including threat identification, vulnerability assessment, impact analysis, and risk prioritization activities.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "risk-management",
+      "governance",
+      "assessment"
+    ],
+    "related_controls": [
+      "CMMC RA.L2-3.11.1",
+      "NIST SP 800-171 3.11.1"
+    ],
+    "detection_notes": "Detected through review of risk assessment documentation, assessment schedules, risk registers, and risk management processes."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/RISK/CSE-CMMC-RISK-NO-ASSESSMENT-001/"
+}

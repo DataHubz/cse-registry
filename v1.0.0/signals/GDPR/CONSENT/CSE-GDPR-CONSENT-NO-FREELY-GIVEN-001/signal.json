@@ -1,0 +1,24 @@
+{
+  "id": "CSE-GDPR-CONSENT-NO-FREELY-GIVEN-001",
+  "canonical_name": "Consent Not Freely Given",
+  "description": "Consent is not freely given due to conditioning of service on consent, clear imbalance between controller and data subject, or inability to refuse without detriment. Article 7.4 addresses conditioning of contracts on consent.",
+  "domain": "GDPR",
+  "category": "CONSENT",
+  "applicability": "Applicable when consent is used as legal basis. Consent must be freely given, specific, informed, and unambiguous. Cannot condition service provision on consent for non-necessary processing.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "consent-validity",
+      "fairness"
+    ],
+    "related_controls": [
+      "GDPR Art. 7.4",
+      "GDPR Art. 4.11"
+    ],
+    "detection_notes": "Detected through review of consent mechanisms, terms of service, and identification of consent bundling or conditioning practices."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/CONSENT/CSE-GDPR-CONSENT-NO-FREELY-GIVEN-001/"
+}

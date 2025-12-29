@@ -1,0 +1,24 @@
+{
+  "id": "CSE-SOC2-CC-NO-INTEGRITY-COMMITMENT-001",
+  "canonical_name": "No Commitment to Integrity and Ethical Values",
+  "description": "The entity does not demonstrate commitment to integrity and ethical values through conduct standards, performance evaluations, and corrective actions.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Applies to all entities when leadership fails to establish, communicate, or enforce standards of conduct, ethical values are not integrated into hiring and evaluation processes, or remediation of misconduct is inadequate or inconsistent.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "governance",
+      "ethics",
+      "culture"
+    ],
+    "related_controls": [
+      "SOC 2 CC1.1",
+      "COSO Principle 1"
+    ],
+    "detection_notes": "Review code of conduct policies, employee handbook acknowledgments, ethics training records, whistleblower procedures, disciplinary action records, and management tone-at-the-top communications. Look for absence of conduct standards, lack of ethics training, or inconsistent enforcement of policies."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INTEGRITY-COMMITMENT-001/"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-ADMIN-NO-SECURITY-OFFICIAL-005",
+  "canonical_name": "No Assigned Security Responsibility",
+  "description": "No designated security official has been assigned responsibility for developing and implementing security policies and procedures. This signal indicates the absence of a specific individual or role accountable for the organization's information security program and HIPAA compliance.",
+  "domain": "HIPAA",
+  "category": "ADMIN",
+  "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "governance",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.308(a)(2)"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of organizational charts and role assignments Examination of job descriptions for security responsibilities Analysis of security policy ownership and approval authorities Verification of documented security official designation Assessment of security governance structure The presence of this signal indicates a fundamental gap in security program leadership and accountability."
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SECURITY-OFFICIAL-005/"
+}

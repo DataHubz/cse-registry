@@ -1,0 +1,25 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-OPERATIONAL-RESILIENCE-024",
+  "canonical_name": "Operational Resilience Testing Not Conducted",
+  "description": "Testing of operational resilience and system recovery capabilities is not conducted. This signal indicates that recovery procedures may fail during actual incidents.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments requiring operational assurance. Includes disaster recovery testing, failover exercises, and resilience validation.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "enhanced-security",
+      "resilience",
+      "testing"
+    ],
+    "related_controls": [
+      "CMMC L3-CP.3.4.3e",
+      "NIST SP 800-172 3.4.3e"
+    ],
+    "detection_notes": "Detected through resilience testing records, DR exercise verification, and recovery capability assessment.",
+    "cmmc_level": 3
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-OPERATIONAL-RESILIENCE-024/"
+}

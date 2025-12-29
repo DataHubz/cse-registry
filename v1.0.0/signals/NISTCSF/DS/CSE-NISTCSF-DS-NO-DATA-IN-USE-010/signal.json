@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-DS-NO-DATA-IN-USE-010",
+  "canonical_name": "Data in Use Not Protected",
+  "description": "The confidentiality, integrity, and availability of data-in-use are not protected.",
+  "domain": "NISTCSF",
+  "category": "Data Security",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Monitor for lack of memory encryption, inadequate process isolation, missing secure enclaves or trusted execution environments, unprotected data in RAM, and insufficient controls to protect data during active processing and computation."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/DS/CSE-NISTCSF-DS-NO-DATA-IN-USE-010/"
+}

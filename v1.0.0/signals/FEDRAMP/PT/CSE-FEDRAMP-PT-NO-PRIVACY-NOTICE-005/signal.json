@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-PT-NO-PRIVACY-NOTICE-005",
+  "canonical_name": "No Privacy Notice",
+  "description": "The organization does not provide privacy notices to individuals that describe what PII is collected, how it is used, maintained, and shared, and individual privacy rights and choices.",
+  "domain": "FEDRAMP",
+  "category": "PT",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information containing PII",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "pii-processing",
+      "privacy",
+      "data-protection"
+    ],
+    "related_controls": [
+      "PT-5"
+    ],
+    "detection_notes": "Detection guidance: Look for missing privacy notices on systems and applications, outdated notices, unclear or overly complex language that is not plain language, missing required elements (authority, purposes, PII types, retention, sharing practices), lack of notice accessibility at first interaction, no evidence of periodic notice updates, and absence of individual rights information."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/PT/CSE-FEDRAMP-PT-NO-PRIVACY-NOTICE-005/"
+}

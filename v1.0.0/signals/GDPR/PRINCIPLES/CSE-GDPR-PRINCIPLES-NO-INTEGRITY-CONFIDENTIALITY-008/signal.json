@@ -1,0 +1,24 @@
+{
+  "id": "CSE-GDPR-PRINCIPLES-NO-INTEGRITY-CONFIDENTIALITY-008",
+  "canonical_name": "Integrity and Confidentiality Not Ensured",
+  "description": "Appropriate security measures are not implemented to protect personal data against unauthorized or unlawful processing, accidental loss, destruction, or damage.",
+  "domain": "GDPR",
+  "category": "PRINCIPLES",
+  "applicability": "Applicable to all systems processing or storing personal data. Includes technical security controls, organizational measures, and physical security safeguards.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "security",
+      "confidentiality"
+    ],
+    "related_controls": [
+      "GDPR Art. 5.1.f",
+      "GDPR Art. 32"
+    ],
+    "detection_notes": "Detected through security assessments, vulnerability scans, and review of security controls. Assess encryption, access controls, and incident response capabilities."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-INTEGRITY-CONFIDENTIALITY-008/"
+}

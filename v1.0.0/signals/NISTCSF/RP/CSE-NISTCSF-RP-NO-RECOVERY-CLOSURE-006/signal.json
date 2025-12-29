@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-RP-NO-RECOVERY-CLOSURE-006",
+  "canonical_name": "Incident Recovery End Not Declared Based on Criteria",
+  "description": "The end of incident recovery is not declared based on criteria.",
+  "domain": "NISTCSF",
+  "category": "RP",
+  "applicability": "This signal applies to: All organizations with business continuity and disaster recovery requirements Incident recovery and restoration teams Communications and public relations functions Organizations with regulatory recovery requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Identify incidents where recovery activities cease without formal closure declaration or documented completion criteria. Monitor for missing post-recovery documentation, lessons learned, or undefined exit criteria that leave recovery status ambiguous."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-RECOVERY-CLOSURE-006/"
+}

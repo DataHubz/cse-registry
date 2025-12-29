@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-ACCESS-NO-PRIVACY-NOTICE-008",
+  "canonical_name": "Privacy and Security Notice Missing",
+  "description": "Systems do not display approved privacy and security notices before granting access. This signal indicates that users may not be informed of usage terms, monitoring policies, or acceptable use requirements before accessing systems.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to all systems requiring user login including workstations, servers, applications, and network devices. Includes login banners, terms of use acknowledgment, and consent notices.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "low",
+    "risk_domains": [
+      "access-control",
+      "governance",
+      "legal"
+    ],
+    "related_controls": [
+      "CMMC AC.L2-3.1.9",
+      "NIST SP 800-171 3.1.9"
+    ],
+    "detection_notes": "Detected through review of login banner configurations, pre-authentication notices, and terms acceptance mechanisms."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-PRIVACY-NOTICE-008/"
+}

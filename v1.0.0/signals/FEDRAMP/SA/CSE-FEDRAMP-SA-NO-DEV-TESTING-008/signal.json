@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-SA-NO-DEV-TESTING-008",
+  "canonical_name": "No Developer Testing and Evaluation",
+  "description": "Developer security and privacy testing and evaluation is not required to create evidence of security and privacy control effectiveness.",
+  "domain": "FEDRAMP",
+  "category": "SA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-acquisition",
+      "development-security",
+      "supply-chain"
+    ],
+    "related_controls": [
+      "SA-11"
+    ],
+    "detection_notes": "Detection guidance: Look for missing developer testing plans, absence of security assessment evidence, lack of privacy testing procedures, missing unit and integration test results, inadequate regression testing, absence of flaw remediation processes, unverified security control effectiveness, and missing test coverage documentation."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-DEV-TESTING-008/"
+}

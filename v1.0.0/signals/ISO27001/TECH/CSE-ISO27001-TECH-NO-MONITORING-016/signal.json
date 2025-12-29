@@ -1,0 +1,24 @@
+{
+  "id": "CSE-ISO27001-TECH-NO-MONITORING-016",
+  "canonical_name": "No Monitoring Activities",
+  "description": "Networks, systems, and applications are not monitored for anomalous behavior and appropriate actions taken.",
+  "domain": "ISO27001",
+  "category": "TECH",
+  "applicability": "Applies to organizations that do not actively monitor networks, systems, and applications for anomalous behavior, security events, performance issues, or unauthorized activities, and lack processes to respond appropriately to detected anomalies.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "technology",
+      "security",
+      "incident-response",
+      "threat-detection"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.8.16"
+    ],
+    "detection_notes": "Review security monitoring tools (SIEM, IDS/IPS, EDR), network monitoring, application performance monitoring, anomaly detection capabilities, alert configurations, incident response procedures, and 24/7 monitoring coverage."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-MONITORING-016/"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CSE-SOC2-CC-NO-CONTROL-ACCOUNTABILITY-005",
+  "canonical_name": "No Accountability for Internal Control",
+  "description": "The entity does not hold individuals accountable for their internal control responsibilities in pursuit of objectives.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Applies to all entities when control responsibilities are not assigned, performance measures do not include control effectiveness, consequences for control failures are absent, or there is no monitoring of individual accountability for controls.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "governance",
+      "accountability",
+      "control_ownership"
+    ],
+    "related_controls": [
+      "SOC 2 CC1.5",
+      "COSO Principle 5"
+    ],
+    "detection_notes": "Review control ownership assignments, performance objectives including control responsibilities, incident response records showing accountability actions, and evidence of consequences for control failures. Look for absence of assigned control owners, lack of performance metrics tied to controls, or no consequences for control deficiencies."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-ACCOUNTABILITY-005/"
+}

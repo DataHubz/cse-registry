@@ -1,0 +1,24 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-SUPPLIER-SECURITY-019",
+  "canonical_name": "No Supplier Security Management",
+  "description": "Processes for managing security risks associated with supplier access to organizational assets are not defined.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization lacks processes to identify, assess, and mitigate security risks in supplier relationships, including vendor due diligence, security requirements in contracts, and ongoing monitoring of supplier security posture.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "third_party_risk",
+      "supply_chain",
+      "vendor_management",
+      "compliance"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.5.19"
+    ],
+    "detection_notes": "Review supplier security assessment processes, verify security requirements in contracts and SLAs, assess supplier risk classifications, check for vendor security questionnaires, evaluate ongoing supplier monitoring, verify incident notification requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SUPPLIER-SECURITY-019/"
+}

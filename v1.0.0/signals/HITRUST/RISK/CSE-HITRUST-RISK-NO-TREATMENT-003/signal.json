@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HITRUST-RISK-NO-TREATMENT-003",
+  "canonical_name": "Risk Treatment Plan Missing",
+  "description": "Organization has not developed a risk treatment plan to address identified risks through mitigation, transfer, avoidance, or acceptance strategies. Risk treatment plans must document selected risk responses, assigned responsibilities, required resources, timelines, and expected outcomes for each significant risk.",
+  "domain": "HITRUST",
+  "category": "RISK",
+  "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with identified security and privacy risks",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "risk-management",
+      "assessment",
+      "governance"
+    ],
+    "related_controls": [
+      "03.b - Risk Treatment"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of documented risk treatment plans and action items Examination of risk response strategies (mitigate, transfer, avoid, accept) Verification of assigned responsibilities and ownership for risk treatment Analysis of timelines and milestones for risk mitigation activities Assessment of resource allocation for risk treatment implementation Validation of treatment effectiveness monitoring processes The presence of this signal indicates that identified risks may remain unaddressed, potentially exposing the organization to security incidents, compliance violations, and business disruptions."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-TREATMENT-003/"
+}

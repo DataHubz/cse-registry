@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-IR-NO-INCIDENT-TRAINING-002",
+  "canonical_name": "No Incident Response Training",
+  "description": "Incident response training is not provided to users with assigned incident response roles and responsibilities.",
+  "domain": "FEDRAMP",
+  "category": "IR",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "security-operations",
+      "threat-management"
+    ],
+    "related_controls": [
+      "IR-2"
+    ],
+    "detection_notes": "Detection guidance: Look for missing incident response training programs, absence of training records for incident response personnel, and lack of role-based training documentation."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/IR/CSE-FEDRAMP-IR-NO-INCIDENT-TRAINING-002/"
+}

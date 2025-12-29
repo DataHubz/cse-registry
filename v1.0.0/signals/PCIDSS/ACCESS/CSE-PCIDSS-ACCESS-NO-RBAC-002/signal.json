@@ -1,0 +1,23 @@
+{
+  "id": "CSE-PCIDSS-ACCESS-NO-RBAC-002",
+  "canonical_name": "No Role-Based Access Control",
+  "description": "Access to system components is not appropriately defined based on roles.",
+  "domain": "PCIDSS",
+  "category": "ACCESS",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Identity and access management systems User directories and authentication services Administrative access to CDE components Remote access to payment systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "authentication",
+      "authorization"
+    ],
+    "related_controls": [
+      "7.2 Access to system components and data is appropriately defined and assigned."
+    ],
+    "detection_notes": "Detection guidance: Examine user account configurations and permissions to determine if access is granted based on defined roles or assigned ad-hoc. Review access control models for evidence of role definitions, privilege mappings, and least privilege principles. Missing or undefined role-based access structures indicate this signal."
+  },
+  "definition_ref": "/v1.0.0/signals/PCIDSS/ACCESS/CSE-PCIDSS-ACCESS-NO-RBAC-002/"
+}

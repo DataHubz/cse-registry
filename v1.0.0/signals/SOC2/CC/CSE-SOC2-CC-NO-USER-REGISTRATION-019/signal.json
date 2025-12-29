@@ -1,0 +1,23 @@
+{
+  "id": "CSE-SOC2-CC-NO-USER-REGISTRATION-019",
+  "canonical_name": "No User Registration and Authorization",
+  "description": "Prior to issuing system credentials and granting system access, the entity does not register and authorize new internal and external users.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Identity and access management processes",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "Access Control",
+      "Identity Management",
+      "User Provisioning"
+    ],
+    "related_controls": [
+      "SOC 2 CC6.2"
+    ],
+    "detection_notes": "Review user provisioning processes, access request workflows, and approval documentation. Verify that user registration and authorization procedures exist before credential issuance."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-USER-REGISTRATION-019/"
+}

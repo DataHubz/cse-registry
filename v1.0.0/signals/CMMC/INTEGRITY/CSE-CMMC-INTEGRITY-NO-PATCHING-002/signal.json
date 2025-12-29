@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-INTEGRITY-NO-PATCHING-002",
+  "canonical_name": "Security Patching Not Current",
+  "description": "Systems have not been updated with current security patches or are running software versions with known vulnerabilities. This signal indicates that systems may be exposed to exploits for publicly disclosed vulnerabilities.",
+  "domain": "CMMC",
+  "category": "INTEGRITY",
+  "applicability": "Applicable to all software components including operating systems, applications, libraries, firmware, and container images. Includes both first-party and third-party software.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "vulnerability-management",
+      "patching",
+      "integrity"
+    ],
+    "related_controls": [
+      "CMMC SI.L2-3.14.1",
+      "NIST SP 800-171 3.14.1"
+    ],
+    "detection_notes": "Detected through vulnerability scanning, patch compliance reporting, software version analysis, and dependency auditing tools."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-PATCHING-002/"
+}

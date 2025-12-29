@@ -1,0 +1,23 @@
+{
+  "id": "CSE-PCIDSS-TEST-NO-VULN-SCANNING-003",
+  "canonical_name": "No Vulnerability Scanning",
+  "description": "Internal and external vulnerability scans are not performed quarterly.",
+  "domain": "PCIDSS",
+  "category": "TEST",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security-testing",
+      "penetration-testing",
+      "assessment"
+    ],
+    "related_controls": [
+      "11.3 - External and internal vulnerabilities are regularly identified, prioritized, and addressed"
+    ],
+    "detection_notes": "Detection guidance: Monitor for absence of quarterly vulnerability scan reports from an Approved Scanning Vendor (ASV) for external scans and internal scanning tools. Verify scan schedules, coverage of all system components in the CDE, and remediation tracking for identified vulnerabilities."
+  },
+  "definition_ref": "/v1.0.0/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-VULN-SCANNING-003/"
+}

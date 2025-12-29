@@ -1,0 +1,21 @@
+{
+  "id": "CSE-FEDRAMP-CP-NO-CONTINGENCY-TESTING-004",
+  "canonical_name": "No Contingency Plan Testing",
+  "description": "The organization does not test the contingency plan for the information system at required frequencies using defined tests to determine effectiveness and organizational readiness. This signal indicates that the organization may not have validated its ability to execute contingency procedures or may not have identified plan deficiencies.",
+  "domain": "FEDRAMP",
+  "category": "CP",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "contingency-planning",
+      "disaster-recovery",
+      "resilience"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of contingency plan testing documentation Analysis of test schedules and execution records Verification of test methodologies and scenarios Assessment of test results and findings Examination of corrective action tracking Inspection of plan updates based on test results Review of organizational readiness assessments Analysis of test frequency compliance The presence of this signal indicates a condition that warrants review in the context of FedRAMP contingency planning requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-CONTINGENCY-TESTING-004/"
+}

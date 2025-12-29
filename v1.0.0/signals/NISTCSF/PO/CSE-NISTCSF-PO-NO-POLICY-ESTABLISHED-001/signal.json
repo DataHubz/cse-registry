@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-PO-NO-POLICY-ESTABLISHED-001",
+  "canonical_name": "Cybersecurity Risk Management Policy Not Established",
+  "description": "A policy for cybersecurity risk management based on organizational context is not established.",
+  "domain": "NISTCSF",
+  "category": "PO",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Identify organizations lacking documented cybersecurity policies, policies not aligned with organizational context and risk appetite, absence of formal policy approval and communication processes, or lack of enforcement mechanisms for policy compliance."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/PO/CSE-NISTCSF-PO-NO-POLICY-ESTABLISHED-001/"
+}

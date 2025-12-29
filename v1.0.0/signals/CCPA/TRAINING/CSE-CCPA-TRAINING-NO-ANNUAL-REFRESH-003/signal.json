@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CCPA-TRAINING-NO-ANNUAL-REFRESH-003",
+  "canonical_name": "Annual Training Refresh Missing",
+  "description": "A business subject to CCPA requirements does not provide annual refresher training to employees who handle consumer personal information or process consumer rights requests. This signal indicates that initial training was provided but no recurring training program exists to update employees on regulatory changes, new business practices, or evolving privacy requirements. Given the CPRA amendments and ongoing CPPA regulatory developments, annual training updates are necessary to ensure employees r",
+  "domain": "CCPA",
+  "category": "TRAINING",
+  "applicability": "This signal applies to: Existing employees who completed initial CCPA training more than 12 months ago Privacy teams responsible for ongoing CCPA compliance Customer service departments handling consumer requests IT and engineering teams maintaining data systems Management overseeing privacy program implementation Compliance personnel monitoring regulatory changes Third-party service providers with multi-year contracts",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Analyzing employee training records for completion dates Checking learning management system schedules for recurring training Reviewing training materials for CPRA updates and current regulatory guidance Comparing training content versions against regulatory amendment dates Examining HR policies for mandatory annual training requirements Verifying training attendance records for calendar year compliance Checking for automated training reminders or scheduling systems Reviewing training curricula for coverage of CPRA amendments (effective 2023) The presence of this signal indicates that employee knowledge of CCPA requirements may be outdated, particularly regarding CPRA amendments and evolving CPPA enforcement priorities."
+  },
+  "definition_ref": "/v1.0.0/signals/CCPA/TRAINING/CSE-CCPA-TRAINING-NO-ANNUAL-REFRESH-003/"
+}

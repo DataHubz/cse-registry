@@ -1,0 +1,25 @@
+{
+  "id": "CSE-GDPR-DESIGN-NO-DATA-MINIMIZATION-DEFAULT-003",
+  "canonical_name": "Data Minimization Not Default",
+  "description": "Default system configurations do not limit the amount of personal data collected, the extent of processing, the period of storage, or accessibility as required by Article 25.2. Systems collect or retain more data than necessary for specified purposes without user action to enable such collection.",
+  "domain": "GDPR",
+  "category": "DESIGN",
+  "applicability": "Applicable to all data collection interfaces, storage systems, and processing operations. Default configurations must minimize data collection, processing scope, retention periods, and access.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-minimization",
+      "privacy-engineering",
+      "storage"
+    ],
+    "related_controls": [
+      "GDPR Art. 25.2",
+      "GDPR Art. 5.1.c",
+      "GDPR Art. 5.1.e"
+    ],
+    "detection_notes": "Detected through analysis of default data collection forms, storage configurations, retention policies, and access control defaults. Requires verification that minimal data collection is the default state."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/DESIGN/CSE-GDPR-DESIGN-NO-DATA-MINIMIZATION-DEFAULT-003/"
+}

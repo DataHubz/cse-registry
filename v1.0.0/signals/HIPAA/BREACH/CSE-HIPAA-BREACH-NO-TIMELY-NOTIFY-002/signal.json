@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-BREACH-NO-TIMELY-NOTIFY-002",
+  "canonical_name": "No Timely Notification (60 days)",
+  "description": "Breach notifications not provided within 60 calendar days of discovery.",
+  "domain": "HIPAA",
+  "category": "BREACH",
+  "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "45 CFR 164.404(b)"
+    ],
+    "detection_notes": "Detection guidance: Implement automated timestamp tracking for breach discovery dates and notification dates Monitor the elapsed time between breach discovery and notification delivery Set up alerts for approaching 60-day deadlines to prevent late notifications Review historical breach incidents to identify patterns of delayed notifications Verify that \"discovery\" date is properly defined and consistently applied across incidents Check for documentation explaining any delays and whether they constitute \"unreasonable delay\" Audit notification workflows to identify bottlenecks that could cause timing violations"
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-TIMELY-NOTIFY-002/"
+}

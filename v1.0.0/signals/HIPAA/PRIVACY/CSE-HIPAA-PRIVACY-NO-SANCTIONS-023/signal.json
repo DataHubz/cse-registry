@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-PRIVACY-NO-SANCTIONS-023",
+  "canonical_name": "No Sanctions for Non-Compliance",
+  "description": "No sanctions applied against workforce members for privacy violations.",
+  "domain": "HIPAA",
+  "category": "PRIVACY",
+  "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.530(e)"
+    ],
+    "detection_notes": "Detect absence of documented sanction policies, failure to apply sanctions for confirmed privacy violations, or lack of enforcement of privacy policies. Review incident response records, disciplinary actions, and workforce accountability measures for privacy non-compliance."
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SANCTIONS-023/"
+}

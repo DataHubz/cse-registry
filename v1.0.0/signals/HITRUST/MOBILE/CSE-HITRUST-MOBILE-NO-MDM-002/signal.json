@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-MOBILE-NO-MDM-002",
+  "canonical_name": "Mobile Device Management Missing",
+  "description": "Mobile Device Management (MDM) or Enterprise Mobility Management (EMM) solutions have not been implemented for an organization or system handling protected health information (PHI) or other sensitive data. This signal indicates the absence of technical controls and management capabilities for mobile devices that access organizational resources or process sensitive information. MDM solutions provide centralized management, security policy enforcement, application management, and remote device con",
+  "domain": "HITRUST",
+  "category": "MOBILE",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers Organizations with mobile workforce or BYOD programs Organizations allowing mobile access to email or enterprise systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of mobile device management infrastructure Examination of device enrollment records and compliance reporting Analysis of MDM/EMM solution configurations Verification of remote management capabilities Assessment of device compliance monitoring Review of mobile access logs and authentication methods Evaluation of application management and distribution processes The presence of this signal indicates a significant gap in mobile device security controls that should be addressed promptly, particularly for organizations where mobile devices access PHI or other sensitive data. MDM solutions are considered a baseline security requirement for enterprise mobile device management."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-MDM-002/"
+}

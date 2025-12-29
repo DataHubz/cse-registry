@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-PHYSICAL-NO-WORKSTATION-USE-005",
+  "canonical_name": "No Workstation Use Policy",
+  "description": "No policies and procedures specifying proper functions, manner of performance, and physical surroundings for workstations accessing ePHI.",
+  "domain": "HIPAA",
+  "category": "PHYSICAL",
+  "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "physical-security",
+      "asset-protection",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.310(b)"
+    ],
+    "detection_notes": "Detection guidance: Review organizational policies for workstation use controls. Verify that documented procedures specify allowable functions for workstations accessing ePHI, proper usage protocols, and requirements for physical placement and surroundings. Check for policies addressing privacy screens, workstation positioning to prevent unauthorized viewing, and secure areas for workstations handling sensitive ePHI."
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-WORKSTATION-USE-005/"
+}

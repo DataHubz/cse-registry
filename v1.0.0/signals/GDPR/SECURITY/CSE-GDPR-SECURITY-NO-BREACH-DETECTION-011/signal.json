@@ -1,0 +1,25 @@
+{
+  "id": "CSE-GDPR-SECURITY-NO-BREACH-DETECTION-011",
+  "canonical_name": "Breach Detection Mechanisms Not Implemented",
+  "description": "Organization lacks mechanisms to detect personal data breaches in a timely manner. Breach detection capabilities are essential to meet the 72-hour notification requirement and minimize harm to data subjects.",
+  "domain": "GDPR",
+  "category": "SECURITY",
+  "applicability": "Applicable to all systems processing personal data. Includes security monitoring, intrusion detection, anomaly detection, audit log analysis, incident alerting, and security information and event management (SIEM) systems.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "security",
+      "incident-detection",
+      "breach-notification"
+    ],
+    "related_controls": [
+      "GDPR Art. 33",
+      "GDPR Art. 32.1.d"
+    ],
+    "detection_notes": "Detected through security operations review. Look for missing security monitoring, no intrusion detection system (IDS), lack of log aggregation, no anomaly detection, missing alerting mechanisms, inadequate audit trails, no SIEM solution, and absence of security incident response procedures. Verify monitoring covers all systems processing personal data."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-BREACH-DETECTION-011/"
+}

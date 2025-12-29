@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-ACCESS-NO-PASSWORD-POLICY-005",
+  "canonical_name": "Password Policy Not Enforced",
+  "description": "A formal password policy has not been established or is not being enforced for systems containing protected health information (PHI) or other sensitive data. This signal indicates the absence of password complexity requirements, length minimums, expiration rules, history restrictions, or other password security controls. A comprehensive password policy is essential for preventing unauthorized access through weak or compromised credentials.",
+  "domain": "HITRUST",
+  "category": "ACCESS",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Identity providers and authentication systems Active Directory and LDAP systems Application authentication mechanisms Database access controls",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of password policy configurations Analysis of authentication system settings Examination of password validation rules Assessment of password policy enforcement mechanisms Review of directory service configurations Testing of password policy enforcement The presence of this signal indicates a fundamental security weakness that significantly increases the risk of unauthorized access through compromised credentials."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PASSWORD-POLICY-005/"
+}

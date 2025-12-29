@@ -1,0 +1,23 @@
+{
+  "id": "CSE-ISO27001-ORG-NO-SECURITY-POLICIES-001",
+  "canonical_name": "No Information Security Policies",
+  "description": "Organization lacks documented information security policies approved by management, published, and communicated to relevant parties.",
+  "domain": "ISO27001",
+  "category": "ORG",
+  "applicability": "Applies when an organization does not have formally documented, management-approved information security policies that are published and communicated to personnel and relevant external parties.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "governance",
+      "compliance",
+      "policy"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.5.1"
+    ],
+    "detection_notes": "Review documentation repositories for security policy documents, verify management approval signatures, check communication records to personnel, assess policy review and update processes."
+  },
+  "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SECURITY-POLICIES-001/"
+}

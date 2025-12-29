@@ -1,0 +1,25 @@
+{
+  "id": "CSE-GDPR-SECURITY-NO-CONFIDENTIALITY-003",
+  "canonical_name": "Confidentiality Measures Not Implemented",
+  "description": "Systems lack adequate measures to ensure ongoing confidentiality of personal data. Confidentiality ensures that data is accessible only to authorized individuals, systems, and processes.",
+  "domain": "GDPR",
+  "category": "SECURITY",
+  "applicability": "Applicable to all systems processing personal data. Includes access controls, authentication mechanisms, network segmentation, data classification, and employee training on confidentiality obligations.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "security",
+      "confidentiality",
+      "access-control"
+    ],
+    "related_controls": [
+      "GDPR Art. 32.1.b",
+      "GDPR Art. 5.1.f"
+    ],
+    "detection_notes": "Detected through security audits, access control reviews, and code analysis. Look for missing authentication, weak authorization checks, overly permissive access rights, lack of role-based access control (RBAC), exposed APIs without authentication, and shared credentials. Review logging of data access events."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-CONFIDENTIALITY-003/"
+}

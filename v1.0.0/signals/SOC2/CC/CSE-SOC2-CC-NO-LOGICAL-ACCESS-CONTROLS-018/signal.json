@@ -1,0 +1,23 @@
+{
+  "id": "CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018",
+  "canonical_name": "No Logical Access Security Software",
+  "description": "The entity does not implement logical access security software, infrastructure, and architectures over protected information assets to protect them from security events.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "All systems processing, storing, or transmitting protected data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": [
+      "Access Control",
+      "Information Security",
+      "System Security"
+    ],
+    "related_controls": [
+      "SOC 2 CC6.1"
+    ],
+    "detection_notes": "Verify logical access security software is implemented through system configuration reviews, security architecture assessments, and access control testing. Check for presence of authentication systems, access control lists, and security monitoring tools."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018/"
+}

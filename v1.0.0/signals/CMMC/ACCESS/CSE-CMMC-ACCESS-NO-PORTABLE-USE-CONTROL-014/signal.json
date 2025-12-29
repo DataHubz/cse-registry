@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-ACCESS-NO-PORTABLE-USE-CONTROL-014",
+  "canonical_name": "Portable Storage Device Use Not Controlled",
+  "description": "The use of portable storage devices on organizational systems is not restricted or monitored. This signal indicates that removable media may be used without authorization, increasing risk of data exfiltration or malware introduction.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to all systems where portable storage devices may be connected. Includes USB ports, card readers, and other interfaces for removable media on workstations, servers, and network devices.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "data-protection",
+      "endpoint-security"
+    ],
+    "related_controls": [
+      "CMMC AC.L2-3.1.21",
+      "NIST SP 800-171 3.1.21"
+    ],
+    "detection_notes": "Detected through endpoint device control policy review, USB port restrictions verification, and removable media usage monitoring."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-PORTABLE-USE-CONTROL-014/"
+}

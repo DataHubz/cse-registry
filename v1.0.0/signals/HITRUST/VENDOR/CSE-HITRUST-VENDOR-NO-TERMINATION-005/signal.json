@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-VENDOR-NO-TERMINATION-005",
+  "canonical_name": "Vendor Termination Process Missing",
+  "description": "Detects the absence of formal vendor termination and offboarding processes. Organizations must establish documented procedures for terminating vendor relationships, including data return or destruction, access revocation, asset recovery, final security assessments, and contractual closeout activities to ensure secure and complete disengagement from third-party service providers.",
+  "domain": "HITRUST",
+  "category": "VENDOR",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector Organizations managing vendor lifecycle",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "vendor-management",
+      "third-party-risk",
+      "supply-chain"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review HITRUST compliance documentation and controls for VENDOR requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-TERMINATION-005/"
+}

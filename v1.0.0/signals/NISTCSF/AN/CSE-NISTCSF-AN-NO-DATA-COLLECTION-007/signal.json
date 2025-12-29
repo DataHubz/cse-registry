@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-AN-NO-DATA-COLLECTION-007",
+  "canonical_name": "Incident Data and Metadata Not Collected and Preserved",
+  "description": "Incident data and metadata are not collected and preserved.",
+  "domain": "NISTCSF",
+  "category": "RS.AN",
+  "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Identify incidents where logs, memory dumps, disk images, network captures, or system snapshots were not preserved. Monitor for missing metadata such as timestamps, user contexts, network flow information, or file hashes. Look for evidence spoliation risks from premature system restoration, log rotation, or backup overwrites before forensic data collection."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/AN/CSE-NISTCSF-AN-NO-DATA-COLLECTION-007/"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-VENDOR-NO-RISK-ASSESSMENT-001",
+  "canonical_name": "Vendor Risk Assessment Missing",
+  "description": "Detects the absence of formal vendor risk assessments before engaging third-party service providers. Organizations must conduct comprehensive risk assessments of vendors and third-party service providers that will access, process, store, or transmit sensitive information, including evaluation of their security controls, compliance status, and potential risks to the organization's information assets.",
+  "domain": "HITRUST",
+  "category": "VENDOR",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector Organizations using cloud services or SaaS applications",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "vendor-management",
+      "third-party-risk",
+      "supply-chain"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review HITRUST compliance documentation and controls for VENDOR requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-RISK-ASSESSMENT-001/"
+}

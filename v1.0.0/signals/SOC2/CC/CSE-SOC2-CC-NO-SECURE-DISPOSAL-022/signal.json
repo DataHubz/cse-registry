@@ -1,0 +1,23 @@
+{
+  "id": "CSE-SOC2-CC-NO-SECURE-DISPOSAL-022",
+  "canonical_name": "No Secure Asset Disposal",
+  "description": "The entity does not discontinue logical and physical protections over physical assets only after the ability to read or recover data and software from those assets has been diminished.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Hardware disposal, media sanitization",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "Data Security",
+      "Asset Management",
+      "Media Sanitization"
+    ],
+    "related_controls": [
+      "SOC 2 CC6.5"
+    ],
+    "detection_notes": "Review asset disposal procedures, media sanitization practices, and certificate of destruction documentation. Verify that data is securely erased before decommissioning hardware."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-SECURE-DISPOSAL-022/"
+}

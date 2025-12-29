@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-IDENTITY-WEAK-AUTHENTICATOR-008",
+  "canonical_name": "Authenticator Strength Insufficient",
+  "description": "Authenticators do not meet minimum strength requirements for the security level of the systems they protect. This signal indicates that weak authentication mechanisms may be in use for sensitive systems.",
+  "domain": "CMMC",
+  "category": "IDENTITY",
+  "applicability": "Applicable to all authentication mechanisms. Includes password complexity, cryptographic key strength, certificate algorithms, and multi-factor authenticator requirements.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "identification-authentication",
+      "credential-strength",
+      "cryptography"
+    ],
+    "related_controls": [
+      "CMMC IA.L2-3.5.7",
+      "NIST SP 800-171 3.5.7"
+    ],
+    "detection_notes": "Detected through password policy review, cryptographic algorithm assessment, and authenticator strength testing."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-WEAK-AUTHENTICATOR-008/"
+}

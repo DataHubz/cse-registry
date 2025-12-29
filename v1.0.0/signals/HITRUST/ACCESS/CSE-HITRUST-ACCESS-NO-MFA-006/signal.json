@@ -1,0 +1,21 @@
+{
+  "id": "CSE-HITRUST-ACCESS-NO-MFA-006",
+  "canonical_name": "Multi-Factor Authentication Not Implemented",
+  "description": "Multi-factor authentication (MFA) is not implemented or enforced for access to systems containing protected health information (PHI) or other sensitive data. This signal indicates that authentication relies solely on a single factor (typically passwords), without requiring additional verification methods such as time-based one-time passwords (TOTP), hardware tokens, biometrics, or push notifications. MFA is critical for protecting against credential theft, phishing attacks, and unauthorized acce",
+  "domain": "HITRUST",
+  "category": "ACCESS",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Remote access systems (VPN, remote desktop) Administrative and privileged access Cloud infrastructure management consoles Electronic health record (EHR) systems Patient portals and mobile health applications",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of authentication system configurations Analysis of IAM policies and conditional access rules Examination of MFA enrollment rates and enforcement Assessment of authentication logs and session establishment Review of VPN and remote access configurations Testing of authentication flows The presence of this signal indicates a critical security gap that significantly increases the risk of unauthorized access from compromised credentials, particularly for remote access and privileged accounts."
+  },
+  "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-MFA-006/"
+}

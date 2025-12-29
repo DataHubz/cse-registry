@@ -1,0 +1,25 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-THREAT-HUNTING-004",
+  "canonical_name": "Proactive Threat Hunting Not Performed",
+  "description": "Proactive threat hunting activities are not conducted to identify hidden threats. This signal indicates that undetected adversaries may persist in the environment.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments requiring proactive security. Includes threat hunting teams, hypothesis-driven investigations, and proactive compromise assessments.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "enhanced-security",
+      "threat-detection",
+      "proactive-security"
+    ],
+    "related_controls": [
+      "CMMC L3-SI.3.14.2e",
+      "NIST SP 800-172 3.14.2e"
+    ],
+    "detection_notes": "Detected through threat hunting program review, hunting activity verification, and proactive security assessment.",
+    "cmmc_level": 3
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-THREAT-HUNTING-004/"
+}

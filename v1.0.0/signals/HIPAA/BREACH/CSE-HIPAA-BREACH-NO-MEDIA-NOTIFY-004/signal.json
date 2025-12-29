@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-BREACH-NO-MEDIA-NOTIFY-004",
+  "canonical_name": "No Media Notification (500+ affected)",
+  "description": "Prominent media outlets not notified when breach affects 500+ residents of a state or jurisdiction.",
+  "domain": "HIPAA",
+  "category": "BREACH",
+  "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "45 CFR 164.406"
+    ],
+    "detection_notes": "Detection guidance: Implement automated counting mechanisms to determine if 500+ individuals are affected Monitor breach incident reports for geographic distribution of affected individuals Verify that media notification procedures are triggered when the 500-person threshold is met Check for documented lists of \"prominent media outlets\" for each relevant state or jurisdiction Review records of media notifications including dates, outlets contacted, and content provided Audit incident response playbooks to ensure media notification steps are included for large breaches Validate that notification to media occurs within the same 60-day timeframe as individual notifications"
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-MEDIA-NOTIFY-004/"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-CONFIG-NO-AUTHORIZED-SOFTWARE-005",
+  "canonical_name": "Authorized Software Not Defined",
+  "description": "A list of authorized software for organizational systems is not maintained or enforced. This signal indicates that unapproved or potentially malicious software may be installed without detection.",
+  "domain": "CMMC",
+  "category": "CONFIG",
+  "applicability": "Applicable to all systems where software installation is possible. Includes application whitelisting, authorized software inventories, and software installation controls.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "software-control",
+      "malware-prevention"
+    ],
+    "related_controls": [
+      "CMMC CM.L2-3.4.8",
+      "NIST SP 800-171 3.4.8"
+    ],
+    "detection_notes": "Detected through software inventory review, application whitelist configuration assessment, and software installation policy verification."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-AUTHORIZED-SOFTWARE-005/"
+}

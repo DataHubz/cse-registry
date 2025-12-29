@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-SC-NO-SESSION-AUTH-011",
+  "canonical_name": "No Session Authenticity",
+  "description": "Information system does not protect the authenticity of communications sessions.",
+  "domain": "FEDRAMP",
+  "category": "SC",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-communications",
+      "encryption",
+      "network-security"
+    ],
+    "related_controls": [
+      "SC-23"
+    ],
+    "detection_notes": "Detection guidance: Look for absence of session tokens or identifiers, lack of cryptographic mechanisms to protect session authenticity, missing anti-replay protections, no session binding to authenticated identity, vulnerable to session hijacking attacks, inadequate session validation mechanisms, and absence of secure session establishment protocols."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-SESSION-AUTH-011/"
+}

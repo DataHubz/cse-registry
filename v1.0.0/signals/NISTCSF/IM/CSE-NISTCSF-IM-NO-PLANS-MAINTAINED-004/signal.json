@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-IM-NO-PLANS-MAINTAINED-004",
+  "canonical_name": "Incident Response Plans and Cybersecurity Plans Not Maintained",
+  "description": "Incident response plans and other cybersecurity plans are not established and maintained.",
+  "domain": "NISTCSF",
+  "category": "IM",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Continuous improvement and process optimization teams Security testing and assessment functions Organizations conducting lessons learned activities",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Monitor for outdated or non-existent incident response plans, lack of plan distribution to relevant stakeholders, missing regular plan reviews and updates, or absence of plan testing and improvement cycles based on lessons learned."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/IM/CSE-NISTCSF-IM-NO-PLANS-MAINTAINED-004/"
+}

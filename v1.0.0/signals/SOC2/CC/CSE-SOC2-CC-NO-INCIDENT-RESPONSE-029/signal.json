@@ -1,0 +1,23 @@
+{
+  "id": "CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029",
+  "canonical_name": "No Incident Response Program",
+  "description": "The entity does not respond to identified security incidents by executing a defined incident-response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Incident response procedures, security operations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": [
+      "Incident Response",
+      "Security Operations",
+      "Crisis Management"
+    ],
+    "related_controls": [
+      "SOC 2 CC7.4"
+    ],
+    "detection_notes": "Review incident response plans, runbooks, and procedures. Verify incident response team exists, training is conducted, and tabletop exercises are performed. Check incident documentation and post-mortems."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029/"
+}

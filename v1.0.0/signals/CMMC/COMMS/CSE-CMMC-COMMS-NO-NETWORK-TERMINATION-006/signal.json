@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-NETWORK-TERMINATION-006",
+  "canonical_name": "Network Connection Termination Not Controlled",
+  "description": "Network connections are not terminated at the end of sessions or after periods of inactivity. This signal indicates that stale network connections may remain available for exploitation.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to all network sessions. Includes session timeout settings, connection lifecycle management, and inactive connection termination policies.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-communications",
+      "session-management",
+      "network-security"
+    ],
+    "related_controls": [
+      "CMMC SC.L2-3.13.9",
+      "NIST SP 800-171 3.13.9"
+    ],
+    "detection_notes": "Detected through network session configuration review, timeout policy verification, and connection lifecycle testing."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-NETWORK-TERMINATION-006/"
+}

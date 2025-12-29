@@ -1,0 +1,21 @@
+{
+  "id": "CSE-NISTCSF-RR-NO-PERFORMANCE-ASSESSMENT-004",
+  "canonical_name": "Cybersecurity Not Included in Human Resources Practices",
+  "description": "Cybersecurity is not included in human resources practices.",
+  "domain": "NISTCSF",
+  "category": "RR",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Identify organizations where cybersecurity is not integrated into hiring processes, job descriptions lack cybersecurity responsibilities, performance reviews do not include security metrics, onboarding/offboarding procedures lack security components, or security awareness training is not mandatory for all personnel."
+  },
+  "definition_ref": "/v1.0.0/signals/NISTCSF/RR/CSE-NISTCSF-RR-NO-PERFORMANCE-ASSESSMENT-004/"
+}

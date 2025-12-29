@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-ADMIN-NO-RISK-MANAGEMENT-002",
+  "canonical_name": "No Risk Management",
+  "description": "No security measures have been implemented to reduce risks and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) to a reasonable and appropriate level. This signal indicates the absence of a risk management process that implements safeguards to mitigate identified risks from the risk analysis.",
+  "domain": "HIPAA",
+  "category": "ADMIN",
+  "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "governance",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.308(a)(1)(ii)(B)"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of risk management plans and remediation activities Examination of implemented security controls and safeguards Analysis of risk treatment decisions and mitigation strategies Verification of security measure effectiveness Assessment of residual risk levels The presence of this signal indicates that identified risks are not being actively managed or mitigated."
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-RISK-MANAGEMENT-002/"
+}

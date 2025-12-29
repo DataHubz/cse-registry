@@ -1,0 +1,25 @@
+{
+  "id": "CSE-CMMC-RISK-NO-VULN-SCAN-002",
+  "canonical_name": "Vulnerability Scanning Not Implemented",
+  "description": "Systems are not regularly scanned for security vulnerabilities using automated tools. This signal indicates that known vulnerabilities in systems, applications, or configurations may exist without being identified.",
+  "domain": "CMMC",
+  "category": "RISK",
+  "applicability": "Applicable to all networked systems, applications, and infrastructure components. Includes network vulnerability scanning, web application scanning, container image scanning, and cloud configuration assessment.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "vulnerability-management",
+      "risk-management",
+      "assessment"
+    ],
+    "related_controls": [
+      "CMMC RA.L2-3.11.2",
+      "CMMC RA.L2-3.11.3",
+      "NIST SP 800-171 3.11.2"
+    ],
+    "detection_notes": "Detected through review of vulnerability scanning schedules, scanner configurations, scan coverage reports, and remediation tracking."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/RISK/CSE-CMMC-RISK-NO-VULN-SCAN-002/"
+}

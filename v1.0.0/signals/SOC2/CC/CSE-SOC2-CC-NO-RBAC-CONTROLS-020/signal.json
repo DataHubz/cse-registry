@@ -1,0 +1,23 @@
+{
+  "id": "CSE-SOC2-CC-NO-RBAC-CONTROLS-020",
+  "canonical_name": "No Role-Based Access and Least Privilege",
+  "description": "The entity does not authorize, modify, or remove access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Access control systems, authorization processes",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "Access Control",
+      "Authorization",
+      "Least Privilege"
+    ],
+    "related_controls": [
+      "SOC 2 CC6.3"
+    ],
+    "detection_notes": "Review access control configurations, role definitions, and permission assignments. Test whether access is granted based on defined roles and responsibilities. Verify least privilege principle implementation."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-RBAC-CONTROLS-020/"
+}

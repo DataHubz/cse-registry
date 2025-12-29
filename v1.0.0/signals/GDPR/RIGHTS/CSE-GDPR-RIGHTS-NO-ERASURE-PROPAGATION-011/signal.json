@@ -1,0 +1,23 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-ERASURE-PROPAGATION-011",
+  "canonical_name": "Erasure Not Propagated to Recipients",
+  "description": "When personal data has been made public or disclosed to recipients, erasure requests are not communicated to those recipients. Controllers must take reasonable steps to inform processors of erasure.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable when personal data has been shared with third parties or made publicly available. Includes data sharing partners and search engines for public data.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "data-subject-rights",
+      "erasure"
+    ],
+    "related_controls": [
+      "GDPR Art. 17.2"
+    ],
+    "detection_notes": "Detected through review of data sharing relationships and erasure notification procedures. Verify mechanisms to notify all recipients of erasure requests."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-ERASURE-PROPAGATION-011/"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CSE-SOC2-CC-NO-RISK-MITIGATION-032",
+  "canonical_name": "No Risk Mitigation Activities",
+  "description": "The entity does not identify, select, and develop risk mitigation activities for risks arising from potential business disruptions.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Business continuity planning, risk treatment",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "Risk Management",
+      "Business Continuity",
+      "Disaster Recovery"
+    ],
+    "related_controls": [
+      "SOC 2 CC9.1"
+    ],
+    "detection_notes": "Review business continuity plans, disaster recovery procedures, risk assessments, and mitigation strategies. Verify risk mitigation activities are identified and implemented for business disruption scenarios."
+  },
+  "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-RISK-MITIGATION-032/"
+}

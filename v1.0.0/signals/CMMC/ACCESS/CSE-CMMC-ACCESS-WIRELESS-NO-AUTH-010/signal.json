@@ -1,0 +1,24 @@
+{
+  "id": "CSE-CMMC-ACCESS-WIRELESS-NO-AUTH-010",
+  "canonical_name": "Wireless Authentication Not Implemented",
+  "description": "Wireless networks do not require authentication using strong cryptographic mechanisms. This signal indicates that wireless access may be granted without verifying user or device identity through secure authentication protocols.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to all wireless network authentication configurations. Includes 802.1X/EAP authentication, WPA2/WPA3-Enterprise, certificate-based authentication, and RADIUS integration.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "wireless-security",
+      "authentication"
+    ],
+    "related_controls": [
+      "CMMC AC.L2-3.1.17",
+      "NIST SP 800-171 3.1.17"
+    ],
+    "detection_notes": "Detected through wireless security configuration review, authentication protocol analysis, and RADIUS/authentication server settings."
+  },
+  "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-WIRELESS-NO-AUTH-010/"
+}

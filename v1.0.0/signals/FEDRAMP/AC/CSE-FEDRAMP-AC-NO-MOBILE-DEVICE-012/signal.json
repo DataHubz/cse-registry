@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-AC-NO-MOBILE-DEVICE-012",
+  "canonical_name": "No Mobile Device Access Control",
+  "description": "Mobile device access controls are not established and enforced, including connection requirements, configuration standards, and usage restrictions.",
+  "domain": "FEDRAMP",
+  "category": "AC",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [
+      "AC-19"
+    ],
+    "detection_notes": "Detection guidance: Look for missing mobile device management (MDM) policies, lack of mobile device authorization procedures, absence of mobile device encryption requirements, no mobile device configuration standards, missing containerization or separation controls, and lack of remote wipe capabilities."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-MOBILE-DEVICE-012/"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CSE-GDPR-CONTROLLER-NO-DATA-RETURN-PROCESS-012",
+  "canonical_name": "Data Return Process Not Established",
+  "description": "The processor contract does not provide for deletion or return of all personal data to the controller after the end of provision of services as required by Article 28.3(g). This includes failure to establish processes for secure data deletion and verification of deletion.",
+  "domain": "GDPR",
+  "category": "CONTROLLER",
+  "applicability": "Applicable to all processor relationships. Contracts must specify deletion or return procedures, exceptions for legal retention requirements, and verification mechanisms for data disposal.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-lifecycle",
+      "vendor-offboarding",
+      "data-retention"
+    ],
+    "related_controls": [
+      "GDPR Art. 28.3.g",
+      "GDPR Art. 17"
+    ],
+    "detection_notes": "Detected through review of processor contracts, vendor termination procedures, and data return/deletion protocols. Requires verification that contractual provisions and operational procedures exist."
+  },
+  "definition_ref": "/v1.0.0/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-DATA-RETURN-PROCESS-012/"
+}

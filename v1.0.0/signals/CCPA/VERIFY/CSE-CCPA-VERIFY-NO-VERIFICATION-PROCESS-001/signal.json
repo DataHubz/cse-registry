@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CCPA-VERIFY-NO-VERIFICATION-PROCESS-001",
+  "canonical_name": "Identity Verification Process Missing",
+  "description": "No identity verification process exists to confirm that the consumer making a request is the individual whose personal information is the subject of the request. Without a verification process, businesses risk disclosing personal information to unauthorized parties or honoring fraudulent deletion requests, violating both CCPA requirements and consumer privacy.",
+  "domain": "CCPA",
+  "category": "VERIFY",
+  "applicability": "Consumer-facing web applications Mobile applications processing California residents' data Customer data platforms handling consumer rights requests Privacy portal implementations E-commerce systems with consumer accounts SaaS applications processing personal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for VERIFY requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CCPA/VERIFY/CSE-CCPA-VERIFY-NO-VERIFICATION-PROCESS-001/"
+}

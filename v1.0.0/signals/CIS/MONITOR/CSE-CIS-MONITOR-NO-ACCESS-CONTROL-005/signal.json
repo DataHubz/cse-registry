@@ -1,0 +1,21 @@
+{
+  "id": "CSE-CIS-MONITOR-NO-ACCESS-CONTROL-005",
+  "canonical_name": "Network Access Control Missing",
+  "description": "The organization lacks network access control (NAC) capabilities to manage and enforce device authentication and authorization before granting network access. This signal indicates that there is no systematic method to verify device compliance, identity, or security posture before allowing network connectivity, potentially exposing the network to unauthorized or compromised devices.",
+  "domain": "CIS",
+  "category": "MONITOR",
+  "applicability": "This signal applies to: Wired and wireless network access points Enterprise network infrastructure Device authentication and authorization Network segmentation enforcement BYOD (Bring Your Own Device) policies Guest network access management IoT device network connectivity",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for MONITOR requirements."
+  },
+  "definition_ref": "/v1.0.0/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-ACCESS-CONTROL-005/"
+}

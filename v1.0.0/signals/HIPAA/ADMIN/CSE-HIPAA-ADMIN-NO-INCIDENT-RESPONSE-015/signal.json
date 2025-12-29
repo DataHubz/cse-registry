@@ -1,0 +1,23 @@
+{
+  "id": "CSE-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015",
+  "canonical_name": "No Security Incident Response and Reporting",
+  "description": "No policies and procedures exist to address security incidents affecting electronic protected health information (ePHI), including identification, response, mitigation, and documentation of security incidents. This signal indicates the absence of a documented incident response program to detect, respond to, and recover from security events.",
+  "domain": "HIPAA",
+  "category": "ADMIN",
+  "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "governance",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.308(a)(6)(ii)"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of incident response policies and procedures Examination of incident identification and reporting mechanisms Analysis of incident response team structures and responsibilities Verification of incident documentation and tracking systems Assessment of incident mitigation and recovery capabilities The presence of this signal indicates that security incidents may not be properly identified, responded to, or documented."
+  },
+  "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015/"
+}

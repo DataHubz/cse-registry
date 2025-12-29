@@ -1,0 +1,23 @@
+{
+  "id": "CSE-FEDRAMP-SA-NO-EXTERNAL-SERVICES-006",
+  "canonical_name": "No External System Services",
+  "description": "External system services are not identified, defined, documented, and controlled in accordance with organizational requirements.",
+  "domain": "FEDRAMP",
+  "category": "SA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-acquisition",
+      "development-security",
+      "supply-chain"
+    ],
+    "related_controls": [
+      "SA-9"
+    ],
+    "detection_notes": "Detection guidance: Look for undocumented external service dependencies, missing service provider agreements, absence of security requirements for external services, lack of provider oversight mechanisms, missing monitoring processes for third-party services, inadequate control compliance verification, and absence of roles and responsibilities for external service management."
+  },
+  "definition_ref": "/v1.0.0/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-EXTERNAL-SERVICES-006/"
+}
