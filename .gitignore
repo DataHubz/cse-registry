@@ -1,4 +1,3 @@
-```gitignore
 # ------------------------------------------------------------------
 # General
 # ------------------------------------------------------------------
@@ -104,20 +103,9 @@ credentials.*
 *.tar.gz
 *.tgz
 *.7z
-```
 
-### Notes (for you, not to commit):
+# ------------------------------------------------------------------
+# Website (Separate git repo)
+# ------------------------------------------------------------------
+website/
 
-* I **did not** ignore `registry/` by default
-
-  * Registry artifacts *should* be committed if they are authoritative.
-* I included Node, Python, and Go because:
-
-  * You may use any of them for registry generators, validation, or site builds.
-* Secret patterns are conservative to avoid accidental leakage.
-
-If you want, I can:
-
-* Tailor this further once you decide how registry artifacts are generated
-* Provide a **pre-commit hook** to validate signal JSON
-* Add a **CI lint config** for schema validation
