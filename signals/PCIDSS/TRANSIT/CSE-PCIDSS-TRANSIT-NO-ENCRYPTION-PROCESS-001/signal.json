@@ -1,0 +1,22 @@
+{
+  "id": "CSE-PCIDSS-TRANSIT-NO-ENCRYPTION-PROCESS-001",
+  "canonical_name": "No Transmission Encryption Processes",
+  "description": "No defined processes for encrypting cardholder data during transmission.",
+  "domain": "PCIDSS",
+  "category": "TRANSIT",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Database systems containing payment card data Data transmission channels and APIs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "4.1 Processes and mechanisms for protecting cardholder data with strong cryptography during transmission over open, public networks are defined and understood"
+    ],
+    "detection_notes": "Detection guidance: Review organizational documentation for transmission security policies and procedures. Check for absence of documented processes covering encryption protocols, cipher suites, certificate management, and secure transmission requirements. Verify whether security controls for data in transit are documented and understood by personnel responsible for network security and data transmission systems."
+  }
+}

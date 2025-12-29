@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-MONITOR-NO-NETFLOW-003",
+  "canonical_name": "Network Traffic Collection Missing",
+  "description": "The organization lacks network traffic flow collection and analysis capabilities for security monitoring and incident investigation. This signal indicates that there is no systematic collection of network flow data (NetFlow, sFlow, IPFIX, or similar) that enables visibility into network communications, traffic patterns, and potential security incidents.",
+  "domain": "CIS",
+  "category": "MONITOR",
+  "applicability": "This signal applies to: Network traffic monitoring infrastructure Security information and event management (SIEM) systems Network behavior analysis platforms Incident investigation and forensics Threat hunting capabilities Enterprise network visibility Data exfiltration detection",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for MONITOR requirements."
+  }
+}

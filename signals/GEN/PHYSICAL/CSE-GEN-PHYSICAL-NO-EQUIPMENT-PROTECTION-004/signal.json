@@ -1,0 +1,20 @@
+{
+  "id": "CSE-GEN-PHYSICAL-NO-EQUIPMENT-PROTECTION-004",
+  "canonical_name": "Equipment Protection Missing",
+  "description": "No physical protection measures for IT equipment, servers, network devices, workstations, and telecommunications infrastructure against theft, tampering, damage, or environmental hazards. This signal indicates the absence of physical safeguards such as equipment locks, cable locks, rack security, environmental controls (temperature, humidity, power), surge protection, uninterruptible power supplies (UPS), fire suppression, water detection, or anti-theft measures to protect critical IT assets fro",
+  "domain": "GEN (General)",
+  "category": "PHYSICAL",
+  "applicability": "This signal applies to: Servers and data center equipment Network infrastructure (routers, switches, firewalls) Workstations and desktop computers Laptop computers and mobile devices Telecommunications equipment Storage arrays and backup systems Power and cooling infrastructure Wiring closets and telecommunications rooms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "facility-protection",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Physical inspection of equipment locations Review of equipment protection policies Assessment of environmental control systems Evaluation of power protection infrastructure Examination of equipment inventory and asset management Analysis of equipment maintenance procedures Review of environmental monitoring and alerting Assessment of anti-theft measures and controls Effective equipment protection programs typically include: **Physical Security**: Locks, cages, racks, cable locks, and anti-theft devices **Environmental Controls**: HVAC, temperature/humidity monitoring, air filtration **Power Protection**: UPS systems, backup generators, surge protection, redundant power **Fire Suppression**: Smoke detection, fire suppression systems, fire extingu"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "CSE-GEN-AUTH-NO-ACCESS-CONTROL-003",
+  "canonical_name": "Access Control Mechanism Missing",
+  "description": "No mechanism exists to restrict access to resources based on authorization policies, allowing authenticated users unrestricted access regardless of their legitimate need. This signal indicates that while users may be authenticated, there are no controls to enforce what resources they can access or what actions they can perform.",
+  "domain": "GEN (General)",
+  "category": "AUTH",
+  "applicability": "This signal applies to: APIs and web services Database systems File systems and storage Cloud resources and services Application features and functionality Microservices and internal services Administrative interfaces Data processing pipelines Network segments and VLANs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Reviewing code for authorization checks at critical functions Analyzing access control configurations in databases and services Examining IAM policies and role definitions Testing API endpoints for unauthorized access Auditing application security controls Access control is a fundamental security principle (often called authorization) that should be enforced after authentication to ensure users can only access resources appropriate to their role and responsibilities."
+  }
+}

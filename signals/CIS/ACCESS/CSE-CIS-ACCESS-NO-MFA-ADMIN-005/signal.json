@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-ACCESS-NO-MFA-ADMIN-005",
+  "canonical_name": "MFA for Admin Access Missing",
+  "description": "Multi-factor authentication (MFA) is not required for users with administrative or privileged access to enterprise assets, systems, or applications. This signal indicates that administrative accounts can authenticate using only a password without requiring a second authentication factor, creating elevated risk if credentials are compromised.",
+  "domain": "CIS",
+  "category": "ACCESS",
+  "applicability": "This signal applies to: Domain administrator accounts Local administrator accounts Database administrator (DBA) accounts Cloud platform administrator roles (AWS root, Azure Global Admin, GCP Owner) Application administrator accounts Security administrator roles Network device administrative access Privileged Access Management (PAM) systems Break-glass/emergency access accounts",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "privilege-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for ACCESS requirements."
+  }
+}

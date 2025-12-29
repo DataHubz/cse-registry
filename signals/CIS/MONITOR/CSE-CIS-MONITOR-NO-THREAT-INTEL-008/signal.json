@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-MONITOR-NO-THREAT-INTEL-008",
+  "canonical_name": "Threat Intelligence Integration Missing",
+  "description": "The organization lacks integration of external threat intelligence feeds into security monitoring and defense systems. This signal indicates that there is no systematic use of threat intelligence data (indicators of compromise, threat actor TTPs, vulnerability information) to enhance detection capabilities, prioritize responses, and proactively defend against known threats.",
+  "domain": "CIS",
+  "category": "MONITOR",
+  "applicability": "This signal applies to: Security information and event management (SIEM) platforms Intrusion detection and prevention systems Firewall and network security controls Endpoint detection and response (EDR) systems Security operations center (SOC) operations Threat hunting programs Incident response capabilities",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for MONITOR requirements."
+  }
+}

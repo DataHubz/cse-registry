@@ -1,0 +1,20 @@
+{
+  "id": "CSE-FEDRAMP-CP-NO-BACKUP-007",
+  "canonical_name": "No System Backup",
+  "description": "The organization does not conduct backups of user-level information, system-level information, and information system documentation at required frequencies, or does not protect backup information. This signal indicates that the organization may not be able to restore information in the event of data loss, corruption, or system failures.",
+  "domain": "FEDRAMP",
+  "category": "CP",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "contingency-planning",
+      "disaster-recovery",
+      "resilience"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of backup schedules and configurations Analysis of backup frequency and scope Verification of user-level, system-level, and documentation backups Assessment of backup integrity and reliability testing Examination of backup protection mechanisms Inspection of backup storage locations and security Review of backup retention policies Analysis of backup restoration procedures and testing Verification of geographic separation for critical backups The presence of this signal indicates a condition that warrants review in the context of FedRAMP contingency planning requirements."
+  }
+}

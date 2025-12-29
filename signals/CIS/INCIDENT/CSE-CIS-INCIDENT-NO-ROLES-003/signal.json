@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-INCIDENT-NO-ROLES-003",
+  "canonical_name": "Incident Response Roles Missing",
+  "description": "The organization lacks defined incident response roles and responsibilities. This signal indicates that there are no documented roles, responsibilities, and decision-making authorities for personnel involved in incident response activities. Without clearly defined roles, incident response efforts may be chaotic, uncoordinated, and ineffective, with confusion about who is responsible for critical decisions and actions.",
+  "domain": "CIS",
+  "category": "INCIDENT",
+  "applicability": "This signal applies to: Enterprise incident response plans Security operations center (SOC) staffing Computer security incident response team (CSIRT) organization Organizational charts and role definitions Security policy documentation Job descriptions and responsibilities Incident management frameworks",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "recovery",
+      "threat-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for INCIDENT requirements."
+  }
+}

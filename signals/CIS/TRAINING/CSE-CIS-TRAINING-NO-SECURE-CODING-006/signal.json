@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-TRAINING-NO-SECURE-CODING-006",
+  "canonical_name": "Secure Coding Training Missing",
+  "description": "The organization lacks secure coding training for software developers and personnel involved in application development. This signal indicates that there is no formal program to train developers on secure coding practices, common vulnerabilities, defensive programming techniques, and security testing methods appropriate for the languages, frameworks, and platforms used by the organization.",
+  "domain": "CIS",
+  "category": "TRAINING",
+  "applicability": "This signal applies to: Software development training programs Secure coding standards and practices Application security initiatives Developer onboarding and continuous education Third-party developer requirements DevSecOps implementation Software development lifecycle (SDLC) security",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for TRAINING requirements."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HIPAA-ORG-NO-BA-CONTRACT-001",
+  "canonical_name": "No Business Associate Contracts",
+  "description": "No written contract or arrangement with business associates requiring compliance with applicable Security Rule requirements.",
+  "domain": "HIPAA",
+  "category": "ORG",
+  "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "45 CFR 164.314(a)(2)(i)"
+    ],
+    "detection_notes": "Detection guidance: Review vendor and third-party relationships to identify business associates who create, receive, maintain, or transmit ePHI. Verify that written Business Associate Agreements (BAAs) exist for all such relationships and include required Security Rule safeguards. Check contract management systems and procurement processes for gaps in BAA coverage."
+  }
+}

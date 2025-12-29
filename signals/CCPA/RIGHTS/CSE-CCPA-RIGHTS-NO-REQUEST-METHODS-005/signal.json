@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-RIGHTS-NO-REQUEST-METHODS-005",
+  "canonical_name": "Insufficient Request Submission Methods",
+  "description": "Insufficient methods are provided for consumers to submit verifiable consumer requests, or the methods provided do not match how the business primarily interacts with consumers. CCPA requires businesses to provide at least two designated methods for submitting requests, including at a minimum a toll-free number and a website address if the business maintains a website.",
+  "domain": "CCPA",
+  "category": "RIGHTS",
+  "applicability": "Consumer-facing web applications Mobile applications E-commerce platforms Online service providers Businesses with consumer websites Direct-to-consumer brands",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-subject-rights",
+      "privacy",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for RIGHTS requirements."
+  }
+}

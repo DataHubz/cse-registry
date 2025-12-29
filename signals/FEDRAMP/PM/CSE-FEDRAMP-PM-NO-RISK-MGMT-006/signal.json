@@ -1,0 +1,20 @@
+{
+  "id": "CSE-FEDRAMP-PM-NO-RISK-MGMT-006",
+  "canonical_name": "No Risk Management Strategy",
+  "description": "Organization-wide risk management strategy is not developed, documented, or implemented. This signal indicates that the organization may lack a comprehensive, enterprise-wide strategy for managing information security, privacy, and supply chain risks, which is essential for consistent risk-based decision making across the organization.",
+  "domain": "FEDRAMP",
+  "category": "PM",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "program-management",
+      "governance",
+      "policy"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of organization-wide risk management strategy documentation Analysis of strategy scope covering security, privacy, and supply chain risks Verification of risk management framework and methodology definition Assessment of risk appetite, tolerance, and acceptance criteria Examination of roles and responsibilities for risk management activities Review of risk assessment and analysis processes Verification of risk response strategies and decision-making criteria Assessment of risk monitoring and reporting mechanisms Evaluation of strategy implementation consistency across the organization Review of strategy alignment with organizational mission and business objectives Verification of annual review and update processes Assessment of strategy i"
+  }
+}

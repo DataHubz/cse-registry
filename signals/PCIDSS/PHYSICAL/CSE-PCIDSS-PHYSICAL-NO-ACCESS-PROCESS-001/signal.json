@@ -1,0 +1,22 @@
+{
+  "id": "CSE-PCIDSS-PHYSICAL-NO-ACCESS-PROCESS-001",
+  "canonical_name": "No Physical Access Processes",
+  "description": "No defined processes for physically restricting access to the CDE.",
+  "domain": "PCIDSS",
+  "category": "PHYSICAL",
+  "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "media-protection",
+      "access-control"
+    ],
+    "related_controls": [
+      "9.1 Processes and mechanisms for restricting physical access to cardholder data are defined and understood"
+    ],
+    "detection_notes": "Detection guidance: Look for absence of documented physical security policies, lack of defined processes for CDE access control, missing physical security procedures, or absence of physical access restriction mechanisms in policy documentation."
+  }
+}

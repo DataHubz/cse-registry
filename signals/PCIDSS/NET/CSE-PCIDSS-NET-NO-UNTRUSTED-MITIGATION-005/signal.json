@@ -1,0 +1,22 @@
+{
+  "id": "CSE-PCIDSS-NET-NO-UNTRUSTED-MITIGATION-005",
+  "canonical_name": "No Untrusted Network Risk Mitigation",
+  "description": "Risks from untrusted networks (including the Internet) are not mitigated.",
+  "domain": "PCIDSS",
+  "category": "NET",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Point-of-sale (POS) systems Network infrastructure within CDE scope",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "1.5 Risks to the CDE from computing devices that are able to connect to both untrusted networks and the CDE are mitigated."
+    ],
+    "detection_notes": "Detection guidance: Identify dual-homed systems without proper controls, check for missing endpoint protection on devices accessing CDE, verify presence of personal firewall software on portable devices, assess controls for BYOD and contractor devices, and examine whether split-tunneling is properly controlled on VPN connections to CDE."
+  }
+}

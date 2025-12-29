@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-RECOVERY-NO-TESTING-005",
+  "canonical_name": "Backup Recovery Testing Missing",
+  "description": "The organization lacks regular testing of backup recovery capabilities to validate that backups can be successfully restored and meet recovery time and recovery point objectives. This signal indicates that the organization may be unable to verify backup integrity, restore functionality, or recovery procedures until an actual disaster occurs.",
+  "domain": "CIS",
+  "category": "RECOVERY",
+  "applicability": "This signal applies to: Backup recovery testing programs Disaster recovery exercises Backup validation procedures Recovery time objective (RTO) testing Recovery point objective (RPO) verification Restore operation drills Business continuity testing Backup integrity verification",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for RECOVERY requirements."
+  }
+}

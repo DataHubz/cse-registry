@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-DATA-NO-DISPOSAL-005",
+  "canonical_name": "Secure Data Disposal Missing",
+  "description": "An organization lacks secure data disposal procedures to ensure that data is irretrievably destroyed when it reaches the end of its retention period. This signal indicates that data deletion may not be permanent, leaving sensitive information recoverable through forensic techniques or accessible in backups, snapshots, or replicas.",
+  "domain": "CIS",
+  "category": "DATA",
+  "applicability": "This signal applies to: Decommissioned servers and workstations Replaced hard drives and storage media Cloud storage and virtual machine disks Database records and tables Backup tapes and archives Mobile devices and removable media SaaS application data Container and ephemeral storage Log files and temporary data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "classification",
+      "encryption"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of data disposal procedures Assessment of deletion verification methods Examination of cryptographic erasure capabilities Analysis of backup and snapshot cleanup Verification of physical media destruction Review of decommissioning checklists Assessment of certificate of destruction processes Examination of cloud storage deletion policies The presence of this signal indicates a condition that warrants review in the context of data protection and privacy requirements."
+  }
+}

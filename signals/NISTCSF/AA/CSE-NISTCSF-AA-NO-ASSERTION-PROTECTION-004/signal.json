@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-AA-NO-ASSERTION-PROTECTION-004",
+  "canonical_name": "No Identity Assertion Protection",
+  "description": "Identity assertions are not protected, conveyed, and verified.",
+  "domain": "NISTCSF",
+  "category": "AA",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Identity and access management teams Security awareness and training programs Organizations managing user authentication",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Identify authentication flows where identity assertions (such as tokens, tickets, or SAML assertions) lack cryptographic protection during transmission, are conveyed over insecure channels, or are not properly validated by relying parties before granting access."
+  }
+}

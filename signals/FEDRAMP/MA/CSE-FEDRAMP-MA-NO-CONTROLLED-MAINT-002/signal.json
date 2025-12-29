@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-MA-NO-CONTROLLED-MAINT-002",
+  "canonical_name": "No Controlled Maintenance",
+  "description": "Controlled maintenance activities are not scheduled, performed, documented, or reviewed for information systems.",
+  "domain": "FEDRAMP",
+  "category": "MA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "maintenance",
+      "system-integrity",
+      "operational-security"
+    ],
+    "related_controls": [
+      "MA-2"
+    ],
+    "detection_notes": "Detection guidance: Look for absence of maintenance schedules, lack of maintenance records, no approval process for maintenance activities, and missing documentation of maintenance performed on system components."
+  }
+}

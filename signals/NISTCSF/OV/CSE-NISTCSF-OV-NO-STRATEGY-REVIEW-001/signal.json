@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-OV-NO-STRATEGY-REVIEW-001",
+  "canonical_name": "Cybersecurity Strategy Outcomes Not Reviewed",
+  "description": "Cybersecurity risk management strategy outcomes are not reviewed to inform improvements.",
+  "domain": "NISTCSF",
+  "category": "OV",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Identify organizations without regular strategy review processes, lack of metrics to measure strategy effectiveness, absence of governance forums to evaluate cybersecurity outcomes, or failure to use performance data to adjust strategic direction."
+  }
+}

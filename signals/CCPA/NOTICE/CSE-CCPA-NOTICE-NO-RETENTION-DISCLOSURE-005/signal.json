@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-NOTICE-NO-RETENTION-DISCLOSURE-005",
+  "canonical_name": "Retention Periods Not Disclosed",
+  "description": "A business fails to disclose the length of time it intends to retain each category of personal information, or the criteria used to determine retention periods. This signal indicates missing or inadequate retention disclosures in privacy notices that would inform consumers about data lifecycle practices. While CCPA does not mandate specific retention periods, it requires businesses to disclose their retention practices to enable informed consumer decisions.",
+  "domain": "CCPA",
+  "category": "NOTICE",
+  "applicability": "This signal applies to: Privacy policies and comprehensive privacy notices Data retention policy documents Records management disclosures Response templates for \"right to know\" requests Data processing agreements and transparency reports Cookie and tracking technology retention notices Account deletion and data portability interfaces Vendor and service provider agreements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "transparency",
+      "privacy-notice",
+      "disclosure"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Natural language processing of privacy policy text for retention language Pattern matching for time-based expressions (days, months, years) Analysis of \"Data Retention\" or \"How Long We Keep Your Information\" sections Review of cookie configuration for expiration settings Checking data processing agreements for retention schedules Scanning right-to-know response templates for retention fields Evaluating privacy notices for criteria-based retention descriptions The presence of this signal indicates a CPRA-specific disclosure gap that may limit consumer understanding of data lifecycle practices."
+  }
+}

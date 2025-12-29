@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HIPAA-ADMIN-NO-ACCESS-MODIFY-010",
+  "canonical_name": "No Access Establishment and Modification",
+  "description": "No policies and procedures exist to document, review, and modify a user's right of access to workstations, transactions, programs, and processes based on access authorization and role changes. This signal indicates the absence of documented processes for managing changes to user access rights throughout the access lifecycle.",
+  "domain": "HIPAA",
+  "category": "ADMIN",
+  "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "governance",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.308(a)(4)(ii)(C)"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of access modification policies and procedures Examination of access change request workflows Analysis of access review and recertification processes Verification of access modification documentation and audit trails Assessment of role change handling and access adjustments The presence of this signal indicates that user access rights may not be appropriately maintained as roles and responsibilities change."
+  }
+}

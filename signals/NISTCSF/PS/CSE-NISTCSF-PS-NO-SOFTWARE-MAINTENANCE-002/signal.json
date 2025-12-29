@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-PS-NO-SOFTWARE-MAINTENANCE-002",
+  "canonical_name": "Software Not Properly Maintained",
+  "description": "Software is not maintained, replaced, and removed commensurate with risk.",
+  "domain": "NISTCSF",
+  "category": "Platform Security",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Monitor for outdated software versions, missing security patches, unsupported software still in use, lack of software lifecycle management, failure to remove deprecated applications, and inadequate vulnerability remediation processes."
+  }
+}

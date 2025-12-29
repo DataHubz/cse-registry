@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-PT-NO-PII-POLICY-001",
+  "canonical_name": "No PII Processing Policy",
+  "description": "PII processing policy and procedures are not developed, documented, disseminated, and maintained to address purpose, scope, roles, responsibilities, management commitment, coordination, and compliance.",
+  "domain": "FEDRAMP",
+  "category": "PT",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information containing PII",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "pii-processing",
+      "privacy",
+      "data-protection"
+    ],
+    "related_controls": [
+      "PT-1"
+    ],
+    "detection_notes": "Detection guidance: Look for missing PII processing policy documentation, outdated procedures, lack of policy dissemination evidence, absence of defined roles and responsibilities for PII processing, no documented coordination mechanisms, and missing compliance mappings to applicable privacy laws and regulations."
+  }
+}

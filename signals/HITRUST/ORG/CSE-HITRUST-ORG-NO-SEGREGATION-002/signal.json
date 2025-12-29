@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-ORG-NO-SEGREGATION-002",
+  "canonical_name": "Organizational Segregation Missing",
+  "description": "No segregation exists between security functions and operational functions within the organization. This signal indicates that the organization has not established separation of duties between those responsible for implementing and enforcing security controls and those performing day-to-day operational activities. This lack of segregation can create conflicts of interest and reduce the effectiveness of security oversight.",
+  "domain": "HITRUST",
+  "category": "ORG",
+  "applicability": "This signal applies to: Organizational structure and reporting lines Role and responsibility definitions Access control and privilege assignments Change management processes Security review and approval workflows Audit and compliance functions Risk management structures Incident response teams",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Analysis of organizational charts and reporting structures Review of role definitions and responsibility assignments Examination of approval workflows and change control processes Assessment of access control matrices Inspection of privilege assignments Review of security governance documentation The presence of this signal indicates a condition that warrants review in the context of organizational security independence and oversight requirements."
+  }
+}

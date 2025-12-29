@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-NETWORK-NO-MGMT-ISOLATION-003",
+  "canonical_name": "Network Management Isolation Missing",
+  "description": "The organization lacks proper isolation of network infrastructure management interfaces from production networks and untrusted networks. This signal indicates that network device management interfaces may be accessible from production networks or the internet, increasing the attack surface and risk of unauthorized access.",
+  "domain": "CIS",
+  "category": "NETWORK",
+  "applicability": "This signal applies to: Network device management interfaces Out-of-band management networks Jump servers and bastion hosts Administrative access controls Management VLAN configurations Remote access to network infrastructure Network segmentation policies Privileged access management systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "network-security",
+      "segmentation",
+      "monitoring"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for NETWORK requirements."
+  }
+}

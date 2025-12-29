@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-RIGHTS-NO-PORTABILITY-MECHANISM-004",
+  "canonical_name": "Data Portability Mechanism Missing",
+  "description": "No mechanism exists to provide personal information to consumers in a portable and readily usable format that allows transmission to another entity without hindrance. Data portability is a component of the right to know, requiring businesses to deliver data in a format that enables consumers to transmit it to other services.",
+  "domain": "CCPA",
+  "category": "RIGHTS",
+  "applicability": "Consumer data platforms Social media and networking applications Cloud storage and file sharing services Subscription-based services E-commerce platforms Productivity and collaboration tools",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-subject-rights",
+      "privacy",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for RIGHTS requirements."
+  }
+}

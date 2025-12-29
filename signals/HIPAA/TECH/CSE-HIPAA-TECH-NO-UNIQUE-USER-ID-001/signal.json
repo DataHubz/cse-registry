@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HIPAA-TECH-NO-UNIQUE-USER-ID-001",
+  "canonical_name": "No Unique User Identification",
+  "description": "No unique name and/or number assigned for identifying and tracking user identity.",
+  "domain": "HIPAA",
+  "category": "TECH",
+  "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "technical-security",
+      "data-protection",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.312(a)(2)(i)"
+    ],
+    "detection_notes": "Detection guidance: Examine user account configurations, authentication systems, and access logs to verify that each user has been assigned a unique identifier. Look for shared accounts, generic usernames (e.g., \"admin\", \"user\"), or systems that allow multiple users to authenticate with the same credentials."
+  }
+}

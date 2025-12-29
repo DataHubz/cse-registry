@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HITRUST-RISK-NO-MONITORING-005",
+  "canonical_name": "Risk Monitoring Not Implemented",
+  "description": "Organization has not implemented ongoing risk monitoring processes to track changes in the risk environment, assess control effectiveness, and identify emerging threats. Risk monitoring must continuously evaluate the organization's risk posture, validate that risk treatments are effective, and detect new or evolving risks requiring management attention.",
+  "domain": "HITRUST",
+  "category": "RISK",
+  "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with dynamic threat landscapes",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "risk-management",
+      "assessment",
+      "governance"
+    ],
+    "related_controls": [
+      "03.c - Risk Monitoring and Review"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of risk monitoring procedures and processes Examination of key risk indicators (KRIs) and metrics tracking Verification of control effectiveness measurement activities Analysis of threat intelligence integration into risk monitoring Assessment of risk register updates and change tracking Validation of automated monitoring tools and dashboards The presence of this signal indicates that the organization may be unaware of changing risk conditions, control failures, or emerging threats, potentially leading to undetected security incidents and inadequate risk responses."
+  }
+}

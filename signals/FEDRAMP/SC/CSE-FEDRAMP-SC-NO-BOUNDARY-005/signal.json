@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-SC-NO-BOUNDARY-005",
+  "canonical_name": "No Boundary Protection",
+  "description": "Information system does not monitor and control communications at external boundaries and key internal boundaries.",
+  "domain": "FEDRAMP",
+  "category": "SC",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-communications",
+      "encryption",
+      "network-security"
+    ],
+    "related_controls": [
+      "SC-7"
+    ],
+    "detection_notes": "Detection guidance: Look for missing or misconfigured firewalls, lack of network segmentation, no demilitarized zones (DMZ) for public-facing systems, unmanaged network connections, absence of boundary monitoring and filtering, inadequate logical separation between networks, and no managed interface requirements for external connections."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-RIGHTS-NO-NON-DISCRIMINATION-010",
+  "canonical_name": "Discrimination for Exercising Rights",
+  "description": "Consumers are discriminated against for exercising their CCPA rights through denial of goods or services, different pricing or rates, different service levels, or suggestion that they will receive a different price or quality. CCPA prohibits businesses from discriminating against consumers who exercise their privacy rights, with limited exceptions for financial incentive programs.",
+  "domain": "CCPA",
+  "category": "RIGHTS",
+  "applicability": "E-commerce pricing systems Subscription service tiers Customer loyalty programs Service level agreements Access control and feature flags Dynamic pricing algorithms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-subject-rights",
+      "privacy",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for RIGHTS requirements."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-MP-NO-MEDIA-STORAGE-004",
+  "canonical_name": "No Media Storage",
+  "description": "Media storage controls are not implemented to physically control and securely store information system media.",
+  "domain": "FEDRAMP",
+  "category": "MP",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "media-protection",
+      "data-handling",
+      "asset-control"
+    ],
+    "related_controls": [
+      "MP-4"
+    ],
+    "detection_notes": "Detection guidance: Look for missing physical storage controls for media, lack of secured storage areas for sensitive media, absence of environmental controls (temperature, humidity) for media storage, no inventory management for stored media, missing checkout/check-in procedures, and inadequate protection against unauthorized access to storage facilities."
+  }
+}

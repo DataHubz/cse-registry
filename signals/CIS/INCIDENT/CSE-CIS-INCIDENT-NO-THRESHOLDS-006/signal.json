@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-INCIDENT-NO-THRESHOLDS-006",
+  "canonical_name": "Incident Escalation Thresholds Missing",
+  "description": "The organization lacks defined incident escalation thresholds and criteria. This signal indicates that there are no documented criteria for when security incidents should be escalated to higher levels of management or external parties. Without clear escalation thresholds, incidents may not receive appropriate attention and resources based on their severity, potentially leading to inadequate responses to critical events or unnecessary escalation of minor issues.",
+  "domain": "CIS",
+  "category": "INCIDENT",
+  "applicability": "This signal applies to: Enterprise incident response plans Security operations center (SOC) procedures Computer security incident response team (CSIRT) workflows Incident classification frameworks Management reporting procedures Regulatory notification requirements Crisis management protocols",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "recovery",
+      "threat-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for INCIDENT requirements."
+  }
+}

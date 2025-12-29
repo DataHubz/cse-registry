@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-VENDOR-NO-DUE-DILIGENCE-003",
+  "canonical_name": "Vendor Due Diligence Missing",
+  "description": "Detects the absence of ongoing due diligence processes for vendors and third-party service providers. Organizations must conduct periodic due diligence reviews to verify that vendors continue to meet security requirements, maintain appropriate controls, comply with contractual obligations, and address emerging risks throughout the business relationship lifecycle.",
+  "domain": "HITRUST",
+  "category": "VENDOR",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector Organizations with long-term vendor relationships",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "vendor-management",
+      "third-party-risk",
+      "supply-chain"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review HITRUST compliance documentation and controls for VENDOR requirements."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "CSE-GEN-VENDOR-NO-RISK-MGMT-001",
+  "canonical_name": "Vendor Risk Management Missing",
+  "description": "No process for assessing and managing security risks posed by third-party vendors and service providers. This signal indicates the absence of a formal vendor risk management program that systematically evaluates, monitors, and mitigates security risks introduced by third-party relationships throughout the vendor lifecycle.",
+  "domain": "GEN (General)",
+  "category": "VENDOR",
+  "applicability": "This signal applies to: All organizations utilizing third-party vendors and service providers Cloud service providers and SaaS applications Outsourced IT services and managed service providers Business process outsourcing relationships Supply chain and logistics partners Contractors and consultants with system access Payment processors and financial service providers",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of documented vendor risk management policies Assessment of vendor assessment and evaluation processes Examination of vendor risk classification methodologies Evaluation of vendor due diligence procedures Review of vendor risk reporting and governance Analysis of vendor lifecycle management processes Assessment of risk mitigation and remediation workflows A comprehensive vendor risk management program typically includes: **Identification**: Catalog of all third-party relationships **Assessment**: Security evaluation during vendor selection **Classification**: Risk-based categorization of vendors **Due Diligence**: Review of security controls and certifications **Monitoring**: Ongoing oversight of vendor security posture **Remediation**: A"
+  }
+}

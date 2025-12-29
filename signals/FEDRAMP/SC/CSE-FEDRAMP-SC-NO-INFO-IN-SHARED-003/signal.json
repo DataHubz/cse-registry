@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-SC-NO-INFO-IN-SHARED-003",
+  "canonical_name": "No Information in Shared System Resources",
+  "description": "Information system does not prevent unauthorized and unintended information transfer via shared system resources.",
+  "domain": "FEDRAMP",
+  "category": "SC",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-communications",
+      "encryption",
+      "network-security"
+    ],
+    "related_controls": [
+      "SC-4"
+    ],
+    "detection_notes": "Detection guidance: Look for inadequate memory isolation between processes, lack of secure resource deallocation procedures, residual data in shared resources (memory, storage, cache), no sanitization of shared resources before reallocation, and potential for information leakage through covert channels in multi-tenant environments."
+  }
+}

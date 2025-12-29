@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-TRAINING-NO-PHISHING-EXERCISES-004",
+  "canonical_name": "Phishing Exercises Missing",
+  "description": "The organization lacks a program to conduct simulated phishing exercises to test and reinforce security awareness training. This signal indicates that there is no formal program to regularly test users' ability to recognize and respond to phishing attempts through controlled simulation exercises, measure effectiveness, and provide targeted training based on results.",
+  "domain": "CIS",
+  "category": "TRAINING",
+  "applicability": "This signal applies to: Security awareness training validation programs Phishing simulation and testing initiatives User behavior measurement and analytics Training effectiveness assessment Security culture development programs Incident response readiness testing Continuous security improvement initiatives",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for TRAINING requirements."
+  }
+}

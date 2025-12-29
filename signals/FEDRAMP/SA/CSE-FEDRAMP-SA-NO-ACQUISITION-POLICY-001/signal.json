@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-SA-NO-ACQUISITION-POLICY-001",
+  "canonical_name": "No System Acquisition Policy",
+  "description": "System and services acquisition policy and procedures are not developed, documented, and maintained.",
+  "domain": "FEDRAMP",
+  "category": "SA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-acquisition",
+      "development-security",
+      "supply-chain"
+    ],
+    "related_controls": [
+      "SA-1"
+    ],
+    "detection_notes": "Detection guidance: Look for missing system and services acquisition policy documentation, outdated procedures, lack of policy dissemination evidence, absence of defined roles and responsibilities for acquisition activities, and missing documentation of acquisition processes and security requirements integration."
+  }
+}

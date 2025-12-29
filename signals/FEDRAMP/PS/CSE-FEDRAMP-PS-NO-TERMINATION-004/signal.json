@@ -1,0 +1,20 @@
+{
+  "id": "CSE-FEDRAMP-PS-NO-TERMINATION-004",
+  "canonical_name": "No Personnel Termination",
+  "description": "The organization does not terminate information system access and retrieve all security-related organizational information system-related property upon termination of individual employment. This signal indicates that departing personnel may retain access to federal information systems or organizational property after their employment ends, creating security risks from unauthorized access or data exposure.",
+  "domain": "FEDRAMP",
+  "category": "PS",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "personnel-security",
+      "background-screening",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of termination procedures and documentation Analysis of access revocation timelines and compliance Verification of same-day access termination requirements Assessment of authenticator and credential revocation processes Examination of exit interview procedures and completion Inspection of property retrieval records and checklists Review of notification processes to relevant personnel Verification of access to former employee information retention Analysis of termination workflow automation Examination of contractor and third-party termination procedures The presence of this signal indicates a condition that warrants review in the context of FedRAMP personnel security requirements. Personnel termination procedures should be prompt, compreh"
+  }
+}

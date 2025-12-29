@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-IA-NO-CRYPTO-AUTH-007",
+  "canonical_name": "No Cryptographic Module Authentication",
+  "description": "Information systems do not implement mechanisms for authentication to a cryptographic module that meet FIPS 140-2 requirements.",
+  "domain": "FEDRAMP",
+  "category": "IA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "identity",
+      "authentication",
+      "credential-management"
+    ],
+    "related_controls": [
+      "IA-7"
+    ],
+    "detection_notes": "Detection guidance: Look for cryptographic modules without FIPS 140-2 validation, systems using non-approved cryptographic algorithms for authentication, missing authentication mechanisms for accessing cryptographic keys or modules, cryptographic operations performed without proper authentication, and absence of FIPS 140-2 certificates for cryptographic modules. Verify that cryptographic modules meet at least FIPS 140-2 Level 1 validation requirements."
+  }
+}

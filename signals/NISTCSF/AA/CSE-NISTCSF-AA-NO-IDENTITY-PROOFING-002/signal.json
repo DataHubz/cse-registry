@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-AA-NO-IDENTITY-PROOFING-002",
+  "canonical_name": "No Identity Proofing",
+  "description": "Identities are not proofed and bound to credentials based on context.",
+  "domain": "NISTCSF",
+  "category": "AA",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Identity and access management teams Security awareness and training programs Organizations managing user authentication",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Identify authentication systems where identity verification processes are missing or insufficient, including lack of identity proofing procedures that validate user claims before credential issuance and inadequate binding of verified identities to authentication credentials based on risk context."
+  }
+}

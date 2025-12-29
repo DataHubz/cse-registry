@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-ASSET-NO-CLASSIFICATION-004",
+  "canonical_name": "Information Classification Missing",
+  "description": "Information and information assets lack a systematic classification scheme that identifies their sensitivity, criticality, and required protection level. This signal indicates that data is not categorized according to its value, legal requirements, sensitivity, or criticality to the organization, making it difficult to apply appropriate security controls.",
+  "domain": "HITRUST",
+  "category": "ASSET",
+  "applicability": "This signal applies to: Structured and unstructured data Documents and files Databases and data warehouses Email and communications Source code and intellectual property Customer and patient information Financial records Cloud storage repositories Backup and archive data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of information security policies for classification schemes Analysis of data governance documentation Assessment of database schemas for classification metadata Evaluation of cloud resource tagging standards Review of document management systems for classification labels Verification of data loss prevention (DLP) policy configurations The presence of this signal indicates a condition that warrants review in the context of information classification requirements."
+  }
+}

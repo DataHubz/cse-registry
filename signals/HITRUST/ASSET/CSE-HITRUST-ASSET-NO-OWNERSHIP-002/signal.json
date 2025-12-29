@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-ASSET-NO-OWNERSHIP-002",
+  "canonical_name": "Asset Ownership Not Assigned",
+  "description": "Information assets lack designated owners who are responsible for their protection, maintenance, and appropriate use throughout their lifecycle. This signal indicates that accountability for assets is unclear, making it difficult to ensure proper security controls, access management, and risk assessment.",
+  "domain": "HITRUST",
+  "category": "ASSET",
+  "applicability": "This signal applies to: Information systems and applications Databases and data repositories Cloud services and resources Network infrastructure components Software applications Data sets and information collections Physical and virtual servers Security devices and controls",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of asset inventory for ownership fields Analysis of cloud resource tagging compliance Assessment of CMDB ownership attributes Verification of data stewardship assignments Evaluation of accountability matrices Review of system documentation for responsible parties The presence of this signal indicates a condition that warrants review in the context of asset ownership and accountability requirements."
+  }
+}

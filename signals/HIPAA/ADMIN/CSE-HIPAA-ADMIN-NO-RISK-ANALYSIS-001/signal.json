@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HIPAA-ADMIN-NO-RISK-ANALYSIS-001",
+  "canonical_name": "No Risk Analysis",
+  "description": "No thorough assessment of potential risks and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) has been conducted. This signal indicates the absence of a documented risk analysis process that identifies and evaluates threats to ePHI across the organization's systems, networks, and business processes.",
+  "domain": "HIPAA",
+  "category": "ADMIN",
+  "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "governance",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.308(a)(1)(ii)(A)"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of security documentation for evidence of risk analysis Examination of risk assessment methodologies and tools Analysis of risk registers and vulnerability inventories Verification of periodic risk analysis updates Assessment of coverage across all systems handling ePHI The presence of this signal indicates a fundamental gap in administrative safeguards that warrants immediate attention."
+  }
+}

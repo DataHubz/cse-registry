@@ -1,0 +1,20 @@
+{
+  "id": "CSE-FEDRAMP-PL-NO-PLANNING-POLICY-001",
+  "canonical_name": "No Planning Policy",
+  "description": "Security and privacy planning policy and procedures are not developed, documented, and maintained. This signal indicates that the organization may lack foundational documentation that establishes the approach for planning security and privacy controls for information systems.",
+  "domain": "FEDRAMP",
+  "category": "PL",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security-planning",
+      "governance",
+      "risk-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of security planning policy documentation Analysis of policy scope, roles, and responsibilities Verification of policy dissemination to appropriate personnel Assessment of procedures for implementing planning controls Examination of policy review and update schedules Inspection of designated official assignment for policy management Review of policy consistency with federal requirements The presence of this signal indicates a condition that warrants review in the context of FedRAMP planning requirements."
+  }
+}

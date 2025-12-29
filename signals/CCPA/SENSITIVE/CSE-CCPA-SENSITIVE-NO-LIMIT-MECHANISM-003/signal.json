@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-SENSITIVE-NO-LIMIT-MECHANISM-003",
+  "canonical_name": "Limit SPI Use Mechanism Missing",
+  "description": "A business that uses or discloses sensitive personal information beyond permitted purposes does not provide a functional mechanism for consumers to limit such use. This signal indicates that while the business may display a \"Limit the Use of My Sensitive Personal Information\" link, the underlying system to process and honor these requests is missing, incomplete, or non-functional.",
+  "domain": "CCPA",
+  "category": "SENSITIVE",
+  "applicability": "This signal applies to: Websites with opt-out links that lead to non-functional forms or broken pages Mobile apps displaying sensitive PI limitation options without backend implementation Platforms that acknowledge limitation requests but fail to apply them to data processing Services lacking technical controls to enforce SPI use restrictions Systems where limitation requests are not propagated to third-party processors Applications without audit mechanisms to verify SPI limitation compliance Bu",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Testing of SPI limitation request submission workflows Backend code analysis to verify enforcement implementation Database query monitoring to check limitation preference application Third-party data sharing analysis to verify restriction propagation API traffic inspection to confirm limited SPI usage after request Audit log review to verify limitation requests are being processed Service provider contract review for limitation forwarding requirements End-to-end testing of limitation request to verify actual restriction of SPI use The presence of this signal indicates a condition that warrants review in the context of CPRA sensitive personal information limitation rights implementation."
+  }
+}

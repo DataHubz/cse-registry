@@ -1,0 +1,20 @@
+{
+  "id": "CSE-GEN-GOVERN-NO-COMPLIANCE-REVIEW-005",
+  "canonical_name": "Compliance Review Missing",
+  "description": "No documented process exists for periodically reviewing compliance with security policies, procedures, and applicable regulatory or contractual requirements. This signal indicates that the organization lacks a systematic approach to verifying that security controls are operating as intended and that the organization remains compliant with its obligations.",
+  "domain": "GEN (General)",
+  "category": "GOVERN",
+  "applicability": "This signal applies to: Organizations with regulatory compliance requirements Organizations subject to contractual security obligations Healthcare organizations under HIPAA Financial services institutions Organizations processing payment card data (PCI DSS) Government contractors requiring CMMC Organizations certified to ISO 27001 Organizations undergoing SOC 2 audits Organizations with HITRUST certification Cloud service providers with compliance commitments Organizations in regulated industrie",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of compliance program documentation Examination of audit schedules and reports Interviews with compliance and audit personnel Review of management review meeting minutes Assessment of compliance monitoring tools Examination of corrective action tracking Review of regulatory filing and reporting The presence of this signal indicates a governance gap that can result in: Undetected compliance violations Ineffective security controls Regulatory penalties and fines Failed audits or certifications Inability to demonstrate due diligence Erosion of security posture over time Loss of customer or partner trust Organizations should establish a compliance review process that includes: Documented review procedures and schedules Regular internal audits"
+  }
+}

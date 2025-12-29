@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-ISMP-NO-PROGRAM-001",
+  "canonical_name": "Information Security Program Not Established",
+  "description": "Detects the absence of a formal information security program with documented objectives, scope, and governance structure. Organizations must establish a comprehensive security program that defines the organization's approach to protecting information assets, including clear objectives, defined scope, governance mechanisms, and resource allocation.",
+  "domain": "HITRUST",
+  "category": "ISMP",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review HITRUST compliance documentation and controls for ISMP requirements."
+  }
+}

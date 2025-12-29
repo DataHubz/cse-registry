@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-INCIDENT-NO-CONTACTS-002",
+  "canonical_name": "Incident Reporting Contacts Missing",
+  "description": "The organization lacks documented incident reporting contacts and procedures. This signal indicates that there are no established and documented points of contact for reporting security incidents. Without clear reporting mechanisms, employees and stakeholders may not know how to report suspected security incidents, leading to delayed detection, prolonged incidents, and increased damage.",
+  "domain": "CIS",
+  "category": "INCIDENT",
+  "applicability": "This signal applies to: Enterprise incident response programs Security awareness and training materials Internal communication procedures Security operations center (SOC) contact information Computer security incident response team (CSIRT) capabilities Employee handbooks and security policies Organizational communication channels",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "recovery",
+      "threat-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for INCIDENT requirements."
+  }
+}

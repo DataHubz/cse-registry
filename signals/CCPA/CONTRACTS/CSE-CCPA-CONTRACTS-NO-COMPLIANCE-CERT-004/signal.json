@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-CONTRACTS-NO-COMPLIANCE-CERT-004",
+  "canonical_name": "Compliance Certification Missing (§1798.140(ag)(2)(E))",
+  "description": "This signal is raised when a service provider or contractor contract fails to include a provision requiring the service provider/contractor to certify their understanding of and compliance with CCPA restrictions. The certification requirement ensures that service providers and contractors acknowledge their obligations and understand they cannot retain, use, or disclose personal information except as permitted by law.",
+  "domain": "CCPA",
+  "category": "CONTRACTS",
+  "applicability": "Service provider contracts lacking compliance certification provisions Contractor agreements without CCPA acknowledgment clauses Contract templates that need CPRA compliance updates Third-party vendor onboarding processes",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for CONTRACTS requirements."
+  }
+}

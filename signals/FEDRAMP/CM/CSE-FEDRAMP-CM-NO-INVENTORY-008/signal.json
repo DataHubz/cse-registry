@@ -1,0 +1,20 @@
+{
+  "id": "CSE-FEDRAMP-CM-NO-INVENTORY-008",
+  "canonical_name": "No System Component Inventory",
+  "description": "No inventory of information system components has been developed, documented, or maintained that accurately reflects the current system.",
+  "domain": "FEDRAMP",
+  "category": "CM",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) seeking FedRAMP authorization Federal agencies operating cloud systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing government data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "change-control",
+      "baseline"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Review configuration management databases (CMDBs), asset management systems, and inventory documentation to verify comprehensive tracking of all system components. Look for missing inventory records, outdated inventory documentation, discrepancies between documented and actual systems, or lack of periodic inventory reviews. Check for untracked hardware devices, shadow IT systems, undocumented software installations, or cloud resources not included in the inventory. Verify that inventory includes sufficient detail for accountability such as owner, location, network addresses, and software versions."
+  }
+}

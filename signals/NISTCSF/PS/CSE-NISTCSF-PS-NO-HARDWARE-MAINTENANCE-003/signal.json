@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-PS-NO-HARDWARE-MAINTENANCE-003",
+  "canonical_name": "Hardware Not Properly Maintained",
+  "description": "Hardware is not maintained, replaced, and removed commensurate with risk.",
+  "domain": "NISTCSF",
+  "category": "Platform Security",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Monitor for outdated firmware versions, end-of-life hardware still in production, lack of hardware lifecycle management, failure to sanitize hardware before disposal, missing hardware maintenance schedules, and inadequate tracking of hardware assets."
+  }
+}

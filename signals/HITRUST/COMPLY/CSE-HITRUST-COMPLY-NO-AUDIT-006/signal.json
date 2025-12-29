@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-COMPLY-NO-AUDIT-006",
+  "canonical_name": "Compliance Audit Not Conducted",
+  "description": "Operating procedures and controls have not been regularly reviewed for compliance with the organization's security policies and standards. This signal indicates that an organization lacks a systematic process to audit, assess, and verify that operational security controls and procedures are being followed in accordance with documented policies, standards, and compliance requirements.",
+  "domain": "HITRUST",
+  "category": "COMPLY",
+  "applicability": "This signal applies to: Security operations and incident response procedures Access control and identity management processes Change management and configuration control procedures Backup and recovery operations Patch management and vulnerability remediation processes Security monitoring and log management activities Physical security and facility access procedures Vendor and third-party security management Data handling and classification procedures",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of internal audit schedules and reports Analysis of compliance assessment documentation Examination of control testing and validation records Assessment of audit finding tracking and remediation Review of management attestations and certifications Inspection of independent assessment reports Evaluation of continuous compliance monitoring programs Assessment of audit committee or governance oversight The presence of this signal indicates a condition that warrants review in the context of compliance audit and operational control verification requirements."
+  }
+}

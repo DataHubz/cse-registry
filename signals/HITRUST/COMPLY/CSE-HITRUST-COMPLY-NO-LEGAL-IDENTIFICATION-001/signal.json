@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-COMPLY-NO-LEGAL-IDENTIFICATION-001",
+  "canonical_name": "Legal Requirements Not Identified",
+  "description": "Applicable legal, statutory, regulatory, and contractual requirements and the organization's approach to meet these requirements have not been explicitly identified and documented for each information system. This signal indicates that an organization has not established a formal process to identify, document, and maintain awareness of relevant legal and regulatory obligations that apply to its information systems and data processing activities.",
+  "domain": "HITRUST",
+  "category": "COMPLY",
+  "applicability": "This signal applies to: Healthcare organizations subject to HIPAA, HITECH, and state privacy laws Financial services organizations subject to GLBA, PCI DSS, SOX Organizations processing EU data subject to GDPR Government contractors subject to FedRAMP, FISMA, DFARS Organizations in regulated industries (pharmaceutical, utilities, telecommunications) Multi-jurisdictional operations with varying compliance requirements Cloud service providers with contractual compliance obligations Organizations h",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of compliance documentation repositories Examination of legal requirements registers Analysis of system security plans and documentation Review of governance and risk management procedures Inspection of change management processes for legal requirement updates Assessment of compliance tracking systems The presence of this signal indicates a condition that warrants review in the context of legal and regulatory compliance requirements."
+  }
+}

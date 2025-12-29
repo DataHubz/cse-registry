@@ -1,0 +1,22 @@
+{
+  "id": "CSE-PCIDSS-AUTH-NO-MFA-004",
+  "canonical_name": "No Multi-Factor Authentication",
+  "description": "Multi-factor authentication is not used to secure CDE access.",
+  "domain": "PCIDSS",
+  "category": "AUTH",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Identity and access management systems User directories and authentication services Administrative access to CDE components Remote access to payment systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "authentication",
+      "credential-security",
+      "identity"
+    ],
+    "related_controls": [
+      "8.4 Multi-factor authentication (MFA) is implemented to secure access into the CDE."
+    ],
+    "detection_notes": "Detection guidance: Review authentication mechanisms for CDE access points including administrative consoles, remote access solutions, and application interfaces. Verify that at least two independent authentication factors (something you know, something you have, something you are) are required. Single-factor authentication to CDE components indicates this signal."
+  }
+}

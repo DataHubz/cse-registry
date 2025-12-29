@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-IM-NO-TEST-IMPROVEMENTS-002",
+  "canonical_name": "Improvements Not Identified from Security Tests and Exercises",
+  "description": "Improvements are not identified from security tests and exercises.",
+  "domain": "NISTCSF",
+  "category": "IM",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Continuous improvement and process optimization teams Security testing and assessment functions Organizations conducting lessons learned activities",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Monitor for absence of post-exercise analysis, lack of documented findings from penetration tests or tabletop exercises, failure to capture lessons learned from supplier security assessments, or missing action items following security testing activities."
+  }
+}

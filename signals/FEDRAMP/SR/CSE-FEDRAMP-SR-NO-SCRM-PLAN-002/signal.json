@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-SR-NO-SCRM-PLAN-002",
+  "canonical_name": "No Supply Chain Risk Management Plan",
+  "description": "A comprehensive supply chain risk management plan addressing identification, assessment, and mitigation of supply chain risks is not developed, documented, implemented, and maintained.",
+  "domain": "FEDRAMP",
+  "category": "SR",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Federal information systems processing sensitive data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "supply-chain",
+      "third-party-risk",
+      "vendor-management"
+    ],
+    "related_controls": [
+      "SR-2"
+    ],
+    "detection_notes": "Detection guidance: Look for absence of a documented supply chain risk management plan, lack of risk assessment processes for suppliers and vendors, missing threat intelligence integration, absence of supply chain risk monitoring procedures, and lack of plan review and update mechanisms. Verify that the plan addresses the full system lifecycle from acquisition through disposal and includes protection measures for the plan itself."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-APPSEC-NO-SAST-005",
+  "canonical_name": "Static Application Security Testing Missing",
+  "description": "An organization has not implemented static application security testing (SAST) in the software development lifecycle. This signal indicates the absence of automated source code analysis to identify security vulnerabilities, coding errors, and security weaknesses before code is compiled or executed.",
+  "domain": "CIS",
+  "category": "APPSEC",
+  "applicability": "This signal applies to: Software development teams Application security teams DevOps and DevSecOps teams Security engineering teams Quality assurance teams CI/CD pipeline administrators Code review teams Organizations developing custom software",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of CI/CD pipeline configurations Assessment of security testing tools integration Evaluation of SAST tool deployment and usage Examination of security scanning frequency Review of vulnerability findings management Assessment of security gate enforcement Analysis of IDE security plugin usage SAST implementation typically includes: **Tool selection**: Language-specific analyzers, commercial or open-source **Integration points**: IDE, pre-commit hooks, CI/CD pipeline **Rule configuration**: Security standards, compliance requirements, custom rules **Scan frequency**: Every commit, daily builds, release gates **Findings management**: Triage, false positive handling, remediation tracking **Quality gates**: Build failure thresholds, blocking cr"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "CSE-PCIDSS-CONFIG-NO-SECURE-SYSTEM-CONFIG-002",
+  "canonical_name": "No Secure System Configuration",
+  "description": "System components are not securely configured (default passwords not changed, unnecessary services enabled).",
+  "domain": "PCIDSS",
+  "category": "CONFIG",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Point-of-sale (POS) systems Network infrastructure within CDE scope",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "hardening",
+      "compliance"
+    ],
+    "related_controls": [
+      "2.2 System components are configured and managed securely."
+    ],
+    "detection_notes": "Detection guidance: Scan for default credentials and accounts, identify unnecessary services and protocols running on systems, check for missing security patches and hardening measures, verify that configuration standards align with industry best practices (CIS benchmarks, vendor hardening guides), and assess whether single-function servers are properly segregated by security level."
+  }
+}

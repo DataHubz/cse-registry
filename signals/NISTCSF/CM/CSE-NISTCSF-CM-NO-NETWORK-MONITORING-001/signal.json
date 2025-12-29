@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-CM-NO-NETWORK-MONITORING-001",
+  "canonical_name": "No Network Monitoring",
+  "description": "Networks and network services are not monitored for potentially adverse events.",
+  "domain": "NISTCSF",
+  "category": "CM",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Organizations should implement continuous monitoring of network traffic, network services (DNS, DHCP, etc.), and network infrastructure to detect anomalies, unauthorized access attempts, malicious traffic patterns, and other potentially adverse events. This includes monitoring both internal and external network boundaries."
+  }
+}

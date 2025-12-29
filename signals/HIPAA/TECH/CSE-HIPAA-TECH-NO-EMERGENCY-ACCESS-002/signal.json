@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HIPAA-TECH-NO-EMERGENCY-ACCESS-002",
+  "canonical_name": "No Emergency Access Procedure",
+  "description": "No procedures for obtaining necessary ePHI during an emergency.",
+  "domain": "HIPAA",
+  "category": "TECH",
+  "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "technical-security",
+      "data-protection",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.312(a)(2)(ii)"
+    ],
+    "detection_notes": "Detection guidance: Review system documentation and incident response procedures to verify the existence of emergency access protocols. Check for documented procedures that allow authorized personnel to access ePHI during system failures, disasters, or other emergency situations. Verify that emergency access mechanisms are tested and that access is properly logged and audited."
+  }
+}

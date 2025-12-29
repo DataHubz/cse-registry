@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-PS-NO-UNAUTHORIZED-SW-PREVENTION-005",
+  "canonical_name": "Unauthorized Software Not Prevented",
+  "description": "Installation and execution of unauthorized software are not prevented.",
+  "domain": "NISTCSF",
+  "category": "Platform Security",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Monitor for lack of application whitelisting, missing software restriction policies, absence of code signing enforcement, uncontrolled software installations, failure to prevent unauthorized executables, and inadequate application control mechanisms."
+  }
+}

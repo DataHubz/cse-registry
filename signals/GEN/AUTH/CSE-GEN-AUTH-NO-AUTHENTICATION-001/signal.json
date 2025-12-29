@@ -1,0 +1,20 @@
+{
+  "id": "CSE-GEN-AUTH-NO-AUTHENTICATION-001",
+  "canonical_name": "Authentication Mechanism Missing",
+  "description": "A system or application lacks authentication controls to verify user identity before granting access to resources or functionality. This signal indicates that access is permitted without validating that users are who they claim to be, allowing anonymous or unverified access to protected resources.",
+  "domain": "GEN (General)",
+  "category": "AUTH",
+  "applicability": "This signal applies to: Web applications and APIs Database servers and data stores Network services and protocols Administrative interfaces Internal applications and microservices Cloud service endpoints File servers and shared resources IoT and embedded devices",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Scanning configuration files for authentication settings Testing endpoints for anonymous access Reviewing network service configurations Analyzing access control policies Examining application code for authentication checks The presence of this signal indicates a fundamental security control gap that should be prioritized for review and remediation."
+  }
+}

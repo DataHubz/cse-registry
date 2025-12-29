@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-PE-NO-VISITOR-ACCESS-005",
+  "canonical_name": "No Visitor Access Records",
+  "description": "Visitor access records are not maintained, and visitors are not properly controlled when accessing facilities containing information systems.",
+  "domain": "FEDRAMP",
+  "category": "PE",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "environmental-protection",
+      "facility-security"
+    ],
+    "related_controls": [
+      "PE-8"
+    ],
+    "detection_notes": "Detection guidance: Look for missing visitor sign-in/sign-out logs, lack of visitor badges or identification, absence of escort procedures, inadequate visitor access records, missing review processes for visitor logs, and failure to retain visitor access records for appropriate periods."
+  }
+}

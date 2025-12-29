@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-ACCESS-NO-SESSION-MANAGEMENT-007",
+  "canonical_name": "Session Management Controls Missing",
+  "description": "Session management controls such as automatic logout, session timeouts, and idle disconnect are not implemented for systems containing protected health information (PHI) or other sensitive data. This signal indicates the absence of mechanisms to terminate inactive user sessions, enforce maximum session durations, or require re-authentication after periods of inactivity. Proper session management prevents unauthorized access from unattended workstations and reduces the window of opportunity for s",
+  "domain": "HITRUST",
+  "category": "ACCESS",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Web applications and patient portals Electronic health record (EHR) systems Remote desktop and VPN sessions Clinical workstations Mobile health applications",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of application session configuration Analysis of authentication system timeout settings Examination of workstation screen lock policies Assessment of VPN and remote access timeout configurations Review of database connection pool settings Testing of session expiration behavior The presence of this signal indicates a significant security weakness that increases the risk of unauthorized access from unattended sessions and session hijacking attacks."
+  }
+}

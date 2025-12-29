@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-RETENTION-BEYOND-NECESSARY-004",
+  "canonical_name": "PI Retained Beyond Reasonably Necessary",
+  "description": "This signal detects when a business retains personal information longer than reasonably necessary to achieve the disclosed purposes for which it was collected. The business maintains PI past the point where the original business purpose has been fulfilled or the data is no longer needed for operational, legal, or regulatory requirements.",
+  "domain": "CCPA",
+  "category": "RETENTION",
+  "applicability": "Businesses retaining PI after purpose fulfillment Organizations keeping customer data beyond relationship termination Systems storing inactive user accounts indefinitely Databases maintaining PI without automated deletion triggers",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for RETENTION requirements."
+  }
+}

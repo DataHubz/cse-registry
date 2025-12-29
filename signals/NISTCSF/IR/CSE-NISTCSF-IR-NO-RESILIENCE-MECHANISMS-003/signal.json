@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-IR-NO-RESILIENCE-MECHANISMS-003",
+  "canonical_name": "Resilience Mechanisms Not Implemented",
+  "description": "Mechanisms to achieve resilience requirements are not implemented.",
+  "domain": "NISTCSF",
+  "category": "Technology Infrastructure Resilience",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "audit-logging",
+      "monitoring",
+      "accountability"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Monitor for lack of redundancy mechanisms, missing failover capabilities, absence of disaster recovery plans, inadequate business continuity measures, failure to implement high availability solutions, and insufficient resilience testing."
+  }
+}

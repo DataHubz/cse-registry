@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-ACCESS-NO-PROCESS-001",
+  "canonical_name": "Access Granting Process Missing",
+  "description": "The organization lacks a documented and established process for granting access to enterprise assets based on the principles of least privilege and need-to-know. This signal indicates that access may be granted in an ad-hoc manner without proper authorization workflows, documentation, or justification requirements.",
+  "domain": "CIS",
+  "category": "ACCESS",
+  "applicability": "This signal applies to: Access request and approval workflows Identity and access management (IAM) systems User provisioning processes Access control policies and procedures Service desk ticketing systems HR onboarding/offboarding processes Role assignment procedures",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "privilege-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for ACCESS requirements."
+  }
+}

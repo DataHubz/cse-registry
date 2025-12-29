@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-CM-NO-PROVIDER-MONITORING-006",
+  "canonical_name": "No External Service Provider Monitoring",
+  "description": "External service provider activities are not monitored for potentially adverse events.",
+  "domain": "NISTCSF",
+  "category": "CM",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Organizations should monitor activities of cloud service providers, managed service providers, vendors, and other third parties with access to systems or data. This includes reviewing service provider logs, monitoring API usage, tracking data transfers, and validating compliance with security requirements to detect potentially adverse events originating from or affecting external service providers."
+  }
+}

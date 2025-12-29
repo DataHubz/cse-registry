@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-SC-NO-SCRM-ROLES-002",
+  "canonical_name": "No Cybersecurity Roles and Responsibilities for Suppliers",
+  "description": "Cybersecurity roles and responsibilities for suppliers are not established.",
+  "domain": "NISTCSF",
+  "category": "SC",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Organizations with supplier and third-party relationships Procurement and vendor management teams Supply chain security programs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Look for the absence of defined cybersecurity roles and responsibilities for suppliers, customers, and partners. Check for lack of communication or coordination mechanisms for these roles across internal and external stakeholders."
+  }
+}

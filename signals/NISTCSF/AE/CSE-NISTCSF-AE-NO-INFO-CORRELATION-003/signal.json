@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-AE-NO-INFO-CORRELATION-003",
+  "canonical_name": "No Information Correlation",
+  "description": "Information from multiple sources is not correlated.",
+  "domain": "NISTCSF",
+  "category": "AE",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Organizations should correlate security events, alerts, and data from multiple sources such as network monitoring tools, endpoint detection systems, authentication logs, threat intelligence feeds, and physical security systems. This correlation enables detection of complex, multi-stage attacks and provides comprehensive visibility into potential security incidents."
+  }
+}

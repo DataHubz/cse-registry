@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-SDLC-NO-KEY-MANAGEMENT-006",
+  "canonical_name": "Key Management Missing",
+  "description": "Cryptographic key management controls have not been implemented in information systems processing protected health information (PHI) or other sensitive data, creating risk of key compromise, unauthorized data access, or inability to decrypt critical information. This signal indicates the absence of proper procedures and controls for generating, distributing, storing, rotating, revoking, and destroying cryptographic keys. Key management is essential for maintaining the security of encrypted data",
+  "domain": "HITRUST",
+  "category": "SDLC",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems using encryption for data protection Cloud-based healthcare services Applications with encrypted databases Mobile health applications Medical device manufacturers",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Code review for hardcoded keys and secrets Examination of configuration files and environment variables Review of key storage mechanisms (HSM, key vault, etc.) Assessment of key rotation policies and procedures Verification of key access controls and logging Analysis of key backup and disaster recovery plans Review of key lifecycle documentation Testing for secure key destruction procedures Evaluation of separation of duties in key management The presence of this signal indicates a critical security gap that could undermine all cryptographic protections. Poor key management can result in data breaches, regulatory violations, and permanent data loss if encryption keys are compromised or lost."
+  }
+}

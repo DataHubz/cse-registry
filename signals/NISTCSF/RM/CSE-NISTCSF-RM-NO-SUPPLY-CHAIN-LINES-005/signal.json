@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-RM-NO-SUPPLY-CHAIN-LINES-005",
+  "canonical_name": "No Supply Chain Risk Communication Lines",
+  "description": "Lines of communication for cybersecurity risks across the supply chain are not established.",
+  "domain": "NISTCSF",
+  "category": "RM",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Look for missing vendor risk communication processes, absence of third-party risk escalation paths, lack of supply chain risk reporting mechanisms, undefined communication channels for supplier security incidents."
+  }
+}

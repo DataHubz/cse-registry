@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-RIGHTS-NO-APPEAL-PROCESS-011",
+  "canonical_name": "Appeal Process Missing",
+  "description": "No mechanism exists for consumers to appeal a business's decision regarding their consumer rights request, or consumers are not informed of their right to appeal. The California Privacy Protection Agency (CPPA) regulations require businesses to provide an appeal process when requests are denied in whole or in part.",
+  "domain": "CCPA",
+  "category": "RIGHTS",
+  "applicability": "Consumer rights management systems Privacy request denial workflows Customer service escalation processes Data subject access request (DSAR) platforms Request response and notification systems Privacy operations case management",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-subject-rights",
+      "privacy",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for RIGHTS requirements."
+  }
+}

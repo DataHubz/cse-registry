@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-PE-NO-DELIVERY-008",
+  "canonical_name": "No Delivery and Removal Controls",
+  "description": "Controls for authorizing, monitoring, and controlling the delivery and removal of system components are not implemented.",
+  "domain": "FEDRAMP",
+  "category": "PE",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "environmental-protection",
+      "facility-security"
+    ],
+    "related_controls": [
+      "PE-16"
+    ],
+    "detection_notes": "Detection guidance: Look for missing authorization procedures for equipment delivery/removal, lack of chain-of-custody documentation, absence of receiving/shipping logs, inadequate inspection procedures for incoming equipment, missing inventory reconciliation processes, and no evidence of controls to prevent unauthorized removal of equipment."
+  }
+}

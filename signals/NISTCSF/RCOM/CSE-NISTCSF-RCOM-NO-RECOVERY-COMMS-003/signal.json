@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-RCOM-NO-RECOVERY-COMMS-003",
+  "canonical_name": "Recovery Activities and Progress Not Communicated to Stakeholders",
+  "description": "Recovery activities and progress are not communicated to stakeholders.",
+  "domain": "NISTCSF",
+  "category": "RCOM",
+  "applicability": "This signal applies to: All organizations with business continuity and disaster recovery requirements Incident recovery and restoration teams Communications and public relations functions Organizations with regulatory recovery requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Monitor for recovery operations conducted without stakeholder status updates, progress reports, or communication plans. Look for gaps in internal notifications to leadership, external updates to partners/customers, or regulatory reporting during recovery phases."
+  }
+}

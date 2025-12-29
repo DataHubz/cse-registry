@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-ORG-NO-ROLES-001",
+  "canonical_name": "Security Roles Not Defined",
+  "description": "Security roles and responsibilities are not formally defined within the organization. This signal indicates that the organization has not established or documented specific roles responsible for information security activities, including defining security objectives, implementing controls, managing incidents, and maintaining compliance.",
+  "domain": "HITRUST",
+  "category": "ORG",
+  "applicability": "This signal applies to: Organizational security documentation and policies Role definitions and job descriptions Responsibility assignment matrices (RACI) Security governance frameworks Organizational charts and reporting structures Human resources documentation Security program charters Vendor and third-party contracts",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of organizational policies and procedures Analysis of job descriptions and role definitions Examination of RACI or responsibility matrices Assessment of organizational charts Review of security program documentation Inspection of governance frameworks The presence of this signal indicates a condition that warrants review in the context of organizational security governance requirements."
+  }
+}

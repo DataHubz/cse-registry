@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HIPAA-TECH-NO-TRANSMISSION-INTEGRITY-008",
+  "canonical_name": "No Transmission Integrity Controls",
+  "description": "No security measures to ensure electronically transmitted ePHI is not improperly modified without detection.",
+  "domain": "HIPAA",
+  "category": "TECH",
+  "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "technical-security",
+      "data-protection",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.312(e)(2)(i)"
+    ],
+    "detection_notes": "Detection guidance: Review network transmission protocols and security measures for ePHI transfers. Check for integrity verification mechanisms such as message authentication codes (MACs), digital signatures, or secure protocols (TLS/SSL) that include integrity checking. Verify that file transfers, API communications, and messaging systems implement tamper detection."
+  }
+}

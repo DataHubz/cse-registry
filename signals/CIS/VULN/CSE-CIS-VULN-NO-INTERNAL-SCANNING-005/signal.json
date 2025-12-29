@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-VULN-NO-INTERNAL-SCANNING-005",
+  "canonical_name": "Internal Vulnerability Scanning Missing",
+  "description": "An organization has not implemented automated internal vulnerability scanning for enterprise assets. This signal indicates the absence of regular, automated scanning of internal network assets to identify vulnerabilities, misconfigurations, and security weaknesses before they can be exploited by attackers.",
+  "domain": "CIS",
+  "category": "VULN",
+  "applicability": "This signal applies to: Internal network servers and workstations Cloud infrastructure and virtual machines Databases and data stores Network devices and appliances Web applications and APIs (internal) Container environments IoT and OT devices Internal SaaS applications",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "vulnerability-management",
+      "patching",
+      "remediation"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of vulnerability scanning tool deployments Assessment of scanning schedules and frequency Analysis of scan coverage across asset inventory Examination of authenticated vs. unauthenticated scan configurations Review of scan result reporting and remediation tracking Assessment of cloud-native scanning capabilities The presence of this signal indicates a condition that warrants review in the context of internal vulnerability scanning requirements."
+  }
+}

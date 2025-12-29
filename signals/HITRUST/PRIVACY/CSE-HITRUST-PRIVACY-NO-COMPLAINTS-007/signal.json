@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-PRIVACY-NO-COMPLAINTS-007",
+  "canonical_name": "Complaints Process Missing",
+  "description": "A formal process to receive, investigate, and respond to privacy complaints from individuals has not been established or documented. This signal indicates the absence of mechanisms that enable individuals to file complaints about privacy practices, potential privacy violations, or concerns about how their personal or protected health information (PHI) is being handled. A complaints process is essential for accountability, continuous improvement, and demonstrating responsiveness to individual pri",
+  "domain": "HITRUST",
+  "category": "PRIVACY",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Patient advocacy programs Health information exchanges (HIEs) Healthcare customer service operations Privacy and compliance offices Healthcare SaaS providers",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of privacy policy and notice documents Examination of complaint submission channels and forms Analysis of complaint tracking and case management systems Verification of investigation and resolution procedures Assessment of complaint response timeframes and documentation Review of privacy office roles and responsibilities The presence of this signal indicates a privacy accountability and responsiveness gap that should be addressed to ensure individual rights protection and organizational transparency."
+  }
+}

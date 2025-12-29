@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-NETWORK-NO-SEGMENTATION-001",
+  "canonical_name": "Network Segmentation Missing",
+  "description": "Network segmentation controls have not been implemented to separate systems handling protected health information (PHI) or other sensitive data from less secure network zones. This signal indicates the absence of network segmentation that isolates critical systems, databases, and applications processing sensitive health information from general-purpose networks, guest networks, or untrusted zones. Proper network segmentation reduces the attack surface and limits lateral movement in the event of",
+  "domain": "HITRUST",
+  "category": "NETWORK",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers Cloud-based healthcare platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "network-security",
+      "segmentation",
+      "perimeter"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of network architecture diagrams and documentation Analysis of VLAN configurations and subnet designs Examination of firewall rules and access control lists Assessment of cloud network configurations (VPCs, security groups) Verification of micro-segmentation implementation Analysis of network zone definitions and boundaries The presence of this signal indicates a critical gap in network security architecture that increases risk of unauthorized access to PHI and should be addressed as a priority for HITRUST compliance."
+  }
+}

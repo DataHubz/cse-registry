@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-PHYSICAL-NO-MAINTENANCE-007",
+  "canonical_name": "Equipment Maintenance Missing",
+  "description": "No equipment maintenance procedures in place to ensure the continuing availability and integrity of information processing facilities.",
+  "domain": "HITRUST",
+  "category": "PHYSICAL",
+  "applicability": "This signal applies to: Servers and network infrastructure Data storage systems Environmental control systems Physical security systems Supporting utilities and backup systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "facility-protection",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Review equipment maintenance procedures including preventive maintenance schedules, maintenance records, and vendor service agreements. Verify that maintenance activities are documented and performed by authorized personnel. Check for controls over maintenance performed by third parties, requirements for escorting maintenance personnel, and procedures to ensure that equipment is properly sanitized or secured during maintenance activities."
+  }
+}

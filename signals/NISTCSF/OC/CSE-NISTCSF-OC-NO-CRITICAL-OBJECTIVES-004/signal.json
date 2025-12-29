@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-OC-NO-CRITICAL-OBJECTIVES-004",
+  "canonical_name": "No Critical Objectives for External Stakeholders",
+  "description": "Critical objectives, capabilities, and services for stakeholders have not been determined.",
+  "domain": "NISTCSF",
+  "category": "OC",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Look for absence of critical service catalogs, missing documentation of external stakeholder dependencies, lack of service level agreements or commitments, no evidence of external stakeholder expectation management, missing business impact analysis identifying critical capabilities."
+  }
+}

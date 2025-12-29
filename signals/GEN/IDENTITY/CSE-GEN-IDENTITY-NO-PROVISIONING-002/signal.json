@@ -1,0 +1,20 @@
+{
+  "id": "CSE-GEN-IDENTITY-NO-PROVISIONING-002",
+  "canonical_name": "Access Provisioning Process Missing",
+  "description": "No formal process exists for provisioning access to systems, applications, or data based on job role and business need. This signal indicates that user access is granted without standardized procedures, approval workflows, or role-based access controls, potentially leading to excessive permissions and unauthorized access.",
+  "domain": "GEN (General)",
+  "category": "IDENTITY",
+  "applicability": "This signal applies to: New employee onboarding Role changes and transfers Cloud platform access (AWS, Azure, GCP) Application access provisioning Database and system permissions Network resource access Privileged access assignments Contractor and vendor access Service account creation",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of access request and approval procedures Assessment of provisioning workflow documentation Analysis of ticketing system for access requests Examination of recent account creations Interviews with IT operations and security teams Review of role definitions and permission matrices Analysis of approval chains and authorization records The presence of this signal indicates a need for formalized access provisioning procedures that include request, approval, implementation, and verification steps."
+  }
+}

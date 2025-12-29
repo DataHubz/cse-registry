@@ -1,0 +1,22 @@
+{
+  "id": "CSE-PCIDSS-POLICY-NO-TPSP-COMPLIANCE-009",
+  "canonical_name": "No TPSP Compliance Support",
+  "description": "Third-party service providers do not support customers' PCI compliance.",
+  "domain": "PCIDSS",
+  "category": "POLICY",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security-policy",
+      "governance",
+      "compliance"
+    ],
+    "related_controls": [
+      "12.9 - Third-party service providers (TPSPs) support their customers' PCI DSS compliance"
+    ],
+    "detection_notes": "Detection guidance: For service providers, verify written acknowledgments to customers regarding data security responsibilities, documentation of services provided, and evidence of PCI DSS compliance status communication. Monitor for customer-facing compliance documentation and support processes."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-RIGHTS-NO-DELETE-MECHANISM-002",
+  "canonical_name": "Right to Delete Mechanism Missing",
+  "description": "No mechanism exists for consumers to request deletion of their personal information that a business has collected from them. The right to delete requires businesses to provide accessible methods for consumers to submit deletion requests and to delete the consumer's personal information from their records.",
+  "domain": "CCPA",
+  "category": "RIGHTS",
+  "applicability": "Consumer-facing web applications Mobile applications processing California residents' data Customer databases and CRM systems Marketing automation platforms User account management systems Analytics and tracking platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-subject-rights",
+      "privacy",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for RIGHTS requirements."
+  }
+}

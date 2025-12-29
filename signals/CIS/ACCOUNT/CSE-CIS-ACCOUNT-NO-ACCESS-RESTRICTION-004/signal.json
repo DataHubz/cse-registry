@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-ACCOUNT-NO-ACCESS-RESTRICTION-004",
+  "canonical_name": "Admin Account Access Not Restricted",
+  "description": "Administrative or privileged accounts can be accessed from any device, network location, or system without restrictions based on specific dedicated devices, secure workstations, or controlled network segments. This signal indicates that administrative access is not limited to hardened, monitored, or purpose-specific systems. Allowing administrative operations from arbitrary devices or networks increases the risk of credential compromise, malware infection, and unauthorized access, as administrat",
+  "domain": "CIS",
+  "category": "ACCOUNT",
+  "applicability": "This signal applies to: Domain administrator accounts in Active Directory Cloud platform administrative consoles (AWS, Azure, GCP) Database administrative accounts Network device management interfaces Hypervisor and virtualization platform administrators Privileged application accounts Root or superuser accounts on Unix/Linux systems Local administrator accounts on Windows systems Security tool and SIEM administrative access Backup system administrative accounts",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "account-management",
+      "identity",
+      "credential-security"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Analysis of authentication logs for administrative account source systems Review of network security policies and firewall rules Examination of conditional access and identity policies Assessment of Privileged Access Workstation (PAW) deployment Evaluation of jump host or bastion host configurations Review of SSH, RDP, and console access configurations Inspection of cloud provider IAM conditional policies Analysis of VPN and network segmentation for admin access The presence of this signal indicates that administrative access controls may be insufficient to prevent compromise from less secure devices or network locations. Best practices include implementing dedicated privileged access workstations, requiring multi-factor authentication, restrict"
+  }
+}

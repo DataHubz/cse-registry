@@ -1,0 +1,20 @@
+{
+  "id": "CSE-FEDRAMP-PM-NO-SECURITY-RESOURCES-003",
+  "canonical_name": "No Information Security Resources",
+  "description": "Resources required to implement the information security program are not identified, allocated, or managed. This signal indicates that the organization may lack adequate capital and operational resources (budget, personnel, tools, facilities) necessary to develop, implement, and sustain an effective information security program.",
+  "domain": "FEDRAMP",
+  "category": "PM",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "program-management",
+      "governance",
+      "policy"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of capital planning and investment request documentation Analysis of information security budget allocations and expenditures Verification of security resource alignment with capital planning processes Assessment of staffing levels and personnel qualifications Examination of security tools, technologies, and infrastructure investments Review of business cases and justifications for security resource requests Verification of resource availability and expenditure authority Assessment of resource adequacy relative to program scope and risk profile Evaluation of resource alignment with organizational mission and business functions Review of documentation for resource allocation exceptions The presence of this signal indicates a condition that"
+  }
+}

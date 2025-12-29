@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-AE-NO-INCIDENT-DECLARATION-008",
+  "canonical_name": "No Incident Declaration Process",
+  "description": "Incidents are not declared when adverse events meet defined criteria.",
+  "domain": "NISTCSF",
+  "category": "AE",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Organizations should establish clear criteria for when adverse events are escalated to formal incident status and implement processes to ensure timely incident declaration. This includes defining severity thresholds, impact criteria, and authorization procedures that trigger the transition from event detection to incident response activities."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-ENDPOINT-NO-PROTECTION-001",
+  "canonical_name": "Endpoint Protection Missing",
+  "description": "Endpoint protection software or controls have not been deployed on devices accessing or storing protected health information (PHI) or other sensitive data. This signal indicates the absence of endpoint protection mechanisms such as anti-malware, antivirus, or endpoint security software on workstations, laptops, mobile devices, or servers. Endpoint protection is a critical security control that defends against malicious software, unauthorized access, and security threats at the device level.",
+  "domain": "HITRUST",
+  "category": "ENDPOINT",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of endpoint device inventory and configuration Examination of security software deployment records Analysis of endpoint management systems Verification of anti-malware installation and updates Assessment of endpoint protection coverage across the organization The presence of this signal indicates a critical security gap that exposes endpoints to malware, ransomware, and other threats. This should be addressed as a high priority for HITRUST compliance and security best practices."
+  }
+}

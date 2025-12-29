@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-SECURITY-NO-RISK-ASSESSMENT-005",
+  "canonical_name": "Security Risk Assessment Missing (CPRA Regulations)",
+  "description": "This signal identifies when a business has not performed a security risk assessment to evaluate the risks to personal information and determine appropriate security measures. Regular risk assessments are essential to implementing and maintaining \"reasonable security procedures and practices appropriate to the nature of the information\" as required by CCPA §1798.150(a).",
+  "domain": "CCPA",
+  "category": "SECURITY",
+  "applicability": "Businesses subject to CCPA that have not conducted security risk assessments Organizations that have not evaluated the sensitivity of personal information they process Companies without documented risk assessment methodologies or frameworks Businesses that have not reassessed security risks after significant system changes or incidents",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for SECURITY requirements."
+  }
+}

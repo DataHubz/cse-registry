@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-DATA-NO-ENCRYPTION-REMOVABLE-009",
+  "canonical_name": "Removable Media Encryption Missing",
+  "description": "Removable media devices such as USB drives, external hard drives, or portable storage are not encrypted, creating risk of data exposure if the device is lost or stolen. This signal indicates that data stored on portable media can be accessed by anyone who physically obtains the device, without requiring authentication or decryption.",
+  "domain": "CIS",
+  "category": "DATA",
+  "applicability": "This signal applies to: USB flash drives and thumb drives External hard drives and SSDs SD cards and microSD cards Optical media (CDs, DVDs, Blu-ray) Portable backup drives Encrypted USB devices (not properly configured) Mobile device external storage Camera and recording device storage Legacy backup tapes",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "classification",
+      "encryption"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of removable media encryption policies Assessment of endpoint encryption enforcement Examination of USB device control settings Analysis of BitLocker or FileVault configurations Verification of encrypted USB device usage Review of backup media encryption Assessment of mobile device encryption policies Examination of device management platforms (MDM/UEM) Analysis of removable media access logs The presence of this signal indicates a condition that warrants review in the context of data protection and physical security requirements."
+  }
+}

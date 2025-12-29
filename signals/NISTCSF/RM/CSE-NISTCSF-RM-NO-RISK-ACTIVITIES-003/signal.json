@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-RM-NO-RISK-ACTIVITIES-003",
+  "canonical_name": "No Integration with Enterprise Risk Management",
+  "description": "Cybersecurity risk management activities are not integrated into enterprise risk management.",
+  "domain": "NISTCSF",
+  "category": "RM",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Look for siloed cybersecurity risk management, absence of cybersecurity risks in enterprise risk registers, missing integration between cybersecurity and ERM teams, lack of unified risk reporting."
+  }
+}

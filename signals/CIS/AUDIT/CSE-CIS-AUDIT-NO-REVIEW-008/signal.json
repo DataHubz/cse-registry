@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-AUDIT-NO-REVIEW-008",
+  "canonical_name": "Audit Log Review Missing",
+  "description": "The organization lacks a process for regular review and analysis of audit logs to detect anomalies, security events, or policy violations. This signal indicates that while logs may be collected, there is no systematic review process, automated alerting, or analytical capability to identify security incidents, suspicious activities, or compliance issues from the logged data.",
+  "domain": "CIS",
+  "category": "AUDIT",
+  "applicability": "This signal applies to: Security operations center (SOC) procedures SIEM alert and correlation rules Log analysis and review processes Automated security monitoring Incident detection capabilities Compliance audit procedures Security team responsibilities Threat hunting programs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "audit-logging",
+      "monitoring",
+      "detection"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for AUDIT requirements."
+  }
+}

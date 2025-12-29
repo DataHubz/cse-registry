@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-CONSENT-NO-MINOR-OPTIN-001",
+  "canonical_name": "Minor Opt-In Consent Missing (13-16)",
+  "description": "A business sells personal information of a consumer between the ages of 13 and 16 without obtaining affirmative opt-in consent directly from the minor. This signal indicates that the system permits the sale of personal information for consumers in this age range without verifying that the minor themselves has affirmatively authorized the sale.",
+  "domain": "CCPA",
+  "category": "CONSENT",
+  "applicability": "This signal applies to: Consumer databases and user management systems storing age information Data broker and third-party data sharing platforms Marketing and advertising consent management systems E-commerce platforms processing transactions for minors Social media and gaming platforms with users aged 13-16 Mobile applications collecting data from teenage users Analytics and tracking systems that process minor's data for sale",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "consent-management",
+      "privacy",
+      "data-subject-rights"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Analysis of user database schemas and age-related fields Review of consent management system configurations Inspection of data sharing and sale processing logic Examination of age verification and consent validation workflows Audit of API endpoints handling consent for data sales The presence of this signal indicates a condition that warrants review in the context of CCPA minor consent requirements for the sale of personal information."
+  }
+}

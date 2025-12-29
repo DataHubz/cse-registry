@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-MA-NO-TRIAGE-002",
+  "canonical_name": "Incident Reports Not Triaged and Validated",
+  "description": "Incident reports are not triaged and validated.",
+  "domain": "NISTCSF",
+  "category": "RS.MA",
+  "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Identify incident reports that bypass triage processes or lack validation steps. Monitor for alerts that go directly to investigation without initial assessment, missing triage timestamps, incomplete initial classification fields, or reports lacking analyst validation signatures. Check for backlogs of unreviewed alerts or incidents submitted without proper vetting."
+  }
+}

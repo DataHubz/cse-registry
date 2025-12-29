@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-MONITOR-NO-SIEM-007",
+  "canonical_name": "SIEM/Log Correlation Missing",
+  "description": "The organization lacks a Security Information and Event Management (SIEM) system or equivalent capability to collect, correlate, and analyze security events from multiple sources. This signal indicates that there is no centralized platform for aggregating and analyzing security logs, which limits the ability to detect complex attacks, identify patterns across systems, and conduct effective incident investigation.",
+  "domain": "CIS",
+  "category": "MONITOR",
+  "applicability": "This signal applies to: Enterprise security operations centers (SOC) Security event monitoring and analysis Incident detection and response capabilities Compliance and audit requirements Threat detection and hunting programs Multi-source log correlation Advanced security analytics",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for MONITOR requirements."
+  }
+}

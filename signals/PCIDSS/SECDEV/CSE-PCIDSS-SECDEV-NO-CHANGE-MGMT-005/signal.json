@@ -1,0 +1,22 @@
+{
+  "id": "CSE-PCIDSS-SECDEV-NO-CHANGE-MGMT-005",
+  "canonical_name": "No Secure Change Management",
+  "description": "Changes to applications and software are not managed securely.",
+  "domain": "PCIDSS",
+  "category": "SECDEV",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment application developers E-commerce platforms and merchants Systems and endpoints within CDE scope Web applications handling payment data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "6.5 - Changes to all system components are managed securely"
+    ],
+    "detection_notes": "Detection guidance: Monitor for unauthorized changes to production systems and applications. Review change management tickets for missing security impact assessments or approvals. Detect deployments that bypass established change control processes (shadow IT, emergency changes without proper documentation). Check for inadequate separation between development, testing, and production environments. Identify changes deployed without adequate testing, security validation, or rollback procedures. Review configuration management databases for drift between documented and actual system states."
+  }
+}

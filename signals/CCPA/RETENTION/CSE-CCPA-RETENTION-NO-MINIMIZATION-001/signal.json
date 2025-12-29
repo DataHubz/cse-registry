@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-RETENTION-NO-MINIMIZATION-001",
+  "canonical_name": "Data Minimization Not Implemented",
+  "description": "This signal indicates that a business is collecting or maintaining personal information without implementing data minimization principles. The business fails to limit collection, use, retention, or disclosure of personal information to what is reasonably necessary and proportionate to achieve the purposes for which it was collected or processed.",
+  "domain": "CCPA",
+  "category": "RETENTION",
+  "applicability": "Businesses collecting personal information from California consumers Organizations processing PI without documented minimization controls Systems that collect or store PI indefinitely without business justification Data pipelines that capture more PI fields than necessary for stated purposes",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for RETENTION requirements."
+  }
+}

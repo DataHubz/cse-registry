@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-PRIVACY-NO-AMENDMENT-006",
+  "canonical_name": "Amendment Process Missing",
+  "description": "A formal process to enable individuals to request amendments or corrections to their personal or protected health information (PHI) has not been established or documented. This signal indicates the absence of procedures and systems that allow individuals to request changes to inaccurate, incomplete, or outdated information held by the organization. The right to amendment is essential for data accuracy and individual autonomy, enabling individuals to correct errors that could impact their care, c",
+  "domain": "HITRUST",
+  "category": "PRIVACY",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Electronic health record (EHR) systems Patient portal platforms Medical billing and claims systems Health information exchanges (HIEs) Laboratory information systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of patient portal amendment request features Examination of amendment request submission processes Analysis of amendment review and approval workflows Verification of amendment tracking and status systems Assessment of notification processes for amendments Review of amendment request documentation and logs The presence of this signal indicates a data quality and privacy rights gap that should be addressed to ensure information accuracy and individual empowerment."
+  }
+}

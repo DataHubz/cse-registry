@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-CONTRACTS-NO-CONTRACTOR-CONTRACT-002",
+  "canonical_name": "Contractor Contract Missing (§1798.140(j), CPRA)",
+  "description": "This signal is raised when a business shares personal information with a contractor (as defined by CPRA) without a written contract containing required provisions. CPRA introduced the \"contractor\" category to cover persons who process personal information on behalf of a business in contexts beyond traditional service provider relationships, particularly for HR and employment data.",
+  "domain": "CCPA",
+  "category": "CONTRACTS",
+  "applicability": "Natural persons or entities processing personal information on behalf of a business for employment-related purposes HR service providers, payroll processors, and benefits administrators Contractors handling employee or job applicant personal information Businesses subject to CPRA that engage contractors as defined in §1798.140(j)",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for CONTRACTS requirements."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-RIGHTS-NO-CONFIRMATION-012",
+  "canonical_name": "Request Confirmation Not Provided",
+  "description": "Consumers do not receive confirmation when they submit a privacy rights request, or no mechanism exists to acknowledge receipt and track request status. CCPA requires businesses to confirm receipt of consumer requests and to provide mechanisms for consumers to track the status of their requests.",
+  "domain": "CCPA",
+  "category": "RIGHTS",
+  "applicability": "Consumer request intake systems Privacy portal workflows Email notification systems Request tracking dashboards Customer service ticketing platforms Data subject access request (DSAR) tools",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-subject-rights",
+      "privacy",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for RIGHTS requirements."
+  }
+}

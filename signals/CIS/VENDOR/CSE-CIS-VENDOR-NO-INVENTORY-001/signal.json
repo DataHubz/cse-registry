@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-VENDOR-NO-INVENTORY-001",
+  "canonical_name": "Service Provider Inventory Missing",
+  "description": "This signal detects when an organization lacks an inventory of service providers that hold sensitive data or are responsible for an enterprise's critical IT platforms or processes. Without a comprehensive service provider inventory, organizations cannot effectively manage third-party risks, ensure compliance with contractual obligations, or respond to supply chain security incidents. This is a foundational requirement for managing third-party risk and supply chain security.",
+  "domain": "CIS",
+  "category": "VENDOR",
+  "applicability": "Organizations using cloud service providers Companies with managed service providers (MSPs) Enterprises with SaaS applications Organizations outsourcing IT operations Companies with third-party data processors Healthcare organizations with business associates Financial institutions with third-party service providers",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **Absence of Service Provider Registry**: No centralized inventory or database of service providers exists 2. **Missing Provider Documentation**: Critical service providers are not documented or tracked 3. **Incomplete Provider Records**: Provider inventory lacks essential information (data sensitivity, services provided, criticality) 4. **No Ownership Assigned**: No designated owner responsible for maintaining the service provider inventory 5. **Outdated Records**: Service provider inventory has not been reviewed or updated within required timeframes 6. **Procurement Disconnection**: New service providers are onboarded without being added to inventory ### Remediation Priority This is a foundational IG1 control for third-party"
+  }
+}

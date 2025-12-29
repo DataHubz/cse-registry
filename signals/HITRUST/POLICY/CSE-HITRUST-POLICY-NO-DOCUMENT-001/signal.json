@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HITRUST-POLICY-NO-DOCUMENT-001",
+  "canonical_name": "Security Policy Not Documented",
+  "description": "No formal information security policy document exists. Organizations must establish, document, and maintain an information security policy that defines the organization's approach to managing information security, including objectives, principles, and responsibilities. This signal indicates the complete absence of a documented information security policy framework.",
+  "domain": "HITRUST",
+  "category": "POLICY",
+  "applicability": "This signal applies to: Healthcare organizations subject to HIPAA Organizations handling protected health information (PHI) Covered entities and business associates Health information technology vendors Organizations seeking HITRUST certification Any entity managing sensitive healthcare data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "04.a Security Policy"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of organizational documentation repositories Examination of security governance frameworks Analysis of policy management systems Verification of document control processes Assessment of information security program maturity The presence of this signal indicates a critical gap in security governance and may result in non-compliance with HITRUST CSF requirements, HIPAA regulations, and other applicable standards."
+  }
+}

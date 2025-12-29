@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HIPAA-PRIVACY-NO-NOTICE-CONTENT-010",
+  "canonical_name": "Incomplete Notice Content",
+  "description": "Notice of Privacy Practices does not contain all required elements.",
+  "domain": "HIPAA",
+  "category": "PRIVACY",
+  "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.520(b)"
+    ],
+    "detection_notes": "Detection of this signal may occur when: Notice lacks required header stating \"THIS NOTICE DESCRIBES HOW MEDICAL INFORMATION ABOUT YOU MAY BE USED AND DISCLOSED...\" Description of uses and disclosures is incomplete or inaccurate Individual rights section omits required rights (access, amendment, accounting, restrictions, confidential communications) Covered entity duties are not properly described Complaint procedures and contact information are missing or incomplete Effective date is absent or incorrect Required statements about marketing, fundraising, or sale of PHI are missing Notice does not describe state law protections that are more stringent than HIPAA"
+  }
+}

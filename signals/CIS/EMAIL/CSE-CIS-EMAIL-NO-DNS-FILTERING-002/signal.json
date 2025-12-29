@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-EMAIL-NO-DNS-FILTERING-002",
+  "canonical_name": "DNS Filtering Missing",
+  "description": "DNS filtering is not configured to block access to known malicious domains. Organizations must implement DNS-layer security to prevent users from accessing malicious or unwanted websites by blocking DNS resolution requests for known bad domains, including those used for malware, phishing, and command-and-control communications.",
+  "domain": "CIS",
+  "category": "EMAIL",
+  "applicability": "All enterprise DNS infrastructure Network security controls and firewalls Remote access and VPN connections Public Wi-Fi and guest networks Cloud and hybrid environments Endpoints and mobile devices",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for EMAIL requirements."
+  }
+}

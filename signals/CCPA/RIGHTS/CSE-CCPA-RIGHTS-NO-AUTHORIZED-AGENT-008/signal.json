@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-RIGHTS-NO-AUTHORIZED-AGENT-008",
+  "canonical_name": "Authorized Agent Requests Not Supported",
+  "description": "No mechanism exists to accept and process consumer rights requests submitted by authorized agents on behalf of consumers. CCPA requires businesses to accept requests from authorized agents, who may be registered with the California Secretary of State or have written permission from the consumer.",
+  "domain": "CCPA",
+  "category": "RIGHTS",
+  "applicability": "Consumer request intake systems Privacy portal submission forms Customer service request workflows Data subject access request (DSAR) platforms Verification and authentication systems Third-party request processing interfaces",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-subject-rights",
+      "privacy",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for RIGHTS requirements."
+  }
+}

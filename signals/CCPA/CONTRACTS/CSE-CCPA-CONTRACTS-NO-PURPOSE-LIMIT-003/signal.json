@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-CONTRACTS-NO-PURPOSE-LIMIT-003",
+  "canonical_name": "Contract Lacks Purpose Limitation (§1798.140(ag)(1)(A))",
+  "description": "This signal is raised when a service provider or contractor contract exists but fails to include a provision prohibiting the retention, use, or disclosure of personal information for any purpose other than the specific business purpose set forth in the contract. This purpose limitation clause is a mandatory element of valid service provider and contractor contracts under CCPA/CPRA.",
+  "domain": "CCPA",
+  "category": "CONTRACTS",
+  "applicability": "Existing service provider contracts that lack purpose limitation clauses Contractor agreements missing specific purpose restrictions Contracts with overly broad data use provisions Contract review and compliance assessment processes",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for CONTRACTS requirements."
+  }
+}

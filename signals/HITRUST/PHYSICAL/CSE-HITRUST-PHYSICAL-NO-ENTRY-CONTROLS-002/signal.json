@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-PHYSICAL-NO-ENTRY-CONTROLS-002",
+  "canonical_name": "Physical Entry Controls Missing",
+  "description": "No physical entry controls in place to ensure only authorized personnel are allowed access to secure areas.",
+  "domain": "HITRUST",
+  "category": "PHYSICAL",
+  "applicability": "This signal applies to: Data centers and server rooms Secure areas containing sensitive information Information processing facilities Storage areas for sensitive media Restricted access zones within facilities",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "facility-protection",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Review physical access control systems including badge readers, biometric systems, or key-based entry. Verify that entry controls are implemented at all secure area entry points. Check for documented procedures governing access authorization, visitor management, and entry logging. Confirm that access is granted based on business need and role-based authorization."
+  }
+}

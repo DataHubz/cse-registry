@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-OPS-NO-CHANGE-MANAGEMENT-002",
+  "canonical_name": "Change Management Missing",
+  "description": "Changes to information processing facilities, systems, or software are not controlled through a formal change management process. This signal indicates that an organization lacks a structured approach to managing changes, which may result in unauthorized modifications, system instability, security vulnerabilities, or service disruptions.",
+  "domain": "HITRUST",
+  "category": "OPS",
+  "applicability": "This signal applies to: Infrastructure changes (servers, network, cloud resources) Application code and configuration changes Database schema and data modifications Security control updates Third-party software and library updates Operating system and platform changes Network topology and firewall rule changes IAM and access control modifications",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of change management ticketing systems Analysis of deployment logs and audit trails Assessment of approval workflows Examination of change advisory board (CAB) processes Review of emergency change procedures Verification of change testing and validation processes The presence of this signal indicates a condition that warrants review in the context of operational stability and security requirements."
+  }
+}

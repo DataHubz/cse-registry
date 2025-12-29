@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-NOTICE-009",
+  "canonical_name": "No Notice of Privacy Practices",
+  "description": "No Notice of Privacy Practices provided to individuals.",
+  "domain": "HIPAA",
+  "category": "PRIVACY",
+  "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.520"
+    ],
+    "detection_notes": "Detection of this signal may occur when: Covered entities fail to develop or maintain a Notice of Privacy Practices Notice is not available for distribution to individuals Notice has not been updated to reflect material changes in privacy practices Electronic notice availability requirements are not met for entities with web presence Notice is not available in the language or format needed by the individual population served Documentation of notice provision is not maintained"
+  }
+}

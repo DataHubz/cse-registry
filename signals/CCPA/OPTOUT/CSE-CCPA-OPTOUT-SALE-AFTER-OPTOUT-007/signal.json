@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-OPTOUT-SALE-AFTER-OPTOUT-007",
+  "canonical_name": "Personal Information Sold After Opt-Out",
+  "description": "A business continues to sell a consumer's personal information to third parties after the consumer has submitted a valid request to opt-out of the sale of their personal information. This signal indicates that opt-out request processing is not functioning correctly, that opt-out preferences are not being honored in data sale operations, or that insufficient controls exist to prevent post-opt-out sales.",
+  "domain": "CCPA",
+  "category": "OPTOUT",
+  "applicability": "This signal applies to: Data brokers and aggregators with customer opt-out lists Marketing platforms with third-party data sharing E-commerce sites selling customer data to advertisers Mobile applications with data monetization programs Analytics platforms sharing PI with partners Advertising technology companies processing opt-outs Customer data platforms (CDPs) managing consent Any business that sells PI and receives opt-out requests",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Monitoring of data export and sharing activities post-opt-out Analysis of third-party API calls and data transfers Review of opt-out preference storage and retrieval systems Testing of data sale pipelines with opted-out user records Inspection of cookie syncing and tracking pixel behavior Verification of database queries for sale operations Audit of third-party data sharing agreements and actual transfers The presence of this signal indicates a condition that warrants review in the context of CCPA opt-out enforcement requirements."
+  }
+}

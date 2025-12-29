@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-MP-NO-MEDIA-ACCESS-002",
+  "canonical_name": "No Media Access Control",
+  "description": "Media access control procedures are not implemented to restrict access to digital and non-digital media.",
+  "domain": "FEDRAMP",
+  "category": "MP",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "media-protection",
+      "data-handling",
+      "asset-control"
+    ],
+    "related_controls": [
+      "MP-2"
+    ],
+    "detection_notes": "Detection guidance: Look for missing media access authorization procedures, lack of media inventory tracking, absence of access controls for media libraries, no audit trail for media access, and missing restrictions on who can access, distribute, or transport media containing sensitive information."
+  }
+}

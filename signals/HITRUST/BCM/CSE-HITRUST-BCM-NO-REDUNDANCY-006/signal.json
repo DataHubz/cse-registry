@@ -1,0 +1,22 @@
+{
+  "id": "CSE-HITRUST-BCM-NO-REDUNDANCY-006",
+  "canonical_name": "Information Redundancy Missing",
+  "description": "Organization has not implemented adequate redundancy for critical information, systems, and infrastructure components to ensure availability during disruptions. Comprehensive information redundancy must include backup systems, redundant infrastructure components, geographically distributed resources, data replication mechanisms, and failover capabilities that enable continuity of operations when primary systems or facilities become unavailable.",
+  "domain": "HITRUST",
+  "category": "BCM",
+  "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with high availability requirements Entities with critical data protection needs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "12.f - Information Redundancy"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of redundancy architecture for critical systems and data Examination of backup and replication strategies and implementation Verification of geographic distribution of redundant resources Analysis of failover capabilities and automatic switching mechanisms Assessment of redundancy testing and validation procedures Validation of capacity planning for redundant infrastructure Review of single points of failure in critical systems Examination of RTO and RPO alignment with redundancy capabilities The presence of this signal indicates that the organization lacks technical safeguards to maintain operations during system failures or facility disruptions, may experience data loss exceeding acceptable thresholds, cannot meet recovery objectives fo"
+  }
+}

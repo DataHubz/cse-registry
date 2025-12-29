@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-SC-NO-SUPPLIER-KNOWLEDGE-004",
+  "canonical_name": "Suppliers Not Known and Prioritized by Criticality",
+  "description": "Suppliers are not known and prioritized by criticality.",
+  "domain": "NISTCSF",
+  "category": "SC",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Organizations with supplier and third-party relationships Procurement and vendor management teams Supply chain security programs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Look for the absence of a complete supplier inventory or lack of criticality classification for suppliers. Check for missing documentation of critical vs. non-critical suppliers or absence of prioritization mechanisms."
+  }
+}

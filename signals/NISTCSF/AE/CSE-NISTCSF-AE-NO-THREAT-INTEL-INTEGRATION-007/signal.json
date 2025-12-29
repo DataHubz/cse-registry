@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-AE-NO-THREAT-INTEL-INTEGRATION-007",
+  "canonical_name": "No Threat Intelligence Integration",
+  "description": "Cyber threat intelligence is not integrated into the analysis.",
+  "domain": "NISTCSF",
+  "category": "AE",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Organizations should integrate cyber threat intelligence from internal and external sources, including threat actor tactics, techniques, and procedures (TTPs), indicators of compromise (IOCs), vulnerability information, and industry-specific threat data. This contextual information enhances the analysis of adverse events and improves detection accuracy and response effectiveness."
+  }
+}

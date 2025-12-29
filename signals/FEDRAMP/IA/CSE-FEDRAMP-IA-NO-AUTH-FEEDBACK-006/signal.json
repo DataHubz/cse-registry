@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-IA-NO-AUTH-FEEDBACK-006",
+  "canonical_name": "No Authentication Feedback Protection",
+  "description": "Information systems do not obscure feedback during the authentication process to protect authentication information.",
+  "domain": "FEDRAMP",
+  "category": "IA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "identity",
+      "authentication",
+      "credential-management"
+    ],
+    "related_controls": [
+      "IA-6"
+    ],
+    "detection_notes": "Detection guidance: Look for password fields that display characters in clear text, systems that echo passwords to the screen or logs, authentication feedback that reveals password length or complexity, error messages that differentiate between invalid username and invalid password, and systems that display authentication credentials during transmission or storage. Check login interfaces, API authentication, and CLI tools."
+  }
+}

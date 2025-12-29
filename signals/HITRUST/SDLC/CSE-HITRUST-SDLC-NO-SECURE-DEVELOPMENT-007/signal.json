@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-SDLC-NO-SECURE-DEVELOPMENT-007",
+  "canonical_name": "Secure Development Practices Missing",
+  "description": "Secure development practices and secure coding standards have not been established or followed in the development of information systems processing protected health information (PHI) or other sensitive data. This signal indicates the absence of formal secure development lifecycle (SDLC) processes, secure coding guidelines, developer training, security tools integration, and quality assurance practices that ensure security is built into applications from inception. Secure development practices in",
+  "domain": "HITRUST",
+  "category": "SDLC",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Software development teams building healthcare applications Organizations procuring custom software Medical device manufacturers Healthcare SaaS providers Organizations with in-house development teams",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of development lifecycle documentation Examination of coding standards and guidelines Assessment of developer security training programs Analysis of CI/CD pipeline configurations Review of security tool integration (SAST, DAST, SCA) Evaluation of threat modeling practices Assessment of dependency management processes Review of security architecture documentation Verification of security review and approval processes The presence of this signal indicates a systemic gap in the development process that likely results in applications with multiple security vulnerabilities. Establishing secure development practices is essential for preventing security issues rather than attempting to fix them after deployment."
+  }
+}

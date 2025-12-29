@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CCPA-RIGHTS-NO-FREE-DISCLOSURE-007",
+  "canonical_name": "Disclosure Not Free of Charge",
+  "description": "Fees are charged to consumers for disclosing or deleting their personal information, or unreasonable or excessive requests are not properly identified before charging fees. CCPA requires that disclosures be provided free of charge within a 12-month period, with limited exceptions for manifestly unfounded or excessive requests.",
+  "domain": "CCPA",
+  "category": "RIGHTS",
+  "applicability": "Consumer data request processing systems Privacy portal billing configurations Customer service fee structures Data access request workflows Consumer rights fulfillment processes Subscription and account management platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-subject-rights",
+      "privacy",
+      "access-control"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CCPA compliance documentation and controls for RIGHTS requirements."
+  }
+}

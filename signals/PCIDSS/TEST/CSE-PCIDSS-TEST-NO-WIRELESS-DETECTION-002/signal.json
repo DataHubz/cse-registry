@@ -1,0 +1,22 @@
+{
+  "id": "CSE-PCIDSS-TEST-NO-WIRELESS-DETECTION-002",
+  "canonical_name": "No Wireless AP Detection",
+  "description": "Wireless access points are not monitored for unauthorized devices.",
+  "domain": "PCIDSS",
+  "category": "TEST",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security-testing",
+      "penetration-testing",
+      "assessment"
+    ],
+    "related_controls": [
+      "11.2 - Wireless access points are identified and monitored, and unauthorized wireless access points are addressed"
+    ],
+    "detection_notes": "Detection guidance: Check for automated wireless detection systems or manual testing procedures. Verify that wireless scans are conducted at least quarterly and after significant changes. Alert on absence of wireless detection logs or tools."
+  }
+}

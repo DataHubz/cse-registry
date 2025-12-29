@@ -1,0 +1,20 @@
+{
+  "id": "CSE-FEDRAMP-PL-NO-BEHAVIOR-RULES-003",
+  "canonical_name": "No Rules of Behavior",
+  "description": "The organization does not establish and maintain rules of behavior that describe responsibilities and expected behavior for individuals accessing the information system. This signal indicates that users may not have clear guidance on acceptable use, security responsibilities, and consequences of noncompliance when accessing federal information systems.",
+  "domain": "FEDRAMP",
+  "category": "PL",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security-planning",
+      "governance",
+      "risk-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of rules of behavior documentation Analysis of responsibilities and acceptable use provisions Verification of security and privacy behavior requirements Assessment of consequences for noncompliance Examination of user acknowledgment records Inspection of rules availability and accessibility to users Review of rules update schedules and version control Verification of re-acknowledgment processes after updates The presence of this signal indicates a condition that warrants review in the context of FedRAMP planning requirements. Rules of behavior should be specific to the system and clearly communicate user responsibilities."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-INCIDENT-NO-LEARNING-004",
+  "canonical_name": "Incident Learning Missing",
+  "description": "Mechanisms have not been established to quantify and monitor the types, volumes, and costs of information security incidents, or to use this information to identify recurring or high-impact incidents. This signal indicates that an organization has not implemented processes to learn from security incidents through analysis, measurement, and continuous improvement activities.",
+  "domain": "HITRUST",
+  "category": "INCIDENT",
+  "applicability": "This signal applies to: Organizations with mature security programs Managed security service providers tracking incident trends Healthcare organizations analyzing security event patterns Financial institutions measuring incident costs Organizations with compliance reporting requirements Security operations centers (SOCs) performing metrics analysis Risk management teams assessing threat landscapes Organizations seeking process improvement",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "threat-management",
+      "recovery"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of incident metrics and reporting systems Examination of post-incident review documentation Analysis of lessons learned repositories Review of trending and pattern analysis processes Inspection of continuous improvement programs Assessment of incident cost tracking mechanisms The presence of this signal indicates a condition that warrants review in the context of information security incident management requirements."
+  }
+}

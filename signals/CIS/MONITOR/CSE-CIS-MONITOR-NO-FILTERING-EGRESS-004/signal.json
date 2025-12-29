@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-MONITOR-NO-FILTERING-EGRESS-004",
+  "canonical_name": "Egress Traffic Filtering Missing",
+  "description": "The organization lacks egress traffic filtering to monitor and control outbound network communications. This signal indicates that there is no systematic filtering or inspection of traffic leaving the network, which could allow data exfiltration, command and control communications, or connections to malicious external resources.",
+  "domain": "CIS",
+  "category": "MONITOR",
+  "applicability": "This signal applies to: Network perimeter security controls Firewall egress rules and policies Data loss prevention (DLP) systems Command and control (C2) prevention Malware communication blocking Data exfiltration prevention Enterprise network security architecture",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for MONITOR requirements."
+  }
+}

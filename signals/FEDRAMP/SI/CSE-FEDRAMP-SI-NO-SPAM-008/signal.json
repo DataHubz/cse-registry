@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-SI-NO-SPAM-008",
+  "canonical_name": "No Spam Protection",
+  "description": "Spam protection mechanisms are not employed at system entry and exit points.",
+  "domain": "FEDRAMP",
+  "category": "SI",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-integrity",
+      "vulnerability-management",
+      "malware-protection"
+    ],
+    "related_controls": [
+      "SI-8"
+    ],
+    "detection_notes": "Detection guidance: Look for missing email filtering mechanisms, absence of spam detection at mail gateways, lack of anti-spam software or services, and no spam quarantine or blocking capabilities."
+  }
+}

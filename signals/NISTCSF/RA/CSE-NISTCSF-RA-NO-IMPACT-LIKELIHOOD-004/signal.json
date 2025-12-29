@@ -1,0 +1,20 @@
+{
+  "id": "CSE-NISTCSF-RA-NO-IMPACT-LIKELIHOOD-004",
+  "canonical_name": "No Impact and Likelihood Assessment",
+  "description": "Potential impacts and likelihoods of threats exploiting vulnerabilities are not identified.",
+  "domain": "NISTCSF",
+  "category": "RA",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Risk assessment and vulnerability management teams Security operations and threat intelligence functions Organizations conducting security assessments",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: This signal indicates that risk analysis processes combining threat, vulnerability, impact, and likelihood assessments are not being performed. Organizations should implement risk assessment methodologies that evaluate the potential business and operational impacts of threats exploiting known vulnerabilities."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-DATA-NO-ENCRYPTION-TRANSIT-010",
+  "canonical_name": "Encryption in Transit Missing",
+  "description": "Sensitive data transmitted over networks is not encrypted, exposing it to interception, eavesdropping, or man-in-the-middle attacks. This signal indicates that data communications use unencrypted protocols (HTTP, FTP, Telnet, etc.) or do not enforce encryption, allowing network traffic to be captured and read in plaintext.",
+  "domain": "CIS",
+  "category": "DATA",
+  "applicability": "This signal applies to: Web applications and APIs Database connections Email transmission (SMTP, IMAP, POP3) File transfers (FTP, SMB, NFS) Remote access and administration Internal network communications Cloud service connections Mobile application communications IoT device communications",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "classification",
+      "encryption"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Analysis of network traffic captures Review of application and service configurations Examination of TLS/SSL certificate usage Assessment of protocol enforcement policies Verification of encrypted protocol adoption (HTTPS, SFTP, SSH) Review of database connection encryption Analysis of API security configurations Examination of email security (STARTTLS, TLS) Assessment of VPN and tunnel configurations Review of cloud service connection settings The presence of this signal indicates a condition that warrants review in the context of data confidentiality and network security requirements."
+  }
+}

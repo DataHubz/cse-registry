@@ -1,0 +1,20 @@
+{
+  "id": "CSE-HITRUST-OPS-NO-CLOCK-SYNC-009",
+  "canonical_name": "Clock Synchronization Missing",
+  "description": "The clocks of information processing systems are not synchronized with an accurate and agreed-upon time source. This signal indicates that systems lack proper time synchronization, which may result in inaccurate audit logs, failed authentication mechanisms, certificate validation errors, or inability to correlate security events across systems.",
+  "domain": "HITRUST",
+  "category": "OPS",
+  "applicability": "This signal applies to: Server and workstation system clocks Network device time synchronization Cloud instance time configuration Container and orchestration platform time Database timestamp accuracy Application logging timestamps Authentication token time validation Certificate validity period verification",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of NTP or chrony service configurations Assessment of time source accuracy and reliability Examination of time synchronization monitoring Verification of time drift alerting Review of authentication time-based controls Analysis of log timestamp consistency Inspection of certificate time validation Verification of distributed system time coordination The presence of this signal indicates a condition that warrants review in the context of audit accuracy and security protocol requirements."
+  }
+}

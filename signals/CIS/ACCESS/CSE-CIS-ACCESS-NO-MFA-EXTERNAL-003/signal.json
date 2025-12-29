@@ -1,0 +1,20 @@
+{
+  "id": "CSE-CIS-ACCESS-NO-MFA-EXTERNAL-003",
+  "canonical_name": "MFA for External Access Missing",
+  "description": "Multi-factor authentication (MFA) is not required for user accounts accessing enterprise assets from external networks or the internet. This signal indicates that users can authenticate using only a password without requiring a second authentication factor when accessing resources from outside the organization's trusted network perimeter.",
+  "domain": "CIS",
+  "category": "ACCESS",
+  "applicability": "This signal applies to: External-facing applications and portals Internet-accessible services Cloud-based applications (SaaS, IaaS, PaaS) Web-based email and collaboration tools Customer or partner portals Public-facing APIs with user authentication Any system accessible from untrusted networks",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "privilege-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Review CIS compliance documentation and controls for ACCESS requirements."
+  }
+}

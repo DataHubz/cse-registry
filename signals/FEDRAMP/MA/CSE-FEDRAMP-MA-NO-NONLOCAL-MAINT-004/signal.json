@@ -1,0 +1,22 @@
+{
+  "id": "CSE-FEDRAMP-MA-NO-NONLOCAL-MAINT-004",
+  "canonical_name": "No Nonlocal Maintenance Controls",
+  "description": "Nonlocal maintenance and diagnostic activities are not approved, controlled, or monitored.",
+  "domain": "FEDRAMP",
+  "category": "MA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "maintenance",
+      "system-integrity",
+      "operational-security"
+    ],
+    "related_controls": [
+      "MA-4"
+    ],
+    "detection_notes": "Detection guidance: Look for absence of approval processes for remote maintenance, lack of monitoring for nonlocal maintenance sessions, missing authentication requirements for remote access, and no records of remote maintenance activities."
+  }
+}
