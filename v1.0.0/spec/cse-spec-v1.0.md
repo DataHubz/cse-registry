@@ -3,7 +3,7 @@
 
 **Status:** Stable  
 **Date:** 2025  
-**Canonical URL:** https://cse-registry.org/spec/cse-spec-v1.0
+**Canonical URL:** https://cseregistry.org/spec/cse-spec-v1.0
 
 ## 1. Introduction
 

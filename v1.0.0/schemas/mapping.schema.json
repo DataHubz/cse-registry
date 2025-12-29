@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cse-registry.org/schemas/mapping.schema.json",
+  "$id": "https://cseregistry.org/schemas/mapping.schema.json",
   "title": "CSE Mapping",
   "description": "Schema for CSE signal-to-control and signal-to-signal mappings",
   "type": "object",

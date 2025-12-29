@@ -3,7 +3,7 @@
 
 **Status:** Normative  
 **Applies to:** CSE Registry v1.x  
-**Canonical URL:** https://cse-registry.org/spec/registry-format-v1.0
+**Canonical URL:** https://cseregistry.org/spec/registry-format-v1.0
 
 ## 1. Purpose
 
@@ -68,7 +68,7 @@ Copy code
 "spec": {
   "name": "CSE Specification",
   "version": "1.0",
-  "url": "https://cse-registry.org/spec/cse-spec-v1.0"
+  "url": "https://cseregistry.org/spec/cse-spec-v1.0"
 }
 ```
 This object declares which specification governs the registry content.

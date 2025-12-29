@@ -8,7 +8,7 @@
   "spec": {
     "name": "CSE Specification",
     "version": "1.0",
-    "url": "https://cse-registry.org/spec/cse-spec-v1.0"
+    "url": "https://cseregistry.org/spec/cse-spec-v1.0"
   },
   "signals": [
     {

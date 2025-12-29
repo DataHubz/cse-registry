@@ -4,7 +4,7 @@
 **Specification Version:** CSE Specification v1.0  
 **Status:** Stable  
 **Publication Date:** 2025  
-**Canonical URL:** https://cse-registry.org/v1.0.0/registry/
+**Canonical URL:** https://cseregistry.org/v1.0.0/registry/
 
 ## Overview
 

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cse-registry.org/schemas/artifact.schema.json",
+  "$id": "https://cseregistry.org/schemas/artifact.schema.json",
   "title": "CSE Artifact",
   "description": "Schema for CSE artifacts - technical objects where signals may be observed. This standalone schema allows tools to represent artifacts independently of findings.",
   "type": "object",

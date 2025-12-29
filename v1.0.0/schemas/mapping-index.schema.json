@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cse-registry.org/schemas/mapping-index.schema.json",
+  "$id": "https://cseregistry.org/schemas/mapping-index.schema.json",
   "title": "CSE Mapping Dataset Index",
   "description": "Schema for mapping dataset index files",
   "type": "object",

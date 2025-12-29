@@ -3,7 +3,7 @@
 
 **Status:** Normative  
 **Applies to:** All CSE Signals  
-**Canonical URL:** https://cse-registry.org/spec/signal-format-v1.0
+**Canonical URL:** https://cseregistry.org/spec/signal-format-v1.0
 
 ## 1. Purpose
 

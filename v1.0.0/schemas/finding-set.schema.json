@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cse-registry.org/schemas/finding-set.schema.json",
+  "$id": "https://cseregistry.org/schemas/finding-set.schema.json",
   "title": "CSE Finding Set",
   "description": "Schema for collections of CSE findings for bulk export/import operations. Provides a standard wrapper for multiple findings with collection-level metadata and statistics.",
   "type": "object",

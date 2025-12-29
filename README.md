@@ -696,7 +696,7 @@ This integrated approach enables:
 │       ├── finding-set-example.json
 │       └── artifact-example.json
 │
-└── website/                   # CSE website and API (cse-registry.org)
+└── website/                   # CSE website and API (cseregistry.org)
 ```
 
 ## Registry Formats
@@ -782,7 +782,7 @@ ajv validate -s v1.0.0/schemas/registry.schema.json -d v1.0.0/registry/cse-regis
 
 The CSE website provides interactive browsing, full documentation, and API access:
 
-**[cse-registry.org](https://cse-registry.org)**
+**[cseregistry.org](https://cseregistry.org)**
 
 - Browse signals by domain and category
 - Search across all 1,132 signals
@@ -800,7 +800,7 @@ Access to the core registry data is free forever.
 
 | Feature | Details |
 |---------|---------|
-| **Endpoint** | `https://api.cse-registry.org/v1/` |
+| **Endpoint** | `https://api.cseregistry.org/v1/` |
 | **Rate Limit** | 60 requests/minute, 10,000 requests/day |
 | **Authentication** | API key (free registration) |
 | **Included** | Signals, mappings, schemas, registry manifest |
@@ -808,11 +808,11 @@ Access to the core registry data is free forever.
 ```bash
 # Example: Get a signal by ID
 curl -H "Authorization: Bearer YOUR_API_KEY" \
-  https://api.cse-registry.org/v1/signals/CSE-HIPAA-TECH-NO-ENCRYPTION-004
+  https://api.cseregistry.org/v1/signals/CSE-HIPAA-TECH-NO-ENCRYPTION-004
 
 # Example: List all signals in a domain
 curl -H "Authorization: Bearer YOUR_API_KEY" \
-  https://api.cse-registry.org/v1/signals?domain=HIPAA
+  https://api.cseregistry.org/v1/signals?domain=HIPAA
 ```
 
 **Alternative**: You can also access registry data directly from GitHub raw URLs without authentication (subject to GitHub rate limits).
@@ -831,7 +831,7 @@ For production integrations requiring higher throughput and additional capabilit
 | **Analytics** | — | Compliance trend analysis |
 | **Priority Support** | — | ✓ |
 
-[Register for a free API key](https://cse-registry.org/register) or [view pricing](https://cse-registry.org/pricing) for paid plans.
+[Register for a free API key](https://cseregistry.org/register) or [view pricing](https://cseregistry.org/pricing) for paid plans.
 
 ## Governance & Stewardship
 

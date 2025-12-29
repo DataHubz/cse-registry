@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cse-registry.org/schemas/framework.schema.json",
+  "$id": "https://cseregistry.org/schemas/framework.schema.json",
   "title": "CSE Framework Definition",
   "description": "Schema for compliance framework definitions used in CSE mappings",
   "type": "object",

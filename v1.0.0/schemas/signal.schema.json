@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cse-registry.org/schemas/signal.schema.json",
+  "$id": "https://cseregistry.org/schemas/signal.schema.json",
   "title": "CSE Signal Definition Schema",
   "description": "JSON Schema for CSE canonical signal definitions (signals/**/signal.json) as defined by the CSE Signal Definition Format Specification v1.0.",
   "type": "object",

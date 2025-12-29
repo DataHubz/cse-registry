@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cse-registry.org/schemas/control.schema.json",
+  "$id": "https://cseregistry.org/schemas/control.schema.json",
   "title": "CSE Control Definition",
   "description": "Schema for framework control definitions used in CSE mappings",
   "type": "object",

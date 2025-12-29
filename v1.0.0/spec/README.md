@@ -92,7 +92,7 @@ See `GOVERNANCE.md` for details.
 When referencing the CSE specification, use a versioned citation, for example:
 
 > Compliance Signal Enumeration (CSE) Specification v1.0
-> https://cse-registry.org/v1.0.0/spec/cse-spec-v1.0
+> https://cseregistry.org/v1.0.0/spec/cse-spec-v1.0
 
 ## Disclaimer
 

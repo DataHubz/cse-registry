@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cse-registry.org/schemas/finding.schema.json",
+  "$id": "https://cseregistry.org/schemas/finding.schema.json",
   "title": "CSE Finding",
   "description": "Schema for CSE findings - concrete observations where signals are detected in specific contexts. Findings are not stored in the CSE Registry but this schema standardizes their format for interoperability.",
   "type": "object",
