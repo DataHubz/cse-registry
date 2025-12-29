@@ -574,7 +574,3 @@ Mappings MUST validate against the JSON schemas:
 - NIST OSCAL: Control Mapping Model
 - STIX 2.1: Relationship Objects
 - CSE Specification v1.0
-
----
-
-**End of CSE Mapping Format Specification v1.0**

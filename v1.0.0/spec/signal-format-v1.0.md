@@ -141,5 +141,3 @@ Signal definitions MUST NOT include:
 
 ## 13. Disclaimer
 Signal definitions are descriptive references only and do not imply compliance or certification.
-
-**End of Signal Definition Format Specification v1.0**

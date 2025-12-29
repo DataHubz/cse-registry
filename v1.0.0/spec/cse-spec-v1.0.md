@@ -231,6 +231,3 @@ Use of CSE identifiers does not imply compliance, certification, endorsement, or
 
 - RFC 2119: Key words for use in RFCs to Indicate Requirement Levels
 - Apache License, Version 2.0
-
-
-**End of CSE Specification v1.0**

@@ -761,7 +761,3 @@ Systems SHOULD deduplicate findings based on:
 - CSE Signal Format Specification v1.0
 - SARIF 2.1.0 (Static Analysis Results Interchange Format)
 - OCSF (Open Cybersecurity Schema Framework)
-
----
-
-**End of CSE Finding Format Specification v1.0**

@@ -151,5 +151,3 @@ Registry artifacts SHOULD be validated against the official registry JSON schema
 
 ## 13. Disclaimer
 This format specification is informational and does not imply compliance or certification.
-
-**End of Registry Format Specification v1.0**
