@@ -6,8 +6,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
----
-
 ## [Unreleased]
 
 Target release: January 2026
@@ -48,13 +46,18 @@ Target release: January 2026
 
 Signal coverage required for the following frameworks:
 
-- [ ] CMMC
-- [ ] SOC 2 Type 1
-- [ ] SOC 2 Type 2
-- [ ] GDPR
-- [ ] ISO 27001
-
----
+- [ ] CCPA (California Consumer Privacy Act)
+- [ ] CIS (CIS Controls)
+- [ ] CMMC (Cybersecurity Maturity Model Certification)
+- [ ] FedRAMP (Federal Risk and Authorization Management Program)
+- [ ] GDPR (General Data Protection Regulation)
+- [ ] GEN (General/Cross-Framework)
+- [ ] HIPAA (Health Insurance Portability and Accountability Act)
+- [ ] HITRUST (HITRUST Common Security Framework)
+- [ ] ISO 27001 (ISO/IEC 27001:2022)
+- [ ] NIST CSF (NIST Cybersecurity Framework)
+- [ ] PCI DSS (Payment Card Industry Data Security Standard)
+- [ ] SOC 2 (SOC 2 Trust Services Criteria)
 
 ## Notes
 
