@@ -3,11 +3,14 @@ Copyright © 2025 DataHubz, LLC
 
 This product includes software and documentation developed by DataHubz, LLC.
 
-The Compliance Signal Enumeration (CSE) specification, registry artifacts,
-schemas, and documentation are provided under the Apache License, Version 2.0.
+CSE is open to the public and stewarded by DataHubz, LLC. The specification,
+registry artifacts, schemas, and documentation are provided under the Apache
+License, Version 2.0.
 
-CSE is an open, neutral registry intended to provide stable identifiers and
-canonical definitions for compliance-relevant technical signals.
+CSE is a neutral registry intended to provide stable identifiers and canonical
+definitions for compliance-relevant technical signals. Community contributions
+are welcome. DataHubz maintains editorial control to ensure quality and
+long-term stability.
 
 CSE does not assert compliance, certification, severity, exploitability, or
 remediation requirements. Interpretations, assessments, and determinations

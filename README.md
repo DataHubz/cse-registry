@@ -4,6 +4,10 @@
 
 **A neutral, framework-agnostic registry of compliance-relevant technical signals**
 
+> **Open to the public. Stewarded by [DataHubz](https://www.datahubz.com/).**
+>
+> CSE is freely available for use, integration, and contribution. Community participation is welcome. DataHubz maintains editorial control to ensure quality, consistency, and long-term stability.
+
 ## Overview
 
 **Compliance Signal Enumeration (CSE)** is a public specification and registry that defines **stable identifiers** for recurring **technical signals** observed in software, infrastructure, and operational artifacts that are relevant to compliance and risk assessments.
@@ -66,13 +70,13 @@ Software development has standardized on [CVE](https://www.cve.org/) for vulnera
 
 **Compliance has no equivalent.**
 
-When a scanner reports a finding, it uses its own vocabulary. When that finding is imported into a GRC platform, it must be translated. When an auditor reviews the evidence, they must map it to framework controls. Each step introduces potential for error, delay, and inconsistency.
+When a scanner reports a finding, it uses its own vocabulary. When that finding is imported into a GRC platform, it must be translated. When any party involved in the compliance process reviews the evidence, they must map it to framework controls. Each step introduces potential for error, delay, and inconsistency.
 
 ```
 Tool A: "SSH_OPEN_TO_INTERNET"
 Tool B: "public-ssh-access-detected"
 Tool C: "Finding: SSH port 22 exposed to 0.0.0.0/0"
-Auditor: "Which control does this violate?"
+Organization: "Which control does this violate?"
 ```
 
 These all describe the same technical condition. Without a shared identifier, correlation requires manual effort at every boundary between systems and stakeholders.
@@ -126,7 +130,7 @@ CSE offers a path toward interoperability. The infrastructure is open. The speci
 - A standardized format for signals, mappings, findings, and artifacts
 - Framework-aware but framework-agnostic
 - Designed for long-term citation and interoperability
-- Open, versioned, and publicly accessible
+- Open to the public, stewarded by DataHubz
 - Machine-readable and human-readable
 
 ### CSE **is not**
@@ -772,6 +776,61 @@ curl -s https://raw.githubusercontent.com/DataHubz/cse-registry/main/registry/v1
 # Validate a registry file
 ajv validate -s schemas/registry.schema.json -d registry/v1.0.0/cse-registry.json
 ```
+
+## Website & Documentation
+
+The CSE website provides interactive browsing, full documentation, and API access:
+
+**[cse-registry.org](https://cse-registry.org)**
+
+- Browse signals by domain and category
+- Search across all 1,132 signals
+- View framework mappings and control relationships
+- Full specification documentation
+- Integration guides for security tools, GRC systems, and CI/CD pipelines
+
+## API Access
+
+CSE provides a REST API for programmatic access to the registry.
+
+### Free API
+
+Access to the core registry data is free forever.
+
+| Feature | Details |
+|---------|---------|
+| **Endpoint** | `https://api.cse-registry.org/v1/` |
+| **Rate Limit** | 60 requests/minute, 10,000 requests/day |
+| **Authentication** | API key (free registration) |
+| **Included** | Signals, mappings, schemas, registry manifest |
+
+```bash
+# Example: Get a signal by ID
+curl -H "Authorization: Bearer YOUR_API_KEY" \
+  https://api.cse-registry.org/v1/signals/CSE-HIPAA-TECH-NO-ENCRYPTION-004
+
+# Example: List all signals in a domain
+curl -H "Authorization: Bearer YOUR_API_KEY" \
+  https://api.cse-registry.org/v1/signals?domain=HIPAA
+```
+
+**Alternative**: You can also access registry data directly from GitHub raw URLs without authentication (subject to GitHub rate limits).
+
+### Paid API
+
+For production integrations requiring higher throughput and additional capabilities:
+
+| Feature | Free | Paid |
+|---------|------|------|
+| **Rate Limits** | 60/min, 10k/day | Higher limits based on plan |
+| **Signals & Mappings** | ✓ | ✓ |
+| **Findings Database** | — | Store and query findings at scale |
+| **Artifacts Storage** | — | Upload and retrieve evidence artifacts |
+| **Webhooks** | — | Real-time notifications |
+| **Analytics** | — | Compliance trend analysis |
+| **Priority Support** | — | ✓ |
+
+[Register for a free API key](https://cse-registry.org/register) or [view pricing](https://cse-registry.org/pricing) for paid plans.
 
 ## Governance & Stewardship
 

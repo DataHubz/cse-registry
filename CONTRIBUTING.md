@@ -2,6 +2,8 @@
 
 Thank you for your interest in contributing to the **Compliance Signal Enumeration (CSE)** project.
 
+CSE is **open to the public** and **stewarded by [DataHubz](https://www.datahubz.com/)**. Community contributions are welcome and encouraged. DataHubz maintains editorial control over what gets merged to ensure quality, consistency, and long-term stability.
+
 This document provides guidelines for contributing to the specification, registry, and supporting materials.
 
 ## Before Contributing
@@ -165,12 +167,12 @@ Applicable to any version-controlled repository.
 
 ## Review Process
 
-1. **Initial review**: Steward reviews for format compliance and governance alignment
+1. **Initial review**: DataHubz reviews for format compliance and governance alignment
 2. **Content review**: Assessment of signal clarity, neutrality, and non-duplication
 3. **Schema validation**: Automated validation against schemas
-4. **Merge or feedback**: Accepted contributions are merged; others receive feedback
+4. **Merge or feedback**: Accepted contributions are merged by DataHubz; others receive feedback
 
-Acceptance is discretionary. Contributions may be declined if they conflict with governance principles.
+Acceptance is discretionary. DataHubz maintains final editorial control. Contributions may be declined if they conflict with governance principles or quality standards.
 
 ## Code of Conduct
 

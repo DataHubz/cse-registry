@@ -2,17 +2,27 @@
 
 This document defines the governance model for the **Compliance Signal Enumeration (CSE)** specification and registry.
 
-## Stewardship
+## Stewardship Model
 
-CSE is developed and stewarded by **[DataHubz](https://www.datahubz.com/)**.
+CSE is **open to the public** and **stewarded by [DataHubz](https://www.datahubz.com/)**.
 
-Stewardship responsibilities include:
+This means:
+
+- **Open to the public**: The registry data, schemas, and specifications are freely available for use, integration, and contribution under the Apache 2.0 license
+- **Stewarded by DataHubz**: DataHubz maintains editorial control over what gets merged, ensuring quality, consistency, and long-term stability
+
+This model is similar to how MITRE stewards CVE or how the Linux Foundation stewards open standards—the data is open, but there is a responsible organization ensuring its quality and availability.
+
+### Stewardship Responsibilities
+
+DataHubz, as steward, is responsible for:
 
 - Maintaining the specification and registry
 - Reviewing and accepting contributions
 - Ensuring stability, neutrality, and long-term compatibility
 - Publishing versioned releases
 - Protecting the integrity of the identifier system
+- Final editorial control over all content
 
 ## Governance Principles
 
