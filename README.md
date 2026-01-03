@@ -1,6 +1,6 @@
 # Compliance Signal Enumeration (CSE)
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Registry Version](https://img.shields.io/badge/Registry-v1.0.0-green.svg)](v1.0.0/) [![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)](#) [![Signals](https://img.shields.io/badge/Signals-1132-orange.svg)](v1.0.0/registry/cse-registry.json) [![Domains](https://img.shields.io/badge/Domains-12-purple.svg)](v1.0.0/registry/index.json)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Registry Version](https://img.shields.io/badge/Registry-v1.0.0-green.svg)](v1.0.0/) [![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)](#) [![Signals](https://img.shields.io/badge/Signals-1170-orange.svg)](v1.0.0/registry/cse-registry.json) [![Domains](https://img.shields.io/badge/Domains-12-purple.svg)](v1.0.0/registry/index.json)
 
 **A neutral, framework-agnostic registry of compliance-relevant technical signals**
 
@@ -24,7 +24,7 @@ CSE provides:
 
 | Metric | Value |
 |--------|-------|
-| **Total Signals** | 1132 |
+| **Total Signals** | 1,170 |
 | **Domains** | 12 |
 | **Registry Version** | 1.0.0 |
 | **Status** | Stable |
@@ -33,16 +33,16 @@ CSE provides:
 
 | Domain | Framework | Signals | Categories |
 |--------|-----------|---------|------------|
-| **CMMC** | Cybersecurity Maturity Model Certification | 134 | 15 |
+| **CMMC** | Cybersecurity Maturity Model Certification | 136 | 15 |
 | **CCPA** | California Consumer Privacy Act (CCPA/CPRA) | 70 | 11 |
 | **FEDRAMP** | Federal Risk and Authorization Management Program | 145 | 20 |
-| **GDPR** | General Data Protection Regulation | 80 | 10 |
-| **HITRUST** | HITRUST Common Security Framework | 126 | 19 |
+| **GDPR** | General Data Protection Regulation | 81 | 10 |
+| **HITRUST** | HITRUST Common Security Framework | 129 | 19 |
 | **ISO27001** | ISO/IEC 27001:2022 | 93 | 4 |
-| **SOC2** | SOC 2 Trust Services Criteria | 64 | 5 |
+| **SOC2** | SOC 2 Trust Services Criteria | 69 | 5 |
 | **HIPAA** | Health Insurance Portability and Accountability Act | 75 | 6 |
 | **PCIDSS** | Payment Card Industry Data Security Standard v4.0 | 64 | 12 |
-| **NISTCSF** | NIST Cybersecurity Framework 2.0 | 106 | 22 |
+| **NISTCSF** | NIST Cybersecurity Framework 2.0 | 133 | 22 |
 | **CIS** | CIS Controls v8.1 | 120 | 18 |
 | **GEN** | General Security Signals | 55 | 12 |
 
@@ -95,8 +95,8 @@ But CSE is more than a catalog of identifiers. It provides:
 
 | Component | Purpose |
 |-----------|---------|
-| **Signal Registry** | Canonical definitions for 1,132 compliance-relevant technical conditions |
-| **Mapping Dataset** | 1,308 pre-built relationships linking signals to framework controls |
+| **Signal Registry** | Canonical definitions for 1,170 compliance-relevant technical conditions |
+| **Mapping Dataset** | 2,062 pre-built relationships linking signals to framework controls |
 | **Finding Format** | Standardized structure for findings that enables cross-tool interoperability |
 | **Artifact Schema** | Consistent representation of technical objects where signals are observed |
 | **Validation Schemas** | JSON schemas enabling automated validation of all CSE data structures |
@@ -193,35 +193,33 @@ A thematic subdivision within a domain (e.g., ACCESS, ENCRYPTION, LOGGING, PRIVA
 
 ## Mappings
 
-CSE includes a comprehensive mappings dataset that enables automated compliance mapping and cross-framework analysis. The mappings support four distinct use cases:
+CSE includes a comprehensive mappings dataset that enables automated compliance mapping and cross-framework analysis. The mappings support two primary use cases:
 
 | Mapping Type | Description | Count |
 |--------------|-------------|-------|
-| **Signal-to-Control** | Links CSE signals to framework controls | 1,166 |
-| **GEN Cross-Framework** | Maps generic signals to controls across all frameworks | 95 |
-| **Equivalence** | Links GEN signals to domain-specific equivalents | 80 |
-| **Cross-Framework** | Maps controls between frameworks via signal bridge | 62 |
+| **Signal-to-Control** | Links CSE signals to framework controls | 1,228 |
+| **Equivalence** | Links GEN signals to domain-specific equivalents | 834 |
 
-**Total: 1,308 mappings**
+**Total: 2,062 mappings**
 
 ### Signal-to-Control Mappings
 
 Primary mappings that link CSE signals to their corresponding framework controls:
 
-| Framework | Signals | Mappings | Coverage |
-|-----------|---------|----------|----------|
+| Framework | Signals | Controls Mapped | Coverage |
+|-----------|---------|-----------------|----------|
 | **CCPA** | 70 | 70 | 100% |
 | **CIS** | 120 | 120 | 100% |
-| **CMMC** | 134 | 134 | 100% |
+| **CMMC** | 136 | 166 | 100% |
 | **FedRAMP** | 145 | 145 | 100% |
-| **GDPR** | 80 | 80 | 100% |
-| **GEN** | 55 | 95 | 100% |
+| **GDPR** | 81 | 80 | 98.8% |
+| **GEN** | 55 | 95 | 68.5% |
 | **HIPAA** | 75 | 75 | 100% |
-| **HITRUST** | 126 | 126 | 100% |
+| **HITRUST** | 129 | 126 | 97.7% |
 | **ISO27001** | 93 | 93 | 100% |
-| **NIST CSF** | 106 | 106 | 100% |
-| **PCI DSS** | 64 | 64 | 100% |
-| **SOC2** | 58 | 58 | 100% |
+| **NIST CSF** | 133 | 106 | 100% |
+| **PCI DSS** | 64 | 82 | 100% |
+| **SOC2** | 69 | 70 | 91.3% |
 
 ```json
 {
@@ -236,29 +234,6 @@ Primary mappings that link CSE signals to their corresponding framework controls
     "framework": "PCI-DSS-4.0",
     "id": "3.3",
     "title": "Sensitive authentication data is not stored after authorization"
-  },
-  "relationship": "equivalent",
-  "confidence": 0.95
-}
-```
-
-### GEN Cross-Framework Mappings
-
-GEN (Generic) signals are framework-agnostic and map to controls across multiple frameworks simultaneously. This enables unified security posture assessment:
-
-```json
-{
-  "id": "MAP-CSE-GEN-AUTH-NO-MFA-002-TO-CIS-6-3",
-  "source": {
-    "type": "cse-signal",
-    "id": "CSE-GEN-AUTH-NO-MFA-002",
-    "version": "1.0.0"
-  },
-  "target": {
-    "type": "control",
-    "framework": "CIS-CONTROLS-8.1",
-    "id": "6.3",
-    "title": "Require MFA for Externally-Exposed Applications"
   },
   "relationship": "equivalent",
   "confidence": 0.95
@@ -282,38 +257,6 @@ Signal-to-signal mappings that establish equivalence between GEN signals and dom
     "id": "CSE-CMMC-IDENTITY-NO-MFA-001",
     "version": "1.0.0"
   },
-  "relationship": "equivalent",
-  "confidence": 0.95
-}
-```
-
-### Cross-Framework Mappings
-
-Framework-to-framework control mappings that use CSE signals as a bridge:
-
-| Source Framework | Target Framework | Mappings |
-|------------------|------------------|----------|
-| CMMC 2.0 | ISO 27001:2022 | 19 |
-| CMMC 2.0 | NIST CSF 2.0 | 13 |
-| PCI DSS 4.0 | ISO 27001:2022 | 18 |
-| SOC 2 | ISO 27001:2022 | 12 |
-
-```json
-{
-  "id": "XFW-CMMC20-AC-L2-3-1-1-TO-ISO270012022-A-5-15",
-  "source": {
-    "type": "control",
-    "framework": "CMMC-2.0",
-    "id": "AC.L2-3.1.1",
-    "title": "Authorized Access Control"
-  },
-  "target": {
-    "type": "control",
-    "framework": "ISO27001-2022",
-    "id": "A.5.15",
-    "title": "Access control"
-  },
-  "bridge_signal": "CSE-CMMC-ACCESS-NO-AUTHORIZED-ACCESS-CONTROL-020",
   "relationship": "equivalent",
   "confidence": 0.95
 }
@@ -695,8 +638,6 @@ This integrated approach enables:
 │       ├── finding-minimal-example.json
 │       ├── finding-set-example.json
 │       └── artifact-example.json
-│
-└── website/                   # CSE website and API (cseregistry.org)
 ```
 
 ## Registry Formats
@@ -785,7 +726,7 @@ The CSE website provides interactive browsing, full documentation, and API acces
 **[cseregistry.org](https://cseregistry.org)**
 
 - Browse signals by domain and category
-- Search across all 1,132 signals
+- Search across all 1,170 signals
 - View framework mappings and control relationships
 - Full specification documentation
 - Integration guides for security tools, GRC systems, and CI/CD pipelines
