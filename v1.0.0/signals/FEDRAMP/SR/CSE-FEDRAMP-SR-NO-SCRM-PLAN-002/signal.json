@@ -17,7 +17,35 @@
     "related_controls": [
       "SR-2"
     ],
-    "detection_notes": "Detection guidance: Look for absence of a documented supply chain risk management plan, lack of risk assessment processes for suppliers and vendors, missing threat intelligence integration, absence of supply chain risk monitoring procedures, and lack of plan review and update mechanisms. Verify that the plan addresses the full system lifecycle from acquisition through disposal and includes protection measures for the plan itself."
+    "detection_notes": "Detection guidance: Look for absence of a documented supply chain risk management plan, lack of risk assessment processes for suppliers and vendors, missing threat intelligence integration, absence of supply chain risk monitoring procedures, and lack of plan review and update mechanisms. Verify that the plan addresses the full system lifecycle from acquisition through disposal and includes protection measures for the plan itself.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "SR-2",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Supply Chain Risk Management",
+        "section": "SR-2",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/SR/CSE-FEDRAMP-SR-NO-SCRM-PLAN-002/"
 }

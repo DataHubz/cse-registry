@@ -17,7 +17,22 @@
     "related_controls": [
       "45 CFR 164.530(g)"
     ],
-    "detection_notes": "Detect adverse actions taken against individuals who exercised privacy rights, filed complaints, or participated in investigations. Monitor for patterns of denials of service, increased costs, or other retaliatory measures following privacy-related activities. Review complaints alleging intimidation or retaliation."
+    "detection_notes": "Detect adverse actions taken against individuals who exercised privacy rights, filed complaints, or participated in investigations. Monitor for patterns of denials of service, increased costs, or other retaliatory measures following privacy-related activities. Review complaints alleging intimidation or retaliation.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+        "section": "164.530(g)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+        "type": "guidance",
+        "title": "HHS Privacy Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-RETALIATION-PROTECTION-025/"
 }

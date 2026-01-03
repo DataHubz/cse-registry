@@ -14,8 +14,41 @@
       "disaster-recovery",
       "resilience"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of contingency plan documentation Analysis of essential missions and business functions identification Verification of recovery objectives (RTO/RPO) definitions Assessment of restoration priorities and procedures Examination of plan distribution and maintenance records Inspection of coordination with incident response activities Review of plan update and review schedules The presence of this signal indicates a condition that warrants review in the context of FedRAMP contingency planning requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of contingency plan documentation Analysis of essential missions and business functions identification Verification of recovery objectives (RTO/RPO) definitions Assessment of restoration priorities and procedures Examination of plan distribution and maintenance records Inspection of coordination with incident response activities Review of plan update and review schedules The presence of this signal indicates a condition that warrants review in the context of FedRAMP contingency planning requirements.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "CP",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Contingency Planning",
+        "section": "CP",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.fedramp.gov/assets/resources/templates/FedRAMP-SSP-Appendix-J-CIS-Workbook-Template.xlsx",
+        "type": "guidance",
+        "title": "FedRAMP Contingency Plan Template",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-CONTINGENCY-PLAN-002/"
 }

@@ -18,7 +18,35 @@
       "GDPR Art. 25.1",
       "GDPR Art. 5.1.f"
     ],
-    "detection_notes": "Detected through architecture reviews, system design documentation, development practices, and evaluation of privacy controls integrated into systems. Requires assessment of whether privacy was considered from the outset."
+    "detection_notes": "Detected through architecture reviews, system design documentation, development practices, and evaluation of privacy controls integrated into systems. Requires assessment of whether privacy was considered from the outset.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter IV - Data Protection by Design and Default",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-25-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 25.1",
+        "section": "GDPR Art. 25.1",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines and Recommendations",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GDPR/DESIGN/CSE-GDPR-DESIGN-NO-PRIVACY-BY-DESIGN-001/"
 }

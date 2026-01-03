@@ -17,7 +17,22 @@
     "related_controls": [
       "45 CFR 164.526"
     ],
-    "detection_notes": "Detect absence of amendment request processes, denied amendment requests without valid grounds for denial (record not created by entity, record not in designated record set, record not available for inspection, or record is accurate and complete), or systems lacking amendment request functionality."
+    "detection_notes": "Detect absence of amendment request processes, denied amendment requests without valid grounds for denial (record not created by entity, record not in designated record set, record not available for inspection, or record is accurate and complete), or systems lacking amendment request functionality.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+        "section": "164.500",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+        "type": "guidance",
+        "title": "HHS Privacy Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-AMENDMENT-RIGHTS-016/"
 }

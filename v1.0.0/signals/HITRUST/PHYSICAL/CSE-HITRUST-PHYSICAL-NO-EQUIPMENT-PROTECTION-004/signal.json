@@ -14,8 +14,35 @@
       "facility-protection",
       "access-control"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection guidance: Review physical protection measures for equipment including rack security, cable locks, secure mounting, and environmental controls. Verify protection against theft, tampering, and environmental hazards such as fire, water, temperature extremes, and power fluctuations. Check for equipment placement strategies that minimize exposure to physical threats and ensure appropriate environmental monitoring."
+    "detection_notes": "Detection guidance: Review physical protection measures for equipment including rack security, cable locks, secure mounting, and environmental controls. Verify protection against theft, tampering, and environmental hazards such as fire, water, temperature extremes, and power fluctuations. Check for equipment placement strategies that minimize exposure to physical threats and ensure appropriate environmental monitoring.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 11 - Physical Security",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.AC",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-EQUIPMENT-PROTECTION-004/"
 }

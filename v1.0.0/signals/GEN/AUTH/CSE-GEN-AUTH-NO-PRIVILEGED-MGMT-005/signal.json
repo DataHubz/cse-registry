@@ -15,7 +15,34 @@
       "authorization"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Reviewing privileged account configurations Analyzing access patterns for administrative users Examining just-in-time access implementations Auditing session recording and monitoring tools Evaluating privileged credential vault usage Privileged Access Management (PAM) best practices include: Just-in-time (JIT) access provisioning Session recording and monitoring Multi-person approval workflows Credential vaulting and rotation Time-bound access grants Enhanced authentication requirements Privileged session isolation The absence of PAM controls significantly increases the risk of insider threats, credential theft, and unauthorized administrative actions."
+    "detection_notes": "Detection of this signal typically involves: Reviewing privileged account configurations Analyzing access patterns for administrative users Examining just-in-time access implementations Auditing session recording and monitoring tools Evaluating privileged credential vault usage Privileged Access Management (PAM) best practices include: Just-in-time (JIT) access provisioning Session recording and monitoring Multi-person approval workflows Credential vaulting and rotation Time-bound access grants Enhanced authentication requirements Privileged session isolation The absence of PAM controls significantly increases the risk of insider threats, credential theft, and unauthorized administrative actions.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "IA"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      },
+      {
+        "title": "OWASP Security Guidance",
+        "url": "https://owasp.org/www-project-developer-guide/",
+        "type": "guidance",
+        "authority": "OWASP"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/AUTH/CSE-GEN-AUTH-NO-PRIVILEGED-MGMT-005/"
 }

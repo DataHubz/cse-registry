@@ -19,7 +19,35 @@
       "GDPR Art. 33",
       "GDPR Art. 32.1.d"
     ],
-    "detection_notes": "Detected through security operations review. Look for missing security monitoring, no intrusion detection system (IDS), lack of log aggregation, no anomaly detection, missing alerting mechanisms, inadequate audit trails, no SIEM solution, and absence of security incident response procedures. Verify monitoring covers all systems processing personal data."
+    "detection_notes": "Detected through security operations review. Look for missing security monitoring, no intrusion detection system (IDS), lack of log aggregation, no anomaly detection, missing alerting mechanisms, inadequate audit trails, no SIEM solution, and absence of security incident response procedures. Verify monitoring covers all systems processing personal data.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter IV - Security of Processing",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-33-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 33",
+        "section": "GDPR Art. 33",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Security of Processing",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/security/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-BREACH-DETECTION-011/"
 }

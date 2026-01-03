@@ -17,7 +17,22 @@
     "related_controls": [
       "45 CFR 164.404(c)"
     ],
-    "detection_notes": "Detection guidance: Review breach notification templates to verify all five required elements are included Audit sent notifications against a compliance checklist to ensure completeness Check for standardized notification templates that enforce inclusion of required content Verify that notifications include specific dates (breach date and discovery date) Confirm that descriptions of compromised PHI types are sufficiently detailed Ensure protective steps for individuals are clearly outlined and actionable Validate that contact information for questions is prominently displayed and functional"
+    "detection_notes": "Detection guidance: Review breach notification templates to verify all five required elements are included Audit sent notifications against a compliance checklist to ensure completeness Check for standardized notification templates that enforce inclusion of required content Verify that notifications include specific dates (breach date and discovery date) Confirm that descriptions of compromised PHI types are sufficiently detailed Ensure protective steps for individuals are clearly outlined and actionable Validate that contact information for questions is prominently displayed and functional",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart D - Breach Notification Rule",
+        "section": "164.404(c)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html",
+        "type": "guidance",
+        "title": "HHS Breach Notification Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-NOTIFY-CONTENT-003/"
 }

@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of code review processes and policies Assessment of pull request workflows Evaluation of security review checklists Examination of reviewer qualifications and training Review of automated security checks in CI/CD Assessment of high-risk code review requirements Analysis of security review documentation Security code review best practices: **Review process:** Mandatory peer review before merge Security-focused review checklist Dedicated security reviewers for high-risk changes Documented review comments and decisions Required approvals before deployment **Security review focus areas:** **Authentication/Authorization**: Proper access controls **Input validation**: Sanitization and type checking **Output encoding**: XSS and injection prevent"
+    "detection_notes": "Detection of this signal typically involves: Review of code review processes and policies Assessment of pull request workflows Evaluation of security review checklists Examination of reviewer qualifications and training Review of automated security checks in CI/CD Assessment of high-risk code review requirements Analysis of security review documentation Security code review best practices: **Review process:** Mandatory peer review before merge Security-focused review checklist Dedicated security reviewers for high-risk changes Documented review comments and decisions Required approvals before deployment **Security review focus areas:** **Authentication/Authorization**: Proper access controls **Input validation**: Sanitization and type checking **Output encoding**: XSS and injection prevent",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-CODE-REVIEW-009/"
 }

@@ -17,7 +17,35 @@
     "related_controls": [
       "02.d - Human Resources Security - Disciplinary Process"
     ],
-    "detection_notes": "Detection of this signal typically involves: Review of HR policies and employee handbooks for disciplinary procedures Examination of security policy documents for enforcement provisions Analysis of security incident records and resolutions Verification of sanction application and tracking mechanisms Assessment of consistency in policy enforcement Review of investigation procedures before disciplinary action Evaluation of progressive discipline frameworks Analysis of workforce awareness of consequences Review of management training on enforcement procedures The presence of this signal indicates that security policies may lack credibility and effectiveness, as workforce members face no meaningful consequences for violations. This can lead to repeated violations, insider threats, and regulato"
+    "detection_notes": "Detection of this signal typically involves: Review of HR policies and employee handbooks for disciplinary procedures Examination of security policy documents for enforcement provisions Analysis of security incident records and resolutions Verification of sanction application and tracking mechanisms Assessment of consistency in policy enforcement Review of investigation procedures before disciplinary action Evaluation of progressive discipline frameworks Analysis of workforce awareness of consequences Review of management training on enforcement procedures The presence of this signal indicates that security policies may lack credibility and effectiveness, as workforce members face no meaningful consequences for violations. This can lead to repeated violations, insider threats, and regulato",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 07 - Human Resource Security",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.AT",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/HR/CSE-HITRUST-HR-NO-DISCIPLINARY-004/"
 }

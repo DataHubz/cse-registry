@@ -17,7 +17,27 @@
     "related_controls": [
       "8.3 Strong authentication for users and administrators is established and managed."
     ],
-    "detection_notes": "Detection guidance: Analyze password policies and authentication configurations. Check minimum password length requirements, complexity rules (numeric, alphabetic, special characters), and enforcement mechanisms. Passwords shorter than 12 characters or lacking complexity requirements indicate this signal."
+    "detection_notes": "Detection guidance: Analyze password policies and authentication configurations. Check minimum password length requirements, complexity rules (numeric, alphabetic, special characters), and enforcement mechanisms. Passwords shorter than 12 characters or lacking complexity requirements indicate this signal.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-STRONG-AUTH-003/"
 }

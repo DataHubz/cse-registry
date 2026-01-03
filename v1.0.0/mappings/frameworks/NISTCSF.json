@@ -1,0 +1,10 @@
+{
+  "id": "cmjrpgdks00099irr36eo53on",
+  "code": "NISTCSF",
+  "name": "NIST CSF",
+  "version": "2.0",
+  "description": "NIST Cybersecurity Framework",
+  "url": "https://www.nist.gov/cyberframework",
+  "control_count": 107,
+  "mapping_count": 133
+}

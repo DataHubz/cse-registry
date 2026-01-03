@@ -17,7 +17,29 @@
     "related_controls": [
       "45 CFR 164.314(b)(2)"
     ],
-    "detection_notes": "Detection guidance: For group health plans, review plan documents to confirm they include provisions restricting plan sponsor access to ePHI and requiring appropriate safeguards. Verify that plan sponsors have implemented security measures and incident reporting procedures. Assess whether plan amendments have been executed to incorporate required Security Rule provisions."
+    "detection_notes": "Detection guidance: For group health plans, review plan documents to confirm they include provisions restricting plan sponsor access to ePHI and requiring appropriate safeguards. Verify that plan sponsors have implemented security measures and incident reporting procedures. Assess whether plan amendments have been executed to incorporate required Security Rule provisions.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart C - Organizational Requirements",
+        "section": "164.314(b)(2)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+        "type": "guidance",
+        "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+        "section": "7",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+        "type": "guidance",
+        "title": "HHS Security Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-GROUP-HEALTH-SAFEGUARDS-003/"
 }

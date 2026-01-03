@@ -15,7 +15,27 @@
       "governance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection guidance: Look for investigation activities without audit trails, missing chain of custody documentation, unlogged forensic tool usage, or analyst actions not captured in incident tracking systems. Monitor for lack of timestamped entries, missing digital signatures on evidence collection, or investigation steps performed outside documented procedures without record retention."
+    "detection_notes": "Detection guidance: Look for investigation activities without audit trails, missing chain of custody documentation, unlogged forensic tool usage, or analyst actions not captured in incident tracking systems. Monitor for lack of timestamped entries, missing digital signatures on evidence collection, or investigation steps performed outside documented procedures without record retention.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST CSF 2.0 Publication",
+        "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-20/final",
+        "type": "guidance",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/NISTCSF/AN/CSE-NISTCSF-AN-NO-INVESTIGATION-RECORDS-006/"
 }

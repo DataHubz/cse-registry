@@ -14,8 +14,35 @@
       "privacy",
       "compliance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of learning management system (LMS) course catalogs Examination of training curriculum and content Analysis of training completion records and tracking Verification of onboarding and ongoing training requirements Assessment of role-based training assignments Review of training materials and documentation The presence of this signal indicates a workforce readiness and privacy culture gap that should be addressed to ensure consistent privacy practices and regulatory compliance."
+    "detection_notes": "Detection of this signal typically involves: Review of learning management system (LMS) course catalogs Examination of training curriculum and content Analysis of training completion records and tracking Verification of onboarding and ongoing training requirements Assessment of role-based training assignments Review of training materials and documentation The presence of this signal indicates a workforce readiness and privacy culture gap that should be addressed to ensure consistent privacy practices and regulatory compliance.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 08 - Privacy",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.DS",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-TRAINING-008/"
 }

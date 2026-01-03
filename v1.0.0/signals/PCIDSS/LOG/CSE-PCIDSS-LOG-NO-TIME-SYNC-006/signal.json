@@ -17,7 +17,27 @@
     "related_controls": [
       "10.6 Time synchronization mechanisms support consistent time settings across all systems"
     ],
-    "detection_notes": "Detection guidance: Look for missing NTP configuration, systems with inconsistent time settings, absence of authoritative time sources, disabled time sync services, or evidence of significant clock drift across CDE systems that would compromise log correlation."
+    "detection_notes": "Detection guidance: Look for missing NTP configuration, systems with inconsistent time settings, absence of authoritative time sources, disabled time sync services, or evidence of significant clock drift across CDE systems that would compromise log correlation.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-TIME-SYNC-006/"
 }

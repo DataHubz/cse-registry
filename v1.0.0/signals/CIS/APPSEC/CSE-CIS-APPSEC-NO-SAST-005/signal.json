@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of CI/CD pipeline configurations Assessment of security testing tools integration Evaluation of SAST tool deployment and usage Examination of security scanning frequency Review of vulnerability findings management Assessment of security gate enforcement Analysis of IDE security plugin usage SAST implementation typically includes: **Tool selection**: Language-specific analyzers, commercial or open-source **Integration points**: IDE, pre-commit hooks, CI/CD pipeline **Rule configuration**: Security standards, compliance requirements, custom rules **Scan frequency**: Every commit, daily builds, release gates **Findings management**: Triage, false positive handling, remediation tracking **Quality gates**: Build failure thresholds, blocking cr"
+    "detection_notes": "Detection of this signal typically involves: Review of CI/CD pipeline configurations Assessment of security testing tools integration Evaluation of SAST tool deployment and usage Examination of security scanning frequency Review of vulnerability findings management Assessment of security gate enforcement Analysis of IDE security plugin usage SAST implementation typically includes: **Tool selection**: Language-specific analyzers, commercial or open-source **Integration points**: IDE, pre-commit hooks, CI/CD pipeline **Rule configuration**: Security standards, compliance requirements, custom rules **Scan frequency**: Every commit, daily builds, release gates **Findings management**: Triage, false positive handling, remediation tracking **Quality gates**: Build failure thresholds, blocking cr",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-SAST-005/"
 }

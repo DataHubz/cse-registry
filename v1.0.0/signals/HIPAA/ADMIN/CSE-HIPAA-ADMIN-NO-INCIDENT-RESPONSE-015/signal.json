@@ -17,7 +17,29 @@
     "related_controls": [
       "45 CFR 164.308(a)(6)(ii)"
     ],
-    "detection_notes": "Detection of this signal typically involves: Review of incident response policies and procedures Examination of incident identification and reporting mechanisms Analysis of incident response team structures and responsibilities Verification of incident documentation and tracking systems Assessment of incident mitigation and recovery capabilities The presence of this signal indicates that security incidents may not be properly identified, responded to, or documented."
+    "detection_notes": "Detection of this signal typically involves: Review of incident response policies and procedures Examination of incident identification and reporting mechanisms Analysis of incident response team structures and responsibilities Verification of incident documentation and tracking systems Assessment of incident mitigation and recovery capabilities The presence of this signal indicates that security incidents may not be properly identified, responded to, or documented.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+        "section": "164.308(a)(6)(ii)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+        "type": "guidance",
+        "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+        "section": "4",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+        "type": "guidance",
+        "title": "HHS Security Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015/"
 }

@@ -14,8 +14,35 @@
       "change-control",
       "baseline"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection guidance: Examine network scans, port scans, and service inventories to identify running services that are not essential for system operation. Look for unnecessary services running on systems, unused network ports open, unnecessary protocols enabled, or applications with excessive features enabled. Check for presence of development tools on production systems, unused administrative interfaces, or default services that have not been disabled. Review firewall rules and network segmentation to identify overly permissive configurations allowing unnecessary communications."
+    "detection_notes": "Detection guidance: Examine network scans, port scans, and service inventories to identify running services that are not essential for system operation. Look for unnecessary services running on systems, unused network ports open, unnecessary protocols enabled, or applications with excessive features enabled. Check for presence of development tools on production systems, unused administrative interfaces, or default services that have not been disabled. Review firewall rules and network segmentation to identify overly permissive configurations allowing unnecessary communications.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "CM",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Configuration Management",
+        "section": "CM",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-LEAST-FUNCTIONALITY-007/"
 }

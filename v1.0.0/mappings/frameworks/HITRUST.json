@@ -1,0 +1,10 @@
+{
+  "id": "cmjrpgdkq00079irr4ysq72bo",
+  "code": "HITRUST",
+  "name": "HITRUST CSF",
+  "version": "11.0",
+  "description": "HITRUST Common Security Framework",
+  "url": "https://hitrustalliance.net/csf",
+  "control_count": 121,
+  "mapping_count": 127
+}

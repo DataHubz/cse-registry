@@ -17,7 +17,22 @@
     "related_controls": [
       "SOC 2 A1.3"
     ],
-    "detection_notes": "Review disaster recovery test schedules, backup restoration logs, tabletop exercise documentation, and test results. Check for absence of recovery testing, outdated test results, or incomplete test scenarios."
+    "detection_notes": "Review disaster recovery test schedules, backup restoration logs, tabletop exercise documentation, and test results. Check for absence of recovery testing, outdated test results, or incomplete test scenarios.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - Availability",
+        "section": "A1",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-RECOVERY-TESTING-003/"
 }

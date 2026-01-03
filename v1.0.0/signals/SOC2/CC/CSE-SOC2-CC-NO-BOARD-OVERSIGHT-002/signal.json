@@ -18,7 +18,28 @@
       "SOC 2 CC1.2",
       "COSO Principle 2"
     ],
-    "detection_notes": "Review board composition and independence criteria, board meeting minutes, audit committee charter, evidence of board oversight of control environment, and documentation of board challenges to management decisions. Look for absence of independent directors, infrequent meetings, or lack of internal control discussions."
+    "detection_notes": "Review board composition and independence criteria, board meeting minutes, audit committee charter, evidence of board oversight of control environment, and documentation of board challenges to management decisions. Look for absence of independent directors, infrequent meetings, or lack of internal control discussions.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - CC1 Control Environment",
+        "section": "CC1",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.coso.org/guidance-on-ic",
+        "type": "guidance",
+        "title": "COSO Internal Control - Integrated Framework",
+        "authority": "COSO"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002/"
 }

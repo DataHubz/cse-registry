@@ -14,8 +14,35 @@
       "facility-protection",
       "access-control"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection guidance: Review facility security documentation for defined physical security perimeters. Verify that areas containing sensitive information processing systems have clearly defined physical boundaries with appropriate security controls. Check for documented perimeter definitions including walls, card-controlled entry points, and manned reception desks where appropriate."
+    "detection_notes": "Detection guidance: Review facility security documentation for defined physical security perimeters. Verify that areas containing sensitive information processing systems have clearly defined physical boundaries with appropriate security controls. Check for documented perimeter definitions including walls, card-controlled entry points, and manned reception desks where appropriate.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 11 - Physical Security",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.AC",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-PERIMETER-001/"
 }

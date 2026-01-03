@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of privacy impact assessments (PIAs) and data protection impact assessments (DPIAs) Analysis of data processing inventories and records Examination of consent management systems Assessment of privacy notice delivery mechanisms Review of data subject rights fulfillment procedures Inspection of vendor and third-party data sharing agreements Evaluation of privacy-enhancing technologies and controls Assessment of privacy training and awareness programs The presence of this signal indicates a condition that warrants review in the context of privacy and personal data protection compliance requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of privacy impact assessments (PIAs) and data protection impact assessments (DPIAs) Analysis of data processing inventories and records Examination of consent management systems Assessment of privacy notice delivery mechanisms Review of data subject rights fulfillment procedures Inspection of vendor and third-party data sharing agreements Evaluation of privacy-enhancing technologies and controls Assessment of privacy training and awareness programs The presence of this signal indicates a condition that warrants review in the context of privacy and personal data protection compliance requirements.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-PRIVACY-COMPLIANCE-004/"
 }

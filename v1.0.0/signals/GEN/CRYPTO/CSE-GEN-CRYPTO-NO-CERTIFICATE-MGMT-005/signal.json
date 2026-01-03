@@ -15,7 +15,34 @@
       "key-management"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Scanning for certificates across infrastructure Checking certificate expiration dates Identifying self-signed certificates in production Reviewing certificate issuance and renewal processes Analyzing certificate chain validation Checking for certificate revocation list (CRL) or OCSP configurations Reviewing automation for certificate deployment Examining certificate monitoring and alerting systems Assessing certificate inventory and tracking mechanisms Common certificate management requirements: Maintain inventory of all certificates and their locations Monitor certificates for expiration (typically 30-90 day warnings) Automate certificate renewal where possible (e.g., Let's Encrypt, ACME) Use trusted certificate authorities for production syste"
+    "detection_notes": "Detection of this signal typically involves: Scanning for certificates across infrastructure Checking certificate expiration dates Identifying self-signed certificates in production Reviewing certificate issuance and renewal processes Analyzing certificate chain validation Checking for certificate revocation list (CRL) or OCSP configurations Reviewing automation for certificate deployment Examining certificate monitoring and alerting systems Assessing certificate inventory and tracking mechanisms Common certificate management requirements: Maintain inventory of all certificates and their locations Monitor certificates for expiration (typically 30-90 day warnings) Automate certificate renewal where possible (e.g., Let's Encrypt, ACME) Use trusted certificate authorities for production syste",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "SC"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      },
+      {
+        "title": "OWASP Security Guidance",
+        "url": "https://owasp.org/www-project-developer-guide/",
+        "type": "guidance",
+        "authority": "OWASP"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/CRYPTO/CSE-GEN-CRYPTO-NO-CERTIFICATE-MGMT-005/"
 }

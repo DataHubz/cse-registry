@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection guidance: Identify recovery efforts that lack documented selection criteria, scope definition, or prioritization frameworks. Monitor for random or reactive recovery actions without clear business impact analysis or sequencing based on critical function dependencies."
+    "detection_notes": "Detection guidance: Identify recovery efforts that lack documented selection criteria, scope definition, or prioritization frameworks. Monitor for random or reactive recovery actions without clear business impact analysis or sequencing based on critical function dependencies.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework 2.0",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-20/final",
+        "type": "guidance",
+        "title": "NIST CSF 2.0 Publication",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "authority": "NIST"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-RECOVERY-ACTIONS-002/"
 }

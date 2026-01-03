@@ -14,8 +14,33 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Reviewing training curricula for consumer rights request handling procedures Examining standard operating procedures for request processing workflows Checking employee knowledge through testing or spot-checks Analyzing request fulfillment metrics for timeline compliance Reviewing escalation procedures for complex requests Checking for training on reasonable verification methods Verifying training on authorized agent procedures Examining quality assurance records for request handling accuracy The presence of this signal indicates a critical gap in the business's ability to properly fulfill consumer rights requests within CCPA-mandated timeframes and procedures."
+    "detection_notes": "Detection of this signal typically involves: Reviewing training curricula for consumer rights request handling procedures Examining standard operating procedures for request processing workflows Checking employee knowledge through testing or spot-checks Analyzing request fulfillment metrics for timeline compliance Reviewing escalation procedures for complex requests Checking for training on reasonable verification methods Verifying training on authorized agent procedures Examining quality assurance records for request handling accuracy The presence of this signal indicates a critical gap in the business's ability to properly fulfill consumer rights requests within CCPA-mandated timeframes and procedures.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CCPA/TRAINING/CSE-CCPA-TRAINING-NO-REQUEST-HANDLING-002/"
 }

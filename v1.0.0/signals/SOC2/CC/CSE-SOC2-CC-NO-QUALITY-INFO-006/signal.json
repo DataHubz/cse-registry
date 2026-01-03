@@ -18,7 +18,28 @@
       "SOC 2 CC2.1",
       "COSO Principle 13"
     ],
-    "detection_notes": "Review information system capabilities, data quality controls, reporting mechanisms, control dashboards, and evidence of data-driven decision making. Look for absence of control metrics, unreliable or outdated data, or decisions made without supporting information."
+    "detection_notes": "Review information system capabilities, data quality controls, reporting mechanisms, control dashboards, and evidence of data-driven decision making. Look for absence of control metrics, unreliable or outdated data, or decisions made without supporting information.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - CC2 Communication and Information",
+        "section": "CC2",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.coso.org/guidance-on-ic",
+        "type": "guidance",
+        "title": "COSO Internal Control - Integrated Framework",
+        "authority": "COSO"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-QUALITY-INFO-006/"
 }

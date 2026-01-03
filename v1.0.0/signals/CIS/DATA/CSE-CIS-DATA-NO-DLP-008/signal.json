@@ -14,8 +14,28 @@
       "classification",
       "encryption"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of DLP solution deployment Assessment of email gateway DLP capabilities Examination of endpoint DLP agents Analysis of web proxy content filtering Verification of cloud access security brokers (CASB) Review of network DLP monitoring Assessment of data exfiltration detection rules Examination of removable media controls Analysis of DLP policy configurations The presence of this signal indicates a condition that warrants review in the context of data protection and exfiltration prevention requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of DLP solution deployment Assessment of email gateway DLP capabilities Examination of endpoint DLP agents Analysis of web proxy content filtering Verification of cloud access security brokers (CASB) Review of network DLP monitoring Assessment of data exfiltration detection rules Examination of removable media controls Analysis of DLP policy configurations The presence of this signal indicates a condition that warrants review in the context of data protection and exfiltration prevention requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 3: Data Protection",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-DLP-008/"
 }

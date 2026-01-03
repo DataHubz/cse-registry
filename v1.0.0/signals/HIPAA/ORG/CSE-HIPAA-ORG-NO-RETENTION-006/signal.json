@@ -17,7 +17,29 @@
     "related_controls": [
       "45 CFR 164.316(b)(2)(i)"
     ],
-    "detection_notes": "Detection guidance: Review records retention policies and practices to ensure Security Rule documentation is retained for the required 6-year period. Examine document management systems for appropriate retention schedules. Verify that both current and superseded policies, procedures, and required documentation are retained. Assess whether retention periods are calculated correctly from the later of creation date or when the document was last in effect."
+    "detection_notes": "Detection guidance: Review records retention policies and practices to ensure Security Rule documentation is retained for the required 6-year period. Examine document management systems for appropriate retention schedules. Verify that both current and superseded policies, procedures, and required documentation are retained. Assess whether retention periods are calculated correctly from the later of creation date or when the document was last in effect.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart C - Organizational Requirements",
+        "section": "164.316(b)(2)(i)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+        "type": "guidance",
+        "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+        "section": "7",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+        "type": "guidance",
+        "title": "HHS Security Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-RETENTION-006/"
 }

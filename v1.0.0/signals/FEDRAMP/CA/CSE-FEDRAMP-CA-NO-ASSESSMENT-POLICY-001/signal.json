@@ -17,7 +17,41 @@
     "related_controls": [
       "CA-1 - Security Assessment and Authorization Policy and Procedures"
     ],
-    "detection_notes": "Detection guidance: Check for the existence of documented security assessment and authorization policies Verify that policies address purpose, scope, roles, responsibilities, and compliance requirements Confirm that procedures exist to facilitate implementation of the policy Validate that policies and procedures are disseminated to appropriate personnel Review policy update frequency and version control mechanisms Examine whether policies align with FedRAMP requirements and organizational risk management framework"
+    "detection_notes": "Detection guidance: Check for the existence of documented security assessment and authorization policies Verify that policies address purpose, scope, roles, responsibilities, and compliance requirements Confirm that procedures exist to facilitate implementation of the policy Validate that policies and procedures are disseminated to appropriate personnel Review policy update frequency and version control mechanisms Examine whether policies align with FedRAMP requirements and organizational risk management framework",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "CA",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Assessment, Authorization, and Monitoring",
+        "section": "CA",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf",
+        "type": "guidance",
+        "title": "FedRAMP Continuous Monitoring Strategy Guide",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/CA/CSE-FEDRAMP-CA-NO-ASSESSMENT-POLICY-001/"
 }

@@ -14,8 +14,34 @@
       "privacy-notice",
       "disclosure"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Natural language processing of privacy policy text for retention language Pattern matching for time-based expressions (days, months, years) Analysis of \"Data Retention\" or \"How Long We Keep Your Information\" sections Review of cookie configuration for expiration settings Checking data processing agreements for retention schedules Scanning right-to-know response templates for retention fields Evaluating privacy notices for criteria-based retention descriptions The presence of this signal indicates a CPRA-specific disclosure gap that may limit consumer understanding of data lifecycle practices."
+    "detection_notes": "Detection of this signal typically involves: Natural language processing of privacy policy text for retention language Pattern matching for time-based expressions (days, months, years) Analysis of \"Data Retention\" or \"How Long We Keep Your Information\" sections Review of cookie configuration for expiration settings Checking data processing agreements for retention schedules Scanning right-to-know response templates for retention fields Evaluating privacy notices for criteria-based retention descriptions The presence of this signal indicates a CPRA-specific disclosure gap that may limit consumer understanding of data lifecycle practices.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "section": "Civil Code §1798.100",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CCPA/NOTICE/CSE-CCPA-NOTICE-NO-RETENTION-DISCLOSURE-005/"
 }

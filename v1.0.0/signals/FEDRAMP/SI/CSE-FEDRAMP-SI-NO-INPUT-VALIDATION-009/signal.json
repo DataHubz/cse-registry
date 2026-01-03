@@ -17,7 +17,35 @@
     "related_controls": [
       "SI-10"
     ],
-    "detection_notes": "Detection guidance: Look for missing input validation routines, absence of data type and format checking, lack of boundary validation, no protection against injection attacks (SQL, command, XSS), and missing allowlist/denylist implementations."
+    "detection_notes": "Detection guidance: Look for missing input validation routines, absence of data type and format checking, lack of boundary validation, no protection against injection attacks (SQL, command, XSS), and missing allowlist/denylist implementations.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "SI-10",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - System and Information Integrity",
+        "section": "SI-10",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/SI/CSE-FEDRAMP-SI-NO-INPUT-VALIDATION-009/"
 }

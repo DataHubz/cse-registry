@@ -1,0 +1,10 @@
+{
+  "id": "cmjrpgdkj00019irrr7trpktq",
+  "code": "CIS",
+  "name": "CIS Controls",
+  "version": "8.0",
+  "description": "CIS Critical Security Controls Version 8",
+  "url": "https://www.cisecurity.org/controls",
+  "control_count": 144,
+  "mapping_count": 135
+}

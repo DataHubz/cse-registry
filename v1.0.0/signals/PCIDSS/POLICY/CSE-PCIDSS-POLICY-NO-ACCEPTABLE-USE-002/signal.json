@@ -17,7 +17,28 @@
     "related_controls": [
       "12.2 - Acceptable use policies for end-user technologies are defined and implemented"
     ],
-    "detection_notes": "Detection guidance: Verify existence of acceptable use policies covering end-user technologies such as remote access, wireless, removable media, laptops, tablets, handheld devices, email, and internet usage. Monitor for employee acknowledgment and periodic review of policies."
+    "detection_notes": "Detection guidance: Verify existence of acceptable use policies covering end-user technologies such as remote access, wireless, removable media, laptops, tablets, handheld devices, email, and internet usage. Monitor for employee acknowledgment and periodic review of policies.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "section": "Requirement 12: Support Information Security with Organizational Policies",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-ACCEPTABLE-USE-002/"
 }

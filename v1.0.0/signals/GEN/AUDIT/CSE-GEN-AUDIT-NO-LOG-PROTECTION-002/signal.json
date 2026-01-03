@@ -15,7 +15,28 @@
       "accountability"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Reviewing file system permissions on log files and directories Checking for immutability settings on cloud storage Verifying encryption and access controls on log repositories Examining SIEM and log aggregation platform security settings Testing whether logs can be modified or deleted by unauthorized users Validating cryptographic signing or hashing mechanisms Reviewing access control lists and IAM policies for log storage Protection mechanisms may include: Write-once-read-many (WORM) storage Object lock and immutability policies Cryptographic signing and verification Strict file system permissions (append-only) Centralized logging with role-based access control Encryption at rest with separate key management Regular integrity verification and c"
+    "detection_notes": "Detection of this signal typically involves: Reviewing file system permissions on log files and directories Checking for immutability settings on cloud storage Verifying encryption and access controls on log repositories Examining SIEM and log aggregation platform security settings Testing whether logs can be modified or deleted by unauthorized users Validating cryptographic signing or hashing mechanisms Reviewing access control lists and IAM policies for log storage Protection mechanisms may include: Write-once-read-many (WORM) storage Object lock and immutability policies Cryptographic signing and verification Strict file system permissions (append-only) Centralized logging with role-based access control Encryption at rest with separate key management Regular integrity verification and c",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "AU"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/AUDIT/CSE-GEN-AUDIT-NO-LOG-PROTECTION-002/"
 }

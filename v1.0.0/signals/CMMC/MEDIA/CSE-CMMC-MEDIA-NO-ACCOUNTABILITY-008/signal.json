@@ -18,7 +18,28 @@
       "CMMC MP.L2-3.8.5",
       "NIST SP 800-171 3.8.5"
     ],
-    "detection_notes": "Detected through media inventory review, chain of custody verification, and asset tracking system assessment."
+    "detection_notes": "Detected through media inventory review, chain of custody verification, and asset tracking system assessment.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Media Protection",
+        "section": "3.8.5",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-ACCOUNTABILITY-008/"
 }

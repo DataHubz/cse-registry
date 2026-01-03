@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of development process documentation Assessment of security integration in SDLC phases Evaluation of security requirements gathering processes Examination of security review gates and checkpoints Review of developer security training programs Assessment of secure design and coding standards Analysis of security testing integration A secure SDLC typically includes: **Requirements phase**: Security and compliance requirements identification **Design phase**: Threat modeling and secure architecture design **Development phase**: Secure coding practices and code review **Testing phase**: Security testing (SAST, DAST, penetration testing) **Deployment phase**: Security configuration and deployment validation **Maintenance phase**: Vulnerability"
+    "detection_notes": "Detection of this signal typically involves: Review of development process documentation Assessment of security integration in SDLC phases Evaluation of security requirements gathering processes Examination of security review gates and checkpoints Review of developer security training programs Assessment of secure design and coding standards Analysis of security testing integration A secure SDLC typically includes: **Requirements phase**: Security and compliance requirements identification **Design phase**: Threat modeling and secure architecture design **Development phase**: Secure coding practices and code review **Testing phase**: Security testing (SAST, DAST, penetration testing) **Deployment phase**: Security configuration and deployment validation **Maintenance phase**: Vulnerability",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-SDLC-001/"
 }

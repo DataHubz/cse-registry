@@ -14,8 +14,35 @@
       "identity",
       "authorization"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Analysis of role definitions and permission matrices Review of user-to-role assignments Examination of critical process workflows Assessment of conflicting permission combinations Review of role-based access control (RBAC) implementations Identification of toxic permission combinations Analysis of approval workflows and authorization chains The presence of this signal indicates a significant control weakness that increases the risk of fraud, errors, and unauthorized activities, particularly in financial, clinical, and security-critical processes."
+    "detection_notes": "Detection of this signal typically involves: Analysis of role definitions and permission matrices Review of user-to-role assignments Examination of critical process workflows Assessment of conflicting permission combinations Review of role-based access control (RBAC) implementations Identification of toxic permission combinations Analysis of approval workflows and authorization chains The presence of this signal indicates a significant control weakness that increases the risk of fraud, errors, and unauthorized activities, particularly in financial, clinical, and security-critical processes.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 01 - Access Control",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.AC",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-SEGREGATION-009/"
 }

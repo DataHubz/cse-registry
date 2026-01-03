@@ -1,0 +1,41 @@
+{
+  "id": "CSE-GEN-INCIDENT-NO-BACKUP-002",
+  "canonical_name": "Data Backup Missing",
+  "description": "Critical data and systems are not backed up regularly, risking permanent data loss in the event of system failure, ransomware attack, or other destructive incidents. This signal indicates that the organization may be unable to recover essential data and resume operations following data loss events.",
+  "domain": "GEN (General)",
+  "category": "INCIDENT",
+  "applicability": "This signal applies to: Database systems containing critical business data File servers and shared storage systems Application data and configurations System state and configuration backups Cloud storage and SaaS data Email and communication systems Customer and transaction records Source code repositories",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "recovery",
+      "threat-management"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Scanning for backup configuration files and schedules Checking backup job execution logs and history Verifying presence of backup data in storage locations Reviewing backup policy documentation Monitoring backup software installation and configuration Analyzing cron jobs, scheduled tasks, and automation scripts The presence of this signal indicates a critical gap in data protection that may prevent recovery from data loss events.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework 2.0",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "section": "IR",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/v1.0.0/signals/GEN (General)/INCIDENT/CSE-GEN-INCIDENT-NO-BACKUP-002/"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "CSE-GEN-VENDOR-NO-INVENTORY-004",
+  "canonical_name": "Vendor Inventory Missing",
+  "description": "No maintained inventory of third-party service providers with access to systems or data. This signal indicates the absence of a comprehensive and current catalog of all third-party vendors, service providers, and business partners that have access to organizational systems, networks, or data assets.",
+  "domain": "GEN (General)",
+  "category": "VENDOR",
+  "applicability": "This signal applies to: All organizations utilizing third-party services Cloud service providers and SaaS applications Managed service providers and IT outsourcing Software vendors with system access Contractors and consultants with network access Business process outsourcing providers Supply chain and logistics partners with data access",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of vendor inventory documentation Assessment of vendor registry or catalog systems Examination of vendor onboarding procedures Evaluation of vendor tracking and classification Review of vendor access records and logs Analysis of procurement and contract management systems Assessment of inventory update and maintenance processes A comprehensive vendor inventory typically includes: **Vendor Identification**: Name, type, contact information, business owner **Service Details**: Services provided, systems accessed, criticality **Access Information**: Access levels, authentication, data types **Contract Information**: Start/end dates, contract type, SLAs **Risk Profile**: Risk classification, assessment status, certifications **Compliance**: Re",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework 2.0",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/v1.0.0/signals/GEN (General)/VENDOR/CSE-GEN-VENDOR-NO-INVENTORY-004/"
+}

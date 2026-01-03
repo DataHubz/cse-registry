@@ -17,7 +17,29 @@
     "related_controls": [
       "45 CFR 164.312(e)(2)(ii)"
     ],
-    "detection_notes": "Detection guidance: Analyze network traffic and communication channels for unencrypted ePHI transmission. Check for proper implementation of TLS/SSL for web applications, VPN usage for remote access, and encrypted protocols for file transfers (SFTP, FTPS). Verify that email containing ePHI uses encryption (S/MIME, PGP, or secure email gateways) and that API communications use HTTPS."
+    "detection_notes": "Detection guidance: Analyze network traffic and communication channels for unencrypted ePHI transmission. Check for proper implementation of TLS/SSL for web applications, VPN usage for remote access, and encrypted protocols for file transfers (SFTP, FTPS). Verify that email containing ePHI uses encryption (S/MIME, PGP, or secure email gateways) and that API communications use HTTPS.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart C - Technical Safeguards",
+        "section": "164.312(e)(2)(ii)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+        "type": "guidance",
+        "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+        "section": "6",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+        "type": "guidance",
+        "title": "HHS Security Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-TRANSMISSION-ENCRYPTION-009/"
 }

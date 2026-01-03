@@ -14,8 +14,35 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of organizational policies and procedures Analysis of job descriptions and role definitions Examination of RACI or responsibility matrices Assessment of organizational charts Review of security program documentation Inspection of governance frameworks The presence of this signal indicates a condition that warrants review in the context of organizational security governance requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of organizational policies and procedures Analysis of job descriptions and role definitions Examination of RACI or responsibility matrices Assessment of organizational charts Review of security program documentation Inspection of governance frameworks The presence of this signal indicates a condition that warrants review in the context of organizational security governance requirements.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 06 - Organization of Information Security",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "ID.GV",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-ROLES-001/"
 }

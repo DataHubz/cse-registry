@@ -17,7 +17,22 @@
     "related_controls": [
       "SOC 2 C1.1"
     ],
-    "detection_notes": "Review data classification policies, information inventory, data labeling schemes, and confidentiality definitions. Check for absence of classification framework, unlabeled sensitive data, or unclear confidentiality criteria."
+    "detection_notes": "Review data classification policies, information inventory, data labeling schemes, and confidentiality definitions. Check for absence of classification framework, unlabeled sensitive data, or unclear confidentiality criteria.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - Confidentiality",
+        "section": "C1",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/SOC2/CONF/CSE-SOC2-CONF-NO-DATA-CLASSIFICATION-001/"
 }

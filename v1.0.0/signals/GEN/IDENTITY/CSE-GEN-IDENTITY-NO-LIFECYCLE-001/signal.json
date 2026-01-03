@@ -15,7 +15,27 @@
       "governance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of identity management documentation Assessment of IAM process maturity Interviews with IT and security personnel Analysis of account creation and deletion patterns Examination of orphaned or dormant accounts Review of audit logs for identity changes The presence of this signal indicates a foundational gap in identity governance that should be addressed through policy, process, and potentially technology improvements."
+    "detection_notes": "Detection of this signal typically involves: Review of identity management documentation Assessment of IAM process maturity Interviews with IT and security personnel Analysis of account creation and deletion patterns Examination of orphaned or dormant accounts Review of audit logs for identity changes The presence of this signal indicates a foundational gap in identity governance that should be addressed through policy, process, and potentially technology improvements.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/IDENTITY/CSE-GEN-IDENTITY-NO-LIFECYCLE-001/"
 }

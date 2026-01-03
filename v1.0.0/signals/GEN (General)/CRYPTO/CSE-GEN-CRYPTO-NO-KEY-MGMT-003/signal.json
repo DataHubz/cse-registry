@@ -1,0 +1,47 @@
+{
+  "id": "CSE-GEN-CRYPTO-NO-KEY-MGMT-003",
+  "canonical_name": "Cryptographic Key Management Missing",
+  "description": "No documented process for generating, storing, rotating, or revoking cryptographic keys. This signal indicates the absence of formalized key management practices, which can lead to weak key generation, insecure key storage, failure to rotate keys, inability to revoke compromised keys, and overall compromise of cryptographic systems.",
+  "domain": "GEN (General)",
+  "category": "CRYPTO",
+  "applicability": "This signal applies to: Organizations using encryption for data protection Systems implementing cryptographic controls Key management systems (KMS) and HSM deployments Certificate authorities and PKI infrastructure API key and token management systems Cloud encryption services (AWS KMS, Azure Key Vault, GCP KMS) Database encryption implementations Application-level encryption systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "cryptography",
+      "encryption",
+      "key-management"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Reviewing organizational documentation for key management policies Examining key storage mechanisms and access controls Checking for automated key rotation configurations Analyzing key lifecycle management procedures Verifying existence of key backup and recovery processes Reviewing audit logs for key access and operations Assessing separation of duties in key management Checking for key versioning and tracking mechanisms The presence of this signal indicates a systemic gap in cryptographic key management practices that may undermine the effectiveness of encryption controls.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework 2.0",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "section": "SC",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://owasp.org/www-project-developer-guide/",
+        "type": "guidance",
+        "title": "OWASP Security Guidance",
+        "authority": "OWASP"
+      }
+    ]
+  },
+  "definition_ref": "/v1.0.0/signals/GEN (General)/CRYPTO/CSE-GEN-CRYPTO-NO-KEY-MGMT-003/"
+}

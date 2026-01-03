@@ -17,7 +17,28 @@
     "related_controls": [
       "12.10 - Suspected and confirmed security incidents that could impact the cardholder data environment are responded to immediately"
     ],
-    "detection_notes": "Detection guidance: Verify existence of documented incident response plan covering detection, containment, analysis, recovery, and post-incident activities. Monitor for annual plan reviews, testing exercises, incident response team training, and 24/7 incident response availability. Check for incident logging and evidence retention procedures."
+    "detection_notes": "Detection guidance: Verify existence of documented incident response plan covering detection, containment, analysis, recovery, and post-incident activities. Monitor for annual plan reviews, testing exercises, incident response team training, and 24/7 incident response availability. Check for incident logging and evidence retention procedures.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "section": "Requirement 12: Support Information Security with Organizational Policies",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-INCIDENT-RESPONSE-010/"
 }

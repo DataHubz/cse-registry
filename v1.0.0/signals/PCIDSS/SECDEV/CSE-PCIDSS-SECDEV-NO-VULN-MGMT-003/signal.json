@@ -17,7 +17,27 @@
     "related_controls": [
       "6.3 - Security vulnerabilities are identified and addressed"
     ],
-    "detection_notes": "Detection guidance: Monitor vulnerability scanning results for unpatched systems and applications. Identify systems with outdated software versions or missing critical security patches. Review patch management processes for gaps in vulnerability assessment, prioritization, or remediation timelines. Detect systems excluded from vulnerability scanning without proper justification. Check for absence of vulnerability disclosure monitoring or threat intelligence feeds to identify new vulnerabilities affecting deployed software."
+    "detection_notes": "Detection guidance: Monitor vulnerability scanning results for unpatched systems and applications. Identify systems with outdated software versions or missing critical security patches. Review patch management processes for gaps in vulnerability assessment, prioritization, or remediation timelines. Detect systems excluded from vulnerability scanning without proper justification. Check for absence of vulnerability disclosure monitoring or threat intelligence feeds to identify new vulnerabilities affecting deployed software.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/SECDEV/CSE-PCIDSS-SECDEV-NO-VULN-MGMT-003/"
 }

@@ -18,7 +18,28 @@
       "CMMC SC.L2-3.13.16",
       "NIST SP 800-171 3.13.16"
     ],
-    "detection_notes": "Detected through review of storage encryption configurations, database encryption settings, disk encryption status, and cloud storage encryption policies."
+    "detection_notes": "Detected through review of storage encryption configurations, database encryption settings, disk encryption status, and cloud storage encryption policies.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - System and Communications Protection",
+        "section": "3.13.16",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-ENCRYPTION-REST-002/"
 }

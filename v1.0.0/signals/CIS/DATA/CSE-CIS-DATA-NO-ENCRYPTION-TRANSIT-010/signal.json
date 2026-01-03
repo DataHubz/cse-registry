@@ -14,8 +14,28 @@
       "classification",
       "encryption"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Analysis of network traffic captures Review of application and service configurations Examination of TLS/SSL certificate usage Assessment of protocol enforcement policies Verification of encrypted protocol adoption (HTTPS, SFTP, SSH) Review of database connection encryption Analysis of API security configurations Examination of email security (STARTTLS, TLS) Assessment of VPN and tunnel configurations Review of cloud service connection settings The presence of this signal indicates a condition that warrants review in the context of data confidentiality and network security requirements."
+    "detection_notes": "Detection of this signal typically involves: Analysis of network traffic captures Review of application and service configurations Examination of TLS/SSL certificate usage Assessment of protocol enforcement policies Verification of encrypted protocol adoption (HTTPS, SFTP, SSH) Review of database connection encryption Analysis of API security configurations Examination of email security (STARTTLS, TLS) Assessment of VPN and tunnel configurations Review of cloud service connection settings The presence of this signal indicates a condition that warrants review in the context of data confidentiality and network security requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 3: Data Protection",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-ENCRYPTION-TRANSIT-010/"
 }

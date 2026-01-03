@@ -14,8 +14,28 @@
       "patching",
       "remediation"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of vulnerability prioritization methodologies Assessment of risk scoring models and criteria Analysis of threat intelligence integration Examination of asset criticality classifications Review of compensating controls assessment processes Evaluation of EPSS and CISA KEV catalog usage Assessment of remediation decision documentation Risk-based remediation typically incorporates: **CVSS scores**: Baseline severity assessment **EPSS**: Exploit prediction likelihood **CISA KEV**: Known exploited vulnerabilities **Asset criticality**: Business value and impact **Threat intelligence**: Active exploitation data **Compensating controls**: Existing mitigations **Business context**: Compliance and regulatory drivers The presence of this signal indi"
+    "detection_notes": "Detection of this signal typically involves: Review of vulnerability prioritization methodologies Assessment of risk scoring models and criteria Analysis of threat intelligence integration Examination of asset criticality classifications Review of compensating controls assessment processes Evaluation of EPSS and CISA KEV catalog usage Assessment of remediation decision documentation Risk-based remediation typically incorporates: **CVSS scores**: Baseline severity assessment **EPSS**: Exploit prediction likelihood **CISA KEV**: Known exploited vulnerabilities **Asset criticality**: Business value and impact **Threat intelligence**: Active exploitation data **Compensating controls**: Existing mitigations **Business context**: Compliance and regulatory drivers The presence of this signal indi",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 7: Continuous Vulnerability Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-RISK-REMEDIATION-007/"
 }

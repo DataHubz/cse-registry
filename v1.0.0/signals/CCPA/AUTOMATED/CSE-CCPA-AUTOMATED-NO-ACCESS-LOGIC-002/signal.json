@@ -14,8 +14,33 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Testing of data access request responses for automated decision explanations Review of consumer-facing documentation about algorithmic decision logic Analysis of model explainability and interpretability capabilities Assessment of technical infrastructure for generating explanations Inspection of logged decision data for factor attribution information Review of customer support responses to logic-related inquiries Evaluation of model documentation and explanation generation processes The presence of this signal indicates a condition that warrants review in the context of CPRA requirements for transparency in automated decision-making."
+    "detection_notes": "Detection of this signal typically involves: Testing of data access request responses for automated decision explanations Review of consumer-facing documentation about algorithmic decision logic Analysis of model explainability and interpretability capabilities Assessment of technical infrastructure for generating explanations Inspection of logged decision data for factor attribution information Review of customer support responses to logic-related inquiries Evaluation of model documentation and explanation generation processes The presence of this signal indicates a condition that warrants review in the context of CPRA requirements for transparency in automated decision-making.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CCPA/AUTOMATED/CSE-CCPA-AUTOMATED-NO-ACCESS-LOGIC-002/"
 }

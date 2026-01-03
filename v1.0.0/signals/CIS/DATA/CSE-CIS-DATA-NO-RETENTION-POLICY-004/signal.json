@@ -14,8 +14,28 @@
       "classification",
       "encryption"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of data retention policy documentation Assessment of regulatory retention requirements Examination of automated retention enforcement Analysis of data lifecycle configurations Verification of retention period definitions Review of archival and deletion procedures Assessment of legal hold processes The presence of this signal indicates a condition that warrants review in the context of data governance and compliance requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of data retention policy documentation Assessment of regulatory retention requirements Examination of automated retention enforcement Analysis of data lifecycle configurations Verification of retention period definitions Review of archival and deletion procedures Assessment of legal hold processes The presence of this signal indicates a condition that warrants review in the context of data governance and compliance requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 3: Data Protection",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-RETENTION-POLICY-004/"
 }

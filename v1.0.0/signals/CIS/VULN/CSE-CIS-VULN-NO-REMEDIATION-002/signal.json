@@ -14,8 +14,28 @@
       "patching",
       "remediation"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of remediation policies and procedures Assessment of vulnerability tracking systems Analysis of remediation SLAs and timelines Examination of remediation workflows and assignment processes Review of remediation verification and validation procedures The presence of this signal indicates a condition that warrants review in the context of vulnerability remediation requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of remediation policies and procedures Assessment of vulnerability tracking systems Analysis of remediation SLAs and timelines Examination of remediation workflows and assignment processes Review of remediation verification and validation procedures The presence of this signal indicates a condition that warrants review in the context of vulnerability remediation requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 7: Continuous Vulnerability Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-REMEDIATION-002/"
 }

@@ -15,7 +15,27 @@
       "governance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection guidance: Identify incidents where lateral movement continues after detection, malware spreading beyond initially identified systems, ongoing data exfiltration, or active attacker presence without network segmentation or isolation measures. Monitor for missing containment actions such as system quarantine, network disconnection, account disablement, or firewall rule implementation to limit incident scope."
+    "detection_notes": "Detection guidance: Identify incidents where lateral movement continues after detection, malware spreading beyond initially identified systems, ongoing data exfiltration, or active attacker presence without network segmentation or isolation measures. Monitor for missing containment actions such as system quarantine, network disconnection, account disablement, or firewall rule implementation to limit incident scope.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST CSF 2.0 Publication",
+        "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-20/final",
+        "type": "guidance",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/NISTCSF/MI/CSE-NISTCSF-MI-NO-CONTAINMENT-001/"
 }

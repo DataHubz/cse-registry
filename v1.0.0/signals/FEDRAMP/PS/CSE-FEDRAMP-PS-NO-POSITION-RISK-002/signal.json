@@ -14,8 +14,35 @@
       "background-screening",
       "access-control"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of position risk designation documentation Analysis of risk categorization methodology and criteria Verification of screening criteria alignment with risk levels Assessment of position inventory completeness Examination of risk designation assignment records Inspection of periodic review schedules for designations Review of criteria for significant position changes Verification of OPM policy alignment Analysis of national security position identification The presence of this signal indicates a condition that warrants review in the context of FedRAMP personnel security requirements. Position risk designations should be documented, current, and consistently applied across the organization."
+    "detection_notes": "Detection of this signal typically involves: Review of position risk designation documentation Analysis of risk categorization methodology and criteria Verification of screening criteria alignment with risk levels Assessment of position inventory completeness Examination of risk designation assignment records Inspection of periodic review schedules for designations Review of criteria for significant position changes Verification of OPM policy alignment Analysis of national security position identification The presence of this signal indicates a condition that warrants review in the context of FedRAMP personnel security requirements. Position risk designations should be documented, current, and consistently applied across the organization.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "PS",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Personnel Security",
+        "section": "PS",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/PS/CSE-FEDRAMP-PS-NO-POSITION-RISK-002/"
 }

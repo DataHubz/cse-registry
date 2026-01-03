@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **Missing Security Clauses**: Contracts lack dedicated security requirements sections 2. **Generic Boilerplate Only**: Contracts contain only generic security language without specific, measurable requirements 3. **No Audit Rights**: Contracts do not include rights to audit or review security controls 4. **Missing Incident Response Terms**: No breach notification timeframes or incident response procedures defined 5. **Inadequate Data Protection**: Data handling, retention, and deletion requirements not specified 6. **No Compliance Requirements**: Contracts do not mandate relevant compliance certifications or assessments 7. **Missing Performance Metrics**: No security-related service level agreements or key performance indicator"
+    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **Missing Security Clauses**: Contracts lack dedicated security requirements sections 2. **Generic Boilerplate Only**: Contracts contain only generic security language without specific, measurable requirements 3. **No Audit Rights**: Contracts do not include rights to audit or review security controls 4. **Missing Incident Response Terms**: No breach notification timeframes or incident response procedures defined 5. **Inadequate Data Protection**: Data handling, retention, and deletion requirements not specified 6. **No Compliance Requirements**: Contracts do not mandate relevant compliance certifications or assessments 7. **Missing Performance Metrics**: No security-related service level agreements or key performance indicator",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-REQUIREMENTS-003/"
 }

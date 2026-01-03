@@ -15,7 +15,27 @@
       "governance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of compliance program documentation Examination of audit schedules and reports Interviews with compliance and audit personnel Review of management review meeting minutes Assessment of compliance monitoring tools Examination of corrective action tracking Review of regulatory filing and reporting The presence of this signal indicates a governance gap that can result in: Undetected compliance violations Ineffective security controls Regulatory penalties and fines Failed audits or certifications Inability to demonstrate due diligence Erosion of security posture over time Loss of customer or partner trust Organizations should establish a compliance review process that includes: Documented review procedures and schedules Regular internal audits"
+    "detection_notes": "Detection of this signal typically involves: Review of compliance program documentation Examination of audit schedules and reports Interviews with compliance and audit personnel Review of management review meeting minutes Assessment of compliance monitoring tools Examination of corrective action tracking Review of regulatory filing and reporting The presence of this signal indicates a governance gap that can result in: Undetected compliance violations Ineffective security controls Regulatory penalties and fines Failed audits or certifications Inability to demonstrate due diligence Erosion of security posture over time Loss of customer or partner trust Organizations should establish a compliance review process that includes: Documented review procedures and schedules Regular internal audits",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/GOVERN/CSE-GEN-GOVERN-NO-COMPLIANCE-REVIEW-005/"
 }

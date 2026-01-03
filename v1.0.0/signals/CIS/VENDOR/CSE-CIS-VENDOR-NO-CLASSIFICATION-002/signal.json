@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **No Classification Criteria**: Organization has not defined criteria for classifying service providers by risk 2. **Unclassified Providers**: Service providers in inventory lack risk classification or tiering 3. **Missing Data Sensitivity Assessment**: Providers not evaluated for types/sensitivity of data they access 4. **Missing Criticality Assessment**: Services not evaluated for business criticality or operational impact 5. **Uniform Treatment**: All vendors treated identically regardless of risk level 6. **No Risk-Based Controls**: Security requirements and oversight not adjusted based on provider classification ### Common Classification Criteria Organizations typically classify service providers based on: **Data Sensitivi"
+    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **No Classification Criteria**: Organization has not defined criteria for classifying service providers by risk 2. **Unclassified Providers**: Service providers in inventory lack risk classification or tiering 3. **Missing Data Sensitivity Assessment**: Providers not evaluated for types/sensitivity of data they access 4. **Missing Criticality Assessment**: Services not evaluated for business criticality or operational impact 5. **Uniform Treatment**: All vendors treated identically regardless of risk level 6. **No Risk-Based Controls**: Security requirements and oversight not adjusted based on provider classification ### Common Classification Criteria Organizations typically classify service providers based on: **Data Sensitivi",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-CLASSIFICATION-002/"
 }

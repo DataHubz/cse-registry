@@ -1,12 +1,9 @@
 {
-  "schema_version": "1.0.0",
-  "type": "signal-to-control-mapping",
-  "framework": {
-    "id": "GDPR",
-    "name": "General Data Protection Regulation",
-    "version": "2016/679"
-  },
-  "generated": "2025-12-28T00:00:00Z",
+  "framework": "GDPR",
+  "framework_version": "2016",
+  "version": "1.0.0",
+  "generated_at": "2026-01-03T23:18:46.576Z",
+  "total_mappings": 84,
   "mappings": [
     {
       "id": "MAP-CSE-GDPR-CHILDREN-NO-AGE-VERIFICATION-001-TO-GDPR-Article 8",
@@ -18,7 +15,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 8",
         "title": "Age Verification Not Implemented"
       },
@@ -26,13 +22,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 8: Age Verification Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 8: Age Verification Not Implemented."
       }
     },
     {
@@ -45,21 +35,14 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 8",
-        "title": "Parental Consent Not Obtained"
+        "title": "Age Verification Not Implemented"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 8: Parental Consent Not Obtained.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 8: Parental Consent Not Obtained."
       }
     },
     {
@@ -72,7 +55,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 7.4",
         "title": "Consent Not Freely Given"
       },
@@ -80,13 +62,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 7.4: Consent Not Freely Given.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 7.4: Consent Not Freely Given."
       }
     },
     {
@@ -99,7 +75,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 7.2",
         "title": "Consent Not Informed"
       },
@@ -107,13 +82,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 7.2: Consent Not Informed.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 7.2: Consent Not Informed."
       }
     },
     {
@@ -126,7 +95,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 7.1",
         "title": "Consent Records Not Maintained"
       },
@@ -134,13 +102,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 7.1: Consent Records Not Maintained.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 7.1: Consent Records Not Maintained."
       }
     },
     {
@@ -153,7 +115,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 4.11",
         "title": "Consent Not Specific"
       },
@@ -161,13 +122,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 4.11: Consent Not Specific.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 4.11: Consent Not Specific."
       }
     },
     {
@@ -180,7 +135,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 7.3",
         "title": "Consent Withdrawal Mechanism Missing"
       },
@@ -188,13 +142,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 7.3: Consent Withdrawal Mechanism Missing.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 7.3: Consent Withdrawal Mechanism Missing."
       }
     },
     {
@@ -207,7 +155,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 24.1",
         "title": "Compliance Measures Not Implemented"
       },
@@ -215,13 +162,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 24.1: Compliance Measures Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 24.1: Compliance Measures Not Implemented."
       }
     },
     {
@@ -234,7 +175,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 28.3(g)",
         "title": "Processor Data Return Not Provided"
       },
@@ -242,13 +182,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 28.3(g): Processor Data Return Not Provided.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 28.3(g): Processor Data Return Not Provided."
       }
     },
     {
@@ -261,7 +195,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 27",
         "title": "EU Representative Not Designated"
       },
@@ -269,13 +202,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 27: EU Representative Not Designated.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 27: EU Representative Not Designated."
       }
     },
     {
@@ -288,7 +215,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 26",
         "title": "Joint Controller Arrangement Not Established"
       },
@@ -296,13 +222,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 26: Joint Controller Arrangement Not Established.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 26: Joint Controller Arrangement Not Established."
       }
     },
     {
@@ -315,7 +235,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 24.2",
         "title": "Policy Documentation Not Maintained"
       },
@@ -323,13 +242,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 24.2: Policy Documentation Not Maintained.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 24.2: Policy Documentation Not Maintained."
       }
     },
     {
@@ -342,7 +255,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 29",
         "title": "Processing Instructions Not Documented"
       },
@@ -350,13 +262,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 29: Processing Instructions Not Documented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 29: Processing Instructions Not Documented."
       }
     },
     {
@@ -369,7 +275,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 30.1",
         "title": "Controller Processing Records Not Maintained"
       },
@@ -377,13 +282,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 30.1: Controller Processing Records Not Maintained.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 30.1: Controller Processing Records Not Maintained."
       }
     },
     {
@@ -396,7 +295,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 28.3",
         "title": "Processor Contract Not Established"
       },
@@ -404,13 +302,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 28.3: Processor Contract Not Established.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 28.3: Processor Contract Not Established."
       }
     },
     {
@@ -423,7 +315,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 28.1",
         "title": "Processor Due Diligence Not Performed"
       },
@@ -431,13 +322,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 28.1: Processor Due Diligence Not Performed.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 28.1: Processor Due Diligence Not Performed."
       }
     },
     {
@@ -450,7 +335,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 30.2",
         "title": "Processor Processing Records Not Maintained"
       },
@@ -458,13 +342,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 30.2: Processor Processing Records Not Maintained.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 30.2: Processor Processing Records Not Maintained."
       }
     },
     {
@@ -477,7 +355,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 28.2,28.4",
         "title": "Sub-Processor Controls Not Implemented"
       },
@@ -485,13 +362,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 28.2,28.4: Sub-Processor Controls Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 28.2,28.4: Sub-Processor Controls Not Implemented."
       }
     },
     {
@@ -504,7 +375,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 25.2",
         "title": "Data Minimization Not Default"
       },
@@ -512,13 +382,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 25.2: Data Minimization Not Default.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 25.2: Data Minimization Not Default."
       }
     },
     {
@@ -531,21 +395,14 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 25.2",
-        "title": "Privacy by Default Not Implemented"
+        "title": "Data Minimization Not Default"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 25.2: Privacy by Default Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 25.2: Privacy by Default Not Implemented."
       }
     },
     {
@@ -558,7 +415,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 25.1",
         "title": "Privacy by Design Not Implemented"
       },
@@ -566,13 +422,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 25.1: Privacy by Design Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 25.1: Privacy by Design Not Implemented."
       }
     },
     {
@@ -585,7 +435,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 37.7",
         "title": "DPO Contact Details Not Published"
       },
@@ -593,13 +442,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 37.7: DPO Contact Details Not Published.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 37.7: DPO Contact Details Not Published."
       }
     },
     {
@@ -612,7 +455,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 37.1",
         "title": "DPO Not Designated"
       },
@@ -620,13 +462,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 37.1: DPO Not Designated.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 37.1: DPO Not Designated."
       }
     },
     {
@@ -639,7 +475,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 38.3",
         "title": "DPO Independence Not Ensured"
       },
@@ -647,13 +482,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 38.3: DPO Independence Not Ensured.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 38.3: DPO Independence Not Ensured."
       }
     },
     {
@@ -666,7 +495,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 38.2",
         "title": "DPO Task Resources Not Provided"
       },
@@ -674,13 +502,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 38.2: DPO Task Resources Not Provided.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 38.2: DPO Task Resources Not Provided."
       }
     },
     {
@@ -693,7 +515,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 35.7",
         "title": "DPIA Documentation Not Complete"
       },
@@ -701,13 +522,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 35.7: DPIA Documentation Not Complete.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 35.7: DPIA Documentation Not Complete."
       }
     },
     {
@@ -720,7 +535,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 35.1",
         "title": "DPIA Process Not Implemented"
       },
@@ -728,13 +542,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 35.1: DPIA Process Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 35.1: DPIA Process Not Implemented."
       }
     },
     {
@@ -747,7 +555,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 35.11",
         "title": "DPIA Review Not Conducted"
       },
@@ -755,13 +562,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 35.11: DPIA Review Not Conducted.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 35.11: DPIA Review Not Conducted."
       }
     },
     {
@@ -774,7 +575,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 36",
         "title": "Prior Consultation Not Conducted"
       },
@@ -782,13 +582,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 36: Prior Consultation Not Conducted.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 36: Prior Consultation Not Conducted."
       }
     },
     {
@@ -801,7 +595,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 10",
         "title": "Criminal Data Not Protected"
       },
@@ -809,13 +602,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 10: Criminal Data Not Protected.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 10: Criminal Data Not Protected."
       }
     },
     {
@@ -828,7 +615,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 5.2",
         "title": "No Accountability Measures"
       },
@@ -836,13 +622,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 5.2: No Accountability Measures.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 5.2: No Accountability Measures."
       }
     },
     {
@@ -855,7 +635,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 5.1(d)",
         "title": "Data Accuracy Not Ensured"
       },
@@ -863,13 +642,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 5.1(d): Data Accuracy Not Ensured.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 5.1(d): Data Accuracy Not Ensured."
       }
     },
     {
@@ -882,7 +655,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 7",
         "title": "No Consent Mechanism"
       },
@@ -890,13 +662,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 7: No Consent Mechanism.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 7: No Consent Mechanism."
       }
     },
     {
@@ -909,7 +675,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 5.1(c)",
         "title": "Data Minimization Not Enforced"
       },
@@ -917,13 +682,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 5.1(c): Data Minimization Not Enforced.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 5.1(c): Data Minimization Not Enforced."
       }
     },
     {
@@ -936,7 +695,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 5.1(a)",
         "title": "Unfair Processing Practices"
       },
@@ -944,13 +702,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 5.1(a): Unfair Processing Practices.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 5.1(a): Unfair Processing Practices."
       }
     },
     {
@@ -963,7 +715,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 5.1(f)",
         "title": "No Integrity/Confidentiality Measures"
       },
@@ -971,13 +722,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 5.1(f): No Integrity/Confidentiality Measures.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 5.1(f): No Integrity/Confidentiality Measures."
       }
     },
     {
@@ -990,7 +735,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 6",
         "title": "Lawful Basis Not Documented"
       },
@@ -998,13 +742,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 6: Lawful Basis Not Documented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 6: Lawful Basis Not Documented."
       }
     },
     {
@@ -1017,21 +755,14 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 6",
-        "title": "Processing Without Lawful Basis"
+        "title": "Lawful Basis Not Documented"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 6: Processing Without Lawful Basis.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 6: Processing Without Lawful Basis."
       }
     },
     {
@@ -1044,7 +775,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 5.1(b)",
         "title": "Purpose Limitation Not Enforced"
       },
@@ -1052,13 +782,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 5.1(b): Purpose Limitation Not Enforced.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 5.1(b): Purpose Limitation Not Enforced."
       }
     },
     {
@@ -1071,7 +795,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 5.1(e)",
         "title": "Storage Limitation Not Enforced"
       },
@@ -1079,13 +802,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 5.1(e): Storage Limitation Not Enforced.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 5.1(e): Storage Limitation Not Enforced."
       }
     },
     {
@@ -1098,21 +815,14 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 5.1(a)",
-        "title": "Lack of Processing Transparency"
+        "title": "Unfair Processing Practices"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 5.1(a): Lack of Processing Transparency.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 5.1(a): Lack of Processing Transparency."
       }
     },
     {
@@ -1125,7 +835,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 9",
         "title": "Special Category Data Not Protected"
       },
@@ -1133,13 +842,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 9: Special Category Data Not Protected.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 9: Special Category Data Not Protected."
       }
     },
     {
@@ -1152,7 +855,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 15",
         "title": "Subject Access Request Mechanism Missing"
       },
@@ -1160,13 +862,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 15: Subject Access Request Mechanism Missing.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 15: Subject Access Request Mechanism Missing."
       }
     },
     {
@@ -1179,7 +875,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 22.1",
         "title": "Automated Decision-Making Not Disclosed"
       },
@@ -1187,13 +882,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 22.1: Automated Decision-Making Not Disclosed.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 22.1: Automated Decision-Making Not Disclosed."
       }
     },
     {
@@ -1206,7 +895,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 13",
         "title": "Privacy Notice at Collection Missing"
       },
@@ -1214,13 +902,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 13: Privacy Notice at Collection Missing.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 13: Privacy Notice at Collection Missing."
       }
     },
     {
@@ -1233,7 +915,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 15.3",
         "title": "Data Copy Provision Not Implemented"
       },
@@ -1241,13 +922,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 15.3: Data Copy Provision Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 15.3: Data Copy Provision Not Implemented."
       }
     },
     {
@@ -1260,7 +935,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 17",
         "title": "Data Erasure Mechanism Missing"
       },
@@ -1268,13 +942,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 17: Data Erasure Mechanism Missing.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 17: Data Erasure Mechanism Missing."
       }
     },
     {
@@ -1287,7 +955,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 17.2",
         "title": "Erasure Propagation Not Implemented"
       },
@@ -1295,13 +962,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 17.2: Erasure Propagation Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 17.2: Erasure Propagation Not Implemented."
       }
     },
     {
@@ -1314,7 +975,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 22.3",
         "title": "Human Intervention Right Not Ensured"
       },
@@ -1322,13 +982,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 22.3: Human Intervention Right Not Ensured.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 22.3: Human Intervention Right Not Ensured."
       }
     },
     {
@@ -1341,7 +995,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 12.6",
         "title": "Identity Verification Not Implemented"
       },
@@ -1349,13 +1002,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 12.6: Identity Verification Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 12.6: Identity Verification Not Implemented."
       }
     },
     {
@@ -1368,7 +1015,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 14.3",
         "title": "Indirect Collection Notice Missing"
       },
@@ -1376,13 +1022,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 14.3: Indirect Collection Notice Missing.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 14.3: Indirect Collection Notice Missing."
       }
     },
     {
@@ -1395,7 +1035,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 21.2,21.3",
         "title": "Direct Marketing Opt-Out Missing"
       },
@@ -1403,13 +1042,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 21.2,21.3: Direct Marketing Opt-Out Missing.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 21.2,21.3: Direct Marketing Opt-Out Missing."
       }
     },
     {
@@ -1422,7 +1055,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 21.1",
         "title": "Objection Mechanism Not Implemented"
       },
@@ -1430,13 +1062,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 21.1: Objection Mechanism Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 21.1: Objection Mechanism Not Implemented."
       }
     },
     {
@@ -1449,7 +1075,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 20",
         "title": "Data Portability Mechanism Missing"
       },
@@ -1457,13 +1082,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 20: Data Portability Mechanism Missing.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 20: Data Portability Mechanism Missing."
       }
     },
     {
@@ -1476,21 +1095,14 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 13",
-        "title": "Privacy Policy Not Provided"
+        "title": "Privacy Notice at Collection Missing"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 13: Privacy Policy Not Provided.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 13: Privacy Policy Not Provided."
       }
     },
     {
@@ -1503,7 +1115,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 19",
         "title": "Recipient Notification Not Implemented"
       },
@@ -1511,13 +1122,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 19: Recipient Notification Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 19: Recipient Notification Not Implemented."
       }
     },
     {
@@ -1530,7 +1135,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 16",
         "title": "Data Rectification Mechanism Missing"
       },
@@ -1538,13 +1142,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 16: Data Rectification Mechanism Missing.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 16: Data Rectification Mechanism Missing."
       }
     },
     {
@@ -1557,7 +1155,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 12.3,12.4",
         "title": "Response Mechanism Not Implemented"
       },
@@ -1565,13 +1162,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 12.3,12.4: Response Mechanism Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 12.3,12.4: Response Mechanism Not Implemented."
       }
     },
     {
@@ -1584,7 +1175,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 18",
         "title": "Processing Restriction Mechanism Missing"
       },
@@ -1592,13 +1182,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 18: Processing Restriction Mechanism Missing.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 18: Processing Restriction Mechanism Missing."
       }
     },
     {
@@ -1611,7 +1195,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 12.1",
         "title": "Transparent Communication Not Provided"
       },
@@ -1619,13 +1202,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 12.1: Transparent Communication Not Provided.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 12.1: Transparent Communication Not Provided."
       }
     },
     {
@@ -1638,7 +1215,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 32.4",
         "title": "Access Control Not Implemented"
       },
@@ -1646,13 +1222,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 32.4: Access Control Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 32.4: Access Control Not Implemented."
       }
     },
     {
@@ -1665,7 +1235,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 32.1(b)",
         "title": "Availability Measures Not Implemented"
       },
@@ -1673,13 +1242,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 32.1(b): Availability Measures Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 32.1(b): Availability Measures Not Implemented."
       }
     },
     {
@@ -1692,7 +1255,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 33",
         "title": "Breach Detection Not Implemented"
       },
@@ -1700,13 +1262,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 33: Breach Detection Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 33: Breach Detection Not Implemented."
       }
     },
     {
@@ -1719,7 +1275,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 33.5",
         "title": "Breach Documentation Not Maintained"
       },
@@ -1727,13 +1282,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 33.5: Breach Documentation Not Maintained.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 33.5: Breach Documentation Not Maintained."
       }
     },
     {
@@ -1746,21 +1295,14 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 33",
-        "title": "Breach Notification Process Not Established"
+        "title": "Breach Detection Not Implemented"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 33: Breach Notification Process Not Established.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 33: Breach Notification Process Not Established."
       }
     },
     {
@@ -1773,21 +1315,14 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 32.1(b)",
-        "title": "Confidentiality Measures Not Implemented"
+        "title": "Availability Measures Not Implemented"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 32.1(b): Confidentiality Measures Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 32.1(b): Confidentiality Measures Not Implemented."
       }
     },
     {
@@ -1800,7 +1335,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 32.1(a)",
         "title": "Encryption Not Implemented"
       },
@@ -1808,13 +1342,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 32.1(a): Encryption Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 32.1(a): Encryption Not Implemented."
       }
     },
     {
@@ -1827,21 +1355,14 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 32.1(b)",
-        "title": "Integrity Measures Not Implemented"
+        "title": "Availability Measures Not Implemented"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 32.1(b): Integrity Measures Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 32.1(b): Integrity Measures Not Implemented."
       }
     },
     {
@@ -1854,21 +1375,14 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 32.1(a)",
-        "title": "Pseudonymization Not Implemented"
+        "title": "Encryption Not Implemented"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 32.1(a): Pseudonymization Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 32.1(a): Pseudonymization Not Implemented."
       }
     },
     {
@@ -1881,7 +1395,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 32.1(c)",
         "title": "Recovery Capability Not Implemented"
       },
@@ -1889,13 +1402,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 32.1(c): Recovery Capability Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 32.1(c): Recovery Capability Not Implemented."
       }
     },
     {
@@ -1908,21 +1415,14 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 32.1(b)",
-        "title": "Resilience Measures Not Implemented"
+        "title": "Availability Measures Not Implemented"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 32.1(b): Resilience Measures Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 32.1(b): Resilience Measures Not Implemented."
       }
     },
     {
@@ -1935,7 +1435,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 32",
         "title": "Security Risk Assessment Not Performed"
       },
@@ -1943,13 +1442,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 32: Security Risk Assessment Not Performed.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 32: Security Risk Assessment Not Performed."
       }
     },
     {
@@ -1962,7 +1455,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 32.1(d)",
         "title": "Security Testing Not Performed"
       },
@@ -1970,13 +1462,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 32.1(d): Security Testing Not Performed.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 32.1(d): Security Testing Not Performed."
       }
     },
     {
@@ -1989,7 +1475,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 34",
         "title": "Data Subject Breach Notification Process Not Established"
       },
@@ -1997,13 +1482,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 34: Data Subject Breach Notification Process Not Established.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 34: Data Subject Breach Notification Process Not Established."
       }
     },
     {
@@ -2016,7 +1495,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 45",
         "title": "Adequacy Decision Not Verified"
       },
@@ -2024,13 +1502,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 45: Adequacy Decision Not Verified.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 45: Adequacy Decision Not Verified."
       }
     },
     {
@@ -2043,7 +1515,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 47",
         "title": "Binding Corporate Rules Not Implemented"
       },
@@ -2051,13 +1522,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 47: Binding Corporate Rules Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 47: Binding Corporate Rules Not Implemented."
       }
     },
     {
@@ -2070,7 +1535,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 49",
         "title": "Derogation Documentation Not Maintained"
       },
@@ -2078,13 +1542,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 49: Derogation Documentation Not Maintained.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 49: Derogation Documentation Not Maintained."
       }
     },
     {
@@ -2097,7 +1555,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 46",
         "title": "Appropriate Safeguards Not Implemented"
       },
@@ -2105,13 +1562,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 46: Appropriate Safeguards Not Implemented.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 46: Appropriate Safeguards Not Implemented."
       }
     },
     {
@@ -2124,7 +1575,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 46.2",
         "title": "Standard Contractual Clauses Not Used"
       },
@@ -2132,13 +1582,7 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses GDPR Article 46.2: Standard Contractual Clauses Not Used.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses GDPR Article 46.2: Standard Contractual Clauses Not Used."
       }
     },
     {
@@ -2151,7 +1595,6 @@
       "target": {
         "type": "control",
         "framework": "GDPR",
-        "version": "2016/679",
         "id": "Article 44",
         "title": "Transfer Assessment Not Conducted"
       },
@@ -2159,13 +1602,87 @@
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
+        "justification": "Signal directly addresses GDPR Article 44: Transfer Assessment Not Conducted."
+      }
+    },
+    {
+      "id": "MAP-CSE-GEN-AUTH-NO-ACCESS-CONTROL-003-TO-GDPR-Article-321b",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-ACCESS-CONTROL-003",
+        "version": "1.0.0"
       },
-      "justification": "Signal directly addresses GDPR Article 44: Transfer Assessment Not Conducted.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+      "target": {
+        "type": "control",
+        "framework": "GDPR",
+        "id": "Article 32(1)(b)",
+        "title": "Ability to ensure confidentiality"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN access control maps to GDPR confidentiality requirement"
+      }
+    },
+    {
+      "id": "MAP-CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001-TO-GDPR-Article-32",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "GDPR",
+        "id": "Article 32",
+        "title": "Security Risk Assessment Not Performed"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN encryption signal maps to GDPR security measures"
+      }
+    },
+    {
+      "id": "MAP-CSE-GEN-INCIDENT-NO-BACKUP-002-TO-GDPR-Article-321c",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-BACKUP-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "GDPR",
+        "id": "Article 32(1)(c)",
+        "title": "Ability to restore availability"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN backup signal maps to GDPR availability requirement"
+      }
+    },
+    {
+      "id": "MAP-CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001-TO-GDPR-Article-33",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "GDPR",
+        "id": "Article 33",
+        "title": "Breach Detection Not Implemented"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN incident response maps to GDPR breach notification"
       }
     }
   ]

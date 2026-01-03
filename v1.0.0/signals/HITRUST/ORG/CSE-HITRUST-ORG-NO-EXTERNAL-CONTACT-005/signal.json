@@ -14,8 +14,35 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of incident response procedures Analysis of breach notification processes Examination of regulatory compliance documentation Assessment of information sharing agreements Review of law enforcement coordination procedures Inspection of industry partnership documentation Analysis of crisis management plans Evaluation of external contact lists The presence of this signal indicates a condition that warrants review in the context of external stakeholder engagement and regulatory coordination requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of incident response procedures Analysis of breach notification processes Examination of regulatory compliance documentation Assessment of information sharing agreements Review of law enforcement coordination procedures Inspection of industry partnership documentation Analysis of crisis management plans Evaluation of external contact lists The presence of this signal indicates a condition that warrants review in the context of external stakeholder engagement and regulatory coordination requirements.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 06 - Organization of Information Security",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "ID.GV",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-EXTERNAL-CONTACT-005/"
 }

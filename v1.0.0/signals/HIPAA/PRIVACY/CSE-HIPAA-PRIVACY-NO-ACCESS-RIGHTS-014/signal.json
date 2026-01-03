@@ -17,7 +17,22 @@
     "related_controls": [
       "45 CFR 164.524"
     ],
-    "detection_notes": "Detect absence of access request mechanisms, denied access requests without valid grounds for denial, or systems that do not provide individuals the ability to inspect and obtain copies of their PHI in designated record sets."
+    "detection_notes": "Detect absence of access request mechanisms, denied access requests without valid grounds for denial, or systems that do not provide individuals the ability to inspect and obtain copies of their PHI in designated record sets.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+        "section": "164.500",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+        "type": "guidance",
+        "title": "HHS Privacy Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCESS-RIGHTS-014/"
 }

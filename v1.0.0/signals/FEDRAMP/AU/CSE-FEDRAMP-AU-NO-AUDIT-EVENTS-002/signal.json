@@ -17,7 +17,35 @@
     "related_controls": [
       "AU-2"
     ],
-    "detection_notes": "Detection guidance: Look for missing auditable events list, undefined event types, and lack of coordination between security functions for audit requirements."
+    "detection_notes": "Detection guidance: Look for missing auditable events list, undefined event types, and lack of coordination between security functions for audit requirements.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "AU-2",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Audit and Accountability",
+        "section": "AU-2",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/AU/CSE-FEDRAMP-AU-NO-AUDIT-EVENTS-002/"
 }

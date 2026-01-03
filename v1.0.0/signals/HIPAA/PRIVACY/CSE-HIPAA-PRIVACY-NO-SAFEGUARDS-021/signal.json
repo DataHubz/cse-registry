@@ -17,7 +17,22 @@
     "related_controls": [
       "45 CFR 164.530(c)"
     ],
-    "detection_notes": "Detect absence of documented safeguards, inadequate access controls, lack of physical security measures, or insufficient technical protections for PHI. Evaluate administrative policies, technical security controls (encryption, authentication, audit logs), and physical security measures (locked files, secure facilities, visitor controls)."
+    "detection_notes": "Detect absence of documented safeguards, inadequate access controls, lack of physical security measures, or insufficient technical protections for PHI. Evaluate administrative policies, technical security controls (encryption, authentication, audit logs), and physical security measures (locked files, secure facilities, visitor controls).",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+        "section": "164.530(c)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+        "type": "guidance",
+        "title": "HHS Privacy Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SAFEGUARDS-021/"
 }

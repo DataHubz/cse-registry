@@ -15,7 +15,27 @@
       "governance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of training program documentation Examination of training records and completion tracking Interviews with HR and security personnel Review of onboarding and orientation materials Assessment of training content and delivery methods Audit findings and compliance reports Employee surveys or assessments The presence of this signal indicates a significant risk that personnel may: Fall victim to phishing and social engineering attacks Mishandle sensitive data Use weak authentication practices Fail to report security incidents Violate security policies unknowingly Introduce malware or other threats Create compliance violations Organizations should establish a security awareness program that includes: Initial training for new hires Annual refresh"
+    "detection_notes": "Detection of this signal typically involves: Review of training program documentation Examination of training records and completion tracking Interviews with HR and security personnel Review of onboarding and orientation materials Assessment of training content and delivery methods Audit findings and compliance reports Employee surveys or assessments The presence of this signal indicates a significant risk that personnel may: Fall victim to phishing and social engineering attacks Mishandle sensitive data Use weak authentication practices Fail to report security incidents Violate security policies unknowingly Introduce malware or other threats Create compliance violations Organizations should establish a security awareness program that includes: Initial training for new hires Annual refresh",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/GOVERN/CSE-GEN-GOVERN-NO-TRAINING-004/"
 }

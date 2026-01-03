@@ -17,7 +17,27 @@
     "related_controls": [
       "12.f - Information Redundancy"
     ],
-    "detection_notes": "Detection of this signal typically involves: Review of redundancy architecture for critical systems and data Examination of backup and replication strategies and implementation Verification of geographic distribution of redundant resources Analysis of failover capabilities and automatic switching mechanisms Assessment of redundancy testing and validation procedures Validation of capacity planning for redundant infrastructure Review of single points of failure in critical systems Examination of RTO and RPO alignment with redundancy capabilities The presence of this signal indicates that the organization lacks technical safeguards to maintain operations during system failures or facility disruptions, may experience data loss exceeding acceptable thresholds, cannot meet recovery objectives fo"
+    "detection_notes": "Detection of this signal typically involves: Review of redundancy architecture for critical systems and data Examination of backup and replication strategies and implementation Verification of geographic distribution of redundant resources Analysis of failover capabilities and automatic switching mechanisms Assessment of redundancy testing and validation procedures Validation of capacity planning for redundant infrastructure Review of single points of failure in critical systems Examination of RTO and RPO alignment with redundancy capabilities The presence of this signal indicates that the organization lacks technical safeguards to maintain operations during system failures or facility disruptions, may experience data loss exceeding acceptable thresholds, cannot meet recovery objectives fo",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-REDUNDANCY-006/"
 }

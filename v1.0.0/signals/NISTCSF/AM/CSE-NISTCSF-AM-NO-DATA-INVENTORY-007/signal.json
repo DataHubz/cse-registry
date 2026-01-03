@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection guidance: Monitor for absence of data catalogs, missing data classification inventories, lack of metadata management, or gaps in data asset documentation. Organizations should maintain comprehensive inventories that include sensitive data locations, data types, data owners, retention requirements, and processing activities for compliance with privacy and data protection regulations."
+    "detection_notes": "Detection guidance: Monitor for absence of data catalogs, missing data classification inventories, lack of metadata management, or gaps in data asset documentation. Organizations should maintain comprehensive inventories that include sensitive data locations, data types, data owners, retention requirements, and processing activities for compliance with privacy and data protection regulations.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework 2.0",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-20/final",
+        "type": "guidance",
+        "title": "NIST CSF 2.0 Publication",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "authority": "NIST"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-DATA-INVENTORY-007/"
 }

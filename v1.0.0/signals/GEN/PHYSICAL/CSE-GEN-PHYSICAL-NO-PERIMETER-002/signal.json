@@ -15,7 +15,28 @@
       "access-control"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Physical site survey and inspection Review of facility security plans Assessment of perimeter barriers and fencing Evaluation of entry/exit control points Examination of vehicle access procedures Analysis of perimeter monitoring systems Review of security guard or patrol services Assessment of perimeter intrusion detection capabilities Effective physical perimeter security programs typically include: **Defined Perimeter**: Clear boundary delineation with appropriate barriers **Physical Barriers**: Fencing, walls, gates, and vehicle barriers **Access Control**: Limited and controlled entry/exit points **Vehicle Security**: Barriers, gates, and inspection procedures **Monitoring**: CCTV cameras, sensors, and lighting **Detection**: Intrusion detec"
+    "detection_notes": "Detection of this signal typically involves: Physical site survey and inspection Review of facility security plans Assessment of perimeter barriers and fencing Evaluation of entry/exit control points Examination of vehicle access procedures Analysis of perimeter monitoring systems Review of security guard or patrol services Assessment of perimeter intrusion detection capabilities Effective physical perimeter security programs typically include: **Defined Perimeter**: Clear boundary delineation with appropriate barriers **Physical Barriers**: Fencing, walls, gates, and vehicle barriers **Access Control**: Limited and controlled entry/exit points **Vehicle Security**: Barriers, gates, and inspection procedures **Monitoring**: CCTV cameras, sensors, and lighting **Detection**: Intrusion detec",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "PE"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/PHYSICAL/CSE-GEN-PHYSICAL-NO-PERIMETER-002/"
 }

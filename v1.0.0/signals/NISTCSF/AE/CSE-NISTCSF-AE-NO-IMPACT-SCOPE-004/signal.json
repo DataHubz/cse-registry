@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection guidance: Organizations should assess and document the estimated impact of adverse events on business operations, data confidentiality, system integrity, and service availability. Understanding the scope includes identifying all affected systems, users, data assets, and business processes to enable appropriate prioritization and response actions."
+    "detection_notes": "Detection guidance: Organizations should assess and document the estimated impact of adverse events on business operations, data confidentiality, system integrity, and service availability. Understanding the scope includes identifying all affected systems, users, data assets, and business processes to enable appropriate prioritization and response actions.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework 2.0",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-20/final",
+        "type": "guidance",
+        "title": "NIST CSF 2.0 Publication",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "authority": "NIST"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/NISTCSF/AE/CSE-NISTCSF-AE-NO-IMPACT-SCOPE-004/"
 }

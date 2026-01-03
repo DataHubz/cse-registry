@@ -14,8 +14,27 @@
       "identity",
       "credential-security"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Automated analysis of authentication logs and last login timestamps Correlation of account status with HR termination records Review of access key usage and API credential activity Periodic account recertification and access reviews Monitoring service account usage patterns Cross-referencing active accounts with current employee rosters Examining password age as a proxy for account activity The presence of this signal indicates a need for improved account lifecycle management processes, including automated detection and disablement of dormant accounts. Organizations should establish clear policies defining inactivity thresholds and implement automated workflows for account deactivation."
+    "detection_notes": "Detection of this signal typically involves: Automated analysis of authentication logs and last login timestamps Correlation of account status with HR termination records Review of access key usage and API credential activity Periodic account recertification and access reviews Monitoring service account usage patterns Cross-referencing active accounts with current employee rosters Examining password age as a proxy for account activity The presence of this signal indicates a need for improved account lifecycle management processes, including automated detection and disablement of dormant accounts. Organizations should establish clear policies defining inactivity thresholds and implement automated workflows for account deactivation.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-INACTIVE-DISABLE-003/"
 }

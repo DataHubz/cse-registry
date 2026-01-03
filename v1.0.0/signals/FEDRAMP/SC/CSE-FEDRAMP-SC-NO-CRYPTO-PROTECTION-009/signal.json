@@ -17,7 +17,35 @@
     "related_controls": [
       "SC-13"
     ],
-    "detection_notes": "Detection guidance: Look for use of non-FIPS 140-2 validated cryptographic modules, weak or deprecated cryptographic algorithms, missing encryption for sensitive data, inadequate cryptographic strength, absence of cryptographic protection for data in transit and at rest, and lack of validation certificates for cryptographic implementations."
+    "detection_notes": "Detection guidance: Look for use of non-FIPS 140-2 validated cryptographic modules, weak or deprecated cryptographic algorithms, missing encryption for sensitive data, inadequate cryptographic strength, absence of cryptographic protection for data in transit and at rest, and lack of validation certificates for cryptographic implementations.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "SC-13",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - System and Communications Protection",
+        "section": "SC-13",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-CRYPTO-PROTECTION-009/"
 }

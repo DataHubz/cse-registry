@@ -18,7 +18,28 @@
       "CMMC MA.L2-3.7.2",
       "NIST SP 800-171 3.7.2"
     ],
-    "detection_notes": "Detected through maintenance tool inventory review, tool authorization verification, and tool integrity checking."
+    "detection_notes": "Detected through maintenance tool inventory review, tool authorization verification, and tool integrity checking.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Maintenance",
+        "section": "3.7.2",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CMMC/MAINTENANCE/CSE-CMMC-MAINTENANCE-TOOLS-NOT-CONTROLLED-002/"
 }

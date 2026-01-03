@@ -14,8 +14,35 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of test data generation procedures Examination of database refresh scripts and processes Assessment of data masking and anonymization tools Verification of test environment access controls Analysis of test data classification and handling Review of test data approval and request processes Evaluation of synthetic data generation capabilities Assessment of test environment security controls Review of test data disposal and sanitization procedures Verification of compliance with data minimization principles The presence of this signal indicates a serious compliance and security risk. Using production PHI in test environments is a common HIPAA violation that can result in significant penalties. Organizations must implement proper test data pr"
+    "detection_notes": "Detection of this signal typically involves: Review of test data generation procedures Examination of database refresh scripts and processes Assessment of data masking and anonymization tools Verification of test environment access controls Analysis of test data classification and handling Review of test data approval and request processes Evaluation of synthetic data generation capabilities Assessment of test environment security controls Review of test data disposal and sanitization procedures Verification of compliance with data minimization principles The presence of this signal indicates a serious compliance and security risk. Using production PHI in test environments is a common HIPAA violation that can result in significant penalties. Organizations must implement proper test data pr",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 14 - System Acquisition & Development",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.IP",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-TEST-DATA-010/"
 }

@@ -14,8 +14,27 @@
       "identity",
       "credential-security"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Analysis of administrative account naming conventions Review of authentication logs for concurrent or distributed administrative sessions Examination of privileged access management (PAM) system configurations Assessment of account creation and provisioning processes Correlation of administrative accounts with employee records Review of sudo configuration and group memberships Analysis of service account usage patterns Evaluation of just-in-time (JIT) privileged access implementations The presence of this signal indicates a critical gap in accountability and auditability of privileged operations. Best practices include: Creating uniquely named administrative accounts for each user (e.g., jsmith-admin) Implementing separate accounts for administr"
+    "detection_notes": "Detection of this signal typically involves: Analysis of administrative account naming conventions Review of authentication logs for concurrent or distributed administrative sessions Examination of privileged access management (PAM) system configurations Assessment of account creation and provisioning processes Correlation of administrative accounts with employee records Review of sudo configuration and group memberships Analysis of service account usage patterns Evaluation of just-in-time (JIT) privileged access implementations The presence of this signal indicates a critical gap in accountability and auditability of privileged operations. Best practices include: Creating uniquely named administrative accounts for each user (e.g., jsmith-admin) Implementing separate accounts for administr",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-UNIQUE-ADMIN-005/"
 }

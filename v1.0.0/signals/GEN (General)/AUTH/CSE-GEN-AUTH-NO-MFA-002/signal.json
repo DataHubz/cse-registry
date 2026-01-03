@@ -1,0 +1,47 @@
+{
+  "id": "CSE-GEN-AUTH-NO-MFA-002",
+  "canonical_name": "Multi-Factor Authentication Missing",
+  "description": "Authentication does not require multiple independent factors for identity verification, relying instead on a single authentication method. This signal indicates that access control depends solely on one factor (typically password or API key) without additional verification through possession, biometric, or out-of-band confirmation.",
+  "domain": "GEN (General)",
+  "category": "AUTH",
+  "applicability": "This signal applies to: Cloud management consoles (AWS, Azure, GCP) Identity providers and SSO systems VPN and remote access solutions Administrative and privileged accounts Email and collaboration platforms Source code repositories CI/CD pipelines and automation systems Database administrative interfaces Payment processing systems Healthcare information systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Analyzing identity provider configurations Reviewing access policies for MFA requirements Examining authentication flows in applications Scanning cloud platform security settings Auditing privileged account configurations Multi-factor authentication is considered a critical security control for protecting against credential compromise, phishing, and unauthorized access.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework 2.0",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "section": "IA",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://owasp.org/www-project-developer-guide/",
+        "type": "guidance",
+        "title": "OWASP Security Guidance",
+        "authority": "OWASP"
+      }
+    ]
+  },
+  "definition_ref": "/v1.0.0/signals/GEN (General)/AUTH/CSE-GEN-AUTH-NO-MFA-002/"
+}

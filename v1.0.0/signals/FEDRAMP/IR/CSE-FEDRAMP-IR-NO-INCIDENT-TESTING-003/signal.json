@@ -17,7 +17,41 @@
     "related_controls": [
       "IR-3"
     ],
-    "detection_notes": "Detection guidance: Look for missing incident response testing documentation, absence of tabletop exercises or simulations, and lack of testing schedules or after-action reports."
+    "detection_notes": "Detection guidance: Look for missing incident response testing documentation, absence of tabletop exercises or simulations, and lack of testing schedules or after-action reports.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "IR-3",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Incident Response",
+        "section": "IR-3",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.fedramp.gov/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf",
+        "type": "guidance",
+        "title": "FedRAMP Incident Communications Procedures",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/IR/CSE-FEDRAMP-IR-NO-INCIDENT-TESTING-003/"
 }

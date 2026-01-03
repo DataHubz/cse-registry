@@ -14,8 +14,28 @@
       "identity",
       "privilege-management"
     ],
-    "related_controls": [],
-    "detection_notes": "Review CIS compliance documentation and controls for ACCESS requirements."
+    "detection_notes": "Review CIS compliance documentation and controls for ACCESS requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 6: Access Control Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-ROLE-BASED-006/"
 }

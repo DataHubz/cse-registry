@@ -14,8 +14,28 @@
       "classification",
       "encryption"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of data disposal procedures Assessment of deletion verification methods Examination of cryptographic erasure capabilities Analysis of backup and snapshot cleanup Verification of physical media destruction Review of decommissioning checklists Assessment of certificate of destruction processes Examination of cloud storage deletion policies The presence of this signal indicates a condition that warrants review in the context of data protection and privacy requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of data disposal procedures Assessment of deletion verification methods Examination of cryptographic erasure capabilities Analysis of backup and snapshot cleanup Verification of physical media destruction Review of decommissioning checklists Assessment of certificate of destruction processes Examination of cloud storage deletion policies The presence of this signal indicates a condition that warrants review in the context of data protection and privacy requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 3: Data Protection",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-DISPOSAL-005/"
 }

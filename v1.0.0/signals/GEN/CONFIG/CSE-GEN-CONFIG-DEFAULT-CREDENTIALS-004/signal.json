@@ -15,7 +15,28 @@
       "compliance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Scanning for known default credential combinations Testing authentication with vendor-documented default passwords Checking for unchanged default API keys and tokens Reviewing system documentation for initial setup credentials Automated vulnerability scanning for default credentials Penetration testing and credential audits Comparing against databases of known defaults (e.g., CIRT.net Default Passwords Database) The presence of this signal represents a critical security risk that should be addressed immediately, as default credentials are often the first vector attempted by attackers."
+    "detection_notes": "Detection of this signal typically involves: Scanning for known default credential combinations Testing authentication with vendor-documented default passwords Checking for unchanged default API keys and tokens Reviewing system documentation for initial setup credentials Automated vulnerability scanning for default credentials Penetration testing and credential audits Comparing against databases of known defaults (e.g., CIRT.net Default Passwords Database) The presence of this signal represents a critical security risk that should be addressed immediately, as default credentials are often the first vector attempted by attackers.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "CM"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/CONFIG/CSE-GEN-CONFIG-DEFAULT-CREDENTIALS-004/"
 }

@@ -17,7 +17,27 @@
     "related_controls": [
       "6.2 - Bespoke and custom software are developed securely"
     ],
-    "detection_notes": "Detection guidance: Review code repositories for lack of secure coding standards compliance. Detect common vulnerabilities such as SQL injection, cross-site scripting (XSS), insecure authentication, or hardcoded credentials in source code. Monitor for absence of code review processes or automated security scanning tools. Check for developer training gaps in secure coding techniques. Identify custom applications developed without following OWASP or similar security guidelines."
+    "detection_notes": "Detection guidance: Review code repositories for lack of secure coding standards compliance. Detect common vulnerabilities such as SQL injection, cross-site scripting (XSS), insecure authentication, or hardcoded credentials in source code. Monitor for absence of code review processes or automated security scanning tools. Check for developer training gaps in secure coding techniques. Identify custom applications developed without following OWASP or similar security guidelines.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/SECDEV/CSE-PCIDSS-SECDEV-NO-SECURE-CODING-002/"
 }

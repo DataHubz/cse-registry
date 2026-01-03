@@ -17,7 +17,35 @@
     "related_controls": [
       "IA-5"
     ],
-    "detection_notes": "Detection guidance: Look for weak password policies (length, complexity, history), default authenticators still in use, missing authenticator change procedures, authenticators stored in plain text or weakly encrypted, no procedures for lost/compromised authenticators, authenticators without lifecycle management, missing multi-factor authentication for privileged access, and authenticators that don't meet FedRAMP password requirements (minimum 12 characters for Moderate/High baselines)."
+    "detection_notes": "Detection guidance: Look for weak password policies (length, complexity, history), default authenticators still in use, missing authenticator change procedures, authenticators stored in plain text or weakly encrypted, no procedures for lost/compromised authenticators, authenticators without lifecycle management, missing multi-factor authentication for privileged access, and authenticators that don't meet FedRAMP password requirements (minimum 12 characters for Moderate/High baselines).",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "IA-5",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Identification and Authentication",
+        "section": "IA-5",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-AUTH-MGMT-005/"
 }

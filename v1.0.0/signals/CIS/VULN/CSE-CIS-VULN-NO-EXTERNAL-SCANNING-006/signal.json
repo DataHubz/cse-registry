@@ -14,8 +14,28 @@
       "patching",
       "remediation"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of external vulnerability scanning tool deployments Assessment of scanning schedules and frequency for public assets Analysis of scan coverage across externally-facing asset inventory Examination of web application security testing (DAST) Review of SSL/TLS and certificate monitoring Assessment of attack surface management capabilities Review of API security scanning configurations The presence of this signal indicates a condition that warrants review in the context of external vulnerability scanning requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of external vulnerability scanning tool deployments Assessment of scanning schedules and frequency for public assets Analysis of scan coverage across externally-facing asset inventory Examination of web application security testing (DAST) Review of SSL/TLS and certificate monitoring Assessment of attack surface management capabilities Review of API security scanning configurations The presence of this signal indicates a condition that warrants review in the context of external vulnerability scanning requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 7: Continuous Vulnerability Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-EXTERNAL-SCANNING-006/"
 }

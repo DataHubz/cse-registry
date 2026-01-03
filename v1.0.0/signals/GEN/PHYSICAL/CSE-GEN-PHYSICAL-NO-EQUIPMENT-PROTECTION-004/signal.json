@@ -15,7 +15,28 @@
       "access-control"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Physical inspection of equipment locations Review of equipment protection policies Assessment of environmental control systems Evaluation of power protection infrastructure Examination of equipment inventory and asset management Analysis of equipment maintenance procedures Review of environmental monitoring and alerting Assessment of anti-theft measures and controls Effective equipment protection programs typically include: **Physical Security**: Locks, cages, racks, cable locks, and anti-theft devices **Environmental Controls**: HVAC, temperature/humidity monitoring, air filtration **Power Protection**: UPS systems, backup generators, surge protection, redundant power **Fire Suppression**: Smoke detection, fire suppression systems, fire extingu"
+    "detection_notes": "Detection of this signal typically involves: Physical inspection of equipment locations Review of equipment protection policies Assessment of environmental control systems Evaluation of power protection infrastructure Examination of equipment inventory and asset management Analysis of equipment maintenance procedures Review of environmental monitoring and alerting Assessment of anti-theft measures and controls Effective equipment protection programs typically include: **Physical Security**: Locks, cages, racks, cable locks, and anti-theft devices **Environmental Controls**: HVAC, temperature/humidity monitoring, air filtration **Power Protection**: UPS systems, backup generators, surge protection, redundant power **Fire Suppression**: Smoke detection, fire suppression systems, fire extingu",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "PE"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/PHYSICAL/CSE-GEN-PHYSICAL-NO-EQUIPMENT-PROTECTION-004/"
 }

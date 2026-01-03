@@ -15,7 +15,28 @@
       "accountability"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Checking system configuration files for audit settings Querying service status for audit daemons and logging services Reviewing cloud platform audit trail configurations Examining application logging frameworks and configurations Testing whether security events generate corresponding log entries Verifying log output destinations are configured The presence of this signal indicates a fundamental gap in security visibility that should be addressed across all compliance frameworks and security best practices."
+    "detection_notes": "Detection of this signal typically involves: Checking system configuration files for audit settings Querying service status for audit daemons and logging services Reviewing cloud platform audit trail configurations Examining application logging frameworks and configurations Testing whether security events generate corresponding log entries Verifying log output destinations are configured The presence of this signal indicates a fundamental gap in security visibility that should be addressed across all compliance frameworks and security best practices.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "AU"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/AUDIT/CSE-GEN-AUDIT-NO-LOGGING-001/"
 }

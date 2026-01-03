@@ -14,8 +14,27 @@
       "inventory",
       "visibility"
     ],
-    "related_controls": [],
-    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **Update Frequency Analysis**: Inventory last updated more than 7 days ago 2. **Accuracy Metrics**: Comparison between inventory and active discovery shows >2% discrepancy 3. **Manual Process Indicators**: Evidence of manual spreadsheet updates without automation 4. **Stale Asset Data**: Asset attributes (IP addresses, locations, owners) outdated or incorrect 5. **Discovery Mismatches**: Network scans reveal assets not in inventory or vice versa 6. **Missing Automation**: No integration between discovery tools and asset management system 7. **Audit Findings**: Internal or external audits identify inventory inaccuracies ### Inventory Accuracy Metrics Organizations should track: **Coverage Percentage**: (Assets in Inventory / Act"
+    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **Update Frequency Analysis**: Inventory last updated more than 7 days ago 2. **Accuracy Metrics**: Comparison between inventory and active discovery shows >2% discrepancy 3. **Manual Process Indicators**: Evidence of manual spreadsheet updates without automation 4. **Stale Asset Data**: Asset attributes (IP addresses, locations, owners) outdated or incorrect 5. **Discovery Mismatches**: Network scans reveal assets not in inventory or vice versa 6. **Missing Automation**: No integration between discovery tools and asset management system 7. **Audit Findings**: Internal or external audits identify inventory inaccuracies ### Inventory Accuracy Metrics Organizations should track: **Coverage Percentage**: (Assets in Inventory / Act",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/ASSET/CSE-CIS-ASSET-NO-ACCURATE-INVENTORY-004/"
 }

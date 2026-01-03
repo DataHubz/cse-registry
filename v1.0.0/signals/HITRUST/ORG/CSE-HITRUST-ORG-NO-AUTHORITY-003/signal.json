@@ -14,8 +14,35 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of security governance documentation Analysis of policy and procedure documents Examination of decision-making frameworks Assessment of exception and waiver processes Review of incident response procedures Inspection of change management processes Analysis of risk management documentation The presence of this signal indicates a condition that warrants review in the context of security governance and decision-making authority requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of security governance documentation Analysis of policy and procedure documents Examination of decision-making frameworks Assessment of exception and waiver processes Review of incident response procedures Inspection of change management processes Analysis of risk management documentation The presence of this signal indicates a condition that warrants review in the context of security governance and decision-making authority requirements.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 06 - Organization of Information Security",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "ID.GV",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-AUTHORITY-003/"
 }

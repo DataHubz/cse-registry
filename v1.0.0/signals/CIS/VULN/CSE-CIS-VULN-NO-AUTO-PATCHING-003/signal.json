@@ -14,8 +14,28 @@
       "patching",
       "remediation"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of patch management tooling and configuration Assessment of automatic update settings across asset inventory Analysis of patch deployment schedules and automation Examination of patch compliance reporting Review of Systems Manager, WSUS, SCCM, or equivalent configurations The presence of this signal indicates a condition that warrants review in the context of operating system patch management requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of patch management tooling and configuration Assessment of automatic update settings across asset inventory Analysis of patch deployment schedules and automation Examination of patch compliance reporting Review of Systems Manager, WSUS, SCCM, or equivalent configurations The presence of this signal indicates a condition that warrants review in the context of operating system patch management requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 7: Continuous Vulnerability Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-AUTO-PATCHING-003/"
 }

@@ -15,7 +15,34 @@
       "authorization"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Analyzing session configuration in applications Testing session timeout behavior Reviewing cookie security attributes Examining token generation and validation code Testing logout and session termination functions Auditing session storage mechanisms Session management best practices include: Inactivity timeouts (typically 15-30 minutes) Absolute session timeouts (typically 8-12 hours) Secure cookie flags (HttpOnly, Secure, SameSite) Token expiration and refresh mechanisms Proper logout and session invalidation Session fixation protection CSRF token implementation Session storage security Inadequate session management is a common vulnerability that can lead to unauthorized access, session hijacking, and compliance violations."
+    "detection_notes": "Detection of this signal typically involves: Analyzing session configuration in applications Testing session timeout behavior Reviewing cookie security attributes Examining token generation and validation code Testing logout and session termination functions Auditing session storage mechanisms Session management best practices include: Inactivity timeouts (typically 15-30 minutes) Absolute session timeouts (typically 8-12 hours) Secure cookie flags (HttpOnly, Secure, SameSite) Token expiration and refresh mechanisms Proper logout and session invalidation Session fixation protection CSRF token implementation Session storage security Inadequate session management is a common vulnerability that can lead to unauthorized access, session hijacking, and compliance violations.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "IA"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      },
+      {
+        "title": "OWASP Security Guidance",
+        "url": "https://owasp.org/www-project-developer-guide/",
+        "type": "guidance",
+        "authority": "OWASP"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/AUTH/CSE-GEN-AUTH-NO-SESSION-MGMT-006/"
 }

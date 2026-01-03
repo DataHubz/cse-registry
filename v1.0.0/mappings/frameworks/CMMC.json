@@ -1,0 +1,10 @@
+{
+  "id": "cmjrpgdkl00029irrnc6euth3",
+  "code": "CMMC",
+  "name": "CMMC",
+  "version": "2.0",
+  "description": "Cybersecurity Maturity Model Certification Level 2",
+  "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+  "control_count": 152,
+  "mapping_count": 148
+}

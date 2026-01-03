@@ -14,8 +14,27 @@
       "identity",
       "credential-security"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Automated credential scanning against known default password databases Configuration audits of network devices and systems Review of deployment and hardening procedures Testing authentication with common default credentials Examining vendor documentation for default account information Analyzing system logs for successful authentication with default accounts The presence of this signal represents a critical security vulnerability that should be remediated immediately, as default credentials are among the most commonly exploited attack vectors in both targeted and automated attacks."
+    "detection_notes": "Detection of this signal typically involves: Automated credential scanning against known default password databases Configuration audits of network devices and systems Review of deployment and hardening procedures Testing authentication with common default credentials Examining vendor documentation for default account information Analyzing system logs for successful authentication with default accounts The presence of this signal represents a critical security vulnerability that should be remediated immediately, as default credentials are among the most commonly exploited attack vectors in both targeted and automated attacks.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-DEFAULT-PASSWORDS-002/"
 }

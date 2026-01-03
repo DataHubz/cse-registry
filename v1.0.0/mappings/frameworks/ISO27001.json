@@ -1,0 +1,10 @@
+{
+  "id": "cmjrpgdkr00089irrtttm9x0w",
+  "code": "ISO27001",
+  "name": "ISO/IEC 27001",
+  "version": "2022",
+  "description": "ISO/IEC 27001:2022 Information Security",
+  "url": "https://www.iso.org/standard/27001",
+  "control_count": 93,
+  "mapping_count": 156
+}

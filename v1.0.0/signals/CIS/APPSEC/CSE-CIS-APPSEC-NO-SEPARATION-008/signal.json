@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of environment architecture and topology Assessment of network segmentation and isolation Evaluation of access control policies Examination of data handling practices Review of credential and secrets management Assessment of configuration management processes Analysis of developer access to production Proper environment separation typically includes: **Infrastructure isolation:** Separate networks/VPCs for each environment Network segmentation and firewall rules Separate Kubernetes clusters or isolated namespaces Distinct cloud accounts or subscriptions Dedicated compute and storage resources **Data protection:** No production data in non-production environments Data masking and anonymization for test data Synthetic data generation Separa"
+    "detection_notes": "Detection of this signal typically involves: Review of environment architecture and topology Assessment of network segmentation and isolation Evaluation of access control policies Examination of data handling practices Review of credential and secrets management Assessment of configuration management processes Analysis of developer access to production Proper environment separation typically includes: **Infrastructure isolation:** Separate networks/VPCs for each environment Network segmentation and firewall rules Separate Kubernetes clusters or isolated namespaces Distinct cloud accounts or subscriptions Dedicated compute and storage resources **Data protection:** No production data in non-production environments Data masking and anonymization for test data Synthetic data generation Separa",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-SEPARATION-008/"
 }

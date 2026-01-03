@@ -18,7 +18,28 @@
       "CMMC SI.L2-3.14.1",
       "NIST SP 800-171 3.14.1"
     ],
-    "detection_notes": "Detected through vulnerability scanning, patch compliance reporting, software version analysis, and dependency auditing tools."
+    "detection_notes": "Detected through vulnerability scanning, patch compliance reporting, software version analysis, and dependency auditing tools.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - System and Information Integrity",
+        "section": "3.14.1",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-PATCHING-002/"
 }

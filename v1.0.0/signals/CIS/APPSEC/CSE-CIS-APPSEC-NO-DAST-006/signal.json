@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of security testing processes Assessment of DAST tool deployment and usage Evaluation of CI/CD pipeline security integration Examination of pre-production security validation Review of API security testing practices Assessment of authenticated scanning capabilities Analysis of vulnerability findings management DAST implementation typically includes: **Tool selection**: Web scanners, API scanners, commercial or open-source **Scan types**: Passive scanning, active scanning, authenticated scanning **Test environments**: Staging, QA, pre-production **Coverage**: Web applications, APIs, mobile backends **Authentication**: Credential management, session handling **Integration**: CI/CD pipelines, scheduled scans **Findings management**: Triage,"
+    "detection_notes": "Detection of this signal typically involves: Review of security testing processes Assessment of DAST tool deployment and usage Evaluation of CI/CD pipeline security integration Examination of pre-production security validation Review of API security testing practices Assessment of authenticated scanning capabilities Analysis of vulnerability findings management DAST implementation typically includes: **Tool selection**: Web scanners, API scanners, commercial or open-source **Scan types**: Passive scanning, active scanning, authenticated scanning **Test environments**: Staging, QA, pre-production **Coverage**: Web applications, APIs, mobile backends **Authentication**: Credential management, session handling **Integration**: CI/CD pipelines, scheduled scans **Findings management**: Triage,",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-DAST-006/"
 }

@@ -14,8 +14,35 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of testing documentation and test plans Examination of CI/CD pipeline configurations Assessment of security testing tool integration Review of vulnerability scan reports Verification of penetration testing schedules and results Analysis of security requirements traceability Evaluation of test coverage for security controls Review of remediation tracking for identified issues Assessment of security testing frequency and scope The presence of this signal indicates a critical gap in the quality assurance process that likely results in vulnerable systems being deployed to production. Security testing is essential for identifying and addressing vulnerabilities before they can be exploited by attackers or result in data breaches."
+    "detection_notes": "Detection of this signal typically involves: Review of testing documentation and test plans Examination of CI/CD pipeline configurations Assessment of security testing tool integration Review of vulnerability scan reports Verification of penetration testing schedules and results Analysis of security requirements traceability Evaluation of test coverage for security controls Review of remediation tracking for identified issues Assessment of security testing frequency and scope The presence of this signal indicates a critical gap in the quality assurance process that likely results in vulnerable systems being deployed to production. Security testing is essential for identifying and addressing vulnerabilities before they can be exploited by attackers or result in data breaches.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 14 - System Acquisition & Development",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.IP",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-TESTING-009/"
 }

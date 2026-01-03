@@ -14,8 +14,33 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Security architecture review of sensitive data storage and transmission Encryption assessment for data at rest and in transit Access control analysis for sensitive PI databases and systems Code review to identify lack of field-level encryption or tokenization Network traffic analysis to detect unencrypted sensitive data transmission Database schema review for plaintext storage of sensitive categories Authentication mechanism assessment for sensitive data access Audit logging review to verify tracking of sensitive PI access Comparison of security measures between sensitive and non-sensitive PI Hardware security module (HSM) usage review for cryptographic key protection Privacy-enhancing technology assessment (anonymization, pseudonymization, diff"
+    "detection_notes": "Detection of this signal typically involves: Security architecture review of sensitive data storage and transmission Encryption assessment for data at rest and in transit Access control analysis for sensitive PI databases and systems Code review to identify lack of field-level encryption or tokenization Network traffic analysis to detect unencrypted sensitive data transmission Database schema review for plaintext storage of sensitive categories Authentication mechanism assessment for sensitive data access Audit logging review to verify tracking of sensitive PI access Comparison of security measures between sensitive and non-sensitive PI Hardware security module (HSM) usage review for cryptographic key protection Privacy-enhancing technology assessment (anonymization, pseudonymization, diff",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CCPA/SENSITIVE/CSE-CCPA-SENSITIVE-NO-SAFEGUARDS-005/"
 }

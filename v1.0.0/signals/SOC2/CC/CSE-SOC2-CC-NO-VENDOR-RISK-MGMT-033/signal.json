@@ -17,7 +17,28 @@
     "related_controls": [
       "SOC 2 CC9.2"
     ],
-    "detection_notes": "Review vendor risk management program, third-party assessments, due diligence procedures, and ongoing vendor monitoring. Verify vendor contracts include security requirements and vendor performance is monitored."
+    "detection_notes": "Review vendor risk management program, third-party assessments, due diligence procedures, and ongoing vendor monitoring. Verify vendor contracts include security requirements and vendor performance is monitored.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - CC9 Risk Mitigation",
+        "section": "CC9",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.coso.org/guidance-on-ic",
+        "type": "guidance",
+        "title": "COSO Internal Control - Integrated Framework",
+        "authority": "COSO"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033/"
 }

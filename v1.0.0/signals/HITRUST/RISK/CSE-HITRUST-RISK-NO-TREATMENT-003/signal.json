@@ -17,7 +17,35 @@
     "related_controls": [
       "03.b - Risk Treatment"
     ],
-    "detection_notes": "Detection of this signal typically involves: Review of documented risk treatment plans and action items Examination of risk response strategies (mitigate, transfer, avoid, accept) Verification of assigned responsibilities and ownership for risk treatment Analysis of timelines and milestones for risk mitigation activities Assessment of resource allocation for risk treatment implementation Validation of treatment effectiveness monitoring processes The presence of this signal indicates that identified risks may remain unaddressed, potentially exposing the organization to security incidents, compliance violations, and business disruptions."
+    "detection_notes": "Detection of this signal typically involves: Review of documented risk treatment plans and action items Examination of risk response strategies (mitigate, transfer, avoid, accept) Verification of assigned responsibilities and ownership for risk treatment Analysis of timelines and milestones for risk mitigation activities Assessment of resource allocation for risk treatment implementation Validation of treatment effectiveness monitoring processes The presence of this signal indicates that identified risks may remain unaddressed, potentially exposing the organization to security incidents, compliance violations, and business disruptions.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 03 - Risk Management",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "ID.RA",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-TREATMENT-003/"
 }

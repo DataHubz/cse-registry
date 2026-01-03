@@ -14,8 +14,35 @@
       "privacy",
       "compliance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of patient portal amendment request features Examination of amendment request submission processes Analysis of amendment review and approval workflows Verification of amendment tracking and status systems Assessment of notification processes for amendments Review of amendment request documentation and logs The presence of this signal indicates a data quality and privacy rights gap that should be addressed to ensure information accuracy and individual empowerment."
+    "detection_notes": "Detection of this signal typically involves: Review of patient portal amendment request features Examination of amendment request submission processes Analysis of amendment review and approval workflows Verification of amendment tracking and status systems Assessment of notification processes for amendments Review of amendment request documentation and logs The presence of this signal indicates a data quality and privacy rights gap that should be addressed to ensure information accuracy and individual empowerment.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 08 - Privacy",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.DS",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-AMENDMENT-006/"
 }

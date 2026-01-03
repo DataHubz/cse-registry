@@ -14,8 +14,35 @@
       "governance",
       "risk-management"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of security planning policy documentation Analysis of policy scope, roles, and responsibilities Verification of policy dissemination to appropriate personnel Assessment of procedures for implementing planning controls Examination of policy review and update schedules Inspection of designated official assignment for policy management Review of policy consistency with federal requirements The presence of this signal indicates a condition that warrants review in the context of FedRAMP planning requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of security planning policy documentation Analysis of policy scope, roles, and responsibilities Verification of policy dissemination to appropriate personnel Assessment of procedures for implementing planning controls Examination of policy review and update schedules Inspection of designated official assignment for policy management Review of policy consistency with federal requirements The presence of this signal indicates a condition that warrants review in the context of FedRAMP planning requirements.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "PL",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Planning",
+        "section": "PL",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/PL/CSE-FEDRAMP-PL-NO-PLANNING-POLICY-001/"
 }

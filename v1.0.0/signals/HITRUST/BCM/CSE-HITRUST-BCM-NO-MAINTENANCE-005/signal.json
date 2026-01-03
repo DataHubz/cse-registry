@@ -17,7 +17,27 @@
     "related_controls": [
       "12.e - Business Continuity Maintenance"
     ],
-    "detection_notes": "Detection of this signal typically involves: Review of documented BCM maintenance procedures and schedules Examination of plan review history and update records Verification of change management integration with BCM updates Analysis of processes for incorporating organizational changes Assessment of contact list currency and accuracy Validation of resource availability and configuration updates Review of lessons learned integration from tests and incidents Examination of version control and plan distribution processes The presence of this signal indicates that continuity plans may be outdated and ineffective, contain inaccurate information about personnel and resources, fail to reflect current business operations and dependencies, and may not work as expected during actual disruptions, pot"
+    "detection_notes": "Detection of this signal typically involves: Review of documented BCM maintenance procedures and schedules Examination of plan review history and update records Verification of change management integration with BCM updates Analysis of processes for incorporating organizational changes Assessment of contact list currency and accuracy Validation of resource availability and configuration updates Review of lessons learned integration from tests and incidents Examination of version control and plan distribution processes The presence of this signal indicates that continuity plans may be outdated and ineffective, contain inaccurate information about personnel and resources, fail to reflect current business operations and dependencies, and may not work as expected during actual disruptions, pot",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-MAINTENANCE-005/"
 }

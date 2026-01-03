@@ -14,8 +14,35 @@
       "identity",
       "authorization"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of organizational policy repositories and documentation systems Examination of security governance frameworks Analysis of policy management processes Verification of policy approval and publication records Assessment of policy communication and training materials The presence of this signal indicates a foundational gap in access control governance that should be addressed as a priority for HITRUST compliance and security best practices."
+    "detection_notes": "Detection of this signal typically involves: Review of organizational policy repositories and documentation systems Examination of security governance frameworks Analysis of policy management processes Verification of policy approval and publication records Assessment of policy communication and training materials The presence of this signal indicates a foundational gap in access control governance that should be addressed as a priority for HITRUST compliance and security best practices.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 01 - Access Control",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.AC",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-POLICY-001/"
 }

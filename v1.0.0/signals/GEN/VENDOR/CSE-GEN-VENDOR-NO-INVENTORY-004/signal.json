@@ -15,7 +15,27 @@
       "governance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of vendor inventory documentation Assessment of vendor registry or catalog systems Examination of vendor onboarding procedures Evaluation of vendor tracking and classification Review of vendor access records and logs Analysis of procurement and contract management systems Assessment of inventory update and maintenance processes A comprehensive vendor inventory typically includes: **Vendor Identification**: Name, type, contact information, business owner **Service Details**: Services provided, systems accessed, criticality **Access Information**: Access levels, authentication, data types **Contract Information**: Start/end dates, contract type, SLAs **Risk Profile**: Risk classification, assessment status, certifications **Compliance**: Re"
+    "detection_notes": "Detection of this signal typically involves: Review of vendor inventory documentation Assessment of vendor registry or catalog systems Examination of vendor onboarding procedures Evaluation of vendor tracking and classification Review of vendor access records and logs Analysis of procurement and contract management systems Assessment of inventory update and maintenance processes A comprehensive vendor inventory typically includes: **Vendor Identification**: Name, type, contact information, business owner **Service Details**: Services provided, systems accessed, criticality **Access Information**: Access levels, authentication, data types **Contract Information**: Start/end dates, contract type, SLAs **Risk Profile**: Risk classification, assessment status, certifications **Compliance**: Re",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/VENDOR/CSE-GEN-VENDOR-NO-INVENTORY-004/"
 }

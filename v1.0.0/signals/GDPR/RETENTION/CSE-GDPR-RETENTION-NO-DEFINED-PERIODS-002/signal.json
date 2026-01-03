@@ -14,9 +14,28 @@
       "privacy",
       "compliance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection involves reviewing data retention policies, checking for documented retention schedules, and assessing whether retention periods are defined for all categories of personal data."
+    "detection_notes": "Detection involves reviewing data retention policies, checking for documented retention schedules, and assessing whether retention periods are defined for all categories of personal data.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter II - Storage Limitation",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines and Recommendations",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
   },
-  "definition_ref": "/v1.0.0/signals/GDPR/RETENTION/CSE-GDPR-RETENTION-NO-DEFINED-PERIODS-002/",
-  "name": "Data Retention Periods Not Defined"
+  "definition_ref": "/v1.0.0/signals/GDPR/RETENTION/CSE-GDPR-RETENTION-NO-DEFINED-PERIODS-002/"
 }

@@ -17,7 +17,35 @@
     "related_controls": [
       "GDPR Art. 12.6"
     ],
-    "detection_notes": "Detected through review of identity verification procedures for rights requests. Assess whether verification is proportionate and does not unduly burden data subjects."
+    "detection_notes": "Detected through review of identity verification procedures for rights requests. Assess whether verification is proportionate and does not unduly burden data subjects.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter III - Rights of the Data Subject",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-12-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 12.6",
+        "section": "GDPR Art. 12.6",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Data Subject Rights",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-IDENTITY-VERIFICATION-003/"
 }

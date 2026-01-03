@@ -14,8 +14,28 @@
       "patching",
       "remediation"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of vulnerability scanning tool deployments Assessment of scanning schedules and frequency Analysis of scan coverage across asset inventory Examination of authenticated vs. unauthenticated scan configurations Review of scan result reporting and remediation tracking Assessment of cloud-native scanning capabilities The presence of this signal indicates a condition that warrants review in the context of internal vulnerability scanning requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of vulnerability scanning tool deployments Assessment of scanning schedules and frequency Analysis of scan coverage across asset inventory Examination of authenticated vs. unauthenticated scan configurations Review of scan result reporting and remediation tracking Assessment of cloud-native scanning capabilities The presence of this signal indicates a condition that warrants review in the context of internal vulnerability scanning requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 7: Continuous Vulnerability Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-INTERNAL-SCANNING-005/"
 }

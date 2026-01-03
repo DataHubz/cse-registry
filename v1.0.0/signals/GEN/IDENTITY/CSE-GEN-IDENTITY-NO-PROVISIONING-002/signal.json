@@ -15,7 +15,27 @@
       "governance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of access request and approval procedures Assessment of provisioning workflow documentation Analysis of ticketing system for access requests Examination of recent account creations Interviews with IT operations and security teams Review of role definitions and permission matrices Analysis of approval chains and authorization records The presence of this signal indicates a need for formalized access provisioning procedures that include request, approval, implementation, and verification steps."
+    "detection_notes": "Detection of this signal typically involves: Review of access request and approval procedures Assessment of provisioning workflow documentation Analysis of ticketing system for access requests Examination of recent account creations Interviews with IT operations and security teams Review of role definitions and permission matrices Analysis of approval chains and authorization records The presence of this signal indicates a need for formalized access provisioning procedures that include request, approval, implementation, and verification steps.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/IDENTITY/CSE-GEN-IDENTITY-NO-PROVISIONING-002/"
 }

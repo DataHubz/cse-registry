@@ -15,7 +15,34 @@
       "compliance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Checking for data inventory documentation or systems Reviewing data governance policies and procedures Examining data flow diagrams and architecture documentation Assessing Records of Processing Activities (ROPA) for GDPR Interviewing data stewards and system owners Scanning for undocumented databases and storage systems The absence of a data inventory makes it difficult to implement appropriate security controls, respond to data subject requests, assess privacy risks, or demonstrate compliance with data protection regulations."
+    "detection_notes": "Detection of this signal typically involves: Checking for data inventory documentation or systems Reviewing data governance policies and procedures Examining data flow diagrams and architecture documentation Assessing Records of Processing Activities (ROPA) for GDPR Interviewing data stewards and system owners Scanning for undocumented databases and storage systems The absence of a data inventory makes it difficult to implement appropriate security controls, respond to data subject requests, assess privacy risks, or demonstrate compliance with data protection regulations.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "SC"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      },
+      {
+        "title": "OWASP Security Guidance",
+        "url": "https://owasp.org/www-project-developer-guide/",
+        "type": "guidance",
+        "authority": "OWASP"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/DATA/CSE-GEN-DATA-NO-INVENTORY-002/"
 }

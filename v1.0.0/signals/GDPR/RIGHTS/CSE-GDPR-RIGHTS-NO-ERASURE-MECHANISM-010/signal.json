@@ -17,7 +17,35 @@
     "related_controls": [
       "GDPR Art. 17.1"
     ],
-    "detection_notes": "Detected through review of data deletion capabilities and procedures. Verify ability to completely remove personal data from all systems."
+    "detection_notes": "Detected through review of data deletion capabilities and procedures. Verify ability to completely remove personal data from all systems.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter III - Rights of the Data Subject",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-17-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 17.1",
+        "section": "GDPR Art. 17.1",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Data Subject Rights",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-ERASURE-MECHANISM-010/"
 }

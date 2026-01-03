@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of compliance documentation repositories Examination of legal requirements registers Analysis of system security plans and documentation Review of governance and risk management procedures Inspection of change management processes for legal requirement updates Assessment of compliance tracking systems The presence of this signal indicates a condition that warrants review in the context of legal and regulatory compliance requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of compliance documentation repositories Examination of legal requirements registers Analysis of system security plans and documentation Review of governance and risk management procedures Inspection of change management processes for legal requirement updates Assessment of compliance tracking systems The presence of this signal indicates a condition that warrants review in the context of legal and regulatory compliance requirements.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-LEGAL-IDENTIFICATION-001/"
 }

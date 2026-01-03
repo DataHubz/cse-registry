@@ -14,8 +14,35 @@
       "governance",
       "policy"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of POA&M process documentation and procedures Analysis of POA&M tracking system or tool implementation Verification of POA&M development and maintenance practices Assessment of POA&M completeness and accuracy across all systems Examination of remedial action documentation and timelines Review of POA&M reporting mechanisms and frequency Verification of POA&M review and approval workflows Assessment of POA&M consistency with risk management strategy Evaluation of POA&M alignment with organizational risk response priorities Review of POA&M metrics and status tracking Verification of closure criteria and validation processes Assessment of integration with continuous monitoring and assessment processes The presence of this signal indicates a c"
+    "detection_notes": "Detection of this signal typically involves: Review of POA&M process documentation and procedures Analysis of POA&M tracking system or tool implementation Verification of POA&M development and maintenance practices Assessment of POA&M completeness and accuracy across all systems Examination of remedial action documentation and timelines Review of POA&M reporting mechanisms and frequency Verification of POA&M review and approval workflows Assessment of POA&M consistency with risk management strategy Evaluation of POA&M alignment with organizational risk response priorities Review of POA&M metrics and status tracking Verification of closure criteria and validation processes Assessment of integration with continuous monitoring and assessment processes The presence of this signal indicates a c",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "PM",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Program Management",
+        "section": "PM",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/PM/CSE-FEDRAMP-PM-NO-POA-M-PROGRAM-004/"
 }

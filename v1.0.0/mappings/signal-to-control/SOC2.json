@@ -1,592 +1,1329 @@
 {
-  "metadata": {
-    "framework": "SOC2-2017",
-    "cse_registry_version": "1.0.0",
-    "dataset_version": "1.0.0",
-    "generated": "2025-12-28T00:00:00Z",
-    "mapping_count": 64,
-    "description": "Signal-to-control mappings for SOC2 domain signals to SOC 2 Trust Services Criteria"
-  },
+  "framework": "SOC2",
+  "framework_version": "2017",
+  "version": "1.0.0",
+  "generated_at": "2026-01-03T23:18:46.700Z",
+  "total_mappings": 66,
   "mappings": [
     {
-      "id": "MAP-CSE-SOC2-CC-NO-INTEGRITY-COMMITMENT-001-TO-CC1.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-INTEGRITY-COMMITMENT-001", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC1.1", "title": "COSO Principle 1: Demonstrates Commitment to Integrity and Ethical Values"},
+      "id": "MAP-CSE-GEN-AUDIT-NO-LOGGING-001-TO-SOC22017-CC7-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUDIT-NO-LOGGING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC7.2",
+        "title": "Security Event Monitoring"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of demonstrated commitment to integrity and ethical values.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN logging signal maps to SOC2 monitoring criteria"
+      }
     },
     {
-      "id": "MAP-CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002-TO-CC1.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC1.2", "title": "COSO Principle 2: Board Exercises Oversight Responsibility"},
+      "id": "MAP-CSE-GEN-AUTH-NO-ACCESS-CONTROL-003-TO-SOC22017-CC6-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-ACCESS-CONTROL-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC6.1",
+        "title": "Logical Access Security"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of board oversight of internal control.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN access control maps to SOC2 access criteria"
+      }
     },
     {
-      "id": "MAP-CSE-SOC2-CC-NO-MGMT-STRUCTURE-003-TO-CC1.3",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-MGMT-STRUCTURE-003", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC1.3", "title": "COSO Principle 3: Management Establishes Structures and Reporting Lines"},
+      "id": "MAP-CSE-GEN-AUTH-NO-MFA-002-TO-SOC22017-CC6-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-AUTH-NO-MFA-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC6.1",
+        "title": "Logical Access Security"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of management structures and reporting lines.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN MFA signal maps to SOC2 access security criteria"
+      }
     },
     {
-      "id": "MAP-CSE-SOC2-CC-NO-COMPETENCE-COMMITMENT-004-TO-CC1.4",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-COMPETENCE-COMMITMENT-004", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC1.4", "title": "COSO Principle 4: Demonstrates Commitment to Competence"},
+      "id": "MAP-CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001-TO-SOC22017-CC6-7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC6.7",
+        "title": "Information Transmission Controls"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of commitment to attract and retain competent individuals.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN encryption signal maps to SOC2 encryption criteria"
+      }
     },
     {
-      "id": "MAP-CSE-SOC2-CC-NO-CONTROL-ACCOUNTABILITY-005-TO-CC1.5",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-CONTROL-ACCOUNTABILITY-005", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC1.5", "title": "COSO Principle 5: Enforces Accountability"},
+      "id": "MAP-CSE-GEN-GOVERN-NO-SECURITY-POLICY-001-TO-SOC22017-CC1-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-GOVERN-NO-SECURITY-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC1.1",
+        "title": "COSO Principle 1 - Integrity and Ethical Values"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of accountability for internal control responsibilities.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN security policy maps to SOC2 governance criteria"
+      }
     },
     {
-      "id": "MAP-CSE-SOC2-CC-NO-QUALITY-INFO-006-TO-CC2.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-QUALITY-INFO-006", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC2.1", "title": "COSO Principle 13: Obtains and Uses Quality Information"},
+      "id": "MAP-CSE-GEN-INCIDENT-NO-BACKUP-002-TO-SOC22017-A1-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-BACKUP-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "A1.2",
+        "title": "Environmental Protections"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of quality information for internal control.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN backup signal maps to SOC2 availability criteria"
+      }
     },
     {
-      "id": "MAP-CSE-SOC2-CC-NO-INTERNAL-COMMS-007-TO-CC2.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-INTERNAL-COMMS-007", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC2.2", "title": "COSO Principle 14: Communicates Internally"},
+      "id": "MAP-CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001-TO-SOC22017-CC7-3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC7.3",
+        "title": "Security Event Evaluation"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of internal communication for internal control.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN incident response maps to SOC2 incident response criteria"
+      }
     },
     {
-      "id": "MAP-CSE-SOC2-CC-NO-EXTERNAL-COMMS-008-TO-CC2.3",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-EXTERNAL-COMMS-008", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC2.3", "title": "COSO Principle 15: Communicates Externally"},
+      "id": "MAP-CSE-GEN-VENDOR-NO-RISK-MGMT-001-TO-SOC22017-CC9-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-VENDOR-NO-RISK-MGMT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC9.2",
+        "title": "Vendor and Business Partner Risk"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of external communication for internal control.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-OBJECTIVES-SPEC-009-TO-CC3.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-OBJECTIVES-SPEC-009", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC3.1", "title": "COSO Principle 6: Specifies Suitable Objectives"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of specified objectives for risk identification.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-RISK-IDENTIFICATION-010-TO-CC3.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-RISK-IDENTIFICATION-010", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC3.2", "title": "COSO Principle 7: Identifies and Analyzes Risk"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of risk identification and analysis.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-FRAUD-ASSESSMENT-011-TO-CC3.3",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-FRAUD-ASSESSMENT-011", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC3.3", "title": "COSO Principle 8: Assesses Fraud Risk"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of fraud risk assessment.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-CHANGE-IMPACT-012-TO-CC3.4",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-CHANGE-IMPACT-012", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC3.4", "title": "COSO Principle 9: Identifies and Analyzes Significant Change"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of change impact assessment.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-CONTROL-EVALUATIONS-013-TO-CC4.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-CONTROL-EVALUATIONS-013", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC4.1", "title": "COSO Principle 16: Conducts Ongoing and/or Separate Evaluations"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of control evaluations.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-DEFICIENCY-COMMS-014-TO-CC4.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-DEFICIENCY-COMMS-014", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC4.2", "title": "COSO Principle 17: Evaluates and Communicates Deficiencies"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of deficiency communication.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-CONTROL-SELECTION-015-TO-CC5.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-CONTROL-SELECTION-015", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC5.1", "title": "COSO Principle 10: Selects and Develops Control Activities"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of control activity selection.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-TECH-CONTROLS-016-TO-CC5.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-TECH-CONTROLS-016", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC5.2", "title": "COSO Principle 11: Selects and Develops General Controls over Technology"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of technology controls.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-POLICY-DEPLOYMENT-017-TO-CC5.3",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-POLICY-DEPLOYMENT-017", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC5.3", "title": "COSO Principle 12: Deploys Through Policies and Procedures"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of policy deployment.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018-TO-CC6.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC6.1", "title": "Logical Access Security Software"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of logical access security software.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-USER-REGISTRATION-019-TO-CC6.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-USER-REGISTRATION-019", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC6.2", "title": "User Registration and Authorization"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of user registration and authorization.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-RBAC-CONTROLS-020-TO-CC6.3",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-RBAC-CONTROLS-020", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC6.3", "title": "Access Based on Roles and Least Privilege"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of role-based access and least privilege.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-PHYSICAL-ACCESS-021-TO-CC6.4",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-PHYSICAL-ACCESS-021", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC6.4", "title": "Restricts Physical Access"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of physical access restrictions.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-SECURE-DISPOSAL-022-TO-CC6.5",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-SECURE-DISPOSAL-022", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC6.5", "title": "Protections over Physical Assets"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of physical asset disposal protections.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-BOUNDARY-PROTECTION-023-TO-CC6.6",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-BOUNDARY-PROTECTION-023", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC6.6", "title": "Protection Against External Threats"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of boundary protection.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-TRANSMISSION-SECURITY-024-TO-CC6.7",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-TRANSMISSION-SECURITY-024", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC6.7", "title": "Restricts Transmission and Removal"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of transmission security.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-MALWARE-PREVENTION-025-TO-CC6.8",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-MALWARE-PREVENTION-025", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC6.8", "title": "Prevents or Detects Malicious Software"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of malware prevention.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-VULN-DETECTION-026-TO-CC7.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-VULN-DETECTION-026", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC7.1", "title": "Detection and Monitoring Procedures"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of vulnerability detection procedures.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-ANOMALY-DETECTION-027-TO-CC7.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-ANOMALY-DETECTION-027", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC7.2", "title": "Monitors System Components for Anomalies"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of anomaly detection.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-EVENT-EVALUATION-028-TO-CC7.3",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-EVENT-EVALUATION-028", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC7.3", "title": "Evaluates Security Events"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of security event evaluation.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029-TO-CC7.4",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC7.4", "title": "Responds to Security Incidents"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of incident response.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030-TO-CC7.5",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC7.5", "title": "Recovers From Security Incidents"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of incident recovery.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-CHANGE-MANAGEMENT-031-TO-CC8.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-CHANGE-MANAGEMENT-031", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC8.1", "title": "Authorizes, Designs, Develops, Implements Changes"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of change management.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-RISK-MITIGATION-032-TO-CC9.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-RISK-MITIGATION-032", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC9.1", "title": "Identifies and Develops Risk Mitigation Activities"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of business disruption risk mitigation.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033-TO-CC9.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "CC9.2", "title": "Assesses and Manages Risks Associated with Vendors"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of vendor risk management.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN vendor risk maps to SOC2 vendor criteria"
+      }
     },
     {
       "id": "MAP-CSE-SOC2-AVAIL-NO-CAPACITY-MGMT-001-TO-A1.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-AVAIL-NO-CAPACITY-MGMT-001", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "A1.1", "title": "Maintains, Monitors, and Evaluates Current Processing Capacity"},
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-AVAIL-NO-CAPACITY-MGMT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "A1.1",
+        "title": "Capacity Planning"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of capacity management.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of capacity management."
+      }
     },
     {
       "id": "MAP-CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002-TO-A1.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "A1.2", "title": "Authorizes, Designs, Develops, Implements Recovery Infrastructure"},
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "A1.2",
+        "title": "Environmental Protections"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of recovery infrastructure.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of recovery infrastructure."
+      }
     },
     {
       "id": "MAP-CSE-SOC2-AVAIL-NO-RECOVERY-TESTING-003-TO-A1.3",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-AVAIL-NO-RECOVERY-TESTING-003", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "A1.3", "title": "Tests Recovery Plan Procedures"},
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-AVAIL-NO-RECOVERY-TESTING-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "A1.3",
+        "title": "Recovery Testing"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of recovery testing.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of recovery testing."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-ANOMALY-DETECTION-027-TO-CC7.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-ANOMALY-DETECTION-027",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC7.2",
+        "title": "Security Event Monitoring"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of anomaly detection."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002-TO-CC1.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC1.2",
+        "title": "COSO Principle 2 - Board Independence"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of board oversight of internal control."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-BOUNDARY-PROTECTION-023-TO-CC6.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-BOUNDARY-PROTECTION-023",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC6.6",
+        "title": "External Threat Protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of boundary protection."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-CHANGE-IMPACT-012-TO-CC3.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-CHANGE-IMPACT-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC3.4",
+        "title": "COSO Principle 9 - Change Assessment"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of change impact assessment."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-CHANGE-MANAGEMENT-031-TO-CC8.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-CHANGE-MANAGEMENT-031",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC8.1",
+        "title": "Change Management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of change management."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-COMPETENCE-COMMITMENT-004-TO-CC1.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-COMPETENCE-COMMITMENT-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC1.4",
+        "title": "COSO Principle 4 - Competent Personnel"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of commitment to attract and retain competent individuals."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-CONTROL-ACCOUNTABILITY-005-TO-CC1.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-CONTROL-ACCOUNTABILITY-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC1.5",
+        "title": "COSO Principle 5 - Accountability"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of accountability for internal control responsibilities."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-CONTROL-EVALUATIONS-013-TO-CC4.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-CONTROL-EVALUATIONS-013",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC4.1",
+        "title": "COSO Principle 16 - Ongoing Evaluation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of control evaluations."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-CONTROL-SELECTION-015-TO-CC5.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-CONTROL-SELECTION-015",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC5.1",
+        "title": "COSO Principle 10 - Control Activities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of control activity selection."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-DEFICIENCY-COMMS-014-TO-CC4.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-DEFICIENCY-COMMS-014",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC4.2",
+        "title": "COSO Principle 17 - Deficiency Communication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of deficiency communication."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-EVENT-EVALUATION-028-TO-CC7.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-EVENT-EVALUATION-028",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC7.3",
+        "title": "Security Event Evaluation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of security event evaluation."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-EXTERNAL-COMMS-008-TO-CC2.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-EXTERNAL-COMMS-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC2.3",
+        "title": "COSO Principle 15 - External Communication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of external communication for internal control."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-FRAUD-ASSESSMENT-011-TO-CC3.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-FRAUD-ASSESSMENT-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC3.3",
+        "title": "COSO Principle 8 - Fraud Risk"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of fraud risk assessment."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030-TO-CC7.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC7.5",
+        "title": "Incident Recovery"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of incident recovery."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029-TO-CC7.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC7.4",
+        "title": "Incident Response"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of incident response."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-INTEGRITY-COMMITMENT-001-TO-CC1.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-INTEGRITY-COMMITMENT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC1.1",
+        "title": "COSO Principle 1 - Integrity and Ethical Values"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of demonstrated commitment to integrity and ethical values."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-INTERNAL-COMMS-007-TO-CC2.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-INTERNAL-COMMS-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC2.2",
+        "title": "COSO Principle 14 - Internal Communication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of internal communication for internal control."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018-TO-CC6.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC6.1",
+        "title": "Logical Access Security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of logical access security software."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-MALWARE-PREVENTION-025-TO-CC6.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-MALWARE-PREVENTION-025",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC6.8",
+        "title": "Malicious Software Prevention"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of malware prevention."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-MGMT-STRUCTURE-003-TO-CC1.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-MGMT-STRUCTURE-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC1.3",
+        "title": "COSO Principle 3 - Organizational Structure"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of management structures and reporting lines."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-OBJECTIVES-SPEC-009-TO-CC3.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-OBJECTIVES-SPEC-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC3.1",
+        "title": "COSO Principle 6 - Objective Specification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of specified objectives for risk identification."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-PHYSICAL-ACCESS-021-TO-CC6.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-PHYSICAL-ACCESS-021",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC6.4",
+        "title": "Physical Access Restrictions"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of physical access restrictions."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-POLICY-DEPLOYMENT-017-TO-CC5.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-POLICY-DEPLOYMENT-017",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC5.3",
+        "title": "COSO Principle 12 - Policies and Procedures"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of policy deployment."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-QUALITY-INFO-006-TO-CC2.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-QUALITY-INFO-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC2.1",
+        "title": "COSO Principle 13 - Quality Information"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of quality information for internal control."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-RBAC-CONTROLS-020-TO-CC6.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-RBAC-CONTROLS-020",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC6.3",
+        "title": "Access Removal"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of role-based access and least privilege."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-RISK-IDENTIFICATION-010-TO-CC3.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-RISK-IDENTIFICATION-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC3.2",
+        "title": "COSO Principle 7 - Risk Identification"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of risk identification and analysis."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-RISK-MITIGATION-032-TO-CC9.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-RISK-MITIGATION-032",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC9.1",
+        "title": "Business Disruption Risk Mitigation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of business disruption risk mitigation."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-SECURE-DISPOSAL-022-TO-CC6.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-SECURE-DISPOSAL-022",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC6.5",
+        "title": "Asset Disposal"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of physical asset disposal protections."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-TECH-CONTROLS-016-TO-CC5.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-TECH-CONTROLS-016",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC5.2",
+        "title": "COSO Principle 11 - Technology Controls"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of technology controls."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-TRANSMISSION-SECURITY-024-TO-CC6.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-TRANSMISSION-SECURITY-024",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC6.7",
+        "title": "Information Transmission Controls"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of transmission security."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-USER-REGISTRATION-019-TO-CC6.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-USER-REGISTRATION-019",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC6.2",
+        "title": "User Registration and Authorization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of user registration and authorization."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033-TO-CC9.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC9.2",
+        "title": "Vendor and Business Partner Risk"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of vendor risk management."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-CC-NO-VULN-DETECTION-026-TO-CC7.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-VULN-DETECTION-026",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "CC7.1",
+        "title": "Vulnerability Detection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of vulnerability detection procedures."
+      }
     },
     {
       "id": "MAP-CSE-SOC2-CONF-NO-DATA-CLASSIFICATION-001-TO-C1.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CONF-NO-DATA-CLASSIFICATION-001", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "C1.1", "title": "Identifies and Maintains Confidential Information"},
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CONF-NO-DATA-CLASSIFICATION-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "C1.1",
+        "title": "Confidential Information Identification"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of confidential data classification.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of confidential data classification."
+      }
     },
     {
       "id": "MAP-CSE-SOC2-CONF-NO-DATA-DISPOSAL-002-TO-C1.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-CONF-NO-DATA-DISPOSAL-002", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "C1.2", "title": "Disposes of Confidential Information"},
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CONF-NO-DATA-DISPOSAL-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "C1.2",
+        "title": "Confidential Information Disposal"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of confidential data disposal.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-PI-NO-PROCESSING-SPECS-001-TO-PI1.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PI-NO-PROCESSING-SPECS-001", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "PI1.1", "title": "Obtains and Uses Quality Information for Processing"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of processing specifications.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-PI-NO-INPUT-VALIDATION-002-TO-PI1.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PI-NO-INPUT-VALIDATION-002", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "PI1.2", "title": "Implements Policies over System Inputs"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of input validation.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-PI-NO-PROCESSING-CONTROLS-003-TO-PI1.3",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PI-NO-PROCESSING-CONTROLS-003", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "PI1.3", "title": "Implements Policies over System Processing"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of processing controls.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-PI-NO-OUTPUT-VALIDATION-004-TO-PI1.4",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PI-NO-OUTPUT-VALIDATION-004", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "PI1.4", "title": "Implements Policies to Deliver Output"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of output validation.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of confidential data disposal."
+      }
     },
     {
       "id": "MAP-CSE-SOC2-PI-NO-DATA-STORAGE-CONTROLS-005-TO-PI1.5",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PI-NO-DATA-STORAGE-CONTROLS-005", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "PI1.5", "title": "Implements Policies to Store Data"},
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PI-NO-DATA-STORAGE-CONTROLS-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "PI1.5",
+        "title": "Data Stores"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of data storage controls.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of data storage controls."
+      }
     },
     {
-      "id": "MAP-CSE-SOC2-PRIV-NO-PRIVACY-NOTICE-001-TO-P1.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-PRIVACY-NOTICE-001", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P1.1", "title": "Provides Notice to Data Subjects"},
+      "id": "MAP-CSE-SOC2-PI-NO-INPUT-VALIDATION-002-TO-PI1.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PI-NO-INPUT-VALIDATION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "PI1.2",
+        "title": "Input Validation"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of privacy notice.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of input validation."
+      }
     },
     {
-      "id": "MAP-CSE-SOC2-PRIV-NO-CHOICE-COMMUNICATION-002-TO-P2.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-CHOICE-COMMUNICATION-002", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P2.1", "title": "Communicates Choices to Data Subjects"},
+      "id": "MAP-CSE-SOC2-PI-NO-OUTPUT-VALIDATION-004-TO-PI1.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PI-NO-OUTPUT-VALIDATION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "PI1.4",
+        "title": "Output Review"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of choice communication.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of output validation."
+      }
     },
     {
-      "id": "MAP-CSE-SOC2-PRIV-NO-CONSENT-MECHANISM-003-TO-P2.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-CONSENT-MECHANISM-003", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P2.2", "title": "Obtains Consent"},
+      "id": "MAP-CSE-SOC2-PI-NO-PROCESSING-CONTROLS-003-TO-PI1.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PI-NO-PROCESSING-CONTROLS-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "PI1.3",
+        "title": "Processing Validation"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of consent mechanism.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of processing controls."
+      }
     },
     {
-      "id": "MAP-CSE-SOC2-PRIV-NO-COLLECTION-LIMITATION-004-TO-P3.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-COLLECTION-LIMITATION-004", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P3.1", "title": "Collects Only for Stated Purposes"},
+      "id": "MAP-CSE-SOC2-PI-NO-PROCESSING-SPECS-001-TO-PI1.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PI-NO-PROCESSING-SPECS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "PI1.1",
+        "title": "Processing Accuracy and Completeness"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of collection limitation.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-PRIV-NO-SENSITIVE-DATA-CONSENT-005-TO-P3.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-SENSITIVE-DATA-CONSENT-005", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P3.2", "title": "Obtains Explicit Consent for Sensitive Data"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of sensitive data consent.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-PRIV-NO-USE-LIMITATION-006-TO-P4.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-USE-LIMITATION-006", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P4.1", "title": "Limits Use to Stated Purposes"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of use limitation.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-PRIV-NO-RETENTION-POLICY-007-TO-P4.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-RETENTION-POLICY-007", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P4.2", "title": "Retains Data Only as Necessary"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of retention policy.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-PRIV-NO-SECURE-PII-DISPOSAL-008-TO-P4.3",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-SECURE-PII-DISPOSAL-008", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P4.3", "title": "Securely Disposes of Personal Information"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of secure PII disposal.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-PRIV-NO-SUBJECT-ACCESS-009-TO-P5.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-SUBJECT-ACCESS-009", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P5.1", "title": "Grants Access to Data Subjects"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of data subject access.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-PRIV-NO-IDENTITY-VERIFICATION-010-TO-P5.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-IDENTITY-VERIFICATION-010", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P5.2", "title": "Authenticates Data Subject Identity"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of data subject identity verification.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-PRIV-NO-DISCLOSURE-LIMITS-012-TO-P6.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-DISCLOSURE-LIMITS-012", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P6.1", "title": "Discloses with Explicit Consent"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of disclosure limits.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
-    },
-    {
-      "id": "MAP-CSE-SOC2-PRIV-NO-THIRD-PARTY-AUTH-013-TO-P6.2",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-THIRD-PARTY-AUTH-013", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P6.2", "title": "Records Authorized Disclosures"},
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of third-party authorization records.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of processing specifications."
+      }
     },
     {
       "id": "MAP-CSE-SOC2-PRIV-NO-BREACH-NOTIFICATION-015-TO-P6.4",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-BREACH-NOTIFICATION-015", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P6.4", "title": "Notifies About Breaches"},
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-BREACH-NOTIFICATION-015",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P6.4",
+        "title": "Third Party Privacy Commitments"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of breach notification.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of breach notification."
+      }
     },
     {
-      "id": "MAP-CSE-SOC2-PRIV-NO-DATA-QUALITY-016-TO-P7.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-DATA-QUALITY-016", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P7.1", "title": "Collects Accurate Personal Information"},
+      "id": "MAP-CSE-SOC2-PRIV-NO-CHOICE-COMMUNICATION-002-TO-P2.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-CHOICE-COMMUNICATION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P2.1",
+        "title": "Choice and Consent"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of data quality controls.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of choice communication."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-PRIV-NO-COLLECTION-LIMITATION-004-TO-P3.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-COLLECTION-LIMITATION-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P3.1",
+        "title": "Collection Limitation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of collection limitation."
+      }
     },
     {
       "id": "MAP-CSE-SOC2-PRIV-NO-COMPLIANCE-MONITORING-018-TO-P8.1",
-      "source": {"type": "cse-signal", "id": "CSE-SOC2-PRIV-NO-COMPLIANCE-MONITORING-018", "version": "1.0.0"},
-      "target": {"type": "control", "framework": "SOC2-2017", "version": "2017", "id": "P8.1", "title": "Implements Inquiry and Complaint Process"},
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-COMPLIANCE-MONITORING-018",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P8.1",
+        "title": "Complaint Management"
+      },
       "relationship": "equivalent",
       "confidence": 0.95,
-      "provenance": {"source": "expert", "authority": "CSE Registry Maintainers", "reviewed_date": "2025-12-28"},
-      "justification": "Signal directly addresses absence of compliance monitoring.",
-      "metadata": {"created": "2025-12-28T00:00:00Z", "status": "active"}
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of compliance monitoring."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-PRIV-NO-CONSENT-MECHANISM-003-TO-P2.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-CONSENT-MECHANISM-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P2.2",
+        "title": "Obtains Consent"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of consent mechanism."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-PRIV-NO-DATA-QUALITY-016-TO-P7.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-DATA-QUALITY-016",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P7.1",
+        "title": "Data Quality"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of data quality controls."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-PRIV-NO-DISCLOSURE-LIMITS-012-TO-P6.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-DISCLOSURE-LIMITS-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P6.1",
+        "title": "Disclosure to Third Parties"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of disclosure limits."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-PRIV-NO-IDENTITY-VERIFICATION-010-TO-P5.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-IDENTITY-VERIFICATION-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P5.2",
+        "title": "Correction"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of data subject identity verification."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-PRIV-NO-PRIVACY-NOTICE-001-TO-P1.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-PRIVACY-NOTICE-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P1.1",
+        "title": "Privacy Notice"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of privacy notice."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-PRIV-NO-RETENTION-POLICY-007-TO-P4.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-RETENTION-POLICY-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P4.2",
+        "title": "Retention Limitation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of retention policy."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-PRIV-NO-SECURE-PII-DISPOSAL-008-TO-P4.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-SECURE-PII-DISPOSAL-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P4.3",
+        "title": "Disposal"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of secure PII disposal."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-PRIV-NO-SENSITIVE-DATA-CONSENT-005-TO-P3.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-SENSITIVE-DATA-CONSENT-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P3.2",
+        "title": "Explicit Consent"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of sensitive data consent."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-PRIV-NO-SUBJECT-ACCESS-009-TO-P5.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-SUBJECT-ACCESS-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P5.1",
+        "title": "Access"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of data subject access."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-PRIV-NO-THIRD-PARTY-AUTH-013-TO-P6.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-THIRD-PARTY-AUTH-013",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P6.2",
+        "title": "Authorized Disclosure Record"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of third-party authorization records."
+      }
+    },
+    {
+      "id": "MAP-CSE-SOC2-PRIV-NO-USE-LIMITATION-006-TO-P4.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-PRIV-NO-USE-LIMITATION-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "SOC2",
+        "id": "P4.1",
+        "title": "Use Limitation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses absence of use limitation."
+      }
     }
   ]
 }

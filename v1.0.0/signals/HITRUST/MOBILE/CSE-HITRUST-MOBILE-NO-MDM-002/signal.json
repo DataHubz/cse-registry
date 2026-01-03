@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of mobile device management infrastructure Examination of device enrollment records and compliance reporting Analysis of MDM/EMM solution configurations Verification of remote management capabilities Assessment of device compliance monitoring Review of mobile access logs and authentication methods Evaluation of application management and distribution processes The presence of this signal indicates a significant gap in mobile device security controls that should be addressed promptly, particularly for organizations where mobile devices access PHI or other sensitive data. MDM solutions are considered a baseline security requirement for enterprise mobile device management."
+    "detection_notes": "Detection of this signal typically involves: Review of mobile device management infrastructure Examination of device enrollment records and compliance reporting Analysis of MDM/EMM solution configurations Verification of remote management capabilities Assessment of device compliance monitoring Review of mobile access logs and authentication methods Evaluation of application management and distribution processes The presence of this signal indicates a significant gap in mobile device security controls that should be addressed promptly, particularly for organizations where mobile devices access PHI or other sensitive data. MDM solutions are considered a baseline security requirement for enterprise mobile device management.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-MDM-002/"
 }

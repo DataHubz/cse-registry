@@ -15,7 +15,34 @@
       "authorization"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Scanning configuration files for authentication settings Testing endpoints for anonymous access Reviewing network service configurations Analyzing access control policies Examining application code for authentication checks The presence of this signal indicates a fundamental security control gap that should be prioritized for review and remediation."
+    "detection_notes": "Detection of this signal typically involves: Scanning configuration files for authentication settings Testing endpoints for anonymous access Reviewing network service configurations Analyzing access control policies Examining application code for authentication checks The presence of this signal indicates a fundamental security control gap that should be prioritized for review and remediation.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "IA"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      },
+      {
+        "title": "OWASP Security Guidance",
+        "url": "https://owasp.org/www-project-developer-guide/",
+        "type": "guidance",
+        "authority": "OWASP"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/AUTH/CSE-GEN-AUTH-NO-AUTHENTICATION-001/"
 }

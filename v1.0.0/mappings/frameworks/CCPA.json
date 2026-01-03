@@ -1,43 +1,10 @@
 {
-  "id": "CCPA",
+  "id": "cmjrpgdkf00009irr1n57uh8v",
+  "code": "CCPA",
   "name": "California Consumer Privacy Act",
   "version": "2023",
-  "authority": "California Attorney General / California Privacy Protection Agency",
-  "effective_date": "2020-01-01",
-  "source_url": "https://oag.ca.gov/privacy/ccpa",
-  "description": "The California Consumer Privacy Act (CCPA), as amended by the California Privacy Rights Act (CPRA), provides California residents with rights regarding the collection, use, and sale of their personal information by businesses.",
-  "control_count": 35,
-  "levels": [],
-  "domains": [
-    {
-      "id": "NOTICE",
-      "name": "Notice and Disclosure",
-      "description": "Requirements for privacy notices and disclosures",
-      "control_count": 8
-    },
-    {
-      "id": "RIGHTS",
-      "name": "Consumer Rights",
-      "description": "Consumer rights including access, deletion, correction, and opt-out",
-      "control_count": 10
-    },
-    {
-      "id": "BUSINESS",
-      "name": "Business Obligations",
-      "description": "Operational requirements for covered businesses",
-      "control_count": 12
-    },
-    {
-      "id": "SECURITY",
-      "name": "Security Requirements",
-      "description": "Reasonable security measures for personal information",
-      "control_count": 5
-    }
-  ],
-  "metadata": {
-    "created": "2025-12-28T00:00:00Z",
-    "updated": "2025-12-28T00:00:00Z",
-    "source_version": "CCPA/CPRA 2023 Regulations",
-    "notes": "Applies to businesses meeting revenue, data volume, or data sale thresholds"
-  }
+  "description": "California Consumer Privacy Act with CPRA amendments",
+  "url": "https://oag.ca.gov/privacy/ccpa",
+  "control_count": 77,
+  "mapping_count": 70
 }

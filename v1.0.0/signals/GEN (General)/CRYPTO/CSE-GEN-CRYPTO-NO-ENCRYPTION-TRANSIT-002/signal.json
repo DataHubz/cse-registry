@@ -1,0 +1,47 @@
+{
+  "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002",
+  "canonical_name": "Encryption in Transit Missing",
+  "description": "Data is transmitted over networks without encryption (e.g., HTTP instead of HTTPS, unencrypted database connections). This signal indicates that data in transit lacks cryptographic protection, potentially exposing confidential information to interception, eavesdropping, or man-in-the-middle attacks during transmission across networks.",
+  "domain": "GEN (General)",
+  "category": "CRYPTO",
+  "applicability": "This signal applies to: Web applications and APIs Database connections (client-to-server) Microservice communication Message queues and pub/sub systems Email transmission (SMTP) File transfer protocols (FTP, rsync) Remote access protocols (SSH, RDP) Mobile app backend communication Third-party API integrations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "cryptography",
+      "encryption",
+      "key-management"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Network traffic analysis for unencrypted protocols Scanning application configurations for HTTP vs HTTPS endpoints Examining database connection strings for SSL/TLS parameters Reviewing API client configurations Analyzing service mesh or ingress controller settings Checking email server configurations for TLS support Monitoring certificate usage across services The presence of this signal indicates a condition where data may be vulnerable to interception or tampering during network transmission.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework 2.0",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "section": "SC",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://owasp.org/www-project-developer-guide/",
+        "type": "guidance",
+        "title": "OWASP Security Guidance",
+        "authority": "OWASP"
+      }
+    ]
+  },
+  "definition_ref": "/v1.0.0/signals/GEN (General)/CRYPTO/CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002/"
+}

@@ -14,8 +14,27 @@
       "identity",
       "credential-security"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Architectural review of identity and access management systems Inventory of authentication systems across the organization Assessment of SSO and federation implementations Evaluation of user provisioning and deprovisioning workflows Analysis of directory service integration with applications and systems Review of SCIM or automated provisioning capabilities Examination of identity lifecycle management processes Assessment of password synchronization or federation mechanisms The presence of this signal indicates significant operational and security challenges, including: Increased risk of orphaned accounts after employee termination Difficulty enforcing consistent security policies Higher administrative overhead for account management Reduced visi"
+    "detection_notes": "Detection of this signal typically involves: Architectural review of identity and access management systems Inventory of authentication systems across the organization Assessment of SSO and federation implementations Evaluation of user provisioning and deprovisioning workflows Analysis of directory service integration with applications and systems Review of SCIM or automated provisioning capabilities Examination of identity lifecycle management processes Assessment of password synchronization or federation mechanisms The presence of this signal indicates significant operational and security challenges, including: Increased risk of orphaned accounts after employee termination Difficulty enforcing consistent security policies Higher administrative overhead for account management Reduced visi",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-CENTRALIZED-MGMT-006/"
 }

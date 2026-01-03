@@ -17,7 +17,29 @@
     "related_controls": [
       "45 CFR 164.310(a)(2)(iii)"
     ],
-    "detection_notes": "Detection guidance: Review physical access control procedures including badge systems, visitor logs, and escort requirements. Verify that access is granted based on role-based authorization and that validation mechanisms are in place. Check for documented visitor management procedures, sign-in/sign-out logs, and controls for accessing areas with development or testing systems."
+    "detection_notes": "Detection guidance: Review physical access control procedures including badge systems, visitor logs, and escort requirements. Verify that access is granted based on role-based authorization and that validation mechanisms are in place. Check for documented visitor management procedures, sign-in/sign-out logs, and controls for accessing areas with development or testing systems.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart C - Physical Safeguards",
+        "section": "164.310(a)(2)(iii)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+        "type": "guidance",
+        "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+        "section": "5",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+        "type": "guidance",
+        "title": "HHS Security Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-ACCESS-CONTROL-003/"
 }

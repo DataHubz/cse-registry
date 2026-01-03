@@ -17,7 +17,35 @@
     "related_controls": [
       "GDPR Art. 46"
     ],
-    "detection_notes": "Detected through review of contracts with third country processors and absence of appropriate safeguards mechanisms."
+    "detection_notes": "Detected through review of contracts with third country processors and absence of appropriate safeguards mechanisms.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter V - Transfers to Third Countries",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-46-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 46",
+        "section": "GDPR Art. 46",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on International Transfers",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/international-transfers/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GDPR/TRANSFER/CSE-GDPR-TRANSFER-NO-SAFEGUARDS-003/"
 }

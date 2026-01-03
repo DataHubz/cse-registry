@@ -17,7 +17,35 @@
     "related_controls": [
       "02.c - Human Resources Security - Information Security Awareness, Education, and Training"
     ],
-    "detection_notes": "Detection of this signal typically involves: Review of security awareness program documentation Examination of training content, curriculum, and materials Analysis of training completion rates and tracking records Verification of training frequency and update cycles Assessment of training relevance to current threat landscape Review of role-based training programs for specialized roles Evaluation of new hire onboarding training processes Analysis of training effectiveness metrics and testing Verification of contractor and third-party training requirements The presence of this signal indicates that workforce members may be vulnerable to social engineering, phishing, and other attacks, and may inadvertently violate security policies or regulatory requirements due to lack of knowledge."
+    "detection_notes": "Detection of this signal typically involves: Review of security awareness program documentation Examination of training content, curriculum, and materials Analysis of training completion rates and tracking records Verification of training frequency and update cycles Assessment of training relevance to current threat landscape Review of role-based training programs for specialized roles Evaluation of new hire onboarding training processes Analysis of training effectiveness metrics and testing Verification of contractor and third-party training requirements The presence of this signal indicates that workforce members may be vulnerable to social engineering, phishing, and other attacks, and may inadvertently violate security policies or regulatory requirements due to lack of knowledge.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 07 - Human Resource Security",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.AT",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/HR/CSE-HITRUST-HR-NO-AWARENESS-003/"
 }

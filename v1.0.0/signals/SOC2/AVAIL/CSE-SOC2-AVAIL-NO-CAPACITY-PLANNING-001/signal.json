@@ -14,9 +14,22 @@
       "capacity-management",
       "infrastructure"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection involves reviewing capacity planning documentation, examining monitoring configurations, and verifying that capacity projections are performed."
+    "detection_notes": "Detection involves reviewing capacity planning documentation, examining monitoring configurations, and verifying that capacity projections are performed.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - Availability",
+        "section": "A1",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      }
+    ]
   },
-  "definition_ref": "/v1.0.0/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-CAPACITY-PLANNING-001/",
-  "name": "Capacity Planning Process Missing"
+  "definition_ref": "/v1.0.0/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-CAPACITY-PLANNING-001/"
 }

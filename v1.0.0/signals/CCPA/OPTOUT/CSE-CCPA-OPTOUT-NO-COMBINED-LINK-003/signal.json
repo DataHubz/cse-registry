@@ -14,8 +14,34 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Analysis of link text for proper \"Sell or Share\" wording Verification that opt-out mechanism covers both sale and sharing Review of backend processing logic for opt-out requests Testing of combined opt-out functionality Assessment of clarity and consumer understanding Validation that both sale and share are addressed The presence of this signal indicates a condition that warrants review in the context of combined opt-out implementation requirements."
+    "detection_notes": "Detection of this signal typically involves: Analysis of link text for proper \"Sell or Share\" wording Verification that opt-out mechanism covers both sale and sharing Review of backend processing logic for opt-out requests Testing of combined opt-out functionality Assessment of clarity and consumer understanding Validation that both sale and share are addressed The presence of this signal indicates a condition that warrants review in the context of combined opt-out implementation requirements.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "section": "Civil Code §1798.120",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CCPA/OPTOUT/CSE-CCPA-OPTOUT-NO-COMBINED-LINK-003/"
 }

@@ -17,7 +17,22 @@
     "related_controls": [
       "45 CFR 164.524(b)(2)"
     ],
-    "detection_notes": "Detect access requests pending beyond the 30-day timeframe without proper extension notification, or requests that exceed the maximum 60-day response time (30 days plus one 30-day extension). Monitor request tracking systems for overdue access requests."
+    "detection_notes": "Detect access requests pending beyond the 30-day timeframe without proper extension notification, or requests that exceed the maximum 60-day response time (30 days plus one 30-day extension). Monitor request tracking systems for overdue access requests.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+        "section": "164.524(b)(2)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+        "type": "guidance",
+        "title": "HHS Privacy Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCESS-TIMELINESS-015/"
 }

@@ -17,7 +17,41 @@
     "related_controls": [
       "CA-6 - Security Authorization"
     ],
-    "detection_notes": "Detection guidance: Verify that an authorizing official has been formally designated for the system Check for the existence of a current and valid Authorization to Operate (ATO) Confirm that authorization was granted before the system commenced operations Review the authorization package for completeness (System Security Plan, Security Assessment Report, POA&M) Validate that authorization is updated when significant changes occur or as required by OMB A-130 For FedRAMP systems, verify JAB P-ATO or Agency ATO with appropriate documentation Check authorization expiration dates and reauthorization schedules Examine whether authorization decisions are based on risk assessments and security control evaluations Verify that authorization documentation is properly maintained and accessible Confirm"
+    "detection_notes": "Detection guidance: Verify that an authorizing official has been formally designated for the system Check for the existence of a current and valid Authorization to Operate (ATO) Confirm that authorization was granted before the system commenced operations Review the authorization package for completeness (System Security Plan, Security Assessment Report, POA&M) Validate that authorization is updated when significant changes occur or as required by OMB A-130 For FedRAMP systems, verify JAB P-ATO or Agency ATO with appropriate documentation Check authorization expiration dates and reauthorization schedules Examine whether authorization decisions are based on risk assessments and security control evaluations Verify that authorization documentation is properly maintained and accessible Confirm",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "CA",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Assessment, Authorization, and Monitoring",
+        "section": "CA",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf",
+        "type": "guidance",
+        "title": "FedRAMP Continuous Monitoring Strategy Guide",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/CA/CSE-FEDRAMP-CA-NO-AUTHORIZATION-005/"
 }

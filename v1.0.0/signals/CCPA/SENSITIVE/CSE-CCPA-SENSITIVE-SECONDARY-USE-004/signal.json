@@ -14,8 +14,33 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Data flow analysis to track SPI from collection point to secondary uses Code review to identify purpose drift in sensitive data processing Database query analysis to find SPI used in analytics or profiling systems API integration review to detect SPI sharing with ad networks or data brokers Privacy policy comparison against actual data use practices Machine learning model auditing to find SPI used in inference systems Third-party data processor contract review for unauthorized secondary uses Purpose limitation testing to verify SPI is restricted to disclosed uses The presence of this signal indicates a condition that warrants review in the context of CPRA sensitive personal information purpose limitation requirements."
+    "detection_notes": "Detection of this signal typically involves: Data flow analysis to track SPI from collection point to secondary uses Code review to identify purpose drift in sensitive data processing Database query analysis to find SPI used in analytics or profiling systems API integration review to detect SPI sharing with ad networks or data brokers Privacy policy comparison against actual data use practices Machine learning model auditing to find SPI used in inference systems Third-party data processor contract review for unauthorized secondary uses Purpose limitation testing to verify SPI is restricted to disclosed uses The presence of this signal indicates a condition that warrants review in the context of CPRA sensitive personal information purpose limitation requirements.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CCPA/SENSITIVE/CSE-CCPA-SENSITIVE-SECONDARY-USE-004/"
 }

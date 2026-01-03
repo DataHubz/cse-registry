@@ -17,7 +17,22 @@
     "related_controls": [
       "45 CFR 164.530(h)"
     ],
-    "detection_notes": "Detect forms, agreements, or policies requiring waiver of access rights (164.524) or accounting of disclosures rights (164.528) as a condition of receiving treatment, payment, plan enrollment, or benefits eligibility. Review consent forms, enrollment documents, and service agreements for prohibited waiver language."
+    "detection_notes": "Detect forms, agreements, or policies requiring waiver of access rights (164.524) or accounting of disclosures rights (164.528) as a condition of receiving treatment, payment, plan enrollment, or benefits eligibility. Review consent forms, enrollment documents, and service agreements for prohibited waiver language.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+        "section": "164.530(h)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+        "type": "guidance",
+        "title": "HHS Privacy Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-WAIVER-PROHIBITION-026/"
 }

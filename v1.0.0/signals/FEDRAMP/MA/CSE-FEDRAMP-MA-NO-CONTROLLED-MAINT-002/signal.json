@@ -17,7 +17,35 @@
     "related_controls": [
       "MA-2"
     ],
-    "detection_notes": "Detection guidance: Look for absence of maintenance schedules, lack of maintenance records, no approval process for maintenance activities, and missing documentation of maintenance performed on system components."
+    "detection_notes": "Detection guidance: Look for absence of maintenance schedules, lack of maintenance records, no approval process for maintenance activities, and missing documentation of maintenance performed on system components.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "MA-2",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Maintenance",
+        "section": "MA-2",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/MA/CSE-FEDRAMP-MA-NO-CONTROLLED-MAINT-002/"
 }

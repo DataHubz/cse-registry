@@ -1,0 +1,47 @@
+{
+  "id": "CSE-GEN-DATA-NO-MINIMIZATION-005",
+  "canonical_name": "Data Minimization Missing",
+  "description": "Collecting or retaining more personal or sensitive data than necessary for the stated purpose. Organizations gather, process, or store data beyond what is required to achieve the specific, legitimate purpose for which it was collected. This signal indicates a failure to limit data collection to only what is adequate, relevant, and necessary for the intended business function or service.",
+  "domain": "GEN (General)",
+  "category": "DATA",
+  "applicability": "This signal applies to: Data collection forms and user interfaces API endpoints and data request scopes Database schemas and field requirements Registration and onboarding processes Analytics and tracking implementations Third-party data sharing agreements Marketing and customer engagement platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Analyzing data collection forms against stated purposes Reviewing database schemas for unnecessary fields Examining API scopes and permissions Assessing privacy notices against actual data practices Conducting Data Protection Impact Assessments (DPIAs) Reviewing third-party data sharing agreements Analyzing data retention against business necessity Data minimization reduces privacy risks, limits the attack surface in case of a breach, decreases storage and processing costs, and is a fundamental principle of most data protection regulations. Organizations should regularly review data collection practices to ensure they collect only what is necessary and proportionate to the stated purpose.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework 2.0",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "section": "SC",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://owasp.org/www-project-developer-guide/",
+        "type": "guidance",
+        "title": "OWASP Security Guidance",
+        "authority": "OWASP"
+      }
+    ]
+  },
+  "definition_ref": "/v1.0.0/signals/GEN (General)/DATA/CSE-GEN-DATA-NO-MINIMIZATION-005/"
+}

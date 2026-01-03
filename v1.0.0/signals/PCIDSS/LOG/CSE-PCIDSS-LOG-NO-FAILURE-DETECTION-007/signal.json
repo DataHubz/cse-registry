@@ -17,7 +17,27 @@
     "related_controls": [
       "10.7 Failures of critical security control systems are detected, reported, and responded to promptly"
     ],
-    "detection_notes": "Detection guidance: Look for absence of security system health monitoring, lack of alerting for security control failures (firewall, IDS/IPS, logging system failures), missing incident response procedures for security system outages, or evidence of undetected/unreported failures in critical security controls."
+    "detection_notes": "Detection guidance: Look for absence of security system health monitoring, lack of alerting for security control failures (firewall, IDS/IPS, logging system failures), missing incident response procedures for security system outages, or evidence of undetected/unreported failures in critical security controls.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-FAILURE-DETECTION-007/"
 }

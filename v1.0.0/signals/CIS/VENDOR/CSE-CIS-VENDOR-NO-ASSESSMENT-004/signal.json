@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **No Assessment Process**: Organization lacks defined process for assessing service provider security 2. **Missing Initial Assessments**: New service providers onboarded without pre-contract security assessment 3. **Overdue Periodic Assessments**: Existing providers not reassessed within required timeframes 4. **Inadequate Assessment Depth**: Assessments rely solely on vendor self-attestation without validation 5. **No Documentation**: Assessment results not documented or retained 6. **Missing Risk Ratings**: Assessments do not result in documented risk ratings or acceptance decisions 7. **No Follow-up**: Identified gaps or exceptions not tracked for remediation 8. **Assessment Scope Gaps**: Assessments do not cover all critica"
+    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **No Assessment Process**: Organization lacks defined process for assessing service provider security 2. **Missing Initial Assessments**: New service providers onboarded without pre-contract security assessment 3. **Overdue Periodic Assessments**: Existing providers not reassessed within required timeframes 4. **Inadequate Assessment Depth**: Assessments rely solely on vendor self-attestation without validation 5. **No Documentation**: Assessment results not documented or retained 6. **Missing Risk Ratings**: Assessments do not result in documented risk ratings or acceptance decisions 7. **No Follow-up**: Identified gaps or exceptions not tracked for remediation 8. **Assessment Scope Gaps**: Assessments do not cover all critica",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-ASSESSMENT-004/"
 }

@@ -7,675 +7,3212 @@
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Access Authorization",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACCESS-AUTH-009/",
+      "canonical_name": "No Access Authorization",
+      "description": "No policies and procedures exist for granting access to electronic protected health information (ePHI), including workstations, transactions, programs, and processes. This signal indicates the absence of documented processes that govern how access to ePHI is requested, approved, and provisioned.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACCESS-AUTH-009/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(4)(ii)(B)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of access authorization policies and procedures Examination of access request and approval workflows Analysis of access provisioning documentation Verification of authorization criteria and approval authorities Assessment of access granting consistency and controls The presence of this signal indicates that access to ePHI may be granted without proper authorization or oversight.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(4)(ii)(B)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-ACCESS-MODIFY-010",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Access Establishment and Modification",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACCESS-MODIFY-010/",
+      "canonical_name": "No Access Establishment and Modification",
+      "description": "No policies and procedures exist to document, review, and modify a user's right of access to workstations, transactions, programs, and processes based on access authorization and role changes. This signal indicates the absence of documented processes for managing changes to user access rights throughout the access lifecycle.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACCESS-MODIFY-010/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(4)(ii)(C)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of access modification policies and procedures Examination of access change request workflows Analysis of access review and recertification processes Verification of access modification documentation and audit trails Assessment of role change handling and access adjustments The presence of this signal indicates that user access rights may not be appropriately maintained as roles and responsibilities change.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(4)(ii)(C)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-ACTIVITY-REVIEW-004",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Information System Activity Review",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACTIVITY-REVIEW-004/",
+      "canonical_name": "No Information System Activity Review",
+      "description": "No regular review of information system activity records such as audit logs, access reports, and security incident tracking reports is being conducted. This signal indicates the absence of systematic monitoring and analysis of system activities to detect and respond to security events affecting ePHI.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACTIVITY-REVIEW-004/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(1)(ii)(D)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of log review procedures and schedules Examination of audit log analysis tools and processes Analysis of security monitoring dashboards and reports Verification of incident review documentation Assessment of access report generation and review frequency The presence of this signal indicates that security-relevant activities may go undetected or unaddressed.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(1)(ii)(D)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-CLEARANCE-PROC-007",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Workforce Clearance Procedure",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-CLEARANCE-PROC-007/",
+      "canonical_name": "No Workforce Clearance Procedure",
+      "description": "No procedures exist to determine that the access of a workforce member to electronic protected health information (ePHI) is appropriate. This signal indicates the absence of documented processes to verify and validate that workforce members have legitimate business needs for the level of ePHI access they are granted.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-CLEARANCE-PROC-007/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(3)(ii)(B)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of workforce clearance procedures and documentation Examination of access appropriateness review processes Analysis of role-based access determination workflows Verification of business need justification for access requests Assessment of periodic access appropriateness reviews The presence of this signal indicates that workforce members may have inappropriate or excessive access to ePHI.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(3)(ii)(B)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-DATA-BACKUP-016",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Data Backup Plan",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-DATA-BACKUP-016/",
+      "canonical_name": "No Data Backup Plan",
+      "description": "No procedures exist to create and maintain retrievable exact copies of electronic protected health information (ePHI) to ensure data availability and business continuity. This signal indicates the absence of documented backup processes to protect against data loss and enable recovery of ePHI.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-DATA-BACKUP-016/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(7)(ii)(A)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of data backup policies and procedures Examination of backup schedules and retention periods Analysis of backup storage locations and media protection Verification of backup completeness and integrity testing Assessment of backup retrieval capabilities and restoration testing The presence of this signal indicates that ePHI may be permanently lost in the event of system failures or disasters.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(7)(ii)(A)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-DISASTER-RECOVERY-017",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Disaster Recovery Plan",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-DISASTER-RECOVERY-017/",
+      "canonical_name": "No Disaster Recovery Plan",
+      "description": "No procedures exist for restoring any loss of data containing electronic protected health information (ePHI) following a disaster or system failure. This signal indicates the absence of documented disaster recovery processes to enable timely restoration of ePHI and related systems.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-DISASTER-RECOVERY-017/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(7)(ii)(B)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of disaster recovery policies and procedures Examination of recovery time objectives (RTOs) and recovery point objectives (RPOs) Analysis of disaster recovery testing and exercise documentation Verification of data restoration procedures and capabilities Assessment of recovery infrastructure and resources The presence of this signal indicates that the organization may be unable to recover ePHI following a disaster or major system failure.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(7)(ii)(B)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-EMERGENCY-MODE-018",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Emergency Mode Operation Plan",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-EMERGENCY-MODE-018/",
+      "canonical_name": "No Emergency Mode Operation Plan",
+      "description": "No procedures exist to enable continuation of critical business processes for protection of the security of electronic protected health information (ePHI) while operating in emergency mode during system failures or natural disasters. This signal indicates the absence of documented emergency operations procedures to maintain ePHI security during contingency situations.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-EMERGENCY-MODE-018/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(7)(ii)(C)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of emergency mode operation plans and procedures Examination of critical business process identification and prioritization Analysis of emergency mode security controls and safeguards Verification of emergency operations testing and exercises Assessment of transition procedures between normal and emergency modes The presence of this signal indicates that ePHI security may be compromised during emergency operations or system outages.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(7)(ii)(C)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Security Incident Response and Reporting",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015/",
+      "canonical_name": "No Security Incident Response and Reporting",
+      "description": "No policies and procedures exist to address security incidents affecting electronic protected health information (ePHI), including identification, response, mitigation, and documentation of security incidents. This signal indicates the absence of a documented incident response program to detect, respond to, and recover from security events.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(6)(ii)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of incident response policies and procedures Examination of incident identification and reporting mechanisms Analysis of incident response team structures and responsibilities Verification of incident documentation and tracking systems Assessment of incident mitigation and recovery capabilities The presence of this signal indicates that security incidents may not be properly identified, responded to, or documented.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(6)(ii)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-LOGIN-MONITORING-013",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Log-in Monitoring",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-LOGIN-MONITORING-013/",
+      "canonical_name": "No Log-in Monitoring",
+      "description": "No procedures exist for monitoring log-in attempts to systems containing electronic protected health information (ePHI) and reporting discrepancies such as failed login attempts or unusual access patterns. This signal indicates the absence of documented processes to detect and respond to potentially unauthorized access attempts.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-LOGIN-MONITORING-013/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(5)(ii)(C)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of log-in monitoring procedures and policies Examination of authentication log collection and analysis tools Analysis of failed login attempt detection and alerting mechanisms Verification of discrepancy reporting workflows Assessment of monitoring coverage across ePHI systems The presence of this signal indicates that unauthorized access attempts may go undetected or unreported.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(5)(ii)(C)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-MALWARE-PROTECTION-012",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Protection from Malicious Software",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-MALWARE-PROTECTION-012/",
+      "canonical_name": "No Protection from Malicious Software",
+      "description": "No procedures exist for guarding against, detecting, and reporting malicious software that could affect systems containing electronic protected health information (ePHI). This signal indicates the absence of documented processes and controls to protect against malware threats to ePHI systems.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-MALWARE-PROTECTION-012/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(5)(ii)(B)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of malware protection policies and procedures Examination of anti-malware solution deployment and configuration Analysis of malware detection and response workflows Verification of malware incident reporting processes Assessment of malware signature update and scanning schedules The presence of this signal indicates that systems containing ePHI may be vulnerable to malware attacks.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(5)(ii)(B)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-PASSWORD-MGMT-014",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Password Management",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-PASSWORD-MGMT-014/",
+      "canonical_name": "No Password Management",
+      "description": "No procedures exist for creating, changing, and safeguarding passwords used to authenticate users and protect electronic protected health information (ePHI). This signal indicates the absence of documented password management practices to ensure secure authentication to ePHI systems.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-PASSWORD-MGMT-014/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(5)(ii)(D)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of password management policies and procedures Examination of password complexity and expiration requirements Analysis of password creation and change workflows Verification of password storage and transmission security Assessment of password safeguarding practices and user education The presence of this signal indicates that weak or compromised passwords may provide unauthorized access to ePHI.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(5)(ii)(D)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-RISK-ANALYSIS-001",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Risk Analysis",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-RISK-ANALYSIS-001/",
+      "canonical_name": "No Risk Analysis",
+      "description": "No thorough assessment of potential risks and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) has been conducted. This signal indicates the absence of a documented risk analysis process that identifies and evaluates threats to ePHI across the organization's systems, networks, and business processes.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-RISK-ANALYSIS-001/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(1)(ii)(A)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of security documentation for evidence of risk analysis Examination of risk assessment methodologies and tools Analysis of risk registers and vulnerability inventories Verification of periodic risk analysis updates Assessment of coverage across all systems handling ePHI The presence of this signal indicates a fundamental gap in administrative safeguards that warrants immediate attention.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(1)(ii)(A)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-RISK-MANAGEMENT-002",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Risk Management",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-RISK-MANAGEMENT-002/",
+      "canonical_name": "No Risk Management",
+      "description": "No security measures have been implemented to reduce risks and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) to a reasonable and appropriate level. This signal indicates the absence of a risk management process that implements safeguards to mitigate identified risks from the risk analysis.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-RISK-MANAGEMENT-002/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(1)(ii)(B)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of risk management plans and remediation activities Examination of implemented security controls and safeguards Analysis of risk treatment decisions and mitigation strategies Verification of security measure effectiveness Assessment of residual risk levels The presence of this signal indicates that identified risks are not being actively managed or mitigated.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(1)(ii)(B)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-SANCTION-POLICY-003",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Sanction Policy",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SANCTION-POLICY-003/",
+      "canonical_name": "No Sanction Policy",
+      "description": "No policy exists for applying appropriate sanctions against workforce members who fail to comply with security policies and procedures. This signal indicates the absence of documented disciplinary measures or enforcement mechanisms to ensure workforce accountability for security violations.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SANCTION-POLICY-003/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(1)(ii)(C)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of organizational security policies for sanction provisions Examination of human resources policies and employee handbooks Analysis of disciplinary procedures documentation Verification of sanction application and tracking mechanisms Assessment of workforce awareness of sanction policies The presence of this signal indicates a lack of accountability mechanisms for security policy enforcement.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(1)(ii)(C)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-SECURITY-OFFICIAL-005",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Assigned Security Responsibility",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SECURITY-OFFICIAL-005/",
+      "canonical_name": "No Assigned Security Responsibility",
+      "description": "No designated security official has been assigned responsibility for developing and implementing security policies and procedures. This signal indicates the absence of a specific individual or role accountable for the organization's information security program and HIPAA compliance.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SECURITY-OFFICIAL-005/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(2)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of organizational charts and role assignments Examination of job descriptions for security responsibilities Analysis of security policy ownership and approval authorities Verification of documented security official designation Assessment of security governance structure The presence of this signal indicates a fundamental gap in security program leadership and accountability.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(2)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-SECURITY-REMINDERS-011",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Security Reminders",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SECURITY-REMINDERS-011/",
+      "canonical_name": "No Security Reminders",
+      "description": "No periodic security updates are provided to workforce members about security threats, vulnerabilities, or changes to security policies and procedures. This signal indicates the absence of an ongoing security awareness communication program to keep workforce members informed about current security issues.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SECURITY-REMINDERS-011/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(5)(ii)(A)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of security communication programs and schedules Examination of security bulletin and alert distribution mechanisms Analysis of security awareness campaign documentation Verification of periodic security reminder delivery records Assessment of workforce awareness of current security issues The presence of this signal indicates that workforce members may not be aware of emerging security threats or updated policies.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(5)(ii)(A)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-TERMINATION-PROC-008",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Termination Procedures",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-TERMINATION-PROC-008/",
+      "canonical_name": "No Termination Procedures",
+      "description": "No procedures exist for terminating access to electronic protected health information (ePHI) when the employment of, or other arrangement with, a workforce member ends or as required by determinations made as specified in workforce clearance procedures. This signal indicates the absence of documented processes to revoke ePHI access promptly when workforce members leave or change roles.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-TERMINATION-PROC-008/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(3)(ii)(C)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of workforce termination procedures and checklists Examination of access revocation workflows and timelines Analysis of integration between HR systems and access management Verification of termination procedure execution records Assessment of access removal timeframes and completeness The presence of this signal indicates that former workforce members may retain inappropriate access to ePHI.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(3)(ii)(C)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-ADMIN-NO-WORKFORCE-AUTH-006",
       "domain": "HIPAA",
       "category": "ADMIN",
       "name": "No Workforce Authorization/Supervision",
-      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-WORKFORCE-AUTH-006/",
+      "canonical_name": "No Workforce Authorization/Supervision",
+      "description": "No procedures exist for authorizing and/or supervising workforce members who work with electronic protected health information (ePHI) or in locations where it might be accessed. This signal indicates the absence of documented processes to ensure workforce members have appropriate authorization before accessing ePHI and are supervised appropriately.",
+      "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-WORKFORCE-AUTH-006/",
       "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PHYSICAL-NO-ACCESS-CONTROL-003",
-      "domain": "HIPAA",
-      "category": "PHYSICAL",
-      "name": "No Access Control and Validation Procedures",
-      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-ACCESS-CONTROL-003/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PHYSICAL-NO-CONTINGENCY-OPS-001",
-      "domain": "HIPAA",
-      "category": "PHYSICAL",
-      "name": "No Contingency Operations",
-      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-CONTINGENCY-OPS-001/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PHYSICAL-NO-FACILITY-PLAN-002",
-      "domain": "HIPAA",
-      "category": "PHYSICAL",
-      "name": "No Facility Security Plan",
-      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-FACILITY-PLAN-002/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PHYSICAL-NO-MAINTENANCE-RECORDS-004",
-      "domain": "HIPAA",
-      "category": "PHYSICAL",
-      "name": "No Maintenance Records",
-      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MAINTENANCE-RECORDS-004/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PHYSICAL-NO-MEDIA-DISPOSAL-007",
-      "domain": "HIPAA",
-      "category": "PHYSICAL",
-      "name": "No Media Disposal",
-      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MEDIA-DISPOSAL-007/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PHYSICAL-NO-MEDIA-REUSE-008",
-      "domain": "HIPAA",
-      "category": "PHYSICAL",
-      "name": "No Media Re-use Controls",
-      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MEDIA-REUSE-008/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PHYSICAL-NO-WORKSTATION-SECURITY-006",
-      "domain": "HIPAA",
-      "category": "PHYSICAL",
-      "name": "No Workstation Security",
-      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-WORKSTATION-SECURITY-006/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PHYSICAL-NO-WORKSTATION-USE-005",
-      "domain": "HIPAA",
-      "category": "PHYSICAL",
-      "name": "No Workstation Use Policy",
-      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-WORKSTATION-USE-005/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-TECH-NO-AUDIT-CONTROLS-005",
-      "domain": "HIPAA",
-      "category": "TECH",
-      "name": "No Audit Controls",
-      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUDIT-CONTROLS-005/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-TECH-NO-AUTHENTICATION-007",
-      "domain": "HIPAA",
-      "category": "TECH",
-      "name": "No Person or Entity Authentication",
-      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUTHENTICATION-007/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-TECH-NO-AUTO-LOGOFF-003",
-      "domain": "HIPAA",
-      "category": "TECH",
-      "name": "No Automatic Logoff",
-      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUTO-LOGOFF-003/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-TECH-NO-EMERGENCY-ACCESS-002",
-      "domain": "HIPAA",
-      "category": "TECH",
-      "name": "No Emergency Access Procedure",
-      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-EMERGENCY-ACCESS-002/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-TECH-NO-ENCRYPTION-004",
-      "domain": "HIPAA",
-      "category": "TECH",
-      "name": "No Encryption and Decryption",
-      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-ENCRYPTION-004/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-TECH-NO-INTEGRITY-MECHANISM-006",
-      "domain": "HIPAA",
-      "category": "TECH",
-      "name": "No ePHI Integrity Mechanism",
-      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-INTEGRITY-MECHANISM-006/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-TECH-NO-TRANSMISSION-ENCRYPTION-009",
-      "domain": "HIPAA",
-      "category": "TECH",
-      "name": "No Transmission Encryption",
-      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-TRANSMISSION-ENCRYPTION-009/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-TECH-NO-TRANSMISSION-INTEGRITY-008",
-      "domain": "HIPAA",
-      "category": "TECH",
-      "name": "No Transmission Integrity Controls",
-      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-TRANSMISSION-INTEGRITY-008/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-TECH-NO-UNIQUE-USER-ID-001",
-      "domain": "HIPAA",
-      "category": "TECH",
-      "name": "No Unique User Identification",
-      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-UNIQUE-USER-ID-001/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-ORG-NO-BA-CONTRACT-001",
-      "domain": "HIPAA",
-      "category": "ORG",
-      "name": "No Business Associate Contracts",
-      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-BA-CONTRACT-001/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-ORG-NO-DOCUMENTATION-005",
-      "domain": "HIPAA",
-      "category": "ORG",
-      "name": "No Documentation Maintenance",
-      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-DOCUMENTATION-005/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-ORG-NO-GROUP-HEALTH-SAFEGUARDS-003",
-      "domain": "HIPAA",
-      "category": "ORG",
-      "name": "No Group Health Plan Safeguards",
-      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-GROUP-HEALTH-SAFEGUARDS-003/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-ORG-NO-POLICIES-PROCEDURES-004",
-      "domain": "HIPAA",
-      "category": "ORG",
-      "name": "No Policies and Procedures",
-      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-POLICIES-PROCEDURES-004/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-ORG-NO-RETENTION-006",
-      "domain": "HIPAA",
-      "category": "ORG",
-      "name": "No 6-Year Retention",
-      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-RETENTION-006/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-ORG-NO-SUBCONTRACTOR-REQ-002",
-      "domain": "HIPAA",
-      "category": "ORG",
-      "name": "No Subcontractor Requirements",
-      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-SUBCONTRACTOR-REQ-002/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-ACCESS-RIGHTS-014",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Individual Access Rights",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCESS-RIGHTS-014/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-ACCESS-TIMELINESS-015",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Timely Access Response",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCESS-TIMELINESS-015/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-ACCOUNTING-DISCLOSURES-017",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Accounting of Disclosures",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCOUNTING-DISCLOSURES-017/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-AMENDMENT-RIGHTS-016",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Amendment Rights",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-AMENDMENT-RIGHTS-016/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-AUTHORIZATION-005",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Valid Authorization",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-AUTHORIZATION-005/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-COMPLAINT-PROCESS-022",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Complaint Process",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-COMPLAINT-PROCESS-022/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-CONFIDENTIAL-COMMS-013",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Confidential Communications",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-CONFIDENTIAL-COMMS-013/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-DEIDENTIFICATION-003",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No De-identification Standards",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-DEIDENTIFICATION-003/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-MARKETING-AUTHORIZATION-007",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Marketing Authorization",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MARKETING-AUTHORIZATION-007/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-MINIMUM-NECESSARY-002",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Minimum Necessary Standard",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MINIMUM-NECESSARY-002/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-MITIGATION-024",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Mitigation of Harmful Effects",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MITIGATION-024/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-NOTICE-CONTENT-010",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "Incomplete Notice Content",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-NOTICE-CONTENT-010/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-NOTICE-PROVISION-011",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Notice Provision to Individuals",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-NOTICE-PROVISION-011/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-CONTACT-019",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Privacy Contact Person",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-CONTACT-019/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-NOTICE-009",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Notice of Privacy Practices",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-NOTICE-009/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-OFFICER-018",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Designated Privacy Official",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-OFFICER-018/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-TRAINING-020",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Privacy Training",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-TRAINING-020/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-PSYCHOTHERAPY-PROTECTION-006",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Psychotherapy Notes Protection",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PSYCHOTHERAPY-PROTECTION-006/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-RESTRICTION-RIGHTS-012",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Rights to Request Restrictions",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-RESTRICTION-RIGHTS-012/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-RETALIATION-PROTECTION-025",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Retaliation Protection",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-RETALIATION-PROTECTION-025/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-SAFEGUARDS-021",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Administrative/Technical/Physical Safeguards",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SAFEGUARDS-021/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-SALE-PROHIBITION-008",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No PHI Sale Prohibition",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SALE-PROHIBITION-008/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-SANCTIONS-023",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Sanctions for Non-Compliance",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SANCTIONS-023/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-TPO-LIMITS-004",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Treatment/Payment/Operations Limits",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-TPO-LIMITS-004/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-USE-LIMITS-001",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Limits on Uses and Disclosures",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-USE-LIMITS-001/",
-      "introduced_in": "1.0.0",
-      "status": "active"
-    },
-    {
-      "id": "CSE-HIPAA-PRIVACY-NO-WAIVER-PROHIBITION-026",
-      "domain": "HIPAA",
-      "category": "PRIVACY",
-      "name": "No Waiver Prohibition",
-      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-WAIVER-PROHIBITION-026/",
-      "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "access-control",
+          "governance",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.308(a)(3)(ii)(A)"
+        ],
+        "detection_notes": "Detection of this signal typically involves: Review of workforce authorization procedures and documentation Examination of supervision policies and practices Analysis of access approval workflows Verification of authorization records for ePHI access Assessment of supervision mechanisms for workforce members The presence of this signal indicates inadequate controls over workforce access to and handling of ePHI.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.308(a)(3)(ii)(A)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "4"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-BREACH-NO-BA-NOTIFY-006",
       "domain": "HIPAA",
       "category": "BREACH",
       "name": "No Business Associate Notification",
-      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-BA-NOTIFY-006/",
+      "canonical_name": "No Business Associate Notification",
+      "description": "Business associate did not notify covered entity of breach within 60 days.",
+      "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-BA-NOTIFY-006/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.410"
+        ],
+        "detection_notes": "Detection guidance: Review business associate agreements to verify notification obligations are clearly specified Monitor business associate breach notifications for compliance with 60-day timeframe Track the discovery date reported by business associates versus the notification date received Implement automated alerting when business associate notifications are delayed Audit business associate incident response procedures to ensure they include covered entity notification Verify that business associates maintain documentation of their breach discovery and notification dates Check for evidence of notification channels and escalation procedures between business associates and covered entities",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart D - Breach Notification Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.400"
+          },
+          {
+            "title": "HHS Breach Notification Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-BREACH-NO-BURDEN-PROOF-008",
       "domain": "HIPAA",
       "category": "BREACH",
       "name": "No Documentation for Burden of Proof",
-      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-BURDEN-PROOF-008/",
+      "canonical_name": "No Documentation for Burden of Proof",
+      "description": "No documentation demonstrating notifications were made or breach assessment was performed.",
+      "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-BURDEN-PROOF-008/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.414(b)"
+        ],
+        "detection_notes": "Detection guidance: Verify that comprehensive documentation exists for all breach incidents and responses Review records of notification delivery including dates, methods, and recipient confirmation Check for documented breach risk assessments that evaluate whether incidents constitute breaches Ensure documentation includes the basis for determining whether notification was required Audit evidence of notification methods used (written, electronic, substitute methods) Verify that documentation is sufficient to withstand regulatory scrutiny and demonstrate compliance Review retention policies to ensure breach documentation is maintained for required periods Check for documented risk assessment factors including likelihood of PHI compromise, type of information, unauthorized recipient, and mi",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart D - Breach Notification Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.414(b)"
+          },
+          {
+            "title": "HHS Breach Notification Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-BREACH-NO-HHS-NOTIFY-005",
       "domain": "HIPAA",
       "category": "BREACH",
       "name": "No HHS Secretary Notification",
-      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-HHS-NOTIFY-005/",
+      "canonical_name": "No HHS Secretary Notification",
+      "description": "HHS Secretary not notified of breach as required.",
+      "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-HHS-NOTIFY-005/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.408"
+        ],
+        "detection_notes": "Detection guidance: Verify that HHS notification procedures are documented in incident response plans Check for records of HHS breach portal submissions for breaches affecting 500+ individuals Ensure contemporaneous notification to HHS when individual notifications are sent for large breaches Review annual breach log submissions to HHS for breaches affecting fewer than 500 individuals Monitor that annual HHS notifications occur within 60 days after calendar year end Audit the use of HHS-specified notification methods and portal access Validate that both large (immediate) and small (annual) breach notifications are properly tracked",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart D - Breach Notification Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.400"
+          },
+          {
+            "title": "HHS Breach Notification Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-BREACH-NO-INDIVIDUAL-NOTIFY-001",
       "domain": "HIPAA",
       "category": "BREACH",
       "name": "No Individual Notification",
-      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-INDIVIDUAL-NOTIFY-001/",
+      "canonical_name": "No Individual Notification",
+      "description": "Individuals whose unsecured PHI was breached not notified of the breach.",
+      "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-INDIVIDUAL-NOTIFY-001/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.404(a)"
+        ],
+        "detection_notes": "Detection guidance: Review incident response procedures to verify individual notification processes are defined and documented Examine breach incident logs and cross-reference with notification records to ensure all affected individuals were notified Verify that notification tracking systems capture all individuals whose PHI was compromised Check for automated notification workflows that trigger when breach thresholds are met Audit communication logs to confirm notification delivery to all affected parties Review business associate agreements to ensure notification responsibilities are clearly defined",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart D - Breach Notification Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.404(a)"
+          },
+          {
+            "title": "HHS Breach Notification Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-BREACH-NO-LOG-MAINTENANCE-007",
       "domain": "HIPAA",
       "category": "BREACH",
       "name": "No Breach Log for Small Breaches",
-      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-LOG-MAINTENANCE-007/",
+      "canonical_name": "No Breach Log for Small Breaches",
+      "description": "No log or documentation maintained for breaches affecting fewer than 500 individuals.",
+      "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-LOG-MAINTENANCE-007/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.408(c)"
+        ],
+        "detection_notes": "Detection guidance: Verify that a breach log system exists for tracking breaches affecting fewer than 500 individuals Review the breach log to ensure all small breaches are documented with required details Check that the log includes discovery dates, number of individuals affected, and breach descriptions Ensure the log is maintained in a secure, accessible location with appropriate access controls Audit the log for completeness by cross-referencing with incident reports and security event logs Verify that annual HHS submissions include all breaches from the log for the preceding year Monitor that logs are retained for the required period and are available for regulatory review",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart D - Breach Notification Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.408(c)"
+          },
+          {
+            "title": "HHS Breach Notification Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-BREACH-NO-MEDIA-NOTIFY-004",
       "domain": "HIPAA",
       "category": "BREACH",
       "name": "No Media Notification (500+ affected)",
-      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-MEDIA-NOTIFY-004/",
+      "canonical_name": "No Media Notification (500+ affected)",
+      "description": "Prominent media outlets not notified when breach affects 500+ residents of a state or jurisdiction.",
+      "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-MEDIA-NOTIFY-004/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.406"
+        ],
+        "detection_notes": "Detection guidance: Implement automated counting mechanisms to determine if 500+ individuals are affected Monitor breach incident reports for geographic distribution of affected individuals Verify that media notification procedures are triggered when the 500-person threshold is met Check for documented lists of \"prominent media outlets\" for each relevant state or jurisdiction Review records of media notifications including dates, outlets contacted, and content provided Audit incident response playbooks to ensure media notification steps are included for large breaches Validate that notification to media occurs within the same 60-day timeframe as individual notifications",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart D - Breach Notification Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.400"
+          },
+          {
+            "title": "HHS Breach Notification Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-BREACH-NO-NOTIFY-CONTENT-003",
       "domain": "HIPAA",
       "category": "BREACH",
       "name": "Incomplete Notification Content",
-      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-NOTIFY-CONTENT-003/",
+      "canonical_name": "Incomplete Notification Content",
+      "description": "Breach notifications do not contain all required elements (description, types of information, steps to take, entity's actions, contact info).",
+      "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-NOTIFY-CONTENT-003/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.404(c)"
+        ],
+        "detection_notes": "Detection guidance: Review breach notification templates to verify all five required elements are included Audit sent notifications against a compliance checklist to ensure completeness Check for standardized notification templates that enforce inclusion of required content Verify that notifications include specific dates (breach date and discovery date) Confirm that descriptions of compromised PHI types are sufficiently detailed Ensure protective steps for individuals are clearly outlined and actionable Validate that contact information for questions is prominently displayed and functional",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart D - Breach Notification Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.404(c)"
+          },
+          {
+            "title": "HHS Breach Notification Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-HIPAA-BREACH-NO-TIMELY-NOTIFY-002",
       "domain": "HIPAA",
       "category": "BREACH",
       "name": "No Timely Notification (60 days)",
-      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-TIMELY-NOTIFY-002/",
+      "canonical_name": "No Timely Notification (60 days)",
+      "description": "Breach notifications not provided within 60 calendar days of discovery.",
+      "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
+      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-TIMELY-NOTIFY-002/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.404(b)"
+        ],
+        "detection_notes": "Detection guidance: Implement automated timestamp tracking for breach discovery dates and notification dates Monitor the elapsed time between breach discovery and notification delivery Set up alerts for approaching 60-day deadlines to prevent late notifications Review historical breach incidents to identify patterns of delayed notifications Verify that \"discovery\" date is properly defined and consistently applied across incidents Check for documentation explaining any delays and whether they constitute \"unreasonable delay\" Audit notification workflows to identify bottlenecks that could cause timing violations",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart D - Breach Notification Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.404(b)"
+          },
+          {
+            "title": "HHS Breach Notification Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-ORG-NO-BA-CONTRACT-001",
+      "domain": "HIPAA",
+      "category": "ORG",
+      "name": "No Business Associate Contracts",
+      "canonical_name": "No Business Associate Contracts",
+      "description": "No written contract or arrangement with business associates requiring compliance with applicable Security Rule requirements.",
+      "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-BA-CONTRACT-001/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.314(a)(2)(i)"
+        ],
+        "detection_notes": "Detection guidance: Review vendor and third-party relationships to identify business associates who create, receive, maintain, or transmit ePHI. Verify that written Business Associate Agreements (BAAs) exist for all such relationships and include required Security Rule safeguards. Check contract management systems and procurement processes for gaps in BAA coverage.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Organizational Requirements",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.314(a)(2)(i)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "7"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-ORG-NO-DOCUMENTATION-005",
+      "domain": "HIPAA",
+      "category": "ORG",
+      "name": "No Documentation Maintenance",
+      "canonical_name": "No Documentation Maintenance",
+      "description": "No maintenance of policies and procedures in written or electronic form.",
+      "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-DOCUMENTATION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.316(b)(1)"
+        ],
+        "detection_notes": "Detection guidance: Verify that all Security Rule policies, procedures, and required documentation exist in written or electronic form. Check document management systems, policy repositories, and recordkeeping practices. Confirm that required documentation such as risk assessments, sanction policies, system activity reviews, and security incident tracking are maintained in accessible written format.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Organizational Requirements",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.316(b)(1)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "7"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-ORG-NO-GROUP-HEALTH-SAFEGUARDS-003",
+      "domain": "HIPAA",
+      "category": "ORG",
+      "name": "No Group Health Plan Safeguards",
+      "canonical_name": "No Group Health Plan Safeguards",
+      "description": "Group health plans do not ensure plan sponsor implements required safeguards.",
+      "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-GROUP-HEALTH-SAFEGUARDS-003/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.314(b)(2)"
+        ],
+        "detection_notes": "Detection guidance: For group health plans, review plan documents to confirm they include provisions restricting plan sponsor access to ePHI and requiring appropriate safeguards. Verify that plan sponsors have implemented security measures and incident reporting procedures. Assess whether plan amendments have been executed to incorporate required Security Rule provisions.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Organizational Requirements",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.314(b)(2)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "7"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-ORG-NO-POLICIES-PROCEDURES-004",
+      "domain": "HIPAA",
+      "category": "ORG",
+      "name": "No Policies and Procedures",
+      "canonical_name": "No Policies and Procedures",
+      "description": "No reasonable and appropriate policies and procedures to comply with Security Rule standards.",
+      "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-POLICIES-PROCEDURES-004/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.316(a)"
+        ],
+        "detection_notes": "Detection guidance: Assess whether the organization has documented policies and procedures addressing all required and applicable Security Rule standards and implementation specifications. Review policy inventory and governance processes to identify gaps in coverage. Verify that policies are reasonable and appropriate given the organization's size, complexity, and technical infrastructure as required by the scalability principle.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Organizational Requirements",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.316(a)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "7"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-ORG-NO-RETENTION-006",
+      "domain": "HIPAA",
+      "category": "ORG",
+      "name": "No 6-Year Retention",
+      "canonical_name": "No 6-Year Retention",
+      "description": "Documentation not retained for 6 years from date of creation or when last in effect.",
+      "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-RETENTION-006/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.316(b)(2)(i)"
+        ],
+        "detection_notes": "Detection guidance: Review records retention policies and practices to ensure Security Rule documentation is retained for the required 6-year period. Examine document management systems for appropriate retention schedules. Verify that both current and superseded policies, procedures, and required documentation are retained. Assess whether retention periods are calculated correctly from the later of creation date or when the document was last in effect.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Organizational Requirements",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.316(b)(2)(i)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "7"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-ORG-NO-SUBCONTRACTOR-REQ-002",
+      "domain": "HIPAA",
+      "category": "ORG",
+      "name": "No Subcontractor Requirements",
+      "canonical_name": "No Subcontractor Requirements",
+      "description": "Business associate contracts do not require subcontractors to implement same safeguards.",
+      "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-SUBCONTRACTOR-REQ-002/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "security",
+          "compliance",
+          "governance"
+        ],
+        "related_controls": [
+          "45 CFR 164.314(a)(2)(iii)"
+        ],
+        "detection_notes": "Detection guidance: Review Business Associate Agreements to verify they include provisions requiring subcontractors to comply with the same safeguards. Examine contract templates and executed agreements for subcontractor flow-down clauses. Assess whether business associates have processes to ensure subcontractors execute appropriate agreements before handling ePHI.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Organizational Requirements",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.314(a)(2)(iii)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "7"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-ACCESS-CONTROL-003",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Access Control and Validation Procedures",
+      "canonical_name": "No Access Control and Validation Procedures",
+      "description": "No procedures to control and validate physical access based on role or function, including visitor control.",
+      "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-ACCESS-CONTROL-003/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "physical-security",
+          "asset-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.310(a)(2)(iii)"
+        ],
+        "detection_notes": "Detection guidance: Review physical access control procedures including badge systems, visitor logs, and escort requirements. Verify that access is granted based on role-based authorization and that validation mechanisms are in place. Check for documented visitor management procedures, sign-in/sign-out logs, and controls for accessing areas with development or testing systems.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Physical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.310(a)(2)(iii)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "5"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-CONTINGENCY-OPS-001",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Contingency Operations",
+      "canonical_name": "No Contingency Operations",
+      "description": "No procedures allowing facility access in support of restoration of lost data under the disaster recovery plan and emergency mode operations plan.",
+      "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-CONTINGENCY-OPS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "physical-security",
+          "asset-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.310(a)(2)(i)"
+        ],
+        "detection_notes": "Detection guidance: Review policies and procedures for emergency facility access controls. Verify that documented procedures exist for granting physical access during disaster recovery operations and emergency mode operations. Check for integration with the organization's disaster recovery and business continuity plans.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Physical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.310(a)(2)(i)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "5"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-FACILITY-PLAN-002",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Facility Security Plan",
+      "canonical_name": "No Facility Security Plan",
+      "description": "No policies and procedures to safeguard the facility and equipment from unauthorized physical access, tampering, and theft.",
+      "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-FACILITY-PLAN-002/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "physical-security",
+          "asset-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.310(a)(2)(ii)"
+        ],
+        "detection_notes": "Detection guidance: Examine facility security documentation for comprehensive policies addressing physical access controls, anti-tampering measures, and theft prevention. Review physical security assessments, perimeter security controls, surveillance systems, and alarm systems. Verify that procedures address all areas where ePHI is accessed, stored, or transmitted.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Physical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.310(a)(2)(ii)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "5"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-MAINTENANCE-RECORDS-004",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Maintenance Records",
+      "canonical_name": "No Maintenance Records",
+      "description": "No documentation of repairs and modifications to physical components of a facility related to security.",
+      "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MAINTENANCE-RECORDS-004/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "physical-security",
+          "asset-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.310(a)(2)(iv)"
+        ],
+        "detection_notes": "Detection guidance: Review maintenance logs and work order systems for documentation of security-related facility modifications. Verify that records exist for repairs or changes to locks, doors, walls, access control systems, surveillance equipment, and other physical security components. Check for procedures requiring documentation before and after security-related maintenance activities.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Physical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.310(a)(2)(iv)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "5"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-MEDIA-DISPOSAL-007",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Media Disposal",
+      "canonical_name": "No Media Disposal",
+      "description": "No policies and procedures for final disposition of ePHI and/or storage media.",
+      "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MEDIA-DISPOSAL-007/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "physical-security",
+          "asset-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.310(d)(2)(i)"
+        ],
+        "detection_notes": "Detection guidance: Review media disposal and sanitization policies and procedures. Verify that documented processes exist for secure destruction or disposal of ePHI and storage media, including hard drives, backup tapes, CDs/DVDs, USB drives, and mobile devices. Check for procedures addressing physical destruction, degaussing, cryptographic erasure, or certified data destruction services with certificates of destruction.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Physical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.310(d)(2)(i)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "5"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-MEDIA-REUSE-008",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Media Re-use Controls",
+      "canonical_name": "No Media Re-use Controls",
+      "description": "No procedures for removal of ePHI before media re-use.",
+      "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MEDIA-REUSE-008/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "physical-security",
+          "asset-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.310(d)(2)(ii)"
+        ],
+        "detection_notes": "Detection guidance: Review procedures for sanitizing storage media before reallocation or repurposing. Verify that documented processes exist for securely removing ePHI from media intended for re-use, including formatting, wiping, or cryptographic erasure methods. Check for procedures addressing different media types and verification of successful data removal before media is reassigned or released.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Physical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.310(d)(2)(ii)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "5"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-WORKSTATION-SECURITY-006",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Workstation Security",
+      "canonical_name": "No Workstation Security",
+      "description": "No physical safeguards for workstations to restrict access to authorized users only.",
+      "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-WORKSTATION-SECURITY-006/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "physical-security",
+          "asset-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.310(c)"
+        ],
+        "detection_notes": "Detection guidance: Assess physical security controls for workstations accessing ePHI. Verify implementation of safeguards such as locking mechanisms, secure mounting, cable locks, proximity sensors, or placement in restricted access areas. Check for controls preventing unauthorized physical access to workstations, including laptop security, screen positioning, and automatic lock features when unattended.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Physical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.310(c)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "5"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PHYSICAL-NO-WORKSTATION-USE-005",
+      "domain": "HIPAA",
+      "category": "PHYSICAL",
+      "name": "No Workstation Use Policy",
+      "canonical_name": "No Workstation Use Policy",
+      "description": "No policies and procedures specifying proper functions, manner of performance, and physical surroundings for workstations accessing ePHI.",
+      "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-WORKSTATION-USE-005/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "physical-security",
+          "asset-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.310(b)"
+        ],
+        "detection_notes": "Detection guidance: Review organizational policies for workstation use controls. Verify that documented procedures specify allowable functions for workstations accessing ePHI, proper usage protocols, and requirements for physical placement and surroundings. Check for policies addressing privacy screens, workstation positioning to prevent unauthorized viewing, and secure areas for workstations handling sensitive ePHI.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Physical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.310(b)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "5"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-ACCESS-RIGHTS-014",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Individual Access Rights",
+      "canonical_name": "No Individual Access Rights",
+      "description": "Individuals not permitted to access and obtain copies of their PHI.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCESS-RIGHTS-014/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.524"
+        ],
+        "detection_notes": "Detect absence of access request mechanisms, denied access requests without valid grounds for denial, or systems that do not provide individuals the ability to inspect and obtain copies of their PHI in designated record sets.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.500"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-ACCESS-TIMELINESS-015",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Timely Access Response",
+      "canonical_name": "No Timely Access Response",
+      "description": "Access requests not responded to within 30 days (with possible 30-day extension).",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCESS-TIMELINESS-015/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.524(b)(2)"
+        ],
+        "detection_notes": "Detect access requests pending beyond the 30-day timeframe without proper extension notification, or requests that exceed the maximum 60-day response time (30 days plus one 30-day extension). Monitor request tracking systems for overdue access requests.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.524(b)(2)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-ACCOUNTING-DISCLOSURES-017",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Accounting of Disclosures",
+      "canonical_name": "No Accounting of Disclosures",
+      "description": "No accounting of disclosures provided when requested.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCOUNTING-DISCLOSURES-017/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.528"
+        ],
+        "detection_notes": "Detect absence of disclosure tracking mechanisms, incomplete accounting records, or failure to provide accounting within 60 days of request (with possible 30-day extension). Monitor for disclosure logs that do not capture required information (date, recipient, description, purpose).",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.500"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-AMENDMENT-RIGHTS-016",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Amendment Rights",
+      "canonical_name": "No Amendment Rights",
+      "description": "Individuals not permitted to request amendments to their PHI.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-AMENDMENT-RIGHTS-016/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.526"
+        ],
+        "detection_notes": "Detect absence of amendment request processes, denied amendment requests without valid grounds for denial (record not created by entity, record not in designated record set, record not available for inspection, or record is accurate and complete), or systems lacking amendment request functionality.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.500"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-AUTHORIZATION-005",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Valid Authorization",
+      "canonical_name": "No Valid Authorization",
+      "description": "No valid written authorization obtained when required for uses and disclosures.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-AUTHORIZATION-005/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.508"
+        ],
+        "detection_notes": "Detection of this signal may occur when: PHI is used or disclosed without obtaining required written authorization Authorizations are missing required core elements (description of PHI, purpose, expiration, etc.) Authorizations lack required statements (right to revoke, treatment/payment not conditioned, etc.) Authorizations are obtained through defective notices or forms Authorizations are used beyond their expiration date Compound authorizations are improperly combined Revoked authorizations are not honored",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.500"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-COMPLAINT-PROCESS-022",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Complaint Process",
+      "canonical_name": "No Complaint Process",
+      "description": "No process for individuals to file privacy complaints.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-COMPLAINT-PROCESS-022/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.530(d)"
+        ],
+        "detection_notes": "Detect absence of documented complaint procedures, inaccessible complaint mechanisms, or missing complaint contact information in privacy notices. Verify that individuals have clear pathways to file complaints both internally and with HHS Office for Civil Rights.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.530(d)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-CONFIDENTIAL-COMMS-013",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Confidential Communications",
+      "canonical_name": "No Confidential Communications",
+      "description": "No accommodation of requests for confidential communications.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-CONFIDENTIAL-COMMS-013/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.522(b)"
+        ],
+        "detection_notes": "Detection of this signal may occur when: No process exists for individuals to request confidential communications Reasonable requests for alternative communication methods or locations are denied Healthcare providers improperly require explanations for confidential communication requests Health plans fail to accommodate requests when disclosure could endanger the individual Alternative addresses, phone numbers, or email addresses are not honored Systems are not configured to support confidential communication preferences Staff are not trained on confidential communication obligations Documentation of confidential communication requests and accommodations is inadequate",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.522(b)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-DEIDENTIFICATION-003",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No De-identification Standards",
+      "canonical_name": "No De-identification Standards",
+      "description": "No proper de-identification of health information using Expert Determination or Safe Harbor methods.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-DEIDENTIFICATION-003/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.514(a)-(b)"
+        ],
+        "detection_notes": "Detection of this signal may occur when: De-identified data sets retain identifiers from the Safe Harbor list of 18 identifiers No expert determination has been obtained for de-identification methods Safe Harbor method is not properly applied with all required identifiers removed De-identification processes lack documentation or validation Re-identification risk assessments are not performed Limited data sets are created without proper data use agreements",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.514(a)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-MARKETING-AUTHORIZATION-007",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Marketing Authorization",
+      "canonical_name": "No Marketing Authorization",
+      "description": "PHI used for marketing without required authorization or disclosure of financial remuneration.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MARKETING-AUTHORIZATION-007/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.508(a)(3)"
+        ],
+        "detection_notes": "Detection of this signal may occur when: Marketing communications are sent without obtaining required authorization Authorizations for marketing fail to disclose financial remuneration from third parties Treatment or health plan communications are mischaracterized to avoid marketing authorization requirements Refill reminders or health-related product recommendations contain marketing elements without authorization Face-to-face exception or nominal gift exception is improperly applied Financial incentives for marketing are not disclosed in authorizations",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.508(a)(3)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-MINIMUM-NECESSARY-002",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Minimum Necessary Standard",
+      "canonical_name": "No Minimum Necessary Standard",
+      "description": "No reasonable efforts to limit PHI to minimum necessary for the intended purpose.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MINIMUM-NECESSARY-002/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.502(b)"
+        ],
+        "detection_notes": "Detection of this signal may occur when: PHI disclosures include more information than necessary for the stated purpose Policies and procedures for minimum necessary determinations are absent or inadequate System configurations allow access to entire medical records when limited access would suffice Requests for PHI do not specify the minimum amount needed Regular reviews of minimum necessary practices are not conducted",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.502(b)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-MITIGATION-024",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Mitigation of Harmful Effects",
+      "canonical_name": "No Mitigation of Harmful Effects",
+      "description": "No mitigation of known harmful effects of privacy violations.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MITIGATION-024/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.530(f)"
+        ],
+        "detection_notes": "Detect known privacy violations without documented mitigation efforts, failure to address harmful effects of unauthorized disclosures, or absence of remediation actions following privacy incidents. Monitor incident response procedures for mitigation steps taken to reduce harm to affected individuals.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.530(f)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-NOTICE-CONTENT-010",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "Incomplete Notice Content",
+      "canonical_name": "Incomplete Notice Content",
+      "description": "Notice of Privacy Practices does not contain all required elements.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-NOTICE-CONTENT-010/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.520(b)"
+        ],
+        "detection_notes": "Detection of this signal may occur when: Notice lacks required header stating \"THIS NOTICE DESCRIBES HOW MEDICAL INFORMATION ABOUT YOU MAY BE USED AND DISCLOSED...\" Description of uses and disclosures is incomplete or inaccurate Individual rights section omits required rights (access, amendment, accounting, restrictions, confidential communications) Covered entity duties are not properly described Complaint procedures and contact information are missing or incomplete Effective date is absent or incorrect Required statements about marketing, fundraising, or sale of PHI are missing Notice does not describe state law protections that are more stringent than HIPAA",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.520(b)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-NOTICE-PROVISION-011",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Notice Provision to Individuals",
+      "canonical_name": "No Notice Provision to Individuals",
+      "description": "Notice not provided at first service delivery, upon request, or as otherwise required.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-NOTICE-PROVISION-011/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.520(c)"
+        ],
+        "detection_notes": "Detection of this signal may occur when: Notice is not provided at first service delivery to new patients or plan enrollees Notice is not provided promptly after emergency treatment Notice is not made available electronically when individuals access PHI through electronic means Good faith effort to obtain written acknowledgment is not documented Notice is not provided within required timeframes when material changes occur Notice is not posted in clear and prominent locations in facilities Notice is not available upon request Health plans fail to provide notice at enrollment or within 60 days of material revision",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.520(c)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-CONTACT-019",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Privacy Contact Person",
+      "canonical_name": "No Privacy Contact Person",
+      "description": "No designated contact person/office for receiving complaints and providing information.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-CONTACT-019/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.530(a)(1)(ii)"
+        ],
+        "detection_notes": "Detect absence of designated contact information in privacy notices, websites, or patient-facing materials. Verify that contact person/office information is current and accessible to individuals seeking to file complaints or obtain privacy information.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.530(a)(1)(ii)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-NOTICE-009",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Notice of Privacy Practices",
+      "canonical_name": "No Notice of Privacy Practices",
+      "description": "No Notice of Privacy Practices provided to individuals.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-NOTICE-009/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.520"
+        ],
+        "detection_notes": "Detection of this signal may occur when: Covered entities fail to develop or maintain a Notice of Privacy Practices Notice is not available for distribution to individuals Notice has not been updated to reflect material changes in privacy practices Electronic notice availability requirements are not met for entities with web presence Notice is not available in the language or format needed by the individual population served Documentation of notice provision is not maintained",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.500"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-OFFICER-018",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Designated Privacy Official",
+      "canonical_name": "No Designated Privacy Official",
+      "description": "No designated privacy official responsible for privacy policies and procedures.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-OFFICER-018/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.530(a)(1)(i)"
+        ],
+        "detection_notes": "Detect absence of documented privacy official designation, vacancy in the privacy official role, or organizational documentation lacking privacy officer identification. Review organizational charts, policy documents, and privacy notices for privacy official designation.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.530(a)(1)(i)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-TRAINING-020",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Privacy Training",
+      "canonical_name": "No Privacy Training",
+      "description": "No training provided to workforce members on privacy policies and procedures.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-TRAINING-020/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.530(b)"
+        ],
+        "detection_notes": "Detect workforce members without documented privacy training, new hires not trained within reasonable timeframes, or absence of training updates following material policy changes. Monitor training completion records, onboarding processes, and retraining after policy updates.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.530(b)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-PSYCHOTHERAPY-PROTECTION-006",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Psychotherapy Notes Protection",
+      "canonical_name": "No Psychotherapy Notes Protection",
+      "description": "Psychotherapy notes used or disclosed without required authorization.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PSYCHOTHERAPY-PROTECTION-006/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.508(a)(2)"
+        ],
+        "detection_notes": "Detection of this signal may occur when: Psychotherapy notes are disclosed without specific authorization separate from other PHI authorizations Psychotherapy notes are improperly commingled with general medical records Notes that do not meet the definition of psychotherapy notes are incorrectly segregated Psychotherapy notes are used for purposes beyond the narrow exceptions (originator's treatment use, training, legal defense, oversight) Providers fail to maintain separate storage and access controls for psychotherapy notes",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.508(a)(2)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-RESTRICTION-RIGHTS-012",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Rights to Request Restrictions",
+      "canonical_name": "No Rights to Request Restrictions",
+      "description": "Individuals not permitted to request restrictions on uses and disclosures of their PHI.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-RESTRICTION-RIGHTS-012/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.522(a)"
+        ],
+        "detection_notes": "Detection of this signal may occur when: Individuals are prevented from making restriction requests No process exists for receiving and tracking restriction requests Required restrictions (out-of-pocket payment in full) are not honored Agreed-upon restrictions are not implemented in systems or workflows Restrictions are not properly documented Terminated restrictions are not properly communicated to affected parties Emergency circumstances exception to restrictions is improperly applied Restriction request denials are not properly documented or communicated",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.522(a)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-RETALIATION-PROTECTION-025",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Retaliation Protection",
+      "canonical_name": "No Retaliation Protection",
+      "description": "Intimidation or retaliation against individuals exercising their privacy rights.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-RETALIATION-PROTECTION-025/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.530(g)"
+        ],
+        "detection_notes": "Detect adverse actions taken against individuals who exercised privacy rights, filed complaints, or participated in investigations. Monitor for patterns of denials of service, increased costs, or other retaliatory measures following privacy-related activities. Review complaints alleging intimidation or retaliation.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.530(g)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-SAFEGUARDS-021",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Administrative/Technical/Physical Safeguards",
+      "canonical_name": "No Administrative/Technical/Physical Safeguards",
+      "description": "No appropriate administrative, technical, and physical safeguards to protect PHI.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SAFEGUARDS-021/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.530(c)"
+        ],
+        "detection_notes": "Detect absence of documented safeguards, inadequate access controls, lack of physical security measures, or insufficient technical protections for PHI. Evaluate administrative policies, technical security controls (encryption, authentication, audit logs), and physical security measures (locked files, secure facilities, visitor controls).",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.530(c)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-SALE-PROHIBITION-008",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No PHI Sale Prohibition",
+      "canonical_name": "No PHI Sale Prohibition",
+      "description": "PHI disclosed for remuneration without proper authorization.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SALE-PROHIBITION-008/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.508(a)(4)"
+        ],
+        "detection_notes": "Detection of this signal may occur when: PHI is disclosed in exchange for direct or indirect remuneration without authorization Authorization for sale of PHI does not explicitly state that remuneration is involved Exceptions for public health purposes, research, treatment/payment, business associate services, or individual-requested disclosures are improperly applied Financial arrangements involving PHI disclosure are not properly documented Data brokers or third parties receive PHI in exchange for payment without proper authorization Reasonable cost-based fees are exceeded, constituting remuneration",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.508(a)(4)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-SANCTIONS-023",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Sanctions for Non-Compliance",
+      "canonical_name": "No Sanctions for Non-Compliance",
+      "description": "No sanctions applied against workforce members for privacy violations.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SANCTIONS-023/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.530(e)"
+        ],
+        "detection_notes": "Detect absence of documented sanction policies, failure to apply sanctions for confirmed privacy violations, or lack of enforcement of privacy policies. Review incident response records, disciplinary actions, and workforce accountability measures for privacy non-compliance.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.530(e)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-TPO-LIMITS-004",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Treatment/Payment/Operations Limits",
+      "canonical_name": "No Treatment/Payment/Operations Limits",
+      "description": "Uses and disclosures for treatment, payment, or health care operations exceed permitted scope.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-TPO-LIMITS-004/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.506"
+        ],
+        "detection_notes": "Detection of this signal may occur when: PHI is disclosed for treatment beyond what is necessary for coordinating care Payment-related disclosures exceed billing and reimbursement purposes Health care operations uses go beyond permitted activities (quality assessment, training, accreditation, etc.) TPO purposes are broadly interpreted to justify inappropriate disclosures Notice of Privacy Practices does not adequately describe TPO uses and disclosures",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.500"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-USE-LIMITS-001",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Limits on Uses and Disclosures",
+      "canonical_name": "No Limits on Uses and Disclosures",
+      "description": "No limits on uses and disclosures of PHI; disclosures made beyond permitted or required purposes.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-USE-LIMITS-001/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.502(a)"
+        ],
+        "detection_notes": "Detection of this signal may occur when: PHI is used or disclosed for purposes not explicitly permitted by HIPAA Disclosures are made without proper authorization or legal basis PHI is shared beyond the scope of permitted purposes Monitoring reveals uses and disclosures that exceed regulatory permissions",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.502(a)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-PRIVACY-NO-WAIVER-PROHIBITION-026",
+      "domain": "HIPAA",
+      "category": "PRIVACY",
+      "name": "No Waiver Prohibition",
+      "canonical_name": "No Waiver Prohibition",
+      "description": "Individuals required to waive rights as condition of treatment, payment, or benefits.",
+      "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-WAIVER-PROHIBITION-026/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "data-protection",
+          "privacy",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.530(h)"
+        ],
+        "detection_notes": "Detect forms, agreements, or policies requiring waiver of access rights (164.524) or accounting of disclosures rights (164.528) as a condition of receiving treatment, payment, plan enrollment, or benefits eligibility. Review consent forms, enrollment documents, and service agreements for prohibited waiver language.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.530(h)"
+          },
+          {
+            "title": "HHS Privacy Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-AUDIT-CONTROLS-005",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Audit Controls",
+      "canonical_name": "No Audit Controls",
+      "description": "No hardware, software, or procedural mechanisms to record and examine activity in systems containing ePHI.",
+      "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
+      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUDIT-CONTROLS-005/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "technical-security",
+          "data-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.312(b)"
+        ],
+        "detection_notes": "Detection guidance: Review system logging configurations and audit trail capabilities. Verify that systems capture user access, modifications, deletions, and other activities involving ePHI. Check for centralized log management, log retention policies, and regular audit log reviews. Identify systems with disabled logging or insufficient audit trail detail.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Technical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.312(b)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "6"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-AUTHENTICATION-007",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Person or Entity Authentication",
+      "canonical_name": "No Person or Entity Authentication",
+      "description": "No procedures to verify that a person or entity seeking access to ePHI is the one claimed.",
+      "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
+      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUTHENTICATION-007/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "technical-security",
+          "data-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.312(d)"
+        ],
+        "detection_notes": "Detection guidance: Evaluate authentication mechanisms including password policies, multi-factor authentication, biometric systems, and certificate-based authentication. Check for weak authentication methods such as simple passwords without complexity requirements, absence of account lockout policies, or systems that do not properly verify user credentials before granting access to ePHI.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Technical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.312(d)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "6"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-AUTO-LOGOFF-003",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Automatic Logoff",
+      "canonical_name": "No Automatic Logoff",
+      "description": "No electronic procedures to terminate sessions after predetermined period of inactivity.",
+      "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
+      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUTO-LOGOFF-003/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "technical-security",
+          "data-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.312(a)(2)(iii)"
+        ],
+        "detection_notes": "Detection guidance: Test application and system session timeout settings to verify automatic logoff functionality. Check for configured idle timeout periods in web applications, terminal sessions, and database connections. Monitor for systems that allow indefinite session persistence or require manual logout only.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Technical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.312(a)(2)(iii)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "6"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-EMERGENCY-ACCESS-002",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Emergency Access Procedure",
+      "canonical_name": "No Emergency Access Procedure",
+      "description": "No procedures for obtaining necessary ePHI during an emergency.",
+      "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
+      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-EMERGENCY-ACCESS-002/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "technical-security",
+          "data-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.312(a)(2)(ii)"
+        ],
+        "detection_notes": "Detection guidance: Review system documentation and incident response procedures to verify the existence of emergency access protocols. Check for documented procedures that allow authorized personnel to access ePHI during system failures, disasters, or other emergency situations. Verify that emergency access mechanisms are tested and that access is properly logged and audited.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Technical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.312(a)(2)(ii)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "6"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-ENCRYPTION-004",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Encryption and Decryption",
+      "canonical_name": "No Encryption and Decryption",
+      "description": "No mechanism to encrypt and decrypt ePHI.",
+      "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
+      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-ENCRYPTION-004/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "technical-security",
+          "data-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.312(a)(2)(iv)"
+        ],
+        "detection_notes": "Detection guidance: Examine data storage configurations, database encryption settings, and file system encryption status. Check for unencrypted ePHI at rest on servers, workstations, portable devices, and backup media. Verify encryption standards and key management practices for systems that do implement encryption.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Technical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.312(a)(2)(iv)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "6"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-INTEGRITY-MECHANISM-006",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No ePHI Integrity Mechanism",
+      "canonical_name": "No ePHI Integrity Mechanism",
+      "description": "No electronic mechanisms to corroborate that ePHI has not been altered or destroyed in an unauthorized manner.",
+      "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
+      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-INTEGRITY-MECHANISM-006/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "technical-security",
+          "data-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.312(c)(2)"
+        ],
+        "detection_notes": "Detection guidance: Examine systems for integrity verification mechanisms such as digital signatures, hash functions, checksums, or blockchain technologies. Review change management processes and version control systems for ePHI. Check for file integrity monitoring tools and database audit trails that detect unauthorized modifications.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Technical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.312(c)(2)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "6"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-TRANSMISSION-ENCRYPTION-009",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Transmission Encryption",
+      "canonical_name": "No Transmission Encryption",
+      "description": "No mechanism to encrypt ePHI whenever deemed appropriate during transmission.",
+      "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
+      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-TRANSMISSION-ENCRYPTION-009/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "technical-security",
+          "data-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.312(e)(2)(ii)"
+        ],
+        "detection_notes": "Detection guidance: Analyze network traffic and communication channels for unencrypted ePHI transmission. Check for proper implementation of TLS/SSL for web applications, VPN usage for remote access, and encrypted protocols for file transfers (SFTP, FTPS). Verify that email containing ePHI uses encryption (S/MIME, PGP, or secure email gateways) and that API communications use HTTPS.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Technical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.312(e)(2)(ii)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "6"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-TRANSMISSION-INTEGRITY-008",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Transmission Integrity Controls",
+      "canonical_name": "No Transmission Integrity Controls",
+      "description": "No security measures to ensure electronically transmitted ePHI is not improperly modified without detection.",
+      "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
+      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-TRANSMISSION-INTEGRITY-008/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "technical-security",
+          "data-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.312(e)(2)(i)"
+        ],
+        "detection_notes": "Detection guidance: Review network transmission protocols and security measures for ePHI transfers. Check for integrity verification mechanisms such as message authentication codes (MACs), digital signatures, or secure protocols (TLS/SSL) that include integrity checking. Verify that file transfers, API communications, and messaging systems implement tamper detection.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Technical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.312(e)(2)(i)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "6"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-HIPAA-TECH-NO-UNIQUE-USER-ID-001",
+      "domain": "HIPAA",
+      "category": "TECH",
+      "name": "No Unique User Identification",
+      "canonical_name": "No Unique User Identification",
+      "description": "No unique name and/or number assigned for identifying and tracking user identity.",
+      "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
+      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-UNIQUE-USER-ID-001/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "technical-security",
+          "data-protection",
+          "compliance"
+        ],
+        "related_controls": [
+          "45 CFR 164.312(a)(2)(i)"
+        ],
+        "detection_notes": "Detection guidance: Examine user account configurations, authentication systems, and access logs to verify that each user has been assigned a unique identifier. Look for shared accounts, generic usernames (e.g., \"admin\", \"user\"), or systems that allow multiple users to authenticate with the same credentials.",
+        "sources": [
+          {
+            "title": "45 CFR Part 164 Subpart C - Technical Safeguards",
+            "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+            "type": "regulation",
+            "authority": "HHS",
+            "section": "164.312(a)(2)(i)"
+          },
+          {
+            "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+            "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+            "type": "guidance",
+            "authority": "NIST",
+            "section": "6"
+          },
+          {
+            "title": "HHS Security Rule Guidance",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+            "type": "guidance",
+            "authority": "HHS OCR"
+          }
+        ]
+      }
     }
   ]
 }

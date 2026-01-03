@@ -17,7 +17,27 @@
     "related_controls": [
       "8.5 Multi-factor authentication (MFA) systems are configured to prevent misuse."
     ],
-    "detection_notes": "Detection guidance: Test MFA implementations for security weaknesses including replay attack vulnerabilities, bypass mechanisms, and configuration flaws. Review MFA system settings for replay protection, session management, and bypass prevention controls. Vulnerable or bypassable MFA configurations indicate this signal."
+    "detection_notes": "Detection guidance: Test MFA implementations for security weaknesses including replay attack vulnerabilities, bypass mechanisms, and configuration flaws. Review MFA system settings for replay protection, session management, and bypass prevention controls. Vulnerable or bypassable MFA configurations indicate this signal.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-SECURE-MFA-005/"
 }

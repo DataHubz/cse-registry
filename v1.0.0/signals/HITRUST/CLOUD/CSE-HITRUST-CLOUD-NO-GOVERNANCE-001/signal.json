@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of cloud governance documentation and frameworks Assessment of cloud service approval processes Examination of cloud strategy and planning documents Verification of cloud oversight committees or roles Review of cloud vendor management procedures Analysis of cloud risk management processes The presence of this signal indicates a foundational gap in cloud governance that should be addressed as a priority for HITRUST compliance and secure cloud operations."
+    "detection_notes": "Detection of this signal typically involves: Review of cloud governance documentation and frameworks Assessment of cloud service approval processes Examination of cloud strategy and planning documents Verification of cloud oversight committees or roles Review of cloud vendor management procedures Analysis of cloud risk management processes The presence of this signal indicates a foundational gap in cloud governance that should be addressed as a priority for HITRUST compliance and secure cloud operations.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-GOVERNANCE-001/"
 }

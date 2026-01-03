@@ -14,8 +14,35 @@
       "threat-management",
       "recovery"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of incident metrics and reporting systems Examination of post-incident review documentation Analysis of lessons learned repositories Review of trending and pattern analysis processes Inspection of continuous improvement programs Assessment of incident cost tracking mechanisms The presence of this signal indicates a condition that warrants review in the context of information security incident management requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of incident metrics and reporting systems Examination of post-incident review documentation Analysis of lessons learned repositories Review of trending and pattern analysis processes Inspection of continuous improvement programs Assessment of incident cost tracking mechanisms The presence of this signal indicates a condition that warrants review in the context of information security incident management requirements.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 16 - Security Incident Management",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "RS.RP",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-LEARNING-004/"
 }

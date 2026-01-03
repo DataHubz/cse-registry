@@ -11,6 +11,51 @@
   },
   "domains": [
     {
+      "name": "CCPA",
+      "signal_count": 70,
+      "categories": {
+        "AUTOMATED": 5,
+        "CONSENT": 5,
+        "CONTRACTS": 8,
+        "NOTICE": 8,
+        "OPTOUT": 8,
+        "RETENTION": 5,
+        "RIGHTS": 12,
+        "SECURITY": 5,
+        "SENSITIVE": 6,
+        "TRAINING": 3,
+        "VERIFY": 5
+      },
+      "file": "domains/CCPA.json",
+      "file_min": "domains/CCPA.min.json"
+    },
+    {
+      "name": "CIS",
+      "signal_count": 120,
+      "categories": {
+        "ACCESS": 7,
+        "ACCOUNT": 6,
+        "APPSEC": 10,
+        "ASSET": 5,
+        "AUDIT": 8,
+        "CONFIG": 8,
+        "DATA": 10,
+        "EMAIL": 6,
+        "INCIDENT": 6,
+        "MALWARE": 6,
+        "MONITOR": 8,
+        "NETWORK": 6,
+        "PENTEST": 4,
+        "RECOVERY": 5,
+        "SOFTWARE": 7,
+        "TRAINING": 6,
+        "VENDOR": 5,
+        "VULN": 7
+      },
+      "file": "domains/CIS.json",
+      "file_min": "domains/CIS.min.json"
+    },
+    {
       "name": "CMMC",
       "signal_count": 136,
       "categories": {
@@ -32,134 +77,6 @@
       },
       "file": "domains/CMMC.json",
       "file_min": "domains/CMMC.min.json"
-    },
-    {
-      "name": "GDPR",
-      "signal_count": 81,
-      "categories": {
-        "CHILDREN": 2,
-        "CONSENT": 5,
-        "CONTROLLER": 11,
-        "DESIGN": 3,
-        "DPO": 4,
-        "IMPACT": 4,
-        "PRINCIPLES": 13,
-        "RETENTION": 1,
-        "RIGHTS": 18,
-        "SECURITY": 14,
-        "TRANSFER": 6
-      },
-      "file": "domains/GDPR.json",
-      "file_min": "domains/GDPR.min.json"
-    },
-    {
-      "name": "GEN",
-      "signal_count": 55,
-      "categories": {
-        "AUDIT": 5,
-        "AUTH": 6,
-        "CONFIG": 4,
-        "CRYPTO": 5,
-        "DATA": 5,
-        "GOVERN": 5,
-        "IDENTITY": 4,
-        "INCIDENT": 5,
-        "PHYSICAL": 4,
-        "SECRETS": 3,
-        "VENDOR": 4,
-        "VULN": 5
-      },
-      "file": "domains/GEN.json",
-      "file_min": "domains/GEN.min.json"
-    },
-    {
-      "name": "ISO27001",
-      "signal_count": 93,
-      "categories": {
-        "ORG": 37,
-        "PEOPLE": 8,
-        "PHYSICAL": 14,
-        "TECH": 34
-      },
-      "file": "domains/ISO27001.json",
-      "file_min": "domains/ISO27001.min.json"
-    },
-    {
-      "name": "SOC2",
-      "signal_count": 68,
-      "categories": {
-        "AVAIL": 4,
-        "CC": 36,
-        "CONF": 2,
-        "PI": 5,
-        "PRIV": 21
-      },
-      "file": "domains/SOC2.json",
-      "file_min": "domains/SOC2.min.json"
-    },
-    {
-      "name": "HIPAA",
-      "signal_count": 75,
-      "categories": {
-        "ADMIN": 18,
-        "BREACH": 8,
-        "ORG": 6,
-        "PHYSICAL": 8,
-        "PRIVACY": 26,
-        "TECH": 9
-      },
-      "file": "domains/HIPAA.json",
-      "file_min": "domains/HIPAA.min.json"
-    },
-    {
-      "name": "PCIDSS",
-      "signal_count": 64,
-      "categories": {
-        "ACCESS": 3,
-        "AUTH": 6,
-        "CONFIG": 3,
-        "LOG": 7,
-        "MALWARE": 4,
-        "NET": 5,
-        "PHYSICAL": 5,
-        "POLICY": 11,
-        "SECDEV": 5,
-        "STORE": 7,
-        "TEST": 6,
-        "TRANSIT": 2
-      },
-      "file": "domains/PCIDSS.json",
-      "file_min": "domains/PCIDSS.min.json"
-    },
-    {
-      "name": "NISTCSF",
-      "signal_count": 106,
-      "categories": {
-        "AA": 6,
-        "AE": 6,
-        "AM": 7,
-        "AN": 4,
-        "AT": 2,
-        "CM": 5,
-        "CO": 2,
-        "DS": 4,
-        "IM": 4,
-        "IR": 4,
-        "MA": 5,
-        "MI": 2,
-        "OC": 5,
-        "OV": 3,
-        "PO": 2,
-        "PS": 6,
-        "RA": 10,
-        "RCOM": 2,
-        "RM": 7,
-        "RP": 6,
-        "RR": 4,
-        "SC": 10
-      },
-      "file": "domains/NISTCSF.json",
-      "file_min": "domains/NISTCSF.min.json"
     },
     {
       "name": "FEDRAMP",
@@ -190,23 +107,66 @@
       "file_min": "domains/FEDRAMP.min.json"
     },
     {
-      "name": "CCPA",
-      "signal_count": 70,
+      "name": "GDPR",
+      "signal_count": 81,
       "categories": {
-        "AUTOMATED": 5,
+        "CHILDREN": 2,
         "CONSENT": 5,
-        "CONTRACTS": 8,
-        "NOTICE": 8,
-        "OPTOUT": 8,
-        "RETENTION": 5,
-        "RIGHTS": 12,
-        "SECURITY": 5,
-        "SENSITIVE": 6,
-        "TRAINING": 3,
-        "VERIFY": 5
+        "CONTROLLER": 11,
+        "DESIGN": 3,
+        "DPO": 4,
+        "IMPACT": 4,
+        "PRINCIPLES": 13,
+        "RETENTION": 1,
+        "RIGHTS": 18,
+        "SECURITY": 14,
+        "TRANSFER": 6
       },
-      "file": "domains/CCPA.json",
-      "file_min": "domains/CCPA.min.json"
+      "file": "domains/GDPR.json",
+      "file_min": "domains/GDPR.min.json"
+    },
+    {
+      "name": "GEN",
+      "signal_count": 1,
+      "categories": {
+        "SECRETS": 1
+      },
+      "file": "domains/GEN.json",
+      "file_min": "domains/GEN.min.json"
+    },
+    {
+      "name": "GEN (General)",
+      "signal_count": 54,
+      "categories": {
+        "AUDIT": 5,
+        "AUTH": 6,
+        "CONFIG": 4,
+        "CRYPTO": 5,
+        "DATA": 5,
+        "GOVERN": 5,
+        "IDENTITY": 4,
+        "INCIDENT": 5,
+        "PHYSICAL": 4,
+        "SECRETS": 2,
+        "VENDOR": 4,
+        "VULN": 5
+      },
+      "file": "domains/GEN (General).json",
+      "file_min": "domains/GEN (General).min.json"
+    },
+    {
+      "name": "HIPAA",
+      "signal_count": 75,
+      "categories": {
+        "ADMIN": 18,
+        "BREACH": 8,
+        "ORG": 6,
+        "PHYSICAL": 8,
+        "PRIVACY": 26,
+        "TECH": 9
+      },
+      "file": "domains/HIPAA.json",
+      "file_min": "domains/HIPAA.min.json"
     },
     {
       "name": "HITRUST",
@@ -236,30 +196,79 @@
       "file_min": "domains/HITRUST.min.json"
     },
     {
-      "name": "CIS",
-      "signal_count": 120,
+      "name": "ISO27001",
+      "signal_count": 93,
       "categories": {
-        "ACCESS": 7,
-        "ACCOUNT": 6,
-        "APPSEC": 10,
-        "ASSET": 5,
-        "AUDIT": 8,
-        "CONFIG": 8,
-        "DATA": 10,
-        "EMAIL": 6,
-        "INCIDENT": 6,
-        "MALWARE": 6,
-        "MONITOR": 8,
-        "NETWORK": 6,
-        "PENTEST": 4,
-        "RECOVERY": 5,
-        "SOFTWARE": 7,
-        "TRAINING": 6,
-        "VENDOR": 5,
-        "VULN": 7
+        "ORG": 37,
+        "PEOPLE": 8,
+        "PHYSICAL": 14,
+        "TECH": 34
       },
-      "file": "domains/CIS.json",
-      "file_min": "domains/CIS.min.json"
+      "file": "domains/ISO27001.json",
+      "file_min": "domains/ISO27001.min.json"
+    },
+    {
+      "name": "NISTCSF",
+      "signal_count": 106,
+      "categories": {
+        "AA": 6,
+        "AE": 6,
+        "AM": 7,
+        "RS.AN": 4,
+        "AT": 2,
+        "CM": 5,
+        "RS.CO": 2,
+        "Data Security": 4,
+        "IM": 4,
+        "Technology Infrastructure Resilience": 4,
+        "RS.MA": 5,
+        "RS.MI": 2,
+        "OC": 5,
+        "OV": 3,
+        "PO": 2,
+        "Platform Security": 6,
+        "RA": 10,
+        "RCOM": 2,
+        "RM": 7,
+        "RP": 6,
+        "RR": 4,
+        "SC": 10
+      },
+      "file": "domains/NISTCSF.json",
+      "file_min": "domains/NISTCSF.min.json"
+    },
+    {
+      "name": "PCIDSS",
+      "signal_count": 64,
+      "categories": {
+        "ACCESS": 3,
+        "AUTH": 6,
+        "CONFIG": 3,
+        "LOG": 7,
+        "MALWARE": 4,
+        "NET": 5,
+        "PHYSICAL": 5,
+        "POLICY": 11,
+        "SECDEV": 5,
+        "STORE": 7,
+        "TEST": 6,
+        "TRANSIT": 2
+      },
+      "file": "domains/PCIDSS.json",
+      "file_min": "domains/PCIDSS.min.json"
+    },
+    {
+      "name": "SOC2",
+      "signal_count": 69,
+      "categories": {
+        "AVAIL": 4,
+        "CC": 37,
+        "CONF": 2,
+        "PI": 5,
+        "PRIV": 21
+      },
+      "file": "domains/SOC2.json",
+      "file_min": "domains/SOC2.min.json"
     }
   ],
   "total_signals": 1143

@@ -14,8 +14,33 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Machine learning model auditing to identify sensitive characteristic inference Data flow analysis to track creation of sensitive inferences from non-sensitive inputs User profile schema review to find inferred sensitive attributes Algorithmic transparency assessment to reveal inference mechanisms Code review to identify profiling logic that creates sensitive PI Advertising targeting analysis to detect use of sensitive inferences Privacy policy review to check disclosure of inference activities Testing of limitation mechanisms to verify they apply to inferred SPI Third-party data sharing review to detect transmission of sensitive inferences The presence of this signal indicates a condition that warrants review in the context of CPRA's treatment o"
+    "detection_notes": "Detection of this signal typically involves: Machine learning model auditing to identify sensitive characteristic inference Data flow analysis to track creation of sensitive inferences from non-sensitive inputs User profile schema review to find inferred sensitive attributes Algorithmic transparency assessment to reveal inference mechanisms Code review to identify profiling logic that creates sensitive PI Advertising targeting analysis to detect use of sensitive inferences Privacy policy review to check disclosure of inference activities Testing of limitation mechanisms to verify they apply to inferred SPI Third-party data sharing review to detect transmission of sensitive inferences The presence of this signal indicates a condition that warrants review in the context of CPRA's treatment o",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CCPA/SENSITIVE/CSE-CCPA-SENSITIVE-INFERENCE-UNCONTROLLED-006/"
 }

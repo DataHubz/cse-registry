@@ -17,7 +17,27 @@
     "related_controls": [
       "8.4 Multi-factor authentication (MFA) is implemented to secure access into the CDE."
     ],
-    "detection_notes": "Detection guidance: Review authentication mechanisms for CDE access points including administrative consoles, remote access solutions, and application interfaces. Verify that at least two independent authentication factors (something you know, something you have, something you are) are required. Single-factor authentication to CDE components indicates this signal."
+    "detection_notes": "Detection guidance: Review authentication mechanisms for CDE access points including administrative consoles, remote access solutions, and application interfaces. Verify that at least two independent authentication factors (something you know, something you have, something you are) are required. Single-factor authentication to CDE components indicates this signal.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-MFA-004/"
 }

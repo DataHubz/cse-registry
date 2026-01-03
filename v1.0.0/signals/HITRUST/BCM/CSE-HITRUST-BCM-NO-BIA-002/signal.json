@@ -17,7 +17,27 @@
     "related_controls": [
       "12.b - Business Impact Analysis"
     ],
-    "detection_notes": "Detection of this signal typically involves: Review of documented BIA methodology and procedures Examination of critical business process inventories Verification of RTO and RPO definitions for each critical function Analysis of dependency mapping for systems and resources Assessment of impact scenarios and consequence evaluation Validation of stakeholder input and business function prioritization Review of resource requirements for continuity operations The presence of this signal indicates that the organization cannot prioritize recovery efforts effectively, may allocate resources inappropriately during disruptions, and lacks data-driven recovery objectives, potentially resulting in unacceptable downtime for critical healthcare operations."
+    "detection_notes": "Detection of this signal typically involves: Review of documented BIA methodology and procedures Examination of critical business process inventories Verification of RTO and RPO definitions for each critical function Analysis of dependency mapping for systems and resources Assessment of impact scenarios and consequence evaluation Validation of stakeholder input and business function prioritization Review of resource requirements for continuity operations The presence of this signal indicates that the organization cannot prioritize recovery efforts effectively, may allocate resources inappropriately during disruptions, and lacks data-driven recovery objectives, potentially resulting in unacceptable downtime for critical healthcare operations.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-BIA-002/"
 }

@@ -14,9 +14,27 @@
       "access-control",
       "audit"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection involves reviewing user account policies, checking for shared accounts, and verifying that all users have unique identifiers."
+    "detection_notes": "Detection involves reviewing user account policies, checking for shared accounts, and verifying that all users have unique identifiers.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
   },
-  "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-UNIQUE-ID-002/",
-  "name": "Unique User Identification Missing"
+  "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-UNIQUE-ID-002/"
 }

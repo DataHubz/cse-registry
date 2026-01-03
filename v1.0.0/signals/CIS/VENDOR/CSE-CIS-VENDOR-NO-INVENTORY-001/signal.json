@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **Absence of Service Provider Registry**: No centralized inventory or database of service providers exists 2. **Missing Provider Documentation**: Critical service providers are not documented or tracked 3. **Incomplete Provider Records**: Provider inventory lacks essential information (data sensitivity, services provided, criticality) 4. **No Ownership Assigned**: No designated owner responsible for maintaining the service provider inventory 5. **Outdated Records**: Service provider inventory has not been reviewed or updated within required timeframes 6. **Procurement Disconnection**: New service providers are onboarded without being added to inventory ### Remediation Priority This is a foundational IG1 control for third-party"
+    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **Absence of Service Provider Registry**: No centralized inventory or database of service providers exists 2. **Missing Provider Documentation**: Critical service providers are not documented or tracked 3. **Incomplete Provider Records**: Provider inventory lacks essential information (data sensitivity, services provided, criticality) 4. **No Ownership Assigned**: No designated owner responsible for maintaining the service provider inventory 5. **Outdated Records**: Service provider inventory has not been reviewed or updated within required timeframes 6. **Procurement Disconnection**: New service providers are onboarded without being added to inventory ### Remediation Priority This is a foundational IG1 control for third-party",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-INVENTORY-001/"
 }

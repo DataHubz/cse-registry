@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of monitoring and alerting configurations Assessment of capacity planning documentation Examination of resource utilization trends Verification of performance baselines and thresholds Review of scalability testing procedures Analysis of cloud cost optimization practices Inspection of quota and limit management The presence of this signal indicates a condition that warrants review in the context of service availability and performance requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of monitoring and alerting configurations Assessment of capacity planning documentation Examination of resource utilization trends Verification of performance baselines and thresholds Review of scalability testing procedures Analysis of cloud cost optimization practices Inspection of quota and limit management The presence of this signal indicates a condition that warrants review in the context of service availability and performance requirements.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-CAPACITY-003/"
 }

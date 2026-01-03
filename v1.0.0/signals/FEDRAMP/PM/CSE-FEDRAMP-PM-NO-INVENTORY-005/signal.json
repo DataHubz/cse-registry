@@ -14,8 +14,35 @@
       "governance",
       "policy"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of organization-wide system inventory documentation Analysis of inventory completeness and accuracy Verification of required inventory attributes (name, owner, authorizing official, authorization date) Assessment of inventory update frequency and change management integration Examination of inventory coverage across all system lifecycle stages (development, production, retired) Review of inventory management processes and responsibilities Verification of inventory accessibility to appropriate stakeholders Assessment of inventory integration with asset management systems Evaluation of inventory use in security program planning and oversight Review of inventory validation and reconciliation processes Verification of additional organization-"
+    "detection_notes": "Detection of this signal typically involves: Review of organization-wide system inventory documentation Analysis of inventory completeness and accuracy Verification of required inventory attributes (name, owner, authorizing official, authorization date) Assessment of inventory update frequency and change management integration Examination of inventory coverage across all system lifecycle stages (development, production, retired) Review of inventory management processes and responsibilities Verification of inventory accessibility to appropriate stakeholders Assessment of inventory integration with asset management systems Evaluation of inventory use in security program planning and oversight Review of inventory validation and reconciliation processes Verification of additional organization-",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "PM",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Program Management",
+        "section": "PM",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/PM/CSE-FEDRAMP-PM-NO-INVENTORY-005/"
 }

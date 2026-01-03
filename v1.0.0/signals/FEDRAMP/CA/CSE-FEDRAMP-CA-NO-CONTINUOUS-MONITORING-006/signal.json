@@ -17,7 +17,41 @@
     "related_controls": [
       "CA-7 - Continuous Monitoring"
     ],
-    "detection_notes": "Detection guidance: Verify the existence of a documented continuous monitoring strategy Check for defined metrics that are continuously monitored (vulnerability scans, configuration assessments, etc.) Confirm that monitoring frequencies are established and followed (monthly POA&M updates, annual assessments) Review evidence of ongoing security control assessments beyond the initial authorization Validate that security status is continuously monitored through automated tools where possible Examine processes for correlation and analysis of security-related information from multiple sources Check for documented response actions based on continuous monitoring findings Verify that security status reports are submitted to FedRAMP PMO as required Confirm integration between continuous monitoring"
+    "detection_notes": "Detection guidance: Verify the existence of a documented continuous monitoring strategy Check for defined metrics that are continuously monitored (vulnerability scans, configuration assessments, etc.) Confirm that monitoring frequencies are established and followed (monthly POA&M updates, annual assessments) Review evidence of ongoing security control assessments beyond the initial authorization Validate that security status is continuously monitored through automated tools where possible Examine processes for correlation and analysis of security-related information from multiple sources Check for documented response actions based on continuous monitoring findings Verify that security status reports are submitted to FedRAMP PMO as required Confirm integration between continuous monitoring",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "CA",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Assessment, Authorization, and Monitoring",
+        "section": "CA",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf",
+        "type": "guidance",
+        "title": "FedRAMP Continuous Monitoring Strategy Guide",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/CA/CSE-FEDRAMP-CA-NO-CONTINUOUS-MONITORING-006/"
 }

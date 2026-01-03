@@ -18,7 +18,28 @@
       "SOC 2 CC4.1",
       "COSO Principle 16"
     ],
-    "detection_notes": "Review control monitoring procedures, control testing schedules and results, internal audit plans and reports, management self-assessments, and evidence of ongoing control evaluations. Look for absence of control testing, lack of monitoring activities, or no evidence of control effectiveness evaluations."
+    "detection_notes": "Review control monitoring procedures, control testing schedules and results, internal audit plans and reports, management self-assessments, and evidence of ongoing control evaluations. Look for absence of control testing, lack of monitoring activities, or no evidence of control effectiveness evaluations.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - CC4 Monitoring Activities",
+        "section": "CC4",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.coso.org/guidance-on-ic",
+        "type": "guidance",
+        "title": "COSO Internal Control - Integrated Framework",
+        "authority": "COSO"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-EVALUATIONS-013/"
 }

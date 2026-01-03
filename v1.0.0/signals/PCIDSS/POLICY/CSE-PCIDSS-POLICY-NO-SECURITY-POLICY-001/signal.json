@@ -17,7 +17,28 @@
     "related_controls": [
       "12.1 - A comprehensive information security policy that governs and provides direction for protection of the entity's information assets is known and current"
     ],
-    "detection_notes": "Detection guidance: Monitor for the absence of a documented, board-approved information security policy. Verify that the policy addresses all PCI DSS requirements, is reviewed annually, and is distributed to all affected personnel. Check for policy version control and acknowledgment tracking."
+    "detection_notes": "Detection guidance: Monitor for the absence of a documented, board-approved information security policy. Verify that the policy addresses all PCI DSS requirements, is reviewed annually, and is distributed to all affected personnel. Check for policy version control and acknowledgment tracking.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "section": "Requirement 12: Support Information Security with Organizational Policies",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-SECURITY-POLICY-001/"
 }

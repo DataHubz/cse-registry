@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **No Monitoring Program**: Organization lacks defined processes for ongoing service provider monitoring 2. **Missing Security Metrics**: Security performance indicators not tracked or measured 3. **No Automated Monitoring**: Reliance solely on periodic manual reviews without continuous monitoring 4. **Missing Change Notifications**: Organization not notified or tracking provider changes (infrastructure, personnel, certifications, subprocessors) 5. **No Incident Tracking**: Provider security incidents not logged, tracked, or analyzed 6. **Missing Business Reviews**: No regular security-focused reviews or meetings with critical providers 7. **No Threat Intelligence**: Organization not monitoring for threats, breaches, or vulnerab"
+    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **No Monitoring Program**: Organization lacks defined processes for ongoing service provider monitoring 2. **Missing Security Metrics**: Security performance indicators not tracked or measured 3. **No Automated Monitoring**: Reliance solely on periodic manual reviews without continuous monitoring 4. **Missing Change Notifications**: Organization not notified or tracking provider changes (infrastructure, personnel, certifications, subprocessors) 5. **No Incident Tracking**: Provider security incidents not logged, tracked, or analyzed 6. **Missing Business Reviews**: No regular security-focused reviews or meetings with critical providers 7. **No Threat Intelligence**: Organization not monitoring for threats, breaches, or vulnerab",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-MONITORING-005/"
 }

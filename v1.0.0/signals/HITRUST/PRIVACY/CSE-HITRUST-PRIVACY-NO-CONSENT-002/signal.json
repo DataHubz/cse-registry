@@ -14,8 +14,35 @@
       "privacy",
       "compliance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of patient registration and enrollment systems Examination of consent capture workflows and forms Analysis of consent storage and retrieval mechanisms Verification of consent withdrawal processes Assessment of consent granularity and specificity Review of consent audit trails and documentation The presence of this signal indicates a significant gap in privacy controls that should be addressed to ensure individual autonomy and regulatory compliance."
+    "detection_notes": "Detection of this signal typically involves: Review of patient registration and enrollment systems Examination of consent capture workflows and forms Analysis of consent storage and retrieval mechanisms Verification of consent withdrawal processes Assessment of consent granularity and specificity Review of consent audit trails and documentation The presence of this signal indicates a significant gap in privacy controls that should be addressed to ensure individual autonomy and regulatory compliance.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 08 - Privacy",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.DS",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-CONSENT-002/"
 }

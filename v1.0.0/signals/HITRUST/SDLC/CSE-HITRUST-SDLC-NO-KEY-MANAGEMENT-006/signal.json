@@ -14,8 +14,35 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Code review for hardcoded keys and secrets Examination of configuration files and environment variables Review of key storage mechanisms (HSM, key vault, etc.) Assessment of key rotation policies and procedures Verification of key access controls and logging Analysis of key backup and disaster recovery plans Review of key lifecycle documentation Testing for secure key destruction procedures Evaluation of separation of duties in key management The presence of this signal indicates a critical security gap that could undermine all cryptographic protections. Poor key management can result in data breaches, regulatory violations, and permanent data loss if encryption keys are compromised or lost."
+    "detection_notes": "Detection of this signal typically involves: Code review for hardcoded keys and secrets Examination of configuration files and environment variables Review of key storage mechanisms (HSM, key vault, etc.) Assessment of key rotation policies and procedures Verification of key access controls and logging Analysis of key backup and disaster recovery plans Review of key lifecycle documentation Testing for secure key destruction procedures Evaluation of separation of duties in key management The presence of this signal indicates a critical security gap that could undermine all cryptographic protections. Poor key management can result in data breaches, regulatory violations, and permanent data loss if encryption keys are compromised or lost.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 14 - System Acquisition & Development",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.IP",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-KEY-MANAGEMENT-006/"
 }

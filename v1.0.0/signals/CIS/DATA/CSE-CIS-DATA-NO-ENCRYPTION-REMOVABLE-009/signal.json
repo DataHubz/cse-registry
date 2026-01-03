@@ -14,8 +14,28 @@
       "classification",
       "encryption"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of removable media encryption policies Assessment of endpoint encryption enforcement Examination of USB device control settings Analysis of BitLocker or FileVault configurations Verification of encrypted USB device usage Review of backup media encryption Assessment of mobile device encryption policies Examination of device management platforms (MDM/UEM) Analysis of removable media access logs The presence of this signal indicates a condition that warrants review in the context of data protection and physical security requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of removable media encryption policies Assessment of endpoint encryption enforcement Examination of USB device control settings Analysis of BitLocker or FileVault configurations Verification of encrypted USB device usage Review of backup media encryption Assessment of mobile device encryption policies Examination of device management platforms (MDM/UEM) Analysis of removable media access logs The presence of this signal indicates a condition that warrants review in the context of data protection and physical security requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 3: Data Protection",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-ENCRYPTION-REMOVABLE-009/"
 }

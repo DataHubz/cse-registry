@@ -18,7 +18,28 @@
       "SOC 2 P6.2",
       "GAPP"
     ],
-    "detection_notes": "Commonly detected through review of disclosure logs, consent records, data sharing agreements, audit trails, and privacy documentation. May be identified by absence of disclosure tracking, missing authorization documentation, or incomplete record-keeping practices."
+    "detection_notes": "Commonly detected through review of disclosure logs, consent records, data sharing agreements, audit trails, and privacy documentation. May be identified by absence of disclosure tracking, missing authorization documentation, or incomplete record-keeping practices.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - Privacy",
+        "section": "P1, P2, P3, P4, P5, P6, P7, P8",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+        "type": "guidance",
+        "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+        "authority": "AICPA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-THIRD-PARTY-AUTH-013/"
 }

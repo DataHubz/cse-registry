@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of NTP or chrony service configurations Assessment of time source accuracy and reliability Examination of time synchronization monitoring Verification of time drift alerting Review of authentication time-based controls Analysis of log timestamp consistency Inspection of certificate time validation Verification of distributed system time coordination The presence of this signal indicates a condition that warrants review in the context of audit accuracy and security protocol requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of NTP or chrony service configurations Assessment of time source accuracy and reliability Examination of time synchronization monitoring Verification of time drift alerting Review of authentication time-based controls Analysis of log timestamp consistency Inspection of certificate time validation Verification of distributed system time coordination The presence of this signal indicates a condition that warrants review in the context of audit accuracy and security protocol requirements.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-CLOCK-SYNC-009/"
 }

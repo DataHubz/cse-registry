@@ -17,7 +17,27 @@
     "related_controls": [
       "10.4 Audit logs are reviewed to identify anomalies or suspicious activity"
     ],
-    "detection_notes": "Detection guidance: Look for absence of log review procedures, lack of documented review activities, missing SIEM alerts or monitoring, no evidence of daily log analysis, or outdated/unreviewed security event logs."
+    "detection_notes": "Detection guidance: Look for absence of log review procedures, lack of documented review activities, missing SIEM alerts or monitoring, no evidence of daily log analysis, or outdated/unreviewed security event logs.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-LOG-REVIEW-004/"
 }

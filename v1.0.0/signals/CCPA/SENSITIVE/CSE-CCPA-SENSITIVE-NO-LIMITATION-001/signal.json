@@ -14,8 +14,33 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Code analysis to identify sensitive PI processing flows Data flow mapping to track SPI beyond disclosed purposes Privacy policy review to identify permitted use disclosures API traffic analysis to detect SPI sharing with third parties Database query auditing to find SPI used in analytics or profiling Third-party service integration review for undisclosed SPI sharing Comparison of actual data use against privacy notice disclosures The presence of this signal indicates a condition that warrants review in the context of CPRA sensitive personal information use limitations."
+    "detection_notes": "Detection of this signal typically involves: Code analysis to identify sensitive PI processing flows Data flow mapping to track SPI beyond disclosed purposes Privacy policy review to identify permitted use disclosures API traffic analysis to detect SPI sharing with third parties Database query auditing to find SPI used in analytics or profiling Third-party service integration review for undisclosed SPI sharing Comparison of actual data use against privacy notice disclosures The presence of this signal indicates a condition that warrants review in the context of CPRA sensitive personal information use limitations.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CCPA/SENSITIVE/CSE-CCPA-SENSITIVE-NO-LIMITATION-001/"
 }

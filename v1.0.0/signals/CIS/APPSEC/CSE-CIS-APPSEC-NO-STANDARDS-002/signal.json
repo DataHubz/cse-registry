@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of secure coding documentation and standards Assessment of language-specific security guidelines Evaluation of OWASP integration in coding practices Examination of input validation requirements Review of authentication and authorization standards Assessment of cryptography usage guidelines Analysis of error handling and logging standards Secure coding standards typically address: **Input validation**: Whitelisting, sanitization, type checking **Output encoding**: Context-aware encoding, XSS prevention **Authentication**: Password policies, MFA, session management **Authorization**: Access control patterns, privilege checks **Cryptography**: Approved algorithms, key management **Error handling**: Secure logging, generic error messages **Da"
+    "detection_notes": "Detection of this signal typically involves: Review of secure coding documentation and standards Assessment of language-specific security guidelines Evaluation of OWASP integration in coding practices Examination of input validation requirements Review of authentication and authorization standards Assessment of cryptography usage guidelines Analysis of error handling and logging standards Secure coding standards typically address: **Input validation**: Whitelisting, sanitization, type checking **Output encoding**: Context-aware encoding, XSS prevention **Authentication**: Password policies, MFA, session management **Authorization**: Access control patterns, privilege checks **Cryptography**: Approved algorithms, key management **Error handling**: Secure logging, generic error messages **Da",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-STANDARDS-002/"
 }

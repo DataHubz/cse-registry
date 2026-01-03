@@ -17,7 +17,22 @@
     "related_controls": [
       "SOC 2 A1.1"
     ],
-    "detection_notes": "Review infrastructure monitoring tools, capacity planning documentation, resource utilization metrics, and scaling policies. Check for absence of capacity thresholds, alerts, or proactive capacity management processes."
+    "detection_notes": "Review infrastructure monitoring tools, capacity planning documentation, resource utilization metrics, and scaling policies. Check for absence of capacity thresholds, alerts, or proactive capacity management processes.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - Availability",
+        "section": "A1",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-CAPACITY-MGMT-001/"
 }

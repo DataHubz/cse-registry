@@ -17,7 +17,35 @@
     "related_controls": [
       "SA-10"
     ],
-    "detection_notes": "Detection guidance: Look for missing developer configuration management processes, absence of change tracking systems, lack of integrity controls for configuration items, unapproved changes to system components, missing documentation of security impacts, inadequate security flaw tracking, and absence of flaw resolution reporting mechanisms."
+    "detection_notes": "Detection guidance: Look for missing developer configuration management processes, absence of change tracking systems, lack of integrity controls for configuration items, unapproved changes to system components, missing documentation of security impacts, inadequate security flaw tracking, and absence of flaw resolution reporting mechanisms.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "SA-10",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - System and Services Acquisition",
+        "section": "SA-10",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-DEV-CONFIG-007/"
 }

@@ -15,7 +15,28 @@
       "threat-management"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Scanning incident records for post-incident review documentation Checking for lessons learned reports and action items Reviewing incident response procedures for review requirements Verifying root cause analysis documentation Looking for evidence of process improvements after incidents Checking for closed incidents without associated reviews Monitoring action item tracking and implementation The presence of this signal indicates a missed opportunity for continuous improvement, potentially allowing similar incidents to recur without organizational learning."
+    "detection_notes": "Detection of this signal typically involves: Scanning incident records for post-incident review documentation Checking for lessons learned reports and action items Reviewing incident response procedures for review requirements Verifying root cause analysis documentation Looking for evidence of process improvements after incidents Checking for closed incidents without associated reviews Monitoring action item tracking and implementation The presence of this signal indicates a missed opportunity for continuous improvement, potentially allowing similar incidents to recur without organizational learning.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "IR"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/INCIDENT/CSE-GEN-INCIDENT-NO-LESSONS-LEARNED-005/"
 }

@@ -17,7 +17,27 @@
     "related_controls": [
       "12.d - Business Continuity Testing"
     ],
-    "detection_notes": "Detection of this signal typically involves: Review of documented BCM testing schedule and procedures Examination of test results, findings, and corrective actions Verification of testing frequency meeting regulatory requirements Analysis of test scenarios covering various disruption types Assessment of participant involvement and role performance Validation of recovery capability against defined RTOs and RPOs Review of lessons learned and plan improvements from testing Examination of testing documentation and evidence retention The presence of this signal indicates that the organization cannot validate whether its continuity plans are effective, personnel may be unprepared to execute recovery procedures, and undiscovered gaps may prevent successful recovery during actual disruptions, pote"
+    "detection_notes": "Detection of this signal typically involves: Review of documented BCM testing schedule and procedures Examination of test results, findings, and corrective actions Verification of testing frequency meeting regulatory requirements Analysis of test scenarios covering various disruption types Assessment of participant involvement and role performance Validation of recovery capability against defined RTOs and RPOs Review of lessons learned and plan improvements from testing Examination of testing documentation and evidence retention The presence of this signal indicates that the organization cannot validate whether its continuity plans are effective, personnel may be unprepared to execute recovery procedures, and undiscovered gaps may prevent successful recovery during actual disruptions, pote",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-TESTING-004/"
 }

@@ -15,7 +15,27 @@
       "governance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection guidance: Identify high-severity incidents that remain at lower response tiers, critical events not reported to management or executive teams, incidents exceeding SLA thresholds without escalation, or missing escalation paths in incident workflows. Monitor for indicators that incident scope or impact has grown but response level has not adjusted accordingly."
+    "detection_notes": "Detection guidance: Identify high-severity incidents that remain at lower response tiers, critical events not reported to management or executive teams, incidents exceeding SLA thresholds without escalation, or missing escalation paths in incident workflows. Monitor for indicators that incident scope or impact has grown but response level has not adjusted accordingly.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST CSF 2.0 Publication",
+        "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-20/final",
+        "type": "guidance",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/NISTCSF/MA/CSE-NISTCSF-MA-NO-ESCALATION-004/"
 }

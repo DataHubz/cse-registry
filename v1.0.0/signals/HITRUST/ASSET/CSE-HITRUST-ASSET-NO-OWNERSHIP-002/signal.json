@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of asset inventory for ownership fields Analysis of cloud resource tagging compliance Assessment of CMDB ownership attributes Verification of data stewardship assignments Evaluation of accountability matrices Review of system documentation for responsible parties The presence of this signal indicates a condition that warrants review in the context of asset ownership and accountability requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of asset inventory for ownership fields Analysis of cloud resource tagging compliance Assessment of CMDB ownership attributes Verification of data stewardship assignments Evaluation of accountability matrices Review of system documentation for responsible parties The presence of this signal indicates a condition that warrants review in the context of asset ownership and accountability requirements.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-OWNERSHIP-002/"
 }

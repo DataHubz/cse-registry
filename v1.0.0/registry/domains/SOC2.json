@@ -1,582 +1,3072 @@
 {
   "domain": "SOC2",
-  "signal_count": 64,
+  "signal_count": 69,
   "signals": [
     {
       "id": "CSE-SOC2-AVAIL-NO-CAPACITY-MGMT-001",
       "domain": "SOC2",
       "category": "AVAIL",
       "name": "No Capacity Management",
-      "definition_ref": "/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-CAPACITY-MGMT-001/",
+      "canonical_name": "No Capacity Management",
+      "description": "The entity does not maintain, monitor, and evaluate current processing capacity and use of system components to manage capacity demand and enable implementation of additional capacity to help meet its objectives.",
+      "applicability": "Infrastructure capacity planning, resource monitoring",
+      "definition_ref": "/v1.0.0/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-CAPACITY-MGMT-001/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "availability",
+          "performance",
+          "infrastructure"
+        ],
+        "related_controls": [
+          "SOC 2 A1.1"
+        ],
+        "detection_notes": "Review infrastructure monitoring tools, capacity planning documentation, resource utilization metrics, and scaling policies. Check for absence of capacity thresholds, alerts, or proactive capacity management processes.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Availability",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "A1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-SOC2-AVAIL-NO-CAPACITY-PLANNING-001",
+      "domain": "SOC2",
+      "category": "AVAIL",
+      "name": "Capacity Planning Process Missing",
+      "canonical_name": "Capacity Planning Process Missing",
+      "description": "The organization has not established a formal capacity planning process. This signal indicates the absence of procedures for monitoring and projecting system capacity needs to ensure availability.",
+      "applicability": "Organizations pursuing SOC 2 certification, Service organizations with availability requirements",
+      "definition_ref": "/v1.0.0/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-CAPACITY-PLANNING-001/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "availability",
+          "capacity-management",
+          "infrastructure"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing capacity planning documentation, examining monitoring configurations, and verifying that capacity projections are performed.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Availability",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "A1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002",
       "domain": "SOC2",
       "category": "AVAIL",
       "name": "No Environmental Protections and Recovery Infrastructure",
-      "definition_ref": "/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002/",
+      "canonical_name": "No Environmental Protections and Recovery Infrastructure",
+      "description": "The entity does not authorize, design, develop or acquire, implement, operate, approve, maintain, and monitor environmental protections, software, data backup processes, and recovery infrastructure to meet its objectives.",
+      "applicability": "Disaster recovery, backup systems, environmental controls",
+      "definition_ref": "/v1.0.0/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "critical",
+        "risk_domains": [
+          "availability",
+          "business_continuity",
+          "disaster_recovery"
+        ],
+        "related_controls": [
+          "SOC 2 A1.2"
+        ],
+        "detection_notes": "Review backup policies, disaster recovery plans, environmental controls documentation, redundant infrastructure, and recovery point/time objectives. Check for absence of backup systems, environmental monitoring, or recovery infrastructure.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Availability",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "A1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-AVAIL-NO-RECOVERY-TESTING-003",
       "domain": "SOC2",
       "category": "AVAIL",
       "name": "No Recovery Testing",
-      "definition_ref": "/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-RECOVERY-TESTING-003/",
+      "canonical_name": "No Recovery Testing",
+      "description": "The entity does not test recovery plan procedures supporting system recovery to meet its objectives.",
+      "applicability": "DR testing, backup restoration testing, BCP exercises",
+      "definition_ref": "/v1.0.0/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-RECOVERY-TESTING-003/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "availability",
+          "business_continuity",
+          "disaster_recovery"
+        ],
+        "related_controls": [
+          "SOC 2 A1.3"
+        ],
+        "detection_notes": "Review disaster recovery test schedules, backup restoration logs, tabletop exercise documentation, and test results. Check for absence of recovery testing, outdated test results, or incomplete test scenarios.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Availability",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "A1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-ANOMALY-DETECTION-027",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Anomaly Detection and Analysis",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-ANOMALY-DETECTION-027/",
+      "canonical_name": "No Anomaly Detection and Analysis",
+      "description": "The entity does not monitor system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives.",
+      "applicability": "SIEM, security monitoring, log analysis",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-ANOMALY-DETECTION-027/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "Security Monitoring",
+          "Anomaly Detection",
+          "Threat Detection"
+        ],
+        "related_controls": [
+          "SOC 2 CC7.2"
+        ],
+        "detection_notes": "Review security monitoring capabilities, SIEM implementations, log analysis processes, and anomaly detection mechanisms. Verify continuous monitoring and alerting for abnormal activities.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC7 System Operations",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC7"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Board Independence and Oversight",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002/",
+      "canonical_name": "No Board Independence and Oversight",
+      "description": "The board of directors does not demonstrate independence from management and does not exercise oversight of internal control development and performance.",
+      "applicability": "Applies to all entities when the board lacks independent members, does not meet regularly to review controls, fails to challenge management on control decisions, or does not have expertise in risk management and internal controls.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "governance",
+          "oversight",
+          "risk_management"
+        ],
+        "related_controls": [
+          "SOC 2 CC1.2",
+          "COSO Principle 2"
+        ],
+        "detection_notes": "Review board composition and independence criteria, board meeting minutes, audit committee charter, evidence of board oversight of control environment, and documentation of board challenges to management decisions. Look for absence of independent directors, infrequent meetings, or lack of internal control discussions.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC1 Control Environment",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-BOUNDARY-PROTECTION-023",
       "domain": "SOC2",
       "category": "CC",
       "name": "No External Threat Protection",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-BOUNDARY-PROTECTION-023/",
+      "canonical_name": "No External Threat Protection",
+      "description": "The entity does not implement logical access security measures to protect against threats from sources outside its system boundaries.",
+      "applicability": "Firewalls, network security, boundary controls",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-BOUNDARY-PROTECTION-023/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "critical",
+        "risk_domains": [
+          "Network Security",
+          "Perimeter Defense",
+          "Threat Protection"
+        ],
+        "related_controls": [
+          "SOC 2 CC6.6"
+        ],
+        "detection_notes": "Review network architecture, firewall configurations, intrusion detection/prevention systems, and boundary protection mechanisms. Verify perimeter security controls are in place and properly configured.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC6 Logical and Physical Access Controls",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC6"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-CHANGE-IMPACT-012",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Change Impact Assessment",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CHANGE-IMPACT-012/",
+      "canonical_name": "No Change Impact Assessment",
+      "description": "The entity does not identify and assess changes that could significantly impact the system of internal control.",
+      "applicability": "Applies to all entities when changes to systems, processes, or the business environment are not assessed for control impacts, change management processes are absent, or control updates are not triggered by significant changes.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-CHANGE-IMPACT-012/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "change_management",
+          "risk_management",
+          "control_effectiveness"
+        ],
+        "related_controls": [
+          "SOC 2 CC3.4",
+          "COSO Principle 9"
+        ],
+        "detection_notes": "Review change management procedures, control impact assessments for changes, documentation of business model changes, technology changes, regulatory changes, and evidence that controls are updated in response to changes. Look for absence of change impact assessments or controls not updated after significant changes.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC3 Risk Assessment",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC3"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-CHANGE-MANAGEMENT-031",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Infrastructure and Software Change Management",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CHANGE-MANAGEMENT-031/",
+      "canonical_name": "No Infrastructure and Software Change Management",
+      "description": "The entity does not authorize, design, develop or acquire, configure, document, test, approve, and implement changes to infrastructure, data, software, and procedures to meet its objectives.",
+      "applicability": "Change control processes, software development lifecycle",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-CHANGE-MANAGEMENT-031/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "Change Management",
+          "Configuration Management",
+          "SDLC"
+        ],
+        "related_controls": [
+          "SOC 2 CC8.1"
+        ],
+        "detection_notes": "Review change management processes, change request documentation, approval workflows, testing procedures, and deployment controls. Verify changes are authorized, tested, and documented.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC8 Change Management",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-COMPETENCE-COMMITMENT-004",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Commitment to Competence",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-COMPETENCE-COMMITMENT-004/",
+      "canonical_name": "No Commitment to Competence",
+      "description": "The entity does not demonstrate commitment to attract, develop, and retain competent individuals in alignment with objectives.",
+      "applicability": "Applies to all entities when hiring processes do not assess competence, training and development programs are absent or inadequate, succession planning is missing, or retention of skilled personnel is not prioritized.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-COMPETENCE-COMMITMENT-004/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "human_resources",
+          "competency",
+          "training"
+        ],
+        "related_controls": [
+          "SOC 2 CC1.4",
+          "COSO Principle 4"
+        ],
+        "detection_notes": "Review job descriptions with required competencies, hiring criteria, onboarding programs, training records, performance evaluations, succession plans, and turnover rates. Look for absence of competency requirements, lack of training programs, or high turnover in critical roles.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC1 Control Environment",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-CONTROL-ACCOUNTABILITY-005",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Accountability for Internal Control",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-ACCOUNTABILITY-005/",
+      "canonical_name": "No Accountability for Internal Control",
+      "description": "The entity does not hold individuals accountable for their internal control responsibilities in pursuit of objectives.",
+      "applicability": "Applies to all entities when control responsibilities are not assigned, performance measures do not include control effectiveness, consequences for control failures are absent, or there is no monitoring of individual accountability for controls.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-ACCOUNTABILITY-005/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "governance",
+          "accountability",
+          "control_ownership"
+        ],
+        "related_controls": [
+          "SOC 2 CC1.5",
+          "COSO Principle 5"
+        ],
+        "detection_notes": "Review control ownership assignments, performance objectives including control responsibilities, incident response records showing accountability actions, and evidence of consequences for control failures. Look for absence of assigned control owners, lack of performance metrics tied to controls, or no consequences for control deficiencies.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC1 Control Environment",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-CONTROL-EVALUATIONS-013",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Ongoing and Separate Evaluations",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-EVALUATIONS-013/",
+      "canonical_name": "No Ongoing and Separate Evaluations",
+      "description": "The entity does not select, develop, and perform ongoing and/or separate evaluations to ascertain whether the components of internal control are present and functioning.",
+      "applicability": "Applies to all entities when control monitoring is not performed, control testing is absent, internal audits are not conducted, or there is no evidence of evaluating control effectiveness.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-EVALUATIONS-013/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "monitoring",
+          "control_testing",
+          "assurance"
+        ],
+        "related_controls": [
+          "SOC 2 CC4.1",
+          "COSO Principle 16"
+        ],
+        "detection_notes": "Review control monitoring procedures, control testing schedules and results, internal audit plans and reports, management self-assessments, and evidence of ongoing control evaluations. Look for absence of control testing, lack of monitoring activities, or no evidence of control effectiveness evaluations.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC4 Monitoring Activities",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC4"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-CONTROL-SELECTION-015",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Selection and Development of Controls",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-SELECTION-015/",
+      "canonical_name": "No Selection and Development of Controls",
+      "description": "The entity does not select and develop control activities that contribute to the mitigation of risks to the achievement of objectives to acceptable levels.",
+      "applicability": "Applies to all entities when controls are not designed based on risk assessments, control selection is arbitrary, controls do not address identified risks, or there is no methodology for control design and implementation.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-SELECTION-015/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "control_design",
+          "risk_management",
+          "control_effectiveness"
+        ],
+        "related_controls": [
+          "SOC 2 CC5.1",
+          "COSO Principle 10"
+        ],
+        "detection_notes": "Review risk assessment to control mapping, control design documentation, evidence that controls address identified risks, and control selection methodology. Look for absence of risk-based control design, controls not aligned to risks, or ad-hoc control implementation.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC5 Control Activities",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC5"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-DEFICIENCY-COMMS-014",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Communication of Deficiencies",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-DEFICIENCY-COMMS-014/",
+      "canonical_name": "No Communication of Deficiencies",
+      "description": "The entity does not evaluate and communicate internal control deficiencies in a timely manner to those parties responsible for taking corrective action.",
+      "applicability": "Applies to all entities when control deficiencies are not identified, deficiencies are not communicated to responsible parties, remediation is not tracked, or there is no escalation process for significant deficiencies.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-DEFICIENCY-COMMS-014/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "monitoring",
+          "communication",
+          "remediation"
+        ],
+        "related_controls": [
+          "SOC 2 CC4.2",
+          "COSO Principle 17"
+        ],
+        "detection_notes": "Review deficiency tracking systems, deficiency communication records, remediation plans, escalation procedures, and evidence of timely communication to management and board. Look for untracked deficiencies, lack of communication processes, or delayed remediation without proper escalation.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC4 Monitoring Activities",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC4"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-EVENT-EVALUATION-028",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Security Event Evaluation",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-EVENT-EVALUATION-028/",
+      "canonical_name": "No Security Event Evaluation",
+      "description": "The entity does not evaluate security events to determine whether they could or have resulted in a failure to meet its objectives (security incidents).",
+      "applicability": "Security event triage, incident classification",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-EVENT-EVALUATION-028/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "Incident Management",
+          "Security Operations",
+          "Event Analysis"
+        ],
+        "related_controls": [
+          "SOC 2 CC7.3"
+        ],
+        "detection_notes": "Review security event triage processes, incident classification procedures, and event evaluation workflows. Verify that security events are assessed and escalated appropriately.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC7 System Operations",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC7"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-EXTERNAL-COMMS-008",
       "domain": "SOC2",
       "category": "CC",
       "name": "No External Communication",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-EXTERNAL-COMMS-008/",
+      "canonical_name": "No External Communication",
+      "description": "The entity does not communicate with external parties regarding matters affecting the functioning of internal control.",
+      "applicability": "Applies to all entities when there is no communication with external stakeholders about controls, third-party control requirements are not communicated, incident notifications to customers are absent, or regulatory reporting is inadequate.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-EXTERNAL-COMMS-008/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "communication",
+          "stakeholder_management",
+          "transparency"
+        ],
+        "related_controls": [
+          "SOC 2 CC2.3",
+          "COSO Principle 15"
+        ],
+        "detection_notes": "Review external communication policies, customer notification procedures, vendor management communications, regulatory reporting records, and stakeholder engagement documentation. Look for absence of external communications about controls, lack of incident notification processes, or inadequate stakeholder engagement.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC2 Communication and Information",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC2"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-FRAUD-ASSESSMENT-011",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Fraud Risk Assessment",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-FRAUD-ASSESSMENT-011/",
+      "canonical_name": "No Fraud Risk Assessment",
+      "description": "The entity does not consider the potential for fraud in assessing risks to the achievement of objectives.",
+      "applicability": "Applies to all entities when fraud risk assessments are not conducted, fraud scenarios are not identified, anti-fraud controls are not evaluated, or fraud prevention is not part of the risk management process.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-FRAUD-ASSESSMENT-011/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "fraud",
+          "risk_management",
+          "internal_controls"
+        ],
+        "related_controls": [
+          "SOC 2 CC3.3",
+          "COSO Principle 8"
+        ],
+        "detection_notes": "Review fraud risk assessment documentation, fraud scenario analysis, anti-fraud control design, whistleblower procedures, and evidence of fraud considerations in risk assessments. Look for absence of fraud risk assessments, lack of fraud-specific controls, or no consideration of fraud in control design.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC3 Risk Assessment",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC3"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-GOVERNANCE-001",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "IT Governance Structure Missing",
+      "canonical_name": "IT Governance Structure Missing",
+      "description": "The organization has not established a formal IT governance structure. This signal indicates the absence of defined oversight mechanisms for technology risk management and security decision-making as required by SOC 2 Common Criteria.",
+      "applicability": "Organizations pursuing SOC 2 certification, Service organizations providing technology services, Organizations requiring formal IT governance",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-GOVERNANCE-001/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "governance",
+          "compliance",
+          "risk-management"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing governance documentation, examining board and committee structures, and verifying IT oversight mechanisms are in place.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC1 Control Environment",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Incident Recovery",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030/",
+      "canonical_name": "No Incident Recovery",
+      "description": "The entity does not identify, develop, and implement activities to recover from identified security incidents.",
+      "applicability": "Recovery procedures, business continuity",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "Incident Recovery",
+          "Business Continuity",
+          "Disaster Recovery"
+        ],
+        "related_controls": [
+          "SOC 2 CC7.5"
+        ],
+        "detection_notes": "Review incident recovery procedures, business continuity plans, disaster recovery processes, and recovery time objectives (RTOs). Verify recovery activities are documented and tested.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC7 System Operations",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC7"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-INCIDENT-RESOLUTION-030",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "Incident Resolution Process Missing",
+      "canonical_name": "Incident Resolution Process Missing",
+      "description": "The organization has not established a formal process for resolving security incidents. This signal indicates the absence of documented procedures for investigating, containing, and remediating security incidents.",
+      "applicability": "Organizations pursuing SOC 2 certification, Service organizations requiring incident management capabilities",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RESOLUTION-030/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "incident-response",
+          "security-operations"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing incident response procedures, examining resolution workflows, and verifying that root cause analysis processes exist.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC7 System Operations",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC7"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Incident Response Program",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029/",
+      "canonical_name": "No Incident Response Program",
+      "description": "The entity does not respond to identified security incidents by executing a defined incident-response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
+      "applicability": "Incident response procedures, security operations",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "critical",
+        "risk_domains": [
+          "Incident Response",
+          "Security Operations",
+          "Crisis Management"
+        ],
+        "related_controls": [
+          "SOC 2 CC7.4"
+        ],
+        "detection_notes": "Review incident response plans, runbooks, and procedures. Verify incident response team exists, training is conducted, and tabletop exercises are performed. Check incident documentation and post-mortems.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC7 System Operations",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC7"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-INTEGRITY-COMMITMENT-001",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Commitment to Integrity and Ethical Values",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-INTEGRITY-COMMITMENT-001/",
+      "canonical_name": "No Commitment to Integrity and Ethical Values",
+      "description": "The entity does not demonstrate commitment to integrity and ethical values through conduct standards, performance evaluations, and corrective actions.",
+      "applicability": "Applies to all entities when leadership fails to establish, communicate, or enforce standards of conduct, ethical values are not integrated into hiring and evaluation processes, or remediation of misconduct is inadequate or inconsistent.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INTEGRITY-COMMITMENT-001/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "governance",
+          "ethics",
+          "culture"
+        ],
+        "related_controls": [
+          "SOC 2 CC1.1",
+          "COSO Principle 1"
+        ],
+        "detection_notes": "Review code of conduct policies, employee handbook acknowledgments, ethics training records, whistleblower procedures, disciplinary action records, and management tone-at-the-top communications. Look for absence of conduct standards, lack of ethics training, or inconsistent enforcement of policies.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC1 Control Environment",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-INTERNAL-COMMS-007",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Internal Communication of Objectives",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-INTERNAL-COMMS-007/",
+      "canonical_name": "No Internal Communication of Objectives",
+      "description": "The entity does not internally communicate information, including objectives and responsibilities for internal control, necessary to support the functioning of internal control.",
+      "applicability": "Applies to all entities when control objectives are not communicated to personnel, control responsibilities are not clearly articulated, communication channels are inadequate, or employees are unaware of their control duties.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INTERNAL-COMMS-007/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "communication",
+          "awareness",
+          "organizational_alignment"
+        ],
+        "related_controls": [
+          "SOC 2 CC2.2",
+          "COSO Principle 14"
+        ],
+        "detection_notes": "Review internal communication policies, evidence of control objective communications, employee awareness surveys, training materials, and documentation of control responsibilities. Look for absence of internal communications about controls, low employee awareness, or lack of communication channels.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC2 Communication and Information",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC2"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Logical Access Security Software",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018/",
+      "canonical_name": "No Logical Access Security Software",
+      "description": "The entity does not implement logical access security software, infrastructure, and architectures over protected information assets to protect them from security events.",
+      "applicability": "All systems processing, storing, or transmitting protected data",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "critical",
+        "risk_domains": [
+          "Access Control",
+          "Information Security",
+          "System Security"
+        ],
+        "related_controls": [
+          "SOC 2 CC6.1"
+        ],
+        "detection_notes": "Verify logical access security software is implemented through system configuration reviews, security architecture assessments, and access control testing. Check for presence of authentication systems, access control lists, and security monitoring tools.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Common Criteria",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC1, CC2, CC3, CC4, CC5, CC6, CC7, CC8, CC9"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-MALWARE-PREVENTION-025",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Malicious Software Prevention",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-MALWARE-PREVENTION-025/",
+      "canonical_name": "No Malicious Software Prevention",
+      "description": "The entity does not implement controls to prevent or detect and act upon the introduction of unauthorized or malicious software.",
+      "applicability": "Endpoint protection, anti-malware systems",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-MALWARE-PREVENTION-025/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "critical",
+        "risk_domains": [
+          "Malware Protection",
+          "Endpoint Security",
+          "Threat Prevention"
+        ],
+        "related_controls": [
+          "SOC 2 CC6.8"
+        ],
+        "detection_notes": "Review anti-malware solutions, endpoint protection platforms, malware detection capabilities, and incident response procedures for malware events. Verify regular updates and scanning operations.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC6 Logical and Physical Access Controls",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC6"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-MGMT-STRUCTURE-003",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Management Structure and Authority",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-MGMT-STRUCTURE-003/",
+      "canonical_name": "No Management Structure and Authority",
+      "description": "Management has not established structures, reporting lines, and appropriate authorities and responsibilities in pursuit of objectives.",
+      "applicability": "Applies to all entities when organizational structure is undefined, reporting relationships are unclear, roles and responsibilities are not documented, authority levels are ambiguous, or there is inadequate segregation of duties.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-MGMT-STRUCTURE-003/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "governance",
+          "organizational_structure",
+          "accountability"
+        ],
+        "related_controls": [
+          "SOC 2 CC1.3",
+          "COSO Principle 3"
+        ],
+        "detection_notes": "Review organizational charts, role descriptions, delegation of authority policies, RACI matrices, and segregation of duties documentation. Look for absence of documented structure, conflicting authorities, or unclear accountability.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC1 Control Environment",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-OBJECTIVES-SPEC-009",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Specification of Objectives",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-OBJECTIVES-SPEC-009/",
+      "canonical_name": "No Specification of Objectives",
+      "description": "The entity does not specify objectives with sufficient clarity to enable the identification and assessment of risks relating to objectives.",
+      "applicability": "Applies to all entities when security, availability, confidentiality, privacy, or processing integrity objectives are not clearly defined, documented, or measurable.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-OBJECTIVES-SPEC-009/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "risk_management",
+          "strategic_planning",
+          "objectives"
+        ],
+        "related_controls": [
+          "SOC 2 CC3.1",
+          "COSO Principle 6"
+        ],
+        "detection_notes": "Review strategic plans, security objectives documentation, service level objectives, risk management framework, and operational goals. Look for absence of documented objectives, vague or unmeasurable goals, or objectives that do not align with SOC 2 trust service criteria.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC3 Risk Assessment",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC3"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-PHYSICAL-ACCESS-021",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Physical Access Restrictions",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-PHYSICAL-ACCESS-021/",
+      "canonical_name": "No Physical Access Restrictions",
+      "description": "The entity does not restrict physical access to facilities and protected information assets to authorized personnel.",
+      "applicability": "Data centers, server rooms, office facilities",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-PHYSICAL-ACCESS-021/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "Physical Security",
+          "Access Control",
+          "Facility Management"
+        ],
+        "related_controls": [
+          "SOC 2 CC6.4"
+        ],
+        "detection_notes": "Conduct physical security assessments, review access control systems for facilities, verify badge systems and visitor management processes. Inspect server rooms and data centers for physical access controls.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC6 Logical and Physical Access Controls",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC6"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-POLICY-DEPLOYMENT-017",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Deployment Through Policies",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-POLICY-DEPLOYMENT-017/",
+      "canonical_name": "No Deployment Through Policies",
+      "description": "The entity does not deploy control activities through policies that establish what is expected and procedures that put policies into action.",
+      "applicability": "Applies to all entities when policies do not exist, procedures are not documented, policies are not communicated or enforced, or there is a gap between policy and actual practice.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-POLICY-DEPLOYMENT-017/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "policy_management",
+          "procedures",
+          "control_implementation"
+        ],
+        "related_controls": [
+          "SOC 2 CC5.3",
+          "COSO Principle 12"
+        ],
+        "detection_notes": "Review policy documentation, procedure manuals, evidence of policy communication and acknowledgment, policy enforcement mechanisms, and compliance monitoring. Look for absence of policies, lack of procedures, policies not followed in practice, or no evidence of policy enforcement.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC5 Control Activities",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC5"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-QUALITY-INFO-006",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Quality Information for Internal Control",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-QUALITY-INFO-006/",
+      "canonical_name": "No Quality Information for Internal Control",
+      "description": "The entity does not obtain or generate and use relevant, quality information to support the functioning of internal control.",
+      "applicability": "Applies to all entities when information systems do not provide timely and accurate data, control monitoring lacks quality metrics, decision-making is not based on reliable information, or data quality processes are absent.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-QUALITY-INFO-006/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "information_quality",
+          "data_governance",
+          "decision_making"
+        ],
+        "related_controls": [
+          "SOC 2 CC2.1",
+          "COSO Principle 13"
+        ],
+        "detection_notes": "Review information system capabilities, data quality controls, reporting mechanisms, control dashboards, and evidence of data-driven decision making. Look for absence of control metrics, unreliable or outdated data, or decisions made without supporting information.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC2 Communication and Information",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC2"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-RBAC-CONTROLS-020",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Role-Based Access and Least Privilege",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-RBAC-CONTROLS-020/",
+      "canonical_name": "No Role-Based Access and Least Privilege",
+      "description": "The entity does not authorize, modify, or remove access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes.",
+      "applicability": "Access control systems, authorization processes",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-RBAC-CONTROLS-020/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "Access Control",
+          "Authorization",
+          "Least Privilege"
+        ],
+        "related_controls": [
+          "SOC 2 CC6.3"
+        ],
+        "detection_notes": "Review access control configurations, role definitions, and permission assignments. Test whether access is granted based on defined roles and responsibilities. Verify least privilege principle implementation.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC6 Logical and Physical Access Controls",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC6"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-RISK-IDENTIFICATION-010",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Risk Identification and Analysis",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-RISK-IDENTIFICATION-010/",
+      "canonical_name": "No Risk Identification and Analysis",
+      "description": "The entity does not identify risks to the achievement of its objectives and does not analyze risks as a basis for determining how risks should be managed.",
+      "applicability": "Applies to all entities when risk assessments are not performed, risks are not documented, risk analysis processes are absent, or risk management decisions are made without proper risk evaluation.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-RISK-IDENTIFICATION-010/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "risk_management",
+          "risk_assessment",
+          "threat_analysis"
+        ],
+        "related_controls": [
+          "SOC 2 CC3.2",
+          "COSO Principle 7"
+        ],
+        "detection_notes": "Review risk assessment documentation, risk registers, threat modeling exercises, risk analysis methodologies, and evidence of risk-based decision making. Look for absence of risk assessments, lack of risk documentation, or no evidence of systematic risk identification.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC3 Risk Assessment",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC3"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-RISK-MITIGATION-032",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Risk Mitigation Activities",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-RISK-MITIGATION-032/",
+      "canonical_name": "No Risk Mitigation Activities",
+      "description": "The entity does not identify, select, and develop risk mitigation activities for risks arising from potential business disruptions.",
+      "applicability": "Business continuity planning, risk treatment",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-RISK-MITIGATION-032/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "Risk Management",
+          "Business Continuity",
+          "Disaster Recovery"
+        ],
+        "related_controls": [
+          "SOC 2 CC9.1"
+        ],
+        "detection_notes": "Review business continuity plans, disaster recovery procedures, risk assessments, and mitigation strategies. Verify risk mitigation activities are identified and implemented for business disruption scenarios.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC9 Risk Mitigation",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC9"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-SECURE-DISPOSAL-022",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Secure Asset Disposal",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-SECURE-DISPOSAL-022/",
+      "canonical_name": "No Secure Asset Disposal",
+      "description": "The entity does not discontinue logical and physical protections over physical assets only after the ability to read or recover data and software from those assets has been diminished.",
+      "applicability": "Hardware disposal, media sanitization",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-SECURE-DISPOSAL-022/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "Data Security",
+          "Asset Management",
+          "Media Sanitization"
+        ],
+        "related_controls": [
+          "SOC 2 CC6.5"
+        ],
+        "detection_notes": "Review asset disposal procedures, media sanitization practices, and certificate of destruction documentation. Verify that data is securely erased before decommissioning hardware.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC6 Logical and Physical Access Controls",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC6"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-TECH-CONTROLS-016",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Technology General Controls",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-TECH-CONTROLS-016/",
+      "canonical_name": "No Technology General Controls",
+      "description": "The entity does not select and develop general control activities over technology to support the achievement of objectives.",
+      "applicability": "Applies to all entities when technology general controls (ITGC) are not designed or implemented, including controls over infrastructure, security management, change management, and operations.",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-TECH-CONTROLS-016/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "technology",
+          "itgc",
+          "infrastructure_security"
+        ],
+        "related_controls": [
+          "SOC 2 CC5.2",
+          "COSO Principle 11"
+        ],
+        "detection_notes": "Review ITGC documentation, change management procedures, access controls over infrastructure, backup and recovery controls, and technology operations controls. Look for absence of ITGCs, lack of change control, inadequate infrastructure security, or missing technology operations controls.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC5 Control Activities",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC5"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-TRANSMISSION-PROTECTION-024",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "Data Transmission Protection Missing",
+      "canonical_name": "Data Transmission Protection Missing",
+      "description": "The organization has not implemented adequate protection for data in transit. This signal indicates the absence of encryption or other security measures to protect data during transmission.",
+      "applicability": "Organizations pursuing SOC 2 certification, Service organizations transmitting sensitive data",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-TRANSMISSION-PROTECTION-024/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "encryption",
+          "network-security",
+          "data-protection"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing network configurations, checking for TLS/SSL implementation, and verifying encryption is used for sensitive data transmission.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC6 Logical and Physical Access Controls",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC6"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-TRANSMISSION-SECURITY-024",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Information Transmission Security",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-TRANSMISSION-SECURITY-024/",
+      "canonical_name": "No Information Transmission Security",
+      "description": "The entity does not restrict the transmission, movement, and removal of information to authorized internal and external users and processes and does not protect it during transmission, movement, or removal.",
+      "applicability": "Data transfer, encryption in transit, data movement",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-TRANSMISSION-SECURITY-024/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "Data Protection",
+          "Encryption",
+          "Data Transfer"
+        ],
+        "related_controls": [
+          "SOC 2 CC6.7"
+        ],
+        "detection_notes": "Review data transmission mechanisms, encryption protocols (TLS/SSL), data transfer policies, and controls over data movement. Test whether data is protected during transmission across networks.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC6 Logical and Physical Access Controls",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC6"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-USER-REGISTRATION-019",
       "domain": "SOC2",
       "category": "CC",
       "name": "No User Registration and Authorization",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-USER-REGISTRATION-019/",
+      "canonical_name": "No User Registration and Authorization",
+      "description": "Prior to issuing system credentials and granting system access, the entity does not register and authorize new internal and external users.",
+      "applicability": "Identity and access management processes",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-USER-REGISTRATION-019/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "Access Control",
+          "Identity Management",
+          "User Provisioning"
+        ],
+        "related_controls": [
+          "SOC 2 CC6.2"
+        ],
+        "detection_notes": "Review user provisioning processes, access request workflows, and approval documentation. Verify that user registration and authorization procedures exist before credential issuance.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC6 Logical and Physical Access Controls",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC6"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CSE-SOC2-CC-NO-USER-REMOVAL-020",
+      "domain": "SOC2",
+      "category": "CC",
+      "name": "User Access Removal Process Missing",
+      "canonical_name": "User Access Removal Process Missing",
+      "description": "The organization has not established a formal process for removing user access when no longer needed. This signal indicates the absence of procedures for timely revocation of access rights upon termination or role change.",
+      "applicability": "Organizations pursuing SOC 2 certification, Service organizations with user access management requirements",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-USER-REMOVAL-020/",
+      "introduced_in": "1.0.0",
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "access-control",
+          "identity",
+          "authorization"
+        ],
+        "related_controls": [],
+        "detection_notes": "Detection involves reviewing access removal procedures, examining termination checklists, and verifying that access revocation is timely and complete.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC6 Logical and Physical Access Controls",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC6"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Vendor and Partner Risk Management",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033/",
+      "canonical_name": "No Vendor and Partner Risk Management",
+      "description": "The entity does not assess and manage risks associated with vendors and business partners.",
+      "applicability": "Third-party risk management, vendor assessments",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "Third-Party Risk",
+          "Vendor Management",
+          "Supply Chain Security"
+        ],
+        "related_controls": [
+          "SOC 2 CC9.2"
+        ],
+        "detection_notes": "Review vendor risk management program, third-party assessments, due diligence procedures, and ongoing vendor monitoring. Verify vendor contracts include security requirements and vendor performance is monitored.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC9 Risk Mitigation",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC9"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CC-NO-VULN-DETECTION-026",
       "domain": "SOC2",
       "category": "CC",
       "name": "No Vulnerability Detection and Monitoring",
-      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-VULN-DETECTION-026/",
+      "canonical_name": "No Vulnerability Detection and Monitoring",
+      "description": "The entity does not use detection and monitoring procedures to identify changes to configurations that result in the introduction of new vulnerabilities and susceptibilities to newly discovered vulnerabilities.",
+      "applicability": "Vulnerability scanning, configuration monitoring",
+      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-VULN-DETECTION-026/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "Vulnerability Management",
+          "Configuration Management",
+          "Security Monitoring"
+        ],
+        "related_controls": [
+          "SOC 2 CC7.1"
+        ],
+        "detection_notes": "Review vulnerability scanning processes, patch management procedures, configuration monitoring tools, and vulnerability assessment reports. Verify regular vulnerability scans and remediation tracking.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - CC7 System Operations",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "CC7"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "COSO Internal Control - Integrated Framework",
+            "url": "https://www.coso.org/guidance-on-ic",
+            "type": "guidance",
+            "authority": "COSO"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CONF-NO-DATA-CLASSIFICATION-001",
       "domain": "SOC2",
       "category": "CONF",
       "name": "No Confidential Information Identification",
-      "definition_ref": "/signals/SOC2/CONF/CSE-SOC2-CONF-NO-DATA-CLASSIFICATION-001/",
+      "canonical_name": "No Confidential Information Identification",
+      "description": "The entity does not identify and maintain confidential information to meet the entity's objectives related to confidentiality.",
+      "applicability": "Data classification, information inventory",
+      "definition_ref": "/v1.0.0/signals/SOC2/CONF/CSE-SOC2-CONF-NO-DATA-CLASSIFICATION-001/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "confidentiality",
+          "data_classification",
+          "information_governance"
+        ],
+        "related_controls": [
+          "SOC 2 C1.1"
+        ],
+        "detection_notes": "Review data classification policies, information inventory, data labeling schemes, and confidentiality definitions. Check for absence of classification framework, unlabeled sensitive data, or unclear confidentiality criteria.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Confidentiality",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "C1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-CONF-NO-DATA-DISPOSAL-002",
       "domain": "SOC2",
       "category": "CONF",
       "name": "No Confidential Information Disposal",
-      "definition_ref": "/signals/SOC2/CONF/CSE-SOC2-CONF-NO-DATA-DISPOSAL-002/",
+      "canonical_name": "No Confidential Information Disposal",
+      "description": "The entity does not dispose of confidential information to meet the entity's objectives related to confidentiality.",
+      "applicability": "Secure data destruction, retention policies",
+      "definition_ref": "/v1.0.0/signals/SOC2/CONF/CSE-SOC2-CONF-NO-DATA-DISPOSAL-002/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "confidentiality",
+          "data_disposal",
+          "information_lifecycle"
+        ],
+        "related_controls": [
+          "SOC 2 C1.2"
+        ],
+        "detection_notes": "Review data disposal policies, secure deletion procedures, media sanitization processes, and retention schedules. Check for absence of disposal procedures, insecure deletion methods, or retention policy violations.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Confidentiality",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "C1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PI-NO-DATA-STORAGE-CONTROLS-005",
       "domain": "SOC2",
       "category": "PI",
       "name": "No Input and Output Storage Controls",
-      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-DATA-STORAGE-CONTROLS-005/",
+      "canonical_name": "No Input and Output Storage Controls",
+      "description": "The entity does not implement policies and procedures to store inputs, items in processing, and outputs completely, accurately, and timely in accordance with system specifications.",
+      "applicability": "Data storage, archival processes",
+      "definition_ref": "/v1.0.0/signals/SOC2/PI/CSE-SOC2-PI-NO-DATA-STORAGE-CONTROLS-005/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "processing_integrity",
+          "data_storage",
+          "data_quality"
+        ],
+        "related_controls": [
+          "SOC 2 PI1.5"
+        ],
+        "detection_notes": "Review data storage policies, archival procedures, retention controls, storage validation processes, and data integrity checks. Check for absence of storage controls, retention policies, or data integrity verification.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Processing Integrity",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "PI1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PI-NO-INPUT-VALIDATION-002",
       "domain": "SOC2",
       "category": "PI",
       "name": "No Input Completeness and Accuracy Controls",
-      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-INPUT-VALIDATION-002/",
+      "canonical_name": "No Input Completeness and Accuracy Controls",
+      "description": "The entity does not implement policies and procedures over system inputs, including controls over completeness and accuracy.",
+      "applicability": "Input validation, data quality controls",
+      "definition_ref": "/v1.0.0/signals/SOC2/PI/CSE-SOC2-PI-NO-INPUT-VALIDATION-002/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "processing_integrity",
+          "data_quality",
+          "input_validation"
+        ],
+        "related_controls": [
+          "SOC 2 PI1.2"
+        ],
+        "detection_notes": "Review input validation logic, data quality checks, error handling for invalid inputs, and validation policies. Check for absence of input controls, validation rules, or completeness checks.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Processing Integrity",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "PI1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PI-NO-OUTPUT-VALIDATION-004",
       "domain": "SOC2",
       "category": "PI",
       "name": "No Output Completeness and Accuracy Controls",
-      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-OUTPUT-VALIDATION-004/",
+      "canonical_name": "No Output Completeness and Accuracy Controls",
+      "description": "The entity does not implement policies and procedures to make available or deliver output completely, accurately, and timely in accordance with specifications.",
+      "applicability": "Output validation, reporting accuracy",
+      "definition_ref": "/v1.0.0/signals/SOC2/PI/CSE-SOC2-PI-NO-OUTPUT-VALIDATION-004/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "processing_integrity",
+          "data_quality",
+          "output_validation"
+        ],
+        "related_controls": [
+          "SOC 2 PI1.4"
+        ],
+        "detection_notes": "Review output validation controls, report generation procedures, data export processes, output reconciliation, and delivery mechanisms. Check for absence of output validation, completeness checks, or accuracy verification before delivery.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Processing Integrity",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "PI1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PI-NO-PROCESSING-CONTROLS-003",
       "domain": "SOC2",
       "category": "PI",
       "name": "No Processing Policies and Procedures",
-      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-PROCESSING-CONTROLS-003/",
+      "canonical_name": "No Processing Policies and Procedures",
+      "description": "The entity does not implement policies and procedures over system processing to result in products, services, and reporting to meet the entity's product or service specifications.",
+      "applicability": "Data processing controls, batch processing",
+      "definition_ref": "/v1.0.0/signals/SOC2/PI/CSE-SOC2-PI-NO-PROCESSING-CONTROLS-003/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "processing_integrity",
+          "data_processing",
+          "quality_control"
+        ],
+        "related_controls": [
+          "SOC 2 PI1.3"
+        ],
+        "detection_notes": "Review data processing procedures, transformation logic, quality controls during processing, reconciliation processes, and error handling. Check for absence of processing controls, validation during processing, or quality assurance measures.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Processing Integrity",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "PI1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PI-NO-PROCESSING-SPECS-001",
       "domain": "SOC2",
       "category": "PI",
       "name": "No Processing Specifications",
-      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-PROCESSING-SPECS-001/",
+      "canonical_name": "No Processing Specifications",
+      "description": "The entity does not obtain or generate, use, and communicate quality information regarding the objectives related to processing, including definitions of data processed and product and service specifications.",
+      "applicability": "Data processing documentation, service specifications",
+      "definition_ref": "/v1.0.0/signals/SOC2/PI/CSE-SOC2-PI-NO-PROCESSING-SPECS-001/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "processing_integrity",
+          "data_quality",
+          "documentation"
+        ],
+        "related_controls": [
+          "SOC 2 PI1.1"
+        ],
+        "detection_notes": "Review data processing documentation, service level agreements, data dictionaries, processing specifications, and quality standards. Check for absence of documented processing objectives, data definitions, or quality criteria.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Processing Integrity",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "PI1"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-ACCESS-DENIAL-NOTICE-011",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Access Denial Notification",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-ACCESS-DENIAL-NOTICE-011/",
+      "canonical_name": "No Access Denial Notification",
+      "description": "The entity does not inform data subjects if access to their personal information is denied and provides the reason for denial. This signal indicates that individuals are not adequately notified when their access requests are rejected, which undermines transparency and privacy rights.",
+      "applicability": "Applicable to data subject access request workflows, customer service procedures, self-service portals, and any system or process that may deny access to personal information.",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-ACCESS-DENIAL-NOTICE-011/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P5.3",
+          "GAPP"
+        ],
+        "detection_notes": "Commonly detected through review of access request procedures, denial notification templates, customer service scripts, and workflow automation. May be identified by absence of denial notification mechanisms, missing reason documentation, or incomplete response procedures.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-BREACH-NOTIFICATION-015",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Data Breach Notification",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-BREACH-NOTIFICATION-015/",
+      "canonical_name": "No Data Breach Notification",
+      "description": "The entity does not notify affected data subjects, regulators, and others when a data breach has occurred in accordance with applicable laws and regulations. This signal indicates that critical breach notification obligations may not be met, potentially violating legal requirements and undermining trust.",
+      "applicability": "Applicable to breach response procedures, notification workflows, regulatory compliance processes, incident management systems, and communication protocols for data breaches.",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-BREACH-NOTIFICATION-015/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "critical",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P6.4",
+          "GAPP"
+        ],
+        "detection_notes": "Commonly detected through review of breach notification procedures, incident response plans, regulatory compliance documentation, and notification tracking systems. May be identified by absence of notification workflows, missing breach communication plans, or lack of regulatory reporting procedures.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-CHOICE-COMMUNICATION-002",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Communication of Choices",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-CHOICE-COMMUNICATION-002/",
+      "canonical_name": "No Communication of Choices",
+      "description": "The entity does not communicate choices available regarding the collection, use, retention, disclosure, and disposal of personal information to data subjects.",
+      "applicability": "Consent mechanisms, preference centers",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-CHOICE-COMMUNICATION-002/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P2.1",
+          "GAPP"
+        ],
+        "detection_notes": "Verify presence and clarity of mechanisms for data subjects to understand and exercise choices regarding their personal information",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-COLLECTION-LIMITATION-004",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Collection Limitation",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COLLECTION-LIMITATION-004/",
+      "canonical_name": "No Collection Limitation",
+      "description": "The entity does not limit the collection of personal information to that which is necessary to meet its objectives.",
+      "applicability": "Data minimization, collection practices",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COLLECTION-LIMITATION-004/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P3.1",
+          "GAPP"
+        ],
+        "detection_notes": "Review data collection forms, APIs, and processes to ensure only necessary information is collected for stated purposes",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-COMPLIANCE-MONITORING-018",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Privacy Compliance Monitoring",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COMPLIANCE-MONITORING-018/",
+      "canonical_name": "No Privacy Compliance Monitoring",
+      "description": "The entity does not implement a process for receiving, addressing, resolving, and communicating the resolution of inquiries, complaints, and disputes from data subjects. This signal indicates that the organization lacks mechanisms to handle privacy concerns from individuals, undermining accountability and data subject rights.",
+      "applicability": "Applicable to privacy complaint handling systems, customer service operations, data subject inquiry workflows, privacy team processes, and complaint tracking systems.",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COMPLIANCE-MONITORING-018/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P8.1",
+          "GAPP"
+        ],
+        "detection_notes": "Commonly detected through review of complaint handling procedures, customer service workflows, privacy inquiry tracking systems, and resolution documentation. May be identified by absence of complaint channels, missing resolution processes, or lack of communication protocols.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-COMPLIANCE-REVIEW-020",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Privacy Compliance Review",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COMPLIANCE-REVIEW-020/",
+      "canonical_name": "No Privacy Compliance Review",
+      "description": "The entity does not periodically monitor compliance with its privacy policies and procedures. This signal indicates that the organization lacks ongoing oversight of privacy practices, potentially allowing policy violations and privacy risks to go undetected.",
+      "applicability": "Applicable to privacy compliance programs, audit and review processes, privacy monitoring systems, internal controls, and privacy governance frameworks.",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COMPLIANCE-REVIEW-020/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P8.3",
+          "GAPP"
+        ],
+        "detection_notes": "Commonly detected through review of privacy audit schedules, compliance monitoring procedures, privacy assessment documentation, and oversight mechanisms. May be identified by absence of periodic reviews, missing monitoring controls, or lack of compliance reporting.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-CONSENT-MECHANISM-003",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Consent for New Uses",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-CONSENT-MECHANISM-003/",
+      "canonical_name": "No Consent for New Uses",
+      "description": "The entity does not obtain consent for uses of personal information beyond those stated in the privacy notice when such consent is required.",
+      "applicability": "Consent collection, purpose limitation",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-CONSENT-MECHANISM-003/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P2.2",
+          "GAPP"
+        ],
+        "detection_notes": "Review consent collection processes for secondary uses, new purposes, and changes to original privacy notice disclosures",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-DATA-QUALITY-016",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Data Accuracy and Completeness",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DATA-QUALITY-016/",
+      "canonical_name": "No Data Accuracy and Completeness",
+      "description": "The entity does not collect and maintain accurate, up-to-date, complete, and relevant personal information for the purposes identified in the privacy notice. This signal indicates that data quality controls are insufficient, potentially leading to incorrect decisions, poor customer experiences, and privacy violations.",
+      "applicability": "Applicable to data collection processes, data maintenance procedures, data validation systems, customer data management, and any system that stores or processes personal information.",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DATA-QUALITY-016/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P7.1",
+          "GAPP"
+        ],
+        "detection_notes": "Commonly detected through review of data validation rules, data quality procedures, update mechanisms, and data governance policies. May be identified by absence of validation controls, missing update workflows, or lack of data quality monitoring.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-DATA-RELEVANCE-017",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Data Relevance",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DATA-RELEVANCE-017/",
+      "canonical_name": "No Data Relevance",
+      "description": "The entity does not verify that personal information is relevant for the purposes for which it is collected and used. This signal indicates that the organization may be collecting excessive or unnecessary data, violating data minimization principles and increasing privacy risks.",
+      "applicability": "Applicable to data collection forms, privacy impact assessments, data mapping exercises, system design reviews, and data governance processes.",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DATA-RELEVANCE-017/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "low",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P7.2",
+          "GAPP"
+        ],
+        "detection_notes": "Commonly detected through review of data collection practices, privacy impact assessments, data inventory documentation, and purpose specification analysis. May be identified by excessive data fields, missing purpose justifications, or lack of data minimization reviews.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-DISCLOSURE-LIMITS-012",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Disclosure Limitation",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISCLOSURE-LIMITS-012/",
+      "canonical_name": "No Disclosure Limitation",
+      "description": "The entity does not disclose personal information to third parties only for the purposes identified in the privacy notice and with the implicit or explicit consent of the data subject. This signal indicates that personal data may be shared beyond stated purposes or without proper consent mechanisms, violating privacy commitments and data protection principles.",
+      "applicability": "Applicable to any system, service, or process that shares personal information with third parties, including API integrations, data partnerships, marketing platforms, service providers, and data sharing agreements.",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISCLOSURE-LIMITS-012/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P6.1",
+          "GAPP"
+        ],
+        "detection_notes": "Commonly detected through analysis of third-party integrations, data sharing agreements, API configurations, privacy policies, and consent management systems. May be identified by overly broad data sharing, missing consent mechanisms, or discrepancies between privacy notices and actual practices.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-DISCLOSURE-RECORDS-014",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Disclosure Records",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISCLOSURE-RECORDS-014/",
+      "canonical_name": "No Disclosure Records",
+      "description": "The entity does not create and retain a complete, accurate, and timely record of detected or reported unauthorized disclosures of personal information. This signal indicates that privacy incidents involving data disclosure are not properly documented, hindering incident response and accountability.",
+      "applicability": "Applicable to privacy incident management, breach response procedures, disclosure tracking systems, security monitoring, and incident documentation processes.",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISCLOSURE-RECORDS-014/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P6.3",
+          "GAPP"
+        ],
+        "detection_notes": "Commonly detected through review of incident management systems, privacy breach logs, security monitoring configurations, and incident response procedures. May be identified by absence of disclosure tracking, missing incident documentation, or incomplete breach records.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-DISPUTE-RESOLUTION-019",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Dispute Resolution",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISPUTE-RESOLUTION-019/",
+      "canonical_name": "No Dispute Resolution",
+      "description": "The entity does not have procedures for resolving disputes related to privacy. This signal indicates that the organization lacks formal mechanisms to address disagreements or conflicts with data subjects regarding privacy practices, potentially leading to escalated conflicts and regulatory issues.",
+      "applicability": "Applicable to privacy dispute resolution processes, escalation procedures, privacy team operations, legal and compliance functions, and alternative dispute resolution mechanisms.",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISPUTE-RESOLUTION-019/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P8.2",
+          "GAPP"
+        ],
+        "detection_notes": "Commonly detected through review of dispute resolution procedures, escalation protocols, privacy policy commitments, and complaint handling documentation. May be identified by absence of formal dispute processes, missing escalation paths, or lack of alternative resolution mechanisms.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-IDENTITY-VERIFICATION-010",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Confirmation of Identity",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-IDENTITY-VERIFICATION-010/",
+      "canonical_name": "No Confirmation of Identity",
+      "description": "The entity does not authenticate data subjects' identities before providing them with access to their personal information. This signal indicates that the organization lacks proper verification procedures to ensure that personal data is only disclosed to the legitimate data subject, potentially exposing sensitive information to unauthorized parties.",
+      "applicability": "Applicable to any system or process that handles data subject access requests, including self-service portals, customer service workflows, data export functionality, and identity verification systems.",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-IDENTITY-VERIFICATION-010/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P5.2",
+          "GAPP"
+        ],
+        "detection_notes": "Commonly detected through review of access request procedures, identity verification workflows, authentication mechanisms for data access, and customer service protocols. May be identified by absence of verification steps, weak authentication requirements, or missing identity proofing procedures.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-INCIDENT-REPORTING-021",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Privacy Incident Reporting",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-INCIDENT-REPORTING-021/",
+      "canonical_name": "No Privacy Incident Reporting",
+      "description": "The entity does not document and report privacy incidents to appropriate parties. This signal indicates that privacy violations and incidents are not properly tracked, escalated, or communicated to stakeholders, potentially hiding systemic issues and preventing effective response.",
+      "applicability": "Applicable to privacy incident management, incident reporting systems, privacy team operations, management communication, and regulatory reporting processes.",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-INCIDENT-REPORTING-021/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P8.4",
+          "GAPP"
+        ],
+        "detection_notes": "Commonly detected through review of incident management procedures, reporting workflows, escalation protocols, and privacy documentation. May be identified by absence of incident tracking, missing reporting mechanisms, or lack of management communication.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-PRIVACY-NOTICE-001",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Privacy Notice",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-PRIVACY-NOTICE-001/",
+      "canonical_name": "No Privacy Notice",
+      "description": "The entity does not provide notice to data subjects about its privacy practices to meet the entity's objectives related to privacy.",
+      "applicability": "Privacy policies, data collection notices",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-PRIVACY-NOTICE-001/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P1.1",
+          "GAPP"
+        ],
+        "detection_notes": "Review privacy notice availability, accessibility, and completeness for data subjects at or before the point of data collection",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-RETENTION-POLICY-007",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Retention Policies",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-RETENTION-POLICY-007/",
+      "canonical_name": "No Retention Policies",
+      "description": "The entity does not retain personal information for only as long as necessary to fulfill the stated purposes or as required by law or regulations.",
+      "applicability": "Data retention schedules, storage limitation",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-RETENTION-POLICY-007/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P4.2",
+          "GAPP"
+        ],
+        "detection_notes": "Review data retention policies, automated deletion processes, and storage duration practices across data categories",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-SECURE-PII-DISPOSAL-008",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Secure PII Disposal",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SECURE-PII-DISPOSAL-008/",
+      "canonical_name": "No Secure PII Disposal",
+      "description": "The entity does not securely dispose of personal information to meet the entity's objectives related to privacy.",
+      "applicability": "Secure deletion, PII destruction",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SECURE-PII-DISPOSAL-008/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P4.3",
+          "GAPP"
+        ],
+        "detection_notes": "Review disposal methods for electronic and physical media containing personal information, including deletion verification and media destruction procedures",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-SENSITIVE-DATA-CONSENT-005",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Explicit Consent for Sensitive Data",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SENSITIVE-DATA-CONSENT-005/",
+      "canonical_name": "No Explicit Consent for Sensitive Data",
+      "description": "The entity does not obtain explicit consent for collection of sensitive personal information.",
+      "applicability": "Sensitive data categories, explicit consent",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SENSITIVE-DATA-CONSENT-005/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P3.2",
+          "GAPP"
+        ],
+        "detection_notes": "Review consent mechanisms for sensitive information categories including health data, financial data, biometric data, and protected characteristics",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-SUBJECT-ACCESS-009",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Data Subject Access",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SUBJECT-ACCESS-009/",
+      "canonical_name": "No Data Subject Access",
+      "description": "The entity does not provide data subjects with access to their personal information for review and update. This signal indicates that individuals lack the ability to view, verify, or modify their own personal data held by the organization, which is a fundamental privacy requirement.",
+      "applicability": "Applicable to any system, application, or service that processes personal information and should provide data subjects with access rights. Includes customer portals, self-service platforms, data access request workflows, and privacy management systems.",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SUBJECT-ACCESS-009/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P5.1",
+          "GAPP"
+        ],
+        "detection_notes": "Commonly detected through review of privacy policies, self-service portal capabilities, data subject request procedures, and system functionality. May be identified by absence of access request mechanisms, lack of user portals, or missing processes for responding to access requests.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-THIRD-PARTY-AUTH-013",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Third-Party Disclosure Authorization",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-THIRD-PARTY-AUTH-013/",
+      "canonical_name": "No Third-Party Disclosure Authorization",
+      "description": "The entity does not create and retain a record of authorized disclosures of personal information. This signal indicates that the organization lacks documentation of legitimate data sharing activities, making it difficult to demonstrate compliance with privacy commitments and track data flows.",
+      "applicability": "Applicable to data sharing operations, third-party integrations, consent management systems, data processing agreements, and disclosure tracking mechanisms.",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-THIRD-PARTY-AUTH-013/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "medium",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P6.2",
+          "GAPP"
+        ],
+        "detection_notes": "Commonly detected through review of disclosure logs, consent records, data sharing agreements, audit trails, and privacy documentation. May be identified by absence of disclosure tracking, missing authorization documentation, or incomplete record-keeping practices.",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     },
     {
       "id": "CSE-SOC2-PRIV-NO-USE-LIMITATION-006",
       "domain": "SOC2",
       "category": "PRIV",
       "name": "No Limitation on Use",
-      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-USE-LIMITATION-006/",
+      "canonical_name": "No Limitation on Use",
+      "description": "The entity does not limit the use of personal information to the purposes identified in the privacy notice and for which the data subject has provided implicit or explicit consent.",
+      "applicability": "Purpose limitation, secondary use controls",
+      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-USE-LIMITATION-006/",
       "introduced_in": "1.0.0",
-      "status": "active"
+      "status": "active",
+      "metadata": {
+        "suggested_severity": "high",
+        "risk_domains": [
+          "privacy",
+          "data-protection",
+          "pii"
+        ],
+        "related_controls": [
+          "SOC 2 P4.1",
+          "GAPP"
+        ],
+        "detection_notes": "Monitor data usage patterns and compare against stated purposes in privacy notices and consent records",
+        "sources": [
+          {
+            "title": "AICPA Trust Services Criteria - Privacy",
+            "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+            "type": "standard",
+            "authority": "AICPA",
+            "section": "P1, P2, P3, P4, P5, P6, P7, P8"
+          },
+          {
+            "title": "AICPA SOC 2 Reporting on an Examination",
+            "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+            "type": "guidance",
+            "authority": "AICPA"
+          },
+          {
+            "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+            "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+            "type": "guidance",
+            "authority": "AICPA"
+          }
+        ]
+      }
     }
   ]
 }

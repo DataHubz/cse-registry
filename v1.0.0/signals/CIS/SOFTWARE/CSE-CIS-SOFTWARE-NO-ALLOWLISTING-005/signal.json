@@ -14,8 +14,28 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Review CIS compliance documentation and controls for SOFTWARE requirements."
+    "detection_notes": "Review CIS compliance documentation and controls for SOFTWARE requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 2: Inventory and Control of Software Assets",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-ALLOWLISTING-005/"
 }

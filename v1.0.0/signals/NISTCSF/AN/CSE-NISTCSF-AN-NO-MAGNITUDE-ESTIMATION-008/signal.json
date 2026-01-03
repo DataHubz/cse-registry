@@ -15,7 +15,27 @@
       "governance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection guidance: Look for incidents lacking scope assessments (number of affected systems, users, records), missing impact quantification (financial loss, downtime duration, data volume), or unvalidated initial estimations. Monitor for incidents closed without confirming the breadth of compromise, missing business impact analysis, or discrepancies between initial and final scope without documented validation processes."
+    "detection_notes": "Detection guidance: Look for incidents lacking scope assessments (number of affected systems, users, records), missing impact quantification (financial loss, downtime duration, data volume), or unvalidated initial estimations. Monitor for incidents closed without confirming the breadth of compromise, missing business impact analysis, or discrepancies between initial and final scope without documented validation processes.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST CSF 2.0 Publication",
+        "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-20/final",
+        "type": "guidance",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/NISTCSF/AN/CSE-NISTCSF-AN-NO-MAGNITUDE-ESTIMATION-008/"
 }

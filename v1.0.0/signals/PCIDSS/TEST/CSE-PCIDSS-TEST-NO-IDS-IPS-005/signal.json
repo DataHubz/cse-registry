@@ -17,7 +17,27 @@
     "related_controls": [
       "11.5 - Network intrusions and unexpected file changes are detected and responded to"
     ],
-    "detection_notes": "Detection guidance: Verify deployment of IDS/IPS solutions at the CDE perimeter and critical internal points. Monitor for active alerting mechanisms, signature updates, and response procedures. Check for continuous monitoring coverage and alert review processes."
+    "detection_notes": "Detection guidance: Verify deployment of IDS/IPS solutions at the CDE perimeter and critical internal points. Monitor for active alerting mechanisms, signature updates, and response procedures. Check for continuous monitoring coverage and alert review processes.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-IDS-IPS-005/"
 }

@@ -17,7 +17,29 @@
     "related_controls": [
       "45 CFR 164.314(a)(2)(iii)"
     ],
-    "detection_notes": "Detection guidance: Review Business Associate Agreements to verify they include provisions requiring subcontractors to comply with the same safeguards. Examine contract templates and executed agreements for subcontractor flow-down clauses. Assess whether business associates have processes to ensure subcontractors execute appropriate agreements before handling ePHI."
+    "detection_notes": "Detection guidance: Review Business Associate Agreements to verify they include provisions requiring subcontractors to comply with the same safeguards. Examine contract templates and executed agreements for subcontractor flow-down clauses. Assess whether business associates have processes to ensure subcontractors execute appropriate agreements before handling ePHI.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart C - Organizational Requirements",
+        "section": "164.314(a)(2)(iii)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+        "type": "guidance",
+        "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+        "section": "7",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+        "type": "guidance",
+        "title": "HHS Security Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-SUBCONTRACTOR-REQ-002/"
 }

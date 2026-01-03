@@ -14,8 +14,28 @@
       "classification",
       "encryption"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Analysis of database encryption configurations Review of cloud storage encryption settings Examination of volume and disk encryption status Assessment of file system encryption Verification of backup encryption Review of encryption key management Analysis of application data storage Examination of mobile device encryption policies The presence of this signal indicates a condition that warrants review in the context of data confidentiality and protection requirements."
+    "detection_notes": "Detection of this signal typically involves: Analysis of database encryption configurations Review of cloud storage encryption settings Examination of volume and disk encryption status Assessment of file system encryption Verification of backup encryption Review of encryption key management Analysis of application data storage Examination of mobile device encryption policies The presence of this signal indicates a condition that warrants review in the context of data confidentiality and protection requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 3: Data Protection",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-ENCRYPTION-AT-REST-006/"
 }

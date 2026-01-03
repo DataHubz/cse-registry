@@ -14,8 +14,34 @@
       "privacy",
       "access-control"
     ],
-    "related_controls": [],
-    "detection_notes": "Review CCPA compliance documentation and controls for RIGHTS requirements."
+    "detection_notes": "Review CCPA compliance documentation and controls for RIGHTS requirements.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "section": "Civil Code §1798.100-1798.135",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CCPA/RIGHTS/CSE-CCPA-RIGHTS-NO-APPEAL-PROCESS-011/"
 }

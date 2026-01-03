@@ -15,7 +15,27 @@
       "governance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Document review and gap analysis Interviews with management and security personnel Review of governance documentation repositories Assessment of security program maturity Audit findings and compliance reports Review of employee onboarding materials The presence of this signal indicates a fundamental governance gap that affects the organization's ability to establish consistent security practices and demonstrate compliance with regulatory requirements. Organizations should prioritize developing and documenting security policies as a foundation for their security program. Policies should be: Approved by management Communicated to all relevant personnel Reviewed and updated regularly Aligned with business objectives and risk appetite Mapped to appl"
+    "detection_notes": "Detection of this signal typically involves: Document review and gap analysis Interviews with management and security personnel Review of governance documentation repositories Assessment of security program maturity Audit findings and compliance reports Review of employee onboarding materials The presence of this signal indicates a fundamental governance gap that affects the organization's ability to establish consistent security practices and demonstrate compliance with regulatory requirements. Organizations should prioritize developing and documenting security policies as a foundation for their security program. Policies should be: Approved by management Communicated to all relevant personnel Reviewed and updated regularly Aligned with business objectives and risk appetite Mapped to appl",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/GOVERN/CSE-GEN-GOVERN-NO-SECURITY-POLICY-001/"
 }

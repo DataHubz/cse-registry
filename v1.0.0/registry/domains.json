@@ -1,0 +1,806 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-01-03T23:18:46.501Z",
+  "domains": [
+    {
+      "id": "CCPA",
+      "name": "CCPA",
+      "description": "California Consumer Privacy Act - Privacy rights for California consumers",
+      "signal_count": 70,
+      "categories": [
+        {
+          "id": "CCPA-AUTOMATED",
+          "name": "AUTOMATED"
+        },
+        {
+          "id": "CCPA-CONSENT",
+          "name": "CONSENT"
+        },
+        {
+          "id": "CCPA-CONTRACTS",
+          "name": "CONTRACTS"
+        },
+        {
+          "id": "CCPA-NOTICE",
+          "name": "NOTICE"
+        },
+        {
+          "id": "CCPA-OPTOUT",
+          "name": "OPTOUT"
+        },
+        {
+          "id": "CCPA-RETENTION",
+          "name": "RETENTION"
+        },
+        {
+          "id": "CCPA-RIGHTS",
+          "name": "RIGHTS"
+        },
+        {
+          "id": "CCPA-SECURITY",
+          "name": "SECURITY"
+        },
+        {
+          "id": "CCPA-SENSITIVE",
+          "name": "SENSITIVE"
+        },
+        {
+          "id": "CCPA-TRAINING",
+          "name": "TRAINING"
+        },
+        {
+          "id": "CCPA-VERIFY",
+          "name": "VERIFY"
+        }
+      ]
+    },
+    {
+      "id": "CIS",
+      "name": "CIS",
+      "description": "CIS Controls - Cybersecurity best practices from the Center for Internet Security",
+      "signal_count": 120,
+      "categories": [
+        {
+          "id": "CIS-ACCESS",
+          "name": "ACCESS"
+        },
+        {
+          "id": "CIS-ACCOUNT",
+          "name": "ACCOUNT"
+        },
+        {
+          "id": "CIS-APPSEC",
+          "name": "APPSEC"
+        },
+        {
+          "id": "CIS-ASSET",
+          "name": "ASSET"
+        },
+        {
+          "id": "CIS-AUDIT",
+          "name": "AUDIT"
+        },
+        {
+          "id": "CIS-CONFIG",
+          "name": "CONFIG"
+        },
+        {
+          "id": "CIS-DATA",
+          "name": "DATA"
+        },
+        {
+          "id": "CIS-EMAIL",
+          "name": "EMAIL"
+        },
+        {
+          "id": "CIS-INCIDENT",
+          "name": "INCIDENT"
+        },
+        {
+          "id": "CIS-MALWARE",
+          "name": "MALWARE"
+        },
+        {
+          "id": "CIS-MONITOR",
+          "name": "MONITOR"
+        },
+        {
+          "id": "CIS-NETWORK",
+          "name": "NETWORK"
+        },
+        {
+          "id": "CIS-PENTEST",
+          "name": "PENTEST"
+        },
+        {
+          "id": "CIS-RECOVERY",
+          "name": "RECOVERY"
+        },
+        {
+          "id": "CIS-SOFTWARE",
+          "name": "SOFTWARE"
+        },
+        {
+          "id": "CIS-TRAINING",
+          "name": "TRAINING"
+        },
+        {
+          "id": "CIS-VENDOR",
+          "name": "VENDOR"
+        },
+        {
+          "id": "CIS-VULN",
+          "name": "VULN"
+        }
+      ]
+    },
+    {
+      "id": "CMMC",
+      "name": "CMMC",
+      "description": "Cybersecurity Maturity Model Certification - DoD cybersecurity framework",
+      "signal_count": 136,
+      "categories": [
+        {
+          "id": "CMMC-ACCESS",
+          "name": "ACCESS"
+        },
+        {
+          "id": "CMMC-ASSESSMENT",
+          "name": "ASSESSMENT"
+        },
+        {
+          "id": "CMMC-AUDIT",
+          "name": "AUDIT"
+        },
+        {
+          "id": "CMMC-AWARENESS",
+          "name": "AWARENESS"
+        },
+        {
+          "id": "CMMC-COMMS",
+          "name": "COMMS"
+        },
+        {
+          "id": "CMMC-CONFIG",
+          "name": "CONFIG"
+        },
+        {
+          "id": "CMMC-ENHANCED",
+          "name": "ENHANCED"
+        },
+        {
+          "id": "CMMC-IDENTITY",
+          "name": "IDENTITY"
+        },
+        {
+          "id": "CMMC-INCIDENT",
+          "name": "INCIDENT"
+        },
+        {
+          "id": "CMMC-INTEGRITY",
+          "name": "INTEGRITY"
+        },
+        {
+          "id": "CMMC-MAINTENANCE",
+          "name": "MAINTENANCE"
+        },
+        {
+          "id": "CMMC-MEDIA",
+          "name": "MEDIA"
+        },
+        {
+          "id": "CMMC-PERSONNEL",
+          "name": "PERSONNEL"
+        },
+        {
+          "id": "CMMC-PHYSICAL",
+          "name": "PHYSICAL"
+        },
+        {
+          "id": "CMMC-RISK",
+          "name": "RISK"
+        }
+      ]
+    },
+    {
+      "id": "FEDRAMP",
+      "name": "FEDRAMP",
+      "description": "Federal Risk and Authorization Management Program - Cloud security for federal agencies",
+      "signal_count": 145,
+      "categories": [
+        {
+          "id": "FEDRAMP-AC",
+          "name": "AC"
+        },
+        {
+          "id": "FEDRAMP-AT",
+          "name": "AT"
+        },
+        {
+          "id": "FEDRAMP-AU",
+          "name": "AU"
+        },
+        {
+          "id": "FEDRAMP-CA",
+          "name": "CA"
+        },
+        {
+          "id": "FEDRAMP-CM",
+          "name": "CM"
+        },
+        {
+          "id": "FEDRAMP-CP",
+          "name": "CP"
+        },
+        {
+          "id": "FEDRAMP-IA",
+          "name": "IA"
+        },
+        {
+          "id": "FEDRAMP-IR",
+          "name": "IR"
+        },
+        {
+          "id": "FEDRAMP-MA",
+          "name": "MA"
+        },
+        {
+          "id": "FEDRAMP-MP",
+          "name": "MP"
+        },
+        {
+          "id": "FEDRAMP-PE",
+          "name": "PE"
+        },
+        {
+          "id": "FEDRAMP-PL",
+          "name": "PL"
+        },
+        {
+          "id": "FEDRAMP-PM",
+          "name": "PM"
+        },
+        {
+          "id": "FEDRAMP-PS",
+          "name": "PS"
+        },
+        {
+          "id": "FEDRAMP-PT",
+          "name": "PT"
+        },
+        {
+          "id": "FEDRAMP-RA",
+          "name": "RA"
+        },
+        {
+          "id": "FEDRAMP-SA",
+          "name": "SA"
+        },
+        {
+          "id": "FEDRAMP-SC",
+          "name": "SC"
+        },
+        {
+          "id": "FEDRAMP-SI",
+          "name": "SI"
+        },
+        {
+          "id": "FEDRAMP-SR",
+          "name": "SR"
+        }
+      ]
+    },
+    {
+      "id": "GDPR",
+      "name": "GDPR",
+      "description": "General Data Protection Regulation - EU data protection and privacy",
+      "signal_count": 81,
+      "categories": [
+        {
+          "id": "GDPR-CHILDREN",
+          "name": "CHILDREN"
+        },
+        {
+          "id": "GDPR-CONSENT",
+          "name": "CONSENT"
+        },
+        {
+          "id": "GDPR-CONTROLLER",
+          "name": "CONTROLLER"
+        },
+        {
+          "id": "GDPR-DESIGN",
+          "name": "DESIGN"
+        },
+        {
+          "id": "GDPR-DPO",
+          "name": "DPO"
+        },
+        {
+          "id": "GDPR-IMPACT",
+          "name": "IMPACT"
+        },
+        {
+          "id": "GDPR-PRINCIPLES",
+          "name": "PRINCIPLES"
+        },
+        {
+          "id": "GDPR-RETENTION",
+          "name": "RETENTION"
+        },
+        {
+          "id": "GDPR-RIGHTS",
+          "name": "RIGHTS"
+        },
+        {
+          "id": "GDPR-SECURITY",
+          "name": "SECURITY"
+        },
+        {
+          "id": "GDPR-TRANSFER",
+          "name": "TRANSFER"
+        }
+      ]
+    },
+    {
+      "id": "GEN",
+      "name": "GEN",
+      "description": "General/Cross-Framework - Universal security signals applicable across frameworks",
+      "signal_count": 1,
+      "categories": [
+        {
+          "id": "GEN-AUDIT",
+          "name": "AUDIT"
+        },
+        {
+          "id": "GEN-SECRETS",
+          "name": "SECRETS"
+        },
+        {
+          "id": "GEN-AUTH",
+          "name": "AUTH"
+        },
+        {
+          "id": "GEN-CONFIG",
+          "name": "CONFIG"
+        },
+        {
+          "id": "GEN-CRYPTO",
+          "name": "CRYPTO"
+        },
+        {
+          "id": "GEN-DATA",
+          "name": "DATA"
+        },
+        {
+          "id": "GEN-GOVERN",
+          "name": "GOVERN"
+        },
+        {
+          "id": "GEN-IDENTITY",
+          "name": "IDENTITY"
+        },
+        {
+          "id": "GEN-INCIDENT",
+          "name": "INCIDENT"
+        },
+        {
+          "id": "GEN-PHYSICAL",
+          "name": "PHYSICAL"
+        },
+        {
+          "id": "GEN-VENDOR",
+          "name": "VENDOR"
+        },
+        {
+          "id": "GEN-VULN",
+          "name": "VULN"
+        }
+      ]
+    },
+    {
+      "id": "GEN (General)",
+      "name": "GEN (General)",
+      "description": "GEN (General)",
+      "signal_count": 54,
+      "categories": [
+        {
+          "id": "GEN (General)-AUDIT",
+          "name": "AUDIT"
+        },
+        {
+          "id": "GEN (General)-AUTH",
+          "name": "AUTH"
+        },
+        {
+          "id": "GEN (General)-CONFIG",
+          "name": "CONFIG"
+        },
+        {
+          "id": "GEN (General)-CRYPTO",
+          "name": "CRYPTO"
+        },
+        {
+          "id": "GEN (General)-DATA",
+          "name": "DATA"
+        },
+        {
+          "id": "GEN (General)-GOVERN",
+          "name": "GOVERN"
+        },
+        {
+          "id": "GEN (General)-IDENTITY",
+          "name": "IDENTITY"
+        },
+        {
+          "id": "GEN (General)-INCIDENT",
+          "name": "INCIDENT"
+        },
+        {
+          "id": "GEN (General)-PHYSICAL",
+          "name": "PHYSICAL"
+        },
+        {
+          "id": "GEN (General)-SECRETS",
+          "name": "SECRETS"
+        },
+        {
+          "id": "GEN (General)-VENDOR",
+          "name": "VENDOR"
+        },
+        {
+          "id": "GEN (General)-VULN",
+          "name": "VULN"
+        }
+      ]
+    },
+    {
+      "id": "HIPAA",
+      "name": "HIPAA",
+      "description": "Health Insurance Portability and Accountability Act - Healthcare data protection",
+      "signal_count": 75,
+      "categories": [
+        {
+          "id": "HIPAA-ADMIN",
+          "name": "ADMIN"
+        },
+        {
+          "id": "HIPAA-BREACH",
+          "name": "BREACH"
+        },
+        {
+          "id": "HIPAA-ORG",
+          "name": "ORG"
+        },
+        {
+          "id": "HIPAA-PHYSICAL",
+          "name": "PHYSICAL"
+        },
+        {
+          "id": "HIPAA-PRIVACY",
+          "name": "PRIVACY"
+        },
+        {
+          "id": "HIPAA-TECH",
+          "name": "TECH"
+        }
+      ]
+    },
+    {
+      "id": "HITRUST",
+      "name": "HITRUST",
+      "description": "HITRUST Common Security Framework - Healthcare and information security",
+      "signal_count": 129,
+      "categories": [
+        {
+          "id": "HITRUST-ACCESS",
+          "name": "ACCESS"
+        },
+        {
+          "id": "HITRUST-ASSET",
+          "name": "ASSET"
+        },
+        {
+          "id": "HITRUST-BCM",
+          "name": "BCM"
+        },
+        {
+          "id": "HITRUST-CLOUD",
+          "name": "CLOUD"
+        },
+        {
+          "id": "HITRUST-COMPLY",
+          "name": "COMPLY"
+        },
+        {
+          "id": "HITRUST-ENDPOINT",
+          "name": "ENDPOINT"
+        },
+        {
+          "id": "HITRUST-HR",
+          "name": "HR"
+        },
+        {
+          "id": "HITRUST-INCIDENT",
+          "name": "INCIDENT"
+        },
+        {
+          "id": "HITRUST-ISMP",
+          "name": "ISMP"
+        },
+        {
+          "id": "HITRUST-MOBILE",
+          "name": "MOBILE"
+        },
+        {
+          "id": "HITRUST-NETWORK",
+          "name": "NETWORK"
+        },
+        {
+          "id": "HITRUST-OPS",
+          "name": "OPS"
+        },
+        {
+          "id": "HITRUST-ORG",
+          "name": "ORG"
+        },
+        {
+          "id": "HITRUST-PHYSICAL",
+          "name": "PHYSICAL"
+        },
+        {
+          "id": "HITRUST-POLICY",
+          "name": "POLICY"
+        },
+        {
+          "id": "HITRUST-PRIVACY",
+          "name": "PRIVACY"
+        },
+        {
+          "id": "HITRUST-RISK",
+          "name": "RISK"
+        },
+        {
+          "id": "HITRUST-SDLC",
+          "name": "SDLC"
+        },
+        {
+          "id": "HITRUST-VENDOR",
+          "name": "VENDOR"
+        }
+      ]
+    },
+    {
+      "id": "ISO27001",
+      "name": "ISO27001",
+      "description": "ISO/IEC 27001:2022 - International information security management standard",
+      "signal_count": 93,
+      "categories": [
+        {
+          "id": "ISO27001-ORG",
+          "name": "ORG"
+        },
+        {
+          "id": "ISO27001-PEOPLE",
+          "name": "PEOPLE"
+        },
+        {
+          "id": "ISO27001-PHYSICAL",
+          "name": "PHYSICAL"
+        },
+        {
+          "id": "ISO27001-TECH",
+          "name": "TECH"
+        }
+      ]
+    },
+    {
+      "id": "NISTCSF",
+      "name": "NISTCSF",
+      "description": "NIST Cybersecurity Framework - Risk-based approach to managing cybersecurity risk",
+      "signal_count": 106,
+      "categories": [
+        {
+          "id": "NISTCSF-AA",
+          "name": "AA"
+        },
+        {
+          "id": "NISTCSF-AE",
+          "name": "AE"
+        },
+        {
+          "id": "NISTCSF-AM",
+          "name": "AM"
+        },
+        {
+          "id": "NISTCSF-RS.AN",
+          "name": "RS.AN"
+        },
+        {
+          "id": "NISTCSF-AN",
+          "name": "AN"
+        },
+        {
+          "id": "NISTCSF-AT",
+          "name": "AT"
+        },
+        {
+          "id": "NISTCSF-CM",
+          "name": "CM"
+        },
+        {
+          "id": "NISTCSF-RS.CO",
+          "name": "RS.CO"
+        },
+        {
+          "id": "NISTCSF-CO",
+          "name": "CO"
+        },
+        {
+          "id": "NISTCSF-DS",
+          "name": "DS"
+        },
+        {
+          "id": "NISTCSF-Data Security",
+          "name": "Data Security"
+        },
+        {
+          "id": "NISTCSF-IM",
+          "name": "IM"
+        },
+        {
+          "id": "NISTCSF-Technology Infrastructure Resilience",
+          "name": "Technology Infrastructure Resilience"
+        },
+        {
+          "id": "NISTCSF-IR",
+          "name": "IR"
+        },
+        {
+          "id": "NISTCSF-MA",
+          "name": "MA"
+        },
+        {
+          "id": "NISTCSF-RS.MA",
+          "name": "RS.MA"
+        },
+        {
+          "id": "NISTCSF-MI",
+          "name": "MI"
+        },
+        {
+          "id": "NISTCSF-RS.MI",
+          "name": "RS.MI"
+        },
+        {
+          "id": "NISTCSF-OC",
+          "name": "OC"
+        },
+        {
+          "id": "NISTCSF-OV",
+          "name": "OV"
+        },
+        {
+          "id": "NISTCSF-PO",
+          "name": "PO"
+        },
+        {
+          "id": "NISTCSF-PS",
+          "name": "PS"
+        },
+        {
+          "id": "NISTCSF-Platform Security",
+          "name": "Platform Security"
+        },
+        {
+          "id": "NISTCSF-RA",
+          "name": "RA"
+        },
+        {
+          "id": "NISTCSF-RCOM",
+          "name": "RCOM"
+        },
+        {
+          "id": "NISTCSF-RM",
+          "name": "RM"
+        },
+        {
+          "id": "NISTCSF-RP",
+          "name": "RP"
+        },
+        {
+          "id": "NISTCSF-RR",
+          "name": "RR"
+        },
+        {
+          "id": "NISTCSF-SC",
+          "name": "SC"
+        }
+      ]
+    },
+    {
+      "id": "PCIDSS",
+      "name": "PCIDSS",
+      "description": "Payment Card Industry Data Security Standard - Payment card data protection",
+      "signal_count": 64,
+      "categories": [
+        {
+          "id": "PCIDSS-ACCESS",
+          "name": "ACCESS"
+        },
+        {
+          "id": "PCIDSS-AUTH",
+          "name": "AUTH"
+        },
+        {
+          "id": "PCIDSS-CONFIG",
+          "name": "CONFIG"
+        },
+        {
+          "id": "PCIDSS-LOG",
+          "name": "LOG"
+        },
+        {
+          "id": "PCIDSS-MALWARE",
+          "name": "MALWARE"
+        },
+        {
+          "id": "PCIDSS-NET",
+          "name": "NET"
+        },
+        {
+          "id": "PCIDSS-PHYSICAL",
+          "name": "PHYSICAL"
+        },
+        {
+          "id": "PCIDSS-POLICY",
+          "name": "POLICY"
+        },
+        {
+          "id": "PCIDSS-SECDEV",
+          "name": "SECDEV"
+        },
+        {
+          "id": "PCIDSS-STORE",
+          "name": "STORE"
+        },
+        {
+          "id": "PCIDSS-TEST",
+          "name": "TEST"
+        },
+        {
+          "id": "PCIDSS-TRANSIT",
+          "name": "TRANSIT"
+        }
+      ]
+    },
+    {
+      "id": "SOC2",
+      "name": "SOC2",
+      "description": "SOC 2 Trust Services Criteria - Service organization controls for security and privacy",
+      "signal_count": 69,
+      "categories": [
+        {
+          "id": "SOC2-AVAIL",
+          "name": "AVAIL"
+        },
+        {
+          "id": "SOC2-CC",
+          "name": "CC"
+        },
+        {
+          "id": "SOC2-CONF",
+          "name": "CONF"
+        },
+        {
+          "id": "SOC2-PI",
+          "name": "PI"
+        },
+        {
+          "id": "SOC2-PRIV",
+          "name": "PRIV"
+        }
+      ]
+    }
+  ]
+}

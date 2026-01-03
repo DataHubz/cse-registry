@@ -14,8 +14,28 @@
       "classification",
       "encryption"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Analysis of data age and last access times Review of decommissioned system inventories Examination of test and development environments Assessment of user termination procedures Review of backup retention practices Analysis of storage growth trends Verification of data cleanup processes The presence of this signal indicates a condition that warrants review in the context of data minimization and risk reduction requirements."
+    "detection_notes": "Detection of this signal typically involves: Analysis of data age and last access times Review of decommissioned system inventories Examination of test and development environments Assessment of user termination procedures Review of backup retention practices Analysis of storage growth trends Verification of data cleanup processes The presence of this signal indicates a condition that warrants review in the context of data minimization and risk reduction requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 3: Data Protection",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-REMOVAL-003/"
 }

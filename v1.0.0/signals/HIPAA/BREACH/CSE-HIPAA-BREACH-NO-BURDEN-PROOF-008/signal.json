@@ -17,7 +17,22 @@
     "related_controls": [
       "45 CFR 164.414(b)"
     ],
-    "detection_notes": "Detection guidance: Verify that comprehensive documentation exists for all breach incidents and responses Review records of notification delivery including dates, methods, and recipient confirmation Check for documented breach risk assessments that evaluate whether incidents constitute breaches Ensure documentation includes the basis for determining whether notification was required Audit evidence of notification methods used (written, electronic, substitute methods) Verify that documentation is sufficient to withstand regulatory scrutiny and demonstrate compliance Review retention policies to ensure breach documentation is maintained for required periods Check for documented risk assessment factors including likelihood of PHI compromise, type of information, unauthorized recipient, and mi"
+    "detection_notes": "Detection guidance: Verify that comprehensive documentation exists for all breach incidents and responses Review records of notification delivery including dates, methods, and recipient confirmation Check for documented breach risk assessments that evaluate whether incidents constitute breaches Ensure documentation includes the basis for determining whether notification was required Audit evidence of notification methods used (written, electronic, substitute methods) Verify that documentation is sufficient to withstand regulatory scrutiny and demonstrate compliance Review retention policies to ensure breach documentation is maintained for required periods Check for documented risk assessment factors including likelihood of PHI compromise, type of information, unauthorized recipient, and mi",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart D - Breach Notification Rule",
+        "section": "164.414(b)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html",
+        "type": "guidance",
+        "title": "HHS Breach Notification Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-BURDEN-PROOF-008/"
 }

@@ -18,7 +18,35 @@
       "GDPR Art. 24.2",
       "GDPR Art. 24.3"
     ],
-    "detection_notes": "Detected through review of policy documentation, certification records, code of conduct adherence, and compliance evidence. Requires verification that documented policies exist and are followed."
+    "detection_notes": "Detected through review of policy documentation, certification records, code of conduct adherence, and compliance evidence. Requires verification that documented policies exist and are followed.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter IV - Controller and Processor",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-24-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 24.2",
+        "section": "GDPR Art. 24.2",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines and Recommendations",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-POLICY-DOCUMENTATION-002/"
 }

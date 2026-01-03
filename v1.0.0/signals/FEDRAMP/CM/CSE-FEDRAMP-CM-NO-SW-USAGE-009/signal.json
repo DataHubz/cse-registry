@@ -14,8 +14,35 @@
       "change-control",
       "baseline"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection guidance: Review software asset management systems, license management databases, and acceptable use policies to verify controls on software usage. Look for absence of software whitelisting or blacklisting, missing license compliance tracking, unauthorized software installations, or lack of software usage policies. Check for systems lacking controls to prevent unlicensed software installation, missing software approval processes, or absence of periodic software audits to ensure license compliance and identify unauthorized applications."
+    "detection_notes": "Detection guidance: Review software asset management systems, license management databases, and acceptable use policies to verify controls on software usage. Look for absence of software whitelisting or blacklisting, missing license compliance tracking, unauthorized software installations, or lack of software usage policies. Check for systems lacking controls to prevent unlicensed software installation, missing software approval processes, or absence of periodic software audits to ensure license compliance and identify unauthorized applications.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "CM",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Configuration Management",
+        "section": "CM",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-SW-USAGE-009/"
 }

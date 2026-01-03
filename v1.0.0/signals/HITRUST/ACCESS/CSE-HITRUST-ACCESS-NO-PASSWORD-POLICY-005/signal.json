@@ -14,8 +14,35 @@
       "identity",
       "authorization"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of password policy configurations Analysis of authentication system settings Examination of password validation rules Assessment of password policy enforcement mechanisms Review of directory service configurations Testing of password policy enforcement The presence of this signal indicates a fundamental security weakness that significantly increases the risk of unauthorized access through compromised credentials."
+    "detection_notes": "Detection of this signal typically involves: Review of password policy configurations Analysis of authentication system settings Examination of password validation rules Assessment of password policy enforcement mechanisms Review of directory service configurations Testing of password policy enforcement The presence of this signal indicates a fundamental security weakness that significantly increases the risk of unauthorized access through compromised credentials.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 01 - Access Control",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.AC",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PASSWORD-POLICY-005/"
 }

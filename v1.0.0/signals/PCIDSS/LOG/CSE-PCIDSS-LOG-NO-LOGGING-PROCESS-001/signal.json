@@ -17,7 +17,27 @@
     "related_controls": [
       "10.1 Processes and mechanisms for logging and monitoring all access to system components and cardholder data are defined and documented"
     ],
-    "detection_notes": "Detection guidance: Look for absence of logging policies, lack of documented logging procedures, missing log management processes, or evidence of undefined audit trail requirements for CDE systems."
+    "detection_notes": "Detection guidance: Look for absence of logging policies, lack of documented logging procedures, missing log management processes, or evidence of undefined audit trail requirements for CDE systems.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-LOGGING-PROCESS-001/"
 }

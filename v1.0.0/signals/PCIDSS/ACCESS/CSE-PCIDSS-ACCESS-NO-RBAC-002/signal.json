@@ -17,7 +17,28 @@
     "related_controls": [
       "7.2 Access to system components and data is appropriately defined and assigned."
     ],
-    "detection_notes": "Detection guidance: Examine user account configurations and permissions to determine if access is granted based on defined roles or assigned ad-hoc. Review access control models for evidence of role definitions, privilege mappings, and least privilege principles. Missing or undefined role-based access structures indicate this signal."
+    "detection_notes": "Detection guidance: Examine user account configurations and permissions to determine if access is granted based on defined roles or assigned ad-hoc. Review access control models for evidence of role definitions, privilege mappings, and least privilege principles. Missing or undefined role-based access structures indicate this signal.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "section": "Requirement 7: Restrict Access to System Components",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/ACCESS/CSE-PCIDSS-ACCESS-NO-RBAC-002/"
 }

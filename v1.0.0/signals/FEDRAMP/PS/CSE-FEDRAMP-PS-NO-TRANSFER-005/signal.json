@@ -14,8 +14,35 @@
       "background-screening",
       "access-control"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of personnel transfer procedures and documentation Analysis of access review processes during transfers Verification of 5-day timeline compliance for transfer actions Assessment of access modification workflows Examination of operational need confirmation records Inspection of notification processes to relevant personnel Review of logical and physical access adjustments Verification of unnecessary access termination Analysis of property return procedures during transfers Examination of role-based access updates The presence of this signal indicates a condition that warrants review in the context of FedRAMP personnel security requirements. Personnel transfer procedures should ensure timely access reviews and modifications to prevent privil"
+    "detection_notes": "Detection of this signal typically involves: Review of personnel transfer procedures and documentation Analysis of access review processes during transfers Verification of 5-day timeline compliance for transfer actions Assessment of access modification workflows Examination of operational need confirmation records Inspection of notification processes to relevant personnel Review of logical and physical access adjustments Verification of unnecessary access termination Analysis of property return procedures during transfers Examination of role-based access updates The presence of this signal indicates a condition that warrants review in the context of FedRAMP personnel security requirements. Personnel transfer procedures should ensure timely access reviews and modifications to prevent privil",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "PS",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Personnel Security",
+        "section": "PS",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/FEDRAMP/PS/CSE-FEDRAMP-PS-NO-TRANSFER-005/"
 }

@@ -19,7 +19,33 @@
       "NIST SP 800-172 3.12.4e"
     ],
     "detection_notes": "Detected through red team program review, exercise history verification, and defensive improvement tracking.",
-    "cmmc_level": 3
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - System and Communications Protection",
+        "section": "3.12.4",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/172/final",
+        "type": "standard",
+        "title": "NIST SP 800-172 - Enhanced Security Requirements",
+        "authority": "NIST"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-RED-TEAM-009/"
 }

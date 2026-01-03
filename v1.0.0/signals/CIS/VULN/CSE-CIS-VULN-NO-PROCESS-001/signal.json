@@ -14,8 +14,28 @@
       "patching",
       "remediation"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of security policies and procedures documentation Interviews with security and IT operations teams Assessment of vulnerability management tooling and workflows Examination of vulnerability tracking and reporting mechanisms The presence of this signal indicates a condition that warrants review in the context of vulnerability management requirements."
+    "detection_notes": "Detection of this signal typically involves: Review of security policies and procedures documentation Interviews with security and IT operations teams Assessment of vulnerability management tooling and workflows Examination of vulnerability tracking and reporting mechanisms The presence of this signal indicates a condition that warrants review in the context of vulnerability management requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 7: Continuous Vulnerability Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-PROCESS-001/"
 }

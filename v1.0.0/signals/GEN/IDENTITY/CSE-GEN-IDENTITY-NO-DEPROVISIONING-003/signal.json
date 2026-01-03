@@ -15,7 +15,27 @@
       "governance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of termination and offboarding procedures Assessment of HR-to-IT notification mechanisms Analysis of account activity vs. employment status Examination of dormant account policies Comparison of active accounts against HR records Review of role change procedures Analysis of time between termination and access removal Audit of accounts with no recent authentication The presence of this signal indicates a critical gap in identity lifecycle management that can lead to unauthorized access, data breaches, and compliance violations."
+    "detection_notes": "Detection of this signal typically involves: Review of termination and offboarding procedures Assessment of HR-to-IT notification mechanisms Analysis of account activity vs. employment status Examination of dormant account policies Comparison of active accounts against HR records Review of role change procedures Analysis of time between termination and access removal Audit of accounts with no recent authentication The presence of this signal indicates a critical gap in identity lifecycle management that can lead to unauthorized access, data breaches, and compliance violations.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/IDENTITY/CSE-GEN-IDENTITY-NO-DEPROVISIONING-003/"
 }

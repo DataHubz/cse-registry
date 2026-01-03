@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of application architecture and network topology Assessment of web application protection mechanisms Evaluation of WAF deployment and configuration Examination of security rule sets and policies Review of attack mitigation capabilities Assessment of logging and monitoring integration Analysis of virtual patching processes WAF capabilities typically include: **OWASP Top 10 protection:** SQL injection prevention Cross-site scripting (XSS) blocking Cross-site request forgery (CSRF) protection XML external entity (XXE) prevention Server-side request forgery (SSRF) blocking Insecure deserialization detection Security misconfiguration detection **Attack mitigation:** DDoS protection (application layer) Bot management and mitigation Brute force"
+    "detection_notes": "Detection of this signal typically involves: Review of application architecture and network topology Assessment of web application protection mechanisms Evaluation of WAF deployment and configuration Examination of security rule sets and policies Review of attack mitigation capabilities Assessment of logging and monitoring integration Analysis of virtual patching processes WAF capabilities typically include: **OWASP Top 10 protection:** SQL injection prevention Cross-site scripting (XSS) blocking Cross-site request forgery (CSRF) protection XML external entity (XXE) prevention Server-side request forgery (SSRF) blocking Insecure deserialization detection Security misconfiguration detection **Attack mitigation:** DDoS protection (application layer) Bot management and mitigation Brute force",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-WAF-010/"
 }

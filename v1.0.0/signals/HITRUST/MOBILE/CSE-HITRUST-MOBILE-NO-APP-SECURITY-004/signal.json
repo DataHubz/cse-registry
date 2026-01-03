@@ -14,8 +14,27 @@
       "compliance",
       "governance"
     ],
-    "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of mobile application security requirements and design documentation Examination of secure coding practices and development standards Analysis of mobile app security testing results (SAST, DAST, penetration testing) Verification of data encryption implementations Assessment of authentication and authorization mechanisms Review of mobile app security configurations Evaluation of third-party library and SDK security Analysis of runtime protection and anti-tampering controls Review of app store security compliance and release processes Assessment of mobile API security and backend integration The presence of this signal indicates a critical gap in mobile application security that should be addressed with high priority, particularly for appli"
+    "detection_notes": "Detection of this signal typically involves: Review of mobile application security requirements and design documentation Examination of secure coding practices and development standards Analysis of mobile app security testing results (SAST, DAST, penetration testing) Verification of data encryption implementations Assessment of authentication and authorization mechanisms Review of mobile app security configurations Evaluation of third-party library and SDK security Analysis of runtime protection and anti-tampering controls Review of app store security compliance and release processes Assessment of mobile API security and backend integration The presence of this signal indicates a critical gap in mobile application security that should be addressed with high priority, particularly for appli",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-APP-SECURITY-004/"
 }

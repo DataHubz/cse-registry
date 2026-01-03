@@ -15,7 +15,27 @@
       "governance"
     ],
     "related_controls": [],
-    "detection_notes": "Detection of this signal typically involves: Review of vendor contracts and service agreements Assessment of security addendums and exhibits Examination of data processing agreements Evaluation of business associate agreements Review of service level agreements Analysis of contract templates and standard clauses Assessment of vendor contractual obligations Key contractual security provisions typically include: **Security Controls**: Required security standards and controls **Data Protection**: Encryption, access controls, and data handling **Compliance**: Regulatory and framework compliance requirements **Audit Rights**: Right to assess and audit vendor security **Incident Response**: Breach notification and incident reporting **Liability**: Security breach liability and indemnification **"
+    "detection_notes": "Detection of this signal typically involves: Review of vendor contracts and service agreements Assessment of security addendums and exhibits Examination of data processing agreements Evaluation of business associate agreements Review of service level agreements Analysis of contract templates and standard clauses Assessment of vendor contractual obligations Key contractual security provisions typically include: **Security Controls**: Required security standards and controls **Data Protection**: Encryption, access controls, and data handling **Compliance**: Regulatory and framework compliance requirements **Audit Rights**: Right to assess and audit vendor security **Incident Response**: Breach notification and incident reporting **Liability**: Security breach liability and indemnification **",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/GEN/VENDOR/CSE-GEN-VENDOR-NO-AGREEMENTS-002/"
 }

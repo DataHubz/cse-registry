@@ -1,254 +1,288 @@
 {
-  "metadata": {
-    "framework": "ISO27001-2022",
-    "cse_registry_version": "1.0.0",
-    "dataset_version": "1.0.0",
-    "generated": "2025-12-28T00:00:00Z",
-    "mapping_count": 93,
-    "description": "Signal-to-control mappings for ISO27001 domain signals to ISO/IEC 27001:2022 controls"
-  },
+  "framework": "ISO27001",
+  "framework_version": "2022",
+  "version": "1.0.0",
+  "generated_at": "2026-01-03T23:18:46.673Z",
+  "total_mappings": 156,
   "mappings": [
     {
-      "id": "MAP-CSE-ISO27001-ORG-NO-SECURITY-POLICIES-001-TO-A.5.1",
+      "id": "MAP-CSE-GEN-AUDIT-NO-LOGGING-001-TO-ISO270012022-A-8-15",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-SECURITY-POLICIES-001",
+        "id": "CSE-GEN-AUDIT-NO-LOGGING-001",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.1",
-        "title": "Policies for Information Security"
+        "framework": "ISO27001",
+        "id": "A.8.15",
+        "title": "Logging"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Policies for Information Security.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "GEN logging signal maps to ISO 27001 logging control"
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-ORG-NO-SECURITY-ROLES-002-TO-A.5.2",
+      "id": "MAP-CSE-GEN-AUTH-NO-ACCESS-CONTROL-003-TO-ISO270012022-A-5-15",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-SECURITY-ROLES-002",
+        "id": "CSE-GEN-AUTH-NO-ACCESS-CONTROL-003",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.2",
-        "title": "Information Security Roles and Responsibilities"
+        "framework": "ISO27001",
+        "id": "A.5.15",
+        "title": "Access control"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Information Security Roles and Responsibilities.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "GEN access control maps to ISO 27001 access control"
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-ORG-NO-DUTY-SEGREGATION-003-TO-A.5.3",
+      "id": "MAP-CSE-GEN-AUTH-NO-MFA-002-TO-ISO270012022-A-8-5",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-DUTY-SEGREGATION-003",
+        "id": "CSE-GEN-AUTH-NO-MFA-002",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.3",
-        "title": "Segregation of Duties"
+        "framework": "ISO27001",
+        "id": "A.8.5",
+        "title": "Secure authentication"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Segregation of Duties.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "GEN MFA signal maps to ISO 27001 authentication control"
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-ORG-NO-MGMT-RESPONSIBILITIES-004-TO-A.5.4",
+      "id": "MAP-CSE-GEN-CONFIG-NO-BASELINE-003-TO-ISO270012022-A-8-9",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-MGMT-RESPONSIBILITIES-004",
+        "id": "CSE-GEN-CONFIG-NO-BASELINE-003",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.4",
-        "title": "Management Responsibilities"
+        "framework": "ISO27001",
+        "id": "A.8.9",
+        "title": "Configuration management"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Management Responsibilities.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "GEN baseline maps to ISO 27001 configuration control"
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-ORG-NO-AUTHORITY-CONTACTS-005-TO-A.5.5",
+      "id": "MAP-CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001-TO-ISO270012022-A-8-24",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-AUTHORITY-CONTACTS-005",
+        "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.5",
-        "title": "Contact with Authorities"
+        "framework": "ISO27001",
+        "id": "A.8.24",
+        "title": "Use of cryptography"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Contact with Authorities.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "GEN encryption signal maps to ISO 27001 cryptography control"
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-ORG-NO-INTEREST-GROUP-CONTACTS-006-TO-A.5.6",
+      "id": "MAP-CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002-TO-ISO270012022-A-8-24",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-INTEREST-GROUP-CONTACTS-006",
+        "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.6",
-        "title": "Contact with Special Interest Groups"
+        "framework": "ISO27001",
+        "id": "A.8.24",
+        "title": "Use of cryptography"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Contact with Special Interest Groups.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "GEN transit encryption maps to ISO 27001 cryptography control"
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-ORG-NO-THREAT-INTELLIGENCE-007-TO-A.5.7",
+      "id": "MAP-CSE-GEN-CRYPTO-NO-KEY-MGMT-003-TO-ISO270012022-A-8-24",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-THREAT-INTELLIGENCE-007",
+        "id": "CSE-GEN-CRYPTO-NO-KEY-MGMT-003",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
+        "id": "A.8.24",
+        "title": "Use of cryptography"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN key mgmt signal maps to ISO 27001 cryptography control"
+      }
+    },
+    {
+      "id": "MAP-CSE-GEN-GOVERN-NO-RISK-ASSESSMENT-002-TO-ISO270012022-A-5-7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-GOVERN-NO-RISK-ASSESSMENT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
         "id": "A.5.7",
-        "title": "Threat Intelligence"
+        "title": "Threat intelligence"
       },
       "relationship": "equivalent",
-      "confidence": 0.95,
+      "confidence": 0.9,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Threat Intelligence.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "GEN risk assessment maps to ISO 27001 threat intelligence"
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-ORG-NO-PROJECT-SECURITY-008-TO-A.5.8",
+      "id": "MAP-CSE-GEN-GOVERN-NO-SECURITY-POLICY-001-TO-ISO270012022-A-5-1",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-PROJECT-SECURITY-008",
+        "id": "CSE-GEN-GOVERN-NO-SECURITY-POLICY-001",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.8",
-        "title": "Information Security in Project Management"
+        "framework": "ISO27001",
+        "id": "A.5.1",
+        "title": "Policies for information security"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Information Security in Project Management.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "GEN security policy maps to ISO 27001 policy control"
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-ORG-NO-ASSET-INVENTORY-009-TO-A.5.9",
+      "id": "MAP-CSE-GEN-GOVERN-NO-TRAINING-004-TO-ISO270012022-A-6-3",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-ASSET-INVENTORY-009",
+        "id": "CSE-GEN-GOVERN-NO-TRAINING-004",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.9",
-        "title": "Inventory of Information and Associated Assets"
+        "framework": "ISO27001",
+        "id": "A.6.3",
+        "title": "Information security awareness, education and training"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
+        "justification": "GEN training maps to ISO 27001 awareness control"
+      }
+    },
+    {
+      "id": "MAP-CSE-GEN-INCIDENT-NO-BACKUP-002-TO-ISO270012022-A-8-13",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-BACKUP-002",
+        "version": "1.0.0"
       },
-      "justification": "Signal directly addresses ISO 27001 control for Inventory of Information and Associated Assets.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.13",
+        "title": "Information backup"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN backup signal maps to ISO 27001 backup control"
+      }
+    },
+    {
+      "id": "MAP-CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001-TO-ISO270012022-A-5-26",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.26",
+        "title": "Response to information security incidents"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN incident response maps to ISO 27001 incident response"
+      }
+    },
+    {
+      "id": "MAP-CSE-GEN-VENDOR-NO-RISK-MGMT-001-TO-ISO270012022-A-5-19",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-VENDOR-NO-RISK-MGMT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.19",
+        "title": "Information security in supplier relationships"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN vendor risk maps to ISO 27001 supplier control"
+      }
+    },
+    {
+      "id": "MAP-CSE-GEN-VULN-NO-VULNERABILITY-MGMT-001-TO-ISO270012022-A-8-8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-GEN-VULN-NO-VULNERABILITY-MGMT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.8",
+        "title": "Management of technical vulnerabilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "GEN vuln mgmt maps to ISO 27001 tech vulnerability control"
       }
     },
     {
@@ -260,130 +294,15 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.5.10",
-        "title": "Acceptable Use of Information and Associated Assets"
+        "title": "Acceptable use of information and other associated assets"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Acceptable Use of Information and Associated Assets.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-ASSET-RETURN-PROCESS-011-TO-A.5.11",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-ASSET-RETURN-PROCESS-011",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.11",
-        "title": "Return of Assets"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Return of Assets.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-INFO-CLASSIFICATION-012-TO-A.5.12",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-INFO-CLASSIFICATION-012",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.12",
-        "title": "Classification of Information"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Classification of Information.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-INFO-LABELLING-013-TO-A.5.13",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-INFO-LABELLING-013",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.13",
-        "title": "Labelling of Information"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Labelling of Information.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-TRANSFER-CONTROLS-014-TO-A.5.14",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-TRANSFER-CONTROLS-014",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.14",
-        "title": "Information Transfer"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Information Transfer.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Acceptable Use of Information and Associated Assets."
       }
     },
     {
@@ -395,76 +314,15 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.5.15",
-        "title": "Access Control"
+        "title": "Access control"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Access Control.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-IDENTITY-MANAGEMENT-016-TO-A.5.16",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-IDENTITY-MANAGEMENT-016",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.16",
-        "title": "Identity Management"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Identity Management.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-AUTH-INFO-MANAGEMENT-017-TO-A.5.17",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-AUTH-INFO-MANAGEMENT-017",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.17",
-        "title": "Authentication Information"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Authentication Information.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Access Control."
       }
     },
     {
@@ -476,130 +334,95 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.5.18",
-        "title": "Access Rights"
+        "title": "Access rights"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Access Rights.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Access Rights."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-ORG-NO-SUPPLIER-SECURITY-019-TO-A.5.19",
+      "id": "MAP-CSE-ISO27001-ORG-NO-ASSET-INVENTORY-009-TO-A.5.9",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-SUPPLIER-SECURITY-019",
+        "id": "CSE-ISO27001-ORG-NO-ASSET-INVENTORY-009",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.19",
-        "title": "Information Security in Supplier Relationships"
+        "framework": "ISO27001",
+        "id": "A.5.9",
+        "title": "Inventory of information and other associated assets"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Information Security in Supplier Relationships.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Inventory of Information and Associated Assets."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-ORG-NO-SUPPLIER-AGREEMENTS-020-TO-A.5.20",
+      "id": "MAP-CSE-ISO27001-ORG-NO-ASSET-RETURN-PROCESS-011-TO-A.5.11",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-SUPPLIER-AGREEMENTS-020",
+        "id": "CSE-ISO27001-ORG-NO-ASSET-RETURN-PROCESS-011",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.20",
-        "title": "Addressing Information Security Within Supplier Agreements"
+        "framework": "ISO27001",
+        "id": "A.5.11",
+        "title": "Return of assets"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Addressing Information Security Within Supplier Agreements.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Return of Assets."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-ORG-NO-SUPPLY-CHAIN-SECURITY-021-TO-A.5.21",
+      "id": "MAP-CSE-ISO27001-ORG-NO-AUTH-INFO-MANAGEMENT-017-TO-A.5.17",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-SUPPLY-CHAIN-SECURITY-021",
+        "id": "CSE-ISO27001-ORG-NO-AUTH-INFO-MANAGEMENT-017",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.21",
-        "title": "Managing Information Security in the ICT Supply Chain"
+        "framework": "ISO27001",
+        "id": "A.5.17",
+        "title": "Authentication information"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Managing Information Security in the ICT Supply Chain.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Authentication Information."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-ORG-NO-SUPPLIER-MONITORING-022-TO-A.5.22",
+      "id": "MAP-CSE-ISO27001-ORG-NO-AUTHORITY-CONTACTS-005-TO-A.5.5",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-SUPPLIER-MONITORING-022",
+        "id": "CSE-ISO27001-ORG-NO-AUTHORITY-CONTACTS-005",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.22",
-        "title": "Monitoring Review and Change Management of Supplier Services"
+        "framework": "ISO27001",
+        "id": "A.5.5",
+        "title": "Contact with authorities"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Monitoring Review and Change Management of Supplier Services.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Contact with Authorities."
       }
     },
     {
@@ -611,346 +434,15 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.5.23",
-        "title": "Information Security for Use of Cloud Services"
+        "title": "Information security for use of cloud services"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Information Security for Use of Cloud Services.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-INCIDENT-PLANNING-024-TO-A.5.24",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-INCIDENT-PLANNING-024",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.24",
-        "title": "Information Security Incident Management Planning and Preparation"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Information Security Incident Management Planning and Preparation.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-EVENT-ASSESSMENT-025-TO-A.5.25",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-EVENT-ASSESSMENT-025",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.25",
-        "title": "Assessment and Decision on Information Security Events"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Assessment and Decision on Information Security Events.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-INCIDENT-RESPONSE-026-TO-A.5.26",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-INCIDENT-RESPONSE-026",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.26",
-        "title": "Response to Information Security Incidents"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Response to Information Security Incidents.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-INCIDENT-LEARNING-027-TO-A.5.27",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-INCIDENT-LEARNING-027",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.27",
-        "title": "Learning from Information Security Incidents"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Learning from Information Security Incidents.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-EVIDENCE-COLLECTION-028-TO-A.5.28",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-EVIDENCE-COLLECTION-028",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.28",
-        "title": "Collection of Evidence"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Collection of Evidence.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-DISRUPTION-SECURITY-029-TO-A.5.29",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-DISRUPTION-SECURITY-029",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.29",
-        "title": "Information Security During Disruption"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Information Security During Disruption.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-ICT-CONTINUITY-030-TO-A.5.30",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-ICT-CONTINUITY-030",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.30",
-        "title": "ICT Readiness for Business Continuity"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for ICT Readiness for Business Continuity.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-LEGAL-REQUIREMENTS-031-TO-A.5.31",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-LEGAL-REQUIREMENTS-031",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.31",
-        "title": "Legal Statutory Regulatory and Contractual Requirements"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Legal Statutory Regulatory and Contractual Requirements.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-IP-PROTECTION-032-TO-A.5.32",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-IP-PROTECTION-032",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.32",
-        "title": "Intellectual Property Rights"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Intellectual Property Rights.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-RECORDS-PROTECTION-033-TO-A.5.33",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-RECORDS-PROTECTION-033",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.33",
-        "title": "Protection of Records"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Protection of Records.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-PII-PROTECTION-034-TO-A.5.34",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-PII-PROTECTION-034",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.34",
-        "title": "Privacy and Protection of PII"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Privacy and Protection of PII.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-ORG-NO-INDEPENDENT-REVIEW-035-TO-A.5.35",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-ORG-NO-INDEPENDENT-REVIEW-035",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.5.35",
-        "title": "Independent Review of Information Security"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Independent Review of Information Security.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Information Security for Use of Cloud Services."
       }
     },
     {
@@ -962,22 +454,35 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.5.36",
-        "title": "Compliance with Policies Rules and Standards"
+        "title": "Compliance with policies, rules and standards for information security"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
+        "justification": "Signal directly addresses ISO 27001 control for Compliance with Policies Rules and Standards."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-DISRUPTION-SECURITY-029-TO-A.5.29",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-DISRUPTION-SECURITY-029",
+        "version": "1.0.0"
       },
-      "justification": "Signal directly addresses ISO 27001 control for Compliance with Policies Rules and Standards.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.29",
+        "title": "Information security during disruption"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Information Security During Disruption."
       }
     },
     {
@@ -989,103 +494,535 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.5.37",
-        "title": "Documented Operating Procedures"
+        "title": "Documented operating procedures"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Documented Operating Procedures.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Documented Operating Procedures."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-PEOPLE-NO-SCREENING-001-TO-A.6.1",
+      "id": "MAP-CSE-ISO27001-ORG-NO-DUTY-SEGREGATION-003-TO-A.5.3",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-PEOPLE-NO-SCREENING-001",
+        "id": "CSE-ISO27001-ORG-NO-DUTY-SEGREGATION-003",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.6.1",
-        "title": "Screening"
+        "framework": "ISO27001",
+        "id": "A.5.3",
+        "title": "Segregation of duties"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Screening.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Segregation of Duties."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-PEOPLE-NO-EMPLOYMENT-TERMS-002-TO-A.6.2",
+      "id": "MAP-CSE-ISO27001-ORG-NO-EVENT-ASSESSMENT-025-TO-A.5.25",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-PEOPLE-NO-EMPLOYMENT-TERMS-002",
+        "id": "CSE-ISO27001-ORG-NO-EVENT-ASSESSMENT-025",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.6.2",
-        "title": "Terms and Conditions of Employment"
+        "framework": "ISO27001",
+        "id": "A.5.25",
+        "title": "Assessment and decision on information security events"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Terms and Conditions of Employment.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Assessment and Decision on Information Security Events."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-PEOPLE-NO-SECURITY-TRAINING-003-TO-A.6.3",
+      "id": "MAP-CSE-ISO27001-ORG-NO-EVIDENCE-COLLECTION-028-TO-A.5.28",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-PEOPLE-NO-SECURITY-TRAINING-003",
+        "id": "CSE-ISO27001-ORG-NO-EVIDENCE-COLLECTION-028",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.6.3",
-        "title": "Information Security Awareness Education and Training"
+        "framework": "ISO27001",
+        "id": "A.5.28",
+        "title": "Collection of evidence"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
+        "justification": "Signal directly addresses ISO 27001 control for Collection of Evidence."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-ICT-CONTINUITY-030-TO-A.5.30",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-ICT-CONTINUITY-030",
+        "version": "1.0.0"
       },
-      "justification": "Signal directly addresses ISO 27001 control for Information Security Awareness Education and Training.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.30",
+        "title": "ICT readiness for business continuity"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for ICT Readiness for Business Continuity."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-IDENTITY-MANAGEMENT-016-TO-A.5.16",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-IDENTITY-MANAGEMENT-016",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.16",
+        "title": "Identity management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Identity Management."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-INCIDENT-LEARNING-027-TO-A.5.27",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-INCIDENT-LEARNING-027",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.27",
+        "title": "Learning from information security incidents"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Learning from Information Security Incidents."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-INCIDENT-PLANNING-024-TO-A.5.24",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-INCIDENT-PLANNING-024",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.24",
+        "title": "Information security incident management planning and preparation"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Information Security Incident Management Planning and Preparation."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-INCIDENT-RESPONSE-026-TO-A.5.26",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-INCIDENT-RESPONSE-026",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.26",
+        "title": "Response to information security incidents"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Response to Information Security Incidents."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-INDEPENDENT-REVIEW-035-TO-A.5.35",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-INDEPENDENT-REVIEW-035",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.35",
+        "title": "Independent review of information security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Independent Review of Information Security."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-INFO-CLASSIFICATION-012-TO-A.5.12",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-INFO-CLASSIFICATION-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.12",
+        "title": "Classification of information"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Classification of Information."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-INFO-LABELLING-013-TO-A.5.13",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-INFO-LABELLING-013",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.13",
+        "title": "Labelling of information"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Labelling of Information."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-INTEREST-GROUP-CONTACTS-006-TO-A.5.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-INTEREST-GROUP-CONTACTS-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.6",
+        "title": "Contact with special interest groups"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Contact with Special Interest Groups."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-IP-PROTECTION-032-TO-A.5.32",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-IP-PROTECTION-032",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.32",
+        "title": "Intellectual property rights"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Intellectual Property Rights."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-LEGAL-REQUIREMENTS-031-TO-A.5.31",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-LEGAL-REQUIREMENTS-031",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.31",
+        "title": "Legal, statutory, regulatory and contractual requirements"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Legal Statutory Regulatory and Contractual Requirements."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-MGMT-RESPONSIBILITIES-004-TO-A.5.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-MGMT-RESPONSIBILITIES-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.4",
+        "title": "Management responsibilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Management Responsibilities."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-PII-PROTECTION-034-TO-A.5.34",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-PII-PROTECTION-034",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.34",
+        "title": "Privacy and protection of PII"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Privacy and Protection of PII."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-PROJECT-SECURITY-008-TO-A.5.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-PROJECT-SECURITY-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.8",
+        "title": "Information security in project management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Information Security in Project Management."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-RECORDS-PROTECTION-033-TO-A.5.33",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-RECORDS-PROTECTION-033",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.33",
+        "title": "Protection of records"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Protection of Records."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-SECURITY-POLICIES-001-TO-A.5.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-SECURITY-POLICIES-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.1",
+        "title": "Policies for information security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Policies for Information Security."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-SECURITY-ROLES-002-TO-A.5.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-SECURITY-ROLES-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.2",
+        "title": "Information security roles and responsibilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Information Security Roles and Responsibilities."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-SUPPLIER-AGREEMENTS-020-TO-A.5.20",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-SUPPLIER-AGREEMENTS-020",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.20",
+        "title": "Addressing information security within supplier agreements"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Addressing Information Security Within Supplier Agreements."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-SUPPLIER-MONITORING-022-TO-A.5.22",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-SUPPLIER-MONITORING-022",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.22",
+        "title": "Monitoring, review and change management of supplier services"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Monitoring Review and Change Management of Supplier Services."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-SUPPLIER-SECURITY-019-TO-A.5.19",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-SUPPLIER-SECURITY-019",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.19",
+        "title": "Information security in supplier relationships"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Information Security in Supplier Relationships."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-SUPPLY-CHAIN-SECURITY-021-TO-A.5.21",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-SUPPLY-CHAIN-SECURITY-021",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.21",
+        "title": "Managing information security in the ICT supply chain"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Managing Information Security in the ICT Supply Chain."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-THREAT-INTELLIGENCE-007-TO-A.5.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-THREAT-INTELLIGENCE-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.7",
+        "title": "Threat intelligence"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Threat Intelligence."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-ORG-NO-TRANSFER-CONTROLS-014-TO-A.5.14",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-ORG-NO-TRANSFER-CONTROLS-014",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.14",
+        "title": "Information transfer"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Information Transfer."
       }
     },
     {
@@ -1097,103 +1034,35 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.6.4",
-        "title": "Disciplinary Process"
+        "title": "Disciplinary process"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Disciplinary Process.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Disciplinary Process."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-PEOPLE-NO-TERMINATION-PROCESS-005-TO-A.6.5",
+      "id": "MAP-CSE-ISO27001-PEOPLE-NO-EMPLOYMENT-TERMS-002-TO-A.6.2",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-PEOPLE-NO-TERMINATION-PROCESS-005",
+        "id": "CSE-ISO27001-PEOPLE-NO-EMPLOYMENT-TERMS-002",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.6.5",
-        "title": "Responsibilities After Termination or Change of Employment"
+        "framework": "ISO27001",
+        "id": "A.6.2",
+        "title": "Terms and conditions of employment"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Responsibilities After Termination or Change of Employment.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-PEOPLE-NO-NDA-AGREEMENTS-006-TO-A.6.6",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-PEOPLE-NO-NDA-AGREEMENTS-006",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.6.6",
-        "title": "Confidentiality or Non-Disclosure Agreements"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Confidentiality or Non-Disclosure Agreements.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-PEOPLE-NO-REMOTE-WORK-CONTROLS-007-TO-A.6.7",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-PEOPLE-NO-REMOTE-WORK-CONTROLS-007",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.6.7",
-        "title": "Remote Working"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Remote Working.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Terms and Conditions of Employment."
       }
     },
     {
@@ -1205,319 +1074,115 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.6.8",
-        "title": "Information Security Event Reporting"
+        "title": "Information security event reporting"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Information Security Event Reporting.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Information Security Event Reporting."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-SECURITY-PERIMETER-001-TO-A.7.1",
+      "id": "MAP-CSE-ISO27001-PEOPLE-NO-NDA-AGREEMENTS-006-TO-A.6.6",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-PHYSICAL-NO-SECURITY-PERIMETER-001",
+        "id": "CSE-ISO27001-PEOPLE-NO-NDA-AGREEMENTS-006",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.7.1",
-        "title": "Physical Security Perimeters"
+        "framework": "ISO27001",
+        "id": "A.6.6",
+        "title": "Confidentiality or non-disclosure agreements"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Physical Security Perimeters.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Confidentiality or Non-Disclosure Agreements."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-ENTRY-CONTROLS-002-TO-A.7.2",
+      "id": "MAP-CSE-ISO27001-PEOPLE-NO-REMOTE-WORK-CONTROLS-007-TO-A.6.7",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-PHYSICAL-NO-ENTRY-CONTROLS-002",
+        "id": "CSE-ISO27001-PEOPLE-NO-REMOTE-WORK-CONTROLS-007",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.7.2",
-        "title": "Physical Entry"
+        "framework": "ISO27001",
+        "id": "A.6.7",
+        "title": "Remote working"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Physical Entry.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Remote Working."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-FACILITY-SECURITY-003-TO-A.7.3",
+      "id": "MAP-CSE-ISO27001-PEOPLE-NO-SCREENING-001-TO-A.6.1",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-PHYSICAL-NO-FACILITY-SECURITY-003",
+        "id": "CSE-ISO27001-PEOPLE-NO-SCREENING-001",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.7.3",
-        "title": "Securing Offices Rooms and Facilities"
+        "framework": "ISO27001",
+        "id": "A.6.1",
+        "title": "Screening"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Securing Offices Rooms and Facilities.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Screening."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-SECURITY-MONITORING-004-TO-A.7.4",
+      "id": "MAP-CSE-ISO27001-PEOPLE-NO-SECURITY-TRAINING-003-TO-A.6.3",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-PHYSICAL-NO-SECURITY-MONITORING-004",
+        "id": "CSE-ISO27001-PEOPLE-NO-SECURITY-TRAINING-003",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.7.4",
-        "title": "Physical Security Monitoring"
+        "framework": "ISO27001",
+        "id": "A.6.3",
+        "title": "Information security awareness, education and training"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Physical Security Monitoring.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Information Security Awareness Education and Training."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-THREAT-PROTECTION-005-TO-A.7.5",
+      "id": "MAP-CSE-ISO27001-PEOPLE-NO-TERMINATION-PROCESS-005-TO-A.6.5",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-PHYSICAL-NO-THREAT-PROTECTION-005",
+        "id": "CSE-ISO27001-PEOPLE-NO-TERMINATION-PROCESS-005",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.7.5",
-        "title": "Protection Against Physical and Environmental Threats"
+        "framework": "ISO27001",
+        "id": "A.6.5",
+        "title": "Responsibilities after termination or change of employment"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Protection Against Physical and Environmental Threats.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-SECURE-AREA-RULES-006-TO-A.7.6",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-PHYSICAL-NO-SECURE-AREA-RULES-006",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.7.6",
-        "title": "Working in Secure Areas"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Working in Secure Areas.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-CLEAR-DESK-POLICY-007-TO-A.7.7",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-PHYSICAL-NO-CLEAR-DESK-POLICY-007",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.7.7",
-        "title": "Clear Desk and Clear Screen"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Clear Desk and Clear Screen.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-EQUIPMENT-PROTECTION-008-TO-A.7.8",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-PHYSICAL-NO-EQUIPMENT-PROTECTION-008",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.7.8",
-        "title": "Equipment Siting and Protection"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Equipment Siting and Protection.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-OFFSITE-SECURITY-009-TO-A.7.9",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-PHYSICAL-NO-OFFSITE-SECURITY-009",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.7.9",
-        "title": "Security of Assets Off-site"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Security of Assets Off-site.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-MEDIA-CONTROLS-010-TO-A.7.10",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-PHYSICAL-NO-MEDIA-CONTROLS-010",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.7.10",
-        "title": "Storage Media"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Storage Media.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-UTILITY-PROTECTION-011-TO-A.7.11",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-PHYSICAL-NO-UTILITY-PROTECTION-011",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.7.11",
-        "title": "Supporting Utilities"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Supporting Utilities.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Responsibilities After Termination or Change of Employment."
       }
     },
     {
@@ -1529,22 +1194,55 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.7.12",
-        "title": "Cabling Security"
+        "title": "Cabling security"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
+        "justification": "Signal directly addresses ISO 27001 control for Cabling Security."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-CLEAR-DESK-POLICY-007-TO-A.7.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-PHYSICAL-NO-CLEAR-DESK-POLICY-007",
+        "version": "1.0.0"
       },
-      "justification": "Signal directly addresses ISO 27001 control for Cabling Security.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.7.7",
+        "title": "Clear desk and clear screen"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Clear Desk and Clear Screen."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-ENTRY-CONTROLS-002-TO-A.7.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-PHYSICAL-NO-ENTRY-CONTROLS-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.7.2",
+        "title": "Physical entry"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Physical Entry."
       }
     },
     {
@@ -1556,22 +1254,115 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.7.13",
-        "title": "Equipment Maintenance"
+        "title": "Equipment maintenance"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
+        "justification": "Signal directly addresses ISO 27001 control for Equipment Maintenance."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-EQUIPMENT-PROTECTION-008-TO-A.7.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-PHYSICAL-NO-EQUIPMENT-PROTECTION-008",
+        "version": "1.0.0"
       },
-      "justification": "Signal directly addresses ISO 27001 control for Equipment Maintenance.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.7.8",
+        "title": "Equipment siting and protection"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Equipment Siting and Protection."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-FACILITY-SECURITY-003-TO-A.7.3",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-PHYSICAL-NO-FACILITY-SECURITY-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.7.3",
+        "title": "Securing offices, rooms and facilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Securing Offices Rooms and Facilities."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-MEDIA-CONTROLS-010-TO-A.7.10",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-PHYSICAL-NO-MEDIA-CONTROLS-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.7.10",
+        "title": "Storage media"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Storage Media."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-OFFSITE-SECURITY-009-TO-A.7.9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-PHYSICAL-NO-OFFSITE-SECURITY-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.7.9",
+        "title": "Security of assets off-premises"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Security of Assets Off-site."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-SECURE-AREA-RULES-006-TO-A.7.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-PHYSICAL-NO-SECURE-AREA-RULES-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.7.6",
+        "title": "Working in secure areas"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Working in Secure Areas."
       }
     },
     {
@@ -1583,76 +1374,95 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.7.14",
-        "title": "Secure Disposal or Re-use of Equipment"
+        "title": "Secure disposal or re-use of equipment"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Secure Disposal or Re-use of Equipment.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Secure Disposal or Re-use of Equipment."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-TECH-NO-ENDPOINT-SECURITY-001-TO-A.8.1",
+      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-SECURITY-MONITORING-004-TO-A.7.4",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-ENDPOINT-SECURITY-001",
+        "id": "CSE-ISO27001-PHYSICAL-NO-SECURITY-MONITORING-004",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.1",
-        "title": "User Endpoint Devices"
+        "framework": "ISO27001",
+        "id": "A.7.4",
+        "title": "Physical security monitoring"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for User Endpoint Devices.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Physical Security Monitoring."
       }
     },
     {
-      "id": "MAP-CSE-ISO27001-TECH-NO-PRIVILEGED-ACCESS-MGMT-002-TO-A.8.2",
+      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-SECURITY-PERIMETER-001-TO-A.7.1",
       "source": {
         "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-PRIVILEGED-ACCESS-MGMT-002",
+        "id": "CSE-ISO27001-PHYSICAL-NO-SECURITY-PERIMETER-001",
         "version": "1.0.0"
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.2",
-        "title": "Privileged Access Rights"
+        "framework": "ISO27001",
+        "id": "A.7.1",
+        "title": "Physical security perimeters"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
+        "justification": "Signal directly addresses ISO 27001 control for Physical Security Perimeters."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-THREAT-PROTECTION-005-TO-A.7.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-PHYSICAL-NO-THREAT-PROTECTION-005",
+        "version": "1.0.0"
       },
-      "justification": "Signal directly addresses ISO 27001 control for Privileged Access Rights.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.7.5",
+        "title": "Protecting against physical and environmental threats"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Protection Against Physical and Environmental Threats."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-PHYSICAL-NO-UTILITY-PROTECTION-011-TO-A.7.11",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-PHYSICAL-NO-UTILITY-PROTECTION-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.7.11",
+        "title": "Supporting utilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Supporting Utilities."
       }
     },
     {
@@ -1664,616 +1474,15 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.8.3",
-        "title": "Information Access Restriction"
+        "title": "Information access restriction"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Information Access Restriction.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-SOURCE-CODE-ACCESS-004-TO-A.8.4",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-SOURCE-CODE-ACCESS-004",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.4",
-        "title": "Access to Source Code"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Access to Source Code.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-SECURE-AUTH-005-TO-A.8.5",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-SECURE-AUTH-005",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.5",
-        "title": "Secure Authentication"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Secure Authentication.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-CAPACITY-MGMT-006-TO-A.8.6",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-CAPACITY-MGMT-006",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.6",
-        "title": "Capacity Management"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Capacity Management.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-MALWARE-PROTECTION-007-TO-A.8.7",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-MALWARE-PROTECTION-007",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.7",
-        "title": "Protection Against Malware"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Protection Against Malware.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-VULN-MANAGEMENT-008-TO-A.8.8",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-VULN-MANAGEMENT-008",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.8",
-        "title": "Management of Technical Vulnerabilities"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Management of Technical Vulnerabilities.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-CONFIG-MANAGEMENT-009-TO-A.8.9",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-CONFIG-MANAGEMENT-009",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.9",
-        "title": "Configuration Management"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Configuration Management.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-INFO-DELETION-010-TO-A.8.10",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-INFO-DELETION-010",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.10",
-        "title": "Information Deletion"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Information Deletion.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-DATA-MASKING-011-TO-A.8.11",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-DATA-MASKING-011",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.11",
-        "title": "Data Masking"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Data Masking.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-DLP-012-TO-A.8.12",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-DLP-012",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.12",
-        "title": "Data Leakage Prevention"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Data Leakage Prevention.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-BACKUP-013-TO-A.8.13",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-BACKUP-013",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.13",
-        "title": "Information Backup"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Information Backup.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-REDUNDANCY-014-TO-A.8.14",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-REDUNDANCY-014",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.14",
-        "title": "Redundancy of Information Processing Facilities"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Redundancy of Information Processing Facilities.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-LOGGING-015-TO-A.8.15",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-LOGGING-015",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.15",
-        "title": "Logging"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Logging.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-MONITORING-016-TO-A.8.16",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-MONITORING-016",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.16",
-        "title": "Monitoring Activities"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Monitoring Activities.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-CLOCK-SYNC-017-TO-A.8.17",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-CLOCK-SYNC-017",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.17",
-        "title": "Clock Synchronization"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Clock Synchronization.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-UTILITY-CONTROLS-018-TO-A.8.18",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-UTILITY-CONTROLS-018",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.18",
-        "title": "Use of Privileged Utility Programs"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Use of Privileged Utility Programs.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-SOFTWARE-INSTALL-CONTROLS-019-TO-A.8.19",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-SOFTWARE-INSTALL-CONTROLS-019",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.19",
-        "title": "Installation of Software on Operational Systems"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Installation of Software on Operational Systems.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-NETWORK-SECURITY-020-TO-A.8.20",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-NETWORK-SECURITY-020",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.20",
-        "title": "Networks Security"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Networks Security.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-NETWORK-SERVICE-SECURITY-021-TO-A.8.21",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-NETWORK-SERVICE-SECURITY-021",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.21",
-        "title": "Security of Network Services"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Security of Network Services.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-NETWORK-SEGREGATION-022-TO-A.8.22",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-NETWORK-SEGREGATION-022",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.22",
-        "title": "Segregation of Networks"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Segregation of Networks.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-WEB-FILTERING-023-TO-A.8.23",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-WEB-FILTERING-023",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.23",
-        "title": "Web Filtering"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Web Filtering.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-CRYPTOGRAPHY-024-TO-A.8.24",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-CRYPTOGRAPHY-024",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.24",
-        "title": "Use of Cryptography"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Use of Cryptography.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-SDLC-025-TO-A.8.25",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-SDLC-025",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.25",
-        "title": "Secure Development Life Cycle"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Secure Development Life Cycle.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Information Access Restriction."
       }
     },
     {
@@ -2285,211 +1494,15 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.8.26",
-        "title": "Application Security Requirements"
+        "title": "Application security requirements"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Application Security Requirements.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-SECURE-ARCHITECTURE-027-TO-A.8.27",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-SECURE-ARCHITECTURE-027",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.27",
-        "title": "Secure System Architecture and Engineering Principles"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Secure System Architecture and Engineering Principles.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-SECURE-CODING-028-TO-A.8.28",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-SECURE-CODING-028",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.28",
-        "title": "Secure Coding"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Secure Coding.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-SECURITY-TESTING-029-TO-A.8.29",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-SECURITY-TESTING-029",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.29",
-        "title": "Security Testing in Development and Acceptance"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Security Testing in Development and Acceptance.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-OUTSOURCED-DEV-CONTROLS-030-TO-A.8.30",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-OUTSOURCED-DEV-CONTROLS-030",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.30",
-        "title": "Outsourced Development"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Outsourced Development.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-ENV-SEPARATION-031-TO-A.8.31",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-ENV-SEPARATION-031",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.31",
-        "title": "Separation of Development Test and Production Environments"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Separation of Development Test and Production Environments.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-CHANGE-MANAGEMENT-032-TO-A.8.32",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-CHANGE-MANAGEMENT-032",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.32",
-        "title": "Change Management"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Change Management.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
-      }
-    },
-    {
-      "id": "MAP-CSE-ISO27001-TECH-NO-TEST-DATA-CONTROLS-033-TO-A.8.33",
-      "source": {
-        "type": "cse-signal",
-        "id": "CSE-ISO27001-TECH-NO-TEST-DATA-CONTROLS-033",
-        "version": "1.0.0"
-      },
-      "target": {
-        "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
-        "id": "A.8.33",
-        "title": "Test Information"
-      },
-      "relationship": "equivalent",
-      "confidence": 0.95,
-      "provenance": {
-        "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
-      },
-      "justification": "Signal directly addresses ISO 27001 control for Test Information.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+        "justification": "Signal directly addresses ISO 27001 control for Application Security Requirements."
       }
     },
     {
@@ -2501,22 +1514,1615 @@
       },
       "target": {
         "type": "control",
-        "framework": "ISO27001-2022",
-        "version": "2022",
+        "framework": "ISO27001",
         "id": "A.8.34",
-        "title": "Protection of Information Systems During Audit Testing"
+        "title": "Protection of information systems during audit testing"
       },
       "relationship": "equivalent",
       "confidence": 0.95,
       "provenance": {
         "source": "expert",
-        "authority": "CSE Registry Maintainers",
-        "reviewed_date": "2025-12-28"
+        "justification": "Signal directly addresses ISO 27001 control for Protection of Information Systems During Audit Testing."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-BACKUP-013-TO-A.8.13",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-BACKUP-013",
+        "version": "1.0.0"
       },
-      "justification": "Signal directly addresses ISO 27001 control for Protection of Information Systems During Audit Testing.",
-      "metadata": {
-        "created": "2025-12-28T00:00:00Z",
-        "status": "active"
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.13",
+        "title": "Information backup"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Information Backup."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-CAPACITY-MGMT-006-TO-A.8.6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-CAPACITY-MGMT-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.6",
+        "title": "Capacity management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Capacity Management."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-CHANGE-MANAGEMENT-032-TO-A.8.32",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-CHANGE-MANAGEMENT-032",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.32",
+        "title": "Change management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Change Management."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-CLOCK-SYNC-017-TO-A.8.17",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-CLOCK-SYNC-017",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.17",
+        "title": "Clock synchronization"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Clock Synchronization."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-CONFIG-MANAGEMENT-009-TO-A.8.9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-CONFIG-MANAGEMENT-009",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.9",
+        "title": "Configuration management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Configuration Management."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-CRYPTOGRAPHY-024-TO-A.8.24",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-CRYPTOGRAPHY-024",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.24",
+        "title": "Use of cryptography"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Use of Cryptography."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-DATA-MASKING-011-TO-A.8.11",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-DATA-MASKING-011",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.11",
+        "title": "Data masking"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Data Masking."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-DLP-012-TO-A.8.12",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-DLP-012",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.12",
+        "title": "Data leakage prevention"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Data Leakage Prevention."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-ENDPOINT-SECURITY-001-TO-A.8.1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-ENDPOINT-SECURITY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.1",
+        "title": "User endpoint devices"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for User Endpoint Devices."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-ENV-SEPARATION-031-TO-A.8.31",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-ENV-SEPARATION-031",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.31",
+        "title": "Separation of development, test and production environments"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Separation of Development Test and Production Environments."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-INFO-DELETION-010-TO-A.8.10",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-INFO-DELETION-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.10",
+        "title": "Information deletion"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Information Deletion."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-LOGGING-015-TO-A.8.15",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-LOGGING-015",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.15",
+        "title": "Logging"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Logging."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-MALWARE-PROTECTION-007-TO-A.8.7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-MALWARE-PROTECTION-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.7",
+        "title": "Protection against malware"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Protection Against Malware."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-MONITORING-016-TO-A.8.16",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-MONITORING-016",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.16",
+        "title": "Monitoring activities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Monitoring Activities."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-NETWORK-SECURITY-020-TO-A.8.20",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-NETWORK-SECURITY-020",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.20",
+        "title": "Networks security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Networks Security."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-NETWORK-SEGREGATION-022-TO-A.8.22",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-NETWORK-SEGREGATION-022",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.22",
+        "title": "Segregation of networks"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Segregation of Networks."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-NETWORK-SERVICE-SECURITY-021-TO-A.8.21",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-NETWORK-SERVICE-SECURITY-021",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.21",
+        "title": "Security of network services"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Security of Network Services."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-OUTSOURCED-DEV-CONTROLS-030-TO-A.8.30",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-OUTSOURCED-DEV-CONTROLS-030",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.30",
+        "title": "Outsourced development"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Outsourced Development."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-PRIVILEGED-ACCESS-MGMT-002-TO-A.8.2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-PRIVILEGED-ACCESS-MGMT-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.2",
+        "title": "Privileged access rights"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Privileged Access Rights."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-REDUNDANCY-014-TO-A.8.14",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-REDUNDANCY-014",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.14",
+        "title": "Redundancy of information processing facilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Redundancy of Information Processing Facilities."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-SDLC-025-TO-A.8.25",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-SDLC-025",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.25",
+        "title": "Secure development life cycle"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Secure Development Life Cycle."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-SECURE-ARCHITECTURE-027-TO-A.8.27",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-SECURE-ARCHITECTURE-027",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.27",
+        "title": "Secure system architecture and engineering principles"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Secure System Architecture and Engineering Principles."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-SECURE-AUTH-005-TO-A.8.5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-SECURE-AUTH-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.5",
+        "title": "Secure authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Secure Authentication."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-SECURE-CODING-028-TO-A.8.28",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-SECURE-CODING-028",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.28",
+        "title": "Secure coding"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Secure Coding."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-SECURITY-TESTING-029-TO-A.8.29",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-SECURITY-TESTING-029",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.29",
+        "title": "Security testing in development and acceptance"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Security Testing in Development and Acceptance."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-SOFTWARE-INSTALL-CONTROLS-019-TO-A.8.19",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-SOFTWARE-INSTALL-CONTROLS-019",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.19",
+        "title": "Installation of software on operational systems"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Installation of Software on Operational Systems."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-SOURCE-CODE-ACCESS-004-TO-A.8.4",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-SOURCE-CODE-ACCESS-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.4",
+        "title": "Access to source code"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Access to Source Code."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-TEST-DATA-CONTROLS-033-TO-A.8.33",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-TEST-DATA-CONTROLS-033",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.33",
+        "title": "Test information"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Test Information."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-UTILITY-CONTROLS-018-TO-A.8.18",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-UTILITY-CONTROLS-018",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.18",
+        "title": "Use of privileged utility programs"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Use of Privileged Utility Programs."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-VULN-MANAGEMENT-008-TO-A.8.8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-VULN-MANAGEMENT-008",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.8",
+        "title": "Management of technical vulnerabilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Management of Technical Vulnerabilities."
+      }
+    },
+    {
+      "id": "MAP-CSE-ISO27001-TECH-NO-WEB-FILTERING-023-TO-A.8.23",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-ISO27001-TECH-NO-WEB-FILTERING-023",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.23",
+        "title": "Web filtering"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Signal directly addresses ISO 27001 control for Web Filtering."
+      }
+    },
+    {
+      "id": "XFW-CMMC20-AC-L2-3-1-1-TO-ISO270012022-A-5-15",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-AUTHORIZED-ACCESS-CONTROL-020",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.15",
+        "title": "Access control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both controls require authorized access control mechanisms"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-AC-L2-3-1-2-TO-ISO270012022-A-5-18",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-LEAST-PRIVILEGE-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.18",
+        "title": "Access rights"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both address least privilege and function restrictions"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-AC-L2-3-1-5-TO-ISO270012022-A-5-18",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-ACCESS-NO-LEAST-PRIVILEGE-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.18",
+        "title": "Access rights"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Direct mapping for least privilege requirement"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-AU-L2-3-3-1-TO-ISO270012022-A-8-15",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AUDIT-NO-LOGGING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.15",
+        "title": "Logging"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require audit logging capabilities"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-AU-L2-3-3-2-TO-ISO270012022-A-8-15",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-AUDIT-NO-LOGGING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.15",
+        "title": "Logging"
+      },
+      "relationship": "subset",
+      "confidence": 0.85,
+      "provenance": {
+        "source": "expert",
+        "justification": "CMMC specifies content; ISO is broader"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-CM-L2-3-4-1-TO-ISO270012022-A-8-9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-CONFIG-NO-BASELINE-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.9",
+        "title": "Configuration management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require configuration baselines"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-CM-L2-3-4-2-TO-ISO270012022-A-8-9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-CONFIG-NO-BASELINE-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.9",
+        "title": "Configuration management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both address security configuration enforcement"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-IA-L2-3-5-1-TO-ISO270012022-A-8-2",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-NO-UNIQUE-ID-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.2",
+        "title": "Privileged access rights"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require unique user identification"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-IA-L2-3-5-3-TO-ISO270012022-A-8-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-IDENTITY-NO-MFA-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.5",
+        "title": "Secure authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require strong authentication"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-IR-L2-3-6-1-TO-ISO270012022-A-5-26",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INCIDENT-NO-PLAN-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.26",
+        "title": "Response to information security incidents"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require incident response capability"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-IR-L2-3-6-2-TO-ISO270012022-A-5-26",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INCIDENT-NO-REPORTING-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.26",
+        "title": "Response to information security incidents"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both address incident reporting"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-RA-L2-3-11-1-TO-ISO270012022-A-5-7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-RISK-NO-ASSESSMENT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.7",
+        "title": "Threat intelligence"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require risk assessment processes"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-RA-L2-3-11-2-TO-ISO270012022-A-8-8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-RISK-NO-VULN-SCAN-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.8",
+        "title": "Management of technical vulnerabilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both address vulnerability management"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SC-L2-3-13-1-TO-ISO270012022-A-8-20",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-BOUNDARY-PROTECTION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.20",
+        "title": "Networks security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require network boundary protection"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SC-L2-3-13-16-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-ENCRYPTION-REST-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.24",
+        "title": "Use of cryptography"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require encryption at rest"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SC-L2-3-13-8-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-COMMS-NO-ENCRYPTION-TRANSIT-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.24",
+        "title": "Use of cryptography"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require encryption in transit"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SI-L2-3-14-1-TO-ISO270012022-A-8-8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INTEGRITY-NO-PATCHING-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.8",
+        "title": "Management of technical vulnerabilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require timely patching"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SI-L2-3-14-2-TO-ISO270012022-A-8-7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INTEGRITY-NO-MALWARE-PROTECTION-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.7",
+        "title": "Protection against malware"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require malware protection"
+      }
+    },
+    {
+      "id": "XFW-CMMC20-SI-L2-3-14-4-TO-ISO270012022-A-8-7",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-CMMC-INTEGRITY-NO-MALWARE-PROTECTION-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.7",
+        "title": "Protection against malware"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both address malware protection updates"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-1-1-TO-ISO270012022-A-8-20",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-NET-NO-NSC-PROCESS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.20",
+        "title": "Networks security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require network security controls"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-1-2-TO-ISO270012022-A-8-20",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-NET-NO-NSC-CONFIG-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.20",
+        "title": "Networks security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require network security configuration"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-10-2-TO-ISO270012022-A-8-15",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-LOG-NO-AUDIT-LOGS-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.15",
+        "title": "Logging"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require audit logging"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-10-3-TO-ISO270012022-A-8-15",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-LOG-NO-LOG-PROTECTION-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.15",
+        "title": "Logging"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require log protection"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-12-1-TO-ISO270012022-A-5-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-POLICY-NO-SECURITY-POLICY-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.1",
+        "title": "Policies for information security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require security policies"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-12-10-TO-ISO270012022-A-5-26",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-POLICY-NO-INCIDENT-RESPONSE-010",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.26",
+        "title": "Response to information security incidents"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require incident response"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-2-1-TO-ISO270012022-A-8-9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-CONFIG-NO-SECURE-CONFIG-PROCESS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.9",
+        "title": "Configuration management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require configuration management"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-2-2-TO-ISO270012022-A-8-9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-CONFIG-NO-SECURE-SYSTEM-CONFIG-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.9",
+        "title": "Configuration management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require secure configurations"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-3-5-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-STORE-NO-PAN-PROTECTION-005",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.24",
+        "title": "Use of cryptography"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require data encryption"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-3-6-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-STORE-NO-KEY-SECURITY-006",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.24",
+        "title": "Use of cryptography"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require key protection"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-3-7-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-STORE-NO-KEY-MGMT-PROCESS-007",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.24",
+        "title": "Use of cryptography"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require key management"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-4-2-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-TRANSIT-NO-PAN-ENCRYPTION-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.24",
+        "title": "Use of cryptography"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require encryption in transit"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-6-1-TO-ISO270012022-A-8-25",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-SECDEV-NO-SECURE-DEV-PROCESS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.25",
+        "title": "Secure development life cycle"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require secure development"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-6-3-TO-ISO270012022-A-8-8",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-SECDEV-NO-VULN-MGMT-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.8",
+        "title": "Management of technical vulnerabilities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require vulnerability management"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-7-1-TO-ISO270012022-A-5-15",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-ACCESS-NO-ACCESS-PROCESS-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.15",
+        "title": "Access control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require access control"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-7-2-TO-ISO270012022-A-5-18",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-ACCESS-NO-RBAC-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.18",
+        "title": "Access rights"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require access rights management"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-8-3-TO-ISO270012022-A-8-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-AUTH-NO-STRONG-AUTH-003",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.5",
+        "title": "Secure authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require strong authentication"
+      }
+    },
+    {
+      "id": "XFW-PCIDSS40-8-4-TO-ISO270012022-A-8-5",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-PCIDSS-AUTH-NO-MFA-004",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.5",
+        "title": "Secure authentication"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require multi-factor authentication"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-A1-1-TO-ISO270012022-A-8-6",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-AVAIL-NO-CAPACITY-PLANNING-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.6",
+        "title": "Capacity management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both address availability"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-A1-2-TO-ISO270012022-A-8-13",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.13",
+        "title": "Information backup"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require recovery capability"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC1-1-TO-ISO270012022-A-5-1",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-GOVERNANCE-001",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.1",
+        "title": "Policies for information security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both address governance and policies"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC6-1-TO-ISO270012022-A-5-15",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.15",
+        "title": "Access control"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require access control mechanisms"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC6-2-TO-ISO270012022-A-5-16",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-USER-REGISTRATION-019",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.16",
+        "title": "Identity management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require user management"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC6-3-TO-ISO270012022-A-5-18",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-USER-REMOVAL-020",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.18",
+        "title": "Access rights"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require access revocation"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC6-6-TO-ISO270012022-A-8-20",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-BOUNDARY-PROTECTION-023",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.20",
+        "title": "Networks security"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require network protection"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC6-7-TO-ISO270012022-A-8-24",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-TRANSMISSION-PROTECTION-024",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.24",
+        "title": "Use of cryptography"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require transmission encryption"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC7-2-TO-ISO270012022-A-8-16",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-ANOMALY-DETECTION-027",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.16",
+        "title": "Monitoring activities"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require monitoring"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC7-3-TO-ISO270012022-A-5-26",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.26",
+        "title": "Response to information security incidents"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require incident response"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC7-4-TO-ISO270012022-A-5-26",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-INCIDENT-RESOLUTION-030",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.5.26",
+        "title": "Response to information security incidents"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.9,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both address incident resolution"
+      }
+    },
+    {
+      "id": "XFW-SOC22017-CC8-1-TO-ISO270012022-A-8-9",
+      "source": {
+        "type": "cse-signal",
+        "id": "CSE-SOC2-CC-NO-CHANGE-MANAGEMENT-031",
+        "version": "1.0.0"
+      },
+      "target": {
+        "type": "control",
+        "framework": "ISO27001",
+        "id": "A.8.9",
+        "title": "Configuration management"
+      },
+      "relationship": "equivalent",
+      "confidence": 0.95,
+      "provenance": {
+        "source": "expert",
+        "justification": "Both require change management"
       }
     }
   ]

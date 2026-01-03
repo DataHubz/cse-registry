@@ -1,0 +1,10 @@
+{
+  "id": "cmjrpgdku000b9irrwvohkn95",
+  "code": "SOC2",
+  "name": "SOC 2",
+  "version": "2017",
+  "description": "SOC 2 Trust Services Criteria",
+  "url": "https://www.aicpa-cima.com/resources/article/soc-2-trust-services-criteria",
+  "control_count": 64,
+  "mapping_count": 66
+}

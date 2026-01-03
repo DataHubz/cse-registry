@@ -17,7 +17,35 @@
     "related_controls": [
       "03.c - Risk Monitoring and Review"
     ],
-    "detection_notes": "Detection of this signal typically involves: Review of risk monitoring procedures and processes Examination of key risk indicators (KRIs) and metrics tracking Verification of control effectiveness measurement activities Analysis of threat intelligence integration into risk monitoring Assessment of risk register updates and change tracking Validation of automated monitoring tools and dashboards The presence of this signal indicates that the organization may be unaware of changing risk conditions, control failures, or emerging threats, potentially leading to undetected security incidents and inadequate risk responses."
+    "detection_notes": "Detection of this signal typically involves: Review of risk monitoring procedures and processes Examination of key risk indicators (KRIs) and metrics tracking Verification of control effectiveness measurement activities Analysis of threat intelligence integration into risk monitoring Assessment of risk register updates and change tracking Validation of automated monitoring tools and dashboards The presence of this signal indicates that the organization may be unaware of changing risk conditions, control failures, or emerging threats, potentially leading to undetected security incidents and inadequate risk responses.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 03 - Risk Management",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "ID.RA",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-MONITORING-005/"
 }

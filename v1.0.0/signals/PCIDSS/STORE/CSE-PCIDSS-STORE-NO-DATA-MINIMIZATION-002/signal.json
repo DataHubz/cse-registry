@@ -17,7 +17,27 @@
     "related_controls": [
       "3.2 Account data storage is kept to a minimum"
     ],
-    "detection_notes": "Detection guidance: Audit data storage repositories to identify cardholder data that exceeds business justification. Review data retention policies and verify implementation. Check for excessive storage duration, unnecessary data fields, or redundant copies of cardholder data. Examine database schemas and storage systems for compliance with data minimization principles."
+    "detection_notes": "Detection guidance: Audit data storage repositories to identify cardholder data that exceeds business justification. Review data retention policies and verify implementation. Check for excessive storage duration, unnecessary data fields, or redundant copies of cardholder data. Examine database schemas and storage systems for compliance with data minimization principles.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-DATA-MINIMIZATION-002/"
 }

@@ -1,0 +1,10 @@
+{
+  "id": "cmjrpgdkt000a9irrxbzsjek1",
+  "code": "PCIDSS",
+  "name": "PCI DSS",
+  "version": "4.0",
+  "description": "Payment Card Industry Data Security Standard",
+  "url": "https://www.pcisecuritystandards.org/document_library/",
+  "control_count": 63,
+  "mapping_count": 77
+}

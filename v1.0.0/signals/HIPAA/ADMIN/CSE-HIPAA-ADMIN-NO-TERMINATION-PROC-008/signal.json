@@ -17,7 +17,29 @@
     "related_controls": [
       "45 CFR 164.308(a)(3)(ii)(C)"
     ],
-    "detection_notes": "Detection of this signal typically involves: Review of workforce termination procedures and checklists Examination of access revocation workflows and timelines Analysis of integration between HR systems and access management Verification of termination procedure execution records Assessment of access removal timeframes and completeness The presence of this signal indicates that former workforce members may retain inappropriate access to ePHI."
+    "detection_notes": "Detection of this signal typically involves: Review of workforce termination procedures and checklists Examination of access revocation workflows and timelines Analysis of integration between HR systems and access management Verification of termination procedure execution records Assessment of access removal timeframes and completeness The presence of this signal indicates that former workforce members may retain inappropriate access to ePHI.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+        "section": "164.308(a)(3)(ii)(C)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+        "type": "guidance",
+        "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+        "section": "4",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+        "type": "guidance",
+        "title": "HHS Security Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-TERMINATION-PROC-008/"
 }

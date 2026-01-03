@@ -17,7 +17,22 @@
     "related_controls": [
       "45 CFR 164.408"
     ],
-    "detection_notes": "Detection guidance: Verify that HHS notification procedures are documented in incident response plans Check for records of HHS breach portal submissions for breaches affecting 500+ individuals Ensure contemporaneous notification to HHS when individual notifications are sent for large breaches Review annual breach log submissions to HHS for breaches affecting fewer than 500 individuals Monitor that annual HHS notifications occur within 60 days after calendar year end Audit the use of HHS-specified notification methods and portal access Validate that both large (immediate) and small (annual) breach notifications are properly tracked"
+    "detection_notes": "Detection guidance: Verify that HHS notification procedures are documented in incident response plans Check for records of HHS breach portal submissions for breaches affecting 500+ individuals Ensure contemporaneous notification to HHS when individual notifications are sent for large breaches Review annual breach log submissions to HHS for breaches affecting fewer than 500 individuals Monitor that annual HHS notifications occur within 60 days after calendar year end Audit the use of HHS-specified notification methods and portal access Validate that both large (immediate) and small (annual) breach notifications are properly tracked",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart D - Breach Notification Rule",
+        "section": "164.400",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html",
+        "type": "guidance",
+        "title": "HHS Breach Notification Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-HHS-NOTIFY-005/"
 }

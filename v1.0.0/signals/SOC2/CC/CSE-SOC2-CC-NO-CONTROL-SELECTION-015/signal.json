@@ -18,7 +18,28 @@
       "SOC 2 CC5.1",
       "COSO Principle 10"
     ],
-    "detection_notes": "Review risk assessment to control mapping, control design documentation, evidence that controls address identified risks, and control selection methodology. Look for absence of risk-based control design, controls not aligned to risks, or ad-hoc control implementation."
+    "detection_notes": "Review risk assessment to control mapping, control design documentation, evidence that controls address identified risks, and control selection methodology. Look for absence of risk-based control design, controls not aligned to risks, or ad-hoc control implementation.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - CC5 Control Activities",
+        "section": "CC5",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.coso.org/guidance-on-ic",
+        "type": "guidance",
+        "title": "COSO Internal Control - Integrated Framework",
+        "authority": "COSO"
+      }
+    ]
   },
   "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-SELECTION-015/"
 }
