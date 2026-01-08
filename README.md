@@ -1,6 +1,6 @@
 # Compliance Signal Enumeration (CSE)
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Registry Version](https://img.shields.io/badge/Registry-v1.0.0-green.svg)](v1.0.0/) [![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)](#) [![Signals](https://img.shields.io/badge/Signals-1170-orange.svg)](v1.0.0/registry/cse-registry.json) [![Domains](https://img.shields.io/badge/Domains-12-purple.svg)](v1.0.0/registry/index.json)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Spec Version](https://img.shields.io/badge/Spec-v1.0.0-green.svg)](v1.0.0/) [![Status](https://img.shields.io/badge/Status-Release_Candidate-yellow.svg)](#) [![Signals](https://img.shields.io/badge/Signals-1170-orange.svg)](v1.0.0/registry/cse-registry.json) [![Domains](https://img.shields.io/badge/Domains-12-purple.svg)](v1.0.0/registry/index.json)
 
 **A neutral, framework-agnostic registry of compliance-relevant technical signals**
 
@@ -26,8 +26,8 @@ CSE provides:
 |--------|-------|
 | **Total Signals** | 1,170 |
 | **Domains** | 12 |
-| **Registry Version** | 1.0.0 |
-| **Status** | Stable |
+| **Spec Version** | 1.0.0 |
+| **Status** | Release Candidate |
 
 ### Supported Frameworks
 
