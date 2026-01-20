@@ -2,7 +2,7 @@
   "id": "CSE-GEN-PHYSICAL-NO-PERIMETER-002",
   "canonical_name": "Physical Perimeter Security Missing",
   "description": "No secure perimeter or physical barriers protecting sensitive areas, facilities, or data centers from unauthorized entry or intrusion. This signal indicates the absence of physical perimeter security measures such as fencing, walls, gates, security checkpoints, bollards, vehicle barriers, or other mechanisms that establish and protect the physical boundary of secure facilities and prevent unauthorized access to the premises.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "PHYSICAL",
   "applicability": "This signal applies to: Data centers and colocation facilities Corporate headquarters and office buildings Server rooms and telecommunications closets Cloud provider facilities Backup and disaster recovery sites Manufacturing or operations facilities with IT infrastructure Remote network equipment locations Critical infrastructure facilities",
   "introduced_in": "1.0.0",

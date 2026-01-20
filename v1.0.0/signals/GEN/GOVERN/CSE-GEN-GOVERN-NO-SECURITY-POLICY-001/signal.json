@@ -2,7 +2,7 @@
   "id": "CSE-GEN-GOVERN-NO-SECURITY-POLICY-001",
   "canonical_name": "Information Security Policy Missing",
   "description": "No documented information security policies exist that define security objectives, responsibilities, and acceptable use of information systems and resources. This signal indicates that an organization lacks formalized security policies to govern how information assets should be protected, how personnel should handle sensitive data, and what security practices are expected.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "GOVERN",
   "applicability": "This signal applies to: Enterprise organizations of all sizes Cloud service providers Healthcare organizations handling PHI Financial services institutions Government contractors Organizations processing payment card data Any organization with regulatory compliance requirements Software development organizations Service providers handling customer data",
   "introduced_in": "1.0.0",

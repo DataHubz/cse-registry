@@ -2,7 +2,7 @@
   "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
   "canonical_name": "Incident Response Plan Missing",
   "description": "No documented plan for detecting, responding to, and recovering from security incidents. This signal indicates that the organization lacks formal procedures for incident handling, which may result in inconsistent or ineffective responses to security events.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "INCIDENT",
   "applicability": "This signal applies to: Incident response policies and procedures Security incident documentation repositories Incident response team structures Communication and escalation procedures Recovery and business continuity processes Incident response playbooks and runbooks Security operations centers (SOCs)",
   "introduced_in": "1.0.0",

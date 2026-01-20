@@ -2,7 +2,7 @@
   "id": "CSE-GEN-VULN-NO-PENETRATION-TESTING-005",
   "canonical_name": "Penetration Testing Missing",
   "description": "No security testing by simulated attackers to identify exploitable vulnerabilities in systems, applications, and networks. This signal indicates the absence of penetration testing activities that validate security controls through authorized simulated attacks, attempting to exploit weaknesses in a controlled manner to assess real-world security posture.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "VULN",
   "applicability": "This signal applies to: External-facing web applications and APIs Internal network infrastructure Cloud environments and configurations Mobile applications (iOS, Android) Wireless networks Physical security controls Social engineering susceptibility Red team/purple team exercises",
   "introduced_in": "1.0.0",

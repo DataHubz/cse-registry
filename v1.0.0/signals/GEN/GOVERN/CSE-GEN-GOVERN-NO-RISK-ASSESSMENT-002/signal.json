@@ -2,7 +2,7 @@
   "id": "CSE-GEN-GOVERN-NO-RISK-ASSESSMENT-002",
   "canonical_name": "Risk Assessment Missing",
   "description": "No documented process exists for systematically identifying, analyzing, and evaluating security risks to the organization's information assets and systems. This signal indicates that an organization lacks a formal risk assessment methodology to understand threats, vulnerabilities, likelihood, and potential impact to make informed security investment decisions.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "GOVERN",
   "applicability": "This signal applies to: All organizations managing information systems Cloud service environments Healthcare organizations subject to HIPAA Financial institutions under regulatory oversight Organizations processing payment card data Government contractors requiring CMMC certification Organizations subject to ISO 27001 or SOC 2 requirements Critical infrastructure operators Software development organizations Third-party service providers",
   "introduced_in": "1.0.0",

@@ -44,16 +44,10 @@
         "coverage_pct": 98.8
       },
       "GEN": {
-        "signals": 1,
-        "signals_mapped": 0,
-        "controls_mapped": 0,
-        "coverage_pct": 0
-      },
-      "GEN (General)": {
-        "signals": 54,
+        "signals": 55,
         "signals_mapped": 37,
         "controls_mapped": 95,
-        "coverage_pct": 68.5
+        "coverage_pct": 67.3
       },
       "HIPAA": {
         "signals": 75,

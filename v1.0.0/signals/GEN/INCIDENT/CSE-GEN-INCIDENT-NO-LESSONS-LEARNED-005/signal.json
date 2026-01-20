@@ -2,7 +2,7 @@
   "id": "CSE-GEN-INCIDENT-NO-LESSONS-LEARNED-005",
   "canonical_name": "Post-Incident Review Missing",
   "description": "No process for conducting post-incident analysis and incorporating lessons learned. This signal indicates that the organization does not systematically review security incidents after resolution to identify root causes, document findings, and implement improvements to prevent recurrence.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "INCIDENT",
   "applicability": "This signal applies to: Post-incident review processes and procedures Incident documentation and reporting systems Root cause analysis workflows Lessons learned documentation repositories Continuous improvement programs Incident response process refinement Security control enhancement tracking Incident metrics and trend analysis",
   "introduced_in": "1.0.0",

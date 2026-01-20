@@ -345,16 +345,12 @@
     {
       "id": "GEN",
       "name": "GEN",
-      "description": "General/Cross-Framework - Universal security signals applicable across frameworks",
-      "signal_count": 1,
+      "description": "General/Cross-Framework - Universal security signals applicable across all compliance frameworks",
+      "signal_count": 55,
       "categories": [
         {
           "id": "GEN-AUDIT",
           "name": "AUDIT"
-        },
-        {
-          "id": "GEN-SECRETS",
-          "name": "SECRETS"
         },
         {
           "id": "GEN-AUTH",
@@ -389,67 +385,15 @@
           "name": "PHYSICAL"
         },
         {
+          "id": "GEN-SECRETS",
+          "name": "SECRETS"
+        },
+        {
           "id": "GEN-VENDOR",
           "name": "VENDOR"
         },
         {
           "id": "GEN-VULN",
-          "name": "VULN"
-        }
-      ]
-    },
-    {
-      "id": "GEN (General)",
-      "name": "GEN (General)",
-      "description": "GEN (General)",
-      "signal_count": 54,
-      "categories": [
-        {
-          "id": "GEN (General)-AUDIT",
-          "name": "AUDIT"
-        },
-        {
-          "id": "GEN (General)-AUTH",
-          "name": "AUTH"
-        },
-        {
-          "id": "GEN (General)-CONFIG",
-          "name": "CONFIG"
-        },
-        {
-          "id": "GEN (General)-CRYPTO",
-          "name": "CRYPTO"
-        },
-        {
-          "id": "GEN (General)-DATA",
-          "name": "DATA"
-        },
-        {
-          "id": "GEN (General)-GOVERN",
-          "name": "GOVERN"
-        },
-        {
-          "id": "GEN (General)-IDENTITY",
-          "name": "IDENTITY"
-        },
-        {
-          "id": "GEN (General)-INCIDENT",
-          "name": "INCIDENT"
-        },
-        {
-          "id": "GEN (General)-PHYSICAL",
-          "name": "PHYSICAL"
-        },
-        {
-          "id": "GEN (General)-SECRETS",
-          "name": "SECRETS"
-        },
-        {
-          "id": "GEN (General)-VENDOR",
-          "name": "VENDOR"
-        },
-        {
-          "id": "GEN (General)-VULN",
           "name": "VULN"
         }
       ]

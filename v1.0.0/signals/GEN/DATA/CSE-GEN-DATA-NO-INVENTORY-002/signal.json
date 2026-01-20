@@ -2,7 +2,7 @@
   "id": "CSE-GEN-DATA-NO-INVENTORY-002",
   "canonical_name": "Data Inventory Missing",
   "description": "No inventory documenting what sensitive data exists and where it is stored. Organizations lack a comprehensive record or catalog of sensitive data assets across their environment. This signal indicates an absence of systematic documentation identifying data types, locations, systems, data flows, and responsible parties for sensitive information.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "DATA",
   "applicability": "This signal applies to: Data governance and management programs Privacy compliance initiatives Database and storage systems Cloud platforms and SaaS applications File servers and network shares Third-party data processors Data protection impact assessments (DPIAs)",
   "introduced_in": "1.0.0",

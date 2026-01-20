@@ -2,7 +2,7 @@
   "id": "CSE-GEN-AUDIT-NO-LOG-REVIEW-004",
   "canonical_name": "Audit Log Review Missing",
   "description": "Audit logs are not regularly reviewed for suspicious activity or security incidents. This signal indicates that while logs may be collected, there is no evidence of systematic review, analysis, or monitoring of audit logs to detect security events, anomalies, or potential breaches. This represents a gap in security operations that can allow incidents to go undetected for extended periods.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "AUDIT",
   "applicability": "This signal applies to: Security operations centers (SOC) System administrator activities Application security monitoring Database access review processes Cloud platform audit log analysis SIEM alert and correlation review Automated monitoring and alerting systems Compliance audit log review procedures Incident detection and response processes",
   "introduced_in": "1.0.0",

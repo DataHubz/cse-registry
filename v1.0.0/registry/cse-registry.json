@@ -26849,7 +26849,7 @@
     },
     {
       "id": "CSE-GEN-AUDIT-NO-CENTRALIZED-LOGGING-005",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "AUDIT",
       "name": "Centralized Logging Missing",
       "canonical_name": "Centralized Logging Missing",
@@ -26892,7 +26892,7 @@
     },
     {
       "id": "CSE-GEN-AUDIT-NO-LOG-PROTECTION-002",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "AUDIT",
       "name": "Audit Log Protection Missing",
       "canonical_name": "Audit Log Protection Missing",
@@ -26935,7 +26935,7 @@
     },
     {
       "id": "CSE-GEN-AUDIT-NO-LOG-RETENTION-003",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "AUDIT",
       "name": "Audit Log Retention Missing",
       "canonical_name": "Audit Log Retention Missing",
@@ -26978,7 +26978,7 @@
     },
     {
       "id": "CSE-GEN-AUDIT-NO-LOG-REVIEW-004",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "AUDIT",
       "name": "Audit Log Review Missing",
       "canonical_name": "Audit Log Review Missing",
@@ -27021,7 +27021,7 @@
     },
     {
       "id": "CSE-GEN-AUDIT-NO-LOGGING-001",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "AUDIT",
       "name": "Audit Logging Missing",
       "canonical_name": "Audit Logging Missing",
@@ -27064,7 +27064,7 @@
     },
     {
       "id": "CSE-GEN-AUTH-NO-ACCESS-CONTROL-003",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "AUTH",
       "name": "Access Control Mechanism Missing",
       "canonical_name": "Access Control Mechanism Missing",
@@ -27113,7 +27113,7 @@
     },
     {
       "id": "CSE-GEN-AUTH-NO-AUTHENTICATION-001",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "AUTH",
       "name": "Authentication Mechanism Missing",
       "canonical_name": "Authentication Mechanism Missing",
@@ -27162,7 +27162,7 @@
     },
     {
       "id": "CSE-GEN-AUTH-NO-MFA-002",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "AUTH",
       "name": "Multi-Factor Authentication Missing",
       "canonical_name": "Multi-Factor Authentication Missing",
@@ -27211,7 +27211,7 @@
     },
     {
       "id": "CSE-GEN-AUTH-NO-PRIVILEGED-MGMT-005",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "AUTH",
       "name": "Privileged Access Management Missing",
       "canonical_name": "Privileged Access Management Missing",
@@ -27260,7 +27260,7 @@
     },
     {
       "id": "CSE-GEN-AUTH-NO-RBAC-004",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "AUTH",
       "name": "Role-Based Access Control Missing",
       "canonical_name": "Role-Based Access Control Missing",
@@ -27309,7 +27309,7 @@
     },
     {
       "id": "CSE-GEN-AUTH-NO-SESSION-MGMT-006",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "AUTH",
       "name": "Session Management Missing",
       "canonical_name": "Session Management Missing",
@@ -27358,7 +27358,7 @@
     },
     {
       "id": "CSE-GEN-CONFIG-DEFAULT-CREDENTIALS-004",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "CONFIG",
       "name": "Default Credentials Not Changed",
       "canonical_name": "Default Credentials Not Changed",
@@ -27401,7 +27401,7 @@
     },
     {
       "id": "CSE-GEN-CONFIG-NO-BASELINE-003",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "CONFIG",
       "name": "Secure Configuration Baseline Missing",
       "canonical_name": "Secure Configuration Baseline Missing",
@@ -27444,7 +27444,7 @@
     },
     {
       "id": "CSE-GEN-CONFIG-NO-CHANGE-MGMT-002",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "CONFIG",
       "name": "Change Management Missing",
       "canonical_name": "Change Management Missing",
@@ -27487,7 +27487,7 @@
     },
     {
       "id": "CSE-GEN-CONFIG-NO-HARDENING-001",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "CONFIG",
       "name": "System Hardening Missing",
       "canonical_name": "System Hardening Missing",
@@ -27530,7 +27530,7 @@
     },
     {
       "id": "CSE-GEN-CRYPTO-NO-CERTIFICATE-MGMT-005",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "CRYPTO",
       "name": "Certificate Management Missing",
       "canonical_name": "Certificate Management Missing",
@@ -27579,7 +27579,7 @@
     },
     {
       "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "CRYPTO",
       "name": "Encryption at Rest Missing",
       "canonical_name": "Encryption at Rest Missing",
@@ -27628,7 +27628,7 @@
     },
     {
       "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "CRYPTO",
       "name": "Encryption in Transit Missing",
       "canonical_name": "Encryption in Transit Missing",
@@ -27677,7 +27677,7 @@
     },
     {
       "id": "CSE-GEN-CRYPTO-NO-KEY-MGMT-003",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "CRYPTO",
       "name": "Cryptographic Key Management Missing",
       "canonical_name": "Cryptographic Key Management Missing",
@@ -27726,7 +27726,7 @@
     },
     {
       "id": "CSE-GEN-CRYPTO-WEAK-ALGORITHMS-004",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "CRYPTO",
       "name": "Weak Cryptographic Algorithms Used",
       "canonical_name": "Weak Cryptographic Algorithms Used",
@@ -27775,7 +27775,7 @@
     },
     {
       "id": "CSE-GEN-DATA-NO-CLASSIFICATION-001",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "DATA",
       "name": "Data Classification Missing",
       "canonical_name": "Data Classification Missing",
@@ -27824,7 +27824,7 @@
     },
     {
       "id": "CSE-GEN-DATA-NO-DISPOSAL-004",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "DATA",
       "name": "Secure Data Disposal Missing",
       "canonical_name": "Secure Data Disposal Missing",
@@ -27873,7 +27873,7 @@
     },
     {
       "id": "CSE-GEN-DATA-NO-INVENTORY-002",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "DATA",
       "name": "Data Inventory Missing",
       "canonical_name": "Data Inventory Missing",
@@ -27922,7 +27922,7 @@
     },
     {
       "id": "CSE-GEN-DATA-NO-MINIMIZATION-005",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "DATA",
       "name": "Data Minimization Missing",
       "canonical_name": "Data Minimization Missing",
@@ -27971,7 +27971,7 @@
     },
     {
       "id": "CSE-GEN-DATA-NO-RETENTION-POLICY-003",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "DATA",
       "name": "Data Retention Policy Missing",
       "canonical_name": "Data Retention Policy Missing",
@@ -28020,7 +28020,7 @@
     },
     {
       "id": "CSE-GEN-GOVERN-NO-COMPLIANCE-REVIEW-005",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "GOVERN",
       "name": "Compliance Review Missing",
       "canonical_name": "Compliance Review Missing",
@@ -28062,7 +28062,7 @@
     },
     {
       "id": "CSE-GEN-GOVERN-NO-RISK-ASSESSMENT-002",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "GOVERN",
       "name": "Risk Assessment Missing",
       "canonical_name": "Risk Assessment Missing",
@@ -28104,7 +28104,7 @@
     },
     {
       "id": "CSE-GEN-GOVERN-NO-SECURITY-POLICY-001",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "GOVERN",
       "name": "Information Security Policy Missing",
       "canonical_name": "Information Security Policy Missing",
@@ -28146,7 +28146,7 @@
     },
     {
       "id": "CSE-GEN-GOVERN-NO-SECURITY-ROLES-003",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "GOVERN",
       "name": "Security Roles Missing",
       "canonical_name": "Security Roles Missing",
@@ -28188,7 +28188,7 @@
     },
     {
       "id": "CSE-GEN-GOVERN-NO-TRAINING-004",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "GOVERN",
       "name": "Security Awareness Training Missing",
       "canonical_name": "Security Awareness Training Missing",
@@ -28230,7 +28230,7 @@
     },
     {
       "id": "CSE-GEN-IDENTITY-NO-ACCESS-REVIEW-004",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "IDENTITY",
       "name": "Access Review Missing",
       "canonical_name": "Access Review Missing",
@@ -28272,7 +28272,7 @@
     },
     {
       "id": "CSE-GEN-IDENTITY-NO-DEPROVISIONING-003",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "IDENTITY",
       "name": "Access Deprovisioning Missing",
       "canonical_name": "Access Deprovisioning Missing",
@@ -28314,7 +28314,7 @@
     },
     {
       "id": "CSE-GEN-IDENTITY-NO-LIFECYCLE-001",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "IDENTITY",
       "name": "Identity Lifecycle Management Missing",
       "canonical_name": "Identity Lifecycle Management Missing",
@@ -28356,7 +28356,7 @@
     },
     {
       "id": "CSE-GEN-IDENTITY-NO-PROVISIONING-002",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "IDENTITY",
       "name": "Access Provisioning Process Missing",
       "canonical_name": "Access Provisioning Process Missing",
@@ -28398,7 +28398,7 @@
     },
     {
       "id": "CSE-GEN-INCIDENT-NO-BACKUP-002",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "INCIDENT",
       "name": "Data Backup Missing",
       "canonical_name": "Data Backup Missing",
@@ -28441,7 +28441,7 @@
     },
     {
       "id": "CSE-GEN-INCIDENT-NO-LESSONS-LEARNED-005",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "INCIDENT",
       "name": "Post-Incident Review Missing",
       "canonical_name": "Post-Incident Review Missing",
@@ -28484,7 +28484,7 @@
     },
     {
       "id": "CSE-GEN-INCIDENT-NO-RECOVERY-PLAN-003",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "INCIDENT",
       "name": "Disaster Recovery Plan Missing",
       "canonical_name": "Disaster Recovery Plan Missing",
@@ -28527,7 +28527,7 @@
     },
     {
       "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "INCIDENT",
       "name": "Incident Response Plan Missing",
       "canonical_name": "Incident Response Plan Missing",
@@ -28570,7 +28570,7 @@
     },
     {
       "id": "CSE-GEN-INCIDENT-NO-TESTING-004",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "INCIDENT",
       "name": "Incident Response Testing Missing",
       "canonical_name": "Incident Response Testing Missing",
@@ -28613,7 +28613,7 @@
     },
     {
       "id": "CSE-GEN-PHYSICAL-NO-ACCESS-CONTROLS-001",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "PHYSICAL",
       "name": "Physical Access Controls Missing",
       "canonical_name": "Physical Access Controls Missing",
@@ -28656,7 +28656,7 @@
     },
     {
       "id": "CSE-GEN-PHYSICAL-NO-EQUIPMENT-PROTECTION-004",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "PHYSICAL",
       "name": "Equipment Protection Missing",
       "canonical_name": "Equipment Protection Missing",
@@ -28699,7 +28699,7 @@
     },
     {
       "id": "CSE-GEN-PHYSICAL-NO-MEDIA-CONTROLS-003",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "PHYSICAL",
       "name": "Physical Media Controls Missing",
       "canonical_name": "Physical Media Controls Missing",
@@ -28742,7 +28742,7 @@
     },
     {
       "id": "CSE-GEN-PHYSICAL-NO-PERIMETER-002",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "PHYSICAL",
       "name": "Physical Perimeter Security Missing",
       "canonical_name": "Physical Perimeter Security Missing",
@@ -28785,7 +28785,7 @@
     },
     {
       "id": "CSE-GEN-SECRETS-COMMITTED-HISTORY-003",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "SECRETS",
       "name": "Secret in Version Control History",
       "canonical_name": "Secret in Version Control History",
@@ -28827,7 +28827,7 @@
     },
     {
       "id": "CSE-GEN-SECRETS-NO-ROTATION-002",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "SECRETS",
       "name": "Secret Rotation Missing",
       "canonical_name": "Secret Rotation Missing",
@@ -28915,7 +28915,7 @@
     },
     {
       "id": "CSE-GEN-VENDOR-NO-AGREEMENTS-002",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "VENDOR",
       "name": "Vendor Security Agreements Missing",
       "canonical_name": "Vendor Security Agreements Missing",
@@ -28957,7 +28957,7 @@
     },
     {
       "id": "CSE-GEN-VENDOR-NO-INVENTORY-004",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "VENDOR",
       "name": "Vendor Inventory Missing",
       "canonical_name": "Vendor Inventory Missing",
@@ -28999,7 +28999,7 @@
     },
     {
       "id": "CSE-GEN-VENDOR-NO-MONITORING-003",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "VENDOR",
       "name": "Vendor Monitoring Missing",
       "canonical_name": "Vendor Monitoring Missing",
@@ -29041,7 +29041,7 @@
     },
     {
       "id": "CSE-GEN-VENDOR-NO-RISK-MGMT-001",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "VENDOR",
       "name": "Vendor Risk Management Missing",
       "canonical_name": "Vendor Risk Management Missing",
@@ -29083,7 +29083,7 @@
     },
     {
       "id": "CSE-GEN-VULN-NO-MALWARE-PROTECTION-004",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "VULN",
       "name": "Malware Protection Missing",
       "canonical_name": "Malware Protection Missing",
@@ -29126,7 +29126,7 @@
     },
     {
       "id": "CSE-GEN-VULN-NO-PATCHING-003",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "VULN",
       "name": "Patch Management Missing",
       "canonical_name": "Patch Management Missing",
@@ -29169,7 +29169,7 @@
     },
     {
       "id": "CSE-GEN-VULN-NO-PENETRATION-TESTING-005",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "VULN",
       "name": "Penetration Testing Missing",
       "canonical_name": "Penetration Testing Missing",
@@ -29212,7 +29212,7 @@
     },
     {
       "id": "CSE-GEN-VULN-NO-SCANNING-002",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "VULN",
       "name": "Vulnerability Scanning Missing",
       "canonical_name": "Vulnerability Scanning Missing",
@@ -29255,7 +29255,7 @@
     },
     {
       "id": "CSE-GEN-VULN-NO-VULNERABILITY-MGMT-001",
-      "domain": "GEN (General)",
+      "domain": "GEN",
       "category": "VULN",
       "name": "Vulnerability Management Program Missing",
       "canonical_name": "Vulnerability Management Program Missing",

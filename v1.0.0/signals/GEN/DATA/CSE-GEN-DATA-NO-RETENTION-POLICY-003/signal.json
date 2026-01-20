@@ -2,7 +2,7 @@
   "id": "CSE-GEN-DATA-NO-RETENTION-POLICY-003",
   "canonical_name": "Data Retention Policy Missing",
   "description": "No defined policy specifying how long data should be retained and when it should be deleted. Organizations lack documented retention schedules that establish the period for which different types of data must be kept, when data should be reviewed, and when it should be securely deleted or anonymized. This signal indicates data may be retained indefinitely without justification or business need.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "DATA",
   "applicability": "This signal applies to: Data governance programs Database and storage systems Backup and archive systems Log management platforms Cloud storage and SaaS applications Customer and employee data systems Legal hold and e-discovery processes",
   "introduced_in": "1.0.0",

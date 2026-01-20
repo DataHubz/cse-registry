@@ -2,7 +2,7 @@
   "id": "CSE-GEN-INCIDENT-NO-RECOVERY-PLAN-003",
   "canonical_name": "Disaster Recovery Plan Missing",
   "description": "No plan for recovering critical systems and operations after a major incident or disaster. This signal indicates that the organization lacks documented procedures for restoring IT systems, infrastructure, and business operations following catastrophic events such as natural disasters, major system failures, or large-scale cyberattacks.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "INCIDENT",
   "applicability": "This signal applies to: Business continuity and disaster recovery documentation IT system recovery procedures Infrastructure failover and redundancy planning Recovery time objective (RTO) and recovery point objective (RPO) definitions Critical system and service identification Alternative site and backup facility planning Communication and notification procedures during disasters",
   "introduced_in": "1.0.0",

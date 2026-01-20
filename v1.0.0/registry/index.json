@@ -127,16 +127,7 @@
     },
     {
       "name": "GEN",
-      "signal_count": 1,
-      "categories": {
-        "SECRETS": 1
-      },
-      "file": "domains/GEN.json",
-      "file_min": "domains/GEN.min.json"
-    },
-    {
-      "name": "GEN (General)",
-      "signal_count": 54,
+      "signal_count": 55,
       "categories": {
         "AUDIT": 5,
         "AUTH": 6,
@@ -147,12 +138,12 @@
         "IDENTITY": 4,
         "INCIDENT": 5,
         "PHYSICAL": 4,
-        "SECRETS": 2,
+        "SECRETS": 3,
         "VENDOR": 4,
         "VULN": 5
       },
-      "file": "domains/GEN (General).json",
-      "file_min": "domains/GEN (General).min.json"
+      "file": "domains/GEN.json",
+      "file_min": "domains/GEN.min.json"
     },
     {
       "name": "HIPAA",

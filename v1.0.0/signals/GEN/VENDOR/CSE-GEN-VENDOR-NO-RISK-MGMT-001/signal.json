@@ -2,7 +2,7 @@
   "id": "CSE-GEN-VENDOR-NO-RISK-MGMT-001",
   "canonical_name": "Vendor Risk Management Missing",
   "description": "No process for assessing and managing security risks posed by third-party vendors and service providers. This signal indicates the absence of a formal vendor risk management program that systematically evaluates, monitors, and mitigates security risks introduced by third-party relationships throughout the vendor lifecycle.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "VENDOR",
   "applicability": "This signal applies to: All organizations utilizing third-party vendors and service providers Cloud service providers and SaaS applications Outsourced IT services and managed service providers Business process outsourcing relationships Supply chain and logistics partners Contractors and consultants with system access Payment processors and financial service providers",
   "introduced_in": "1.0.0",

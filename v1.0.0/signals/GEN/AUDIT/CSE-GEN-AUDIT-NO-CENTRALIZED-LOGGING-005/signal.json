@@ -2,7 +2,7 @@
   "id": "CSE-GEN-AUDIT-NO-CENTRALIZED-LOGGING-005",
   "canonical_name": "Centralized Logging Missing",
   "description": "Logs from multiple systems are not aggregated to a central location for correlation and analysis. This signal indicates that audit logs remain dispersed across individual systems, applications, or devices, making it difficult to correlate events, detect distributed attacks, perform comprehensive security analysis, or conduct efficient incident investigations.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "AUDIT",
   "applicability": "This signal applies to: Multi-system environments (servers, workstations, devices) Distributed applications and microservices Cloud and hybrid infrastructure Network devices and security appliances Container and orchestration platforms Multi-tenant and multi-region deployments Development, staging, and production environments Security information and event management (SIEM) implementations Log aggregation and analytics platforms",
   "introduced_in": "1.0.0",

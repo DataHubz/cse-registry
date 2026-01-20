@@ -2,7 +2,7 @@
   "id": "CSE-GEN-VENDOR-NO-MONITORING-003",
   "canonical_name": "Vendor Monitoring Missing",
   "description": "No ongoing monitoring or periodic assessment of vendor security posture. This signal indicates the absence of continuous oversight and periodic evaluation of third-party vendors to ensure they maintain adequate security controls and comply with contractual security obligations throughout the vendor relationship lifecycle.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "VENDOR",
   "applicability": "This signal applies to: All active third-party vendor relationships Cloud service providers and SaaS applications Managed service providers and outsourced IT services Critical vendors with access to sensitive data Vendors processing customer or regulated data Supply chain and business partners High-risk vendor relationships",
   "introduced_in": "1.0.0",

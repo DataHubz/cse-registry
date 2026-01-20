@@ -2,7 +2,7 @@
   "id": "CSE-GEN-AUTH-NO-SESSION-MGMT-006",
   "canonical_name": "Session Management Missing",
   "description": "No controls exist for session timeout, termination, or protection against session hijacking, allowing authenticated sessions to persist indefinitely or remain vulnerable to compromise. This signal indicates that session management lacks security controls such as inactivity timeouts, absolute timeouts, secure token handling, or session invalidation mechanisms.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "AUTH",
   "applicability": "This signal applies to: Web applications and APIs Single sign-on (SSO) systems Mobile applications Remote access and VPN connections Database connections Administrative interfaces Banking and financial applications Healthcare information systems E-commerce platforms Cloud management consoles",
   "introduced_in": "1.0.0",

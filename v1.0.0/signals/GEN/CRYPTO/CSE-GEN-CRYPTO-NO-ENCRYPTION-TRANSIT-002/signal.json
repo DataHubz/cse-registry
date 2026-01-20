@@ -2,7 +2,7 @@
   "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-TRANSIT-002",
   "canonical_name": "Encryption in Transit Missing",
   "description": "Data is transmitted over networks without encryption (e.g., HTTP instead of HTTPS, unencrypted database connections). This signal indicates that data in transit lacks cryptographic protection, potentially exposing confidential information to interception, eavesdropping, or man-in-the-middle attacks during transmission across networks.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "CRYPTO",
   "applicability": "This signal applies to: Web applications and APIs Database connections (client-to-server) Microservice communication Message queues and pub/sub systems Email transmission (SMTP) File transfer protocols (FTP, rsync) Remote access protocols (SSH, RDP) Mobile app backend communication Third-party API integrations",
   "introduced_in": "1.0.0",

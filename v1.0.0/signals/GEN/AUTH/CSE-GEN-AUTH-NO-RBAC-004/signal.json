@@ -2,7 +2,7 @@
   "id": "CSE-GEN-AUTH-NO-RBAC-004",
   "canonical_name": "Role-Based Access Control Missing",
   "description": "Access permissions are not organized by roles or groups; instead, individual permissions are assigned ad-hoc to users without a structured role-based framework. This signal indicates that access management lacks systematic organization, making it difficult to maintain consistent permissions, audit access, or enforce least privilege principles.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "AUTH",
   "applicability": "This signal applies to: Cloud platforms (AWS, Azure, GCP) Identity and access management systems Enterprise applications Database management systems Kubernetes and container orchestration Source code repositories Business intelligence and analytics platforms Content management systems Network and security appliances",
   "introduced_in": "1.0.0",

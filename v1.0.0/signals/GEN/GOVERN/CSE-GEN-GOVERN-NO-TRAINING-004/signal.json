@@ -2,7 +2,7 @@
   "id": "CSE-GEN-GOVERN-NO-TRAINING-004",
   "canonical_name": "Security Awareness Training Missing",
   "description": "No security awareness training program exists to educate personnel about information security policies, threats, and their responsibilities for protecting organizational information assets. This signal indicates that employees, contractors, and other personnel have not received formal security awareness education, leaving them unprepared to recognize and respond to security threats.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "GOVERN",
   "applicability": "This signal applies to: All organizations with employees or contractors Remote and distributed workforces Healthcare organizations handling PHI Financial services institutions Organizations processing payment card data Government contractors requiring CMMC Organizations with regulatory compliance requirements Software development teams Third-party service providers Organizations with bring-your-own-device (BYOD) policies",
   "introduced_in": "1.0.0",

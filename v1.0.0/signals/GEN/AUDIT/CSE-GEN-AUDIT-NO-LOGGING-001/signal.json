@@ -2,7 +2,7 @@
   "id": "CSE-GEN-AUDIT-NO-LOGGING-001",
   "canonical_name": "Audit Logging Missing",
   "description": "System does not generate audit logs for security-relevant events such as authentication attempts, access to sensitive data, or configuration changes. This signal indicates that critical security events are not being recorded, preventing visibility into system activity, security incident detection, and forensic investigation capabilities.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "AUDIT",
   "applicability": "This signal applies to: Operating systems (Windows, Linux, macOS, Unix) Cloud platforms and services (AWS, Azure, GCP) Application servers and web applications Database management systems Network devices (routers, switches, firewalls) Security appliances (IDS/IPS, WAF) Container platforms and orchestration systems Authentication and identity management systems API gateways and middleware CI/CD pipelines and build systems",
   "introduced_in": "1.0.0",

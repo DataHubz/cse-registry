@@ -2,7 +2,7 @@
   "id": "CSE-GEN-VULN-NO-SCANNING-002",
   "canonical_name": "Vulnerability Scanning Missing",
   "description": "Systems and applications are not regularly scanned for known security vulnerabilities using automated vulnerability assessment tools. This signal indicates the absence of routine vulnerability scanning activities that identify security weaknesses, misconfigurations, missing patches, and other technical vulnerabilities in IT infrastructure and applications.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "VULN",
   "applicability": "This signal applies to: Enterprise networks and systems Web applications and APIs Mobile applications Cloud infrastructure (IaaS, PaaS, SaaS) Database servers and data stores Network devices and security appliances Operating systems and middleware Container images and orchestration platforms",
   "introduced_in": "1.0.0",

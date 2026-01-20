@@ -2,7 +2,7 @@
   "id": "CSE-GEN-DATA-NO-CLASSIFICATION-001",
   "canonical_name": "Data Classification Missing",
   "description": "No scheme for classifying data by sensitivity level (e.g., public, internal, confidential, restricted). Organizations lack a structured approach to categorizing data based on its sensitivity, value, and criticality. This signal indicates that data is not systematically labeled or classified according to its confidentiality, integrity, and availability requirements.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "DATA",
   "applicability": "This signal applies to: Document management systems Database systems and data warehouses Cloud storage platforms File sharing and collaboration tools Data processing pipelines API endpoints handling various data types Information security policies and procedures",
   "introduced_in": "1.0.0",

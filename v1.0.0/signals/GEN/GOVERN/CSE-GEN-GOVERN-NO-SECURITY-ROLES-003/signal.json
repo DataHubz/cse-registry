@@ -2,7 +2,7 @@
   "id": "CSE-GEN-GOVERN-NO-SECURITY-ROLES-003",
   "canonical_name": "Security Roles Missing",
   "description": "No defined security responsibilities, roles, or organizational structure exists for security management and oversight within the organization. This signal indicates that security accountability is unclear, with no formally assigned personnel responsible for security functions, decision-making, or program oversight.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "GOVERN",
   "applicability": "This signal applies to: Organizations of all sizes and industries Cloud service providers and platforms Managed service providers Software development organizations Healthcare organizations Financial services institutions Government contractors Organizations with compliance requirements Distributed and remote teams Organizations undergoing growth or transformation",
   "introduced_in": "1.0.0",

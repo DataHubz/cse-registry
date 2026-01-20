@@ -2,7 +2,7 @@
   "id": "CSE-GEN-IDENTITY-NO-DEPROVISIONING-003",
   "canonical_name": "Access Deprovisioning Missing",
   "description": "No process exists for promptly revoking user access when individuals leave the organization or change roles. This signal indicates that accounts remain active after employment termination or role changes, creating security risks from orphaned credentials and excessive permissions.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "IDENTITY",
   "applicability": "This signal applies to: Employee termination procedures Role change and transfer processes Cloud platform accounts (AWS, Azure, GCP) Application and system access VPN and remote access credentials Email and collaboration platform accounts Privileged access removal Contractor and vendor access termination Service account lifecycle management",
   "introduced_in": "1.0.0",

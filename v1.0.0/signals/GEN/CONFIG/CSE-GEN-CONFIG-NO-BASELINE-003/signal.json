@@ -2,7 +2,7 @@
   "id": "CSE-GEN-CONFIG-NO-BASELINE-003",
   "canonical_name": "Secure Configuration Baseline Missing",
   "description": "No defined secure configuration standards or baselines exist for systems and applications within the environment. This signal indicates that there are no documented, approved configuration templates or standards against which system configurations can be validated, leading to inconsistent security postures and inability to detect configuration drift.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "CONFIG",
   "applicability": "This signal applies to: Operating system configurations Application server configurations Database system settings Network device configurations Cloud infrastructure resources Container and Kubernetes configurations Mobile device configurations Security appliance settings SaaS application configurations",
   "introduced_in": "1.0.0",

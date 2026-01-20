@@ -2,7 +2,7 @@
   "id": "CSE-GEN-DATA-NO-DISPOSAL-004",
   "canonical_name": "Secure Data Disposal Missing",
   "description": "No process for securely disposing of data when no longer needed (secure deletion, media destruction). Organizations lack procedures and mechanisms to permanently and irrecoverably destroy data when it reaches the end of its retention period or is no longer required. This signal indicates data may remain accessible on storage media, backups, or decommissioned systems without proper sanitization or destruction.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "DATA",
   "applicability": "This signal applies to: Data deletion and purging processes Media sanitization and destruction programs Decommissioning of storage systems and servers Hard drive and backup tape disposal Cloud storage lifecycle management Database record deletion procedures Device disposal and recycling programs",
   "introduced_in": "1.0.0",

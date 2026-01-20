@@ -2,7 +2,7 @@
   "id": "CSE-GEN-CONFIG-NO-CHANGE-MGMT-002",
   "canonical_name": "Change Management Missing",
   "description": "No formal process for requesting, approving, testing, and documenting system changes exists or is being followed. This signal indicates that configuration and system modifications may occur without proper oversight, documentation, or validation, leading to unauthorized changes, configuration drift, or unintended service disruptions.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "CONFIG",
   "applicability": "This signal applies to: Production system configuration changes Infrastructure modifications Application deployments and updates Network configuration changes Security policy modifications Cloud resource provisioning and changes Database schema and configuration changes Emergency or break-fix changes",
   "introduced_in": "1.0.0",

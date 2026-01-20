@@ -2,7 +2,7 @@
   "id": "CSE-GEN-AUDIT-NO-LOG-RETENTION-003",
   "canonical_name": "Audit Log Retention Missing",
   "description": "No defined retention period for audit logs; logs may be deleted before needed for investigation or compliance. This signal indicates that audit logs are subject to automatic deletion, rotation, or purging without consideration for retention requirements, potentially resulting in loss of historical audit data needed for incident investigation, forensic analysis, or regulatory compliance.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "AUDIT",
   "applicability": "This signal applies to: Local log rotation configurations Centralized logging platforms and SIEM retention policies Cloud logging service retention settings Database audit log lifecycle management Syslog server storage policies Application log management systems Backup and archive retention policies Container and orchestration platform log retention Log aggregation and forwarding services",
   "introduced_in": "1.0.0",

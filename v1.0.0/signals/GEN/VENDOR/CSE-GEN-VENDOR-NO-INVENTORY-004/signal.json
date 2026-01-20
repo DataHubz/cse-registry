@@ -2,7 +2,7 @@
   "id": "CSE-GEN-VENDOR-NO-INVENTORY-004",
   "canonical_name": "Vendor Inventory Missing",
   "description": "No maintained inventory of third-party service providers with access to systems or data. This signal indicates the absence of a comprehensive and current catalog of all third-party vendors, service providers, and business partners that have access to organizational systems, networks, or data assets.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "VENDOR",
   "applicability": "This signal applies to: All organizations utilizing third-party services Cloud service providers and SaaS applications Managed service providers and IT outsourcing Software vendors with system access Contractors and consultants with network access Business process outsourcing providers Supply chain and logistics partners with data access",
   "introduced_in": "1.0.0",

@@ -2,7 +2,7 @@
   "id": "CSE-GEN-AUDIT-NO-LOG-PROTECTION-002",
   "canonical_name": "Audit Log Protection Missing",
   "description": "Audit logs are not protected from unauthorized modification, deletion, or tampering. This signal indicates that audit logs lack integrity protection mechanisms such as write-once storage, cryptographic signing, access controls, or immutable retention, potentially allowing attackers to cover their tracks by altering or deleting evidence of malicious activity.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "AUDIT",
   "applicability": "This signal applies to: Local log file systems and directories Centralized logging platforms and SIEM systems Cloud-based logging services Database audit log storage Syslog servers and collectors Log forwarding and aggregation systems Backup and archive systems for logs Container and orchestration platform logs Application log files and directories",
   "introduced_in": "1.0.0",

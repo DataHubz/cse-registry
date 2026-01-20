@@ -2,7 +2,7 @@
   "id": "CSE-GEN-INCIDENT-NO-BACKUP-002",
   "canonical_name": "Data Backup Missing",
   "description": "Critical data and systems are not backed up regularly, risking permanent data loss in the event of system failure, ransomware attack, or other destructive incidents. This signal indicates that the organization may be unable to recover essential data and resume operations following data loss events.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "INCIDENT",
   "applicability": "This signal applies to: Database systems containing critical business data File servers and shared storage systems Application data and configurations System state and configuration backups Cloud storage and SaaS data Email and communication systems Customer and transaction records Source code repositories",
   "introduced_in": "1.0.0",

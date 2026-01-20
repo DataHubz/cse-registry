@@ -2,7 +2,7 @@
   "id": "CSE-GEN-CRYPTO-NO-ENCRYPTION-REST-001",
   "canonical_name": "Encryption at Rest Missing",
   "description": "Sensitive data is not encrypted when stored in databases, file systems, or storage media. This signal indicates that data at rest lacks cryptographic protection, potentially exposing confidential information to unauthorized access through physical media theft, improper disposal, or unauthorized system access.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "CRYPTO",
   "applicability": "This signal applies to: Databases storing sensitive or regulated data File systems containing confidential information Cloud storage services (S3, Azure Blob, GCS, etc.) Backup and archive systems Mobile devices and laptops Removable media (USB drives, external hard drives) Virtual machine disk images Container persistent volumes",
   "introduced_in": "1.0.0",

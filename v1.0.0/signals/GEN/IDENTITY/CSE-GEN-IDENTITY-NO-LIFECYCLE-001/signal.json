@@ -2,7 +2,7 @@
   "id": "CSE-GEN-IDENTITY-NO-LIFECYCLE-001",
   "canonical_name": "Identity Lifecycle Management Missing",
   "description": "No documented or implemented process exists for managing user identities throughout their complete lifecycle from creation through modification to deletion. This signal indicates that there is no systematic approach to identity management, which can lead to orphaned accounts, inconsistent provisioning, and security gaps.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "IDENTITY",
   "applicability": "This signal applies to: Identity and access management (IAM) systems Cloud service provider accounts (AWS, Azure, GCP) Active Directory and LDAP directories Application user databases SaaS platform user management Privileged access management systems Service account management Contractor and third-party identity management",
   "introduced_in": "1.0.0",

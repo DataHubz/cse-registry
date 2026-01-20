@@ -2,7 +2,7 @@
   "id": "CSE-GEN-DATA-NO-MINIMIZATION-005",
   "canonical_name": "Data Minimization Missing",
   "description": "Collecting or retaining more personal or sensitive data than necessary for the stated purpose. Organizations gather, process, or store data beyond what is required to achieve the specific, legitimate purpose for which it was collected. This signal indicates a failure to limit data collection to only what is adequate, relevant, and necessary for the intended business function or service.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "DATA",
   "applicability": "This signal applies to: Data collection forms and user interfaces API endpoints and data request scopes Database schemas and field requirements Registration and onboarding processes Analytics and tracking implementations Third-party data sharing agreements Marketing and customer engagement platforms",
   "introduced_in": "1.0.0",

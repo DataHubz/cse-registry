@@ -2,7 +2,7 @@
   "id": "CSE-GEN-AUTH-NO-ACCESS-CONTROL-003",
   "canonical_name": "Access Control Mechanism Missing",
   "description": "No mechanism exists to restrict access to resources based on authorization policies, allowing authenticated users unrestricted access regardless of their legitimate need. This signal indicates that while users may be authenticated, there are no controls to enforce what resources they can access or what actions they can perform.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "AUTH",
   "applicability": "This signal applies to: APIs and web services Database systems File systems and storage Cloud resources and services Application features and functionality Microservices and internal services Administrative interfaces Data processing pipelines Network segments and VLANs",
   "introduced_in": "1.0.0",

@@ -2,7 +2,7 @@
   "id": "CSE-GEN-PHYSICAL-NO-ACCESS-CONTROLS-001",
   "canonical_name": "Physical Access Controls Missing",
   "description": "No controls restricting physical access to facilities, server rooms, data centers, or areas containing sensitive systems and information assets. This signal indicates the absence of physical access control mechanisms such as badge readers, biometric systems, security personnel, visitor management, access logs, or other controls that prevent unauthorized individuals from entering restricted physical locations where critical IT infrastructure or sensitive data is housed.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "PHYSICAL",
   "applicability": "This signal applies to: Data centers and server rooms Network operations centers (NOCs) Telecommunications facilities Office buildings containing sensitive systems Storage areas for physical media Backup and disaster recovery sites Facilities processing sensitive or regulated data Co-location and shared hosting environments",
   "introduced_in": "1.0.0",

@@ -2,7 +2,7 @@
   "id": "CSE-GEN-CRYPTO-NO-KEY-MGMT-003",
   "canonical_name": "Cryptographic Key Management Missing",
   "description": "No documented process for generating, storing, rotating, or revoking cryptographic keys. This signal indicates the absence of formalized key management practices, which can lead to weak key generation, insecure key storage, failure to rotate keys, inability to revoke compromised keys, and overall compromise of cryptographic systems.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "CRYPTO",
   "applicability": "This signal applies to: Organizations using encryption for data protection Systems implementing cryptographic controls Key management systems (KMS) and HSM deployments Certificate authorities and PKI infrastructure API key and token management systems Cloud encryption services (AWS KMS, Azure Key Vault, GCP KMS) Database encryption implementations Application-level encryption systems",
   "introduced_in": "1.0.0",

@@ -2,7 +2,7 @@
   "id": "CSE-GEN-AUTH-NO-PRIVILEGED-MGMT-005",
   "canonical_name": "Privileged Access Management Missing",
   "description": "No specific controls exist for managing and monitoring privileged or administrative access, treating high-privilege accounts the same as standard user accounts. This signal indicates the absence of enhanced security measures for accounts with elevated permissions, such as just-in-time access, session recording, approval workflows, or dedicated privileged credential vaults.",
-  "domain": "GEN (General)",
+  "domain": "GEN",
   "category": "AUTH",
   "applicability": "This signal applies to: Cloud platform administrative accounts Database administrator accounts Domain administrator and root accounts Service accounts with elevated privileges Break-glass emergency access accounts Infrastructure management tools Security system administrative interfaces CI/CD pipeline service accounts Hypervisor and virtualization administrators Network device administrative access",
   "introduced_in": "1.0.0",
