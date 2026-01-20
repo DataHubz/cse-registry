@@ -1,0 +1,45 @@
+{
+  "id": "CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002",
+  "canonical_name": "No Board Independence and Oversight",
+  "description": "The board of directors does not demonstrate independence from management and does not exercise oversight of internal control development and performance.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Applies to all entities when the board lacks independent members, does not meet regularly to review controls, fails to challenge management on control decisions, or does not have expertise in risk management and internal controls.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "governance",
+      "oversight",
+      "risk_management"
+    ],
+    "related_controls": [
+      "SOC 2 CC1.2",
+      "COSO Principle 2"
+    ],
+    "detection_notes": "Review board composition and independence criteria, board meeting minutes, audit committee charter, evidence of board oversight of control environment, and documentation of board challenges to management decisions. Look for absence of independent directors, infrequent meetings, or lack of internal control discussions.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - CC1 Control Environment",
+        "section": "CC1",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.coso.org/guidance-on-ic",
+        "type": "guidance",
+        "title": "COSO Internal Control - Integrated Framework",
+        "authority": "COSO"
+      }
+    ]
+  },
+  "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002/"
+}

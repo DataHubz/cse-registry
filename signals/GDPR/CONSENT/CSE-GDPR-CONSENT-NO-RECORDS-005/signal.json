@@ -1,0 +1,52 @@
+{
+  "id": "CSE-GDPR-CONSENT-NO-RECORDS-005",
+  "canonical_name": "Consent Records Not Maintained",
+  "description": "Controller does not maintain records demonstrating that valid consent was obtained. Article 7.1 requires controllers to be able to demonstrate that data subject has consented to processing.",
+  "domain": "GDPR",
+  "category": "CONSENT",
+  "applicability": "Applicable to all consent-based processing. Controller must maintain evidence of consent including who consented, when, what information was provided, and how consent was obtained.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "accountability",
+      "evidence"
+    ],
+    "related_controls": [
+      "GDPR Art. 7.1",
+      "GDPR Art. 5.2"
+    ],
+    "detection_notes": "Detected through review of consent management systems and absence of consent records, timestamps, or audit trails.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter II - Conditions for Consent",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-7-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 7.1",
+        "section": "GDPR Art. 7.1",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Consent",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/CONSENT/CSE-GDPR-CONSENT-NO-RECORDS-005/"
+}

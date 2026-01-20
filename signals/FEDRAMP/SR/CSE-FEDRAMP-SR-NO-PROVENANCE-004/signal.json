@@ -1,0 +1,51 @@
+{
+  "id": "CSE-FEDRAMP-SR-NO-PROVENANCE-004",
+  "canonical_name": "No Provenance",
+  "description": "The organization does not document, monitor, and maintain valid provenance of systems, system components, and associated data to establish confidence that the supply chain is legitimate and free from tampering or unauthorized modifications.",
+  "domain": "FEDRAMP",
+  "category": "SR",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Federal information systems processing sensitive data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "supply-chain",
+      "third-party-risk",
+      "vendor-management"
+    ],
+    "related_controls": [
+      "SR-4"
+    ],
+    "detection_notes": "Detection guidance: Look for missing chain of custody documentation for hardware and software components, absence of supplier authenticity verification, lack of tracking mechanisms for component origins, missing validation of software provenance (e.g., cryptographic signatures, SBOM validation), and absence of processes to verify legitimate supply chain custody throughout acquisition and integration. Check for missing evidence of hardware/software authenticity, lack of tracking for component modifications, and inadequate documentation of the complete supply chain pedigree from manufacturer to deployment.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "SR-4",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Supply Chain Risk Management",
+        "section": "SR-4",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/SR/CSE-FEDRAMP-SR-NO-PROVENANCE-004/"
+}

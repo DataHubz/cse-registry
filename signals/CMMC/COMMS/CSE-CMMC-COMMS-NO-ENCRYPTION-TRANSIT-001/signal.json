@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-ENCRYPTION-TRANSIT-001",
+  "canonical_name": "Data Not Encrypted in Transit",
+  "description": "Data transmitted between systems, services, or networks is not encrypted. This signal indicates that sensitive information may be exposed to interception or eavesdropping during transmission over network connections.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to any network communication including API calls, database connections, file transfers, email, and internal service communication. Includes both external-facing and internal network traffic.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "encryption",
+      "data-protection",
+      "communications"
+    ],
+    "related_controls": [
+      "CMMC SC.L2-3.13.8",
+      "NIST SP 800-171 3.13.8"
+    ],
+    "detection_notes": "Detected through network traffic analysis, protocol inspection, TLS configuration review, and service endpoint configuration analysis. May involve checking for HTTP vs HTTPS, unencrypted database connections, or plaintext protocols.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - System and Communications Protection",
+        "section": "3.13.8",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-ENCRYPTION-TRANSIT-001/"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "CSE-ISO27001-TECH-NO-SECURE-ARCHITECTURE-027",
+  "canonical_name": "Missing Secure System Architecture and Engineering Principles",
+  "description": "Principles for engineering secure systems are not established, documented, and applied. This signal indicates that the organization lacks documented security architecture principles, secure design patterns, defense-in-depth strategies, or architectural security controls that should guide system design and engineering decisions.",
+  "domain": "ISO27001",
+  "category": "TECH",
+  "applicability": "Applicable to all system architecture and engineering activities including application architecture, infrastructure architecture, network architecture, cloud architecture, security architecture, data architecture, and integration architecture. Includes both new system design and modification of existing systems.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "architecture",
+      "security-design",
+      "engineering",
+      "defense-in-depth"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.8.27"
+    ],
+    "detection_notes": "Commonly detected through review of architecture documentation, security design principles, architectural review processes, security architecture frameworks, design review records, and architectural decision logs. May also be identified through absence of security architecture governance and architectural standards.",
+    "sources": [
+      {
+        "url": "https://www.iso.org/standard/27001",
+        "type": "standard",
+        "title": "ISO/IEC 27001:2022 - Information Security Management Systems",
+        "section": "A.8",
+        "authority": "ISO/IEC"
+      },
+      {
+        "url": "https://www.iso.org/standard/75652.html",
+        "type": "guidance",
+        "title": "ISO/IEC 27002:2022 - Information Security Controls",
+        "section": "A.8 - Technological Controls",
+        "authority": "ISO/IEC"
+      },
+      {
+        "url": "https://www.iso.org/isoiec-27001-information-security.html",
+        "type": "guidance",
+        "title": "ISO/IEC 27000 Family - Information Security",
+        "authority": "ISO/IEC"
+      }
+    ]
+  },
+  "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SECURE-ARCHITECTURE-027/"
+}

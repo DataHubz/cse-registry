@@ -1,0 +1,41 @@
+{
+  "id": "CSE-CIS-INCIDENT-NO-LESSONS-LEARNED-005",
+  "canonical_name": "Post-Incident Review Missing",
+  "description": "The organization lacks a process for conducting post-incident reviews and lessons learned activities. This signal indicates that the organization does not systematically review and document lessons learned from security incidents. Without a formal post-incident review process, the organization cannot identify root causes, improve response capabilities, or prevent similar incidents from recurring. This represents a missed opportunity for continuous improvement of security posture.",
+  "domain": "CIS",
+  "category": "INCIDENT",
+  "applicability": "This signal applies to: Enterprise incident response programs Security operations center (SOC) operations Computer security incident response team (CSIRT) activities Continuous improvement initiatives Risk management processes Security control enhancement Organizational learning programs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "recovery",
+      "threat-management"
+    ],
+    "detection_notes": "Review CIS compliance documentation and controls for INCIDENT requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 17: Incident Response Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-LESSONS-LEARNED-005/"
+}

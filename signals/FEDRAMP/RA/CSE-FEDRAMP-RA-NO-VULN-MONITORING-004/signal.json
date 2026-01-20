@@ -1,0 +1,57 @@
+{
+  "id": "CSE-FEDRAMP-RA-NO-VULN-MONITORING-004",
+  "canonical_name": "No Vulnerability Monitoring and Scanning",
+  "description": "Vulnerability monitoring and scanning capabilities are not implemented to identify and track system vulnerabilities on an ongoing basis.",
+  "domain": "FEDRAMP",
+  "category": "RA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "risk-assessment",
+      "vulnerability-management",
+      "threat-analysis"
+    ],
+    "related_controls": [
+      "RA-5"
+    ],
+    "detection_notes": "Detection guidance: Look for absence of vulnerability scanning tools or processes, no evidence of regular vulnerability scans, missing vulnerability scan reports, lack of remediation tracking, failure to meet required scanning frequencies (monthly for operating systems and databases, monthly for web applications), and no vulnerability information sharing mechanisms.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "RA-5",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Risk Assessment",
+        "section": "RA-5",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.fedramp.gov/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf",
+        "type": "guidance",
+        "title": "FedRAMP Vulnerability Scanning Requirements",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/RA/CSE-FEDRAMP-RA-NO-VULN-MONITORING-004/"
+}

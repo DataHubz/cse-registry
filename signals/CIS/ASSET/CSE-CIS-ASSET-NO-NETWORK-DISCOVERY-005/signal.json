@@ -1,0 +1,40 @@
+{
+  "id": "CSE-CIS-ASSET-NO-NETWORK-DISCOVERY-005",
+  "canonical_name": "Network-Based Asset Discovery Missing",
+  "description": "This signal detects when an organization lacks an active network-based discovery tool to identify all assets connected to the enterprise's network infrastructure. CIS Control 1.5 requires organizations to use active discovery tools that can identify and enumerate devices, including passive devices that may not be easily detected by other means. Without network-based discovery, organizations have incomplete visibility into their attack surface and cannot effectively manage or secure unknown or un",
+  "domain": "CIS",
+  "category": "ASSET",
+  "applicability": "Enterprise IT environments Cloud infrastructure On-premises data centers Remote/hybrid work environments Industrial control systems (ICS/SCADA) Healthcare environments with medical devices Multi-site or distributed networks",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "asset-management",
+      "inventory",
+      "visibility"
+    ],
+    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **No Discovery Tool License**: Absence of commercial or open-source network discovery solution 2. **Inactive Scanning**: Discovery tools exist but scanning is not enabled or scheduled 3. **Insufficient Coverage**: Discovery tools deployed but do not cover all network segments 4. **Passive-Only Detection**: Reliance solely on passive methods (DHCP, DNS, NetFlow) without active probing 5. **Agent-Only Strategy**: Only endpoint agents deployed, missing agentless/unmanaged devices 6. **Manual Discovery**: Network asset identification performed manually or ad-hoc 7. **No Cloud Discovery**: Cloud-based assets not included in discovery processes ### Active vs. Passive Discovery **Passive Discovery** (IG2): Monitors network traffic wit",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/ASSET/CSE-CIS-ASSET-NO-NETWORK-DISCOVERY-005/"
+}

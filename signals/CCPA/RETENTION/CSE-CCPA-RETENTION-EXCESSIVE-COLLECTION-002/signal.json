@@ -1,0 +1,46 @@
+{
+  "id": "CSE-CCPA-RETENTION-EXCESSIVE-COLLECTION-002",
+  "canonical_name": "PI Collected Beyond Disclosed Purposes",
+  "description": "This signal detects when a business collects personal information that exceeds what is reasonably necessary for the disclosed purposes at collection. The business gathers more PI categories, fields, or data points than required to fulfill the stated business purposes communicated to consumers.",
+  "domain": "CCPA",
+  "category": "RETENTION",
+  "applicability": "Businesses collecting PI beyond disclosed purposes in privacy notices Data collection forms requesting information unrelated to the stated purpose Analytics or tracking systems capturing excessive user data Third-party integrations sharing more PI than necessary for the service",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Review CCPA compliance documentation and controls for RETENTION requirements.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/RETENTION/CSE-CCPA-RETENTION-EXCESSIVE-COLLECTION-002/"
+}

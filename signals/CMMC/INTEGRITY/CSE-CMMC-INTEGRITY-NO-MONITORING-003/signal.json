@@ -1,0 +1,46 @@
+{
+  "id": "CSE-CMMC-INTEGRITY-NO-MONITORING-003",
+  "canonical_name": "Security Monitoring Not Implemented",
+  "description": "Systems are not configured to detect or alert on security-relevant events such as attacks, unauthorized access attempts, or anomalous behavior. This signal indicates that security incidents may occur without detection.",
+  "domain": "CMMC",
+  "category": "INTEGRITY",
+  "applicability": "Applicable to all systems and networks requiring security monitoring. Includes intrusion detection systems, security information and event management, endpoint detection and response, and network traffic analysis.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "monitoring",
+      "detection",
+      "incident-response"
+    ],
+    "related_controls": [
+      "CMMC SI.L2-3.14.6",
+      "CMMC SI.L2-3.14.7",
+      "NIST SP 800-171 3.14.6"
+    ],
+    "detection_notes": "Detected through review of monitoring tool deployment, SIEM coverage, IDS/IPS configurations, and alerting rule effectiveness.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - System and Information Integrity",
+        "section": "3.14.6",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-MONITORING-003/"
+}

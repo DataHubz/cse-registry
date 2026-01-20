@@ -1,0 +1,38 @@
+{
+  "id": "CSE-HIPAA-PRIVACY-NO-RESTRICTION-RIGHTS-012",
+  "canonical_name": "No Rights to Request Restrictions",
+  "description": "Individuals not permitted to request restrictions on uses and disclosures of their PHI.",
+  "domain": "HIPAA",
+  "category": "PRIVACY",
+  "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.522(a)"
+    ],
+    "detection_notes": "Detection of this signal may occur when: Individuals are prevented from making restriction requests No process exists for receiving and tracking restriction requests Required restrictions (out-of-pocket payment in full) are not honored Agreed-upon restrictions are not implemented in systems or workflows Restrictions are not properly documented Terminated restrictions are not properly communicated to affected parties Emergency circumstances exception to restrictions is improperly applied Restriction request denials are not properly documented or communicated",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+        "section": "164.522(a)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+        "type": "guidance",
+        "title": "HHS Privacy Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-RESTRICTION-RIGHTS-012/"
+}

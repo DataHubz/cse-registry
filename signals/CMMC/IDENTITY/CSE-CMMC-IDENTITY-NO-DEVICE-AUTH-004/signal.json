@@ -1,0 +1,46 @@
+{
+  "id": "CSE-CMMC-IDENTITY-NO-DEVICE-AUTH-004",
+  "canonical_name": "Device Authentication Not Required",
+  "description": "Devices connecting to the network or systems are not required to authenticate or prove their identity before being granted access. This signal indicates that network access decisions are not based on verified device identity.",
+  "domain": "CMMC",
+  "category": "IDENTITY",
+  "applicability": "Applicable to network access control systems, wireless networks, VPN gateways, and any environment where device identity should be verified. Includes 802.1X configurations, certificate-based authentication, and device compliance checks.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "identity",
+      "network-access",
+      "device-management"
+    ],
+    "related_controls": [
+      "CMMC IA.L2-3.5.1",
+      "CMMC IA.L2-3.5.2",
+      "NIST SP 800-171 3.5.1"
+    ],
+    "detection_notes": "Detected through review of network access control configurations, wireless authentication settings, VPN client requirements, and conditional access policies that evaluate device state.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Identification and Authentication",
+        "section": "3.5.1",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-DEVICE-AUTH-004/"
+}

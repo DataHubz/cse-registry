@@ -1,0 +1,47 @@
+{
+  "id": "CSE-CCPA-NOTICE-NO-SALE-SHARE-DISCLOSURE-008",
+  "canonical_name": "Sale/Sharing Not Disclosed",
+  "description": "A business that sells or shares personal information fails to disclose this practice in its privacy policy or provide required notices about consumer opt-out rights. This signal indicates missing or inadequate disclosures about sale or sharing of personal information, including the absence of required \"Do Not Sell or Share My Personal Information\" notices. CCPA and CPRA impose specific disclosure obligations on businesses that sell or share personal information, distinct from general data disclo",
+  "domain": "CCPA",
+  "category": "NOTICE",
+  "applicability": "This signal applies to: Privacy policies of businesses selling or sharing personal information Websites and mobile applications with third-party tracking or advertising Marketing platforms and data brokers Publishers with advertising networks or analytics partners E-commerce sites with affiliate programs or retargeting pixels Social media platforms and user-generated content sites Mobile applications with ad SDKs or cross-context behavioral advertising Cookie consent and preference management pl",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "transparency",
+      "privacy-notice",
+      "disclosure"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Network traffic analysis for third-party HTTP requests with personal data JavaScript analysis for tracking pixels, analytics, and advertising scripts Review of privacy policy for \"sale\" and \"sharing\" disclosures Pattern matching for third-party SDK imports and configurations Checking for \"Do Not Sell or Share My Personal Information\" links Analysis of cookie consent categories (advertising, analytics, social media) Scanning for Global Privacy Control (GPC) signal handling Review of data processing agreements with third parties The presence of this signal indicates a significant transparency gap that may expose the business to regulatory enforcement and consumer complaints, especially given the CCPA's private right of action and statutory damages",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "section": "Civil Code §1798.100",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/NOTICE/CSE-CCPA-NOTICE-NO-SALE-SHARE-DISCLOSURE-008/"
+}

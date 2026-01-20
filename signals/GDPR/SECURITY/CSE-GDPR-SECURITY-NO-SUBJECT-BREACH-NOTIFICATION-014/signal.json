@@ -1,0 +1,53 @@
+{
+  "id": "CSE-GDPR-SECURITY-NO-SUBJECT-BREACH-NOTIFICATION-014",
+  "canonical_name": "Data Subject Breach Notification Process Not Established",
+  "description": "Organization lacks a process for notifying data subjects of personal data breaches when the breach is likely to result in a high risk to their rights and freedoms. Data subject notification must be clear, direct, and timely when high risk is identified.",
+  "domain": "GDPR",
+  "category": "SECURITY",
+  "applicability": "Applicable to controllers when a breach is likely to result in high risk to data subjects. Process must include high-risk assessment criteria, notification content requirements, communication methods, timing, and exceptions where notification can be avoided through protective measures.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "compliance",
+      "breach-notification",
+      "transparency"
+    ],
+    "related_controls": [
+      "GDPR Art. 34",
+      "GDPR Art. 34.3"
+    ],
+    "detection_notes": "Detected through incident response documentation review. Look for missing data subject notification procedures, no high-risk assessment criteria, lack of notification templates, undefined communication channels, no process for mass notification, missing exceptions documentation, and absence of notification tracking. Verify process considers encryption and other protective measures that may eliminate notification requirement.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter IV - Security of Processing",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-34-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 34",
+        "section": "GDPR Art. 34",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Security of Processing",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/security/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-SUBJECT-BREACH-NOTIFICATION-014/"
+}

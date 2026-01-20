@@ -1,0 +1,57 @@
+{
+  "id": "CSE-FEDRAMP-RA-NO-RISK-ASSESSMENT-003",
+  "canonical_name": "No Risk Assessment",
+  "description": "Risk assessments are not conducted to identify threats, vulnerabilities, likelihood, impact, and risk to organizational operations and assets.",
+  "domain": "FEDRAMP",
+  "category": "RA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "risk-assessment",
+      "vulnerability-management",
+      "threat-analysis"
+    ],
+    "related_controls": [
+      "RA-3"
+    ],
+    "detection_notes": "Detection guidance: Look for missing risk assessment reports, absence of threat and vulnerability identification, no documentation of likelihood and impact analysis, lack of regular risk assessment reviews, and no evidence of risk assessment updates when significant changes occur to the system.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "RA-3",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Risk Assessment",
+        "section": "RA-3",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.fedramp.gov/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf",
+        "type": "guidance",
+        "title": "FedRAMP Vulnerability Scanning Requirements",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/RA/CSE-FEDRAMP-RA-NO-RISK-ASSESSMENT-003/"
+}

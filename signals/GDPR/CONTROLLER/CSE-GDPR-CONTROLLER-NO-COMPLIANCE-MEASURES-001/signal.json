@@ -1,0 +1,52 @@
+{
+  "id": "CSE-GDPR-CONTROLLER-NO-COMPLIANCE-MEASURES-001",
+  "canonical_name": "Compliance Measures Not Implemented",
+  "description": "The controller has not implemented appropriate technical and organizational measures to ensure and demonstrate GDPR compliance in accordance with Article 24.1. This includes failure to implement measures proportionate to processing risks and data volumes.",
+  "domain": "GDPR",
+  "category": "CONTROLLER",
+  "applicability": "Applicable to all data controllers processing personal data. Measures must be appropriate to the nature, scope, context, and purposes of processing as well as the risks to rights and freedoms of data subjects.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "accountability",
+      "compliance",
+      "data-protection"
+    ],
+    "related_controls": [
+      "GDPR Art. 24.1",
+      "GDPR Art. 5.2"
+    ],
+    "detection_notes": "Detected through assessment of organizational policies, technical controls, privacy documentation, and risk management frameworks. Requires evaluation of whether measures are appropriate and demonstrable.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter IV - Controller and Processor",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-24-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 24.1",
+        "section": "GDPR Art. 24.1",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines and Recommendations",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-COMPLIANCE-MEASURES-001/"
+}

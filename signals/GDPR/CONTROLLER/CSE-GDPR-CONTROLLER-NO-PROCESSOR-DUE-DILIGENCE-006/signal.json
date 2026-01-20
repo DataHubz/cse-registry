@@ -1,0 +1,52 @@
+{
+  "id": "CSE-GDPR-CONTROLLER-NO-PROCESSOR-DUE-DILIGENCE-006",
+  "canonical_name": "Processor Due Diligence Not Performed",
+  "description": "The controller has not conducted due diligence to ensure the processor provides sufficient guarantees to implement appropriate technical and organizational measures as required by Article 28.1. This includes failure to assess processor capabilities before engagement.",
+  "domain": "GDPR",
+  "category": "CONTROLLER",
+  "applicability": "Applicable before engaging any processor and on an ongoing basis. Controllers must verify that processors can meet GDPR requirements and protect data subject rights.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "third-party-risk",
+      "vendor-management",
+      "due-diligence"
+    ],
+    "related_controls": [
+      "GDPR Art. 28.1",
+      "GDPR Art. 32"
+    ],
+    "detection_notes": "Detected through review of vendor selection processes, security assessments, compliance evaluations, and processor oversight procedures. Requires evidence of due diligence activities.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter IV - Controller and Processor",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-28-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 28.1",
+        "section": "GDPR Art. 28.1",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines and Recommendations",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-PROCESSOR-DUE-DILIGENCE-006/"
+}

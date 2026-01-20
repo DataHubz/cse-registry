@@ -1,0 +1,48 @@
+{
+  "id": "CSE-GEN-DATA-NO-CLASSIFICATION-001",
+  "canonical_name": "Data Classification Missing",
+  "description": "No scheme for classifying data by sensitivity level (e.g., public, internal, confidential, restricted). Organizations lack a structured approach to categorizing data based on its sensitivity, value, and criticality. This signal indicates that data is not systematically labeled or classified according to its confidentiality, integrity, and availability requirements.",
+  "domain": "GEN",
+  "category": "DATA",
+  "applicability": "This signal applies to: Document management systems Database systems and data warehouses Cloud storage platforms File sharing and collaboration tools Data processing pipelines API endpoints handling various data types Information security policies and procedures",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Reviewing data governance policies for classification requirements Scanning data stores for classification metadata or labels Checking file systems for classification tags or naming conventions Examining database schemas for sensitivity indicators Interviewing data owners about classification practices The presence of this signal indicates a foundational data governance gap that may affect an organization's ability to implement appropriate security controls, access restrictions, and compliance measures.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "SC"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      },
+      {
+        "title": "OWASP Security Guidance",
+        "url": "https://owasp.org/www-project-developer-guide/",
+        "type": "guidance",
+        "authority": "OWASP"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GEN/DATA/CSE-GEN-DATA-NO-CLASSIFICATION-001/"
+}

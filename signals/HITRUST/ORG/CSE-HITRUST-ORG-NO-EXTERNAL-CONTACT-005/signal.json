@@ -1,0 +1,48 @@
+{
+  "id": "CSE-HITRUST-ORG-NO-EXTERNAL-CONTACT-005",
+  "canonical_name": "External Contact Process Missing",
+  "description": "No documented process exists for engaging with external authorities or special interest groups on security matters. This signal indicates that the organization has not established formal procedures for maintaining relationships with, reporting to, or coordinating with external entities such as law enforcement, regulatory authorities, industry groups, information sharing organizations, or security response teams (e.g., CERT/CC, ISACs).",
+  "domain": "HITRUST",
+  "category": "ORG",
+  "applicability": "This signal applies to: Incident response procedures Breach notification processes Regulatory compliance programs Information sharing agreements Law enforcement coordination Industry partnership documentation Security operations procedures Crisis management plans",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of incident response procedures Analysis of breach notification processes Examination of regulatory compliance documentation Assessment of information sharing agreements Review of law enforcement coordination procedures Inspection of industry partnership documentation Analysis of crisis management plans Evaluation of external contact lists The presence of this signal indicates a condition that warrants review in the context of external stakeholder engagement and regulatory coordination requirements.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 06 - Organization of Information Security",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "ID.GV",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-EXTERNAL-CONTACT-005/"
+}

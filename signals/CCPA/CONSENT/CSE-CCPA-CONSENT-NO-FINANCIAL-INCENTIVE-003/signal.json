@@ -1,0 +1,46 @@
+{
+  "id": "CSE-CCPA-CONSENT-NO-FINANCIAL-INCENTIVE-003",
+  "canonical_name": "Financial Incentive Notice Missing",
+  "description": "A business offers a financial incentive or price or service difference related to the collection, sale, or deletion of personal information without providing the required notice of the financial incentive. This signal indicates that a system implements differential pricing, rewards, or benefits tied to personal information practices without maintaining or presenting the mandatory disclosure explaining the material terms of the program.",
+  "domain": "CCPA",
+  "category": "CONSENT",
+  "applicability": "This signal applies to: Loyalty and rewards program platforms Subscription services with data-sharing tiers E-commerce platforms offering discounts for data collection Marketing platforms with incentive programs Mobile applications with premium/free tiers based on data sharing Retailer systems with price discrimination based on personal information Membership programs with data-related benefits",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "consent-management",
+      "privacy",
+      "data-subject-rights"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Analysis of pricing and subscription tier configurations Review of loyalty and rewards program data structures Inspection of promotional and discount systems tied to data sharing Examination of consent and notice management systems Audit of privacy notice repositories and links Evaluation of data value calculation documentation The presence of this signal indicates a condition that warrants review in the context of CCPA financial incentive disclosure requirements.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/CONSENT/CSE-CCPA-CONSENT-NO-FINANCIAL-INCENTIVE-003/"
+}

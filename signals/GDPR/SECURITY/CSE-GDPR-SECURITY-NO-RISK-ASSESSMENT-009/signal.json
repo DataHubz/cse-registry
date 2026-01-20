@@ -1,0 +1,54 @@
+{
+  "id": "CSE-GDPR-SECURITY-NO-RISK-ASSESSMENT-009",
+  "canonical_name": "Security Risk Assessment Not Performed",
+  "description": "Organization has not assessed the risks to data subject rights and freedoms when determining appropriate security measures. Risk assessment should consider likelihood and severity of risks, the nature of personal data, and the state of the art in security technology.",
+  "domain": "GDPR",
+  "category": "SECURITY",
+  "applicability": "Applicable to all personal data processing activities. Risk assessment must consider nature, scope, context, and purposes of processing, and guide selection of appropriate technical and organizational security measures proportionate to the identified risks.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "security",
+      "risk-management",
+      "compliance"
+    ],
+    "related_controls": [
+      "GDPR Art. 32.1",
+      "GDPR Art. 32.2",
+      "GDPR Art. 35"
+    ],
+    "detection_notes": "Detected through documentation review and governance assessment. Look for missing risk assessment documentation, no threat modeling, undefined risk appetite, lack of documented security controls mapping to risks, no consideration of data sensitivity levels, and absence of risk treatment plans. Verify risk assessments are updated when processing changes.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter IV - Security of Processing",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-32-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 32.1",
+        "section": "GDPR Art. 32.1",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Security of Processing",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/security/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-RISK-ASSESSMENT-009/"
+}

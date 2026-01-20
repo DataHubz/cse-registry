@@ -1,0 +1,41 @@
+{
+  "id": "CSE-NISTCSF-PS-NO-SECURE-DEV-006",
+  "canonical_name": "Secure Development Practices Not Integrated",
+  "description": "Secure software development practices are not integrated.",
+  "domain": "NISTCSF",
+  "category": "Platform Security",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection guidance: Monitor for lack of security requirements in development, missing secure coding standards, absence of code review processes, inadequate security testing, failure to track security metrics in SDLC, and missing security training for developers.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST CSF 2.0 Publication",
+        "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-20/final",
+        "type": "guidance",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      }
+    ]
+  },
+  "definition_ref": "/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-SECURE-DEV-006/"
+}

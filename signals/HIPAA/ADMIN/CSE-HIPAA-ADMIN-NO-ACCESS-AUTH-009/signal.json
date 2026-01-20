@@ -1,0 +1,45 @@
+{
+  "id": "CSE-HIPAA-ADMIN-NO-ACCESS-AUTH-009",
+  "canonical_name": "No Access Authorization",
+  "description": "No policies and procedures exist for granting access to electronic protected health information (ePHI), including workstations, transactions, programs, and processes. This signal indicates the absence of documented processes that govern how access to ePHI is requested, approved, and provisioned.",
+  "domain": "HIPAA",
+  "category": "ADMIN",
+  "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "governance",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.308(a)(4)(ii)(B)"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of access authorization policies and procedures Examination of access request and approval workflows Analysis of access provisioning documentation Verification of authorization criteria and approval authorities Assessment of access granting consistency and controls The presence of this signal indicates that access to ePHI may be granted without proper authorization or oversight.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+        "section": "164.308(a)(4)(ii)(B)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+        "type": "guidance",
+        "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+        "section": "4",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+        "type": "guidance",
+        "title": "HHS Security Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACCESS-AUTH-009/"
+}

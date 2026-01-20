@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-ACCESS-NO-AUTHORIZED-ACCESS-CONTROL-020",
+  "canonical_name": "Authorized Access Enforcement Not Implemented",
+  "description": "Systems do not enforce access decisions based on user authorization status. This signal indicates that access may be granted without verifying that users are authorized for the requested resources or operations.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to all system access control implementations. Includes authentication systems, authorization mechanisms, and access decision points across applications and infrastructure.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": [
+      "access-control",
+      "authorization",
+      "authentication"
+    ],
+    "related_controls": [
+      "CMMC AC.L1-3.1.1",
+      "NIST SP 800-171 3.1.1"
+    ],
+    "detection_notes": "Detected through access control mechanism review, authorization testing, and access decision audit.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Access Control",
+        "section": "3.1.1",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-AUTHORIZED-ACCESS-CONTROL-020/"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001",
+  "canonical_name": "Incident Response Plan Missing",
+  "description": "No documented plan for detecting, responding to, and recovering from security incidents. This signal indicates that the organization lacks formal procedures for incident handling, which may result in inconsistent or ineffective responses to security events.",
+  "domain": "GEN",
+  "category": "INCIDENT",
+  "applicability": "This signal applies to: Incident response policies and procedures Security incident documentation repositories Incident response team structures Communication and escalation procedures Recovery and business continuity processes Incident response playbooks and runbooks Security operations centers (SOCs)",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "recovery",
+      "threat-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Scanning documentation repositories for incident response plans Checking for required plan components (roles, procedures, contacts) Reviewing policy management systems Verifying plan approval and maintenance status Checking incident response team documentation The presence of this signal indicates a documentation gap that may affect the organization's ability to respond effectively to security incidents.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "IR"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GEN/INCIDENT/CSE-GEN-INCIDENT-NO-RESPONSE-PLAN-001/"
+}

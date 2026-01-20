@@ -1,0 +1,51 @@
+{
+  "id": "CSE-GDPR-IMPACT-NO-PRIOR-CONSULTATION-004",
+  "canonical_name": "Prior Consultation Not Conducted",
+  "description": "Controller has not consulted the supervisory authority prior to processing when DPIA indicates high risk that cannot be mitigated. Article 36 requires prior consultation when DPIA shows residual high risk.",
+  "domain": "GDPR",
+  "category": "IMPACT",
+  "applicability": "Applicable when DPIA indicates processing would result in high risk in absence of measures to mitigate the risk, and controller intends to proceed with processing.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": [
+      "data-protection",
+      "regulatory-compliance",
+      "supervisory-authority"
+    ],
+    "related_controls": [
+      "GDPR Art. 36"
+    ],
+    "detection_notes": "Detected through review of DPIAs with high residual risk and absence of supervisory authority consultation records.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter IV - Data Protection Impact Assessment",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-36-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 36",
+        "section": "GDPR Art. 36",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Data Protection Impact Assessment",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/data-protection-impact-assessments-dpias/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/IMPACT/CSE-GDPR-IMPACT-NO-PRIOR-CONSULTATION-004/"
+}

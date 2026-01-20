@@ -1,0 +1,51 @@
+{
+  "id": "CSE-GDPR-CHILDREN-NO-PARENTAL-CONSENT-002",
+  "canonical_name": "Parental Consent Not Obtained",
+  "description": "Parental consent has not been obtained or verified for processing personal data of children below the age of digital consent. Article 8.1 requires consent to be given or authorized by holder of parental responsibility for children.",
+  "domain": "GDPR",
+  "category": "CHILDREN",
+  "applicability": "Applicable when processing children's data based on consent for information society services. Parent or guardian must provide or authorize consent for children below applicable age threshold.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": [
+      "data-protection",
+      "children",
+      "parental-consent"
+    ],
+    "related_controls": [
+      "GDPR Art. 8.1"
+    ],
+    "detection_notes": "Detected through review of consent processes for child users and absence of parental consent collection or authorization mechanisms.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter II - Conditions for Child Consent",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-8-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 8.1",
+        "section": "GDPR Art. 8.1",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines and Recommendations",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/children-and-the-uk-gdpr/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/CHILDREN/CSE-GDPR-CHILDREN-NO-PARENTAL-CONSENT-002/"
+}

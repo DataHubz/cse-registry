@@ -1,0 +1,41 @@
+{
+  "id": "CSE-CIS-AUDIT-NO-DNS-LOGGING-005",
+  "canonical_name": "DNS Query Logging Missing",
+  "description": "DNS query logging is not enabled or configured across the organization's DNS infrastructure. This signal indicates that DNS queries from internal systems are not being logged, preventing the detection of DNS-based attacks, command and control communication, data exfiltration attempts, or reconnaissance activities.",
+  "domain": "CIS",
+  "category": "AUDIT",
+  "applicability": "This signal applies to: Internal DNS servers (BIND, Windows DNS, dnsmasq) Cloud DNS services (Route 53, Azure DNS, Cloud DNS) DNS filtering and security services Recursive DNS resolvers Authoritative DNS servers DNS firewalls and security gateways Network security monitoring tools SIEM and log aggregation platforms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "audit-logging",
+      "monitoring",
+      "detection"
+    ],
+    "detection_notes": "Review CIS compliance documentation and controls for AUDIT requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 8: Audit Log Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-DNS-LOGGING-005/"
+}

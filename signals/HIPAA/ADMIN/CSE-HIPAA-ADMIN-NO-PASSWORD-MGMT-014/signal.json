@@ -1,0 +1,45 @@
+{
+  "id": "CSE-HIPAA-ADMIN-NO-PASSWORD-MGMT-014",
+  "canonical_name": "No Password Management",
+  "description": "No procedures exist for creating, changing, and safeguarding passwords used to authenticate users and protect electronic protected health information (ePHI). This signal indicates the absence of documented password management practices to ensure secure authentication to ePHI systems.",
+  "domain": "HIPAA",
+  "category": "ADMIN",
+  "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "governance",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.308(a)(5)(ii)(D)"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of password management policies and procedures Examination of password complexity and expiration requirements Analysis of password creation and change workflows Verification of password storage and transmission security Assessment of password safeguarding practices and user education The presence of this signal indicates that weak or compromised passwords may provide unauthorized access to ePHI.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart C - Administrative Safeguards",
+        "section": "164.308(a)(5)(ii)(D)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+        "type": "guidance",
+        "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+        "section": "4",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+        "type": "guidance",
+        "title": "HHS Security Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-PASSWORD-MGMT-014/"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "CSE-HIPAA-PHYSICAL-NO-ACCESS-CONTROL-003",
+  "canonical_name": "No Access Control and Validation Procedures",
+  "description": "No procedures to control and validate physical access based on role or function, including visitor control.",
+  "domain": "HIPAA",
+  "category": "PHYSICAL",
+  "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "asset-protection",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.310(a)(2)(iii)"
+    ],
+    "detection_notes": "Detection guidance: Review physical access control procedures including badge systems, visitor logs, and escort requirements. Verify that access is granted based on role-based authorization and that validation mechanisms are in place. Check for documented visitor management procedures, sign-in/sign-out logs, and controls for accessing areas with development or testing systems.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart C - Physical Safeguards",
+        "section": "164.310(a)(2)(iii)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+        "type": "guidance",
+        "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+        "section": "5",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+        "type": "guidance",
+        "title": "HHS Security Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-ACCESS-CONTROL-003/"
+}

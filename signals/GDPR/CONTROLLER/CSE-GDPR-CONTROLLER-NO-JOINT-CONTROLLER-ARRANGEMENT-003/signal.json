@@ -1,0 +1,51 @@
+{
+  "id": "CSE-GDPR-CONTROLLER-NO-JOINT-CONTROLLER-ARRANGEMENT-003",
+  "canonical_name": "Joint Controller Arrangement Not Established",
+  "description": "Where two or more controllers jointly determine purposes and means of processing, no arrangement exists defining their respective responsibilities for GDPR compliance as required by Article 26. This includes failure to transparently communicate the arrangement to data subjects.",
+  "domain": "GDPR",
+  "category": "CONTROLLER",
+  "applicability": "Applicable when multiple entities jointly determine the purposes and means of processing personal data. Requires documented arrangements specifying compliance responsibilities and transparent communication to data subjects.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "accountability",
+      "governance",
+      "third-party-risk"
+    ],
+    "related_controls": [
+      "GDPR Art. 26"
+    ],
+    "detection_notes": "Detected through review of partnership agreements, data sharing arrangements, and multi-party processing scenarios. Requires assessment of whether joint determination exists and if responsibilities are documented.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter IV - Controller and Processor",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-26-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 26",
+        "section": "GDPR Art. 26",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines and Recommendations",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/CONTROLLER/CSE-GDPR-CONTROLLER-NO-JOINT-CONTROLLER-ARRANGEMENT-003/"
+}

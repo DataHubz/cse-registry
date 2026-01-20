@@ -1,0 +1,47 @@
+{
+  "id": "CSE-CCPA-NOTICE-NO-PRIVACY-POLICY-001",
+  "canonical_name": "Privacy Policy Missing",
+  "description": "A business subject to CCPA requirements does not maintain or make available a privacy policy that is reasonably accessible to consumers. This signal indicates the absence of a required privacy policy document or the inability to locate such a policy through normal consumer access paths. The privacy policy must be posted online and updated at least once every 12 months to comply with CCPA notice requirements.",
+  "domain": "CCPA",
+  "category": "NOTICE",
+  "applicability": "This signal applies to: Business websites and mobile applications collecting personal information Online services and platforms subject to CCPA E-commerce platforms operating in or targeting California SaaS applications processing California consumer data Any business meeting CCPA applicability thresholds Marketing websites with contact forms or tracking technologies Customer portals and authentication systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "transparency",
+      "privacy-notice",
+      "disclosure"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Scanning website footer and header navigation for privacy policy links Checking mobile app metadata and configuration files Reviewing API documentation for privacy policy references Verifying accessibility of privacy policy URLs (200 HTTP status) Checking for robots.txt or noindex directives blocking policy access Reviewing app store listings for privacy policy URLs The presence of this signal indicates a foundational gap in CCPA compliance infrastructure that warrants immediate attention.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "section": "Civil Code §1798.100",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/NOTICE/CSE-CCPA-NOTICE-NO-PRIVACY-POLICY-001/"
+}

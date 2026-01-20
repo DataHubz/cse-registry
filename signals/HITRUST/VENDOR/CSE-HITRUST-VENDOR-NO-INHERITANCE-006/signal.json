@@ -1,0 +1,40 @@
+{
+  "id": "CSE-HITRUST-VENDOR-NO-INHERITANCE-006",
+  "canonical_name": "Control Inheritance Not Documented",
+  "description": "Detects the absence of documented control inheritance from vendors and third-party service providers. Organizations must formally document which security controls are inherited from vendors, verify vendor implementation and effectiveness of inherited controls, maintain evidence of vendor compliance, and understand the shared responsibility model to ensure comprehensive security coverage and avoid gaps in control implementation.",
+  "domain": "HITRUST",
+  "category": "VENDOR",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector Organizations using cloud services, SaaS, or managed services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "vendor-management",
+      "third-party-risk",
+      "supply-chain"
+    ],
+    "detection_notes": "Review HITRUST compliance documentation and controls for VENDOR requirements.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-INHERITANCE-006/"
+}

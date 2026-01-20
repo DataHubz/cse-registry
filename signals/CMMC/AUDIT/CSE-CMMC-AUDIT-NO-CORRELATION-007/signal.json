@@ -1,0 +1,47 @@
+{
+  "id": "CSE-CMMC-AUDIT-NO-CORRELATION-007",
+  "canonical_name": "Audit Record Correlation Not Implemented",
+  "description": "Audit records from different sources are not correlated to identify patterns indicating potential security incidents. This signal indicates that coordinated attacks or complex incidents may go undetected.",
+  "domain": "CMMC",
+  "category": "AUDIT",
+  "applicability": "Applicable to organizations with multiple log sources. Includes SIEM correlation rules, cross-system event analysis, and automated threat detection based on log patterns.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "audit",
+      "threat-detection",
+      "incident-response"
+    ],
+    "related_controls": [
+      "CMMC AU.L2-3.3.1",
+      "CMMC AU.L2-3.3.2",
+      "NIST SP 800-171 3.3.1",
+      "NIST SP 800-171 3.3.2"
+    ],
+    "detection_notes": "Detected through SIEM correlation rule review, automated alerting assessment, and cross-system analysis capability verification.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Audit and Accountability",
+        "section": "3.3.1",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-CORRELATION-007/"
+}

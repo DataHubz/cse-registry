@@ -1,0 +1,51 @@
+{
+  "id": "CSE-FEDRAMP-IA-NO-IDENT-POLICY-001",
+  "canonical_name": "No Identification and Authentication Policy",
+  "description": "Identification and authentication policy and procedures are not developed, documented, and maintained.",
+  "domain": "FEDRAMP",
+  "category": "IA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "identity",
+      "authentication",
+      "credential-management"
+    ],
+    "related_controls": [
+      "IA-1"
+    ],
+    "detection_notes": "Detection guidance: Look for missing identification and authentication policy documentation, outdated procedures, lack of policy dissemination evidence, absence of defined roles and responsibilities for managing user identities and authentication mechanisms, and missing policy review and update schedules.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "IA-1",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Identification and Authentication",
+        "section": "IA-1",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-IDENT-POLICY-001/"
+}

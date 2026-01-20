@@ -1,0 +1,54 @@
+{
+  "id": "CSE-GDPR-SECURITY-NO-BREACH-NOTIFICATION-PROCESS-012",
+  "canonical_name": "Breach Notification Process Not Established",
+  "description": "Organization lacks a documented process for notifying supervisory authorities of personal data breaches within 72 hours. A breach notification process must include incident assessment, notification procedures, contact information, and decision workflows.",
+  "domain": "GDPR",
+  "category": "SECURITY",
+  "applicability": "Applicable to all controllers and processors. Controllers must notify supervisory authority within 72 hours unless breach is unlikely to result in risk. Processors must notify controllers without undue delay. Process must cover breach assessment, notification content, escalation, and timing.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": [
+      "data-protection",
+      "compliance",
+      "breach-notification",
+      "incident-response"
+    ],
+    "related_controls": [
+      "GDPR Art. 33.1",
+      "GDPR Art. 33.2",
+      "GDPR Art. 33.3"
+    ],
+    "detection_notes": "Detected through incident response plan review. Look for missing breach notification procedures, no supervisory authority contact information, undefined notification timelines, lack of breach assessment criteria, no notification templates, unclear roles and responsibilities, and absence of processor notification obligations in contracts. Verify process includes 72-hour deadline tracking.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter IV - Security of Processing",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-33-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 33.1",
+        "section": "GDPR Art. 33.1",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Security of Processing",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/security/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-BREACH-NOTIFICATION-PROCESS-012/"
+}

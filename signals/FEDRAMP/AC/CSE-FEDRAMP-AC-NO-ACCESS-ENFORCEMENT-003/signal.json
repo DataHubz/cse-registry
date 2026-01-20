@@ -1,0 +1,51 @@
+{
+  "id": "CSE-FEDRAMP-AC-NO-ACCESS-ENFORCEMENT-003",
+  "canonical_name": "No Access Enforcement",
+  "description": "Access enforcement mechanisms are not implemented to control access to system resources based on approved authorizations.",
+  "domain": "FEDRAMP",
+  "category": "AC",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "related_controls": [
+      "AC-3"
+    ],
+    "detection_notes": "Detection guidance: Look for missing role-based access controls (RBAC), lack of mandatory access controls (MAC), absence of discretionary access controls (DAC), no enforcement of authorization policies, and systems allowing unauthorized access to resources.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "AC-3",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Access Control",
+        "section": "AC-3",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/AC/CSE-FEDRAMP-AC-NO-ACCESS-ENFORCEMENT-003/"
+}

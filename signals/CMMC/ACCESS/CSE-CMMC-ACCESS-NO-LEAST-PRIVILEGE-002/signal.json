@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-ACCESS-NO-LEAST-PRIVILEGE-002",
+  "canonical_name": "Least Privilege Not Enforced",
+  "description": "Access permissions granted to users, accounts, or processes exceed what is necessary to perform assigned duties or functions. This signal indicates that the principle of least privilege is not applied, resulting in broader access rights than required for the intended purpose.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to any system, application, or service where user or process permissions are configured. Includes IAM policies, role-based access control systems, file system permissions, database grants, and service account configurations.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "privilege-management"
+    ],
+    "related_controls": [
+      "CMMC AC.L2-3.1.5",
+      "CMMC AC.L2-3.1.6",
+      "NIST SP 800-171 3.1.5"
+    ],
+    "detection_notes": "Detected through analysis of IAM policies, role assignments, and permission configurations. May involve comparison of granted permissions against documented job functions or access requirements.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Access Control",
+        "section": "3.1.5",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-LEAST-PRIVILEGE-002/"
+}

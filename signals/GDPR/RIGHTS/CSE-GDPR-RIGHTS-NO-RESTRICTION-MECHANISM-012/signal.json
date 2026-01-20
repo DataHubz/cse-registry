@@ -1,0 +1,51 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-RESTRICTION-MECHANISM-012",
+  "canonical_name": "Processing Restriction Mechanism Missing",
+  "description": "No mechanism exists to restrict processing of personal data when applicable conditions are met, such as during accuracy verification or when processing is contested.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable when data subjects request restriction under Article 18 conditions. Must be able to limit processing while retaining data.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "data-subject-rights",
+      "restriction"
+    ],
+    "related_controls": [
+      "GDPR Art. 18"
+    ],
+    "detection_notes": "Detected through review of data processing controls and restriction capabilities. Verify ability to flag and limit processing of specific data records.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter III - Rights of the Data Subject",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-18-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 18",
+        "section": "GDPR Art. 18",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Data Subject Rights",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-RESTRICTION-MECHANISM-012/"
+}

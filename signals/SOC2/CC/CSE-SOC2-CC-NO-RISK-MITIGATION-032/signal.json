@@ -1,0 +1,44 @@
+{
+  "id": "CSE-SOC2-CC-NO-RISK-MITIGATION-032",
+  "canonical_name": "No Risk Mitigation Activities",
+  "description": "The entity does not identify, select, and develop risk mitigation activities for risks arising from potential business disruptions.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Business continuity planning, risk treatment",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "Risk Management",
+      "Business Continuity",
+      "Disaster Recovery"
+    ],
+    "related_controls": [
+      "SOC 2 CC9.1"
+    ],
+    "detection_notes": "Review business continuity plans, disaster recovery procedures, risk assessments, and mitigation strategies. Verify risk mitigation activities are identified and implemented for business disruption scenarios.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - CC9 Risk Mitigation",
+        "section": "CC9",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.coso.org/guidance-on-ic",
+        "type": "guidance",
+        "title": "COSO Internal Control - Integrated Framework",
+        "authority": "COSO"
+      }
+    ]
+  },
+  "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-RISK-MITIGATION-032/"
+}

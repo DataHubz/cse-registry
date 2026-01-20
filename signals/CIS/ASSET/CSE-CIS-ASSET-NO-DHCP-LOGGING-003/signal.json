@@ -1,0 +1,40 @@
+{
+  "id": "CSE-CIS-ASSET-NO-DHCP-LOGGING-003",
+  "canonical_name": "DHCP Logging Not Implemented",
+  "description": "This signal detects when DHCP server logging is not enabled or not being actively monitored to identify new or unauthorized assets connecting to the network. DHCP logs provide valuable information about devices requesting network access, including MAC addresses, hostnames, and IP assignments. Without DHCP logging, organizations lose a critical detection mechanism for unauthorized or unknown devices joining their network infrastructure.",
+  "domain": "CIS",
+  "category": "ASSET",
+  "applicability": "Enterprise IT environments Cloud infrastructure with managed DHCP services On-premises data centers Remote/hybrid work environments Branch office networks Wireless networks (corporate and guest)",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "asset-management",
+      "inventory",
+      "visibility"
+    ],
+    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **DHCP Server Configuration**: Logging disabled in DHCP server settings (dhcpd.conf, Windows DHCP, etc.) 2. **No Log Forwarding**: DHCP logs not sent to centralized logging or SIEM 3. **Insufficient Retention**: DHCP logs retained for inadequate periods or rotated too frequently 4. **Missing Alerting**: No automated alerts on new MAC addresses or unusual DHCP activity 5. **No Log Analysis**: DHCP logs exist but are never reviewed or parsed 6. **Cloud DHCP Visibility**: Cloud-managed DHCP services not configured to export logs ### Key DHCP Log Information DHCP logs typically contain: **MAC Address**: Hardware identifier of the requesting device **Hostname**: Device name (if provided in DHCP request) **IP Address Assigned**: Netw",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/ASSET/CSE-CIS-ASSET-NO-DHCP-LOGGING-003/"
+}

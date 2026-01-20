@@ -1,0 +1,51 @@
+{
+  "id": "CSE-GDPR-CONSENT-NO-SPECIFIC-002",
+  "canonical_name": "Consent Not Specific",
+  "description": "Consent is not specific to particular processing purposes or covers multiple purposes without granular options. Article 7 requires consent to be specific, and separate consent should be obtained for different processing operations.",
+  "domain": "GDPR",
+  "category": "CONSENT",
+  "applicability": "Applicable when seeking consent for processing activities. Each distinct processing purpose requires separate, specific consent. Blanket consent is not valid under GDPR.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "consent-validity",
+      "transparency"
+    ],
+    "related_controls": [
+      "GDPR Art. 7"
+    ],
+    "detection_notes": "Detected through review of consent forms and identification of bundled purposes or vague consent requests without granular options.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter II - Conditions for Consent",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-7-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 7",
+        "section": "GDPR Art. 7",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Consent",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/CONSENT/CSE-GDPR-CONSENT-NO-SPECIFIC-002/"
+}

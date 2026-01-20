@@ -1,0 +1,48 @@
+{
+  "id": "CSE-HITRUST-INCIDENT-NO-REPORTING-002",
+  "canonical_name": "Incident Reporting Missing",
+  "description": "Information security events have not been reported through appropriate management channels as quickly as possible, or reporting mechanisms and procedures have not been established. This signal indicates that an organization has not implemented formal incident reporting procedures that enable timely notification of security events to appropriate stakeholders and management.",
+  "domain": "HITRUST",
+  "category": "INCIDENT",
+  "applicability": "This signal applies to: Healthcare organizations with HIPAA breach notification requirements Financial institutions subject to regulatory reporting obligations Organizations processing payment card data under PCI DSS Cloud service providers with customer notification requirements Government contractors with incident reporting mandates Organizations subject to GDPR breach notification requirements Publicly traded companies with disclosure obligations Managed service providers with contractual rep",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "incident-response",
+      "threat-management",
+      "recovery"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of incident reporting documentation Examination of escalation procedures Analysis of communication protocols Review of management notification processes Inspection of regulatory reporting procedures Assessment of incident tracking systems The presence of this signal indicates a condition that warrants review in the context of information security incident management requirements.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 16 - Security Incident Management",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "RS.RP",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-REPORTING-002/"
+}

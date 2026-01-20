@@ -1,0 +1,41 @@
+{
+  "id": "CSE-GEN-IDENTITY-NO-DEPROVISIONING-003",
+  "canonical_name": "Access Deprovisioning Missing",
+  "description": "No process exists for promptly revoking user access when individuals leave the organization or change roles. This signal indicates that accounts remain active after employment termination or role changes, creating security risks from orphaned credentials and excessive permissions.",
+  "domain": "GEN",
+  "category": "IDENTITY",
+  "applicability": "This signal applies to: Employee termination procedures Role change and transfer processes Cloud platform accounts (AWS, Azure, GCP) Application and system access VPN and remote access credentials Email and collaboration platform accounts Privileged access removal Contractor and vendor access termination Service account lifecycle management",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of termination and offboarding procedures Assessment of HR-to-IT notification mechanisms Analysis of account activity vs. employment status Examination of dormant account policies Comparison of active accounts against HR records Review of role change procedures Analysis of time between termination and access removal Audit of accounts with no recent authentication The presence of this signal indicates a critical gap in identity lifecycle management that can lead to unauthorized access, data breaches, and compliance violations.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GEN/IDENTITY/CSE-GEN-IDENTITY-NO-DEPROVISIONING-003/"
+}

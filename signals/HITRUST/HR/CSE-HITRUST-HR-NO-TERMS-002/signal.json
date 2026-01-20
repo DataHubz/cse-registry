@@ -1,0 +1,51 @@
+{
+  "id": "CSE-HITRUST-HR-NO-TERMS-002",
+  "canonical_name": "Employment Terms Not Defined",
+  "description": "Security roles, responsibilities, and expectations are not formally defined or documented in employment terms and conditions. This creates ambiguity around workforce member obligations regarding information security, confidentiality, and acceptable use of organizational systems and data. This signal indicates that employment agreements, contracts, or onboarding documentation lack explicit security-related terms, leaving personnel unclear about their security duties and potential consequences of",
+  "domain": "HITRUST",
+  "category": "HR",
+  "applicability": "Employment contracts and offer letters Contractor and vendor agreements Third-party service provider contracts Non-disclosure agreements (NDAs) Acceptable use policies (AUPs) Code of conduct documentation Job descriptions for security-sensitive roles Terms of service for system access",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "02.b - Human Resources Security - Terms and Conditions of Employment"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of employment contract templates and standard agreements Examination of contractor and vendor contract language Analysis of job descriptions and role definitions Verification of security policy acknowledgment processes Assessment of onboarding documentation completeness Review of acceptable use policy distribution and acknowledgment Evaluation of confidentiality agreement coverage The presence of this signal indicates that workforce members may not understand their security obligations, reducing accountability and increasing the risk of inadvertent or intentional security violations.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 07 - Human Resource Security",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.AT",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/HR/CSE-HITRUST-HR-NO-TERMS-002/"
+}

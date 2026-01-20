@@ -1,0 +1,41 @@
+{
+  "id": "CSE-GEN-GOVERN-NO-SECURITY-ROLES-003",
+  "canonical_name": "Security Roles Missing",
+  "description": "No defined security responsibilities, roles, or organizational structure exists for security management and oversight within the organization. This signal indicates that security accountability is unclear, with no formally assigned personnel responsible for security functions, decision-making, or program oversight.",
+  "domain": "GEN",
+  "category": "GOVERN",
+  "applicability": "This signal applies to: Organizations of all sizes and industries Cloud service providers and platforms Managed service providers Software development organizations Healthcare organizations Financial services institutions Government contractors Organizations with compliance requirements Distributed and remote teams Organizations undergoing growth or transformation",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of organizational charts and reporting structures Examination of job descriptions and role definitions Interviews with management and personnel Review of security program documentation Assessment of governance processes Audit findings and compliance reports Review of RACI or responsibility matrices The presence of this signal indicates a governance gap that can lead to: Unclear accountability for security outcomes Gaps in security coverage Delayed incident response Inconsistent security practices Difficulty meeting compliance requirements Confusion during audits or incidents Organizations should establish clear security roles and responsibilities by: Designating security leadership (CISO or equivalent) Defining security team structure and",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GEN/GOVERN/CSE-GEN-GOVERN-NO-SECURITY-ROLES-003/"
+}

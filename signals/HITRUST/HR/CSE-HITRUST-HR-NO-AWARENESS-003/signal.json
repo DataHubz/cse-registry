@@ -1,0 +1,51 @@
+{
+  "id": "CSE-HITRUST-HR-NO-AWARENESS-003",
+  "canonical_name": "Security Awareness Training Missing",
+  "description": "No security awareness training program exists for workforce members, or existing training is inadequate, incomplete, or not regularly updated. This creates significant risk as personnel may lack the knowledge to identify and respond to security threats, comply with policies, or protect sensitive information. This signal indicates that employees, contractors, and third-party users do not receive appropriate education on security risks, organizational policies, regulatory requirements, and their i",
+  "domain": "HITRUST",
+  "category": "HR",
+  "applicability": "New employee onboarding programs Annual security awareness refresher training Role-based security training (e.g., privileged users, developers) Contractor and vendor personnel training Phishing and social engineering awareness campaigns Incident response and reporting training Privacy and data protection education Regulatory compliance training (HIPAA, GDPR, etc.) Security policy acknowledgment and training Specialized training for high-risk roles",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "02.c - Human Resources Security - Information Security Awareness, Education, and Training"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of security awareness program documentation Examination of training content, curriculum, and materials Analysis of training completion rates and tracking records Verification of training frequency and update cycles Assessment of training relevance to current threat landscape Review of role-based training programs for specialized roles Evaluation of new hire onboarding training processes Analysis of training effectiveness metrics and testing Verification of contractor and third-party training requirements The presence of this signal indicates that workforce members may be vulnerable to social engineering, phishing, and other attacks, and may inadvertently violate security policies or regulatory requirements due to lack of knowledge.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 07 - Human Resource Security",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.AT",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/HR/CSE-HITRUST-HR-NO-AWARENESS-003/"
+}

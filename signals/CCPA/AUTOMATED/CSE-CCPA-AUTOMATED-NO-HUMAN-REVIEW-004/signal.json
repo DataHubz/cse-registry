@@ -1,0 +1,46 @@
+{
+  "id": "CSE-CCPA-AUTOMATED-NO-HUMAN-REVIEW-004",
+  "canonical_name": "Human Review Not Available",
+  "description": "A business makes consequential automated decisions about consumers but does not provide a process for human review or intervention when consumers request it or when circumstances warrant it. Human oversight is essential for ensuring fairness and accountability in automated decision-making, particularly for decisions with significant impacts. This signal indicates that businesses lack processes, staffing, or technical infrastructure to provide meaningful human review of automated decisions, leavi",
+  "domain": "CCPA",
+  "category": "AUTOMATED",
+  "applicability": "This signal applies to: Financial institutions making automated lending or credit decisions Employers using automated hiring, promotion, or termination systems Insurance companies with automated claims denial or pricing Healthcare providers using automated treatment or coverage decisions Educational platforms making automated admissions or scholarship decisions Content platforms with automated account suspension or content removal Government services using automated benefit eligibility determina",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of automated decision systems for human review escalation paths Analysis of business processes for human oversight and intervention Assessment of staffing and resources allocated to reviewing automated decisions Testing of appeal and dispute resolution mechanisms Inspection of decision confidence thresholds that trigger human review Review of quality assurance processes for automated decision outputs Evaluation of technical infrastructure for routing cases to human reviewers Analysis of response procedures when consumers contest automated decisions The presence of this signal indicates a condition that warrants review in the context of CPRA requirements for human oversight of automated decision-making.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/AUTOMATED/CSE-CCPA-AUTOMATED-NO-HUMAN-REVIEW-004/"
+}

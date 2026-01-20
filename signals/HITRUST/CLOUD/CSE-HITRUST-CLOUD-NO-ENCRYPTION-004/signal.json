@@ -1,0 +1,40 @@
+{
+  "id": "CSE-HITRUST-CLOUD-NO-ENCRYPTION-004",
+  "canonical_name": "Cloud Encryption Missing",
+  "description": "Encryption controls for data at rest and in transit have not been implemented or properly configured in cloud environments storing or processing protected health information (PHI) or sensitive data. This signal indicates the absence of adequate encryption mechanisms in cloud infrastructure, including storage encryption, database encryption, transmission encryption, and key management. Cloud encryption should protect data confidentiality using industry-standard cryptographic algorithms and proper",
+  "domain": "HITRUST",
+  "category": "CLOUD",
+  "applicability": "This signal applies to: Cloud storage services (object storage, block storage, file storage) Cloud databases and data warehouses Virtual machine disk encryption Cloud-based messaging and queuing services Cloud API communications and data transfers Cloud backup and snapshot encryption Container and Kubernetes persistent volumes",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of cloud storage configuration settings Assessment of database encryption settings Examination of virtual machine disk encryption status Verification of TLS/SSL configuration for APIs and services Review of encryption key management practices Analysis of data classification and encryption requirements Assessment of cloud provider encryption capabilities Validation of encryption-in-transit policies The presence of this signal indicates a critical security gap that exposes sensitive data to unauthorized access and may violate regulatory requirements such as HIPAA, requiring immediate attention.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-ENCRYPTION-004/"
+}

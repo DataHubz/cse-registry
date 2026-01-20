@@ -1,0 +1,48 @@
+{
+  "id": "CSE-GEN-CRYPTO-WEAK-ALGORITHMS-004",
+  "canonical_name": "Weak Cryptographic Algorithms Used",
+  "description": "Deprecated or cryptographically weak algorithms are in use (e.g., MD5, SHA-1, DES, RC4). This signal indicates that systems are using cryptographic algorithms that have known vulnerabilities, have been deprecated by standards bodies, or provide insufficient security for modern threat environments. Use of weak algorithms can enable attacks such as collision attacks, brute force decryption, or cryptanalysis.",
+  "domain": "GEN",
+  "category": "CRYPTO",
+  "applicability": "This signal applies to: Encryption implementations in applications Hash functions for password storage or integrity checking TLS/SSL configurations for web servers and APIs Digital signature implementations VPN and network encryption protocols Database encryption configurations Code signing and software distribution Blockchain and cryptocurrency implementations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "cryptography",
+      "encryption",
+      "key-management"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Static code analysis for deprecated cryptographic API usage TLS/SSL configuration scanning for weak protocols and cipher suites Reviewing cryptographic library configurations Analyzing certificate signature algorithms Checking password hashing implementations Scanning for legacy encryption protocols in network traffic Reviewing infrastructure-as-code for weak algorithm specifications Examining third-party dependencies for outdated crypto libraries Recommended strong alternatives: **Hash Functions**: SHA-256, SHA-384, SHA-512, SHA-3, BLAKE2 **Symmetric Encryption**: AES-256, ChaCha20 **Asymmetric Encryption**: RSA >= 2048 bits, ECDSA (P-256 or higher), Ed25519 **TLS/SSL Protocols**: TLS 1.2 (minimum), TLS 1.3 (preferred) **Key Derivation**: Argon",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST",
+        "section": "SC"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      },
+      {
+        "title": "OWASP Security Guidance",
+        "url": "https://owasp.org/www-project-developer-guide/",
+        "type": "guidance",
+        "authority": "OWASP"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GEN/CRYPTO/CSE-GEN-CRYPTO-WEAK-ALGORITHMS-004/"
+}

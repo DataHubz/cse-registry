@@ -1,0 +1,41 @@
+{
+  "id": "CSE-GEN-GOVERN-NO-SECURITY-POLICY-001",
+  "canonical_name": "Information Security Policy Missing",
+  "description": "No documented information security policies exist that define security objectives, responsibilities, and acceptable use of information systems and resources. This signal indicates that an organization lacks formalized security policies to govern how information assets should be protected, how personnel should handle sensitive data, and what security practices are expected.",
+  "domain": "GEN",
+  "category": "GOVERN",
+  "applicability": "This signal applies to: Enterprise organizations of all sizes Cloud service providers Healthcare organizations handling PHI Financial services institutions Government contractors Organizations processing payment card data Any organization with regulatory compliance requirements Software development organizations Service providers handling customer data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Document review and gap analysis Interviews with management and security personnel Review of governance documentation repositories Assessment of security program maturity Audit findings and compliance reports Review of employee onboarding materials The presence of this signal indicates a fundamental governance gap that affects the organization's ability to establish consistent security practices and demonstrate compliance with regulatory requirements. Organizations should prioritize developing and documenting security policies as a foundation for their security program. Policies should be: Approved by management Communicated to all relevant personnel Reviewed and updated regularly Aligned with business objectives and risk appetite Mapped to appl",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GEN/GOVERN/CSE-GEN-GOVERN-NO-SECURITY-POLICY-001/"
+}

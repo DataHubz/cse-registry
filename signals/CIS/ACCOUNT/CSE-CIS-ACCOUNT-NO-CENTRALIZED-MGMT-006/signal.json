@@ -1,0 +1,40 @@
+{
+  "id": "CSE-CIS-ACCOUNT-NO-CENTRALIZED-MGMT-006",
+  "canonical_name": "Centralized Account Management Missing",
+  "description": "The organization does not use a centralized authentication and authorization system for managing user accounts across enterprise assets and applications. This signal indicates that account management is performed using disparate, disconnected systems, local account databases, or manual processes across different platforms and services. Without centralized management, organizations face challenges in maintaining consistent access controls, enforcing uniform security policies, efficiently provisio",
+  "domain": "CIS",
+  "category": "ACCOUNT",
+  "applicability": "This signal applies to: Enterprise identity and access management (IAM) systems Active Directory or LDAP directory services Cloud identity providers (Azure AD, Okta, Google Workspace) Single Sign-On (SSO) solutions Privileged Access Management (PAM) platforms Application authentication systems Database user management Network device authentication (RADIUS, TACACS+) SaaS application user provisioning Multi-cloud account federation",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "account-management",
+      "identity",
+      "credential-security"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Architectural review of identity and access management systems Inventory of authentication systems across the organization Assessment of SSO and federation implementations Evaluation of user provisioning and deprovisioning workflows Analysis of directory service integration with applications and systems Review of SCIM or automated provisioning capabilities Examination of identity lifecycle management processes Assessment of password synchronization or federation mechanisms The presence of this signal indicates significant operational and security challenges, including: Increased risk of orphaned accounts after employee termination Difficulty enforcing consistent security policies Higher administrative overhead for account management Reduced visi",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-CENTRALIZED-MGMT-006/"
+}

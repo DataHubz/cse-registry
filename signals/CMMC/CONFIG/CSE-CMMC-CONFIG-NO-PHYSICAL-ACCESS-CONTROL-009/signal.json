@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-CONFIG-NO-PHYSICAL-ACCESS-CONTROL-009",
+  "canonical_name": "Physical Access to System Components Not Controlled",
+  "description": "Physical access to system hardware and components is not restricted to authorized personnel. This signal indicates that unauthorized individuals may gain physical access to equipment, enabling tampering or theft.",
+  "domain": "CMMC",
+  "category": "CONFIG",
+  "applicability": "Applicable to all physical system components. Includes server rooms, network closets, workstation security, and portable device controls.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "configuration-management",
+      "physical-security",
+      "access-control"
+    ],
+    "related_controls": [
+      "CMMC PE.L1-3.10.1",
+      "NIST SP 800-171 3.10.1"
+    ],
+    "detection_notes": "Detected through physical security assessment, access control mechanism review, and physical access log analysis.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Configuration Management",
+        "section": "3.10.1",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-PHYSICAL-ACCESS-CONTROL-009/"
+}

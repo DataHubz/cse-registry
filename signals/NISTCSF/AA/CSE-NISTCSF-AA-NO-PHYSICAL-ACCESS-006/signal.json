@@ -1,0 +1,40 @@
+{
+  "id": "CSE-NISTCSF-AA-NO-PHYSICAL-ACCESS-006",
+  "canonical_name": "No Physical Access Controls",
+  "description": "Physical access to assets is not managed, monitored, and enforced.",
+  "domain": "NISTCSF",
+  "category": "AA",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Identity and access management teams Security awareness and training programs Organizations managing user authentication",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Detection guidance: Identify facilities, data centers, and equipment locations where physical access controls are absent or inadequate, including lack of access management procedures, missing monitoring capabilities (such as surveillance or access logs), or insufficient enforcement mechanisms relative to the criticality and sensitivity of assets.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework 2.0",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-20/final",
+        "type": "guidance",
+        "title": "NIST CSF 2.0 Publication",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "authority": "NIST"
+      }
+    ]
+  },
+  "definition_ref": "/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-PHYSICAL-ACCESS-006/"
+}

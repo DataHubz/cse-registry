@@ -1,0 +1,53 @@
+{
+  "id": "CSE-GDPR-CONSENT-NO-INFORMED-003",
+  "canonical_name": "Consent Not Informed",
+  "description": "Consent is obtained without providing data subjects with adequate information about the processing. Article 7 requires informed consent, meaning data subjects must know identity of controller, purposes, and other Article 13/14 information.",
+  "domain": "GDPR",
+  "category": "CONSENT",
+  "applicability": "Applicable when obtaining consent for processing. Data subjects must receive all required transparency information before or at the time of consent to make informed decision.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "consent-validity",
+      "transparency"
+    ],
+    "related_controls": [
+      "GDPR Art. 7",
+      "GDPR Art. 13",
+      "GDPR Art. 14"
+    ],
+    "detection_notes": "Detected through review of consent mechanisms and absence of required information at point of consent collection.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter II - Conditions for Consent",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-7-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 7",
+        "section": "GDPR Art. 7",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Consent",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/CONSENT/CSE-GDPR-CONSENT-NO-INFORMED-003/"
+}

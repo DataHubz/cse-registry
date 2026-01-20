@@ -1,0 +1,48 @@
+{
+  "id": "CSE-HITRUST-ACCESS-NO-LEAST-PRIVILEGE-010",
+  "canonical_name": "Least Privilege Not Implemented",
+  "description": "The principle of least privilege is not being applied to user access rights, resulting in users having more permissions than necessary to perform their job functions. This signal indicates that users, applications, or services have been granted excessive access rights beyond what is required for their specific roles and responsibilities. Least privilege is a fundamental security principle that minimizes the potential impact of compromised accounts, insider threats, and accidental data exposure i",
+  "domain": "HITRUST",
+  "category": "ACCESS",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Cloud infrastructure and services Database access controls Application programming interfaces (APIs) Service accounts and system-to-system access Electronic health record (EHR) systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Analysis of IAM policies and permission grants Review of role definitions and assignments Comparison of granted permissions vs. job requirements Examination of wildcard permissions and broad grants Assessment of service account and API permissions Review of database access control lists Analysis of privilege creep over time The presence of this signal indicates a fundamental security weakness that increases the attack surface and potential impact of account compromise, insider threats, and accidental data exposure.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 01 - Access Control",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.AC",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-LEAST-PRIVILEGE-010/"
+}

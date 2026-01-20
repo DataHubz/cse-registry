@@ -1,0 +1,51 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-PORTABILITY-MECHANISM-014",
+  "canonical_name": "Data Portability Mechanism Missing",
+  "description": "No mechanism exists to provide personal data in a structured, commonly used, machine-readable format or to transmit data directly to another controller when technically feasible.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable when processing is based on consent or contract and carried out by automated means. Enables data subjects to obtain and reuse their data.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "data-subject-rights",
+      "portability"
+    ],
+    "related_controls": [
+      "GDPR Art. 20"
+    ],
+    "detection_notes": "Detected through review of data export capabilities and interoperability features. Verify structured export formats and controller-to-controller transfer options.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter III - Rights of the Data Subject",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-20-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 20",
+        "section": "GDPR Art. 20",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Data Subject Rights",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-PORTABILITY-MECHANISM-014/"
+}

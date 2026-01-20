@@ -1,0 +1,45 @@
+{
+  "id": "CSE-HIPAA-ORG-NO-BA-CONTRACT-001",
+  "canonical_name": "No Business Associate Contracts",
+  "description": "No written contract or arrangement with business associates requiring compliance with applicable Security Rule requirements.",
+  "domain": "HIPAA",
+  "category": "ORG",
+  "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "45 CFR 164.314(a)(2)(i)"
+    ],
+    "detection_notes": "Detection guidance: Review vendor and third-party relationships to identify business associates who create, receive, maintain, or transmit ePHI. Verify that written Business Associate Agreements (BAAs) exist for all such relationships and include required Security Rule safeguards. Check contract management systems and procurement processes for gaps in BAA coverage.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart C - Organizational Requirements",
+        "section": "164.314(a)(2)(i)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+        "type": "guidance",
+        "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+        "section": "7",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+        "type": "guidance",
+        "title": "HHS Security Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-BA-CONTRACT-001/"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-ZERO-TRUST-019",
+  "canonical_name": "Zero Trust Architecture Not Implemented",
+  "description": "Zero trust architecture principles are not implemented in the security design. This signal indicates that implicit trust may be granted based on network location rather than continuous verification.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments moving toward zero trust. Includes micro-segmentation, continuous authentication, and least-privilege access verification.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "enhanced-security",
+      "architecture",
+      "access-control"
+    ],
+    "related_controls": [
+      "CMMC L3-AC.3.1.3e",
+      "NIST SP 800-172 3.1.3e"
+    ],
+    "detection_notes": "Detected through architecture review, zero trust maturity assessment, and continuous verification testing.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - System and Communications Protection",
+        "section": "3.1.3",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/172/final",
+        "type": "standard",
+        "title": "NIST SP 800-172 - Enhanced Security Requirements",
+        "authority": "NIST"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-ZERO-TRUST-019/"
+}

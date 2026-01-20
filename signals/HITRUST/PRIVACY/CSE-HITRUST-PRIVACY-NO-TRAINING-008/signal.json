@@ -1,0 +1,48 @@
+{
+  "id": "CSE-HITRUST-PRIVACY-NO-TRAINING-008",
+  "canonical_name": "Privacy Training Missing",
+  "description": "A formal privacy training and awareness program for workforce members who handle personal or protected health information (PHI) has not been established or implemented. This signal indicates the absence of training programs that educate employees, contractors, and other workforce members about privacy policies, individual privacy rights, regulatory requirements, and their responsibilities for protecting personal information. Privacy training is fundamental to creating a privacy-aware culture and",
+  "domain": "HITRUST",
+  "category": "PRIVACY",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Healthcare workforce development programs New employee onboarding processes Continuing education and compliance programs Privacy and security office operations Healthcare SaaS and technology providers",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of learning management system (LMS) course catalogs Examination of training curriculum and content Analysis of training completion records and tracking Verification of onboarding and ongoing training requirements Assessment of role-based training assignments Review of training materials and documentation The presence of this signal indicates a workforce readiness and privacy culture gap that should be addressed to ensure consistent privacy practices and regulatory compliance.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 08 - Privacy",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.DS",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-TRAINING-008/"
+}

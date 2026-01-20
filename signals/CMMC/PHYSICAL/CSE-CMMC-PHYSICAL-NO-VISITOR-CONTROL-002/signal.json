@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-PHYSICAL-NO-VISITOR-CONTROL-002",
+  "canonical_name": "Visitor Access Not Controlled",
+  "description": "Visitors are not authenticated, escorted, or monitored while in facilities containing CUI. This signal indicates that unauthorized access by visitors may go undetected.",
+  "domain": "CMMC",
+  "category": "PHYSICAL",
+  "applicability": "Applicable to all visitor management procedures. Includes visitor sign-in, badge issuance, escort requirements, and visitor monitoring in secure areas.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "visitor-management",
+      "access-control"
+    ],
+    "related_controls": [
+      "CMMC PE.L2-3.10.3",
+      "NIST SP 800-171 3.10.3"
+    ],
+    "detection_notes": "Detected through visitor management procedure review, escort policy verification, and visitor log assessment.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Physical Protection",
+        "section": "3.10.3",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-VISITOR-CONTROL-002/"
+}

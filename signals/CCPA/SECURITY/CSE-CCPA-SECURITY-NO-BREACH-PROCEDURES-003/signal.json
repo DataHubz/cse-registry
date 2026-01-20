@@ -1,0 +1,47 @@
+{
+  "id": "CSE-CCPA-SECURITY-NO-BREACH-PROCEDURES-003",
+  "canonical_name": "Breach Response Procedures Missing (§1798.150)",
+  "description": "This signal identifies when a business lacks documented and tested incident response procedures for detecting, responding to, and mitigating data breaches involving personal information. While CCPA §1798.150 doesn't explicitly require breach procedures, having them is essential to fulfilling the duty to implement reasonable security measures and to respond appropriately when breaches occur.",
+  "domain": "CCPA",
+  "category": "SECURITY",
+  "applicability": "Businesses required to implement reasonable security procedures under CCPA §1798.150 Organizations that have experienced a security incident but lack documented response procedures Companies without incident detection, escalation, or notification workflows Businesses that have not tested or updated their breach response plans",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Review CCPA compliance documentation and controls for SECURITY requirements.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "section": "Civil Code §1798.150",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/SECURITY/CSE-CCPA-SECURITY-NO-BREACH-PROCEDURES-003/"
+}

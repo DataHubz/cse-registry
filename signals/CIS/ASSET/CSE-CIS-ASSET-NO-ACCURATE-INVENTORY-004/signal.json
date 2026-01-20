@@ -1,0 +1,40 @@
+{
+  "id": "CSE-CIS-ASSET-NO-ACCURATE-INVENTORY-004",
+  "canonical_name": "Asset Inventory Not Accurate",
+  "description": "This signal detects when an organization's asset inventory is not maintained with sufficient accuracy or updated frequently enough to reflect the current state of enterprise assets. CIS Control 1.4 requires that the enterprise asset inventory be updated at least weekly, or more frequently, to ensure accuracy. An outdated or inaccurate inventory undermines security operations, incident response, vulnerability management, and compliance efforts.",
+  "domain": "CIS",
+  "category": "ASSET",
+  "applicability": "Enterprise IT environments Cloud infrastructure On-premises data centers Remote/hybrid work environments Dynamic environments with frequent asset changes Regulated industries requiring accurate asset tracking",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "asset-management",
+      "inventory",
+      "visibility"
+    ],
+    "detection_notes": "### Detection Guidance This signal can be detected through: 1. **Update Frequency Analysis**: Inventory last updated more than 7 days ago 2. **Accuracy Metrics**: Comparison between inventory and active discovery shows >2% discrepancy 3. **Manual Process Indicators**: Evidence of manual spreadsheet updates without automation 4. **Stale Asset Data**: Asset attributes (IP addresses, locations, owners) outdated or incorrect 5. **Discovery Mismatches**: Network scans reveal assets not in inventory or vice versa 6. **Missing Automation**: No integration between discovery tools and asset management system 7. **Audit Findings**: Internal or external audits identify inventory inaccuracies ### Inventory Accuracy Metrics Organizations should track: **Coverage Percentage**: (Assets in Inventory / Act",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/ASSET/CSE-CIS-ASSET-NO-ACCURATE-INVENTORY-004/"
+}

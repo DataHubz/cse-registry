@@ -1,0 +1,47 @@
+{
+  "id": "CSE-CCPA-NOTICE-NO-COLLECTION-DISCLOSURE-002",
+  "canonical_name": "Collection Notice at Point of Collection Missing",
+  "description": "A business collects personal information from consumers without providing notice at or before the point of collection. This signal indicates the absence of required \"just-in-time\" notice informing consumers about what categories of personal information are being collected and the purposes for which they will be used. The notice must be provided at or before the time of collection, not merely in a privacy policy accessible elsewhere.",
+  "domain": "CCPA",
+  "category": "NOTICE",
+  "applicability": "This signal applies to: Web forms collecting personal information (registration, contact, checkout) Mobile applications requesting user data or permissions API endpoints receiving personal information from consumers Chatbots and conversational interfaces collecting data Marketing pages with embedded tracking or data collection Account creation flows and onboarding processes Payment and checkout processes Survey and feedback collection mechanisms",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "transparency",
+      "privacy-notice",
+      "disclosure"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Scanning form markup for collection notice text or links Reviewing mobile app permission request dialogs Analyzing API request/response patterns for notice delivery Checking JavaScript initialization for notice display logic Reviewing cookie consent banners for collection disclosures Examining checkout flows for data collection notices Testing user registration and onboarding sequences The presence of this signal indicates a missing point-of-collection transparency requirement that may expose the business to consumer complaints or regulatory scrutiny.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "section": "Civil Code §1798.100",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/NOTICE/CSE-CCPA-NOTICE-NO-COLLECTION-DISCLOSURE-002/"
+}

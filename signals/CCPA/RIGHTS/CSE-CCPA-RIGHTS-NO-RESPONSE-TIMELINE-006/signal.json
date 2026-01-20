@@ -1,0 +1,47 @@
+{
+  "id": "CSE-CCPA-RIGHTS-NO-RESPONSE-TIMELINE-006",
+  "canonical_name": "Response Timeline Not Met",
+  "description": "Consumer requests are not being responded to within the required 45-day timeframe, or no process exists to ensure timely responses. CCPA mandates that businesses respond to verifiable consumer requests within 45 days of receipt, with a possible 45-day extension when reasonably necessary with notice to the consumer.",
+  "domain": "CCPA",
+  "category": "RIGHTS",
+  "applicability": "Consumer request management systems Privacy portal workflows Customer service ticketing systems Data subject access request (DSAR) tools Privacy operations processes Request tracking and case management systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-subject-rights",
+      "privacy",
+      "access-control"
+    ],
+    "detection_notes": "Review CCPA compliance documentation and controls for RIGHTS requirements.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "section": "Civil Code §1798.100-1798.135",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/RIGHTS/CSE-CCPA-RIGHTS-NO-RESPONSE-TIMELINE-006/"
+}

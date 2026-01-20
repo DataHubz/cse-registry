@@ -1,0 +1,41 @@
+{
+  "id": "CSE-CIS-ACCESS-NO-REVOCATION-002",
+  "canonical_name": "Access Revocation Process Missing",
+  "description": "The organization lacks a documented and established process for revoking access to enterprise assets in a timely manner upon termination, role change, or when access is no longer required. This signal indicates that user accounts, credentials, and permissions may remain active after they should have been removed, creating security risks from orphaned or unnecessary access.",
+  "domain": "CIS",
+  "category": "ACCESS",
+  "applicability": "This signal applies to: User account deprovisioning processes HR offboarding workflows Access revocation procedures Identity lifecycle management Account termination processes Role change management Periodic access reviews Automated deprovisioning systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "privilege-management"
+    ],
+    "detection_notes": "Review CIS compliance documentation and controls for ACCESS requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 6: Access Control Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-REVOCATION-002/"
+}

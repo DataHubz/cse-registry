@@ -1,0 +1,41 @@
+{
+  "id": "CSE-CIS-AUDIT-NO-TIMESTAMPS-003",
+  "canonical_name": "Audit Log Timestamps Missing",
+  "description": "Audit logs are missing standardized timestamps or time synchronization is not configured across logging systems. This signal indicates that log entries lack accurate or consistent timestamps, making it difficult to correlate events across systems, establish timelines for security incidents, or conduct effective forensic investigations.",
+  "domain": "CIS",
+  "category": "AUDIT",
+  "applicability": "This signal applies to: System and application log files Network device logs Security tool logs (SIEM, IDS/IPS, firewalls) Database audit logs Cloud service logs Container and orchestration platform logs Time synchronization infrastructure (NTP) Cross-system log correlation",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "audit-logging",
+      "monitoring",
+      "detection"
+    ],
+    "detection_notes": "Review CIS compliance documentation and controls for AUDIT requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 8: Audit Log Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-TIMESTAMPS-003/"
+}

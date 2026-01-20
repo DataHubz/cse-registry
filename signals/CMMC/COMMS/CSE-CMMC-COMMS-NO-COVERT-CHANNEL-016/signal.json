@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-COVERT-CHANNEL-016",
+  "canonical_name": "Covert Channel Detection Not Implemented",
+  "description": "Mechanisms to detect covert communication channels are not implemented. This signal indicates that data may be exfiltrated through hidden or non-standard communication methods.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to systems requiring advanced threat protection. Includes DNS tunneling detection, steganography detection, and non-standard protocol monitoring.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-communications",
+      "threat-detection",
+      "data-exfiltration"
+    ],
+    "related_controls": [
+      "CMMC SC.L2-3.13.5",
+      "NIST SP 800-171 3.13.5"
+    ],
+    "detection_notes": "Detected through covert channel analysis capability review, protocol anomaly detection, and non-standard traffic monitoring.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - System and Communications Protection",
+        "section": "3.13.5",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-COVERT-CHANNEL-016/"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "CSE-FEDRAMP-AT-NO-TRAINING-RECORDS-004",
+  "canonical_name": "No Training Records",
+  "description": "Individual training records are not documented, monitored, or retained for the required period.",
+  "domain": "FEDRAMP",
+  "category": "AT",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "awareness-training",
+      "security-awareness",
+      "personnel"
+    ],
+    "related_controls": [
+      "AT-4"
+    ],
+    "detection_notes": "Detection guidance: Look for missing training databases, incomplete training completion records, lack of training activity monitoring, absence of retention policies, and no audit trail of training compliance.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "AT-4",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Awareness and Training",
+        "section": "AT-4",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/AT/CSE-FEDRAMP-AT-NO-TRAINING-RECORDS-004/"
+}

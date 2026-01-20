@@ -1,0 +1,38 @@
+{
+  "id": "CSE-SOC2-PI-NO-DATA-STORAGE-CONTROLS-005",
+  "canonical_name": "No Input and Output Storage Controls",
+  "description": "The entity does not implement policies and procedures to store inputs, items in processing, and outputs completely, accurately, and timely in accordance with system specifications.",
+  "domain": "SOC2",
+  "category": "PI",
+  "applicability": "Data storage, archival processes",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "processing_integrity",
+      "data_storage",
+      "data_quality"
+    ],
+    "related_controls": [
+      "SOC 2 PI1.5"
+    ],
+    "detection_notes": "Review data storage policies, archival procedures, retention controls, storage validation processes, and data integrity checks. Check for absence of storage controls, retention policies, or data integrity verification.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - Processing Integrity",
+        "section": "PI1",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-DATA-STORAGE-CONTROLS-005/"
+}

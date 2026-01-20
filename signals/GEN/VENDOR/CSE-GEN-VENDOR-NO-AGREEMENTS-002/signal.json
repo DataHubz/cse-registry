@@ -1,0 +1,41 @@
+{
+  "id": "CSE-GEN-VENDOR-NO-AGREEMENTS-002",
+  "canonical_name": "Vendor Security Agreements Missing",
+  "description": "No security requirements or data protection clauses in vendor contracts and agreements. This signal indicates the absence of formal contractual provisions that establish security expectations, data protection obligations, and compliance requirements for third-party vendors and service providers.",
+  "domain": "GEN",
+  "category": "VENDOR",
+  "applicability": "This signal applies to: All third-party vendor and service provider contracts Cloud service agreements and SaaS subscriptions Managed service provider contracts Business associate agreements (healthcare context) Data processing agreements (privacy context) Outsourcing and professional services contracts Software licensing and support agreements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of vendor contracts and service agreements Assessment of security addendums and exhibits Examination of data processing agreements Evaluation of business associate agreements Review of service level agreements Analysis of contract templates and standard clauses Assessment of vendor contractual obligations Key contractual security provisions typically include: **Security Controls**: Required security standards and controls **Data Protection**: Encryption, access controls, and data handling **Compliance**: Regulatory and framework compliance requirements **Audit Rights**: Right to assess and audit vendor security **Incident Response**: Breach notification and incident reporting **Liability**: Security breach liability and indemnification **",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GEN/VENDOR/CSE-GEN-VENDOR-NO-AGREEMENTS-002/"
+}

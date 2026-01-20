@@ -1,0 +1,43 @@
+{
+  "id": "CSE-PCIDSS-STORE-NO-KEY-SECURITY-006",
+  "canonical_name": "No Cryptographic Key Security",
+  "description": "Cryptographic keys used to protect account data are not adequately secured.",
+  "domain": "PCIDSS",
+  "category": "STORE",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Database systems containing payment card data Data transmission channels and APIs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-storage",
+      "encryption",
+      "cardholder-data"
+    ],
+    "related_controls": [
+      "3.6 Cryptographic keys used to protect stored account data are secured"
+    ],
+    "detection_notes": "Detection guidance: Review key storage mechanisms for proper protection including encryption of data-encrypting keys with key-encrypting keys. Verify keys are not stored in clear text or in the same location as encrypted data. Check access controls limiting key access to custodians. Audit key storage locations including hardware security modules (HSMs), key management systems, and secure cryptographic devices. Assess split knowledge and dual control implementations.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
+  },
+  "definition_ref": "/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-KEY-SECURITY-006/"
+}

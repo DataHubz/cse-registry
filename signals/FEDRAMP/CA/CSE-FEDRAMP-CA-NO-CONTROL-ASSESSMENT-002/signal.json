@@ -1,0 +1,57 @@
+{
+  "id": "CSE-FEDRAMP-CA-NO-CONTROL-ASSESSMENT-002",
+  "canonical_name": "No Control Assessments",
+  "description": "Security controls are not being assessed to determine the extent to which they are implemented correctly, operating as intended, and producing the desired outcome. This signal indicates the absence of regular, systematic control assessments that verify the effectiveness of security controls, which is critical for maintaining FedRAMP authorization and ensuring continuous compliance.",
+  "domain": "FEDRAMP",
+  "category": "CA",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) seeking FedRAMP authorization Federal agencies implementing cloud services Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems requiring authorization",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security-assessment",
+      "authorization",
+      "compliance"
+    ],
+    "related_controls": [
+      "CA-2 - Security Assessments"
+    ],
+    "detection_notes": "Detection guidance: Verify the existence of a documented security assessment plan Check for evidence of regular control assessments (at least annually for FedRAMP) Review security assessment reports for completeness and currency Confirm assessment scope includes all required controls and control enhancements Validate that assessments are conducted by qualified personnel or 3PAOs Examine whether assessment results are properly documented and reported to stakeholders Check for assessment procedures that evaluate control implementation, operation, and effectiveness Verify that assessment findings are tracked and remediated appropriately",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "CA",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Assessment, Authorization, and Monitoring",
+        "section": "CA",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf",
+        "type": "guidance",
+        "title": "FedRAMP Continuous Monitoring Strategy Guide",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/CA/CSE-FEDRAMP-CA-NO-CONTROL-ASSESSMENT-002/"
+}

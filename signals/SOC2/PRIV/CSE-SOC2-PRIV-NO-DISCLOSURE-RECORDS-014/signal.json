@@ -1,0 +1,45 @@
+{
+  "id": "CSE-SOC2-PRIV-NO-DISCLOSURE-RECORDS-014",
+  "canonical_name": "No Disclosure Records",
+  "description": "The entity does not create and retain a complete, accurate, and timely record of detected or reported unauthorized disclosures of personal information. This signal indicates that privacy incidents involving data disclosure are not properly documented, hindering incident response and accountability.",
+  "domain": "SOC2",
+  "category": "PRIV",
+  "applicability": "Applicable to privacy incident management, breach response procedures, disclosure tracking systems, security monitoring, and incident documentation processes.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "privacy",
+      "data-protection",
+      "pii"
+    ],
+    "related_controls": [
+      "SOC 2 P6.3",
+      "GAPP"
+    ],
+    "detection_notes": "Commonly detected through review of incident management systems, privacy breach logs, security monitoring configurations, and incident response procedures. May be identified by absence of disclosure tracking, missing incident documentation, or incomplete breach records.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - Privacy",
+        "section": "P1, P2, P3, P4, P5, P6, P7, P8",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+        "type": "guidance",
+        "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+        "authority": "AICPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISCLOSURE-RECORDS-014/"
+}

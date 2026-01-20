@@ -1,0 +1,47 @@
+{
+  "id": "CSE-CCPA-NOTICE-NO-PI-CATEGORIES-003",
+  "canonical_name": "Personal Information Categories Not Disclosed",
+  "description": "A business's privacy policy or collection notice fails to disclose the categories of personal information collected, sold, shared, or disclosed. This signal indicates that required categorical descriptions of personal information are missing or insufficiently specific in consumer-facing privacy notices. CCPA requires businesses to describe personal information using enumerated categories defined in the statute, not merely generic references to \"data\" or \"information.\"",
+  "domain": "CCPA",
+  "category": "NOTICE",
+  "applicability": "This signal applies to: Privacy policies and privacy notices Notice at collection disclosures Right to know response templates Data processing agreements and disclosures Mobile app privacy labels (App Store, Google Play) Cookie and tracking technology notices Marketing materials describing data practices Vendor and third-party disclosure statements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "transparency",
+      "privacy-notice",
+      "disclosure"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Natural language processing of privacy policy text Keyword matching for CCPA-defined category terms Comparison against statutory category enumeration (§1798.140(v)) Analysis of privacy notice completeness Review of \"right to know\" response templates Checking mobile app privacy manifests and labels Scanning collection notices for category-specific language The presence of this signal indicates a substantive gap in required privacy disclosures that may impair consumers' ability to understand data practices.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "section": "Civil Code §1798.100",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/NOTICE/CSE-CCPA-NOTICE-NO-PI-CATEGORIES-003/"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-PERSONNEL-NO-SCREENING-001",
+  "canonical_name": "Personnel Screening Not Performed",
+  "description": "Background screening is not performed on individuals prior to granting access to CUI systems. This signal indicates that personnel with unknown or risky backgrounds may have access to sensitive information.",
+  "domain": "CMMC",
+  "category": "PERSONNEL",
+  "applicability": "Applicable to all personnel with access to CUI. Includes pre-employment background checks, periodic re-screening, and screening for contractors and third-party personnel.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "personnel-security",
+      "insider-threat",
+      "access-control"
+    ],
+    "related_controls": [
+      "CMMC PS.L2-3.9.1",
+      "NIST SP 800-171 3.9.1"
+    ],
+    "detection_notes": "Detected through HR process review, screening record verification, and personnel file audit.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Personnel Security",
+        "section": "3.9.1",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/PERSONNEL/CSE-CMMC-PERSONNEL-NO-SCREENING-001/"
+}

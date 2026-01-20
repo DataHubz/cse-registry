@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-KEY-MANAGEMENT-007",
+  "canonical_name": "Cryptographic Key Management Not Implemented",
+  "description": "Cryptographic keys are not managed throughout their lifecycle including generation, distribution, storage, and revocation. This signal indicates that weak key management may compromise cryptographic protections.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to all cryptographic key usage. Includes key generation, key storage, key distribution, key rotation, and key revocation procedures.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "system-communications",
+      "cryptography",
+      "key-management"
+    ],
+    "related_controls": [
+      "CMMC SC.L2-3.13.10",
+      "NIST SP 800-171 3.13.10"
+    ],
+    "detection_notes": "Detected through key management procedure review, key storage security assessment, and key lifecycle verification.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - System and Communications Protection",
+        "section": "3.13.10",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-KEY-MANAGEMENT-007/"
+}

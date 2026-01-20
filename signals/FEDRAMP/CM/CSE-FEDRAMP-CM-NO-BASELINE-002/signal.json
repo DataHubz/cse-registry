@@ -1,0 +1,48 @@
+{
+  "id": "CSE-FEDRAMP-CM-NO-BASELINE-002",
+  "canonical_name": "No Baseline Configuration",
+  "description": "No baseline configuration has been developed, documented, or maintained for the information system, including hardware, software, firmware, and documentation.",
+  "domain": "FEDRAMP",
+  "category": "CM",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) seeking FedRAMP authorization Federal agencies operating cloud systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing government data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "change-control",
+      "baseline"
+    ],
+    "detection_notes": "Detection guidance: Examine system documentation, configuration management databases (CMDBs), and infrastructure-as-code repositories to verify existence of baseline configurations. Look for absence of documented baseline configurations, inconsistent configurations across similar systems, or lack of version-controlled configuration standards. Check for missing baseline documentation for servers, network devices, databases, applications, and cloud resources.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "CM",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Configuration Management",
+        "section": "CM",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/CM/CSE-FEDRAMP-CM-NO-BASELINE-002/"
+}

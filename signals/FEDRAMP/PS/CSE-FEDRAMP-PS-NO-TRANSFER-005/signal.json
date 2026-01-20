@@ -1,0 +1,48 @@
+{
+  "id": "CSE-FEDRAMP-PS-NO-TRANSFER-005",
+  "canonical_name": "No Personnel Transfer",
+  "description": "The organization does not review and confirm ongoing operational need for current logical and physical access authorizations to information systems and facilities when individuals are reassigned or transferred to other positions within the organization. This signal indicates that personnel transfers may result in inappropriate access retention, where individuals accumulate excessive privileges as they move between positions or departments.",
+  "domain": "FEDRAMP",
+  "category": "PS",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "personnel-security",
+      "background-screening",
+      "access-control"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of personnel transfer procedures and documentation Analysis of access review processes during transfers Verification of 5-day timeline compliance for transfer actions Assessment of access modification workflows Examination of operational need confirmation records Inspection of notification processes to relevant personnel Review of logical and physical access adjustments Verification of unnecessary access termination Analysis of property return procedures during transfers Examination of role-based access updates The presence of this signal indicates a condition that warrants review in the context of FedRAMP personnel security requirements. Personnel transfer procedures should ensure timely access reviews and modifications to prevent privil",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "PS",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Personnel Security",
+        "section": "PS",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/PS/CSE-FEDRAMP-PS-NO-TRANSFER-005/"
+}

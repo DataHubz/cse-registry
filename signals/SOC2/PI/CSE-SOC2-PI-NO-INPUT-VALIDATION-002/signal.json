@@ -1,0 +1,38 @@
+{
+  "id": "CSE-SOC2-PI-NO-INPUT-VALIDATION-002",
+  "canonical_name": "No Input Completeness and Accuracy Controls",
+  "description": "The entity does not implement policies and procedures over system inputs, including controls over completeness and accuracy.",
+  "domain": "SOC2",
+  "category": "PI",
+  "applicability": "Input validation, data quality controls",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "processing_integrity",
+      "data_quality",
+      "input_validation"
+    ],
+    "related_controls": [
+      "SOC 2 PI1.2"
+    ],
+    "detection_notes": "Review input validation logic, data quality checks, error handling for invalid inputs, and validation policies. Check for absence of input controls, validation rules, or completeness checks.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - Processing Integrity",
+        "section": "PI1",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-INPUT-VALIDATION-002/"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "CSE-GDPR-PRINCIPLES-NO-FAIRNESS-002",
+  "canonical_name": "Unfair Processing Practices",
+  "description": "Personal data is processed in ways that are detrimental, unexpected, or misleading to data subjects. Fair processing requires that data handling does not adversely affect individuals in ways they would not reasonably expect.",
+  "domain": "GDPR",
+  "category": "PRINCIPLES",
+  "applicability": "Applicable to all personal data processing activities. Includes assessment of whether processing methods, outcomes, or uses could be considered unfair to data subjects.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "fairness",
+      "ethics"
+    ],
+    "related_controls": [
+      "GDPR Art. 5.1.a"
+    ],
+    "detection_notes": "Detected through review of processing outcomes, data subject complaints, and impact assessments. Requires evaluation of whether processing could cause unjustified adverse effects.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter II - Principles",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-5-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 5.1",
+        "section": "GDPR Art. 5.1.a",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines and Recommendations",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/principles/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/PRINCIPLES/CSE-GDPR-PRINCIPLES-NO-FAIRNESS-002/"
+}

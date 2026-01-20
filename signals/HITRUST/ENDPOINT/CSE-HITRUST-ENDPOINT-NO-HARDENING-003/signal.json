@@ -1,0 +1,48 @@
+{
+  "id": "CSE-HITRUST-ENDPOINT-NO-HARDENING-003",
+  "canonical_name": "Endpoint Hardening Missing",
+  "description": "Endpoint hardening configurations have not been applied to devices accessing or storing protected health information (PHI) or other sensitive data. This signal indicates the absence of security hardening measures on endpoints such as workstations, laptops, mobile devices, or servers. Endpoint hardening includes disabling unnecessary services, configuring secure settings, applying security baselines, removing unnecessary software, and implementing least-privilege access controls at the device lev",
+  "domain": "HITRUST",
+  "category": "ENDPOINT",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of endpoint configuration standards and baselines Examination of system hardening procedures and implementation Analysis of endpoint security settings and configurations Verification of compliance with hardening benchmarks (CIS, STIG) Assessment of unnecessary services, software, and privileges The presence of this signal indicates a security gap that may expose endpoints to unnecessary attack surface and vulnerabilities. This should be addressed as a priority for HITRUST compliance and security best practices.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 11 - Endpoint Security",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.PT",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-HARDENING-003/"
+}

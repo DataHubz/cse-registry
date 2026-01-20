@@ -1,0 +1,38 @@
+{
+  "id": "CSE-HIPAA-PRIVACY-NO-PRIVACY-OFFICER-018",
+  "canonical_name": "No Designated Privacy Official",
+  "description": "No designated privacy official responsible for privacy policies and procedures.",
+  "domain": "HIPAA",
+  "category": "PRIVACY",
+  "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.530(a)(1)(i)"
+    ],
+    "detection_notes": "Detect absence of documented privacy official designation, vacancy in the privacy official role, or organizational documentation lacking privacy officer identification. Review organizational charts, policy documents, and privacy notices for privacy official designation.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+        "section": "164.530(a)(1)(i)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+        "type": "guidance",
+        "title": "HHS Privacy Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-OFFICER-018/"
+}

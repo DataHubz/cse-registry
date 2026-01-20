@@ -1,0 +1,54 @@
+{
+  "id": "CSE-FEDRAMP-CP-NO-ALTERNATE-STORAGE-005",
+  "canonical_name": "No Alternate Storage Site",
+  "description": "The organization does not establish an alternate storage site with necessary agreements to permit the storage and recovery of information system backup information. This signal indicates that the organization may not have geographically separated storage capabilities to ensure information availability during primary site disruptions.",
+  "domain": "FEDRAMP",
+  "category": "CP",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "contingency-planning",
+      "disaster-recovery",
+      "resilience"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of alternate storage site agreements Analysis of geographic separation and accessibility Verification of security measures equivalence Assessment of storage capacity and capabilities Examination of data transfer and recovery procedures Inspection of site availability and redundancy Review of disaster scenario planning Analysis of mitigation strategies for accessibility issues The presence of this signal indicates a condition that warrants review in the context of FedRAMP contingency planning requirements.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "CP",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Contingency Planning",
+        "section": "CP",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.fedramp.gov/assets/resources/templates/FedRAMP-SSP-Appendix-J-CIS-Workbook-Template.xlsx",
+        "type": "guidance",
+        "title": "FedRAMP Contingency Plan Template",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/CP/CSE-FEDRAMP-CP-NO-ALTERNATE-STORAGE-005/"
+}

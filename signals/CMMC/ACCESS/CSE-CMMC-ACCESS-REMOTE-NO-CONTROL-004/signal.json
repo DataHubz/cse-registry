@@ -1,0 +1,47 @@
+{
+  "id": "CSE-CMMC-ACCESS-REMOTE-NO-CONTROL-004",
+  "canonical_name": "Remote Access Without Monitoring or Control",
+  "description": "Remote access to systems is permitted without mechanisms for monitoring, controlling, or restricting such connections. This signal indicates that remote access pathways exist without visibility into connection activity or the ability to enforce access policies.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to any system allowing remote connections including VPN gateways, remote desktop services, SSH access, cloud management interfaces, and remote administration tools. Includes both user and automated remote access scenarios.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "remote-access",
+      "monitoring"
+    ],
+    "related_controls": [
+      "CMMC AC.L2-3.1.12",
+      "CMMC AC.L2-3.1.14",
+      "CMMC AC.L2-3.1.15",
+      "NIST SP 800-171 3.1.12"
+    ],
+    "detection_notes": "Detected through review of network architecture, firewall rules, VPN configurations, and remote access service settings. May involve analysis of logging configurations and access control mechanisms for remote pathways.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Access Control",
+        "section": "3.1.12",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-REMOTE-NO-CONTROL-004/"
+}

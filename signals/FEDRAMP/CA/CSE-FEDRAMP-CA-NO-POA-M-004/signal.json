@@ -1,0 +1,57 @@
+{
+  "id": "CSE-FEDRAMP-CA-NO-POA-M-004",
+  "canonical_name": "No Plan of Action and Milestones",
+  "description": "The organization lacks a Plan of Action and Milestones (POA&M) to document planned remedial actions for addressing weaknesses or deficiencies noted during security control assessments. This signal indicates the absence of a formal tracking mechanism for security findings, vulnerabilities, and remediation efforts, which is essential for FedRAMP continuous monitoring and maintaining an authorized status.",
+  "domain": "FEDRAMP",
+  "category": "CA",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) seeking FedRAMP authorization Federal agencies implementing cloud services Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems requiring authorization",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security-assessment",
+      "authorization",
+      "compliance"
+    ],
+    "related_controls": [
+      "CA-5 - Plan of Action and Milestones"
+    ],
+    "detection_notes": "Detection guidance: Check for the existence of a documented POA&M Verify that the POA&M includes all identified weaknesses and deficiencies from assessments Confirm that POA&M items include planned remedial actions, resources required, and completion milestones Validate that the POA&M is updated at least monthly as required by FedRAMP Review POA&M for tracking of vulnerabilities, control weaknesses, and compliance gaps Examine whether POA&M items have assigned owners and realistic completion dates Check that closed POA&M items have documented evidence of remediation Verify that the POA&M is submitted to FedRAMP PMO as required for continuous monitoring Confirm integration between POA&M and continuous monitoring processes Review aging analysis of open POA&M items to identify remediation del",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "CA",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Assessment, Authorization, and Monitoring",
+        "section": "CA",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf",
+        "type": "guidance",
+        "title": "FedRAMP Continuous Monitoring Strategy Guide",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/CA/CSE-FEDRAMP-CA-NO-POA-M-004/"
+}

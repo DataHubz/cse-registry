@@ -1,0 +1,45 @@
+{
+  "id": "CSE-SOC2-PRIV-NO-INCIDENT-REPORTING-021",
+  "canonical_name": "No Privacy Incident Reporting",
+  "description": "The entity does not document and report privacy incidents to appropriate parties. This signal indicates that privacy violations and incidents are not properly tracked, escalated, or communicated to stakeholders, potentially hiding systemic issues and preventing effective response.",
+  "domain": "SOC2",
+  "category": "PRIV",
+  "applicability": "Applicable to privacy incident management, incident reporting systems, privacy team operations, management communication, and regulatory reporting processes.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "privacy",
+      "data-protection",
+      "pii"
+    ],
+    "related_controls": [
+      "SOC 2 P8.4",
+      "GAPP"
+    ],
+    "detection_notes": "Commonly detected through review of incident management procedures, reporting workflows, escalation protocols, and privacy documentation. May be identified by absence of incident tracking, missing reporting mechanisms, or lack of management communication.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - Privacy",
+        "section": "P1, P2, P3, P4, P5, P6, P7, P8",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+        "type": "guidance",
+        "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+        "authority": "AICPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-INCIDENT-REPORTING-021/"
+}

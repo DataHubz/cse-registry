@@ -1,0 +1,48 @@
+{
+  "id": "CSE-HITRUST-SDLC-NO-CRYPTOGRAPHY-005",
+  "canonical_name": "Cryptographic Controls Missing",
+  "description": "Cryptographic controls have not been implemented in information systems processing protected health information (PHI) or other sensitive data, leaving data vulnerable to unauthorized access, disclosure, or tampering. This signal indicates the absence of appropriate encryption, hashing, or other cryptographic mechanisms to protect data confidentiality and integrity. Cryptographic controls should include encryption of data at rest, encryption of data in transit, secure hashing of passwords, digita",
+  "domain": "HITRUST",
+  "category": "SDLC",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems storing or transmitting sensitive health information Patient portals and mobile health applications Electronic health record (EHR) systems Medical device communications Cloud-based healthcare services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of data storage configurations and database encryption settings Examination of file system encryption status Analysis of application code for cryptographic implementations Verification of TLS/SSL configurations Assessment of password storage mechanisms Review of encryption key usage and algorithms Testing for use of deprecated cryptographic functions Evaluation of mobile app data protection The presence of this signal indicates a critical security deficiency that could result in HIPAA violations, data breaches, and significant regulatory penalties. Cryptographic controls are fundamental to protecting PHI and should be implemented as a priority.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 14 - System Acquisition & Development",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.IP",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-CRYPTOGRAPHY-005/"
+}

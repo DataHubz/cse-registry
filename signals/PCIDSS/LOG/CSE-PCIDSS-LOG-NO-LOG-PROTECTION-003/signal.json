@@ -1,0 +1,43 @@
+{
+  "id": "CSE-PCIDSS-LOG-NO-LOG-PROTECTION-003",
+  "canonical_name": "No Log Protection",
+  "description": "Audit logs are not protected from unauthorized modification or deletion.",
+  "domain": "PCIDSS",
+  "category": "LOG",
+  "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "audit-logging",
+      "monitoring",
+      "accountability"
+    ],
+    "related_controls": [
+      "10.3 Audit logs are protected from destruction and unauthorized modifications"
+    ],
+    "detection_notes": "Detection guidance: Look for world-writable log files, lack of log file integrity monitoring, missing access controls on log directories, absence of centralized logging, or evidence of log tampering or deletion capabilities by unauthorized users.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
+  },
+  "definition_ref": "/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-LOG-PROTECTION-003/"
+}

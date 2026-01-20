@@ -1,0 +1,51 @@
+{
+  "id": "CSE-FEDRAMP-IA-NO-REPLAY-RESISTANCE-010",
+  "canonical_name": "No Re-authentication Requirements",
+  "description": "Information systems do not require users to re-authenticate when performing privileged functions or after defined periods of inactivity.",
+  "domain": "FEDRAMP",
+  "category": "IA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "identity",
+      "authentication",
+      "credential-management"
+    ],
+    "related_controls": [
+      "IA-11"
+    ],
+    "detection_notes": "Detection guidance: Look for systems not requiring re-authentication for privileged operations, missing re-authentication after session timeouts, ability to perform sensitive actions without credential verification, sessions that persist indefinitely without re-authentication, missing re-authentication for role elevation or privilege escalation, and absence of re-authentication requirements for high-value transactions. Verify re-authentication is required when accessing systems with different security categories or changing authorization attributes.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "IA-11",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Identification and Authentication",
+        "section": "IA-11",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/IA/CSE-FEDRAMP-IA-NO-REPLAY-RESISTANCE-010/"
+}

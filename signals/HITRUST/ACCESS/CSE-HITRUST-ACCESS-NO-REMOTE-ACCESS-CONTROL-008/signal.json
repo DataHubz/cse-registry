@@ -1,0 +1,48 @@
+{
+  "id": "CSE-HITRUST-ACCESS-NO-REMOTE-ACCESS-CONTROL-008",
+  "canonical_name": "Remote Access Controls Missing",
+  "description": "Controls for managing and securing remote access to systems containing protected health information (PHI) or other sensitive data have not been implemented. This signal indicates the absence of security controls specific to remote access scenarios, including VPN requirements, remote desktop protections, encryption enforcement, monitoring capabilities, and approval processes. Remote access represents an elevated risk and requires additional security measures beyond standard access controls.",
+  "domain": "HITRUST",
+  "category": "ACCESS",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Virtual Private Network (VPN) infrastructure Remote desktop services (RDP, VNC) Cloud infrastructure remote access Third-party vendor remote access Telehealth and remote care systems",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of VPN and remote access configurations Analysis of network security group and firewall rules Examination of conditional access policies Assessment of remote access approval workflows Review of remote session monitoring capabilities Analysis of encryption enforcement for remote connections Verification of device compliance checks The presence of this signal indicates a critical security gap that significantly increases the risk of unauthorized access, data breaches, and compliance violations from remote connections.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 01 - Access Control",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.AC",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-REMOTE-ACCESS-CONTROL-008/"
+}

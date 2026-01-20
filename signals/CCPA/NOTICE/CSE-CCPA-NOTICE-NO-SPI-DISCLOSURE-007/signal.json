@@ -1,0 +1,47 @@
+{
+  "id": "CSE-CCPA-NOTICE-NO-SPI-DISCLOSURE-007",
+  "canonical_name": "Sensitive PI Use/Disclosure Not Disclosed",
+  "description": "A business that collects or uses sensitive personal information fails to disclose this fact or provide a notice of the right to limit use and disclosure. This signal indicates missing or inadequate disclosures about sensitive PI practices, including the absence of required \"Limit the Use of My Sensitive Personal Information\" notices. CPRA introduced heightened transparency requirements for sensitive personal information distinct from general personal information disclosures.",
+  "domain": "CCPA",
+  "category": "NOTICE",
+  "applicability": "This signal applies to: Privacy policies and comprehensive privacy notices Notice at collection disclosures Sensitive personal information collection points (health, financial, biometric) \"Limit Use of Sensitive Personal Information\" notice mechanisms Mobile applications collecting precise geolocation or biometric data Financial services and healthcare applications Account creation flows requesting sensitive data Cookie and tracking notices for sensitive data collection",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "transparency",
+      "privacy-notice",
+      "disclosure"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Natural language processing for \"sensitive personal information\" terminology Pattern matching for SPI categories (geolocation, biometric, health, financial, etc.) Analysis of permission requests for sensitive data types Review of privacy policy sections for SPI-specific disclosures Checking for \"Limit the Use of My Sensitive Personal Information\" links or controls Scanning API schemas for sensitive data fields Evaluating mobile app privacy manifests for sensitive data declarations The presence of this signal indicates a CPRA-specific disclosure gap that may expose the business to consumer complaints and limit consumer control over sensitive data.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "section": "Civil Code §1798.100",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/NOTICE/CSE-CCPA-NOTICE-NO-SPI-DISCLOSURE-007/"
+}

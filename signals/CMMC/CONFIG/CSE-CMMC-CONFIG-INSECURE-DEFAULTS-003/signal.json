@@ -1,0 +1,46 @@
+{
+  "id": "CSE-CMMC-CONFIG-INSECURE-DEFAULTS-003",
+  "canonical_name": "Insecure Default Configuration",
+  "description": "Systems or applications are deployed with vendor default configurations that do not meet security requirements. This signal indicates that default passwords, sample accounts, unnecessary features, or insecure default settings remain active in the environment.",
+  "domain": "CMMC",
+  "category": "CONFIG",
+  "applicability": "Applicable to any newly deployed or existing system including operating systems, applications, databases, network devices, and cloud services. Includes default credentials, sample data, debug modes, and unnecessary default features.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "configuration-management",
+      "hardening",
+      "credentials"
+    ],
+    "related_controls": [
+      "CMMC CM.L2-3.4.2",
+      "CMMC CM.L2-3.4.6",
+      "NIST SP 800-171 3.4.2"
+    ],
+    "detection_notes": "Detected through credential scanning for default passwords, configuration review against vendor documentation, and comparison with security hardening benchmarks.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Configuration Management",
+        "section": "3.4.2",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-INSECURE-DEFAULTS-003/"
+}

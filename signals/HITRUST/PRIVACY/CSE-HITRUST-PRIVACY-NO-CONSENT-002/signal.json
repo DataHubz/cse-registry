@@ -1,0 +1,48 @@
+{
+  "id": "CSE-HITRUST-PRIVACY-NO-CONSENT-002",
+  "canonical_name": "Consent Management Missing",
+  "description": "A formal consent management process has not been established for obtaining, recording, and managing individual consent for the collection, use, and disclosure of personal or protected health information (PHI). This signal indicates the absence of mechanisms to obtain explicit consent from individuals before collecting or using their information for purposes beyond treatment, payment, and healthcare operations. Consent management includes capturing consent decisions, maintaining records of consen",
+  "domain": "HITRUST",
+  "category": "PRIVACY",
+  "applicability": "Healthcare organizations subject to HIPAA Research institutions conducting health studies Organizations pursuing HITRUST certification Digital health and wellness applications Genetic testing and personalized medicine providers Healthcare marketing and analytics platforms Third-party health information processors Telehealth and remote monitoring services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of patient registration and enrollment systems Examination of consent capture workflows and forms Analysis of consent storage and retrieval mechanisms Verification of consent withdrawal processes Assessment of consent granularity and specificity Review of consent audit trails and documentation The presence of this signal indicates a significant gap in privacy controls that should be addressed to ensure individual autonomy and regulatory compliance.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 08 - Privacy",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.DS",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-CONSENT-002/"
+}

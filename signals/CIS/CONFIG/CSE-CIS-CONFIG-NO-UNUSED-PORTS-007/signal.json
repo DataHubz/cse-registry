@@ -1,0 +1,41 @@
+{
+  "id": "CSE-CIS-CONFIG-NO-UNUSED-PORTS-007",
+  "canonical_name": "Unused Ports Not Disabled",
+  "description": "Network infrastructure devices and enterprise assets have unused physical and logical ports that remain enabled, creating unnecessary attack surface and potential entry points. This signal indicates that systems may have active ports, services, and interfaces that are not required for business operations.",
+  "domain": "CIS",
+  "category": "CONFIG",
+  "applicability": "This signal applies to: Network switches and unused switch ports Router interfaces Server network interfaces USB ports on workstations Wireless interfaces when not needed Serial/console ports Application listening ports",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "hardening",
+      "baseline"
+    ],
+    "detection_notes": "Review CIS compliance documentation and controls for CONFIG requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 4: Secure Configuration of Enterprise Assets and Software",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-UNUSED-PORTS-007/"
+}

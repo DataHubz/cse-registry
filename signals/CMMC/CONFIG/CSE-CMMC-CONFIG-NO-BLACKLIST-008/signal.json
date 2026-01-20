@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-CONFIG-NO-BLACKLIST-008",
+  "canonical_name": "Software Blacklist Not Implemented",
+  "description": "A blacklist of prohibited software is not maintained or enforced. This signal indicates that known malicious, risky, or policy-violating software may be executed without prevention.",
+  "domain": "CMMC",
+  "category": "CONFIG",
+  "applicability": "Applicable to all systems where executable software runs. Includes software blacklisting, application blocking, and deny-by-exception policies.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "software-control",
+      "malware-prevention"
+    ],
+    "related_controls": [
+      "CMMC CM.L2-3.4.8",
+      "NIST SP 800-171 3.4.8"
+    ],
+    "detection_notes": "Detected through software restriction policy review, blacklist configuration assessment, and prohibited software detection.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Configuration Management",
+        "section": "3.4.8",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-BLACKLIST-008/"
+}

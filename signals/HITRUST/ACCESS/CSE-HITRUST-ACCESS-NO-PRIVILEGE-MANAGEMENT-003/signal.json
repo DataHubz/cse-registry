@@ -1,0 +1,48 @@
+{
+  "id": "CSE-HITRUST-ACCESS-NO-PRIVILEGE-MANAGEMENT-003",
+  "canonical_name": "Privilege Management Not Implemented",
+  "description": "Privileged access rights are not being actively managed or controlled through a formal privilege management process. This signal indicates the absence of controls for allocating, monitoring, and reviewing privileged access to systems containing protected health information (PHI) or other sensitive data. Privilege management ensures that elevated access rights (such as administrative, root, or superuser privileges) are granted only when necessary, properly authorized, and regularly reviewed.",
+  "domain": "HITRUST",
+  "category": "ACCESS",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Cloud infrastructure management Database administration Network device management Application administrative functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "authorization"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of privileged account inventories Analysis of IAM policies and role assignments Examination of privilege escalation processes Assessment of administrative access approval workflows Review of privileged access review schedules and records Analysis of privileged session monitoring capabilities The presence of this signal indicates a critical gap in access control that can lead to unauthorized administrative actions, insider threats, and compliance violations.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 01 - Access Control",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.AC",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PRIVILEGE-MANAGEMENT-003/"
+}

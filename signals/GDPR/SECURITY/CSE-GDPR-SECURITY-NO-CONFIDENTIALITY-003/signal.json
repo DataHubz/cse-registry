@@ -1,0 +1,53 @@
+{
+  "id": "CSE-GDPR-SECURITY-NO-CONFIDENTIALITY-003",
+  "canonical_name": "Confidentiality Measures Not Implemented",
+  "description": "Systems lack adequate measures to ensure ongoing confidentiality of personal data. Confidentiality ensures that data is accessible only to authorized individuals, systems, and processes.",
+  "domain": "GDPR",
+  "category": "SECURITY",
+  "applicability": "Applicable to all systems processing personal data. Includes access controls, authentication mechanisms, network segmentation, data classification, and employee training on confidentiality obligations.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "security",
+      "confidentiality",
+      "access-control"
+    ],
+    "related_controls": [
+      "GDPR Art. 32.1.b",
+      "GDPR Art. 5.1.f"
+    ],
+    "detection_notes": "Detected through security audits, access control reviews, and code analysis. Look for missing authentication, weak authorization checks, overly permissive access rights, lack of role-based access control (RBAC), exposed APIs without authentication, and shared credentials. Review logging of data access events.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter IV - Security of Processing",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-32-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 32.1",
+        "section": "GDPR Art. 32.1.b",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Security of Processing",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/security/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/SECURITY/CSE-GDPR-SECURITY-NO-CONFIDENTIALITY-003/"
+}

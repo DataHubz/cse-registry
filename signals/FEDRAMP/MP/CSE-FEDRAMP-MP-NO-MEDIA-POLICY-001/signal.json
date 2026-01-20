@@ -1,0 +1,51 @@
+{
+  "id": "CSE-FEDRAMP-MP-NO-MEDIA-POLICY-001",
+  "canonical_name": "No Media Protection Policy",
+  "description": "Media protection policy and procedures are not developed, documented, and maintained.",
+  "domain": "FEDRAMP",
+  "category": "MP",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "media-protection",
+      "data-handling",
+      "asset-control"
+    ],
+    "related_controls": [
+      "MP-1"
+    ],
+    "detection_notes": "Detection guidance: Look for missing media protection policy documentation, outdated procedures, lack of policy dissemination evidence, absence of defined roles and responsibilities for media protection, and missing guidelines for media handling, storage, transport, and sanitization.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "MP-1",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Media Protection",
+        "section": "MP-1",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/MP/CSE-FEDRAMP-MP-NO-MEDIA-POLICY-001/"
+}

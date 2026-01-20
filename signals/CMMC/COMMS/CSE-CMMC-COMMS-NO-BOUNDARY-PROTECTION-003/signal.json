@@ -1,0 +1,47 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-BOUNDARY-PROTECTION-003",
+  "canonical_name": "Network Boundary Protection Not Implemented",
+  "description": "Communications at system and network boundaries are not monitored or controlled. This signal indicates that traffic entering or leaving security domains is not subject to inspection, filtering, or access controls.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to network perimeters, cloud VPC boundaries, security zones, and any demarcation point between trust levels. Includes firewalls, network ACLs, security groups, and web application firewalls.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "network-security",
+      "boundary-protection",
+      "access-control"
+    ],
+    "related_controls": [
+      "CMMC SC.L2-3.13.1",
+      "CMMC SC.L2-3.13.5",
+      "CMMC SC.L2-3.13.6",
+      "NIST SP 800-171 3.13.1"
+    ],
+    "detection_notes": "Detected through network architecture review, firewall and security group analysis, traffic flow inspection, and network segmentation assessment.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - System and Communications Protection",
+        "section": "3.13.1",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-BOUNDARY-PROTECTION-003/"
+}

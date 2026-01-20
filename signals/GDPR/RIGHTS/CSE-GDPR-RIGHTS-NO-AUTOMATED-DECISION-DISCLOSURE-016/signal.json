@@ -1,0 +1,53 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-AUTOMATED-DECISION-DISCLOSURE-016",
+  "canonical_name": "Automated Decision-Making Not Disclosed",
+  "description": "Data subjects are not informed about the existence of automated decision-making including profiling, the logic involved, and the significance and envisaged consequences.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable when automated decision-making produces legal effects or similarly significantly affects data subjects. Includes profiling, algorithmic decisions, and AI-based processing.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "automated-decisions",
+      "transparency"
+    ],
+    "related_controls": [
+      "GDPR Art. 22.1",
+      "GDPR Art. 13.2.f",
+      "GDPR Art. 14.2.g"
+    ],
+    "detection_notes": "Detected through review of automated decision systems and associated disclosures. Verify meaningful information about logic and consequences is provided.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter III - Rights of the Data Subject",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-22-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 22.1",
+        "section": "GDPR Art. 22.1",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Data Subject Rights",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-AUTOMATED-DECISION-DISCLOSURE-016/"
+}

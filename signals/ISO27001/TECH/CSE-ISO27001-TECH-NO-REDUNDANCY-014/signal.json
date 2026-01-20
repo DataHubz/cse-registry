@@ -1,0 +1,46 @@
+{
+  "id": "CSE-ISO27001-TECH-NO-REDUNDANCY-014",
+  "canonical_name": "No Redundancy of Information Processing Facilities",
+  "description": "Information processing facilities are not implemented with redundancy to meet availability requirements.",
+  "domain": "ISO27001",
+  "category": "TECH",
+  "applicability": "Applies to organizations that do not implement redundant infrastructure components (servers, storage, network, power, cooling) necessary to meet defined availability and business continuity requirements for critical systems and services.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "technology",
+      "availability",
+      "business-continuity",
+      "infrastructure"
+    ],
+    "related_controls": [
+      "ISO 27001:2022 A.8.14"
+    ],
+    "detection_notes": "Review infrastructure architecture, high availability configurations, failover mechanisms, load balancing, geographic redundancy, single points of failure, availability SLAs, and disaster recovery capabilities.",
+    "sources": [
+      {
+        "url": "https://www.iso.org/standard/27001",
+        "type": "standard",
+        "title": "ISO/IEC 27001:2022 - Information Security Management Systems",
+        "section": "A.8",
+        "authority": "ISO/IEC"
+      },
+      {
+        "url": "https://www.iso.org/standard/75652.html",
+        "type": "guidance",
+        "title": "ISO/IEC 27002:2022 - Information Security Controls",
+        "section": "A.8 - Technological Controls",
+        "authority": "ISO/IEC"
+      },
+      {
+        "url": "https://www.iso.org/isoiec-27001-information-security.html",
+        "type": "guidance",
+        "title": "ISO/IEC 27000 Family - Information Security",
+        "authority": "ISO/IEC"
+      }
+    ]
+  },
+  "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-REDUNDANCY-014/"
+}

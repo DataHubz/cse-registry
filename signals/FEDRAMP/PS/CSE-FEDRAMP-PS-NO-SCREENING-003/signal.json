@@ -1,0 +1,48 @@
+{
+  "id": "CSE-FEDRAMP-PS-NO-SCREENING-003",
+  "canonical_name": "No Personnel Screening",
+  "description": "The organization does not screen individuals prior to authorizing access to the information system and does not rescreen individuals according to organizationally-defined conditions requiring rescreening. This signal indicates that personnel may be granted access to federal information systems without proper background investigations or security clearances appropriate to their position risk designation.",
+  "domain": "FEDRAMP",
+  "category": "PS",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "personnel-security",
+      "background-screening",
+      "access-control"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of personnel screening documentation and records Analysis of background investigation completion status Verification of screening criteria alignment with position risk Assessment of screening timelines and access authorization Examination of rescreening schedules and compliance Inspection of clearance levels and investigation types Review of fingerprinting and biographic check records Verification of reference check completion Analysis of screening gaps or exceptions Examination of contractor and third-party screening requirements The presence of this signal indicates a condition that warrants review in the context of FedRAMP personnel security requirements. Personnel screening should be completed prior to access authorization and maintai",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "PS",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Personnel Security",
+        "section": "PS",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/PS/CSE-FEDRAMP-PS-NO-SCREENING-003/"
+}

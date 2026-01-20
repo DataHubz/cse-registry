@@ -1,0 +1,45 @@
+{
+  "id": "CSE-SOC2-PRIV-NO-BREACH-NOTIFICATION-015",
+  "canonical_name": "No Data Breach Notification",
+  "description": "The entity does not notify affected data subjects, regulators, and others when a data breach has occurred in accordance with applicable laws and regulations. This signal indicates that critical breach notification obligations may not be met, potentially violating legal requirements and undermining trust.",
+  "domain": "SOC2",
+  "category": "PRIV",
+  "applicability": "Applicable to breach response procedures, notification workflows, regulatory compliance processes, incident management systems, and communication protocols for data breaches.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": [
+      "privacy",
+      "data-protection",
+      "pii"
+    ],
+    "related_controls": [
+      "SOC 2 P6.4",
+      "GAPP"
+    ],
+    "detection_notes": "Commonly detected through review of breach notification procedures, incident response plans, regulatory compliance documentation, and notification tracking systems. May be identified by absence of notification workflows, missing breach communication plans, or lack of regulatory reporting procedures.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - Privacy",
+        "section": "P1, P2, P3, P4, P5, P6, P7, P8",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/generally-accepted-privacy-principles-gapp",
+        "type": "guidance",
+        "title": "AICPA Generally Accepted Privacy Principles (GAPP)",
+        "authority": "AICPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-BREACH-NOTIFICATION-015/"
+}

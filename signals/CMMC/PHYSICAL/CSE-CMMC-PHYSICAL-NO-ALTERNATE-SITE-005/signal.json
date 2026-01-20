@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-PHYSICAL-NO-ALTERNATE-SITE-005",
+  "canonical_name": "Alternate Work Site Security Not Addressed",
+  "description": "Security controls for alternate work sites such as home offices are not implemented or verified. This signal indicates that CUI may be processed in environments without adequate physical protection.",
+  "domain": "CMMC",
+  "category": "PHYSICAL",
+  "applicability": "Applicable to all remote and alternate work locations. Includes home office security, remote work environments, and temporary work locations accessing CUI.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "remote-work",
+      "data-protection"
+    ],
+    "related_controls": [
+      "CMMC PE.L2-3.10.6",
+      "NIST SP 800-171 3.10.6"
+    ],
+    "detection_notes": "Detected through remote work policy review, alternate site security verification, and telework agreement assessment.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Physical Protection",
+        "section": "3.10.6",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-ALTERNATE-SITE-005/"
+}

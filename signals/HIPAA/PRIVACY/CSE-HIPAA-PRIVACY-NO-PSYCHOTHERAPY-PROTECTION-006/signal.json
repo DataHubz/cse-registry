@@ -1,0 +1,38 @@
+{
+  "id": "CSE-HIPAA-PRIVACY-NO-PSYCHOTHERAPY-PROTECTION-006",
+  "canonical_name": "No Psychotherapy Notes Protection",
+  "description": "Psychotherapy notes used or disclosed without required authorization.",
+  "domain": "HIPAA",
+  "category": "PRIVACY",
+  "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.508(a)(2)"
+    ],
+    "detection_notes": "Detection of this signal may occur when: Psychotherapy notes are disclosed without specific authorization separate from other PHI authorizations Psychotherapy notes are improperly commingled with general medical records Notes that do not meet the definition of psychotherapy notes are incorrectly segregated Psychotherapy notes are used for purposes beyond the narrow exceptions (originator's treatment use, training, legal defense, oversight) Providers fail to maintain separate storage and access controls for psychotherapy notes",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+        "section": "164.508(a)(2)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+        "type": "guidance",
+        "title": "HHS Privacy Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PSYCHOTHERAPY-PROTECTION-006/"
+}

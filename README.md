@@ -1,6 +1,6 @@
 # Compliance Signal Enumeration (CSE)
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Spec Version](https://img.shields.io/badge/Spec-v1.0.0-green.svg)](v1.0.0/) [![Status](https://img.shields.io/badge/Status-Release_Candidate-yellow.svg)](#) [![Signals](https://img.shields.io/badge/Signals-1170-orange.svg)](v1.0.0/registry/cse-registry.json) [![Domains](https://img.shields.io/badge/Domains-12-purple.svg)](v1.0.0/registry/index.json)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Spec Version](https://img.shields.io/badge/Spec-v1.0.0-green.svg)](spec/) [![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)](#) [![Signals](https://img.shields.io/badge/Signals-1170-orange.svg)](registry/cse-registry.json) [![Domains](https://img.shields.io/badge/Domains-12-purple.svg)](registry/index.json)
 
 **A neutral, framework-agnostic registry of compliance-relevant technical signals**
 
@@ -27,7 +27,7 @@ CSE provides:
 | **Total Signals** | 1,170 |
 | **Domains** | 12 |
 | **Spec Version** | 1.0.0 |
-| **Status** | Release Candidate |
+| **Status** | Stable |
 
 ### Supported Frameworks
 
@@ -177,11 +177,11 @@ CSE-<DOMAIN>-<CATEGORY>-<NAME>-<SERIAL>
 
 A concrete instance where a signal is observed in a specific context. Findings are implementation-specific and are **not stored in this registry**. CSE defines what signals mean; implementations determine where and when they occur.
 
-While findings are not stored in the registry, CSE provides a **standardized finding format** to enable interoperability between tools and platforms. See [Finding Format Specification](v1.0.0/spec/finding-format-v1.0.md) for details.
+While findings are not stored in the registry, CSE provides a **standardized finding format** to enable interoperability between tools and platforms. See [Finding Format Specification](spec/finding-format-v1.0.md) for details.
 
 ### Artifact
 
-A technical object where signals may be observed. Artifacts include source code files, configuration files, infrastructure-as-code templates, container images, cloud resources, Kubernetes manifests, and more. See [Artifact Schema](v1.0.0/schemas/artifact.schema.json) for the complete specification.
+A technical object where signals may be observed. Artifacts include source code files, configuration files, infrastructure-as-code templates, container images, cloud resources, Kubernetes manifests, and more. See [Artifact Schema](schemas/artifact.schema.json) for the complete specification.
 
 ### Domain
 
@@ -262,7 +262,7 @@ Signal-to-signal mappings that establish equivalence between GEN signals and dom
 }
 ```
 
-Mappings are located in `v1.0.0/mappings/`.
+Mappings are located in `mappings/`.
 
 ## Findings
 
@@ -359,16 +359,16 @@ For lightweight integrations, a minimal valid finding:
 Validate findings against the JSON schema:
 
 ```bash
-ajv validate -s v1.0.0/schemas/finding.schema.json -d your-finding.json
+ajv validate -s schemas/finding.schema.json -d your-finding.json
 ```
 
 For bulk exports, use the finding set schema:
 
 ```bash
-ajv validate -s v1.0.0/schemas/finding-set.schema.json -d your-findings-export.json
+ajv validate -s schemas/finding-set.schema.json -d your-findings-export.json
 ```
 
-See [Finding Format Specification](v1.0.0/spec/finding-format-v1.0.md) for complete documentation.
+See [Finding Format Specification](spec/finding-format-v1.0.md) for complete documentation.
 
 ## Putting It All Together
 
@@ -553,92 +553,101 @@ This integrated approach enables:
 
 ```
 .
-├── v1.0.0/                    # Versioned registry content
-│   ├── spec/                  # Normative specifications
-│   │   ├── cse-spec-v1.0.md
-│   │   ├── signal-format-v1.0.md
-│   │   ├── registry-format-v1.0.md
-│   │   ├── mapping-format-v1.0.md
-│   │   └── finding-format-v1.0.md
-│   │
-│   ├── registry/              # Machine-readable registry artifacts
-│   │   ├── index.json
-│   │   ├── cse-registry.json
-│   │   ├── cse-registry.min.json
-│   │   ├── cse-registry.ndjson
-│   │   ├── domains/
-│   │   │   ├── CCPA.json
-│   │   │   ├── CMMC.json
-│   │   │   ├── FEDRAMP.json
-│   │   │   ├── GDPR.json
-│   │   │   ├── GEN.json
-│   │   │   ├── CIS.json
-│   │   │   ├── HIPAA.json
-│   │   │   ├── HITRUST.json
-│   │   │   ├── ISO27001.json
-│   │   │   ├── NISTCSF.json
-│   │   │   ├── PCIDSS.json
-│   │   │   └── SOC2.json
-│   │   └── SHA256SUMS
-│   │
-│   ├── mappings/              # Signal-to-control and cross-framework mappings
-│   │   ├── index.json
-│   │   ├── frameworks/
-│   │   ├── controls/
-│   │   ├── signal-to-control/
-│   │   │   ├── CCPA.json
-│   │   │   ├── CIS.json
-│   │   │   ├── CMMC.json
-│   │   │   ├── FEDRAMP.json
-│   │   │   ├── GDPR.json
-│   │   │   ├── GEN.json       # Cross-framework GEN mappings
-│   │   │   ├── HIPAA.json
-│   │   │   ├── HITRUST.json
-│   │   │   ├── ISO27001.json
-│   │   │   ├── NISTCSF.json
-│   │   │   ├── PCIDSS.json
-│   │   │   └── SOC2.json
-│   │   ├── equivalence/
-│   │   │   └── GEN-to-domains.json
-│   │   └── cross-framework/
-│   │       ├── CMMC-2.0-to-ISO27001-2022.json
-│   │       ├── CMMC-2.0-to-NIST-CSF-2.0.json
-│   │       ├── PCI-DSS-4.0-to-ISO27001-2022.json
-│   │       └── SOC2-2017-to-ISO27001-2022.json
-│   │
-│   ├── signals/               # Canonical signal definitions
-│   │   ├── CCPA/
-│   │   ├── CIS/
-│   │   ├── CMMC/
-│   │   ├── FEDRAMP/
-│   │   ├── GDPR/
-│   │   ├── GEN/
-│   │   ├── HIPAA/
-│   │   ├── HITRUST/
-│   │   ├── ISO27001/
-│   │   ├── NISTCSF/
-│   │   ├── PCIDSS/
-│   │   └── SOC2/
-│   │
-│   ├── schemas/               # JSON schemas for validation
-│   │   ├── registry.schema.json
-│   │   ├── signal.schema.json
-│   │   ├── mapping.schema.json
-│   │   ├── mapping-index.schema.json
-│   │   ├── framework.schema.json
-│   │   ├── control.schema.json
-│   │   ├── finding.schema.json
-│   │   ├── finding-set.schema.json
-│   │   └── artifact.schema.json
-│   │
-│   └── examples/              # Reference examples (informative)
-│       ├── registry-example.json
-│       ├── signal-example.json
-│       ├── finding-example.json
-│       ├── finding-minimal-example.json
-│       ├── finding-set-example.json
-│       └── artifact-example.json
+├── spec/                      # Normative specifications
+│   ├── cse-spec-v1.0.md
+│   ├── signal-format-v1.0.md
+│   ├── registry-format-v1.0.md
+│   ├── mapping-format-v1.0.md
+│   └── finding-format-v1.0.md
+│
+├── registry/                  # Machine-readable registry artifacts
+│   ├── index.json
+│   ├── cse-registry.json
+│   ├── cse-registry.min.json
+│   ├── cse-registry.ndjson
+│   ├── domains/
+│   │   ├── CCPA.json
+│   │   ├── CMMC.json
+│   │   ├── FEDRAMP.json
+│   │   ├── GDPR.json
+│   │   ├── GEN.json
+│   │   ├── CIS.json
+│   │   ├── HIPAA.json
+│   │   ├── HITRUST.json
+│   │   ├── ISO27001.json
+│   │   ├── NISTCSF.json
+│   │   ├── PCIDSS.json
+│   │   └── SOC2.json
+│   └── SHA256SUMS
+│
+├── mappings/                  # Signal-to-control and cross-framework mappings
+│   ├── index.json
+│   ├── frameworks/
+│   ├── controls/
+│   ├── signal-to-control/
+│   │   ├── CCPA.json
+│   │   ├── CIS.json
+│   │   ├── CMMC.json
+│   │   ├── FEDRAMP.json
+│   │   ├── GDPR.json
+│   │   ├── GEN.json           # Cross-framework GEN mappings
+│   │   ├── HIPAA.json
+│   │   ├── HITRUST.json
+│   │   ├── ISO27001.json
+│   │   ├── NISTCSF.json
+│   │   ├── PCIDSS.json
+│   │   └── SOC2.json
+│   ├── equivalence/
+│   │   └── GEN-to-domains.json
+│   └── cross-framework/
+│       ├── CMMC-2.0-to-ISO27001-2022.json
+│       ├── CMMC-2.0-to-NIST-CSF-2.0.json
+│       ├── PCI-DSS-4.0-to-ISO27001-2022.json
+│       └── SOC2-2017-to-ISO27001-2022.json
+│
+├── signals/                   # Canonical signal definitions
+│   ├── CCPA/
+│   ├── CIS/
+│   ├── CMMC/
+│   ├── FEDRAMP/
+│   ├── GDPR/
+│   ├── GEN/
+│   ├── HIPAA/
+│   ├── HITRUST/
+│   ├── ISO27001/
+│   ├── NISTCSF/
+│   ├── PCIDSS/
+│   └── SOC2/
+│
+├── schemas/                   # JSON schemas for validation
+│   ├── registry.schema.json
+│   ├── signal.schema.json
+│   ├── mapping.schema.json
+│   ├── mapping-index.schema.json
+│   ├── framework.schema.json
+│   ├── control.schema.json
+│   ├── finding.schema.json
+│   ├── finding-set.schema.json
+│   └── artifact.schema.json
+│
+├── examples/                  # Reference examples (informative)
+│   ├── registry-example.json
+│   ├── signal-example.json
+│   ├── finding-example.json
+│   ├── finding-minimal-example.json
+│   ├── finding-set-example.json
+│   └── artifact-example.json
+│
+├── VERSION                    # Current version (1.0.0)
+├── README.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── GOVERNANCE.md
+├── GLOSSARY.md
+└── LICENSE
 ```
+
+> **Note:** Version history is managed via git tags. Use `git tag -l` to list versions or `git checkout v1.0.0` to access a specific release.
 
 ## Registry Formats
 
@@ -698,7 +707,7 @@ Each signal in the registry includes a canonical definition. Below is an example
 > - Requirement: 3.3
 > - "Sensitive authentication data (SAD) is not retained after authorization, even if encrypted..."
 
-Signal definitions are stored as individual README.md files within the `v1.0.0/signals/` directory structure. See [`v1.0.0/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-SAD-RETAINED-003/`](v1.0.0/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-SAD-RETAINED-003/) for the full definition.
+Signal definitions are stored as individual README.md files within the `signals/` directory structure. See [`signals/PCIDSS/STORE/CSE-PCIDSS-STORE-SAD-RETAINED-003/`](signals/PCIDSS/STORE/CSE-PCIDSS-STORE-SAD-RETAINED-003/) for the full definition.
 
 ## Getting Started
 
@@ -706,17 +715,17 @@ Signal definitions are stored as individual README.md files within the `v1.0.0/s
 
 ```bash
 # View registry index
-curl -s https://raw.githubusercontent.com/DataHubz/cse-registry/main/v1.0.0/registry/index.json | jq .
+curl -s https://raw.githubusercontent.com/DataHubz/cse-registry/main/registry/index.json | jq .
 
 # List all signals for a domain
-curl -s https://raw.githubusercontent.com/DataHubz/cse-registry/main/v1.0.0/registry/domains/HIPAA.json | jq '.signals[].id'
+curl -s https://raw.githubusercontent.com/DataHubz/cse-registry/main/registry/domains/HIPAA.json | jq '.signals[].id'
 ```
 
 ### Validate Against Schema
 
 ```bash
 # Validate a registry file
-ajv validate -s v1.0.0/schemas/registry.schema.json -d v1.0.0/registry/cse-registry.json
+ajv validate -s schemas/registry.schema.json -d registry/cse-registry.json
 ```
 
 ## Website & Documentation

@@ -1,0 +1,46 @@
+{
+  "id": "CSE-CCPA-AUTOMATED-NO-OPTOUT-003",
+  "canonical_name": "Opt-Out of Automated Decisions Not Available",
+  "description": "A business uses automated decision-making technology to make consequential decisions about consumers but does not provide a mechanism for consumers to opt-out of such automated processing. Consumers should have the ability to object to decisions being made solely by automated means when those decisions have legal or similarly significant effects. This signal indicates that businesses lack technical controls, processes, or interfaces to allow consumers to request that consequential decisions not",
+  "domain": "CCPA",
+  "category": "AUTOMATED",
+  "applicability": "This signal applies to: Lending platforms using automated credit decisions Employment systems with automated hiring or termination decisions Insurance providers using automated underwriting and pricing Healthcare platforms making automated treatment recommendations Educational institutions using automated admissions decisions Content moderation systems making automated account suspension decisions Fraud detection systems making automated account closure decisions Any business making consequentia",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of application forms and user interfaces for opt-out options Analysis of automated decision-making systems for override capabilities Testing of consumer preference systems for automated decision opt-outs Inspection of business processes for human review escalation paths Assessment of privacy settings and consent management platforms Review of customer support capabilities for automated decision appeals Evaluation of technical controls for routing opted-out decisions to human review The presence of this signal indicates a condition that warrants review in the context of CPRA requirements for consumer control over automated decision-making.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/AUTOMATED/CSE-CCPA-AUTOMATED-NO-OPTOUT-003/"
+}

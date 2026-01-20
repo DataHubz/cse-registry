@@ -1,0 +1,44 @@
+{
+  "id": "CSE-SOC2-CC-NO-PHYSICAL-ACCESS-021",
+  "canonical_name": "No Physical Access Restrictions",
+  "description": "The entity does not restrict physical access to facilities and protected information assets to authorized personnel.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Data centers, server rooms, office facilities",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "Physical Security",
+      "Access Control",
+      "Facility Management"
+    ],
+    "related_controls": [
+      "SOC 2 CC6.4"
+    ],
+    "detection_notes": "Conduct physical security assessments, review access control systems for facilities, verify badge systems and visitor management processes. Inspect server rooms and data centers for physical access controls.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - CC6 Logical and Physical Access Controls",
+        "section": "CC6",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.coso.org/guidance-on-ic",
+        "type": "guidance",
+        "title": "COSO Internal Control - Integrated Framework",
+        "authority": "COSO"
+      }
+    ]
+  },
+  "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-PHYSICAL-ACCESS-021/"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CSE-HIPAA-PRIVACY-NO-ACCOUNTING-DISCLOSURES-017",
+  "canonical_name": "No Accounting of Disclosures",
+  "description": "No accounting of disclosures provided when requested.",
+  "domain": "HIPAA",
+  "category": "PRIVACY",
+  "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "related_controls": [
+      "45 CFR 164.528"
+    ],
+    "detection_notes": "Detect absence of disclosure tracking mechanisms, incomplete accounting records, or failure to provide accounting within 60 days of request (with possible 30-day extension). Monitor for disclosure logs that do not capture required information (date, recipient, description, purpose).",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart E - Privacy Rule",
+        "section": "164.500",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+        "type": "guidance",
+        "title": "HHS Privacy Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCOUNTING-DISCLOSURES-017/"
+}

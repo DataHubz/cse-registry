@@ -1,0 +1,51 @@
+{
+  "id": "CSE-GDPR-CONSENT-NO-WITHDRAWAL-MECHANISM-004",
+  "canonical_name": "Consent Withdrawal Mechanism Missing",
+  "description": "No mechanism exists for data subjects to withdraw consent as easily as it was given. Article 7.3 requires that withdrawal be as easy as giving consent and that data subjects are informed of withdrawal right.",
+  "domain": "GDPR",
+  "category": "CONSENT",
+  "applicability": "Applicable to all consent-based processing. Withdrawal mechanism must be available, accessible, and as easy to use as initial consent mechanism. Processing must stop upon withdrawal.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "consent-management",
+      "data-subject-rights"
+    ],
+    "related_controls": [
+      "GDPR Art. 7.3"
+    ],
+    "detection_notes": "Detected through review of consent management systems and absence of clear, accessible withdrawal mechanisms.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter II - Conditions for Consent",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-7-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 7.3",
+        "section": "GDPR Art. 7.3",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Consent",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/CONSENT/CSE-GDPR-CONSENT-NO-WITHDRAWAL-MECHANISM-004/"
+}

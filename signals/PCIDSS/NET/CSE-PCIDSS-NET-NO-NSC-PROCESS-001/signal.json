@@ -1,0 +1,43 @@
+{
+  "id": "CSE-PCIDSS-NET-NO-NSC-PROCESS-001",
+  "canonical_name": "No Network Security Control Processes",
+  "description": "No defined processes for maintaining network security controls.",
+  "domain": "PCIDSS",
+  "category": "NET",
+  "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Point-of-sale (POS) systems Network infrastructure within CDE scope",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "1.1 Processes and mechanisms for installing and maintaining network security controls are defined and understood."
+    ],
+    "detection_notes": "Detection guidance: Look for missing or outdated network security policies, lack of documented procedures for firewall rule management, absence of network diagrams showing CDE boundaries, and missing processes for reviewing and approving network configuration changes.",
+    "sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "standard",
+        "title": "PCI DSS v4.0",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI SSC Document Library",
+        "authority": "PCI SSC"
+      },
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "type": "guidance",
+        "title": "PCI DSS Quick Reference Guide",
+        "authority": "PCI SSC"
+      }
+    ]
+  },
+  "definition_ref": "/signals/PCIDSS/NET/CSE-PCIDSS-NET-NO-NSC-PROCESS-001/"
+}

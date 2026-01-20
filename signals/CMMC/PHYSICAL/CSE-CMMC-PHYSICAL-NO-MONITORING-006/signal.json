@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-PHYSICAL-NO-MONITORING-006",
+  "canonical_name": "Physical Security Monitoring Not Implemented",
+  "description": "Physical security monitoring through cameras, alarms, or guards is not implemented for facilities containing CUI. This signal indicates that physical security incidents may go undetected.",
+  "domain": "CMMC",
+  "category": "PHYSICAL",
+  "applicability": "Applicable to all facilities requiring physical monitoring. Includes CCTV systems, intrusion alarms, security guards, and environmental monitoring systems.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "physical-security",
+      "monitoring",
+      "incident-detection"
+    ],
+    "related_controls": [
+      "CMMC PE.L1-3.10.2",
+      "NIST SP 800-171 3.10.2"
+    ],
+    "detection_notes": "Detected through security monitoring system review, surveillance coverage assessment, and alarm system verification.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Physical Protection",
+        "section": "3.10.2",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-MONITORING-006/"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "CSE-FEDRAMP-PL-NO-SSP-002",
+  "canonical_name": "No System Security Plan",
+  "description": "The information system does not have a comprehensive System Security Plan (SSP) that describes the security and privacy controls in place or planned for the system. This signal indicates that the organization may lack the fundamental documentation required for FedRAMP authorization, which describes the system boundary, environment, and implementation of security controls.",
+  "domain": "FEDRAMP",
+  "category": "PL",
+  "applicability": "This signal applies to: Cloud Service Providers (CSPs) pursuing FedRAMP authorization Federal agencies managing information systems Third Party Assessment Organizations (3PAOs) conducting assessments Federal information systems processing, storing, or transmitting federal data Organizations supporting federal cloud services",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security-planning",
+      "governance",
+      "risk-management"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of System Security Plan documentation completeness Analysis of system boundary and component definitions Verification of security categorization and rationale Assessment of control implementation descriptions Examination of SSP approval and distribution records Inspection of SSP review and update schedules Review of privacy risk assessment inclusion Verification of alignment with FedRAMP SSP template requirements The presence of this signal indicates a condition that warrants review in the context of FedRAMP authorization requirements. The SSP is a foundational document for FedRAMP and must be completed according to FedRAMP templates and guidance.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "PL",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Planning",
+        "section": "PL",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/PL/CSE-FEDRAMP-PL-NO-SSP-002/"
+}

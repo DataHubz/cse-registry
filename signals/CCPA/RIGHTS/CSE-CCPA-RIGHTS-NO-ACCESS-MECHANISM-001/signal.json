@@ -1,0 +1,47 @@
+{
+  "id": "CSE-CCPA-RIGHTS-NO-ACCESS-MECHANISM-001",
+  "canonical_name": "Right to Know Mechanism Missing",
+  "description": "No mechanism exists for consumers to request disclosure of the categories and specific pieces of personal information that a business has collected about them. The right to know is a foundational consumer right under CCPA, requiring businesses to provide accessible methods for consumers to submit requests.",
+  "domain": "CCPA",
+  "category": "RIGHTS",
+  "applicability": "Consumer-facing web applications Mobile applications processing California residents' data Customer data platforms Marketing and analytics platforms E-commerce systems SaaS applications with consumer users",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-subject-rights",
+      "privacy",
+      "access-control"
+    ],
+    "detection_notes": "Review CCPA compliance documentation and controls for RIGHTS requirements.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "section": "Civil Code §1798.100-1798.135",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/RIGHTS/CSE-CCPA-RIGHTS-NO-ACCESS-MECHANISM-001/"
+}

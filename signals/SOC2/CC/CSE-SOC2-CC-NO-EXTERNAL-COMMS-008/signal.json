@@ -1,0 +1,45 @@
+{
+  "id": "CSE-SOC2-CC-NO-EXTERNAL-COMMS-008",
+  "canonical_name": "No External Communication",
+  "description": "The entity does not communicate with external parties regarding matters affecting the functioning of internal control.",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Applies to all entities when there is no communication with external stakeholders about controls, third-party control requirements are not communicated, incident notifications to customers are absent, or regulatory reporting is inadequate.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "communication",
+      "stakeholder_management",
+      "transparency"
+    ],
+    "related_controls": [
+      "SOC 2 CC2.3",
+      "COSO Principle 15"
+    ],
+    "detection_notes": "Review external communication policies, customer notification procedures, vendor management communications, regulatory reporting records, and stakeholder engagement documentation. Look for absence of external communications about controls, lack of incident notification processes, or inadequate stakeholder engagement.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - CC2 Communication and Information",
+        "section": "CC2",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.coso.org/guidance-on-ic",
+        "type": "guidance",
+        "title": "COSO Internal Control - Integrated Framework",
+        "authority": "COSO"
+      }
+    ]
+  },
+  "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-EXTERNAL-COMMS-008/"
+}

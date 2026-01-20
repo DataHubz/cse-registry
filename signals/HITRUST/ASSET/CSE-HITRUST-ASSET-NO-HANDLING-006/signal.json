@@ -1,0 +1,40 @@
+{
+  "id": "CSE-HITRUST-ASSET-NO-HANDLING-006",
+  "canonical_name": "Asset Handling Procedures Missing",
+  "description": "An organization lacks documented procedures for the secure handling, storage, transmission, and disposal of information assets according to their classification and sensitivity. This signal indicates that there are no standardized guidelines for how different types of information should be processed, shared, stored, or destroyed throughout their lifecycle.",
+  "domain": "HITRUST",
+  "category": "ASSET",
+  "applicability": "This signal applies to: Document creation and sharing Email and electronic communications Data transmission and transfer Physical document handling Media storage and transportation Information disposal and destruction Backup and archival processes Cloud data operations Print and copy procedures",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of information security policies and procedures Assessment of data handling guidelines documentation Evaluation of secure transmission procedures Analysis of media disposal and sanitization standards Review of physical document handling requirements Verification of cloud data operations procedures Assessment of print and copy handling controls The presence of this signal indicates a condition that warrants review in the context of asset handling procedure requirements.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-HANDLING-006/"
+}

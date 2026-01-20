@@ -1,0 +1,40 @@
+{
+  "id": "CSE-HITRUST-MOBILE-NO-POLICY-001",
+  "canonical_name": "Mobile Device Policy Missing",
+  "description": "A formal mobile device security policy has not been established or documented for an organization or system handling protected health information (PHI) or other sensitive data. This signal indicates the absence of a documented policy that defines rules, procedures, and requirements for mobile device usage within the organization. A mobile device policy should establish clear guidelines for device enrollment, acceptable use, security requirements, data handling, and incident response procedures r",
+  "domain": "HITRUST",
+  "category": "MOBILE",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers Organizations with mobile workforce or BYOD programs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of organizational policy repositories and documentation systems Examination of security governance frameworks Analysis of policy management processes Verification of policy approval and publication records Assessment of mobile device management documentation Review of employee handbooks and security awareness materials The presence of this signal indicates a foundational gap in mobile device governance that should be addressed as a priority for HITRUST compliance and security best practices, especially in organizations with mobile workforce or BYOD programs.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-POLICY-001/"
+}

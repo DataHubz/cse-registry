@@ -1,0 +1,41 @@
+{
+  "id": "CSE-CIS-RECOVERY-NO-PROTECTED-BACKUP-003",
+  "canonical_name": "Backup Data Protection Missing",
+  "description": "The organization lacks adequate protection for backup data, including encryption and access controls, making backup data vulnerable to unauthorized access, theft, or tampering. This signal indicates that backup data may be stored unencrypted, accessible to unauthorized users, or insufficiently protected from security threats.",
+  "domain": "CIS",
+  "category": "RECOVERY",
+  "applicability": "This signal applies to: Backup data encryption at rest Backup data encryption in transit Backup storage access controls Backup media security Backup encryption key management Backup repository authentication Off-site backup protection Cloud backup security",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Review CIS compliance documentation and controls for RECOVERY requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 11: Data Recovery",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-PROTECTED-BACKUP-003/"
+}

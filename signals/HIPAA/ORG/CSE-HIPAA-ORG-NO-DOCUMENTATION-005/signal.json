@@ -1,0 +1,45 @@
+{
+  "id": "CSE-HIPAA-ORG-NO-DOCUMENTATION-005",
+  "canonical_name": "No Documentation Maintenance",
+  "description": "No maintenance of policies and procedures in written or electronic form.",
+  "domain": "HIPAA",
+  "category": "ORG",
+  "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "45 CFR 164.316(b)(1)"
+    ],
+    "detection_notes": "Detection guidance: Verify that all Security Rule policies, procedures, and required documentation exist in written or electronic form. Check document management systems, policy repositories, and recordkeeping practices. Confirm that required documentation such as risk assessments, sanction policies, system activity reviews, and security incident tracking are maintained in accessible written format.",
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+        "type": "regulation",
+        "title": "45 CFR Part 164 Subpart C - Organizational Requirements",
+        "section": "164.316(b)(1)",
+        "authority": "HHS"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+        "type": "guidance",
+        "title": "NIST SP 800-66 Rev 2 - Implementing the HIPAA Security Rule",
+        "section": "7",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html",
+        "type": "guidance",
+        "title": "HHS Security Rule Guidance",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-DOCUMENTATION-005/"
+}

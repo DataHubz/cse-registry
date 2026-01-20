@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-ACCESS-NO-PRIVACY-NOTICE-008",
+  "canonical_name": "Privacy and Security Notice Missing",
+  "description": "Systems do not display approved privacy and security notices before granting access. This signal indicates that users may not be informed of usage terms, monitoring policies, or acceptable use requirements before accessing systems.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to all systems requiring user login including workstations, servers, applications, and network devices. Includes login banners, terms of use acknowledgment, and consent notices.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "low",
+    "risk_domains": [
+      "access-control",
+      "governance",
+      "legal"
+    ],
+    "related_controls": [
+      "CMMC AC.L2-3.1.9",
+      "NIST SP 800-171 3.1.9"
+    ],
+    "detection_notes": "Detected through review of login banner configurations, pre-authentication notices, and terms acceptance mechanisms.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Access Control",
+        "section": "3.1.9",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-PRIVACY-NOTICE-008/"
+}

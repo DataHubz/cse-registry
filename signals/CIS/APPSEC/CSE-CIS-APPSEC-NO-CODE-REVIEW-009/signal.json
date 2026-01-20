@@ -1,0 +1,40 @@
+{
+  "id": "CSE-CIS-APPSEC-NO-CODE-REVIEW-009",
+  "canonical_name": "Security Code Review Missing",
+  "description": "An organization has not implemented security-focused code review processes for application development. This signal indicates the absence of systematic peer review of source code with a specific focus on identifying security vulnerabilities, insecure coding practices, and potential security weaknesses before code is merged and deployed.",
+  "domain": "CIS",
+  "category": "APPSEC",
+  "applicability": "This signal applies to: Software development teams Application security teams DevSecOps teams Security engineering teams Code review teams Senior developers and architects Quality assurance teams Engineering leadership",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of code review processes and policies Assessment of pull request workflows Evaluation of security review checklists Examination of reviewer qualifications and training Review of automated security checks in CI/CD Assessment of high-risk code review requirements Analysis of security review documentation Security code review best practices: **Review process:** Mandatory peer review before merge Security-focused review checklist Dedicated security reviewers for high-risk changes Documented review comments and decisions Required approvals before deployment **Security review focus areas:** **Authentication/Authorization**: Proper access controls **Input validation**: Sanitization and type checking **Output encoding**: XSS and injection prevent",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-CODE-REVIEW-009/"
+}

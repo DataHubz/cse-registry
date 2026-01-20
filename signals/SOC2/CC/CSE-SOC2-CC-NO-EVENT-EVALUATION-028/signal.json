@@ -1,0 +1,44 @@
+{
+  "id": "CSE-SOC2-CC-NO-EVENT-EVALUATION-028",
+  "canonical_name": "No Security Event Evaluation",
+  "description": "The entity does not evaluate security events to determine whether they could or have resulted in a failure to meet its objectives (security incidents).",
+  "domain": "SOC2",
+  "category": "CC",
+  "applicability": "Security event triage, incident classification",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "Incident Management",
+      "Security Operations",
+      "Event Analysis"
+    ],
+    "related_controls": [
+      "SOC 2 CC7.3"
+    ],
+    "detection_notes": "Review security event triage processes, incident classification procedures, and event evaluation workflows. Verify that security events are assessed and escalated appropriately.",
+    "sources": [
+      {
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "type": "standard",
+        "title": "AICPA Trust Services Criteria - CC7 System Operations",
+        "section": "CC7",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.aicpa-cima.com/resources/article/soc-2-soc-for-service-organizations-trust-services-criteria",
+        "type": "guidance",
+        "title": "AICPA SOC 2 Reporting on an Examination",
+        "authority": "AICPA"
+      },
+      {
+        "url": "https://www.coso.org/guidance-on-ic",
+        "type": "guidance",
+        "title": "COSO Internal Control - Integrated Framework",
+        "authority": "COSO"
+      }
+    ]
+  },
+  "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-EVENT-EVALUATION-028/"
+}

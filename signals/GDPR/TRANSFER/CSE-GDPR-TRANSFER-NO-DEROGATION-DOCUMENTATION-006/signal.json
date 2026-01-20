@@ -1,0 +1,51 @@
+{
+  "id": "CSE-GDPR-TRANSFER-NO-DEROGATION-DOCUMENTATION-006",
+  "canonical_name": "Derogation Not Documented",
+  "description": "Transfer to third country relies on Article 49 derogation but specific situation and necessity are not documented. Derogations are limited to specific situations and must be documented with justification.",
+  "domain": "GDPR",
+  "category": "TRANSFER",
+  "applicability": "Applicable when transfers occur without adequacy or safeguards, relying on derogations. Must be occasional, necessary, and documented. Not available for systematic or large-scale transfers.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "critical",
+    "risk_domains": [
+      "data-protection",
+      "international-transfers",
+      "exceptional-circumstances"
+    ],
+    "related_controls": [
+      "GDPR Art. 49"
+    ],
+    "detection_notes": "Detected through review of transfers without adequacy or safeguards and absence of derogation justification documentation.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter V - Transfers to Third Countries",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-49-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 49",
+        "section": "GDPR Art. 49",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on International Transfers",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/international-transfers/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/TRANSFER/CSE-GDPR-TRANSFER-NO-DEROGATION-DOCUMENTATION-006/"
+}

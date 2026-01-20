@@ -1,0 +1,41 @@
+{
+  "id": "CSE-CIS-NETWORK-NO-ARCHITECTURE-DIAGRAMS-004",
+  "canonical_name": "Network Architecture Diagrams Missing",
+  "description": "The organization lacks current and accurate network architecture diagrams that document the logical and physical topology of the network infrastructure. This signal indicates that understanding network data flows, security boundaries, and infrastructure dependencies may be difficult without proper documentation.",
+  "domain": "CIS",
+  "category": "NETWORK",
+  "applicability": "This signal applies to: Network topology documentation Network architecture diagrams Data flow diagrams Security zone mappings VLAN and subnet documentation Network infrastructure documentation Disaster recovery planning Security architecture reviews",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "network-security",
+      "segmentation",
+      "monitoring"
+    ],
+    "detection_notes": "Review CIS compliance documentation and controls for NETWORK requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 12: Network Infrastructure Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-ARCHITECTURE-DIAGRAMS-004/"
+}

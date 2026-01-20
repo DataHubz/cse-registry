@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-COMMS-NO-ARCHITECTURE-PROTECTION-015",
+  "canonical_name": "System Architecture Protection Not Implemented",
+  "description": "Security architecture principles such as defense in depth and least privilege are not implemented in system design. This signal indicates that the system may lack layered security controls.",
+  "domain": "CMMC",
+  "category": "COMMS",
+  "applicability": "Applicable to all system architectures. Includes defense in depth, network segmentation, security zones, and architectural security controls.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-communications",
+      "architecture",
+      "security-design"
+    ],
+    "related_controls": [
+      "CMMC SC.L2-3.13.2",
+      "NIST SP 800-171 3.13.2"
+    ],
+    "detection_notes": "Detected through architecture review, security zone assessment, and defense-in-depth verification.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - System and Communications Protection",
+        "section": "3.13.2",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-ARCHITECTURE-PROTECTION-015/"
+}

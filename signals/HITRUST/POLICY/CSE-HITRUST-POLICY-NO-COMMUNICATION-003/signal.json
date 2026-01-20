@@ -1,0 +1,43 @@
+{
+  "id": "CSE-HITRUST-POLICY-NO-COMMUNICATION-003",
+  "canonical_name": "Policy Not Communicated",
+  "description": "Policies have not been communicated to the workforce and relevant external parties. Organizations must ensure that security policies are effectively published, distributed, and communicated to all employees, contractors, and relevant third parties who need to understand and comply with security requirements. This signal indicates the failure to communicate security policies to affected parties.",
+  "domain": "HITRUST",
+  "category": "POLICY",
+  "applicability": "This signal applies to: Healthcare organizations subject to HIPAA Organizations handling protected health information (PHI) Covered entities and business associates Health information technology vendors Organizations seeking HITRUST certification Any entity managing sensitive healthcare data",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [
+      "04.b Security Policy - Policy Communication"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of policy distribution records and communication logs Examination of workforce acknowledgment and training records Analysis of policy accessibility and availability mechanisms Verification of communication methods and effectiveness Assessment of coverage across employee populations and third parties The presence of this signal indicates that workforce members and relevant parties may be unaware of security requirements and responsibilities, creating significant compliance and security risks. Effective policy communication is essential for HITRUST CSF compliance and overall security program effectiveness.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/POLICY/CSE-HITRUST-POLICY-NO-COMMUNICATION-003/"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-IDENTITY-NO-MFA-001",
+  "canonical_name": "Multi-Factor Authentication Not Enabled",
+  "description": "Access to systems, applications, or accounts is permitted without requiring multi-factor authentication. This signal indicates that authentication relies solely on a single factor (typically a password) without additional verification mechanisms.",
+  "domain": "CMMC",
+  "category": "IDENTITY",
+  "applicability": "Applicable to any system requiring user authentication, including cloud consoles, VPN access, remote administration, privileged accounts, and applications handling sensitive data. Particularly relevant for network access and privileged account access.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "identity",
+      "authentication",
+      "access-control"
+    ],
+    "related_controls": [
+      "CMMC IA.L2-3.5.3",
+      "NIST SP 800-171 3.5.3"
+    ],
+    "detection_notes": "Detected through review of identity provider configurations, conditional access policies, authentication settings, and MFA enrollment status for users and service accounts.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Identification and Authentication",
+        "section": "3.5.3",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-MFA-001/"
+}

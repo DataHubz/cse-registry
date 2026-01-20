@@ -1,0 +1,46 @@
+{
+  "id": "CSE-CCPA-VERIFY-EXCESSIVE-PI-REQUIRED-004",
+  "canonical_name": "Excessive PI Required for Verification",
+  "description": "The verification process requires consumers to provide excessive personal information beyond what is reasonably necessary to verify their identity. CCPA requires verification methods to be proportionate to the sensitivity of the request and the risk of unauthorized access, and businesses must not use verification as a pretext to collect additional personal information.",
+  "domain": "CCPA",
+  "category": "VERIFY",
+  "applicability": "Identity verification workflows Consumer request intake forms Access and deletion verification processes Privacy portal authentication Account recovery systems Multi-step verification procedures",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Review CCPA compliance documentation and controls for VERIFY requirements.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/VERIFY/CSE-CCPA-VERIFY-EXCESSIVE-PI-REQUIRED-004/"
+}

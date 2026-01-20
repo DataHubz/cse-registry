@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-RISK-NO-ASSESSMENT-001",
+  "canonical_name": "Risk Assessment Not Conducted",
+  "description": "The organization has not conducted periodic risk assessments to identify threats, vulnerabilities, and potential impacts to systems and data. This signal indicates that security risks may not be formally identified, documented, or prioritized.",
+  "domain": "CMMC",
+  "category": "RISK",
+  "applicability": "Applicable to organizational risk management processes including threat identification, vulnerability assessment, impact analysis, and risk prioritization activities.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "risk-management",
+      "governance",
+      "assessment"
+    ],
+    "related_controls": [
+      "CMMC RA.L2-3.11.1",
+      "NIST SP 800-171 3.11.1"
+    ],
+    "detection_notes": "Detected through review of risk assessment documentation, assessment schedules, risk registers, and risk management processes.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Risk Assessment",
+        "section": "3.11.1",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/RISK/CSE-CMMC-RISK-NO-ASSESSMENT-001/"
+}

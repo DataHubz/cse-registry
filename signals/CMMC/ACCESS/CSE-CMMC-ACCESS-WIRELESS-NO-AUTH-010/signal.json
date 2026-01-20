@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-ACCESS-WIRELESS-NO-AUTH-010",
+  "canonical_name": "Wireless Authentication Not Implemented",
+  "description": "Wireless networks do not require authentication using strong cryptographic mechanisms. This signal indicates that wireless access may be granted without verifying user or device identity through secure authentication protocols.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to all wireless network authentication configurations. Includes 802.1X/EAP authentication, WPA2/WPA3-Enterprise, certificate-based authentication, and RADIUS integration.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "access-control",
+      "wireless-security",
+      "authentication"
+    ],
+    "related_controls": [
+      "CMMC AC.L2-3.1.17",
+      "NIST SP 800-171 3.1.17"
+    ],
+    "detection_notes": "Detected through wireless security configuration review, authentication protocol analysis, and RADIUS/authentication server settings.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Access Control",
+        "section": "3.1.17",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-WIRELESS-NO-AUTH-010/"
+}

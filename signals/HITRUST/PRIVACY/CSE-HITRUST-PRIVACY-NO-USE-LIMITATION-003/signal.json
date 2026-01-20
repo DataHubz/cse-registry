@@ -1,0 +1,48 @@
+{
+  "id": "CSE-HITRUST-PRIVACY-NO-USE-LIMITATION-003",
+  "canonical_name": "Use Limitation Missing",
+  "description": "Controls to limit the use of personal or protected health information (PHI) to specified, legitimate purposes have not been established or enforced. This signal indicates the absence of technical or procedural controls that restrict how personal information is used within the organization. Use limitation ensures that information collected for one purpose is not used for unrelated purposes without appropriate authorization or consent. This principle is fundamental to privacy protection and data m",
+  "domain": "HITRUST",
+  "category": "PRIVACY",
+  "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Health information exchanges (HIEs) Healthcare analytics and research organizations Medical device manufacturers Healthcare SaaS and cloud service providers Insurance companies processing health claims",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "data-protection",
+      "privacy",
+      "compliance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of access control policies and configurations Examination of role-based access control (RBAC) implementations Analysis of data access logging and monitoring Verification of purpose-of-use attributes in access requests Assessment of data sharing and export controls Review of API and database access restrictions The presence of this signal indicates a privacy control gap that could lead to inappropriate use of personal information and regulatory non-compliance.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 08 - Privacy",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "PR.DS",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-USE-LIMITATION-003/"
+}

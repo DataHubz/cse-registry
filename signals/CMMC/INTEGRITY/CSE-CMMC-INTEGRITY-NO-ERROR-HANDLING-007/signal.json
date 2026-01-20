@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-INTEGRITY-NO-ERROR-HANDLING-007",
+  "canonical_name": "Secure Error Handling Not Implemented",
+  "description": "Error messages reveal sensitive system information or implementation details. This signal indicates that error handling may expose information useful to attackers.",
+  "domain": "CMMC",
+  "category": "INTEGRITY",
+  "applicability": "Applicable to all applications and systems generating error messages. Includes web application errors, API responses, and system error logs visible to users.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-integrity",
+      "information-disclosure",
+      "application-security"
+    ],
+    "related_controls": [
+      "CMMC SI.L2-3.14.7",
+      "NIST SP 800-171 3.14.7"
+    ],
+    "detection_notes": "Detected through error handling review, error message analysis, and information disclosure testing.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - System and Information Integrity",
+        "section": "3.14.7",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-ERROR-HANDLING-007/"
+}

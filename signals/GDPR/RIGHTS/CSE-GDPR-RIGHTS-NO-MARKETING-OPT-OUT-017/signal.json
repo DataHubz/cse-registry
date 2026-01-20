@@ -1,0 +1,52 @@
+{
+  "id": "CSE-GDPR-RIGHTS-NO-MARKETING-OPT-OUT-017",
+  "canonical_name": "Direct Marketing Opt-Out Missing",
+  "description": "No mechanism exists for data subjects to object to processing for direct marketing purposes. This right is unconditional and must be presented clearly at first communication.",
+  "domain": "GDPR",
+  "category": "RIGHTS",
+  "applicability": "Applicable to all direct marketing activities. The right to object to marketing is absolute and requires easy-to-use opt-out mechanisms.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "marketing",
+      "data-subject-rights"
+    ],
+    "related_controls": [
+      "GDPR Art. 21.2",
+      "GDPR Art. 21.3"
+    ],
+    "detection_notes": "Detected through review of marketing communications and opt-out mechanisms. Verify unsubscribe links, preference centers, and marketing suppression processes.",
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+        "type": "regulation",
+        "title": "GDPR - Regulation (EU) 2016/679",
+        "section": "Chapter III - Rights of the Data Subject",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://gdpr-info.eu/art-21-gdpr/",
+        "type": "regulation",
+        "title": "GDPR Article 21.2",
+        "section": "GDPR Art. 21.2",
+        "authority": "European Union"
+      },
+      {
+        "url": "https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+        "type": "guidance",
+        "title": "EDPB Guidelines on Data Subject Rights",
+        "authority": "EDPB"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/",
+        "type": "guidance",
+        "title": "ICO Guide to GDPR",
+        "authority": "ICO (UK)"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GDPR/RIGHTS/CSE-GDPR-RIGHTS-NO-MARKETING-OPT-OUT-017/"
+}

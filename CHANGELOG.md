@@ -6,58 +6,64 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
-
-Target release: January 2026
+## [1.0.0] - 2026-01-20
 
 ### Added
 
 #### Specification
-- CSE Specification v1.0 (`v1.0.0/spec/cse-spec-v1.0.md`)
-- Registry Format Specification v1.0 (`v1.0.0/spec/registry-format-v1.0.md`)
-- Signal Definition Format Specification v1.0 (`v1.0.0/spec/signal-format-v1.0.md`)
+- CSE Specification v1.0 (`spec/cse-spec-v1.0.md`)
+- Registry Format Specification v1.0 (`spec/registry-format-v1.0.md`)
+- Signal Definition Format Specification v1.0 (`spec/signal-format-v1.0.md`)
+- Mapping Format Specification v1.0 (`spec/mapping-format-v1.0.md`)
+- Finding Format Specification v1.0 (`spec/finding-format-v1.0.md`)
 
 #### Schemas
-- Registry schema (`v1.0.0/schemas/registry.schema.json`)
-- Signal schema (`v1.0.0/schemas/signal.schema.json`)
+- Registry schema (`schemas/registry.schema.json`)
+- Signal schema (`schemas/signal.schema.json`)
+- Mapping schema (`schemas/mapping.schema.json`)
+- Finding schema (`schemas/finding.schema.json`)
+- Artifact schema (`schemas/artifact.schema.json`)
 
-#### Signals
-- `CSE-GEN-SECRETS-PLAINTEXT-001` — Plaintext Secret in Source Code
-- `CSE-CMMC-ACCESS-UNRESTRICTED-ADMIN-001` — Unrestricted Administrative Access
+#### Signals (1,170 total across 12 domains)
+- **CCPA**: 70 signals (California Consumer Privacy Act)
+- **CIS**: 120 signals (CIS Controls v8.1)
+- **CMMC**: 136 signals (Cybersecurity Maturity Model Certification)
+- **FedRAMP**: 145 signals (Federal Risk and Authorization Management Program)
+- **GDPR**: 81 signals (General Data Protection Regulation)
+- **GEN**: 55 signals (General/Cross-Framework)
+- **HIPAA**: 75 signals (Health Insurance Portability and Accountability Act)
+- **HITRUST**: 129 signals (HITRUST Common Security Framework)
+- **ISO27001**: 93 signals (ISO/IEC 27001:2022)
+- **NISTCSF**: 133 signals (NIST Cybersecurity Framework 2.0)
+- **PCIDSS**: 64 signals (Payment Card Industry Data Security Standard v4.0)
+- **SOC2**: 69 signals (SOC 2 Trust Services Criteria)
+
+#### Mappings (2,062 total)
+- 1,228 signal-to-control mappings
+- 834 equivalence mappings (GEN to domain-specific)
 
 #### Registry
-- Registry v1.0.0 (draft)
-  - `v1.0.0/registry/cse-registry.json`
-  - `v1.0.0/registry/cse-registry.min.json`
-  - `v1.0.0/registry/cse-registry.ndjson`
-  - `v1.0.0/registry/SHA256SUMS`
+- `registry/cse-registry.json` - Full registry
+- `registry/cse-registry.min.json` - Minified version
+- `registry/cse-registry.ndjson` - Streaming format
+- `registry/SHA256SUMS` - Integrity verification
 
 #### Documentation
 - Project README
 - Specification README
-- Registry README
-- Signals README
-- Examples with reference files
 - Governance documentation
 - Contributing guidelines
-- This changelog
+- Glossary of terms
 
-### Pending Before Release
+### Changed
 
-Signal coverage required for the following frameworks:
+#### Repository Structure
+- **BREAKING**: Migrated from folder-based versioning (`v1.0.0/`) to git tag-based versioning
+- All registry content now lives at repository root
+- Version history managed via git tags (use `git tag -l` to list versions)
+- Added `VERSION` file for programmatic version detection
 
-- [ ] CCPA (California Consumer Privacy Act)
-- [ ] CIS (CIS Controls)
-- [ ] CMMC (Cybersecurity Maturity Model Certification)
-- [ ] FedRAMP (Federal Risk and Authorization Management Program)
-- [ ] GDPR (General Data Protection Regulation)
-- [ ] GEN (General/Cross-Framework)
-- [ ] HIPAA (Health Insurance Portability and Accountability Act)
-- [ ] HITRUST (HITRUST Common Security Framework)
-- [ ] ISO 27001 (ISO/IEC 27001:2022)
-- [ ] NIST CSF (NIST Cybersecurity Framework)
-- [ ] PCI DSS (Payment Card Industry Data Security Standard)
-- [ ] SOC 2 (SOC 2 Trust Services Criteria)
+This change aligns CSE Registry with industry standard practices used by CVE, CWE, SPDX, OpenAPI, and similar registries
 
 ## Notes
 

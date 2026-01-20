@@ -1,0 +1,41 @@
+{
+  "id": "CSE-CIS-CONFIG-NO-NETWORK-SECURITY-002",
+  "canonical_name": "Network Infrastructure Security Configuration Missing",
+  "description": "Network infrastructure devices lack documented secure configurations or are not configured according to established security baselines and industry best practices. This signal indicates that routers, switches, firewalls, and other network devices may have insecure default settings or inconsistent security configurations.",
+  "domain": "CIS",
+  "category": "CONFIG",
+  "applicability": "This signal applies to: Network routers and switches Firewalls and security appliances Wireless access points Load balancers VPN concentrators Network management systems SDN controllers",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "configuration-management",
+      "hardening",
+      "baseline"
+    ],
+    "detection_notes": "Review CIS compliance documentation and controls for CONFIG requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 4: Secure Configuration of Enterprise Assets and Software",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-NETWORK-SECURITY-002/"
+}

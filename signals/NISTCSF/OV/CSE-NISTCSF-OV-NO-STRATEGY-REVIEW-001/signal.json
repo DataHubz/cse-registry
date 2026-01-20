@@ -1,0 +1,40 @@
+{
+  "id": "CSE-NISTCSF-OV-NO-STRATEGY-REVIEW-001",
+  "canonical_name": "Cybersecurity Strategy Outcomes Not Reviewed",
+  "description": "Cybersecurity risk management strategy outcomes are not reviewed to inform improvements.",
+  "domain": "NISTCSF",
+  "category": "OV",
+  "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Detection guidance: Identify organizations without regular strategy review processes, lack of metrics to measure strategy effectiveness, absence of governance forums to evaluate cybersecurity outcomes, or failure to use performance data to adjust strategic direction.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework 2.0",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-20/final",
+        "type": "guidance",
+        "title": "NIST CSF 2.0 Publication",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "authority": "NIST"
+      }
+    ]
+  },
+  "definition_ref": "/signals/NISTCSF/OV/CSE-NISTCSF-OV-NO-STRATEGY-REVIEW-001/"
+}

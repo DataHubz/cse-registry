@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-MEDIA-NO-SANITIZATION-001",
+  "canonical_name": "Media Sanitization Not Performed",
+  "description": "Storage media is disposed of or repurposed without proper sanitization to remove sensitive data. This signal indicates that data may remain recoverable from media after its intended lifecycle.",
+  "domain": "CMMC",
+  "category": "MEDIA",
+  "applicability": "Applicable to all storage media including hard drives, SSDs, USB devices, backup tapes, optical media, and cloud storage. Includes both physical destruction and logical sanitization methods.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "data-protection",
+      "media-handling",
+      "disposal"
+    ],
+    "related_controls": [
+      "CMMC MP.L2-3.8.3",
+      "NIST SP 800-171 3.8.3"
+    ],
+    "detection_notes": "Detected through review of media sanitization procedures, disposal records, and verification of sanitization methods used.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Media Protection",
+        "section": "3.8.3",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-SANITIZATION-001/"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "CSE-FEDRAMP-SA-NO-DOCUMENTATION-005",
+  "canonical_name": "No System Documentation",
+  "description": "Administrator, user, and developer documentation for the information system is not obtained, protected, or distributed as required.",
+  "domain": "FEDRAMP",
+  "category": "SA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-acquisition",
+      "development-security",
+      "supply-chain"
+    ],
+    "related_controls": [
+      "SA-5"
+    ],
+    "detection_notes": "Detection guidance: Look for missing administrator documentation, absent user guides, lack of developer documentation, inadequate security configuration guides, missing privacy function descriptions, incomplete operational procedures, unprotected documentation, and absence of distribution controls for sensitive documentation.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "SA-5",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - System and Services Acquisition",
+        "section": "SA-5",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/SA/CSE-FEDRAMP-SA-NO-DOCUMENTATION-005/"
+}

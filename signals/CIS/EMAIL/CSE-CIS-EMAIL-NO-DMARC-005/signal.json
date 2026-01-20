@@ -1,0 +1,41 @@
+{
+  "id": "CSE-CIS-EMAIL-NO-DMARC-005",
+  "canonical_name": "DMARC Not Implemented",
+  "description": "Domain-based Message Authentication, Reporting, and Conformance (DMARC) is not implemented for organizational email domains. Organizations must deploy DMARC policies along with SPF and DKIM to prevent email spoofing, protect brand reputation, and gain visibility into email authentication failures. Without DMARC, attackers can more easily spoof organizational domains in phishing attacks.",
+  "domain": "CIS",
+  "category": "EMAIL",
+  "applicability": "All organizational email domains Email infrastructure and mail servers DNS management systems Third-party email service providers Marketing and transactional email systems Partner and vendor email integrations",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Review CIS compliance documentation and controls for EMAIL requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 9: Email and Web Browser Protections",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-DMARC-005/"
+}

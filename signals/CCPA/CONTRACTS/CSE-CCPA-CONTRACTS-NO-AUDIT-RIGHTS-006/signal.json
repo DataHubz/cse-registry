@@ -1,0 +1,46 @@
+{
+  "id": "CSE-CCPA-CONTRACTS-NO-AUDIT-RIGHTS-006",
+  "canonical_name": "Audit Rights Not Included (CPPA Regulations)",
+  "description": "This signal is raised when a service provider or contractor contract fails to include provisions granting the business audit rights or the ability to monitor the service provider's/contractor's compliance with CCPA obligations. While not explicitly required by statute, CPPA regulations and best practices emphasize the business's responsibility to ensure service provider compliance, which necessitates audit and monitoring rights.",
+  "domain": "CCPA",
+  "category": "CONTRACTS",
+  "applicability": "Service provider and contractor contracts lacking audit provisions High-risk processing relationships requiring compliance verification Contracts with third parties processing sensitive personal information Businesses implementing vendor risk management programs",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Review CCPA compliance documentation and controls for CONTRACTS requirements.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/CONTRACTS/CSE-CCPA-CONTRACTS-NO-AUDIT-RIGHTS-006/"
+}

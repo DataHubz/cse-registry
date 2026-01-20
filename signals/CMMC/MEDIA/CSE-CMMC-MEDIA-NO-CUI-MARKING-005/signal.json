@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-MEDIA-NO-CUI-MARKING-005",
+  "canonical_name": "CUI Media Not Marked",
+  "description": "Media containing Controlled Unclassified Information is not properly marked or labeled. This signal indicates that CUI media may not be identifiable, leading to improper handling or protection.",
+  "domain": "CMMC",
+  "category": "MEDIA",
+  "applicability": "Applicable to all media containing CUI. Includes physical labels, file headers, container markings, and any identification mechanisms for CUI-containing media.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "media-protection",
+      "data-classification",
+      "handling"
+    ],
+    "related_controls": [
+      "CMMC MP.L2-3.8.4",
+      "NIST SP 800-171 3.8.4"
+    ],
+    "detection_notes": "Detected through media labeling review, marking standard compliance assessment, and CUI identification verification.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Media Protection",
+        "section": "3.8.4",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-CUI-MARKING-005/"
+}

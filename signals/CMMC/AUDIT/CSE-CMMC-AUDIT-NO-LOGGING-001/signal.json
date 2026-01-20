@@ -1,0 +1,46 @@
+{
+  "id": "CSE-CMMC-AUDIT-NO-LOGGING-001",
+  "canonical_name": "Audit Logging Not Enabled",
+  "description": "Systems, applications, or infrastructure components are not configured to generate audit logs for security-relevant events. This signal indicates that activities such as authentication attempts, access to sensitive resources, configuration changes, or administrative actions are not being recorded.",
+  "domain": "CMMC",
+  "category": "AUDIT",
+  "applicability": "Applicable to any system capable of generating audit logs including operating systems, applications, databases, network devices, cloud services, and security tools. Includes authentication events, authorization decisions, data access, and administrative operations.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "high",
+    "risk_domains": [
+      "audit",
+      "logging",
+      "accountability"
+    ],
+    "related_controls": [
+      "CMMC AU.L2-3.3.1",
+      "CMMC AU.L2-3.3.2",
+      "NIST SP 800-171 3.3.1"
+    ],
+    "detection_notes": "Detected through review of logging configurations, audit policy settings, SIEM integrations, and log collection infrastructure. May involve checking for disabled audit policies or missing log forwarding configurations.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Audit and Accountability",
+        "section": "3.3.1",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-LOGGING-001/"
+}

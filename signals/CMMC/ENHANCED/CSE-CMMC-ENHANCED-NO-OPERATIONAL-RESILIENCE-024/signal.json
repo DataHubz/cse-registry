@@ -1,0 +1,51 @@
+{
+  "id": "CSE-CMMC-ENHANCED-NO-OPERATIONAL-RESILIENCE-024",
+  "canonical_name": "Operational Resilience Testing Not Conducted",
+  "description": "Testing of operational resilience and system recovery capabilities is not conducted. This signal indicates that recovery procedures may fail during actual incidents.",
+  "domain": "CMMC",
+  "category": "ENHANCED",
+  "applicability": "Applicable to Level 3 environments requiring operational assurance. Includes disaster recovery testing, failover exercises, and resilience validation.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "enhanced-security",
+      "resilience",
+      "testing"
+    ],
+    "related_controls": [
+      "CMMC L3-CP.3.4.3e",
+      "NIST SP 800-172 3.4.3e"
+    ],
+    "detection_notes": "Detected through resilience testing records, DR exercise verification, and recovery capability assessment.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - System and Communications Protection",
+        "section": "3.4.3",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/172/final",
+        "type": "standard",
+        "title": "NIST SP 800-172 - Enhanced Security Requirements",
+        "authority": "NIST"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-OPERATIONAL-RESILIENCE-024/"
+}

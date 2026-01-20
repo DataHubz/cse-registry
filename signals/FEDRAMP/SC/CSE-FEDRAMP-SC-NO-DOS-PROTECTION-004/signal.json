@@ -1,0 +1,51 @@
+{
+  "id": "CSE-FEDRAMP-SC-NO-DOS-PROTECTION-004",
+  "canonical_name": "No Denial-of-Service Protection",
+  "description": "Information system does not protect against or limit the effects of denial-of-service attacks.",
+  "domain": "FEDRAMP",
+  "category": "SC",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "system-communications",
+      "encryption",
+      "network-security"
+    ],
+    "related_controls": [
+      "SC-5"
+    ],
+    "detection_notes": "Detection guidance: Look for lack of rate limiting mechanisms, absence of DDoS mitigation capabilities, no resource allocation controls, missing traffic filtering and inspection, inadequate capacity planning for attack scenarios, and no monitoring for DoS attack patterns or anomalous traffic volumes.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "SC-5",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - System and Communications Protection",
+        "section": "SC-5",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/SC/CSE-FEDRAMP-SC-NO-DOS-PROTECTION-004/"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "CSE-CIS-ACCESS-NO-ROLE-BASED-006",
+  "canonical_name": "Role-Based Access Control Missing",
+  "description": "The organization has not established or does not use a role-based access control (RBAC) system to assign permissions to user accounts based on defined job functions or business roles. This signal indicates that access permissions may be assigned individually to users rather than through standardized roles, making it difficult to consistently apply the principle of least privilege and maintain access controls as the organization scales.",
+  "domain": "CIS",
+  "category": "ACCESS",
+  "applicability": "This signal applies to: Identity and access management (IAM) systems Active Directory or LDAP security groups Cloud platform role assignments (AWS IAM roles, Azure RBAC, GCP IAM) Application-level role definitions Database role assignments Enterprise resource planning (ERP) system roles Access control matrices and documentation Security group design and management",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "identity",
+      "privilege-management"
+    ],
+    "detection_notes": "Review CIS compliance documentation and controls for ACCESS requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 6: Access Control Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-ROLE-BASED-006/"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "CSE-HITRUST-RISK-NO-METHODOLOGY-002",
+  "canonical_name": "Risk Assessment Methodology Missing",
+  "description": "Organization lacks a documented, consistent, and repeatable risk assessment methodology. A formal methodology must define the approach, criteria, and procedures for identifying assets, threats, and vulnerabilities, evaluating likelihood and impact, and determining risk levels to ensure systematic and comparable risk assessments across the organization.",
+  "domain": "HITRUST",
+  "category": "RISK",
+  "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations requiring consistent risk evaluation processes",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "risk-management",
+      "assessment",
+      "governance"
+    ],
+    "related_controls": [
+      "03.a - Risk Assessment"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Review of documented risk assessment methodology and procedures Examination of risk evaluation criteria and rating scales Verification of asset identification and classification processes Analysis of threat and vulnerability assessment techniques Assessment of risk calculation and prioritization methods Validation of methodology consistency across organizational units The presence of this signal indicates that risk assessments may be inconsistent, subjective, or incomparable, leading to ineffective risk management decisions and resource allocation.",
+    "sources": [
+      {
+        "url": "https://hitrustalliance.net/hitrust-csf/",
+        "type": "standard",
+        "title": "HITRUST CSF v11",
+        "section": "Domain 03 - Risk Management",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://hitrustalliance.net/certification/",
+        "type": "standard",
+        "title": "HITRUST Assurance Program",
+        "authority": "HITRUST Alliance"
+      },
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "title": "NIST Cybersecurity Framework",
+        "section": "ID.RA",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
+        "type": "regulation",
+        "title": "HIPAA Security Rule",
+        "authority": "HHS OCR"
+      }
+    ]
+  },
+  "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-METHODOLOGY-002/"
+}

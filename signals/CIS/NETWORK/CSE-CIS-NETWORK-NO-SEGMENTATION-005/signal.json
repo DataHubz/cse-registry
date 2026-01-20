@@ -1,0 +1,41 @@
+{
+  "id": "CSE-CIS-NETWORK-NO-SEGMENTATION-005",
+  "canonical_name": "Network Segmentation Missing",
+  "description": "The organization lacks proper network segmentation to isolate sensitive assets, critical systems, and different security zones from one another. This signal indicates that a security breach in one part of the network could easily spread to other systems due to insufficient network boundaries and access controls.",
+  "domain": "CIS",
+  "category": "NETWORK",
+  "applicability": "This signal applies to: Network architecture and design VLAN configuration and management Firewall rules and access control lists Security zone definitions Micro-segmentation implementations Zero trust network architecture Cloud network security groups Industrial control system networks",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "network-security",
+      "segmentation",
+      "monitoring"
+    ],
+    "detection_notes": "Review CIS compliance documentation and controls for NETWORK requirements.",
+    "sources": [
+      {
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "title": "CIS Controls v8",
+        "section": "Control 12: Network Infrastructure Management",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/controls/cis-controls-navigator",
+        "type": "guidance",
+        "title": "CIS Controls Navigator",
+        "authority": "CIS"
+      },
+      {
+        "url": "https://www.cisecurity.org/cis-benchmarks",
+        "type": "guidance",
+        "title": "CIS Benchmarks",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-SEGMENTATION-005/"
+}

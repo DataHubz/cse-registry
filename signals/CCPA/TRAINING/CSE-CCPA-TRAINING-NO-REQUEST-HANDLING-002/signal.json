@@ -1,0 +1,46 @@
+{
+  "id": "CSE-CCPA-TRAINING-NO-REQUEST-HANDLING-002",
+  "canonical_name": "Request Handling Training Missing",
+  "description": "A business subject to CCPA requirements does not provide specific training to employees responsible for receiving and processing consumer rights requests under CCPA. This signal indicates that personnel who handle requests to know, delete, correct, or opt-out lack documented training on proper verification procedures, response timelines, and required disclosure formats. Employees handling consumer rights requests must be trained on authentication methods, data retrieval procedures, response dead",
+  "domain": "CCPA",
+  "category": "TRAINING",
+  "applicability": "This signal applies to: Customer service representatives receiving consumer requests Privacy teams responsible for processing rights requests IT personnel extracting data for disclosure requests Security teams verifying consumer identities Call center agents handling phone-based requests Email support teams processing written requests Chatbot operators managing automated request intake Compliance officers overseeing request fulfillment",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "detection_notes": "Detection of this signal typically involves: Reviewing training curricula for consumer rights request handling procedures Examining standard operating procedures for request processing workflows Checking employee knowledge through testing or spot-checks Analyzing request fulfillment metrics for timeline compliance Reviewing escalation procedures for complex requests Checking for training on reasonable verification methods Verifying training on authorized agent procedures Examining quality assurance records for request handling accuracy The presence of this signal indicates a critical gap in the business's ability to properly fulfill consumer rights requests within CCPA-mandated timeframes and procedures.",
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
+        "type": "regulation",
+        "title": "California Consumer Privacy Act (CCPA/CPRA)",
+        "authority": "California Legislature"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa",
+        "type": "guidance",
+        "title": "California AG - CCPA Information",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://oag.ca.gov/privacy/ccpa/regs",
+        "type": "regulation",
+        "title": "CCPA Regulations",
+        "authority": "California Attorney General"
+      },
+      {
+        "url": "https://cppa.ca.gov/",
+        "type": "guidance",
+        "title": "California Privacy Protection Agency",
+        "authority": "CPPA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CCPA/TRAINING/CSE-CCPA-TRAINING-NO-REQUEST-HANDLING-002/"
+}

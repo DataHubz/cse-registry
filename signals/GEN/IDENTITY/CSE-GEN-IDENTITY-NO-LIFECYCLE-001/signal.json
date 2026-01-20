@@ -1,0 +1,41 @@
+{
+  "id": "CSE-GEN-IDENTITY-NO-LIFECYCLE-001",
+  "canonical_name": "Identity Lifecycle Management Missing",
+  "description": "No documented or implemented process exists for managing user identities throughout their complete lifecycle from creation through modification to deletion. This signal indicates that there is no systematic approach to identity management, which can lead to orphaned accounts, inconsistent provisioning, and security gaps.",
+  "domain": "GEN",
+  "category": "IDENTITY",
+  "applicability": "This signal applies to: Identity and access management (IAM) systems Cloud service provider accounts (AWS, Azure, GCP) Active Directory and LDAP directories Application user databases SaaS platform user management Privileged access management systems Service account management Contractor and third-party identity management",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "security",
+      "compliance",
+      "governance"
+    ],
+    "related_controls": [],
+    "detection_notes": "Detection of this signal typically involves: Review of identity management documentation Assessment of IAM process maturity Interviews with IT and security personnel Analysis of account creation and deletion patterns Examination of orphaned or dormant accounts Review of audit logs for identity changes The presence of this signal indicates a foundational gap in identity governance that should be addressed through policy, process, and potentially technology improvements.",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "NIST SP 800-53 Rev 5 - Security and Privacy Controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "authority": "NIST"
+      },
+      {
+        "title": "CIS Controls v8",
+        "url": "https://www.cisecurity.org/controls",
+        "type": "standard",
+        "authority": "CIS"
+      }
+    ]
+  },
+  "definition_ref": "/signals/GEN/IDENTITY/CSE-GEN-IDENTITY-NO-LIFECYCLE-001/"
+}

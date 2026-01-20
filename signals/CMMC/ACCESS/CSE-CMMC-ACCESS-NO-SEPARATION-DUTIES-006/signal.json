@@ -1,0 +1,45 @@
+{
+  "id": "CSE-CMMC-ACCESS-NO-SEPARATION-DUTIES-006",
+  "canonical_name": "Separation of Duties Not Enforced",
+  "description": "Critical functions are not divided among different individuals to reduce the risk of malicious activity without collusion. This signal indicates that single individuals may have the ability to perform security-critical actions without oversight or checks.",
+  "domain": "CMMC",
+  "category": "ACCESS",
+  "applicability": "Applicable to systems and processes where separation of duties is required to prevent fraud or error. Includes financial systems, privileged access management, change management, and security administration.",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "access-control",
+      "governance",
+      "privilege-management"
+    ],
+    "related_controls": [
+      "CMMC AC.L2-3.1.4",
+      "NIST SP 800-171 3.1.4"
+    ],
+    "detection_notes": "Detected through role assignment analysis, workflow review, and assessment of dual-control requirements for critical functions.",
+    "sources": [
+      {
+        "url": "https://dodcio.defense.gov/CMMC/Model/",
+        "type": "standard",
+        "title": "CMMC Model 2.0",
+        "authority": "DoD CIO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-171 Rev 2 - Access Control",
+        "section": "3.1.4",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-170",
+        "type": "regulation",
+        "title": "32 CFR Part 170 - Cybersecurity Maturity Model Certification Program",
+        "authority": "DoD"
+      }
+    ]
+  },
+  "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-SEPARATION-DUTIES-006/"
+}

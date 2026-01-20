@@ -1,0 +1,57 @@
+{
+  "id": "CSE-FEDRAMP-RA-NO-CRITICALITY-ANALYSIS-006",
+  "canonical_name": "No Criticality Analysis",
+  "description": "Criticality analysis has not been performed to identify critical system components and functions that require special protection and contingency measures.",
+  "domain": "FEDRAMP",
+  "category": "RA",
+  "applicability": "This signal applies to: Cloud Service Providers seeking FedRAMP authorization Federal agencies using cloud services Third-party assessment organizations (3PAOs) Systems processing federal information",
+  "introduced_in": "1.0.0",
+  "status": "active",
+  "metadata": {
+    "suggested_severity": "medium",
+    "risk_domains": [
+      "risk-assessment",
+      "vulnerability-management",
+      "threat-analysis"
+    ],
+    "related_controls": [
+      "RA-9"
+    ],
+    "detection_notes": "Detection guidance: Look for missing criticality analysis documentation, absence of identified critical system components and functions, no classification of systems by criticality level, lack of integration with business impact analysis, and no evidence of criticality analysis at key system development life cycle decision points.",
+    "sources": [
+      {
+        "url": "https://www.fedramp.gov/",
+        "type": "standard",
+        "title": "FedRAMP Authorization Program",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.fedramp.gov/baselines/",
+        "type": "standard",
+        "title": "FedRAMP Security Control Baselines",
+        "section": "RA-9",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "type": "standard",
+        "title": "NIST SP 800-53 Rev 5 - Risk Assessment",
+        "section": "RA-9",
+        "authority": "NIST"
+      },
+      {
+        "url": "https://www.fedramp.gov/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf",
+        "type": "guidance",
+        "title": "FedRAMP Vulnerability Scanning Requirements",
+        "authority": "GSA/FedRAMP PMO"
+      },
+      {
+        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/federal-information-security-modernization-act",
+        "type": "regulation",
+        "title": "FISMA - Federal Information Security Modernization Act",
+        "authority": "US Congress/CISA"
+      }
+    ]
+  },
+  "definition_ref": "/signals/FEDRAMP/RA/CSE-FEDRAMP-RA-NO-CRITICALITY-ANALYSIS-006/"
+}
