@@ -83,13 +83,12 @@ Each entry represents one Compliance Signal, not a finding.
 Example:
 
 ```json
-Copy code
 {
   "id": "CSE-CMMC-ACCESS-UNAUTHORIZED-ADMIN-001",
   "domain": "CMMC",
   "category": "ACCESS",
   "name": "Unauthorized Administrative Access",
-  "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-UNAUTHORIZED-ADMIN-001/",
+  "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-UNAUTHORIZED-ADMIN-001/",
   "introduced_in": "1.0.0",
   "status": "active"
 }
@@ -144,10 +143,10 @@ The registry MUST NOT include:
 
 The registry is an index.
 
-The authoritative semantic definition of each signal resides in its corresponding /v1.0.0/signals/... directory and MUST be consistent with the registry entry.
+The authoritative semantic definition of each signal resides in its corresponding /signals/... directory and MUST be consistent with the registry entry.
 
 ## 12. Validation
-Registry artifacts SHOULD be validated against the official registry JSON schema published in /v1.0.0/schemas.
+Registry artifacts SHOULD be validated against the official registry JSON schema published in /schemas.
 
 ## 13. Disclaimer
 This format specification is informational and does not imply compliance or certification.

@@ -55,19 +55,19 @@ Minor clarifications and additions may be released as v1.x revisions without bre
 
 ## Relationship to Other Directories
 
-- `/v1.0.0/registry`
+- `/registry`
   Contains versioned, machine-readable registry artifacts derived from this specification.
 
-- `/v1.0.0/signals`
+- `/signals`
   Contains canonical, human-readable signal definitions that conform to this specification.
 
-- `/v1.0.0/mappings`
+- `/mappings`
   Contains versioned signal-to-control and cross-framework mappings.
 
-- `/v1.0.0/schemas`
+- `/schemas`
   Contains validation schemas that enforce the rules defined here.
 
-- `/v1.0.0/examples`
+- `/examples`
   Contains non-normative examples to aid adoption.
 
 The specification is the **source of truth**.
@@ -92,7 +92,7 @@ See `GOVERNANCE.md` for details.
 When referencing the CSE specification, use a versioned citation, for example:
 
 > Compliance Signal Enumeration (CSE) Specification v1.0
-> https://cseregistry.org/v1.0.0/spec/cse-spec-v1.0
+> https://cseregistry.org/spec/cse-spec-v1.0
 
 ## Disclaimer
 
@@ -103,6 +103,6 @@ Use of CSE identifiers does not imply compliance, certification, or regulatory a
 ## Next Steps
 
 - Read `cse-spec-v1.0.md`
-- Explore the registry artifacts in `/v1.0.0/registry`
-- Review signal definitions in `/v1.0.0/signals`
-- Validate integrations using schemas in `/v1.0.0/schemas`
+- Explore the registry artifacts in `/registry`
+- Review signal definitions in `/signals`
+- Validate integrations using schemas in `/schemas`
