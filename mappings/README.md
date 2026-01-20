@@ -20,51 +20,43 @@ See [Mapping Format Specification v1.0](../spec/mapping-format-v1.0.md) for the 
 ```
 mappings/
 ├── README.md                              # This file
-└── v1.0.0/                                # Mapping dataset version
-    ├── index.json                         # Dataset metadata and statistics
-    │
-    ├── frameworks/                        # Framework definitions
-    │   ├── CCPA.json
-    │   ├── CIS-CONTROLS-8.1.json
-    │   ├── CMMC-2.0.json
-    │   ├── FEDRAMP.json
-    │   ├── GDPR.json
-    │   ├── HIPAA.json
-    │   ├── HITRUST-11.json
-    │   ├── ISO27001-2022.json
-    │   ├── NIST-CSF-2.0.json
-    │   ├── PCI-DSS-4.0.json
-    │   └── SOC2-2017.json
-    │
-    ├── controls/                          # Control definitions by framework
-    │   ├── CMMC-2.0.json
-    │   ├── ISO27001-2022.json
-    │   ├── NIST-CSF-2.0.json
-    │   ├── PCI-DSS-4.0.json
-    │   └── SOC2-2017.json
-    │
-    ├── signal-to-control/                 # Signal → Control mappings
-    │   ├── CCPA.json
-    │   ├── CIS.json
-    │   ├── CMMC.json
-    │   ├── FEDRAMP.json
-    │   ├── GDPR.json
-    │   ├── GEN.json                       # Cross-framework GEN mappings
-    │   ├── HIPAA.json
-    │   ├── HITRUST.json
-    │   ├── ISO27001.json
-    │   ├── NISTCSF.json
-    │   ├── PCIDSS.json
-    │   └── SOC2.json
-    │
-    ├── equivalence/                       # Signal ↔ Signal mappings
-    │   └── GEN-to-domains.json            # GEN ↔ domain-specific signals
-    │
-    └── cross-framework/                   # Framework ↔ Framework via signals
-        ├── CMMC-2.0-to-ISO27001-2022.json
-        ├── CMMC-2.0-to-NIST-CSF-2.0.json
-        ├── PCI-DSS-4.0-to-ISO27001-2022.json
-        └── SOC2-2017-to-ISO27001-2022.json
+├── index.json                             # Dataset metadata and statistics
+│
+├── frameworks/                            # Framework definitions
+│   ├── CCPA.json
+│   ├── CIS-CONTROLS-8.1.json
+│   ├── CMMC-2.0.json
+│   ├── FEDRAMP.json
+│   ├── GDPR.json
+│   ├── HIPAA.json
+│   ├── HITRUST-11.json
+│   ├── ISO27001-2022.json
+│   ├── NIST-CSF-2.0.json
+│   ├── PCI-DSS-4.0.json
+│   └── SOC2-2017.json
+│
+├── signal-to-control/                     # Signal → Control mappings
+│   ├── CCPA.json
+│   ├── CIS.json
+│   ├── CMMC.json
+│   ├── FEDRAMP.json
+│   ├── GDPR.json
+│   ├── GEN.json                           # Cross-framework GEN mappings
+│   ├── HIPAA.json
+│   ├── HITRUST.json
+│   ├── ISO27001.json
+│   ├── NISTCSF.json
+│   ├── PCIDSS.json
+│   └── SOC2.json
+│
+├── equivalence/                           # Signal ↔ Signal mappings
+│   └── GEN-to-domains.json                # GEN ↔ domain-specific signals
+│
+└── cross-framework/                       # Framework ↔ Framework via signals
+    ├── CMMC-2.0-to-ISO27001-2022.json
+    ├── CMMC-2.0-to-NIST-CSF-2.0.json
+    ├── PCI-DSS-4.0-to-ISO27001-2022.json
+    └── SOC2-2017-to-ISO27001-2022.json
 ```
 
 ## Relationship Types
@@ -105,14 +97,14 @@ Mappings use triple versioning:
 ```bash
 # Using jq to filter mappings
 jq '.mappings[] | select(.source.id == "CSE-CMMC-ACCESS-UNRESTRICTED-ADMIN-001")' \
-  mappings/v1.0.0/signal-to-control/by-domain/CMMC.json
+  signal-to-control/CMMC.json
 ```
 
 ### Query: What signals satisfy a control?
 
 ```bash
 jq '.mappings[] | select(.target.id == "AC.L2-3.1.1")' \
-  mappings/v1.0.0/signal-to-control/by-framework/CMMC-2.0.json
+  signal-to-control/CMMC.json
 ```
 
 ### Query: Cross-framework mapping
@@ -120,7 +112,7 @@ jq '.mappings[] | select(.target.id == "AC.L2-3.1.1")' \
 ```bash
 # Find ISO 27001 equivalents for CMMC signals
 jq '.mappings[] | select(.source.id | startswith("CSE-CMMC"))' \
-  mappings/v1.0.0/signal-to-control/by-framework/ISO27001-2022.json
+  signal-to-control/ISO27001.json
 ```
 
 ## Validation
