@@ -10,7 +10,7 @@
       "canonical_name": "Mobile Device Connection Not Controlled",
       "description": "Mobile device connections to organizational systems are not restricted or monitored. This signal indicates that mobile devices may connect to systems without appropriate authorization, security verification, or connection controls.",
       "applicability": "Applicable to all mobile device management configurations. Includes smartphones, tablets, and other mobile devices connecting to organizational systems, MDM solutions, and mobile access policies.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-MOBILE-UNCONTROLLED-011/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-MOBILE-UNCONTROLLED-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -56,7 +56,7 @@
       "canonical_name": "Authorized Access Enforcement Not Implemented",
       "description": "Systems do not enforce access decisions based on user authorization status. This signal indicates that access may be granted without verifying that users are authorized for the requested resources or operations.",
       "applicability": "Applicable to all system access control implementations. Includes authentication systems, authorization mechanisms, and access decision points across applications and infrastructure.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-AUTHORIZED-ACCESS-CONTROL-020/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-AUTHORIZED-ACCESS-CONTROL-020/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -102,7 +102,7 @@
       "canonical_name": "Concurrent Session Control Not Implemented",
       "description": "The number of concurrent sessions for user accounts is not limited or monitored. This signal indicates that users may establish multiple simultaneous sessions, which may indicate credential sharing or compromise.",
       "applicability": "Applicable to all systems with user authentication. Includes web applications, remote access services, and multi-session capable systems where concurrent session limits should be enforced.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-CONCURRENT-SESSION-CONTROL-022/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-CONCURRENT-SESSION-CONTROL-022/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -148,7 +148,7 @@
       "canonical_name": "CUI Flow Not Controlled",
       "description": "The flow of Controlled Unclassified Information (CUI) between systems, networks, or organizational boundaries is not controlled or restricted. This signal indicates that CUI may be transmitted or shared without appropriate authorization or technical controls.",
       "applicability": "Applicable to systems processing, storing, or transmitting CUI. Includes data loss prevention controls, network segmentation, and information flow policies between security domains.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-CUI-FLOW-CONTROL-005/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-CUI-FLOW-CONTROL-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -194,7 +194,7 @@
       "canonical_name": "External System Connections Not Controlled",
       "description": "Connections to external systems are not verified or controlled before allowing access to organizational systems. This signal indicates that external system connections may bypass security verification and authorization processes.",
       "applicability": "Applicable to all external system interconnections. Includes connections to partner systems, cloud services, third-party APIs, and any external information systems accessing organizational resources.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-EXTERNAL-CONN-CONTROL-013/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-EXTERNAL-CONN-CONTROL-013/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -240,7 +240,7 @@
       "canonical_name": "Least Privilege Not Enforced",
       "description": "Access permissions granted to users, accounts, or processes exceed what is necessary to perform assigned duties or functions. This signal indicates that the principle of least privilege is not applied, resulting in broader access rights than required for the intended purpose.",
       "applicability": "Applicable to any system, application, or service where user or process permissions are configured. Includes IAM policies, role-based access control systems, file system permissions, database grants, and service account configurations.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-LEAST-PRIVILEGE-002/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-LEAST-PRIVILEGE-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -286,7 +286,7 @@
       "canonical_name": "Portable Storage Device Use Not Controlled",
       "description": "The use of portable storage devices on organizational systems is not restricted or monitored. This signal indicates that removable media may be used without authorization, increasing risk of data exfiltration or malware introduction.",
       "applicability": "Applicable to all systems where portable storage devices may be connected. Includes USB ports, card readers, and other interfaces for removable media on workstations, servers, and network devices.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-PORTABLE-USE-CONTROL-014/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-PORTABLE-USE-CONTROL-014/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -332,7 +332,7 @@
       "canonical_name": "Privacy and Security Notice Missing",
       "description": "Systems do not display approved privacy and security notices before granting access. This signal indicates that users may not be informed of usage terms, monitoring policies, or acceptable use requirements before accessing systems.",
       "applicability": "Applicable to all systems requiring user login including workstations, servers, applications, and network devices. Includes login banners, terms of use acknowledgment, and consent notices.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-PRIVACY-NOTICE-008/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-PRIVACY-NOTICE-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -378,7 +378,7 @@
       "canonical_name": "Privileged Function Execution Not Logged",
       "description": "Execution of privileged functions is not logged or audited. This signal indicates that administrative actions and security-relevant operations may occur without accountability or traceability.",
       "applicability": "Applicable to all systems where privileged functions are executed. Includes administrative consoles, security tools, system configuration interfaces, and any privileged access points.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-PRIVILEGED-FUNCTION-LOG-017/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-PRIVILEGED-FUNCTION-LOG-017/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -424,7 +424,7 @@
       "canonical_name": "Privileged Remote Access Not Separately Authenticated",
       "description": "Privileged commands executed via remote access are not authenticated separately from initial session authentication. This signal indicates that elevated privileges may be exercised without additional verification.",
       "applicability": "Applicable to all privileged remote access scenarios. Includes remote administrative sessions, privileged access management systems, and any remote elevation of privileges.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-PRIVILEGED-REMOTE-AUTH-019/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-PRIVILEGED-REMOTE-AUTH-019/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -470,7 +470,7 @@
       "canonical_name": "Remote Access Not Through Managed Access Points",
       "description": "Remote access to organizational systems does not route through managed network access control points. This signal indicates that remote connections may bypass security monitoring, filtering, and access controls.",
       "applicability": "Applicable to all remote access configurations. Includes VPN gateways, remote desktop services, jump servers, and any mechanisms for external access to organizational systems.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-REMOTE-MANAGED-POINT-018/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-REMOTE-MANAGED-POINT-018/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -516,7 +516,7 @@
       "canonical_name": "Separation of Duties Not Enforced",
       "description": "Critical functions are not divided among different individuals to reduce the risk of malicious activity without collusion. This signal indicates that single individuals may have the ability to perform security-critical actions without oversight or checks.",
       "applicability": "Applicable to systems and processes where separation of duties is required to prevent fraud or error. Includes financial systems, privileged access management, change management, and security administration.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-SEPARATION-DUTIES-006/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-SEPARATION-DUTIES-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -562,7 +562,7 @@
       "canonical_name": "Session Lock Not Configured",
       "description": "System sessions are not configured to lock or terminate after a period of inactivity. This signal indicates that idle sessions remain active indefinitely without requiring re-authentication, potentially allowing unauthorized access to unattended systems.",
       "applicability": "Applicable to workstations, servers, cloud consoles, applications, and any system where user sessions are established. Includes operating system screen lock policies, web application session timeouts, SSH session configurations, and remote desktop settings.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-SESSION-LOCK-003/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-SESSION-LOCK-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -608,7 +608,7 @@
       "canonical_name": "Session Termination Not Implemented",
       "description": "User sessions are not automatically terminated after a period of inactivity or when no longer needed. This signal indicates that stale sessions may remain active, creating opportunities for unauthorized access.",
       "applicability": "Applicable to all systems with user sessions. Includes web applications, remote access sessions, administrative consoles, and any interactive system access.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-SESSION-TERMINATION-021/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-SESSION-TERMINATION-021/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -654,7 +654,7 @@
       "canonical_name": "Transaction and Function Access Not Controlled",
       "description": "Access to security-relevant transactions and system functions is not restricted based on user roles or authorization levels. This signal indicates that users may execute sensitive operations without appropriate access controls.",
       "applicability": "Applicable to all systems with security-relevant functions. Includes administrative interfaces, configuration management systems, security tool access, and transaction processing systems.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-TRANSACTION-CONTROL-016/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-TRANSACTION-CONTROL-016/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -700,7 +700,7 @@
       "canonical_name": "Unsuccessful Logon Attempts Not Limited",
       "description": "Systems do not limit or respond to unsuccessful logon attempts. This signal indicates that accounts may be vulnerable to brute force or password guessing attacks without lockout or delay mechanisms.",
       "applicability": "Applicable to all authentication systems including operating systems, applications, network devices, and cloud services. Includes account lockout policies, rate limiting, and progressive delays.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-UNSUCCESSFUL-LOGON-007/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-NO-UNSUCCESSFUL-LOGON-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -746,7 +746,7 @@
       "canonical_name": "CUI on Portable Storage Not Encrypted",
       "description": "Controlled Unclassified Information stored on portable storage devices is not encrypted. This signal indicates that CUI may be exposed if portable storage devices are lost, stolen, or improperly accessed.",
       "applicability": "Applicable to all portable storage devices containing CUI. Includes USB drives, external hard drives, SD cards, and other removable media used to store or transport CUI.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-PORTABLE-CUI-UNENCRYPTED-012/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-PORTABLE-CUI-UNENCRYPTED-012/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -792,7 +792,7 @@
       "canonical_name": "Publicly Accessible System Content Not Controlled",
       "description": "Content posted on publicly accessible systems is not reviewed or controlled before publication. This signal indicates that sensitive or unauthorized information may be inadvertently disclosed through public-facing systems.",
       "applicability": "Applicable to all publicly accessible organizational systems. Includes public websites, external APIs, file sharing services, and any systems accessible from the internet that publish organizational content.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-PUBLIC-NO-CONTROL-015/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-PUBLIC-NO-CONTROL-015/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -838,7 +838,7 @@
       "canonical_name": "Remote Access Without Monitoring or Control",
       "description": "Remote access to systems is permitted without mechanisms for monitoring, controlling, or restricting such connections. This signal indicates that remote access pathways exist without visibility into connection activity or the ability to enforce access policies.",
       "applicability": "Applicable to any system allowing remote connections including VPN gateways, remote desktop services, SSH access, cloud management interfaces, and remote administration tools. Includes both user and automated remote access scenarios.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-REMOTE-NO-CONTROL-004/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-REMOTE-NO-CONTROL-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -886,7 +886,7 @@
       "canonical_name": "Unrestricted Administrative Access",
       "description": "Administrative or privileged access to a system, service, or resource is not restricted by defined conditions or constraints. This signal indicates that administrative privileges are available without limitations such as network boundaries, time-based restrictions, multi-factor authentication requirements, or role-based scoping.",
       "applicability": "Applicable to any system, cloud service, infrastructure component, or application where administrative access is configured. Includes identity providers, cloud management consoles, server administration interfaces, database management systems, and network device configurations.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-UNRESTRICTED-ADMIN-001/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-UNRESTRICTED-ADMIN-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -933,7 +933,7 @@
       "canonical_name": "Wireless Authentication Not Implemented",
       "description": "Wireless networks do not require authentication using strong cryptographic mechanisms. This signal indicates that wireless access may be granted without verifying user or device identity through secure authentication protocols.",
       "applicability": "Applicable to all wireless network authentication configurations. Includes 802.1X/EAP authentication, WPA2/WPA3-Enterprise, certificate-based authentication, and RADIUS integration.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-WIRELESS-NO-AUTH-010/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-WIRELESS-NO-AUTH-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -979,7 +979,7 @@
       "canonical_name": "Wireless Access Not Controlled",
       "description": "Wireless network access is not managed, monitored, or restricted according to security policies. This signal indicates that wireless connections may be established without appropriate authorization or security controls.",
       "applicability": "Applicable to all wireless network infrastructure including Wi-Fi access points, wireless controllers, and client device policies. Includes wireless access control, network segmentation, and rogue AP detection.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-WIRELESS-UNCONTROLLED-009/",
+      "definition_ref": "/signals/CMMC/ACCESS/CSE-CMMC-ACCESS-WIRELESS-UNCONTROLLED-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1025,7 +1025,7 @@
       "canonical_name": "Continuous Security Monitoring Not Implemented",
       "description": "Continuous monitoring of security controls and system security status is not implemented. This signal indicates that security changes and threats may not be detected in real-time.",
       "applicability": "Applicable to all organizational security monitoring. Includes automated security monitoring, real-time alerting, and ongoing security status reporting.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ASSESSMENT/CSE-CMMC-ASSESSMENT-NO-CONTINUOUS-MONITORING-004/",
+      "definition_ref": "/signals/CMMC/ASSESSMENT/CSE-CMMC-ASSESSMENT-NO-CONTINUOUS-MONITORING-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1071,7 +1071,7 @@
       "canonical_name": "Periodic Security Review Not Conducted",
       "description": "Security controls are not periodically reviewed to ensure ongoing effectiveness. This signal indicates that control degradation or security drift may go undetected.",
       "applicability": "Applicable to all security control implementations. Includes scheduled reviews, control testing, and effectiveness verification on a regular basis.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ASSESSMENT/CSE-CMMC-ASSESSMENT-NO-PERIODIC-REVIEW-002/",
+      "definition_ref": "/signals/CMMC/ASSESSMENT/CSE-CMMC-ASSESSMENT-NO-PERIODIC-REVIEW-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1117,7 +1117,7 @@
       "canonical_name": "Security Assessment Plan Not Defined",
       "description": "A security assessment plan to periodically evaluate security controls is not developed or documented. This signal indicates that security control effectiveness may not be systematically verified.",
       "applicability": "Applicable to all organizational security assessment activities. Includes assessment methodology, scope, frequency, and documentation requirements.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ASSESSMENT/CSE-CMMC-ASSESSMENT-NO-PLAN-001/",
+      "definition_ref": "/signals/CMMC/ASSESSMENT/CSE-CMMC-ASSESSMENT-NO-PLAN-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1163,7 +1163,7 @@
       "canonical_name": "Plan of Action Not Maintained",
       "description": "A Plan of Action and Milestones (POA&M) for addressing security deficiencies is not developed or maintained. This signal indicates that identified security gaps may not be tracked to resolution.",
       "applicability": "Applicable to all identified security deficiencies. Includes vulnerability findings, assessment gaps, audit findings, and other security weaknesses requiring remediation.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ASSESSMENT/CSE-CMMC-ASSESSMENT-NO-POA-003/",
+      "definition_ref": "/signals/CMMC/ASSESSMENT/CSE-CMMC-ASSESSMENT-NO-POA-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1209,7 +1209,7 @@
       "canonical_name": "Audit Storage Capacity Insufficient",
       "description": "Insufficient storage capacity is allocated for audit log retention, risking loss of audit data. This signal indicates that audit records may be overwritten or deleted before required retention periods are met.",
       "applicability": "Applicable to all systems generating audit logs. Includes log storage sizing, retention policies, and capacity monitoring for audit data.",
-      "definition_ref": "/v1.0.0/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-INSUFFICIENT-CAPACITY-008/",
+      "definition_ref": "/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-INSUFFICIENT-CAPACITY-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1255,7 +1255,7 @@
       "canonical_name": "Audit Record Content Insufficient",
       "description": "Audit records do not contain sufficient information to establish what events occurred, when they occurred, where they occurred, and who was involved. This signal indicates that audit logs may lack critical details needed for incident investigation.",
       "applicability": "Applicable to all audit logging configurations. Includes event timestamp, source, user identity, event type, outcome, and affected resources in audit record format.",
-      "definition_ref": "/v1.0.0/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-INSUFFICIENT-CONTENT-005/",
+      "definition_ref": "/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-INSUFFICIENT-CONTENT-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1301,7 +1301,7 @@
       "canonical_name": "Centralized Audit Log Management Not Implemented",
       "description": "Audit logs are not centrally collected, managed, or analyzed. This signal indicates that log data may be fragmented across systems, making correlation and incident detection difficult.",
       "applicability": "Applicable to all organizations with multiple systems generating audit logs. Includes SIEM solutions, log aggregation platforms, and centralized log management systems.",
-      "definition_ref": "/v1.0.0/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-CENTRAL-MANAGEMENT-006/",
+      "definition_ref": "/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-CENTRAL-MANAGEMENT-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1347,7 +1347,7 @@
       "canonical_name": "Audit Record Correlation Not Implemented",
       "description": "Audit records from different sources are not correlated to identify patterns indicating potential security incidents. This signal indicates that coordinated attacks or complex incidents may go undetected.",
       "applicability": "Applicable to organizations with multiple log sources. Includes SIEM correlation rules, cross-system event analysis, and automated threat detection based on log patterns.",
-      "definition_ref": "/v1.0.0/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-CORRELATION-007/",
+      "definition_ref": "/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-CORRELATION-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1395,7 +1395,7 @@
       "canonical_name": "Audit Logging Not Enabled",
       "description": "Systems, applications, or infrastructure components are not configured to generate audit logs for security-relevant events. This signal indicates that activities such as authentication attempts, access to sensitive resources, configuration changes, or administrative actions are not being recorded.",
       "applicability": "Applicable to any system capable of generating audit logs including operating systems, applications, databases, network devices, cloud services, and security tools. Includes authentication events, authorization decisions, data access, and administrative operations.",
-      "definition_ref": "/v1.0.0/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-LOGGING-001/",
+      "definition_ref": "/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-LOGGING-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1442,7 +1442,7 @@
       "canonical_name": "Non-Repudiation Controls Not Implemented",
       "description": "Audit mechanisms do not provide non-repudiation capabilities to prove that actions occurred. This signal indicates that users may be able to deny performing actions due to lack of cryptographic or tamper-evident logging.",
       "applicability": "Applicable to systems requiring strong accountability. Includes digitally signed logs, tamper-evident logging, write-once storage, and cryptographic timestamps.",
-      "definition_ref": "/v1.0.0/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-NONREPUDIATION-009/",
+      "definition_ref": "/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-NONREPUDIATION-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1488,7 +1488,7 @@
       "canonical_name": "Audit Logs Not Protected",
       "description": "Audit logs are stored without adequate protection against unauthorized access, modification, or deletion. This signal indicates that the integrity and confidentiality of audit records may be compromised, reducing their value for security monitoring and forensic purposes.",
       "applicability": "Applicable to any audit log storage location including local file systems, centralized log servers, cloud storage, and SIEM platforms. Includes access controls, encryption, and integrity verification mechanisms for log data.",
-      "definition_ref": "/v1.0.0/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-PROTECTION-003/",
+      "definition_ref": "/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-PROTECTION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1535,7 +1535,7 @@
       "canonical_name": "Audit Log Retention Not Configured",
       "description": "Audit logs are not retained for an adequate period or are subject to automatic deletion without regard to retention requirements. This signal indicates that historical audit data may not be available for incident investigation, compliance verification, or forensic analysis.",
       "applicability": "Applicable to any logging infrastructure including local log storage, centralized logging systems, SIEM platforms, and cloud-native logging services. Includes retention policies for security logs, application logs, and system logs.",
-      "definition_ref": "/v1.0.0/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-RETENTION-002/",
+      "definition_ref": "/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-RETENTION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1581,7 +1581,7 @@
       "canonical_name": "Audit Log Review Not Configured",
       "description": "No automated or manual process exists to review audit logs for security-relevant events or anomalies. This signal indicates that collected audit data is not being analyzed, reducing the ability to detect unauthorized activities or security incidents.",
       "applicability": "Applicable to any environment generating security audit logs. Includes SIEM alerting rules, log analysis processes, security monitoring configurations, and automated detection mechanisms.",
-      "definition_ref": "/v1.0.0/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-REVIEW-004/",
+      "definition_ref": "/signals/CMMC/AUDIT/CSE-CMMC-AUDIT-NO-REVIEW-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1627,7 +1627,7 @@
       "canonical_name": "Insider Threat Awareness Training Not Provided",
       "description": "Personnel do not receive training on recognizing and reporting potential insider threat indicators. This signal indicates that employees may not understand how to identify suspicious behavior from colleagues or themselves.",
       "applicability": "Applicable to all organizations handling CUI. Includes insider threat awareness programs, behavioral indicator training, and reporting procedure education.",
-      "definition_ref": "/v1.0.0/signals/CMMC/AWARENESS/CSE-CMMC-AWARENESS-NO-INSIDER-THREAT-TRAINING-002/",
+      "definition_ref": "/signals/CMMC/AWARENESS/CSE-CMMC-AWARENESS-NO-INSIDER-THREAT-TRAINING-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1673,7 +1673,7 @@
       "canonical_name": "Role-Based Security Training Not Provided",
       "description": "Personnel with security responsibilities do not receive specialized training appropriate to their roles. This signal indicates that administrators, developers, or security personnel may lack skills needed for their specific security duties.",
       "applicability": "Applicable to personnel with specialized security responsibilities. Includes system administrators, security officers, developers, incident responders, and other roles requiring specific security competencies.",
-      "definition_ref": "/v1.0.0/signals/CMMC/AWARENESS/CSE-CMMC-AWARENESS-NO-ROLE-BASED-TRAINING-003/",
+      "definition_ref": "/signals/CMMC/AWARENESS/CSE-CMMC-AWARENESS-NO-ROLE-BASED-TRAINING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1719,7 +1719,7 @@
       "canonical_name": "Security Awareness Training Not Provided",
       "description": "Users do not receive security awareness training on recognizing and reporting potential security threats. This signal indicates that personnel may lack the knowledge to identify phishing, social engineering, or other security risks.",
       "applicability": "Applicable to all organizations with personnel who access information systems. Includes security awareness programs, phishing training, and general security education for all users.",
-      "definition_ref": "/v1.0.0/signals/CMMC/AWARENESS/CSE-CMMC-AWARENESS-NO-SECURITY-TRAINING-001/",
+      "definition_ref": "/signals/CMMC/AWARENESS/CSE-CMMC-AWARENESS-NO-SECURITY-TRAINING-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1767,7 +1767,7 @@
       "canonical_name": "System Architecture Protection Not Implemented",
       "description": "Security architecture principles such as defense in depth and least privilege are not implemented in system design. This signal indicates that the system may lack layered security controls.",
       "applicability": "Applicable to all system architectures. Includes defense in depth, network segmentation, security zones, and architectural security controls.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-ARCHITECTURE-PROTECTION-015/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-ARCHITECTURE-PROTECTION-015/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1813,7 +1813,7 @@
       "canonical_name": "Network Boundary Protection Not Implemented",
       "description": "Communications at system and network boundaries are not monitored or controlled. This signal indicates that traffic entering or leaving security domains is not subject to inspection, filtering, or access controls.",
       "applicability": "Applicable to network perimeters, cloud VPC boundaries, security zones, and any demarcation point between trust levels. Includes firewalls, network ACLs, security groups, and web application firewalls.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-BOUNDARY-PROTECTION-003/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-BOUNDARY-PROTECTION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1861,7 +1861,7 @@
       "canonical_name": "Collaborative Computing Device Control Not Implemented",
       "description": "Collaborative computing devices such as cameras, microphones, and screen sharing are not controlled against unauthorized activation. This signal indicates that eavesdropping or surveillance may be possible.",
       "applicability": "Applicable to all collaborative computing features. Includes webcams, microphones, screen sharing, remote desktop, and unified communications devices.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-COLLABORATIVE-CONTROL-008/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-COLLABORATIVE-CONTROL-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1907,7 +1907,7 @@
       "canonical_name": "Covert Channel Detection Not Implemented",
       "description": "Mechanisms to detect covert communication channels are not implemented. This signal indicates that data may be exfiltrated through hidden or non-standard communication methods.",
       "applicability": "Applicable to systems requiring advanced threat protection. Includes DNS tunneling detection, steganography detection, and non-standard protocol monitoring.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-COVERT-CHANNEL-016/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-COVERT-CHANNEL-016/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1953,7 +1953,7 @@
       "canonical_name": "CUI at Rest Not Protected",
       "description": "Controlled Unclassified Information stored in persistent storage is not protected through encryption or other mechanisms. This signal indicates that stored CUI may be exposed if physical or logical access is compromised.",
       "applicability": "Applicable to all persistent CUI storage. Includes disk encryption, database encryption, file-level encryption, and storage access controls.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-CUI-REST-PROTECTION-012/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-CUI-REST-PROTECTION-012/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1999,7 +1999,7 @@
       "canonical_name": "DNS Protection Not Implemented",
       "description": "DNS resolution is not protected against spoofing or manipulation attacks. This signal indicates that DNS responses may be forged to redirect traffic to malicious destinations.",
       "applicability": "Applicable to all DNS resolution. Includes DNSSEC validation, DNS over HTTPS/TLS, internal DNS security, and DNS query monitoring.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-DNS-PROTECTION-013/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-DNS-PROTECTION-013/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2045,7 +2045,7 @@
       "canonical_name": "Data Not Encrypted at Rest",
       "description": "Sensitive data stored in databases, file systems, backups, or other storage media is not encrypted. This signal indicates that data may be exposed if storage media is accessed by unauthorized parties or improperly disposed of.",
       "applicability": "Applicable to any data storage including databases, file systems, object storage, backup media, removable storage, and mobile devices. Includes both structured and unstructured data storage.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-ENCRYPTION-REST-002/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-ENCRYPTION-REST-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2091,7 +2091,7 @@
       "canonical_name": "Data Not Encrypted in Transit",
       "description": "Data transmitted between systems, services, or networks is not encrypted. This signal indicates that sensitive information may be exposed to interception or eavesdropping during transmission over network connections.",
       "applicability": "Applicable to any network communication including API calls, database connections, file transfers, email, and internal service communication. Includes both external-facing and internal network traffic.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-ENCRYPTION-TRANSIT-001/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-ENCRYPTION-TRANSIT-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2137,7 +2137,7 @@
       "canonical_name": "FIPS-Validated Cryptography Not Used",
       "description": "Cryptographic modules are not FIPS 140-2/140-3 validated when protecting CUI. This signal indicates that cryptographic implementations may not meet federal security standards.",
       "applicability": "Applicable to all cryptographic protection of CUI. Includes encryption modules, key management systems, and cryptographic libraries used for CUI protection.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-FIPS-CRYPTO-014/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-FIPS-CRYPTO-014/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2183,7 +2183,7 @@
       "canonical_name": "Cryptographic Key Management Not Implemented",
       "description": "Cryptographic keys are not managed throughout their lifecycle including generation, distribution, storage, and revocation. This signal indicates that weak key management may compromise cryptographic protections.",
       "applicability": "Applicable to all cryptographic key usage. Includes key generation, key storage, key distribution, key rotation, and key revocation procedures.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-KEY-MANAGEMENT-007/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-KEY-MANAGEMENT-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2229,7 +2229,7 @@
       "canonical_name": "Mobile Code Execution Not Controlled",
       "description": "Mobile code such as JavaScript, ActiveX, and macros is not controlled or restricted. This signal indicates that malicious mobile code may execute without user awareness or authorization.",
       "applicability": "Applicable to all systems executing mobile code. Includes browser security settings, macro restrictions, plugin controls, and script execution policies.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-MOBILE-CODE-CONTROL-009/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-MOBILE-CODE-CONTROL-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2275,7 +2275,7 @@
       "canonical_name": "Network Connection Termination Not Controlled",
       "description": "Network connections are not terminated at the end of sessions or after periods of inactivity. This signal indicates that stale network connections may remain available for exploitation.",
       "applicability": "Applicable to all network sessions. Includes session timeout settings, connection lifecycle management, and inactive connection termination policies.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-NETWORK-TERMINATION-006/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-NETWORK-TERMINATION-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2321,7 +2321,7 @@
       "canonical_name": "Communication Session Authenticity Not Ensured",
       "description": "Authenticity of communication sessions is not verified through cryptographic mechanisms. This signal indicates that session hijacking or man-in-the-middle attacks may be possible.",
       "applicability": "Applicable to all authenticated communication sessions. Includes TLS certificate validation, session token protection, and mutual authentication requirements.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-SESSION-AUTHENTICITY-011/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-SESSION-AUTHENTICITY-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2367,7 +2367,7 @@
       "canonical_name": "Shared System Resource Protection Not Implemented",
       "description": "Protection mechanisms for shared system resources are not implemented to prevent unauthorized data disclosure. This signal indicates that information may leak between processes or users through shared resources.",
       "applicability": "Applicable to all multi-user and multi-tenant systems. Includes memory isolation, process separation, storage partitioning, and shared resource access controls.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-SHARED-RESOURCE-005/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-SHARED-RESOURCE-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2413,7 +2413,7 @@
       "canonical_name": "VoIP Communications Not Protected",
       "description": "Voice over IP communications are not protected against eavesdropping or manipulation. This signal indicates that voice communications may be intercepted or modified in transit.",
       "applicability": "Applicable to all VoIP implementations. Includes SIP encryption, SRTP for media streams, VoIP network segmentation, and voice traffic protection.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-VOIP-PROTECTION-010/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-NO-VOIP-PROTECTION-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2459,7 +2459,7 @@
       "canonical_name": "Weak Cryptographic Configuration",
       "description": "Cryptographic implementations use deprecated algorithms, insufficient key lengths, or insecure configurations. This signal indicates that encryption may not provide adequate protection against modern cryptographic attacks.",
       "applicability": "Applicable to any cryptographic implementation including TLS/SSL configurations, encryption algorithms, key management, and certificate handling. Includes both data encryption and communication encryption.",
-      "definition_ref": "/v1.0.0/signals/CMMC/COMMS/CSE-CMMC-COMMS-WEAK-CRYPTO-004/",
+      "definition_ref": "/signals/CMMC/COMMS/CSE-CMMC-COMMS-WEAK-CRYPTO-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2505,7 +2505,7 @@
       "canonical_name": "Insecure Default Configuration",
       "description": "Systems or applications are deployed with vendor default configurations that do not meet security requirements. This signal indicates that default passwords, sample accounts, unnecessary features, or insecure default settings remain active in the environment.",
       "applicability": "Applicable to any newly deployed or existing system including operating systems, applications, databases, network devices, and cloud services. Includes default credentials, sample data, debug modes, and unnecessary default features.",
-      "definition_ref": "/v1.0.0/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-INSECURE-DEFAULTS-003/",
+      "definition_ref": "/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-INSECURE-DEFAULTS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2552,7 +2552,7 @@
       "canonical_name": "Authorized Software Not Defined",
       "description": "A list of authorized software for organizational systems is not maintained or enforced. This signal indicates that unapproved or potentially malicious software may be installed without detection.",
       "applicability": "Applicable to all systems where software installation is possible. Includes application whitelisting, authorized software inventories, and software installation controls.",
-      "definition_ref": "/v1.0.0/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-AUTHORIZED-SOFTWARE-005/",
+      "definition_ref": "/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-AUTHORIZED-SOFTWARE-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2598,7 +2598,7 @@
       "canonical_name": "Security Configuration Baseline Not Defined",
       "description": "Systems do not have documented security configuration baselines or are not configured according to established hardening standards. This signal indicates that system configurations may be inconsistent, ad-hoc, or not aligned with security best practices.",
       "applicability": "Applicable to all system types including servers, workstations, network devices, cloud resources, containers, and applications. Includes operating system configurations, application settings, and infrastructure-as-code templates.",
-      "definition_ref": "/v1.0.0/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-BASELINE-001/",
+      "definition_ref": "/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-BASELINE-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2645,7 +2645,7 @@
       "canonical_name": "Software Blacklist Not Implemented",
       "description": "A blacklist of prohibited software is not maintained or enforced. This signal indicates that known malicious, risky, or policy-violating software may be executed without prevention.",
       "applicability": "Applicable to all systems where executable software runs. Includes software blacklisting, application blocking, and deny-by-exception policies.",
-      "definition_ref": "/v1.0.0/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-BLACKLIST-008/",
+      "definition_ref": "/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-BLACKLIST-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2691,7 +2691,7 @@
       "canonical_name": "Configuration Change Control Not Implemented",
       "description": "Changes to system configurations are not tracked, reviewed, or controlled through a formal change management process. This signal indicates that configuration modifications may occur without documentation, approval, or the ability to audit who made changes and when.",
       "applicability": "Applicable to any system where configuration changes occur including infrastructure, applications, network devices, and cloud resources. Includes version control for infrastructure-as-code, change approval workflows, and configuration drift detection.",
-      "definition_ref": "/v1.0.0/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-CHANGE-CONTROL-002/",
+      "definition_ref": "/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-CHANGE-CONTROL-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2739,7 +2739,7 @@
       "canonical_name": "Nonessential Functions Not Restricted",
       "description": "Nonessential programs, functions, ports, protocols, and services are not disabled or restricted. This signal indicates that the attack surface may be unnecessarily expanded due to unused functionality remaining enabled.",
       "applicability": "Applicable to all organizational systems. Includes service hardening, port management, protocol restrictions, and removal of unnecessary software components.",
-      "definition_ref": "/v1.0.0/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-NONESSENTIAL-RESTRICT-007/",
+      "definition_ref": "/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-NONESSENTIAL-RESTRICT-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2785,7 +2785,7 @@
       "canonical_name": "Physical Access to System Components Not Controlled",
       "description": "Physical access to system hardware and components is not restricted to authorized personnel. This signal indicates that unauthorized individuals may gain physical access to equipment, enabling tampering or theft.",
       "applicability": "Applicable to all physical system components. Includes server rooms, network closets, workstation security, and portable device controls.",
-      "definition_ref": "/v1.0.0/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-PHYSICAL-ACCESS-CONTROL-009/",
+      "definition_ref": "/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-PHYSICAL-ACCESS-CONTROL-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2831,7 +2831,7 @@
       "canonical_name": "User-Installed Software Not Controlled",
       "description": "Users can install software without oversight or approval. This signal indicates that unauthorized applications may be installed by end users, potentially introducing vulnerabilities or policy violations.",
       "applicability": "Applicable to all user workstations and devices. Includes user installation restrictions, software request processes, and endpoint management policies.",
-      "definition_ref": "/v1.0.0/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-USER-SOFTWARE-CONTROL-006/",
+      "definition_ref": "/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-NO-USER-SOFTWARE-CONTROL-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2877,7 +2877,7 @@
       "canonical_name": "Unnecessary Services or Functions Enabled",
       "description": "Systems have services, ports, protocols, or functions enabled that are not required for the system's intended purpose. This signal indicates that the attack surface includes components that could be removed or disabled to reduce risk.",
       "applicability": "Applicable to all system types including servers, workstations, network devices, and cloud resources. Includes unnecessary network services, unused software packages, debugging interfaces, and legacy protocols.",
-      "definition_ref": "/v1.0.0/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-UNNECESSARY-SERVICES-004/",
+      "definition_ref": "/signals/CMMC/CONFIG/CSE-CMMC-CONFIG-UNNECESSARY-SERVICES-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2925,7 +2925,7 @@
       "canonical_name": "Advanced Persistent Threat Protection Not Implemented",
       "description": "Specific protections against Advanced Persistent Threats are not implemented. This signal indicates that sophisticated, targeted attacks may not be detected or prevented.",
       "applicability": "Applicable to Level 3 environments facing APT threats. Includes advanced threat detection, behavioral analysis, and targeted attack prevention mechanisms.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-APT-PROTECTION-003/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-APT-PROTECTION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2977,7 +2977,7 @@
       "canonical_name": "Backup Isolation from Production Not Implemented",
       "description": "Backup systems are not isolated from production networks to prevent compromise. This signal indicates that ransomware or other attacks may compromise both production and backup data.",
       "applicability": "Applicable to Level 3 environments with critical backup requirements. Includes air-gapped backups, immutable storage, and isolated backup networks.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-BACKUP-ISOLATION-015/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-BACKUP-ISOLATION-015/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3029,7 +3029,7 @@
       "canonical_name": "User and Entity Behavior Analytics Not Deployed",
       "description": "User and Entity Behavior Analytics (UEBA) for detecting anomalous behavior is not deployed. This signal indicates that unusual user or system behavior may not be detected.",
       "applicability": "Applicable to Level 3 environments requiring behavioral detection. Includes UEBA platforms, behavioral baselines, and anomaly detection systems.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-BEHAVIOR-ANALYTICS-021/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-BEHAVIOR-ANALYTICS-021/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3081,7 +3081,7 @@
       "canonical_name": "System Component Authentication Not Implemented",
       "description": "Authentication between system components before communication is not implemented. This signal indicates that compromised components may communicate with other systems without verification.",
       "applicability": "Applicable to Level 3 environments with inter-system communications. Includes service-to-service authentication, mutual TLS, and component identity verification.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-COMPONENT-AUTH-023/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-COMPONENT-AUTH-023/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3133,7 +3133,7 @@
       "canonical_name": "Cryptographic Agility Not Implemented",
       "description": "Cryptographic agility to rapidly change algorithms in response to vulnerabilities is not implemented. This signal indicates that transitioning to new cryptographic standards may be difficult.",
       "applicability": "Applicable to Level 3 environments requiring crypto flexibility. Includes algorithm-agnostic designs, crypto library abstraction, and post-quantum readiness.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-CRYPTO-AGILITY-022/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-CRYPTO-AGILITY-022/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3185,7 +3185,7 @@
       "canonical_name": "Data Provenance Tracking Not Implemented",
       "description": "Data provenance and lineage tracking for CUI is not implemented. This signal indicates that the origin and handling history of sensitive data cannot be verified.",
       "applicability": "Applicable to Level 3 environments requiring data integrity verification. Includes data lineage tracking, origin verification, and data handling audit trails.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-DATA-PROVENANCE-018/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-DATA-PROVENANCE-018/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3237,7 +3237,7 @@
       "canonical_name": "Deception Technologies Not Deployed",
       "description": "Deception technologies such as honeypots and honeynets are not deployed to detect attackers. This signal indicates that adversary reconnaissance and lateral movement may not be detected early.",
       "applicability": "Applicable to Level 3 environments requiring advanced detection. Includes honeypots, honeynets, decoy systems, and deception-based detection mechanisms.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-DECEPTION-005/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-DECEPTION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3289,7 +3289,7 @@
       "canonical_name": "Dual Authorization Not Implemented",
       "description": "Dual authorization controls for critical operations are not implemented. This signal indicates that sensitive actions can be performed by a single individual without independent verification.",
       "applicability": "Applicable to high-impact operations in Level 3 environments. Includes privileged access actions, system configuration changes, and critical data operations requiring two-person integrity.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-DUAL-AUTH-001/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-DUAL-AUTH-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3341,7 +3341,7 @@
       "canonical_name": "Digital Forensics Capability Not Established",
       "description": "Digital forensics capabilities for incident investigation are not established. This signal indicates that incident root cause analysis and evidence preservation may not be possible.",
       "applicability": "Applicable to Level 3 environments requiring forensic capabilities. Includes forensic tools, evidence handling procedures, and chain of custody processes.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-FORENSICS-014/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-FORENSICS-014/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3393,7 +3393,7 @@
       "canonical_name": "Hardware-Based Authentication Not Used",
       "description": "Hardware-based authentication mechanisms such as hardware tokens or smart cards are not used for privileged access. This signal indicates that authentication may rely solely on software-based factors.",
       "applicability": "Applicable to Level 3 environments requiring strong authentication. Includes hardware security keys, smart cards, and TPM-based authentication.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-HARDWARE-AUTH-020/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-HARDWARE-AUTH-020/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3445,7 +3445,7 @@
       "canonical_name": "Incident Response Playbooks Not Developed",
       "description": "Detailed incident response playbooks for common attack scenarios are not developed. This signal indicates that incident response may be inconsistent or delayed during security events.",
       "applicability": "Applicable to Level 3 environments with incident response requirements. Includes attack-specific playbooks, automated response procedures, and escalation workflows.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-INCIDENT-PLAYBOOK-013/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-INCIDENT-PLAYBOOK-013/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3497,7 +3497,7 @@
       "canonical_name": "Insider Threat Program Not Established",
       "description": "A formal insider threat program to detect and prevent malicious insider activity is not established. This signal indicates that insider threats may not be systematically detected or addressed.",
       "applicability": "Applicable to Level 3 environments with insider threat concerns. Includes insider threat detection, user behavior monitoring, and insider threat investigations.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-INSIDER-THREAT-PROGRAM-017/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-INSIDER-THREAT-PROGRAM-017/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3549,7 +3549,7 @@
       "canonical_name": "Network Isolation for High-Value Assets Not Implemented",
       "description": "High-value assets are not isolated on dedicated network segments. This signal indicates that critical systems may be accessible through compromised standard network segments.",
       "applicability": "Applicable to Level 3 environments with high-value assets. Includes network micro-segmentation, isolated management networks, and air-gapped systems for critical assets.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-NETWORK-ISOLATION-006/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-NETWORK-ISOLATION-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3601,7 +3601,7 @@
       "canonical_name": "Operational Resilience Testing Not Conducted",
       "description": "Testing of operational resilience and system recovery capabilities is not conducted. This signal indicates that recovery procedures may fail during actual incidents.",
       "applicability": "Applicable to Level 3 environments requiring operational assurance. Includes disaster recovery testing, failover exercises, and resilience validation.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-OPERATIONAL-RESILIENCE-024/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-OPERATIONAL-RESILIENCE-024/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3653,7 +3653,7 @@
       "canonical_name": "Penetration Testing Not Conducted",
       "description": "Regular penetration testing of systems and applications is not conducted. This signal indicates that exploitable vulnerabilities may exist without detection.",
       "applicability": "Applicable to Level 3 environments requiring offensive security testing. Includes network penetration tests, application security testing, and social engineering assessments.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-PENETRATION-TEST-008/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-PENETRATION-TEST-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3705,7 +3705,7 @@
       "canonical_name": "Cyber Resilience Recovery Plan Not Established",
       "description": "A comprehensive recovery plan for restoring operations after cyber incidents is not established. This signal indicates that recovery from significant attacks may be prolonged or incomplete.",
       "applicability": "Applicable to Level 3 environments requiring operational resilience. Includes disaster recovery, business continuity, and cyber resilience planning.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-RECOVERY-PLAN-016/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-RECOVERY-PLAN-016/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3757,7 +3757,7 @@
       "canonical_name": "Red Team Exercises Not Conducted",
       "description": "Red team exercises simulating adversary tactics are not conducted. This signal indicates that the organization's defense capabilities against realistic attacks are not validated.",
       "applicability": "Applicable to Level 3 environments requiring adversary simulation. Includes red team exercises, purple team activities, and adversary emulation.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-RED-TEAM-009/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-RED-TEAM-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3809,7 +3809,7 @@
       "canonical_name": "Security Domain Separation Not Implemented",
       "description": "Security domains for different sensitivity levels are not separated. This signal indicates that CUI of varying impact levels may not be adequately isolated from each other.",
       "applicability": "Applicable to Level 3 environments with varying data sensitivity. Includes logical and physical separation of security domains, cross-domain solutions, and data classification enforcement.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-SECURITY-DOMAIN-002/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-SECURITY-DOMAIN-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3861,7 +3861,7 @@
       "canonical_name": "SIEM with Advanced Analytics Not Deployed",
       "description": "Security Information and Event Management with advanced analytics is not deployed. This signal indicates that security events may not be correlated or analyzed for complex attack patterns.",
       "applicability": "Applicable to Level 3 environments requiring advanced security analytics. Includes SIEM deployment, advanced correlation rules, machine learning detection, and behavioral analytics.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-SIEM-012/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-SIEM-012/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3913,7 +3913,7 @@
       "canonical_name": "Security Operations Center Not Established",
       "description": "A Security Operations Center for continuous monitoring and incident response is not established. This signal indicates that security events may not be monitored or responded to in real-time.",
       "applicability": "Applicable to Level 3 environments requiring 24/7 security monitoring. Includes SOC operations, continuous monitoring, and real-time incident detection and response.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-SOC-010/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-SOC-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3965,7 +3965,7 @@
       "canonical_name": "Supply Chain Risk Management Not Implemented",
       "description": "Supply chain risk management for critical components is not implemented. This signal indicates that compromised or counterfeit components may enter the environment.",
       "applicability": "Applicable to Level 3 environments with supply chain concerns. Includes vendor risk assessment, component verification, and supply chain security programs.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-SUPPLY-CHAIN-007/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-SUPPLY-CHAIN-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4017,7 +4017,7 @@
       "canonical_name": "Proactive Threat Hunting Not Performed",
       "description": "Proactive threat hunting activities are not conducted to identify hidden threats. This signal indicates that undetected adversaries may persist in the environment.",
       "applicability": "Applicable to Level 3 environments requiring proactive security. Includes threat hunting teams, hypothesis-driven investigations, and proactive compromise assessments.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-THREAT-HUNTING-004/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-THREAT-HUNTING-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4069,7 +4069,7 @@
       "canonical_name": "Threat Intelligence Program Not Established",
       "description": "A threat intelligence program for gathering and analyzing threat data is not established. This signal indicates that emerging threats may not be identified or addressed proactively.",
       "applicability": "Applicable to Level 3 environments requiring threat awareness. Includes threat intelligence feeds, intelligence analysis, and threat information sharing.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-THREAT-INTEL-011/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-THREAT-INTEL-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4121,7 +4121,7 @@
       "canonical_name": "Zero Trust Architecture Not Implemented",
       "description": "Zero trust architecture principles are not implemented in the security design. This signal indicates that implicit trust may be granted based on network location rather than continuous verification.",
       "applicability": "Applicable to Level 3 environments moving toward zero trust. Includes micro-segmentation, continuous authentication, and least-privilege access verification.",
-      "definition_ref": "/v1.0.0/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-ZERO-TRUST-019/",
+      "definition_ref": "/signals/CMMC/ENHANCED/CSE-CMMC-ENHANCED-NO-ZERO-TRUST-019/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4173,7 +4173,7 @@
       "canonical_name": "Authenticator Lifecycle Not Managed",
       "description": "Authenticators such as passwords, tokens, and certificates are not properly managed throughout their lifecycle. This signal indicates that authenticators may not be issued, rotated, or revoked according to security requirements.",
       "applicability": "Applicable to all authentication mechanisms. Includes password management, certificate lifecycle, token issuance, and authenticator recovery processes.",
-      "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-AUTHENTICATOR-MANAGEMENT-007/",
+      "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-AUTHENTICATOR-MANAGEMENT-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4219,7 +4219,7 @@
       "canonical_name": "Cached Authenticators Not Protected",
       "description": "Cached authentication credentials are not protected from unauthorized access or extraction. This signal indicates that stored credentials may be vulnerable to theft through credential dumping attacks.",
       "applicability": "Applicable to systems that cache credentials. Includes Windows credential manager, browser password stores, SSH key storage, and application credential caches.",
-      "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-CACHED-AUTH-PROTECTION-010/",
+      "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-CACHED-AUTH-PROTECTION-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4265,7 +4265,7 @@
       "canonical_name": "Device Authentication Not Required",
       "description": "Devices connecting to the network or systems are not required to authenticate or prove their identity before being granted access. This signal indicates that network access decisions are not based on verified device identity.",
       "applicability": "Applicable to network access control systems, wireless networks, VPN gateways, and any environment where device identity should be verified. Includes 802.1X configurations, certificate-based authentication, and device compliance checks.",
-      "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-DEVICE-AUTH-004/",
+      "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-DEVICE-AUTH-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4312,7 +4312,7 @@
       "canonical_name": "Device Authentication Not Implemented",
       "description": "Devices connecting to organizational systems are not authenticated before establishing connections. This signal indicates that unauthorized or rogue devices may access the network without verification.",
       "applicability": "Applicable to all network-connected devices. Includes 802.1X network authentication, device certificates, MAC authentication, and network access control (NAC) solutions.",
-      "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-DEVICE-AUTH-005/",
+      "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-DEVICE-AUTH-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4358,7 +4358,7 @@
       "canonical_name": "Identifier Lifecycle Not Managed",
       "description": "User and device identifiers are not managed throughout their lifecycle including creation, use, and deactivation. This signal indicates that stale, shared, or orphaned identifiers may exist without proper controls.",
       "applicability": "Applicable to all identity management systems. Includes user account provisioning, deprovisioning, periodic reviews, and identifier uniqueness enforcement.",
-      "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-IDENTIFIER-MANAGEMENT-006/",
+      "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-IDENTIFIER-MANAGEMENT-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4404,7 +4404,7 @@
       "canonical_name": "Multi-Factor Authentication Not Enabled",
       "description": "Access to systems, applications, or accounts is permitted without requiring multi-factor authentication. This signal indicates that authentication relies solely on a single factor (typically a password) without additional verification mechanisms.",
       "applicability": "Applicable to any system requiring user authentication, including cloud consoles, VPN access, remote administration, privileged accounts, and applications handling sensitive data. Particularly relevant for network access and privileged account access.",
-      "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-MFA-001/",
+      "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-MFA-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4450,7 +4450,7 @@
       "canonical_name": "Replay-Resistant Authentication Not Implemented",
       "description": "Authentication mechanisms do not prevent replay attacks where captured credentials are reused. This signal indicates that intercepted authentication data may be replayed to gain unauthorized access.",
       "applicability": "Applicable to network authentication and privileged access. Includes challenge-response protocols, time-based tokens, nonce usage, and session binding mechanisms.",
-      "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-REPLAY-RESISTANCE-009/",
+      "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-REPLAY-RESISTANCE-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4496,7 +4496,7 @@
       "canonical_name": "Unique User Identification Missing",
       "description": "Users are not assigned unique identifiers for system access. This signal indicates that shared or generic accounts may be in use, violating CMMC requirements for individual accountability and audit trail maintenance.",
       "applicability": "Organizations handling Controlled Unclassified Information (CUI), Defense contractors pursuing CMMC certification, Systems requiring individual user accountability",
-      "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-UNIQUE-ID-002/",
+      "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-NO-UNIQUE-ID-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4538,7 +4538,7 @@
       "canonical_name": "Authentication Feedback Not Obscured",
       "description": "Authentication information is displayed in clear text during entry rather than being obscured. This signal indicates that passwords or other credentials may be visible to shoulder surfing or screen capture.",
       "applicability": "Applicable to all authentication interfaces. Includes password entry fields, PIN entry, command-line authentication, and any credential input mechanism.",
-      "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-OBSCURED-FEEDBACK-MISSING-011/",
+      "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-OBSCURED-FEEDBACK-MISSING-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4584,7 +4584,7 @@
       "canonical_name": "Shared Account Usage",
       "description": "Multiple users share a single account or credential set rather than using individually assigned identities. This signal indicates that user actions cannot be uniquely attributed to individuals, reducing accountability and audit trail effectiveness.",
       "applicability": "Applicable to any system where user identification and authentication is performed. Includes shared service accounts, generic admin accounts, shared application logins, and credentials stored in shared locations accessible to multiple individuals.",
-      "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-SHARED-ACCOUNT-003/",
+      "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-SHARED-ACCOUNT-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4631,7 +4631,7 @@
       "canonical_name": "Authenticator Strength Insufficient",
       "description": "Authenticators do not meet minimum strength requirements for the security level of the systems they protect. This signal indicates that weak authentication mechanisms may be in use for sensitive systems.",
       "applicability": "Applicable to all authentication mechanisms. Includes password complexity, cryptographic key strength, certificate algorithms, and multi-factor authenticator requirements.",
-      "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-WEAK-AUTHENTICATOR-008/",
+      "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-WEAK-AUTHENTICATOR-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4677,7 +4677,7 @@
       "canonical_name": "Weak Password Policy",
       "description": "Password policies do not enforce adequate complexity, length, or rotation requirements. This signal indicates that authentication credentials may be susceptible to guessing, brute force, or credential stuffing attacks due to insufficient password strength requirements.",
       "applicability": "Applicable to any identity management system, directory service, application, or database where password-based authentication is used. Includes Active Directory, cloud identity providers, application-level authentication, and database user credentials.",
-      "definition_ref": "/v1.0.0/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-WEAK-PASSWORD-002/",
+      "definition_ref": "/signals/CMMC/IDENTITY/CSE-CMMC-IDENTITY-WEAK-PASSWORD-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4725,7 +4725,7 @@
       "canonical_name": "Incident Detection Capability Not Implemented",
       "description": "Technical mechanisms for detecting security incidents are not deployed or configured. This signal indicates that attacks, breaches, or unauthorized activities may occur without being identified in a timely manner.",
       "applicability": "Applicable to security monitoring infrastructure including SIEM systems, intrusion detection, endpoint detection, and alerting mechanisms. Includes both automated detection and manual review capabilities.",
-      "definition_ref": "/v1.0.0/signals/CMMC/INCIDENT/CSE-CMMC-INCIDENT-NO-DETECTION-002/",
+      "definition_ref": "/signals/CMMC/INCIDENT/CSE-CMMC-INCIDENT-NO-DETECTION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4771,7 +4771,7 @@
       "canonical_name": "Incident Response Plan Not Established",
       "description": "The organization does not have a documented incident response plan or the plan does not address key incident handling procedures. This signal indicates that the organization may lack defined processes for detecting, responding to, and recovering from security incidents.",
       "applicability": "Applicable to any organization requiring incident response capabilities. Includes documented procedures, roles and responsibilities, communication protocols, and recovery processes.",
-      "definition_ref": "/v1.0.0/signals/CMMC/INCIDENT/CSE-CMMC-INCIDENT-NO-PLAN-001/",
+      "definition_ref": "/signals/CMMC/INCIDENT/CSE-CMMC-INCIDENT-NO-PLAN-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4818,7 +4818,7 @@
       "canonical_name": "Incident Reporting Process Missing",
       "description": "A formal process for reporting security incidents has not been established. This signal indicates the absence of documented procedures for internal and external incident reporting as required by CMMC practices.",
       "applicability": "Organizations handling Controlled Unclassified Information (CUI), Defense contractors pursuing CMMC certification, Systems requiring incident response capabilities",
-      "definition_ref": "/v1.0.0/signals/CMMC/INCIDENT/CSE-CMMC-INCIDENT-NO-REPORTING-002/",
+      "definition_ref": "/signals/CMMC/INCIDENT/CSE-CMMC-INCIDENT-NO-REPORTING-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4860,7 +4860,7 @@
       "canonical_name": "Incident Reporting Not Configured",
       "description": "Processes and mechanisms for reporting security incidents to appropriate stakeholders are not established. This signal indicates that incidents may not be communicated to management, legal, regulatory authorities, or affected parties as required.",
       "applicability": "Applicable to incident communication and reporting requirements including internal escalation, management notification, regulatory reporting, and external communications.",
-      "definition_ref": "/v1.0.0/signals/CMMC/INCIDENT/CSE-CMMC-INCIDENT-NO-REPORTING-003/",
+      "definition_ref": "/signals/CMMC/INCIDENT/CSE-CMMC-INCIDENT-NO-REPORTING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4907,7 +4907,7 @@
       "canonical_name": "Secure Error Handling Not Implemented",
       "description": "Error messages reveal sensitive system information or implementation details. This signal indicates that error handling may expose information useful to attackers.",
       "applicability": "Applicable to all applications and systems generating error messages. Includes web application errors, API responses, and system error logs visible to users.",
-      "definition_ref": "/v1.0.0/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-ERROR-HANDLING-007/",
+      "definition_ref": "/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-ERROR-HANDLING-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4953,7 +4953,7 @@
       "canonical_name": "Input Validation Not Implemented",
       "description": "Applications do not validate, sanitize, or constrain input data before processing. This signal indicates that applications may be vulnerable to injection attacks, buffer overflows, or other input-based exploits.",
       "applicability": "Applicable to any application accepting external input including web applications, APIs, command-line tools, and data processing systems. Includes form inputs, API parameters, file uploads, and data imports.",
-      "definition_ref": "/v1.0.0/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-INPUT-VALIDATION-004/",
+      "definition_ref": "/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-INPUT-VALIDATION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4999,7 +4999,7 @@
       "canonical_name": "Input Validation Not Implemented",
       "description": "Applications do not validate input data before processing, creating vulnerability to injection attacks. This signal indicates that SQL injection, XSS, and command injection vulnerabilities may exist.",
       "applicability": "Applicable to all applications accepting user input. Includes web applications, APIs, command-line tools, and any software processing external data.",
-      "definition_ref": "/v1.0.0/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-INPUT-VALIDATION-006/",
+      "definition_ref": "/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-INPUT-VALIDATION-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5045,7 +5045,7 @@
       "canonical_name": "Malware Protection Not Implemented",
       "description": "Systems do not have malware detection and prevention mechanisms deployed. This signal indicates that endpoints, servers, or other systems lack antivirus, anti-malware, or endpoint detection and response capabilities.",
       "applicability": "Applicable to all endpoints, servers, and systems capable of executing code. Includes workstations, servers, virtual machines, containers, and mobile devices.",
-      "definition_ref": "/v1.0.0/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-MALWARE-PROTECTION-001/",
+      "definition_ref": "/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-MALWARE-PROTECTION-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5093,7 +5093,7 @@
       "canonical_name": "Security Monitoring Not Implemented",
       "description": "Systems are not configured to detect or alert on security-relevant events such as attacks, unauthorized access attempts, or anomalous behavior. This signal indicates that security incidents may occur without detection.",
       "applicability": "Applicable to all systems and networks requiring security monitoring. Includes intrusion detection systems, security information and event management, endpoint detection and response, and network traffic analysis.",
-      "definition_ref": "/v1.0.0/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-MONITORING-003/",
+      "definition_ref": "/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-MONITORING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5140,7 +5140,7 @@
       "canonical_name": "Security Patching Not Current",
       "description": "Systems have not been updated with current security patches or are running software versions with known vulnerabilities. This signal indicates that systems may be exposed to exploits for publicly disclosed vulnerabilities.",
       "applicability": "Applicable to all software components including operating systems, applications, libraries, firmware, and container images. Includes both first-party and third-party software.",
-      "definition_ref": "/v1.0.0/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-PATCHING-002/",
+      "definition_ref": "/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-PATCHING-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5186,7 +5186,7 @@
       "canonical_name": "Spam Protection Not Implemented",
       "description": "Email systems do not implement spam filtering and protection mechanisms. This signal indicates that phishing, malware, and unwanted messages may reach users without filtering.",
       "applicability": "Applicable to all email systems. Includes spam filtering, email security gateways, phishing detection, and malicious attachment scanning.",
-      "definition_ref": "/v1.0.0/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-SPAM-PROTECTION-005/",
+      "definition_ref": "/signals/CMMC/INTEGRITY/CSE-CMMC-INTEGRITY-NO-SPAM-PROTECTION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5232,7 +5232,7 @@
       "canonical_name": "Maintenance Media Not Sanitized",
       "description": "Media containing diagnostic or maintenance data is not sanitized before reuse or disposal. This signal indicates that sensitive information captured during maintenance may be exposed.",
       "applicability": "Applicable to all media used during maintenance activities. Includes diagnostic logs, memory dumps, backup media, and any storage used to capture maintenance data.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MAINTENANCE/CSE-CMMC-MAINTENANCE-MEDIA-NOT-SANITIZED-003/",
+      "definition_ref": "/signals/CMMC/MAINTENANCE/CSE-CMMC-MAINTENANCE-MEDIA-NOT-SANITIZED-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5278,7 +5278,7 @@
       "canonical_name": "System Maintenance Not Controlled",
       "description": "System maintenance activities are not performed according to documented procedures or schedules. This signal indicates that maintenance may be ad-hoc, undocumented, or performed without proper authorization.",
       "applicability": "Applicable to all organizational systems requiring maintenance. Includes scheduled maintenance, emergency repairs, and routine servicing of hardware and software components.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MAINTENANCE/CSE-CMMC-MAINTENANCE-NOT-CONTROLLED-001/",
+      "definition_ref": "/signals/CMMC/MAINTENANCE/CSE-CMMC-MAINTENANCE-NOT-CONTROLLED-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5324,7 +5324,7 @@
       "canonical_name": "Maintenance Personnel Not Supervised",
       "description": "Personnel performing maintenance without required access authorizations are not supervised during maintenance activities. This signal indicates that unauthorized individuals may have unsupervised access to systems.",
       "applicability": "Applicable to all maintenance scenarios involving personnel without proper clearances. Includes vendor technicians, contractors, and any maintenance personnel requiring escort or supervision.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MAINTENANCE/CSE-CMMC-MAINTENANCE-PERSONNEL-NOT-SUPERVISED-006/",
+      "definition_ref": "/signals/CMMC/MAINTENANCE/CSE-CMMC-MAINTENANCE-PERSONNEL-NOT-SUPERVISED-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5370,7 +5370,7 @@
       "canonical_name": "Remote Maintenance Not Authorized",
       "description": "Remote maintenance connections are established without proper authorization or authentication. This signal indicates that unauthorized parties may perform remote maintenance activities.",
       "applicability": "Applicable to all remote maintenance access. Includes authorization workflows, MFA requirements, and access control for remote maintenance sessions.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MAINTENANCE/CSE-CMMC-MAINTENANCE-REMOTE-NOT-AUTHORIZED-005/",
+      "definition_ref": "/signals/CMMC/MAINTENANCE/CSE-CMMC-MAINTENANCE-REMOTE-NOT-AUTHORIZED-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5416,7 +5416,7 @@
       "canonical_name": "Remote Maintenance Not Monitored",
       "description": "Remote maintenance sessions are not monitored or recorded. This signal indicates that remote maintenance activities may occur without oversight, increasing risk of unauthorized changes.",
       "applicability": "Applicable to all remote maintenance access. Includes remote support sessions, vendor remote access, and any off-site maintenance activities performed over network connections.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MAINTENANCE/CSE-CMMC-MAINTENANCE-REMOTE-NOT-MONITORED-004/",
+      "definition_ref": "/signals/CMMC/MAINTENANCE/CSE-CMMC-MAINTENANCE-REMOTE-NOT-MONITORED-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5462,7 +5462,7 @@
       "canonical_name": "Maintenance Tools Not Controlled",
       "description": "Tools used for system maintenance are not approved, controlled, or monitored. This signal indicates that unauthorized or compromised tools may be used during maintenance activities.",
       "applicability": "Applicable to all maintenance tools and utilities. Includes diagnostic software, repair tools, remote support utilities, and any software or hardware used for maintenance purposes.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MAINTENANCE/CSE-CMMC-MAINTENANCE-TOOLS-NOT-CONTROLLED-002/",
+      "definition_ref": "/signals/CMMC/MAINTENANCE/CSE-CMMC-MAINTENANCE-TOOLS-NOT-CONTROLLED-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5508,7 +5508,7 @@
       "canonical_name": "Media Access Not Controlled",
       "description": "Access to media containing CUI is not restricted to authorized individuals. This signal indicates that sensitive media may be accessible to unauthorized personnel.",
       "applicability": "Applicable to all media containing CUI. Includes physical access controls for storage locations, logical access controls for digital media, and access logging for sensitive media.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-ACCESS-NOT-CONTROLLED-003/",
+      "definition_ref": "/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-ACCESS-NOT-CONTROLLED-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5554,7 +5554,7 @@
       "canonical_name": "Media Accountability Not Maintained",
       "description": "An inventory and tracking system for CUI-containing media is not maintained. This signal indicates that media may be lost or misplaced without detection.",
       "applicability": "Applicable to all CUI-containing media. Includes media inventories, chain of custody records, check-in/check-out procedures, and asset tracking systems.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-ACCOUNTABILITY-008/",
+      "definition_ref": "/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-ACCOUNTABILITY-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5600,7 +5600,7 @@
       "canonical_name": "CUI Media Not Marked",
       "description": "Media containing Controlled Unclassified Information is not properly marked or labeled. This signal indicates that CUI media may not be identifiable, leading to improper handling or protection.",
       "applicability": "Applicable to all media containing CUI. Includes physical labels, file headers, container markings, and any identification mechanisms for CUI-containing media.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-CUI-MARKING-005/",
+      "definition_ref": "/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-CUI-MARKING-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5646,7 +5646,7 @@
       "canonical_name": "Media Disposal Not Tracked",
       "description": "Disposal or destruction of CUI-containing media is not documented or verified. This signal indicates that media may be improperly disposed of without confirmation of secure destruction.",
       "applicability": "Applicable to all CUI media disposal processes. Includes destruction certificates, disposal logs, vendor verification, and media lifecycle completion records.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-DISPOSAL-TRACKING-009/",
+      "definition_ref": "/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-DISPOSAL-TRACKING-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5692,7 +5692,7 @@
       "canonical_name": "Media Physical Protection Insufficient",
       "description": "Physical protection measures for CUI-containing media are inadequate against environmental threats or tampering. This signal indicates media may be vulnerable to damage, theft, or unauthorized modification.",
       "applicability": "Applicable to physical protection of all CUI media. Includes fire protection, environmental controls, tamper-evident measures, and physical security mechanisms.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-PHYSICAL-PROTECTION-007/",
+      "definition_ref": "/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-PHYSICAL-PROTECTION-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5738,7 +5738,7 @@
       "canonical_name": "Media Protection Not Implemented",
       "description": "Physical and digital storage media containing sensitive information is not protected from unauthorized access. This signal indicates that media may be accessed, copied, or removed without appropriate controls.",
       "applicability": "Applicable to all storage media including removable devices, backup media, printed materials, and portable storage. Includes physical access controls, encryption, and media handling procedures.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-PROTECTION-002/",
+      "definition_ref": "/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-PROTECTION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5785,7 +5785,7 @@
       "canonical_name": "Media Sanitization Not Performed",
       "description": "Storage media is disposed of or repurposed without proper sanitization to remove sensitive data. This signal indicates that data may remain recoverable from media after its intended lifecycle.",
       "applicability": "Applicable to all storage media including hard drives, SSDs, USB devices, backup tapes, optical media, and cloud storage. Includes both physical destruction and logical sanitization methods.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-SANITIZATION-001/",
+      "definition_ref": "/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-NO-SANITIZATION-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5831,7 +5831,7 @@
       "canonical_name": "Media Storage Not Controlled",
       "description": "Physical storage locations for CUI-containing media are not secured or access-controlled. This signal indicates that media storage areas may allow unauthorized physical access.",
       "applicability": "Applicable to all physical media storage locations. Includes server rooms, tape libraries, document storage, archive facilities, and any location where CUI media is stored.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-STORAGE-NOT-CONTROLLED-006/",
+      "definition_ref": "/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-STORAGE-NOT-CONTROLLED-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5877,7 +5877,7 @@
       "canonical_name": "Media Transport Not Controlled",
       "description": "Transportation of media containing CUI is not protected through approved custodians, secure packaging, or tracking mechanisms. This signal indicates media may be lost, stolen, or compromised during transport.",
       "applicability": "Applicable to all media transport scenarios. Includes courier services, internal transport, shipping of backup media, and any movement of CUI-containing media between locations.",
-      "definition_ref": "/v1.0.0/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-TRANSPORT-NOT-CONTROLLED-004/",
+      "definition_ref": "/signals/CMMC/MEDIA/CSE-CMMC-MEDIA-TRANSPORT-NOT-CONTROLLED-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5923,7 +5923,7 @@
       "canonical_name": "Personnel Screening Not Performed",
       "description": "Background screening is not performed on individuals prior to granting access to CUI systems. This signal indicates that personnel with unknown or risky backgrounds may have access to sensitive information.",
       "applicability": "Applicable to all personnel with access to CUI. Includes pre-employment background checks, periodic re-screening, and screening for contractors and third-party personnel.",
-      "definition_ref": "/v1.0.0/signals/CMMC/PERSONNEL/CSE-CMMC-PERSONNEL-NO-SCREENING-001/",
+      "definition_ref": "/signals/CMMC/PERSONNEL/CSE-CMMC-PERSONNEL-NO-SCREENING-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5969,7 +5969,7 @@
       "canonical_name": "Personnel Termination Process Not Implemented",
       "description": "Procedures for revoking access upon personnel termination are not defined or followed. This signal indicates that former employees or contractors may retain access to systems after separation.",
       "applicability": "Applicable to all personnel access management. Includes termination checklists, access revocation procedures, and property retrieval processes for departing personnel.",
-      "definition_ref": "/v1.0.0/signals/CMMC/PERSONNEL/CSE-CMMC-PERSONNEL-NO-TERMINATION-PROCESS-002/",
+      "definition_ref": "/signals/CMMC/PERSONNEL/CSE-CMMC-PERSONNEL-NO-TERMINATION-PROCESS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -6015,7 +6015,7 @@
       "canonical_name": "Physical Access Control Not Implemented",
       "description": "Physical access to facilities housing CUI systems is not controlled or restricted. This signal indicates that unauthorized individuals may gain physical access to sensitive areas.",
       "applicability": "Applicable to all facilities containing CUI systems. Includes entry points, secure areas, data centers, and any physical locations requiring access control.",
-      "definition_ref": "/v1.0.0/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-ACCESS-CONTROL-001/",
+      "definition_ref": "/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-ACCESS-CONTROL-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -6061,7 +6061,7 @@
       "canonical_name": "Physical Access Logs Not Maintained",
       "description": "Audit logs of physical access to facilities are not maintained or reviewed. This signal indicates that physical access events cannot be investigated or monitored.",
       "applicability": "Applicable to all physical access control systems. Includes badge reader logs, entry/exit records, and physical access audit trails.",
-      "definition_ref": "/v1.0.0/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-ACCESS-LOGS-003/",
+      "definition_ref": "/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-ACCESS-LOGS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -6107,7 +6107,7 @@
       "canonical_name": "Alternate Work Site Security Not Addressed",
       "description": "Security controls for alternate work sites such as home offices are not implemented or verified. This signal indicates that CUI may be processed in environments without adequate physical protection.",
       "applicability": "Applicable to all remote and alternate work locations. Includes home office security, remote work environments, and temporary work locations accessing CUI.",
-      "definition_ref": "/v1.0.0/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-ALTERNATE-SITE-005/",
+      "definition_ref": "/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-ALTERNATE-SITE-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -6153,7 +6153,7 @@
       "canonical_name": "Physical Access Devices Not Controlled",
       "description": "Physical access devices such as keys, badges, and combinations are not managed throughout their lifecycle. This signal indicates that lost or compromised access devices may provide unauthorized physical access.",
       "applicability": "Applicable to all physical access control devices. Includes key management, badge inventory, combination changes, and access device revocation.",
-      "definition_ref": "/v1.0.0/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-DEVICE-CONTROL-004/",
+      "definition_ref": "/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-DEVICE-CONTROL-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -6199,7 +6199,7 @@
       "canonical_name": "Physical Security Monitoring Not Implemented",
       "description": "Physical security monitoring through cameras, alarms, or guards is not implemented for facilities containing CUI. This signal indicates that physical security incidents may go undetected.",
       "applicability": "Applicable to all facilities requiring physical monitoring. Includes CCTV systems, intrusion alarms, security guards, and environmental monitoring systems.",
-      "definition_ref": "/v1.0.0/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-MONITORING-006/",
+      "definition_ref": "/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-MONITORING-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -6245,7 +6245,7 @@
       "canonical_name": "Visitor Access Not Controlled",
       "description": "Visitors are not authenticated, escorted, or monitored while in facilities containing CUI. This signal indicates that unauthorized access by visitors may go undetected.",
       "applicability": "Applicable to all visitor management procedures. Includes visitor sign-in, badge issuance, escort requirements, and visitor monitoring in secure areas.",
-      "definition_ref": "/v1.0.0/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-VISITOR-CONTROL-002/",
+      "definition_ref": "/signals/CMMC/PHYSICAL/CSE-CMMC-PHYSICAL-NO-VISITOR-CONTROL-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -6291,7 +6291,7 @@
       "canonical_name": "Risk Assessment Not Conducted",
       "description": "The organization has not conducted periodic risk assessments to identify threats, vulnerabilities, and potential impacts to systems and data. This signal indicates that security risks may not be formally identified, documented, or prioritized.",
       "applicability": "Applicable to organizational risk management processes including threat identification, vulnerability assessment, impact analysis, and risk prioritization activities.",
-      "definition_ref": "/v1.0.0/signals/CMMC/RISK/CSE-CMMC-RISK-NO-ASSESSMENT-001/",
+      "definition_ref": "/signals/CMMC/RISK/CSE-CMMC-RISK-NO-ASSESSMENT-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -6337,7 +6337,7 @@
       "canonical_name": "Vulnerability Remediation Not Performed",
       "description": "Identified vulnerabilities are not remediated in a timely manner according to risk priorities. This signal indicates that known security weaknesses may persist and remain exploitable.",
       "applicability": "Applicable to all vulnerability management processes. Includes patching timelines, remediation tracking, and vulnerability lifecycle management.",
-      "definition_ref": "/v1.0.0/signals/CMMC/RISK/CSE-CMMC-RISK-NO-REMEDIATION-003/",
+      "definition_ref": "/signals/CMMC/RISK/CSE-CMMC-RISK-NO-REMEDIATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -6383,7 +6383,7 @@
       "canonical_name": "Vulnerability Scanning Not Implemented",
       "description": "Systems are not regularly scanned for security vulnerabilities using automated tools. This signal indicates that known vulnerabilities in systems, applications, or configurations may exist without being identified.",
       "applicability": "Applicable to all networked systems, applications, and infrastructure components. Includes network vulnerability scanning, web application scanning, container image scanning, and cloud configuration assessment.",
-      "definition_ref": "/v1.0.0/signals/CMMC/RISK/CSE-CMMC-RISK-NO-VULN-SCAN-002/",
+      "definition_ref": "/signals/CMMC/RISK/CSE-CMMC-RISK-NO-VULN-SCAN-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {

@@ -10,7 +10,7 @@
       "canonical_name": "No Access Management System",
       "description": "Access to system components is not managed systematically.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Identity and access management systems User directories and authentication services Administrative access to CDE components Remote access to payment systems",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/ACCESS/CSE-PCIDSS-ACCESS-NO-ACCESS-MGMT-003/",
+      "definition_ref": "/signals/PCIDSS/ACCESS/CSE-PCIDSS-ACCESS-NO-ACCESS-MGMT-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -55,7 +55,7 @@
       "canonical_name": "No Access Restriction Processes",
       "description": "No defined processes for restricting access based on business need to know.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Identity and access management systems User directories and authentication services Administrative access to CDE components Remote access to payment systems",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/ACCESS/CSE-PCIDSS-ACCESS-NO-ACCESS-PROCESS-001/",
+      "definition_ref": "/signals/PCIDSS/ACCESS/CSE-PCIDSS-ACCESS-NO-ACCESS-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -100,7 +100,7 @@
       "canonical_name": "No Role-Based Access Control",
       "description": "Access to system components is not appropriately defined based on roles.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Identity and access management systems User directories and authentication services Administrative access to CDE components Remote access to payment systems",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/ACCESS/CSE-PCIDSS-ACCESS-NO-RBAC-002/",
+      "definition_ref": "/signals/PCIDSS/ACCESS/CSE-PCIDSS-ACCESS-NO-RBAC-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -145,7 +145,7 @@
       "canonical_name": "No Authentication Processes",
       "description": "No defined processes for user identification and authentication.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Identity and access management systems User directories and authentication services Administrative access to CDE components Remote access to payment systems",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-AUTH-PROCESS-001/",
+      "definition_ref": "/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-AUTH-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -189,7 +189,7 @@
       "canonical_name": "No Authenticator Management",
       "description": "Accounts and authentication factors are not strictly managed.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Identity and access management systems User directories and authentication services Administrative access to CDE components Remote access to payment systems",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-AUTHENTICATOR-MGMT-006/",
+      "definition_ref": "/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-AUTHENTICATOR-MGMT-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -233,7 +233,7 @@
       "canonical_name": "No User ID Lifecycle Management",
       "description": "User and administrator IDs are not managed throughout the account lifecycle.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Identity and access management systems User directories and authentication services Administrative access to CDE components Remote access to payment systems",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-ID-LIFECYCLE-002/",
+      "definition_ref": "/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-ID-LIFECYCLE-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -277,7 +277,7 @@
       "canonical_name": "No Multi-Factor Authentication",
       "description": "Multi-factor authentication is not used to secure CDE access.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Identity and access management systems User directories and authentication services Administrative access to CDE components Remote access to payment systems",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-MFA-004/",
+      "definition_ref": "/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-MFA-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -321,7 +321,7 @@
       "canonical_name": "No Secure MFA Configuration",
       "description": "MFA systems are not configured securely to prevent misuse.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Identity and access management systems User directories and authentication services Administrative access to CDE components Remote access to payment systems",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-SECURE-MFA-005/",
+      "definition_ref": "/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-SECURE-MFA-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -365,7 +365,7 @@
       "canonical_name": "No Strong Authentication",
       "description": "Strong authentication is not established (passwords less than 12 characters, no complexity).",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Identity and access management systems User directories and authentication services Administrative access to CDE components Remote access to payment systems",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-STRONG-AUTH-003/",
+      "definition_ref": "/signals/PCIDSS/AUTH/CSE-PCIDSS-AUTH-NO-STRONG-AUTH-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -409,7 +409,7 @@
       "canonical_name": "No Secure Configuration Processes",
       "description": "No defined processes for applying secure configurations to system components.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Point-of-sale (POS) systems Network infrastructure within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/CONFIG/CSE-PCIDSS-CONFIG-NO-SECURE-CONFIG-PROCESS-001/",
+      "definition_ref": "/signals/PCIDSS/CONFIG/CSE-PCIDSS-CONFIG-NO-SECURE-CONFIG-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -454,7 +454,7 @@
       "canonical_name": "No Secure System Configuration",
       "description": "System components are not securely configured (default passwords not changed, unnecessary services enabled).",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Point-of-sale (POS) systems Network infrastructure within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/CONFIG/CSE-PCIDSS-CONFIG-NO-SECURE-SYSTEM-CONFIG-002/",
+      "definition_ref": "/signals/PCIDSS/CONFIG/CSE-PCIDSS-CONFIG-NO-SECURE-SYSTEM-CONFIG-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -499,7 +499,7 @@
       "canonical_name": "No Wireless Security Configuration",
       "description": "Wireless environments are not securely configured and managed.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Point-of-sale (POS) systems Network infrastructure within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/CONFIG/CSE-PCIDSS-CONFIG-NO-WIRELESS-SECURITY-003/",
+      "definition_ref": "/signals/PCIDSS/CONFIG/CSE-PCIDSS-CONFIG-NO-WIRELESS-SECURITY-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -544,7 +544,7 @@
       "canonical_name": "No Audit Logs",
       "description": "Audit logs are not implemented for threat detection and forensic analysis.",
       "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-AUDIT-LOGS-002/",
+      "definition_ref": "/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-AUDIT-LOGS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -588,7 +588,7 @@
       "canonical_name": "No Security Failure Detection",
       "description": "Failures of security systems are not detected, reported, or responded to.",
       "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-FAILURE-DETECTION-007/",
+      "definition_ref": "/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-FAILURE-DETECTION-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -632,7 +632,7 @@
       "canonical_name": "No Log Protection",
       "description": "Audit logs are not protected from unauthorized modification or deletion.",
       "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-LOG-PROTECTION-003/",
+      "definition_ref": "/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-LOG-PROTECTION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -676,7 +676,7 @@
       "canonical_name": "No Log Retention",
       "description": "Audit log history is not retained (3 months immediately available, 1 year archived).",
       "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-LOG-RETENTION-005/",
+      "definition_ref": "/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-LOG-RETENTION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -720,7 +720,7 @@
       "canonical_name": "No Log Review",
       "description": "Audit logs are not reviewed to identify suspicious activity.",
       "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-LOG-REVIEW-004/",
+      "definition_ref": "/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-LOG-REVIEW-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -764,7 +764,7 @@
       "canonical_name": "No Logging Processes",
       "description": "No defined processes for logging and monitoring access.",
       "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-LOGGING-PROCESS-001/",
+      "definition_ref": "/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-LOGGING-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -808,7 +808,7 @@
       "canonical_name": "No Time Synchronization",
       "description": "Time synchronization is not implemented for consistent log timestamps.",
       "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-TIME-SYNC-006/",
+      "definition_ref": "/signals/PCIDSS/LOG/CSE-PCIDSS-LOG-NO-TIME-SYNC-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -852,7 +852,7 @@
       "canonical_name": "No Anti-Phishing Mechanisms",
       "description": "No anti-phishing mechanisms to protect users from phishing attacks.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment application developers E-commerce platforms and merchants Systems and endpoints within CDE scope Web applications handling payment data",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/MALWARE/CSE-PCIDSS-MALWARE-NO-ANTIPHISHING-004/",
+      "definition_ref": "/signals/PCIDSS/MALWARE/CSE-PCIDSS-MALWARE-NO-ANTIPHISHING-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -897,7 +897,7 @@
       "canonical_name": "No Malware Detection/Prevention",
       "description": "Malicious software is not detected, prevented, or addressed.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment application developers E-commerce platforms and merchants Systems and endpoints within CDE scope Web applications handling payment data",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/MALWARE/CSE-PCIDSS-MALWARE-NO-DETECTION-002/",
+      "definition_ref": "/signals/PCIDSS/MALWARE/CSE-PCIDSS-MALWARE-NO-DETECTION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -942,7 +942,7 @@
       "canonical_name": "No Anti-Malware Monitoring",
       "description": "Anti-malware mechanisms are not actively monitored.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment application developers E-commerce platforms and merchants Systems and endpoints within CDE scope Web applications handling payment data",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/MALWARE/CSE-PCIDSS-MALWARE-NO-MONITORING-003/",
+      "definition_ref": "/signals/PCIDSS/MALWARE/CSE-PCIDSS-MALWARE-NO-MONITORING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -987,7 +987,7 @@
       "canonical_name": "No Malware Protection Processes",
       "description": "No defined processes for protecting against malicious software.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment application developers E-commerce platforms and merchants Systems and endpoints within CDE scope Web applications handling payment data",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/MALWARE/CSE-PCIDSS-MALWARE-NO-PROTECTION-PROCESS-001/",
+      "definition_ref": "/signals/PCIDSS/MALWARE/CSE-PCIDSS-MALWARE-NO-PROTECTION-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1032,7 +1032,7 @@
       "canonical_name": "No CDE Access Restriction",
       "description": "Access to the Cardholder Data Environment (CDE) is not properly restricted.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Point-of-sale (POS) systems Network infrastructure within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/NET/CSE-PCIDSS-NET-NO-CDE-RESTRICTION-003/",
+      "definition_ref": "/signals/PCIDSS/NET/CSE-PCIDSS-NET-NO-CDE-RESTRICTION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1076,7 +1076,7 @@
       "canonical_name": "No Network Connection Control",
       "description": "Network connections between trusted and untrusted networks are not controlled.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Point-of-sale (POS) systems Network infrastructure within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/NET/CSE-PCIDSS-NET-NO-CONNECTION-CONTROL-004/",
+      "definition_ref": "/signals/PCIDSS/NET/CSE-PCIDSS-NET-NO-CONNECTION-CONTROL-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1120,7 +1120,7 @@
       "canonical_name": "No Network Security Control Configuration",
       "description": "Network Security Controls (NSC) such as firewalls, virtual devices, and cloud access controls are not properly configured and managed.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Point-of-sale (POS) systems Network infrastructure within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/NET/CSE-PCIDSS-NET-NO-NSC-CONFIG-002/",
+      "definition_ref": "/signals/PCIDSS/NET/CSE-PCIDSS-NET-NO-NSC-CONFIG-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1164,7 +1164,7 @@
       "canonical_name": "No Network Security Control Processes",
       "description": "No defined processes for maintaining network security controls.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Point-of-sale (POS) systems Network infrastructure within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/NET/CSE-PCIDSS-NET-NO-NSC-PROCESS-001/",
+      "definition_ref": "/signals/PCIDSS/NET/CSE-PCIDSS-NET-NO-NSC-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1208,7 +1208,7 @@
       "canonical_name": "No Untrusted Network Risk Mitigation",
       "description": "Risks from untrusted networks (including the Internet) are not mitigated.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Point-of-sale (POS) systems Network infrastructure within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/NET/CSE-PCIDSS-NET-NO-UNTRUSTED-MITIGATION-005/",
+      "definition_ref": "/signals/PCIDSS/NET/CSE-PCIDSS-NET-NO-UNTRUSTED-MITIGATION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1252,7 +1252,7 @@
       "canonical_name": "No Physical Access Controls",
       "description": "Physical access controls do not mediate entry into areas containing cardholder data.",
       "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/PHYSICAL/CSE-PCIDSS-PHYSICAL-NO-ACCESS-CONTROLS-002/",
+      "definition_ref": "/signals/PCIDSS/PHYSICAL/CSE-PCIDSS-PHYSICAL-NO-ACCESS-CONTROLS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1297,7 +1297,7 @@
       "canonical_name": "No Physical Access Processes",
       "description": "No defined processes for physically restricting access to the CDE.",
       "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/PHYSICAL/CSE-PCIDSS-PHYSICAL-NO-ACCESS-PROCESS-001/",
+      "definition_ref": "/signals/PCIDSS/PHYSICAL/CSE-PCIDSS-PHYSICAL-NO-ACCESS-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1342,7 +1342,7 @@
       "canonical_name": "No Media Security",
       "description": "Media containing cardholder data is not stored, accessed, and destroyed securely.",
       "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/PHYSICAL/CSE-PCIDSS-PHYSICAL-NO-MEDIA-SECURITY-004/",
+      "definition_ref": "/signals/PCIDSS/PHYSICAL/CSE-PCIDSS-PHYSICAL-NO-MEDIA-SECURITY-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1387,7 +1387,7 @@
       "canonical_name": "No POI Device Protection",
       "description": "Point of interaction (POI) devices are not protected from tampering and substitution.",
       "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/PHYSICAL/CSE-PCIDSS-PHYSICAL-NO-POI-PROTECTION-005/",
+      "definition_ref": "/signals/PCIDSS/PHYSICAL/CSE-PCIDSS-PHYSICAL-NO-POI-PROTECTION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1432,7 +1432,7 @@
       "canonical_name": "No Visitor Management",
       "description": "Physical access for visitors and personnel is not authorized and managed.",
       "applicability": "This signal applies to: Data centers and server rooms housing CDE Point-of-sale (POS) environments Payment terminal locations SIEM and log management systems All systems within CDE scope",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/PHYSICAL/CSE-PCIDSS-PHYSICAL-NO-VISITOR-MGMT-003/",
+      "definition_ref": "/signals/PCIDSS/PHYSICAL/CSE-PCIDSS-PHYSICAL-NO-VISITOR-MGMT-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1477,7 +1477,7 @@
       "canonical_name": "No Acceptable Use Policy",
       "description": "No acceptable use policies for critical technologies.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-ACCEPTABLE-USE-002/",
+      "definition_ref": "/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-ACCEPTABLE-USE-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1522,7 +1522,7 @@
       "canonical_name": "No Annual Policy Review",
       "description": "Security policies are not reviewed at least annually.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-ANNUAL-REVIEW-011/",
+      "definition_ref": "/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-ANNUAL-REVIEW-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1567,7 +1567,7 @@
       "canonical_name": "No Compliance Management",
       "description": "No processes for managing ongoing PCI DSS compliance.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-COMPLIANCE-MGMT-004/",
+      "definition_ref": "/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-COMPLIANCE-MGMT-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1612,7 +1612,7 @@
       "canonical_name": "No Incident Response Plan",
       "description": "No incident response plan for security incidents affecting the CDE.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-INCIDENT-RESPONSE-010/",
+      "definition_ref": "/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-INCIDENT-RESPONSE-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1657,7 +1657,7 @@
       "canonical_name": "No Personnel Screening",
       "description": "Personnel are not screened to minimize insider threat risk.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-PERSONNEL-SCREENING-007/",
+      "definition_ref": "/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-PERSONNEL-SCREENING-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1702,7 +1702,7 @@
       "canonical_name": "No Risk Assessment",
       "description": "Risks to the CDE are not formally identified, evaluated, and managed.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-RISK-ASSESSMENT-003/",
+      "definition_ref": "/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-RISK-ASSESSMENT-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1747,7 +1747,7 @@
       "canonical_name": "No PCI DSS Scope Documentation",
       "description": "PCI DSS scope is not documented and validated.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-SCOPE-DOCUMENTATION-005/",
+      "definition_ref": "/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-SCOPE-DOCUMENTATION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1792,7 +1792,7 @@
       "canonical_name": "No Information Security Policy",
       "description": "No comprehensive information security policy maintained and kept current.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-SECURITY-POLICY-001/",
+      "definition_ref": "/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-SECURITY-POLICY-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1837,7 +1837,7 @@
       "canonical_name": "No Security Awareness Training",
       "description": "No annual security awareness training for employees.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-SECURITY-TRAINING-006/",
+      "definition_ref": "/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-SECURITY-TRAINING-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1882,7 +1882,7 @@
       "canonical_name": "No TPSP Compliance Support",
       "description": "Third-party service providers do not support customers' PCI compliance.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-TPSP-COMPLIANCE-009/",
+      "definition_ref": "/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-TPSP-COMPLIANCE-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1927,7 +1927,7 @@
       "canonical_name": "No Third-Party Service Provider Management",
       "description": "Third-party service provider risks are not managed.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-TPSP-MGMT-008/",
+      "definition_ref": "/signals/PCIDSS/POLICY/CSE-PCIDSS-POLICY-NO-TPSP-MGMT-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1972,7 +1972,7 @@
       "canonical_name": "No Secure Change Management",
       "description": "Changes to applications and software are not managed securely.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment application developers E-commerce platforms and merchants Systems and endpoints within CDE scope Web applications handling payment data",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/SECDEV/CSE-PCIDSS-SECDEV-NO-CHANGE-MGMT-005/",
+      "definition_ref": "/signals/PCIDSS/SECDEV/CSE-PCIDSS-SECDEV-NO-CHANGE-MGMT-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2016,7 +2016,7 @@
       "canonical_name": "No Secure Coding Practices",
       "description": "Custom software is not developed using secure coding practices.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment application developers E-commerce platforms and merchants Systems and endpoints within CDE scope Web applications handling payment data",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/SECDEV/CSE-PCIDSS-SECDEV-NO-SECURE-CODING-002/",
+      "definition_ref": "/signals/PCIDSS/SECDEV/CSE-PCIDSS-SECDEV-NO-SECURE-CODING-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2060,7 +2060,7 @@
       "canonical_name": "No Secure Development Processes",
       "description": "No defined processes for developing secure systems and software.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment application developers E-commerce platforms and merchants Systems and endpoints within CDE scope Web applications handling payment data",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/SECDEV/CSE-PCIDSS-SECDEV-NO-SECURE-DEV-PROCESS-001/",
+      "definition_ref": "/signals/PCIDSS/SECDEV/CSE-PCIDSS-SECDEV-NO-SECURE-DEV-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2104,7 +2104,7 @@
       "canonical_name": "No Vulnerability Management",
       "description": "Software vulnerabilities are not identified and addressed through patching.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment application developers E-commerce platforms and merchants Systems and endpoints within CDE scope Web applications handling payment data",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/SECDEV/CSE-PCIDSS-SECDEV-NO-VULN-MGMT-003/",
+      "definition_ref": "/signals/PCIDSS/SECDEV/CSE-PCIDSS-SECDEV-NO-VULN-MGMT-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2148,7 +2148,7 @@
       "canonical_name": "No Web Application Protection",
       "description": "Public-facing web applications are not protected against attacks.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment application developers E-commerce platforms and merchants Systems and endpoints within CDE scope Web applications handling payment data",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/SECDEV/CSE-PCIDSS-SECDEV-NO-WEBAPP-PROTECTION-004/",
+      "definition_ref": "/signals/PCIDSS/SECDEV/CSE-PCIDSS-SECDEV-NO-WEBAPP-PROTECTION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2192,7 +2192,7 @@
       "canonical_name": "No Account Data Minimization",
       "description": "Account data in storage exceeds the minimum necessary for business operations.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Database systems containing payment card data Data transmission channels and APIs",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-DATA-MINIMIZATION-002/",
+      "definition_ref": "/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-DATA-MINIMIZATION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2236,7 +2236,7 @@
       "canonical_name": "No Stored Data Protection Processes",
       "description": "No defined processes for protecting stored account data.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Database systems containing payment card data Data transmission channels and APIs",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-DATA-PROTECTION-PROCESS-001/",
+      "definition_ref": "/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-DATA-PROTECTION-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2280,7 +2280,7 @@
       "canonical_name": "No Key Management Processes",
       "description": "No defined processes for securely managing cryptographic keys.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Database systems containing payment card data Data transmission channels and APIs",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-KEY-MGMT-PROCESS-007/",
+      "definition_ref": "/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-KEY-MGMT-PROCESS-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2324,7 +2324,7 @@
       "canonical_name": "No Cryptographic Key Security",
       "description": "Cryptographic keys used to protect account data are not adequately secured.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Database systems containing payment card data Data transmission channels and APIs",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-KEY-SECURITY-006/",
+      "definition_ref": "/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-KEY-SECURITY-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2368,7 +2368,7 @@
       "canonical_name": "No PAN View/Copy Access Control",
       "description": "No restrictions on view and copy access to Primary Account Numbers (PAN).",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Database systems containing payment card data Data transmission channels and APIs",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-PAN-ACCESS-CONTROL-004/",
+      "definition_ref": "/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-PAN-ACCESS-CONTROL-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2412,7 +2412,7 @@
       "canonical_name": "No PAN Storage Protection",
       "description": "PANs are not rendered unreadable everywhere they are stored (encryption, truncation, hashing).",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Database systems containing payment card data Data transmission channels and APIs",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-PAN-PROTECTION-005/",
+      "definition_ref": "/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-NO-PAN-PROTECTION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2456,7 +2456,7 @@
       "canonical_name": "Sensitive Authentication Data Retained",
       "description": "Sensitive authentication data (full track data, CVV, PIN) is stored after authorization.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Database systems containing payment card data Data transmission channels and APIs",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-SAD-RETAINED-003/",
+      "definition_ref": "/signals/PCIDSS/STORE/CSE-PCIDSS-STORE-SAD-RETAINED-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2500,7 +2500,7 @@
       "canonical_name": "No Intrusion Detection/Prevention",
       "description": "No intrusion detection/prevention systems to detect unauthorized network activity.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-IDS-IPS-005/",
+      "definition_ref": "/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-IDS-IPS-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2544,7 +2544,7 @@
       "canonical_name": "No Payment Page Change Detection",
       "description": "Changes to payment pages are not detected for tamper prevention.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-PAYMENT-PAGE-MONITOR-006/",
+      "definition_ref": "/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-PAYMENT-PAGE-MONITOR-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2588,7 +2588,7 @@
       "canonical_name": "No Penetration Testing",
       "description": "Penetration tests are not performed at least annually.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-PENTEST-004/",
+      "definition_ref": "/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-PENTEST-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2632,7 +2632,7 @@
       "canonical_name": "No Security Testing Processes",
       "description": "No defined processes for network security testing.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-TESTING-PROCESS-001/",
+      "definition_ref": "/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-TESTING-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2676,7 +2676,7 @@
       "canonical_name": "No Vulnerability Scanning",
       "description": "Internal and external vulnerability scans are not performed quarterly.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-VULN-SCANNING-003/",
+      "definition_ref": "/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-VULN-SCANNING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2720,7 +2720,7 @@
       "canonical_name": "No Wireless AP Detection",
       "description": "Wireless access points are not monitored for unauthorized devices.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Security and compliance teams Human resources and training departments Third-party service providers (TPSPs) Incident response teams",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-WIRELESS-DETECTION-002/",
+      "definition_ref": "/signals/PCIDSS/TEST/CSE-PCIDSS-TEST-NO-WIRELESS-DETECTION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2764,7 +2764,7 @@
       "canonical_name": "No Transmission Encryption Processes",
       "description": "No defined processes for encrypting cardholder data during transmission.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Database systems containing payment card data Data transmission channels and APIs",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/TRANSIT/CSE-PCIDSS-TRANSIT-NO-ENCRYPTION-PROCESS-001/",
+      "definition_ref": "/signals/PCIDSS/TRANSIT/CSE-PCIDSS-TRANSIT-NO-ENCRYPTION-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2808,7 +2808,7 @@
       "canonical_name": "No PAN Transmission Encryption",
       "description": "PANs are not protected with strong cryptography during transmission over public networks.",
       "applicability": "This signal applies to: Organizations processing, storing, or transmitting cardholder data Payment processors and service providers E-commerce platforms and merchants Database systems containing payment card data Data transmission channels and APIs",
-      "definition_ref": "/v1.0.0/signals/PCIDSS/TRANSIT/CSE-PCIDSS-TRANSIT-NO-PAN-ENCRYPTION-002/",
+      "definition_ref": "/signals/PCIDSS/TRANSIT/CSE-PCIDSS-TRANSIT-NO-PAN-ENCRYPTION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {

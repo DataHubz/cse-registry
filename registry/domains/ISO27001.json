@@ -10,7 +10,7 @@
       "canonical_name": "No Acceptable Use Policy",
       "description": "Rules for acceptable use of information and assets are not identified, documented, and implemented.",
       "applicability": "Applies when an organization has not defined what constitutes acceptable use of information systems, data, networks, and other organizational assets, or when such rules exist but are not effectively communicated and enforced.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-ACCEPTABLE-USE-POLICY-010/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-ACCEPTABLE-USE-POLICY-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -57,7 +57,7 @@
       "canonical_name": "No Access Control Policy",
       "description": "Rules for controlling physical and logical access to information are not established based on business requirements.",
       "applicability": "Applies when an organization has not defined access control policies based on business and security requirements, or lacks rules governing who can access what information, systems, and facilities under what circumstances.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-ACCESS-CONTROL-POLICY-015/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-ACCESS-CONTROL-POLICY-015/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -104,7 +104,7 @@
       "canonical_name": "No Access Rights Management",
       "description": "Access rights are not provisioned, reviewed, modified, and removed in accordance with policy.",
       "applicability": "Applies when an organization lacks processes for managing access rights throughout their lifecycle, including initial granting based on authorization, periodic reviews, modification upon role changes, and timely removal when no longer needed.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-ACCESS-RIGHTS-MGMT-018/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-ACCESS-RIGHTS-MGMT-018/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -151,7 +151,7 @@
       "canonical_name": "No Inventory of Information and Associated Assets",
       "description": "Organization lacks a maintained inventory of information assets and associated assets with identified owners.",
       "applicability": "Applies when an organization cannot identify all information assets, lacks documentation of asset ownership, or does not maintain an up-to-date inventory of hardware, software, data, and other information-related assets.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-ASSET-INVENTORY-009/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-ASSET-INVENTORY-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -197,7 +197,7 @@
       "canonical_name": "No Asset Return Process",
       "description": "No process exists for personnel to return organizational assets upon termination or change of employment.",
       "applicability": "Applies when organizations lack formal procedures to ensure all organizational assets are returned when personnel leave, change roles, or when assets are no longer needed, including physical devices, access credentials, and intellectual property.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-ASSET-RETURN-PROCESS-011/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-ASSET-RETURN-PROCESS-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -244,7 +244,7 @@
       "canonical_name": "No Authentication Information Management",
       "description": "Allocation and management of authentication information is not controlled through a formal process.",
       "applicability": "Applies when an organization lacks formal processes for allocating, managing, and protecting authentication credentials including passwords, tokens, certificates, and biometric data, or when users can select weak credentials without enforcement.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-AUTH-INFO-MANAGEMENT-017/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-AUTH-INFO-MANAGEMENT-017/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -291,7 +291,7 @@
       "canonical_name": "No Contact with Authorities",
       "description": "Organization has not established and maintained contacts with relevant authorities for security incident reporting.",
       "applicability": "Applies when an organization has not identified and documented contacts with law enforcement, regulatory bodies, data protection authorities, or other relevant authorities for reporting security incidents or seeking guidance.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-AUTHORITY-CONTACTS-005/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-AUTHORITY-CONTACTS-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -338,7 +338,7 @@
       "canonical_name": "No Cloud Services Security Management",
       "description": "Processes for secure acquisition, use, management, and exit from cloud services are not established.",
       "applicability": "Applies when an organization uses cloud services but lacks established processes for securely acquiring, managing, and exiting cloud services, including assessment of cloud provider security, configuration management, and data protection throughout the cloud service lifecycle.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-CLOUD-SECURITY-023/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-CLOUD-SECURITY-023/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -384,7 +384,7 @@
       "canonical_name": "No Compliance Review with Security Policies",
       "description": "Compliance with security policies and standards is not regularly reviewed.",
       "applicability": "Applies when an organization does not regularly review compliance with its information security policies, topic-specific policies, rules, and standards, or fails to take corrective action when non-compliance is identified.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-COMPLIANCE-REVIEW-036/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-COMPLIANCE-REVIEW-036/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -430,7 +430,7 @@
       "canonical_name": "No Information Security During Disruption",
       "description": "Plans for maintaining security at appropriate levels during disruption are not established.",
       "applicability": "Applies when an organization lacks plans to maintain information security controls and protections during business disruptions, emergencies, or crisis situations, including natural disasters, pandemics, system failures, or other adverse events.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-DISRUPTION-SECURITY-029/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-DISRUPTION-SECURITY-029/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -476,7 +476,7 @@
       "canonical_name": "No Documented Operating Procedures",
       "description": "Operating procedures for information processing facilities are not documented and available.",
       "applicability": "Applies when an organization does not have documented operating procedures for information processing facilities, or when procedures are not made available to personnel who need them, potentially leading to inconsistent operations and increased security risks.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-DOCUMENTED-PROCEDURES-037/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-DOCUMENTED-PROCEDURES-037/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -522,7 +522,7 @@
       "canonical_name": "No Segregation of Duties",
       "description": "Conflicting duties and areas of responsibility are not segregated to reduce opportunities for unauthorized modification or misuse.",
       "applicability": "Applies when an organization allows individuals to perform conflicting duties such as development and production deployment, financial approval and payment execution, or security configuration and security auditing without compensating controls.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-DUTY-SEGREGATION-003/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-DUTY-SEGREGATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -569,7 +569,7 @@
       "canonical_name": "No Information Security Event Assessment",
       "description": "Security events are not assessed to determine if they should be categorized as incidents.",
       "applicability": "Applies when an organization lacks procedures and criteria for evaluating information security events to determine their significance, impact, and whether they constitute security incidents requiring formal incident response procedures.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-EVENT-ASSESSMENT-025/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-EVENT-ASSESSMENT-025/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -615,7 +615,7 @@
       "canonical_name": "No Evidence Collection Procedures",
       "description": "Procedures for identification, collection, and preservation of evidence are not established.",
       "applicability": "Applies when an organization lacks documented procedures for identifying, collecting, acquiring, and preserving evidence related to information security incidents in a manner that maintains evidentiary integrity for potential legal, regulatory, or disciplinary proceedings.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-EVIDENCE-COLLECTION-028/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-EVIDENCE-COLLECTION-028/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -661,7 +661,7 @@
       "canonical_name": "No ICT Readiness for Business Continuity",
       "description": "ICT continuity requirements are not planned, implemented, maintained, and tested.",
       "applicability": "Applies when an organization has not planned, implemented, maintained, and tested ICT continuity capabilities based on business continuity objectives and ICT continuity requirements, including redundancy, backup systems, and recovery procedures for information and communication technology.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-ICT-CONTINUITY-030/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-ICT-CONTINUITY-030/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -707,7 +707,7 @@
       "canonical_name": "No Identity Management Lifecycle",
       "description": "Full lifecycle management of identities is not implemented from creation through revocation.",
       "applicability": "Applies when an organization lacks formal processes for managing the complete lifecycle of user identities including provisioning, modification, review, and deprovisioning across all systems and applications.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-IDENTITY-MANAGEMENT-016/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-IDENTITY-MANAGEMENT-016/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -754,7 +754,7 @@
       "canonical_name": "No Learning from Information Security Incidents",
       "description": "Knowledge from security incidents is not used to strengthen controls and reduce future incidents.",
       "applicability": "Applies when an organization fails to analyze lessons learned from information security incidents, does not implement corrective actions based on incident findings, or does not use incident knowledge to improve security controls and prevent recurrence.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INCIDENT-LEARNING-027/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INCIDENT-LEARNING-027/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -800,7 +800,7 @@
       "canonical_name": "No Information Security Incident Management Planning",
       "description": "Organization lacks plans and preparation for managing information security incidents.",
       "applicability": "Applies when an organization does not have documented incident management plans, defined roles and responsibilities, established procedures for incident detection and response, or adequate preparation including training and resources for handling information security incidents.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INCIDENT-PLANNING-024/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INCIDENT-PLANNING-024/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -846,7 +846,7 @@
       "canonical_name": "No Information Security Incident Response",
       "description": "Security incidents are not responded to according to documented procedures.",
       "applicability": "Applies when an organization does not have documented incident response procedures or fails to follow established procedures when responding to information security incidents, including detection, containment, eradication, recovery, and post-incident activities.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INCIDENT-RESPONSE-026/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INCIDENT-RESPONSE-026/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -892,7 +892,7 @@
       "canonical_name": "No Independent Review of Information Security",
       "description": "Organization's approach to managing security is not reviewed independently at planned intervals.",
       "applicability": "Applies when an organization does not conduct independent reviews of its information security management approach, implementation of policies and procedures, and compliance with security requirements at planned intervals or when significant changes occur.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INDEPENDENT-REVIEW-035/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INDEPENDENT-REVIEW-035/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -938,7 +938,7 @@
       "canonical_name": "No Information Classification Scheme",
       "description": "Information is not classified according to confidentiality, integrity, and availability requirements.",
       "applicability": "Applies when an organization has not established a classification scheme for information based on legal requirements, criticality, sensitivity, and value, or when information is not systematically classified according to such a scheme.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INFO-CLASSIFICATION-012/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INFO-CLASSIFICATION-012/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -985,7 +985,7 @@
       "canonical_name": "No Information Labelling Procedures",
       "description": "Procedures for labelling information according to the classification scheme are not implemented.",
       "applicability": "Applies when an organization has a classification scheme but lacks procedures for labelling information assets, or when information is classified but labels are not consistently applied to documents, files, emails, and other information containers.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INFO-LABELLING-013/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INFO-LABELLING-013/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1031,7 +1031,7 @@
       "canonical_name": "No Contact with Special Interest Groups",
       "description": "Organization has not established contacts with security forums and professional associations for threat intelligence.",
       "applicability": "Applies when an organization is not engaged with security communities, industry groups, information sharing forums, or professional associations that could provide threat intelligence and security best practices.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INTEREST-GROUP-CONTACTS-006/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-INTEREST-GROUP-CONTACTS-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1077,7 +1077,7 @@
       "canonical_name": "No Intellectual Property Rights Protection",
       "description": "Procedures to protect intellectual property rights are not implemented.",
       "applicability": "Applies when an organization lacks appropriate procedures to protect intellectual property rights related to information assets, including software licensing compliance, protection of proprietary information, and respecting third-party intellectual property rights.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-IP-PROTECTION-032/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-IP-PROTECTION-032/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1123,7 +1123,7 @@
       "canonical_name": "No Identification of Legal and Regulatory Requirements",
       "description": "Legal, regulatory, and contractual requirements relevant to security are not identified and documented.",
       "applicability": "Applies when an organization has not identified, documented, and maintained awareness of applicable legal, statutory, regulatory, and contractual requirements related to information security and the protection of information assets.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-LEGAL-REQUIREMENTS-031/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-LEGAL-REQUIREMENTS-031/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1169,7 +1169,7 @@
       "canonical_name": "No Management Security Responsibilities",
       "description": "Management does not require personnel to apply information security in accordance with established policies and procedures.",
       "applicability": "Applies when management does not actively enforce security policies, lacks accountability mechanisms for security compliance, or fails to demonstrate leadership in information security practices.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-MGMT-RESPONSIBILITIES-004/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-MGMT-RESPONSIBILITIES-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1216,7 +1216,7 @@
       "canonical_name": "No Privacy and Protection of PII",
       "description": "Privacy and protection of personally identifiable information is not ensured as required.",
       "applicability": "Applies when an organization does not identify and meet privacy and PII protection requirements applicable to the organization, including compliance with privacy laws, data subject rights, consent management, and cross-border data transfer controls.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-PII-PROTECTION-034/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-PII-PROTECTION-034/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1262,7 +1262,7 @@
       "canonical_name": "No Information Security in Project Management",
       "description": "Information security is not integrated into project management regardless of project type.",
       "applicability": "Applies when organizations run projects without incorporating security requirements, security reviews, or security acceptance criteria in project planning, execution, and delivery phases.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-PROJECT-SECURITY-008/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-PROJECT-SECURITY-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1308,7 +1308,7 @@
       "canonical_name": "No Protection of Records",
       "description": "Records are not protected from loss, destruction, falsification, and unauthorized access.",
       "applicability": "Applies when an organization does not adequately protect important records from loss, destruction, falsification, unauthorized access, and unauthorized release in accordance with legal, regulatory, contractual, and business requirements.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-RECORDS-PROTECTION-033/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-RECORDS-PROTECTION-033/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1354,7 +1354,7 @@
       "canonical_name": "No Information Security Policies",
       "description": "Organization lacks documented information security policies approved by management, published, and communicated to relevant parties.",
       "applicability": "Applies when an organization does not have formally documented, management-approved information security policies that are published and communicated to personnel and relevant external parties.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SECURITY-POLICIES-001/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SECURITY-POLICIES-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1400,7 +1400,7 @@
       "canonical_name": "No Information Security Roles and Responsibilities",
       "description": "Information security roles and responsibilities are not defined and allocated according to organizational needs.",
       "applicability": "Applies when an organization has not formally defined and documented security roles, responsibilities are not clearly allocated, or personnel are unclear about their information security obligations.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SECURITY-ROLES-002/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SECURITY-ROLES-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1446,7 +1446,7 @@
       "canonical_name": "No Information Security in Supplier Agreements",
       "description": "Supplier agreements do not establish relevant information security requirements based on supply relationship type.",
       "applicability": "Applies when an organization has supplier agreements that lack adequate information security requirements, terms, and conditions appropriate to the type of supplier relationship and the information assets that may be accessed, processed, stored, communicated, or provided.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SUPPLIER-AGREEMENTS-020/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SUPPLIER-AGREEMENTS-020/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1492,7 +1492,7 @@
       "canonical_name": "No Supplier Service Monitoring and Review",
       "description": "Supplier service delivery is not regularly monitored, reviewed, and audited for security compliance.",
       "applicability": "Applies when an organization does not have established processes to regularly monitor, review, and audit supplier service levels and information security practices to ensure ongoing compliance with security requirements and contractual obligations.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SUPPLIER-MONITORING-022/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SUPPLIER-MONITORING-022/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1538,7 +1538,7 @@
       "canonical_name": "No Supplier Security Management",
       "description": "Processes for managing security risks associated with supplier access to organizational assets are not defined.",
       "applicability": "Applies when an organization lacks processes to identify, assess, and mitigate security risks in supplier relationships, including vendor due diligence, security requirements in contracts, and ongoing monitoring of supplier security posture.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SUPPLIER-SECURITY-019/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SUPPLIER-SECURITY-019/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1585,7 +1585,7 @@
       "canonical_name": "No ICT Supply Chain Security Management",
       "description": "Processes for managing ICT supply chain security risks are not defined and implemented.",
       "applicability": "Applies when an organization lacks defined processes and controls to manage information security risks associated with ICT products and services throughout the supply chain lifecycle, including supplier selection, onboarding, and ongoing management.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SUPPLY-CHAIN-SECURITY-021/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-SUPPLY-CHAIN-SECURITY-021/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1631,7 +1631,7 @@
       "canonical_name": "No Threat Intelligence Program",
       "description": "Organization does not collect and analyze threat intelligence to inform security decisions and controls.",
       "applicability": "Applies when an organization lacks a systematic approach to gathering, analyzing, and applying threat intelligence from internal and external sources to inform risk assessments and security control decisions.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-THREAT-INTELLIGENCE-007/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-THREAT-INTELLIGENCE-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1677,7 +1677,7 @@
       "canonical_name": "No Information Transfer Controls",
       "description": "Rules, procedures, and agreements for secure information transfer are not in place.",
       "applicability": "Applies when an organization lacks controls for transferring information between the organization and external parties, including procedures for electronic transmission, physical transport, and verbal communication of sensitive information.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-TRANSFER-CONTROLS-014/",
+      "definition_ref": "/signals/ISO27001/ORG/CSE-ISO27001-ORG-NO-TRANSFER-CONTROLS-014/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1724,7 +1724,7 @@
       "canonical_name": "No Security Violation Disciplinary Process",
       "description": "No formal disciplinary process exists for personnel who commit information security policy violations.",
       "applicability": "HR policies, security violation handling, policy enforcement",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-DISCIPLINARY-PROCESS-004/",
+      "definition_ref": "/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-DISCIPLINARY-PROCESS-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1770,7 +1770,7 @@
       "canonical_name": "No Security Terms in Employment Contracts",
       "description": "Employment contracts do not state personnel and organization responsibilities for information security.",
       "applicability": "Employment contracts, contractor agreements, security acknowledgments",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-EMPLOYMENT-TERMS-002/",
+      "definition_ref": "/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-EMPLOYMENT-TERMS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1816,7 +1816,7 @@
       "canonical_name": "No Security Event Reporting Mechanism",
       "description": "Mechanism for personnel to report observed or suspected security events is not provided.",
       "applicability": "Incident reporting channels, security awareness, reporting procedures",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-EVENT-REPORTING-008/",
+      "definition_ref": "/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-EVENT-REPORTING-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1862,7 +1862,7 @@
       "canonical_name": "No Confidentiality Agreements",
       "description": "Confidentiality or NDA requirements are not identified, documented, and regularly reviewed.",
       "applicability": "Employment, third parties, sensitive information access",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-NDA-AGREEMENTS-006/",
+      "definition_ref": "/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-NDA-AGREEMENTS-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1908,7 +1908,7 @@
       "canonical_name": "No Remote Working Security Controls",
       "description": "Security measures for remote working are not implemented to protect information accessed or processed.",
       "applicability": "Remote work policies, home office security, mobile device use",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-REMOTE-WORK-CONTROLS-007/",
+      "definition_ref": "/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-REMOTE-WORK-CONTROLS-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1955,7 +1955,7 @@
       "canonical_name": "No Personnel Screening",
       "description": "Background verification checks on candidates are not carried out prior to joining and on an ongoing basis.",
       "applicability": "HR processes, contractor onboarding, privileged access roles",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-SCREENING-001/",
+      "definition_ref": "/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-SCREENING-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2001,7 +2001,7 @@
       "canonical_name": "No Security Awareness Training",
       "description": "Personnel do not receive appropriate security awareness education, training, and updates.",
       "applicability": "All personnel, contractors, regular training programs",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-SECURITY-TRAINING-003/",
+      "definition_ref": "/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-SECURITY-TRAINING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2047,7 +2047,7 @@
       "canonical_name": "No Post-Employment Security Process",
       "description": "Security responsibilities that remain valid after termination or change are not defined and enforced.",
       "applicability": "Offboarding, role changes, confidentiality obligations",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-TERMINATION-PROCESS-005/",
+      "definition_ref": "/signals/ISO27001/PEOPLE/CSE-ISO27001-PEOPLE-NO-TERMINATION-PROCESS-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2093,7 +2093,7 @@
       "canonical_name": "No Cabling Security",
       "description": "Cables carrying power and data are not protected from interception, interference, or damage.",
       "applicability": "Organizations with power and data cabling infrastructure requiring protection from unauthorized access, tampering, and physical damage",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-CABLING-SECURITY-012/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-CABLING-SECURITY-012/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2140,7 +2140,7 @@
       "canonical_name": "No Clear Desk and Clear Screen Policy",
       "description": "Clear desk and clear screen rules for papers and removable storage media are not defined and enforced.",
       "applicability": "Organizations where personnel handle sensitive information in physical form or on computer screens that could be viewed by unauthorized persons",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-CLEAR-DESK-POLICY-007/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-CLEAR-DESK-POLICY-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2187,7 +2187,7 @@
       "canonical_name": "No Physical Entry Controls",
       "description": "Secure areas are not protected by appropriate entry controls and access points.",
       "applicability": "Organizations with secure areas requiring controlled access to protect sensitive information and assets",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-ENTRY-CONTROLS-002/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-ENTRY-CONTROLS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2233,7 +2233,7 @@
       "canonical_name": "No Equipment Maintenance Controls",
       "description": "Equipment is not maintained correctly to ensure availability and integrity.",
       "applicability": "Organizations with information processing equipment requiring regular maintenance to ensure continued operation and data integrity",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-EQUIPMENT-MAINTENANCE-013/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-EQUIPMENT-MAINTENANCE-013/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2280,7 +2280,7 @@
       "canonical_name": "No Equipment Siting and Protection",
       "description": "Equipment is not sited securely and protected against environmental threats and unauthorized access.",
       "applicability": "Organizations with information processing equipment that requires protection from environmental hazards and unauthorized access or damage",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-EQUIPMENT-PROTECTION-008/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-EQUIPMENT-PROTECTION-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2327,7 +2327,7 @@
       "canonical_name": "No Facility Security Measures",
       "description": "Physical security for offices, rooms, and facilities is not designed and implemented.",
       "applicability": "Organizations with offices, rooms, and facilities that require physical security measures to protect personnel and assets",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-FACILITY-SECURITY-003/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-FACILITY-SECURITY-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2373,7 +2373,7 @@
       "canonical_name": "No Storage Media Controls",
       "description": "Storage media is not managed through its lifecycle according to classification and handling requirements.",
       "applicability": "Organizations using storage media (physical and removable) that requires lifecycle management from acquisition through disposal",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-MEDIA-CONTROLS-010/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-MEDIA-CONTROLS-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2420,7 +2420,7 @@
       "canonical_name": "No Off-Site Asset Security",
       "description": "Off-site assets are not protected considering different risks of working outside organization premises.",
       "applicability": "Organizations with assets located outside organizational premises including remote work, mobile computing, and assets at third-party locations",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-OFFSITE-SECURITY-009/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-OFFSITE-SECURITY-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2467,7 +2467,7 @@
       "canonical_name": "No Secure Area Working Rules",
       "description": "Security measures for working in secure areas are not designed and implemented.",
       "applicability": "Organizations with designated secure areas where specific security protocols must be followed during work activities",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-SECURE-AREA-RULES-006/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-SECURE-AREA-RULES-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2514,7 +2514,7 @@
       "canonical_name": "No Secure Disposal or Re-use Procedures",
       "description": "Items containing storage media are not verified to ensure sensitive data is removed before disposal.",
       "applicability": "Organizations disposing of or re-using equipment and media that may contain sensitive information",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-SECURE-DISPOSAL-014/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-SECURE-DISPOSAL-014/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2561,7 +2561,7 @@
       "canonical_name": "No Physical Security Monitoring",
       "description": "Premises are not continuously monitored for unauthorized physical access.",
       "applicability": "Organizations requiring continuous monitoring of physical premises to detect and respond to unauthorized access attempts",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-SECURITY-MONITORING-004/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-SECURITY-MONITORING-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2608,7 +2608,7 @@
       "canonical_name": "No Physical Security Perimeters",
       "description": "Security perimeters are not defined and used to protect areas containing information and assets.",
       "applicability": "Organizations with physical facilities that contain sensitive information or information processing equipment",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-SECURITY-PERIMETER-001/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-SECURITY-PERIMETER-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2654,7 +2654,7 @@
       "canonical_name": "No Physical and Environmental Threat Protection",
       "description": "Protection against physical and environmental threats is not designed and implemented.",
       "applicability": "Organizations requiring protection of information processing facilities from natural disasters, environmental hazards, and deliberate attacks",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-THREAT-PROTECTION-005/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-THREAT-PROTECTION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2701,7 +2701,7 @@
       "canonical_name": "No Supporting Utilities Protection",
       "description": "Information processing facilities are not protected from power failures and utility disruptions.",
       "applicability": "Organizations with information processing facilities dependent on supporting utilities such as power, telecommunications, water, and HVAC systems",
-      "definition_ref": "/v1.0.0/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-UTILITY-PROTECTION-011/",
+      "definition_ref": "/signals/ISO27001/PHYSICAL/CSE-ISO27001-PHYSICAL-NO-UTILITY-PROTECTION-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2748,7 +2748,7 @@
       "canonical_name": "No Information Access Restriction",
       "description": "Access to information and application system functions is not restricted according to access control policy.",
       "applicability": "Applies to organizations that do not enforce access restrictions to information and application functions based on defined access control policies, including lack of role-based access control (RBAC), attribute-based access control (ABAC), or need-to-know principles.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-ACCESS-RESTRICTION-003/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-ACCESS-RESTRICTION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2795,7 +2795,7 @@
       "canonical_name": "Missing Application Security Requirements",
       "description": "Information security requirements are not identified, specified, and approved for application development. This signal indicates that applications are developed without documented security requirements, security acceptance criteria, or security specifications for authentication, authorization, data protection, and secure functionality.",
       "applicability": "Applicable to all application development projects including web applications, mobile applications, desktop applications, APIs, microservices, cloud applications, and third-party application integrations. Includes both new development and modification of existing applications.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-APP-SECURITY-REQS-026/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-APP-SECURITY-REQS-026/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2842,7 +2842,7 @@
       "canonical_name": "Unprotected Information Systems During Audit Testing",
       "description": "Audit tests and activities involving assessment of operational systems are not planned and controlled. This signal indicates that security audits, penetration testing, vulnerability assessments, or compliance testing activities are performed without proper planning, authorization, scope definition, or safeguards to prevent service disruption or data loss.",
       "applicability": "Applicable to all audit and assessment activities including internal audits, external audits, penetration testing, vulnerability scanning, compliance assessments, security reviews, and system testing that involves operational production systems or sensitive data.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-AUDIT-PROTECTION-034/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-AUDIT-PROTECTION-034/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2889,7 +2889,7 @@
       "canonical_name": "No Information Backup",
       "description": "Backup copies of information, software, and systems are not maintained and tested regularly.",
       "applicability": "Applies to organizations that do not implement regular backups of critical data, systems, and software, or fail to test backup restoration procedures to ensure recoverability in the event of data loss, system failure, or disaster.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-BACKUP-013/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-BACKUP-013/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2936,7 +2936,7 @@
       "canonical_name": "No Capacity Management",
       "description": "Use of resources is not monitored and adjusted with projections for future capacity requirements.",
       "applicability": "Applies to organizations that do not monitor resource utilization (CPU, memory, storage, network bandwidth) or plan for future capacity needs, risking performance degradation or system unavailability.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-CAPACITY-MGMT-006/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-CAPACITY-MGMT-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2983,7 +2983,7 @@
       "canonical_name": "Missing Change Management",
       "description": "Changes to information processing facilities and systems are not subject to change management procedures. This signal indicates that system modifications, configuration changes, software updates, or infrastructure changes are performed without formal approval, testing, documentation, or rollback procedures.",
       "applicability": "Applicable to all changes affecting information systems including application code changes, infrastructure modifications, configuration updates, security patches, network changes, database schema modifications, and access control changes. Covers both planned changes and emergency changes.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-CHANGE-MANAGEMENT-032/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-CHANGE-MANAGEMENT-032/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3030,7 +3030,7 @@
       "canonical_name": "No Clock Synchronization",
       "description": "Clocks of information processing systems are not synchronized to approved time sources.",
       "applicability": "Applies to organizations that do not synchronize system clocks across infrastructure components to approved and accurate time sources (NTP servers, atomic clocks), impacting log correlation, forensic investigations, and compliance.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-CLOCK-SYNC-017/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-CLOCK-SYNC-017/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3077,7 +3077,7 @@
       "canonical_name": "No Configuration Management",
       "description": "Configurations including security configurations are not established, documented, and managed.",
       "applicability": "Applies to organizations that do not maintain documented baseline configurations for systems, applications, and network devices, or lack processes to manage, track, and enforce configuration standards including security hardening.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-CONFIG-MANAGEMENT-009/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-CONFIG-MANAGEMENT-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3124,7 +3124,7 @@
       "canonical_name": "Missing Cryptography Controls",
       "description": "Rules for effective use of cryptography including key management are not defined and implemented. This signal indicates that cryptographic controls, encryption standards, key management procedures, or cryptographic protocols are not properly established, documented, or enforced across the organization.",
       "applicability": "Applicable to all systems using cryptography including data at rest encryption, data in transit encryption, key management systems, certificate authorities, encryption key storage, cryptographic protocols, digital signatures, and cryptographic libraries. Includes cloud encryption, database encryption, file system encryption, and application-level cryptography.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-CRYPTOGRAPHY-024/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-CRYPTOGRAPHY-024/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3171,7 +3171,7 @@
       "canonical_name": "No Data Masking",
       "description": "Data masking is not used according to access control policy and business requirements.",
       "applicability": "Applies to organizations that do not implement data masking, redaction, or obfuscation techniques to protect sensitive information in non-production environments, displays, reports, or for users without need-to-know access.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-DATA-MASKING-011/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-DATA-MASKING-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3218,7 +3218,7 @@
       "canonical_name": "No Data Leakage Prevention",
       "description": "Data leakage prevention measures are not applied to systems and networks handling sensitive information.",
       "applicability": "Applies to organizations that do not implement data loss prevention (DLP) technologies and processes to detect and prevent unauthorized disclosure, transfer, or exfiltration of sensitive information through network, endpoint, or cloud channels.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-DLP-012/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-DLP-012/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3265,7 +3265,7 @@
       "canonical_name": "No Endpoint Security Protection",
       "description": "Information stored on, processed by, or accessible via user endpoint devices is not protected.",
       "applicability": "Applies to organizations that allow users to access, process, or store information on endpoint devices (laptops, desktops, mobile devices, tablets) without adequate security controls.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-ENDPOINT-SECURITY-001/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-ENDPOINT-SECURITY-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3312,7 +3312,7 @@
       "canonical_name": "Missing Environment Separation",
       "description": "Development, testing, and production environments are not separated and secured. This signal indicates that different environment types share infrastructure, credentials, data, or network access without appropriate isolation controls, potentially allowing development activities to impact production systems or production data to be exposed in non-production environments.",
       "applicability": "Applicable to all computing environments including physical servers, virtual machines, cloud environments, containers, databases, network segments, and applications. Covers separation of development, testing, staging, QA, UAT, and production environments across infrastructure, platform, and software layers.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-ENV-SEPARATION-031/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-ENV-SEPARATION-031/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3359,7 +3359,7 @@
       "canonical_name": "No Information Deletion",
       "description": "Information stored in systems and devices is not deleted when no longer required.",
       "applicability": "Applies to organizations that do not systematically delete or dispose of information that is no longer needed for business or legal purposes, including data on active systems, backups, archived storage, and decommissioned devices.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-INFO-DELETION-010/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-INFO-DELETION-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3406,7 +3406,7 @@
       "canonical_name": "No Logging",
       "description": "Logs recording activities, exceptions, faults, and security events are not produced and retained.",
       "applicability": "Applies to organizations that do not implement comprehensive logging of user activities, administrative actions, system events, security events, exceptions, and faults, or fail to retain logs for appropriate periods to support incident detection, investigation, and compliance.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-LOGGING-015/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-LOGGING-015/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3453,7 +3453,7 @@
       "canonical_name": "No Malware Protection",
       "description": "Protection against malware is not implemented and supported by user awareness.",
       "applicability": "Applies to organizations that do not implement anti-malware technologies (antivirus, anti-spyware, EDR) or fail to maintain user awareness about malware threats and safe computing practices.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-MALWARE-PROTECTION-007/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-MALWARE-PROTECTION-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3500,7 +3500,7 @@
       "canonical_name": "No Monitoring Activities",
       "description": "Networks, systems, and applications are not monitored for anomalous behavior and appropriate actions taken.",
       "applicability": "Applies to organizations that do not actively monitor networks, systems, and applications for anomalous behavior, security events, performance issues, or unauthorized activities, and lack processes to respond appropriately to detected anomalies.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-MONITORING-016/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-MONITORING-016/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3547,7 +3547,7 @@
       "canonical_name": "Inadequate Networks Security",
       "description": "Networks and network devices are not secured, managed, and controlled to protect information. This signal indicates that network infrastructure lacks appropriate security controls such as firewalls, intrusion detection/prevention, network access controls, secure configurations, or monitoring capabilities.",
       "applicability": "Applicable to all network infrastructure including physical networks, virtual networks, software-defined networks, cloud networking, wireless networks, and network devices such as routers, switches, firewalls, load balancers, and network security appliances.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-NETWORK-SECURITY-020/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-NETWORK-SECURITY-020/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3594,7 +3594,7 @@
       "canonical_name": "Lack of Network Segregation",
       "description": "Groups of information services, users, and systems are not segregated in networks. This signal indicates that network segmentation is not implemented to separate different security zones, business functions, or trust levels, potentially allowing unrestricted lateral movement and access.",
       "applicability": "Applicable to all network environments including physical networks, virtual networks, cloud networks, data center networks, and wireless networks. Includes separation of production/development/test environments, user/server networks, trusted/untrusted zones, and different business units or security classifications.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-NETWORK-SEGREGATION-022/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-NETWORK-SEGREGATION-022/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3641,7 +3641,7 @@
       "canonical_name": "Insecure Network Services",
       "description": "Security mechanisms, service levels, and requirements of network services are not identified and implemented. This signal indicates that network services lack documented security requirements, service level agreements, authentication mechanisms, encryption, or appropriate security controls.",
       "applicability": "Applicable to all network services including managed services, cloud services, internet services, internal network services, APIs, third-party network services, and service provider connections. Includes DNS, DHCP, NTP, authentication services, file sharing, messaging, and application services.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-NETWORK-SERVICE-SECURITY-021/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-NETWORK-SERVICE-SECURITY-021/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3688,7 +3688,7 @@
       "canonical_name": "Uncontrolled Outsourced Development",
       "description": "Organization does not direct, monitor, and review outsourced system development activities. This signal indicates that third-party, contractor, or vendor-led development work lacks appropriate oversight, security requirements, code review, testing verification, or contractual security obligations.",
       "applicability": "Applicable to all outsourced development activities including offshore development, contractor engagements, managed service providers, software development agencies, open-source contributions, and any external development resources. Covers custom software development, system integration, and code modifications performed by external parties.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-OUTSOURCED-DEV-CONTROLS-030/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-OUTSOURCED-DEV-CONTROLS-030/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3735,7 +3735,7 @@
       "canonical_name": "No Privileged Access Management",
       "description": "Allocation and use of privileged access rights is not restricted and managed.",
       "applicability": "Applies to organizations that grant privileged access rights (administrative, root, superuser) without proper restriction, approval, monitoring, or periodic review mechanisms.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-PRIVILEGED-ACCESS-MGMT-002/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-PRIVILEGED-ACCESS-MGMT-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3782,7 +3782,7 @@
       "canonical_name": "No Redundancy of Information Processing Facilities",
       "description": "Information processing facilities are not implemented with redundancy to meet availability requirements.",
       "applicability": "Applies to organizations that do not implement redundant infrastructure components (servers, storage, network, power, cooling) necessary to meet defined availability and business continuity requirements for critical systems and services.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-REDUNDANCY-014/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-REDUNDANCY-014/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3829,7 +3829,7 @@
       "canonical_name": "Missing Secure Development Life Cycle",
       "description": "Rules for secure development of software and systems are not established and applied. This signal indicates that the organization lacks a formal secure software development lifecycle (SDLC) with security integrated into planning, design, development, testing, and deployment phases.",
       "applicability": "Applicable to all software development activities including custom application development, system integration, infrastructure as code, automation scripts, APIs, microservices, mobile applications, and any software or system modification. Includes internal development teams and third-party development.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SDLC-025/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SDLC-025/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3876,7 +3876,7 @@
       "canonical_name": "Missing Secure System Architecture and Engineering Principles",
       "description": "Principles for engineering secure systems are not established, documented, and applied. This signal indicates that the organization lacks documented security architecture principles, secure design patterns, defense-in-depth strategies, or architectural security controls that should guide system design and engineering decisions.",
       "applicability": "Applicable to all system architecture and engineering activities including application architecture, infrastructure architecture, network architecture, cloud architecture, security architecture, data architecture, and integration architecture. Includes both new system design and modification of existing systems.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SECURE-ARCHITECTURE-027/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SECURE-ARCHITECTURE-027/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3923,7 +3923,7 @@
       "canonical_name": "No Secure Authentication",
       "description": "Secure authentication technologies and procedures are not implemented based on access restrictions.",
       "applicability": "Applies to organizations that do not implement secure authentication mechanisms appropriate to the sensitivity of information and systems, including lack of multi-factor authentication (MFA), weak password policies, or insecure authentication protocols.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SECURE-AUTH-005/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SECURE-AUTH-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3970,7 +3970,7 @@
       "canonical_name": "Missing Secure Coding Practices",
       "description": "Secure coding principles are not applied to software development. This signal indicates that developers lack secure coding standards, guidelines, training, or enforcement mechanisms to prevent common vulnerabilities such as injection flaws, authentication bypasses, and insecure data handling.",
       "applicability": "Applicable to all software development activities including application code, infrastructure as code, scripts, automation, configuration files, and any software artifacts. Covers all programming languages, frameworks, and development environments including web, mobile, cloud, and embedded systems development.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SECURE-CODING-028/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SECURE-CODING-028/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4017,7 +4017,7 @@
       "canonical_name": "Missing Security Testing in Development",
       "description": "Security testing processes are not defined and implemented in the development lifecycle. This signal indicates that applications and systems are developed and deployed without appropriate security testing such as static analysis, dynamic analysis, penetration testing, or vulnerability scanning.",
       "applicability": "Applicable to all software development and system deployment activities including application development, infrastructure deployment, configuration changes, and system updates. Covers security testing in development, testing, staging, and pre-production environments.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SECURITY-TESTING-029/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SECURITY-TESTING-029/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4064,7 +4064,7 @@
       "canonical_name": "Uncontrolled Software Installation on Operational Systems",
       "description": "Procedures and measures are not implemented to securely manage software installation on operational systems. This signal indicates that software can be installed on production systems without appropriate authorization, validation, testing, or security review processes.",
       "applicability": "Applicable to any operational system including production servers, workstations, cloud instances, containers, virtual machines, network devices, and embedded systems. Includes operating system packages, application software, libraries, dependencies, scripts, and firmware updates.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SOFTWARE-INSTALL-CONTROLS-019/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SOFTWARE-INSTALL-CONTROLS-019/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4111,7 +4111,7 @@
       "canonical_name": "No Source Code Access Control",
       "description": "Read and write access to source code, development tools, and libraries is not appropriately managed.",
       "applicability": "Applies to organizations that develop software and do not properly control access to source code repositories, development tools, software libraries, and build environments through appropriate access controls and segregation.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SOURCE-CODE-ACCESS-004/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-SOURCE-CODE-ACCESS-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4158,7 +4158,7 @@
       "canonical_name": "Inadequate Test Information Controls",
       "description": "Test information is not appropriately selected, protected, and managed. This signal indicates that test data, including production data used in testing, is not properly sanitized, masked, anonymized, or protected, potentially exposing sensitive or personal information in non-production environments.",
       "applicability": "Applicable to all testing activities using data including development testing, QA testing, UAT, performance testing, security testing, and training environments. Covers test databases, test files, test datasets, synthetic data generation, and production data copies used for testing purposes.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-TEST-DATA-CONTROLS-033/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-TEST-DATA-CONTROLS-033/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4205,7 +4205,7 @@
       "canonical_name": "Uncontrolled Use of Privileged Utility Programs",
       "description": "Use of utility programs capable of overriding system and application controls is not restricted and controlled. This signal indicates that privileged utilities such as system debuggers, disk editors, registry editors, diagnostic tools, and low-level system utilities are available without appropriate access restrictions, logging, or monitoring.",
       "applicability": "Applicable to any system or environment where privileged utility programs exist, including operating systems, database management systems, virtualization platforms, container environments, cloud infrastructure, and network devices. Includes both built-in system utilities and third-party diagnostic tools.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-UTILITY-CONTROLS-018/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-UTILITY-CONTROLS-018/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4252,7 +4252,7 @@
       "canonical_name": "No Vulnerability Management",
       "description": "Information about technical vulnerabilities is not obtained, exposure evaluated, and measures taken.",
       "applicability": "Applies to organizations that do not actively identify, assess, prioritize, and remediate technical vulnerabilities in systems, applications, and network infrastructure through vulnerability scanning and patch management processes.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-VULN-MANAGEMENT-008/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-VULN-MANAGEMENT-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4299,7 +4299,7 @@
       "canonical_name": "Missing Web Filtering Controls",
       "description": "Access to external websites is not managed to reduce exposure to malicious content. This signal indicates that web filtering, URL categorization, content inspection, or safe browsing controls are not implemented to protect against web-based threats such as malware, phishing, and inappropriate content.",
       "applicability": "Applicable to all systems with internet access including workstations, servers, mobile devices, cloud services, and network infrastructure. Includes web browsers, HTTP/HTTPS traffic, proxy servers, secure web gateways, and DNS-based filtering solutions.",
-      "definition_ref": "/v1.0.0/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-WEB-FILTERING-023/",
+      "definition_ref": "/signals/ISO27001/TECH/CSE-ISO27001-TECH-NO-WEB-FILTERING-023/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {

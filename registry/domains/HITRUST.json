@@ -10,7 +10,7 @@
       "canonical_name": "Access Logging Not Implemented",
       "description": "Logging of user access events and authentication attempts is not implemented for systems containing protected health information (PHI) or other sensitive data. This signal indicates the absence of audit logs that capture user login events, logout events, failed authentication attempts, access to sensitive resources, and privilege escalation activities. Access logging is essential for security monitoring, incident investigation, compliance verification, and detecting unauthorized access attempts.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Web applications and patient portals Electronic health record (EHR) systems Database management systems Cloud infrastructure and services Identity and access management (IAM) systems Remote access systems (VPN, remote desktop)",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-ACCESS-LOGGING-012/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-ACCESS-LOGGING-012/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -60,7 +60,7 @@
       "canonical_name": "Account Lockout Not Configured",
       "description": "Account lockout mechanisms to prevent brute force password attacks have not been configured for systems containing protected health information (PHI) or other sensitive data. This signal indicates the absence of automatic account lockout or login attempt throttling after a specified number of failed authentication attempts. Account lockout is a critical defense against password guessing and brute force attacks, preventing attackers from repeatedly attempting to gain unauthorized access.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Web applications and patient portals Identity providers and authentication systems Electronic health record (EHR) systems Active Directory and LDAP systems Database authentication mechanisms API authentication endpoints",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-ACCOUNT-LOCKOUT-011/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-ACCOUNT-LOCKOUT-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -110,7 +110,7 @@
       "canonical_name": "Least Privilege Not Implemented",
       "description": "The principle of least privilege is not being applied to user access rights, resulting in users having more permissions than necessary to perform their job functions. This signal indicates that users, applications, or services have been granted excessive access rights beyond what is required for their specific roles and responsibilities. Least privilege is a fundamental security principle that minimizes the potential impact of compromised accounts, insider threats, and accidental data exposure i",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Cloud infrastructure and services Database access controls Application programming interfaces (APIs) Service accounts and system-to-system access Electronic health record (EHR) systems",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-LEAST-PRIVILEGE-010/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-LEAST-PRIVILEGE-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -160,7 +160,7 @@
       "canonical_name": "Multi-Factor Authentication Not Implemented",
       "description": "Multi-factor authentication (MFA) is not implemented or enforced for access to systems containing protected health information (PHI) or other sensitive data. This signal indicates that authentication relies solely on a single factor (typically passwords), without requiring additional verification methods such as time-based one-time passwords (TOTP), hardware tokens, biometrics, or push notifications. MFA is critical for protecting against credential theft, phishing attacks, and unauthorized acce",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Remote access systems (VPN, remote desktop) Administrative and privileged access Cloud infrastructure management consoles Electronic health record (EHR) systems Patient portals and mobile health applications",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-MFA-006/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-MFA-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -210,7 +210,7 @@
       "canonical_name": "Password Policy Not Enforced",
       "description": "A formal password policy has not been established or is not being enforced for systems containing protected health information (PHI) or other sensitive data. This signal indicates the absence of password complexity requirements, length minimums, expiration rules, history restrictions, or other password security controls. A comprehensive password policy is essential for preventing unauthorized access through weak or compromised credentials.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Identity providers and authentication systems Active Directory and LDAP systems Application authentication mechanisms Database access controls",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PASSWORD-POLICY-005/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PASSWORD-POLICY-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -260,7 +260,7 @@
       "canonical_name": "Periodic Access Review Missing",
       "description": "Regular periodic reviews of user access rights are not being conducted. This signal indicates the absence of a process to regularly validate that user access permissions remain appropriate and aligned with current job responsibilities as required by HITRUST CSF.",
       "applicability": "Healthcare organizations subject to HIPAA, Organizations pursuing HITRUST certification, Systems processing sensitive health information",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PERIODIC-REVIEW-005/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PERIODIC-REVIEW-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -310,7 +310,7 @@
       "canonical_name": "Access Control Policy Missing",
       "description": "A formal access control policy has not been established or documented for an organization or system handling protected health information (PHI) or other sensitive data. This signal indicates the absence of a documented policy that defines rules, procedures, and responsibilities for controlling access to information systems and assets. An access control policy should establish clear guidelines for user access rights, authentication requirements, authorization processes, and accountability mechani",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-POLICY-001/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-POLICY-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -360,7 +360,7 @@
       "canonical_name": "Privilege Management Not Implemented",
       "description": "Privileged access rights are not being actively managed or controlled through a formal privilege management process. This signal indicates the absence of controls for allocating, monitoring, and reviewing privileged access to systems containing protected health information (PHI) or other sensitive data. Privilege management ensures that elevated access rights (such as administrative, root, or superuser privileges) are granted only when necessary, properly authorized, and regularly reviewed.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Cloud infrastructure management Database administration Network device management Application administrative functions",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PRIVILEGE-MANAGEMENT-003/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PRIVILEGE-MANAGEMENT-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -410,7 +410,7 @@
       "canonical_name": "Access Provisioning Process Missing",
       "description": "A formal access provisioning process has not been established for granting user access to systems and data. This signal indicates the absence of documented procedures for approving, creating, and assigning user accounts and access rights in accordance with HITRUST CSF requirements.",
       "applicability": "Healthcare organizations subject to HIPAA, Organizations pursuing HITRUST certification, Systems processing sensitive health information",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PROVISIONING-003/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-PROVISIONING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -460,7 +460,7 @@
       "canonical_name": "Remote Access Controls Missing",
       "description": "Controls for managing and securing remote access to systems containing protected health information (PHI) or other sensitive data have not been implemented. This signal indicates the absence of security controls specific to remote access scenarios, including VPN requirements, remote desktop protections, encryption enforcement, monitoring capabilities, and approval processes. Remote access represents an elevated risk and requires additional security measures beyond standard access controls.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Virtual Private Network (VPN) infrastructure Remote desktop services (RDP, VNC) Cloud infrastructure remote access Third-party vendor remote access Telehealth and remote care systems",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-REMOTE-ACCESS-CONTROL-008/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-REMOTE-ACCESS-CONTROL-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -510,7 +510,7 @@
       "canonical_name": "Segregation of Duties Not Enforced",
       "description": "Segregation of duties (SoD) principles are not enforced to prevent individuals from having conflicting responsibilities that could enable fraud, errors, or unauthorized activities. This signal indicates the absence of controls that separate critical functions across different individuals or roles. Segregation of duties ensures that no single person has complete control over a critical process, reducing the risk of intentional or unintentional security violations in systems containing protected h",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Financial and billing systems Electronic health record (EHR) access controls Medication ordering and dispensing systems IT administration and security operations Data access and modification workflows",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-SEGREGATION-009/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-SEGREGATION-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -560,7 +560,7 @@
       "canonical_name": "Session Management Controls Missing",
       "description": "Session management controls such as automatic logout, session timeouts, and idle disconnect are not implemented for systems containing protected health information (PHI) or other sensitive data. This signal indicates the absence of mechanisms to terminate inactive user sessions, enforce maximum session durations, or require re-authentication after periods of inactivity. Proper session management prevents unauthorized access from unattended workstations and reduces the window of opportunity for s",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Web applications and patient portals Electronic health record (EHR) systems Remote desktop and VPN sessions Clinical workstations Mobile health applications",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-SESSION-MANAGEMENT-007/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-SESSION-MANAGEMENT-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -610,7 +610,7 @@
       "canonical_name": "Access Termination Process Missing",
       "description": "A formal access termination process has not been established for revoking user access upon employment termination or role change. This signal indicates the absence of documented procedures for timely removal of access rights when users leave the organization or change positions.",
       "applicability": "Healthcare organizations subject to HIPAA, Organizations pursuing HITRUST certification, Systems processing sensitive health information",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-TERMINATION-004/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-TERMINATION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -660,7 +660,7 @@
       "canonical_name": "User Registration Process Missing",
       "description": "A formal user registration and deregistration process has not been established for managing access to systems containing protected health information (PHI) or other sensitive data. This signal indicates the absence of documented procedures for onboarding new users, granting appropriate access rights, modifying access when roles change, and removing access when users leave or no longer require system access. A proper user registration process ensures accountability and traceability of access priv",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Identity and access management (IAM) systems Human resources information systems Electronic health record (EHR) systems",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-USER-REGISTRATION-002/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-USER-REGISTRATION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -710,7 +710,7 @@
       "canonical_name": "User Access Review Not Conducted",
       "description": "Regular reviews of user access rights and privileges are not being conducted to verify that access remains appropriate and necessary. This signal indicates the absence of periodic access reviews (also known as access recertification or attestation) for systems containing protected health information (PHI) or other sensitive data. Regular access reviews help identify and remove unnecessary access, detect privilege creep, and ensure compliance with the principle of least privilege.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Identity and access management (IAM) systems Enterprise resource planning (ERP) systems Electronic health record (EHR) systems Cloud infrastructure and SaaS applications",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-USER-REVIEW-004/",
+      "definition_ref": "/signals/HITRUST/ACCESS/CSE-HITRUST-ACCESS-NO-USER-REVIEW-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -760,7 +760,7 @@
       "canonical_name": "Acceptable Use Policy Missing",
       "description": "An organization lacks documented and enforceable rules for the acceptable use of information assets, systems, and services. This signal indicates that users may not have clear guidance on appropriate and inappropriate uses of organizational resources, potentially leading to security risks, policy violations, and misuse of assets.",
       "applicability": "This signal applies to: Corporate workstations and laptops Mobile devices and tablets Email and messaging systems Internet and network access Cloud services and applications Remote access systems Corporate data and intellectual property Software and licensed applications Personal device use (BYOD scenarios)",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-ACCEPTABLE-USE-003/",
+      "definition_ref": "/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-ACCEPTABLE-USE-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -802,7 +802,7 @@
       "canonical_name": "Information Classification Missing",
       "description": "Information and information assets lack a systematic classification scheme that identifies their sensitivity, criticality, and required protection level. This signal indicates that data is not categorized according to its value, legal requirements, sensitivity, or criticality to the organization, making it difficult to apply appropriate security controls.",
       "applicability": "This signal applies to: Structured and unstructured data Documents and files Databases and data warehouses Email and communications Source code and intellectual property Customer and patient information Financial records Cloud storage repositories Backup and archive data",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-CLASSIFICATION-004/",
+      "definition_ref": "/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-CLASSIFICATION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -844,7 +844,7 @@
       "canonical_name": "Asset Handling Procedures Missing",
       "description": "An organization lacks documented procedures for the secure handling, storage, transmission, and disposal of information assets according to their classification and sensitivity. This signal indicates that there are no standardized guidelines for how different types of information should be processed, shared, stored, or destroyed throughout their lifecycle.",
       "applicability": "This signal applies to: Document creation and sharing Email and electronic communications Data transmission and transfer Physical document handling Media storage and transportation Information disposal and destruction Backup and archival processes Cloud data operations Print and copy procedures",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-HANDLING-006/",
+      "definition_ref": "/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-HANDLING-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -886,7 +886,7 @@
       "canonical_name": "Asset Inventory Not Maintained",
       "description": "An organization lacks a comprehensive inventory of information assets that accurately identifies all hardware, software, data, and systems within the environment. This signal indicates that there is no systematic tracking of assets, making it difficult to protect, manage, and account for all resources that process, store, or transmit sensitive information.",
       "applicability": "This signal applies to: Physical and virtual servers Workstations and end-user devices Mobile devices and tablets Network infrastructure (routers, switches, firewalls) Cloud resources and services Software applications and licenses Data repositories and databases Storage systems and media IoT and embedded devices",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-INVENTORY-001/",
+      "definition_ref": "/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-INVENTORY-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -928,7 +928,7 @@
       "canonical_name": "Information Labeling Missing",
       "description": "Information assets lack visible labels or metadata that clearly identify their classification level and handling requirements. This signal indicates that even if classification schemes exist, the information itself does not carry visible markings or electronic metadata that communicate its sensitivity to users and systems.",
       "applicability": "This signal applies to: Documents (Word, PDF, presentations) Email messages and attachments Database records and fields File system directories and files Printed materials Cloud storage objects Data exports and reports Backup media Removable storage devices",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-LABELING-005/",
+      "definition_ref": "/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-LABELING-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -970,7 +970,7 @@
       "canonical_name": "Asset Ownership Not Assigned",
       "description": "Information assets lack designated owners who are responsible for their protection, maintenance, and appropriate use throughout their lifecycle. This signal indicates that accountability for assets is unclear, making it difficult to ensure proper security controls, access management, and risk assessment.",
       "applicability": "This signal applies to: Information systems and applications Databases and data repositories Cloud services and resources Network infrastructure components Software applications Data sets and information collections Physical and virtual servers Security devices and controls",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-OWNERSHIP-002/",
+      "definition_ref": "/signals/HITRUST/ASSET/CSE-HITRUST-ASSET-NO-OWNERSHIP-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1012,7 +1012,7 @@
       "canonical_name": "Business Impact Analysis Missing",
       "description": "Organization has not conducted a business impact analysis (BIA) to identify critical business processes, their dependencies, and the impact of disruptions. A comprehensive BIA must systematically evaluate the consequences of business function interruptions, determine recovery time objectives (RTOs) and recovery point objectives (RPOs), and identify resource requirements for continuity.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with critical service dependencies Entities with regulatory continuity requirements",
-      "definition_ref": "/v1.0.0/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-BIA-002/",
+      "definition_ref": "/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-BIA-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1056,7 +1056,7 @@
       "canonical_name": "BCM Maintenance Missing",
       "description": "Organization has not established processes to maintain and update business continuity plans and capabilities to ensure they remain current and effective. Comprehensive BCM maintenance must include regular reviews of plans, updates based on organizational changes, incorporation of lessons learned from testing and incidents, validation of contact information and resources, and reassessment of recovery strategies to reflect evolving business requirements and threat landscapes.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with dynamic operational environments Entities with changing technology infrastructures",
-      "definition_ref": "/v1.0.0/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-MAINTENANCE-005/",
+      "definition_ref": "/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-MAINTENANCE-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1100,7 +1100,7 @@
       "canonical_name": "Continuity Plans Missing",
       "description": "Organization has not developed and documented business continuity plans to maintain or restore critical business operations during and after disruptions. Comprehensive continuity plans must include detailed procedures for response, recovery, and restoration activities, define roles and responsibilities, identify required resources, and establish communication protocols for various disruption scenarios.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with critical operational requirements Entities requiring documented recovery procedures",
-      "definition_ref": "/v1.0.0/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-PLANS-003/",
+      "definition_ref": "/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-PLANS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1144,7 +1144,7 @@
       "canonical_name": "BCM Program Missing",
       "description": "Organization has not established a business continuity management (BCM) program to ensure the continuity of critical business operations during and after disruptions. A comprehensive BCM program must include governance, policies, procedures, resources, and accountability mechanisms to maintain essential functions during adverse events and recover normal operations efficiently.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with critical operational dependencies Financial institutions with continuity requirements",
-      "definition_ref": "/v1.0.0/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-PROGRAM-001/",
+      "definition_ref": "/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-PROGRAM-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1188,7 +1188,7 @@
       "canonical_name": "Information Redundancy Missing",
       "description": "Organization has not implemented adequate redundancy for critical information, systems, and infrastructure components to ensure availability during disruptions. Comprehensive information redundancy must include backup systems, redundant infrastructure components, geographically distributed resources, data replication mechanisms, and failover capabilities that enable continuity of operations when primary systems or facilities become unavailable.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with high availability requirements Entities with critical data protection needs",
-      "definition_ref": "/v1.0.0/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-REDUNDANCY-006/",
+      "definition_ref": "/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-REDUNDANCY-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1232,7 +1232,7 @@
       "canonical_name": "BCM Testing Missing",
       "description": "Organization has not conducted regular testing and exercises of business continuity plans to verify their effectiveness and identify gaps. Comprehensive BCM testing must include periodic exercises such as tabletop exercises, simulations, and full-scale tests that validate plan procedures, assess personnel readiness, verify recovery capabilities, and ensure continuity objectives can be achieved within defined timeframes.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with critical service requirements Entities with regulatory testing requirements",
-      "definition_ref": "/v1.0.0/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-TESTING-004/",
+      "definition_ref": "/signals/HITRUST/BCM/CSE-HITRUST-BCM-NO-TESTING-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1276,7 +1276,7 @@
       "canonical_name": "Cloud Configuration Management Missing",
       "description": "Configuration management processes and controls for cloud infrastructure and services have not been established, documented, or implemented for systems handling protected health information (PHI) or sensitive data. This signal indicates the absence of systematic controls for managing cloud resource configurations, including secure baseline configurations, configuration drift detection, infrastructure-as-code practices, and configuration change management. Proper cloud configuration management en",
       "applicability": "This signal applies to: Cloud infrastructure resources (compute, storage, networking) Cloud platform services (databases, containers, serverless) Cloud security services (IAM, firewalls, security groups) Infrastructure-as-Code (IaC) deployments Cloud resource tagging and organization Multi-account or multi-subscription cloud environments Automated cloud provisioning and deployment pipelines",
-      "definition_ref": "/v1.0.0/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-CONFIGURATION-005/",
+      "definition_ref": "/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-CONFIGURATION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1318,7 +1318,7 @@
       "canonical_name": "Data Location Not Controlled",
       "description": "The geographic location and jurisdiction of data stored or processed in cloud environments has not been identified, documented, or controlled for systems handling protected health information (PHI) or sensitive data. This signal indicates the absence of controls to ensure data residency requirements are met, including understanding where data is stored, processed, and backed up across cloud regions and availability zones. Data location controls should address regulatory requirements, privacy law",
       "applicability": "This signal applies to: Cloud storage services (object storage, databases, file systems) Cloud backup and disaster recovery services Multi-region cloud deployments Content delivery networks (CDNs) serving healthcare data Cloud-based data analytics and processing platforms Database-as-a-Service (DBaaS) offerings Cloud archival and long-term storage solutions",
-      "definition_ref": "/v1.0.0/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-DATA-LOCATION-003/",
+      "definition_ref": "/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-DATA-LOCATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1360,7 +1360,7 @@
       "canonical_name": "Cloud Encryption Missing",
       "description": "Encryption controls for data at rest and in transit have not been implemented or properly configured in cloud environments storing or processing protected health information (PHI) or sensitive data. This signal indicates the absence of adequate encryption mechanisms in cloud infrastructure, including storage encryption, database encryption, transmission encryption, and key management. Cloud encryption should protect data confidentiality using industry-standard cryptographic algorithms and proper",
       "applicability": "This signal applies to: Cloud storage services (object storage, block storage, file storage) Cloud databases and data warehouses Virtual machine disk encryption Cloud-based messaging and queuing services Cloud API communications and data transfers Cloud backup and snapshot encryption Container and Kubernetes persistent volumes",
-      "definition_ref": "/v1.0.0/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-ENCRYPTION-004/",
+      "definition_ref": "/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-ENCRYPTION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1402,7 +1402,7 @@
       "canonical_name": "Cloud Governance Missing",
       "description": "A cloud governance framework has not been established or documented for an organization utilizing cloud services to process, store, or transmit protected health information (PHI) or other sensitive data. This signal indicates the absence of a formal governance structure for cloud services, including policies, procedures, standards, and oversight mechanisms. Cloud governance should define decision-making authority, risk management processes, compliance requirements, and accountability for cloud s",
       "applicability": "This signal applies to: Healthcare organizations utilizing cloud services for PHI Business associates hosting applications in cloud environments Organizations pursuing HITRUST certification using cloud infrastructure Multi-cloud or hybrid cloud deployments Organizations using SaaS, PaaS, or IaaS cloud services Cloud service providers serving healthcare clients Healthcare applications migrating to cloud platforms",
-      "definition_ref": "/v1.0.0/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-GOVERNANCE-001/",
+      "definition_ref": "/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-GOVERNANCE-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1444,7 +1444,7 @@
       "canonical_name": "Cloud Monitoring Missing",
       "description": "Security monitoring and logging capabilities for cloud infrastructure and services have not been implemented or properly configured for systems handling protected health information (PHI) or sensitive data. This signal indicates the absence of comprehensive monitoring controls for cloud environments, including security event logging, activity monitoring, anomaly detection, and alerting mechanisms. Cloud monitoring should provide visibility into security events, compliance status, and potential t",
       "applicability": "This signal applies to: Cloud infrastructure activity and API logging Cloud security events and alerts Cloud access and identity monitoring Cloud network traffic and flow logs Cloud resource configuration changes Cloud compliance and posture monitoring Cloud cost and usage anomaly detection",
-      "definition_ref": "/v1.0.0/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-MONITORING-006/",
+      "definition_ref": "/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-MONITORING-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1486,7 +1486,7 @@
       "canonical_name": "Shared Responsibility Not Defined",
       "description": "The shared responsibility model between the organization and cloud service provider(s) has not been documented, communicated, or clearly defined for systems processing protected health information (PHI) or sensitive data. This signal indicates the absence of clear delineation of security and compliance responsibilities between the organization and its cloud service providers. The shared responsibility model should specify which security controls are managed by the provider versus the customer ac",
       "applicability": "This signal applies to: Organizations using cloud infrastructure (IaaS) services Applications deployed on Platform-as-a-Service (PaaS) Software-as-a-Service (SaaS) solutions for healthcare data Multi-vendor cloud environments Hybrid cloud deployments combining on-premises and cloud Containerized workloads in cloud environments Serverless computing architectures",
-      "definition_ref": "/v1.0.0/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-SHARED-RESPONSIBILITY-002/",
+      "definition_ref": "/signals/HITRUST/CLOUD/CSE-HITRUST-CLOUD-NO-SHARED-RESPONSIBILITY-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1528,7 +1528,7 @@
       "canonical_name": "Compliance Audit Not Conducted",
       "description": "Operating procedures and controls have not been regularly reviewed for compliance with the organization's security policies and standards. This signal indicates that an organization lacks a systematic process to audit, assess, and verify that operational security controls and procedures are being followed in accordance with documented policies, standards, and compliance requirements.",
       "applicability": "This signal applies to: Security operations and incident response procedures Access control and identity management processes Change management and configuration control procedures Backup and recovery operations Patch management and vulnerability remediation processes Security monitoring and log management activities Physical security and facility access procedures Vendor and third-party security management Data handling and classification procedures",
-      "definition_ref": "/v1.0.0/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-AUDIT-006/",
+      "definition_ref": "/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-AUDIT-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1570,7 +1570,7 @@
       "canonical_name": "Intellectual Property Rights Not Protected",
       "description": "Appropriate procedures have not been implemented to ensure compliance with legal, statutory, regulatory, and contractual requirements related to intellectual property rights (IPR) and the use of proprietary software products. This signal indicates that an organization lacks documented processes to protect intellectual property, manage software licenses, prevent unauthorized use of copyrighted materials, and ensure proper attribution and licensing compliance.",
       "applicability": "This signal applies to: Software development organizations creating proprietary code Organizations using third-party commercial software Companies utilizing open-source software components Content management systems handling copyrighted materials Cloud service providers using licensed technologies Organizations with patent portfolios Development teams using third-party libraries and frameworks Companies creating or using AI/ML models with licensing requirements",
-      "definition_ref": "/v1.0.0/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-IPR-002/",
+      "definition_ref": "/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-IPR-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1612,7 +1612,7 @@
       "canonical_name": "Legal Requirements Not Identified",
       "description": "Applicable legal, statutory, regulatory, and contractual requirements and the organization's approach to meet these requirements have not been explicitly identified and documented for each information system. This signal indicates that an organization has not established a formal process to identify, document, and maintain awareness of relevant legal and regulatory obligations that apply to its information systems and data processing activities.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA, HITECH, and state privacy laws Financial services organizations subject to GLBA, PCI DSS, SOX Organizations processing EU data subject to GDPR Government contractors subject to FedRAMP, FISMA, DFARS Organizations in regulated industries (pharmaceutical, utilities, telecommunications) Multi-jurisdictional operations with varying compliance requirements Cloud service providers with contractual compliance obligations Organizations h",
-      "definition_ref": "/v1.0.0/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-LEGAL-IDENTIFICATION-001/",
+      "definition_ref": "/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-LEGAL-IDENTIFICATION-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1654,7 +1654,7 @@
       "canonical_name": "Privacy Compliance Not Verified",
       "description": "Privacy and protection of personally identifiable information (PII) has not been ensured as required by relevant legislation, regulations, and contractual clauses. This signal indicates that an organization has not implemented adequate processes to verify compliance with privacy laws, protect personal data throughout its lifecycle, and ensure that data processing activities meet applicable privacy requirements.",
       "applicability": "This signal applies to: Healthcare organizations processing protected health information (PHI) under HIPAA Organizations processing EU personal data under GDPR Companies subject to CCPA, CPRA, or other state privacy laws Financial services handling consumer financial information under GLBA Organizations with privacy notice and consent requirements Data processors and controllers under privacy frameworks Companies conducting cross-border data transfers Organizations collecting or processing child",
-      "definition_ref": "/v1.0.0/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-PRIVACY-COMPLIANCE-004/",
+      "definition_ref": "/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-PRIVACY-COMPLIANCE-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1696,7 +1696,7 @@
       "canonical_name": "Records Not Protected",
       "description": "Records are not protected from loss, destruction, falsification, unauthorized access, and unauthorized release in accordance with legislative, regulatory, contractual, and business requirements. This signal indicates that an organization has not implemented adequate controls to ensure the confidentiality, integrity, availability, and legal admissibility of important records throughout their lifecycle, from creation through retention to disposal.",
       "applicability": "This signal applies to: Healthcare records subject to HIPAA retention requirements Financial records subject to SOX, GLBA, or SEC regulations Personnel records with privacy and labor law obligations Legal and compliance documentation Audit logs and security event records Business continuity and disaster recovery documentation Contract and vendor agreement repositories Electronic health records (EHR) systems Document management systems and archives",
-      "definition_ref": "/v1.0.0/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-RECORDS-PROTECTION-003/",
+      "definition_ref": "/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-RECORDS-PROTECTION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1738,7 +1738,7 @@
       "canonical_name": "Technical Compliance Not Checked",
       "description": "Information systems have not been regularly checked for compliance with the organization's security implementation standards. This signal indicates that an organization lacks a systematic process to verify that technical security controls, configurations, and implementations align with established security standards, baselines, and technical compliance requirements.",
       "applicability": "This signal applies to: Cloud infrastructure and platform configurations Operating system and application security settings Network device and firewall configurations Database security configurations Cryptographic implementations Security hardening baselines (CIS Benchmarks, DISA STIGs) Endpoint protection and monitoring tools Container and Kubernetes security configurations API security implementations",
-      "definition_ref": "/v1.0.0/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-TECHNICAL-COMPLIANCE-005/",
+      "definition_ref": "/signals/HITRUST/COMPLY/CSE-HITRUST-COMPLY-NO-TECHNICAL-COMPLIANCE-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1780,7 +1780,7 @@
       "canonical_name": "Endpoint Detection Missing",
       "description": "Endpoint detection and response (EDR) capabilities have not been implemented on devices accessing or storing protected health information (PHI) or other sensitive data. This signal indicates the absence of advanced threat detection mechanisms on endpoints such as endpoint detection and response (EDR), behavioral analysis, or anomaly detection systems. EDR solutions provide real-time monitoring, threat detection, and incident response capabilities that go beyond traditional antivirus protection.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-DETECTION-002/",
+      "definition_ref": "/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-DETECTION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1830,7 +1830,7 @@
       "canonical_name": "Data Loss Prevention Missing",
       "description": "Data loss prevention (DLP) controls have not been implemented on endpoints accessing or storing protected health information (PHI) or other sensitive data. This signal indicates the absence of DLP mechanisms on endpoints such as workstations, laptops, or mobile devices. DLP controls monitor, detect, and prevent unauthorized transmission, copying, or exfiltration of sensitive data through various channels including email, removable media, cloud storage, web uploads, and printing.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-DLP-004/",
+      "definition_ref": "/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-DLP-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1880,7 +1880,7 @@
       "canonical_name": "Endpoint Hardening Missing",
       "description": "Endpoint hardening configurations have not been applied to devices accessing or storing protected health information (PHI) or other sensitive data. This signal indicates the absence of security hardening measures on endpoints such as workstations, laptops, mobile devices, or servers. Endpoint hardening includes disabling unnecessary services, configuring secure settings, applying security baselines, removing unnecessary software, and implementing least-privilege access controls at the device lev",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-HARDENING-003/",
+      "definition_ref": "/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-HARDENING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1930,7 +1930,7 @@
       "canonical_name": "Endpoint Protection Missing",
       "description": "Endpoint protection software or controls have not been deployed on devices accessing or storing protected health information (PHI) or other sensitive data. This signal indicates the absence of endpoint protection mechanisms such as anti-malware, antivirus, or endpoint security software on workstations, laptops, mobile devices, or servers. Endpoint protection is a critical security control that defends against malicious software, unauthorized access, and security threats at the device level.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-PROTECTION-001/",
+      "definition_ref": "/signals/HITRUST/ENDPOINT/CSE-HITRUST-ENDPOINT-NO-PROTECTION-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1980,7 +1980,7 @@
       "canonical_name": "Security Awareness Training Missing",
       "description": "No security awareness training program exists for workforce members, or existing training is inadequate, incomplete, or not regularly updated. This creates significant risk as personnel may lack the knowledge to identify and respond to security threats, comply with policies, or protect sensitive information. This signal indicates that employees, contractors, and third-party users do not receive appropriate education on security risks, organizational policies, regulatory requirements, and their i",
       "applicability": "New employee onboarding programs Annual security awareness refresher training Role-based security training (e.g., privileged users, developers) Contractor and vendor personnel training Phishing and social engineering awareness campaigns Incident response and reporting training Privacy and data protection education Regulatory compliance training (HIPAA, GDPR, etc.) Security policy acknowledgment and training Specialized training for high-risk roles",
-      "definition_ref": "/v1.0.0/signals/HITRUST/HR/CSE-HITRUST-HR-NO-AWARENESS-003/",
+      "definition_ref": "/signals/HITRUST/HR/CSE-HITRUST-HR-NO-AWARENESS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2032,7 +2032,7 @@
       "canonical_name": "Disciplinary Process Not Defined",
       "description": "No formal disciplinary process exists for addressing security policy violations and non-compliance by workforce members. This creates significant accountability gaps and reduces the effectiveness of security controls, as personnel may face no consequences for security breaches, policy violations, or negligent behavior. This signal indicates the absence of documented procedures, sanctions, or enforcement mechanisms to ensure workforce accountability for information security responsibilities and r",
       "applicability": "Security policy enforcement programs HR disciplinary procedures and employee handbooks Contractor and vendor agreement enforcement Incident response and investigation processes HIPAA sanction policy requirements Regulatory compliance programs Code of conduct enforcement Access control violation responses Data breach accountability measures Insider threat prevention programs",
-      "definition_ref": "/v1.0.0/signals/HITRUST/HR/CSE-HITRUST-HR-NO-DISCIPLINARY-004/",
+      "definition_ref": "/signals/HITRUST/HR/CSE-HITRUST-HR-NO-DISCIPLINARY-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2084,7 +2084,7 @@
       "canonical_name": "Background Screening Not Conducted",
       "description": "Background checks are not performed on personnel with access to sensitive information systems or data. This creates significant risk as employees, contractors, or third-party personnel may have undisclosed backgrounds that pose security, privacy, or compliance threats. This signal indicates that the organization lacks a formal background screening process prior to granting access to sensitive systems, protected health information (PHI), or critical infrastructure.",
       "applicability": "Healthcare organizations handling PHI/ePHI Business associates and subcontractors Cloud service providers hosting sensitive data Pre-employment screening programs Contractor and vendor personnel verification Roles with privileged or administrative access Positions handling financial or regulated data Periodic re-verification and re-screening programs",
-      "definition_ref": "/v1.0.0/signals/HITRUST/HR/CSE-HITRUST-HR-NO-SCREENING-001/",
+      "definition_ref": "/signals/HITRUST/HR/CSE-HITRUST-HR-NO-SCREENING-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2136,7 +2136,7 @@
       "canonical_name": "Termination Process Not Implemented",
       "description": "No secure process exists for workforce termination, including timely access revocation, asset return, and removal of credentials when employment or contractual relationships end. This creates significant security risks as former employees, contractors, or third-party users may retain inappropriate access to systems, data, and facilities. This signal indicates the absence of documented and enforced procedures to ensure that all access rights, physical assets, and credentials are promptly recovere",
       "applicability": "Employee termination and offboarding processes Contractor and vendor relationship termination Role changes and transfers requiring access modification Emergency termination procedures (immediate revocation) Planned departure workflows Access revocation for all system types (cloud, on-premises, third-party) Physical security badge and key return Mobile device and equipment recovery Email and communication system deactivation Remote access and VPN credential removal",
-      "definition_ref": "/v1.0.0/signals/HITRUST/HR/CSE-HITRUST-HR-NO-TERMINATION-005/",
+      "definition_ref": "/signals/HITRUST/HR/CSE-HITRUST-HR-NO-TERMINATION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2188,7 +2188,7 @@
       "canonical_name": "Employment Terms Not Defined",
       "description": "Security roles, responsibilities, and expectations are not formally defined or documented in employment terms and conditions. This creates ambiguity around workforce member obligations regarding information security, confidentiality, and acceptable use of organizational systems and data. This signal indicates that employment agreements, contracts, or onboarding documentation lack explicit security-related terms, leaving personnel unclear about their security duties and potential consequences of",
       "applicability": "Employment contracts and offer letters Contractor and vendor agreements Third-party service provider contracts Non-disclosure agreements (NDAs) Acceptable use policies (AUPs) Code of conduct documentation Job descriptions for security-sensitive roles Terms of service for system access",
-      "definition_ref": "/v1.0.0/signals/HITRUST/HR/CSE-HITRUST-HR-NO-TERMS-002/",
+      "definition_ref": "/signals/HITRUST/HR/CSE-HITRUST-HR-NO-TERMS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2240,7 +2240,7 @@
       "canonical_name": "Breach Notification Missing",
       "description": "Procedures have not been established for breach notification to affected individuals, regulatory authorities, and other relevant parties in accordance with applicable legal and regulatory requirements. This signal indicates that an organization has not implemented formal breach notification procedures required to comply with data protection laws, industry regulations, and contractual obligations.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA breach notification rules Organizations processing EU personal data under GDPR (72-hour notification) Financial institutions with state and federal notification requirements Organizations subject to state breach notification laws Payment card processors under PCI DSS requirements Cloud service providers with customer notification obligations Organizations handling personal information across multiple jurisdictions Publicly traded",
-      "definition_ref": "/v1.0.0/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-BREACH-NOTIFICATION-006/",
+      "definition_ref": "/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-BREACH-NOTIFICATION-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2290,7 +2290,7 @@
       "canonical_name": "Evidence Collection Missing",
       "description": "Procedures have not been established for the identification, collection, acquisition, and preservation of information that can serve as evidence during incident investigation and potential legal proceedings. This signal indicates that an organization has not implemented forensically sound evidence handling procedures necessary for incident analysis, investigation, and potential legal or regulatory actions.",
       "applicability": "This signal applies to: Organizations subject to legal discovery requirements Healthcare organizations investigating PHI breaches Financial institutions handling fraud investigations Law enforcement and government agencies Organizations with cyber insurance requirements Companies facing potential litigation Entities cooperating with regulatory investigations Organizations with internal audit requirements",
-      "definition_ref": "/v1.0.0/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-EVIDENCE-005/",
+      "definition_ref": "/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-EVIDENCE-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2340,7 +2340,7 @@
       "canonical_name": "Incident Learning Missing",
       "description": "Mechanisms have not been established to quantify and monitor the types, volumes, and costs of information security incidents, or to use this information to identify recurring or high-impact incidents. This signal indicates that an organization has not implemented processes to learn from security incidents through analysis, measurement, and continuous improvement activities.",
       "applicability": "This signal applies to: Organizations with mature security programs Managed security service providers tracking incident trends Healthcare organizations analyzing security event patterns Financial institutions measuring incident costs Organizations with compliance reporting requirements Security operations centers (SOCs) performing metrics analysis Risk management teams assessing threat landscapes Organizations seeking process improvement",
-      "definition_ref": "/v1.0.0/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-LEARNING-004/",
+      "definition_ref": "/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-LEARNING-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2390,7 +2390,7 @@
       "canonical_name": "Incident Procedures Missing",
       "description": "Management responsibilities and procedures have not been established to ensure a quick, effective, and orderly response to information security incidents. This signal indicates that an organization has not implemented formal incident management procedures that define roles, responsibilities, and processes for detecting, responding to, and recovering from security incidents.",
       "applicability": "This signal applies to: Healthcare organizations handling protected health information (PHI) Financial services organizations processing payment card data Organizations subject to breach notification requirements Cloud service providers with incident response obligations Managed security service providers (MSSPs) Organizations with 24/7 operational requirements Entities handling sensitive customer data Organizations subject to regulatory incident reporting",
-      "definition_ref": "/v1.0.0/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-PROCEDURES-001/",
+      "definition_ref": "/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-PROCEDURES-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2440,7 +2440,7 @@
       "canonical_name": "Incident Reporting Missing",
       "description": "Information security events have not been reported through appropriate management channels as quickly as possible, or reporting mechanisms and procedures have not been established. This signal indicates that an organization has not implemented formal incident reporting procedures that enable timely notification of security events to appropriate stakeholders and management.",
       "applicability": "This signal applies to: Healthcare organizations with HIPAA breach notification requirements Financial institutions subject to regulatory reporting obligations Organizations processing payment card data under PCI DSS Cloud service providers with customer notification requirements Government contractors with incident reporting mandates Organizations subject to GDPR breach notification requirements Publicly traded companies with disclosure obligations Managed service providers with contractual rep",
-      "definition_ref": "/v1.0.0/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-REPORTING-002/",
+      "definition_ref": "/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-REPORTING-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2490,7 +2490,7 @@
       "canonical_name": "Incident Response Missing",
       "description": "Information security incident response procedures have not been established and maintained to ensure consistent and effective handling of security incidents. This signal indicates that an organization has not implemented documented response procedures that guide the containment, eradication, and recovery activities following a security incident.",
       "applicability": "This signal applies to: Healthcare organizations responding to PHI breaches Financial services organizations handling fraud and cyber attacks Organizations operating security operations centers (SOCs) Cloud service providers with incident response commitments Critical infrastructure operators Organizations with cyber insurance requirements E-commerce platforms handling customer data Organizations subject to incident response audits",
-      "definition_ref": "/v1.0.0/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-RESPONSE-003/",
+      "definition_ref": "/signals/HITRUST/INCIDENT/CSE-HITRUST-INCIDENT-NO-RESPONSE-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2540,7 +2540,7 @@
       "canonical_name": "System Authorization Process Missing",
       "description": "Detects the absence of a formal process to authorize information systems before they are placed into operation. The authorization process must include security assessment, risk acceptance, and formal approval by designated authority. Systems processing PHI require authorization based on documented security controls and residual risk determination.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-AUTHORIZATION-PROCESS-005/",
+      "definition_ref": "/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-AUTHORIZATION-PROCESS-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2582,7 +2582,7 @@
       "canonical_name": "Security Coordination Not Implemented",
       "description": "Detects the absence of coordination between security functions, departments, and stakeholders. Effective security programs require coordinated activities across IT, legal, compliance, HR, and business units. This includes regular communication, cross-functional collaboration, and unified incident response capabilities.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-COORDINATION-003/",
+      "definition_ref": "/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-COORDINATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2624,7 +2624,7 @@
       "canonical_name": "Management Commitment Not Demonstrated",
       "description": "Detects the absence of formal senior management endorsement and commitment to the information security program. Management commitment must include formal approval of security policies, allocation of adequate resources (budget, personnel, tools), and active participation in security governance activities.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-MANAGEMENT-COMMITMENT-002/",
+      "definition_ref": "/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-MANAGEMENT-COMMITMENT-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2666,7 +2666,7 @@
       "canonical_name": "Information Security Program Not Established",
       "description": "Detects the absence of a formal information security program with documented objectives, scope, and governance structure. Organizations must establish a comprehensive security program that defines the organization's approach to protecting information assets, including clear objectives, defined scope, governance mechanisms, and resource allocation.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-PROGRAM-001/",
+      "definition_ref": "/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-PROGRAM-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2708,7 +2708,7 @@
       "canonical_name": "Security Responsibilities Not Assigned",
       "description": "Detects the absence of clearly assigned information security responsibilities to specific roles within the organization. Security responsibilities must be formally documented, assigned to qualified personnel, and include accountability mechanisms. This includes CISO or equivalent role, security team members, system owners, and business unit responsibilities.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-RESPONSIBILITIES-004/",
+      "definition_ref": "/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-RESPONSIBILITIES-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2750,7 +2750,7 @@
       "canonical_name": "Program Review Not Conducted",
       "description": "Detects the absence of periodic reviews of the information security program for effectiveness. The security program must be reviewed at planned intervals (at minimum annually) or when significant changes occur. Reviews should assess policy effectiveness, control implementation, compliance status, incident trends, and alignment with business objectives.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-REVIEW-006/",
+      "definition_ref": "/signals/HITRUST/ISMP/CSE-HITRUST-ISMP-NO-REVIEW-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2792,7 +2792,7 @@
       "canonical_name": "Mobile App Security Missing",
       "description": "Mobile application security controls and secure development practices have not been implemented for mobile applications that access, process, or store protected health information (PHI) or other sensitive data. This signal indicates the absence of security requirements, testing procedures, and technical controls specific to mobile applications. Mobile app security should address secure coding practices, data storage protection, network communication security, authentication mechanisms, authoriza",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Organizations developing mobile health applications Health information exchanges (HIEs) Medical device manufacturers with mobile apps Healthcare SaaS providers with mobile clients Organizations deploying internal mobile applications Patient portal and telehealth providers Mobile health (mHealth) solution providers",
-      "definition_ref": "/v1.0.0/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-APP-SECURITY-004/",
+      "definition_ref": "/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-APP-SECURITY-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2834,7 +2834,7 @@
       "canonical_name": "BYOD Controls Missing",
       "description": "Bring Your Own Device (BYOD) security controls and policies have not been established for an organization or system handling protected health information (PHI) or other sensitive data that allows personal devices to access organizational resources. This signal indicates the absence of specific controls, policies, and technical measures required to manage the unique security challenges posed by personally-owned devices accessing enterprise systems. BYOD controls should address data separation, pr",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers Organizations with BYOD programs or policies Organizations allowing personal device access to email or enterprise systems Remote workforce environments",
-      "definition_ref": "/v1.0.0/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-BYOD-003/",
+      "definition_ref": "/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-BYOD-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2876,7 +2876,7 @@
       "canonical_name": "Mobile Device Management Missing",
       "description": "Mobile Device Management (MDM) or Enterprise Mobility Management (EMM) solutions have not been implemented for an organization or system handling protected health information (PHI) or other sensitive data. This signal indicates the absence of technical controls and management capabilities for mobile devices that access organizational resources or process sensitive information. MDM solutions provide centralized management, security policy enforcement, application management, and remote device con",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers Organizations with mobile workforce or BYOD programs Organizations allowing mobile access to email or enterprise systems",
-      "definition_ref": "/v1.0.0/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-MDM-002/",
+      "definition_ref": "/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-MDM-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2918,7 +2918,7 @@
       "canonical_name": "Mobile Device Policy Missing",
       "description": "A formal mobile device security policy has not been established or documented for an organization or system handling protected health information (PHI) or other sensitive data. This signal indicates the absence of a documented policy that defines rules, procedures, and requirements for mobile device usage within the organization. A mobile device policy should establish clear guidelines for device enrollment, acceptable use, security requirements, data handling, and incident response procedures r",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers Organizations with mobile workforce or BYOD programs",
-      "definition_ref": "/v1.0.0/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-POLICY-001/",
+      "definition_ref": "/signals/HITRUST/MOBILE/CSE-HITRUST-MOBILE-NO-POLICY-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2960,7 +2960,7 @@
       "canonical_name": "Network Encryption Missing",
       "description": "Network communications encryption has not been implemented to protect protected health information (PHI) or other sensitive data transmitted across networks. This signal indicates the absence of encryption for data in transit over networks, including internal networks, external connections, wireless networks, and internet communications. Network encryption is essential for protecting PHI from interception, eavesdropping, and unauthorized disclosure during transmission.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers Telemedicine and remote health monitoring platforms",
-      "definition_ref": "/v1.0.0/signals/HITRUST/NETWORK/CSE-HITRUST-NETWORK-NO-ENCRYPTION-003/",
+      "definition_ref": "/signals/HITRUST/NETWORK/CSE-HITRUST-NETWORK-NO-ENCRYPTION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3010,7 +3010,7 @@
       "canonical_name": "Network Monitoring Missing",
       "description": "Network monitoring and traffic analysis capabilities have not been implemented to detect security threats and anomalous activities in systems handling protected health information (PHI) or other sensitive data. This signal indicates the absence of network monitoring, intrusion detection, or traffic analysis tools that continuously observe network activity for suspicious patterns, security incidents, or policy violations. Network monitoring is essential for detecting unauthorized access attempts,",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers Critical healthcare infrastructure operators",
-      "definition_ref": "/v1.0.0/signals/HITRUST/NETWORK/CSE-HITRUST-NETWORK-NO-MONITORING-004/",
+      "definition_ref": "/signals/HITRUST/NETWORK/CSE-HITRUST-NETWORK-NO-MONITORING-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3060,7 +3060,7 @@
       "canonical_name": "Network Perimeter Controls Missing",
       "description": "Network perimeter security controls have not been implemented to protect systems handling protected health information (PHI) or other sensitive data from external threats. This signal indicates the absence of security controls at network boundaries, including firewalls, intrusion prevention systems, or other perimeter defense mechanisms. Network perimeter controls are essential for preventing unauthorized access from external networks and the internet to systems processing sensitive health infor",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers On-premises and hybrid cloud deployments",
-      "definition_ref": "/v1.0.0/signals/HITRUST/NETWORK/CSE-HITRUST-NETWORK-NO-PERIMETER-002/",
+      "definition_ref": "/signals/HITRUST/NETWORK/CSE-HITRUST-NETWORK-NO-PERIMETER-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3110,7 +3110,7 @@
       "canonical_name": "Network Segmentation Missing",
       "description": "Network segmentation controls have not been implemented to separate systems handling protected health information (PHI) or other sensitive data from less secure network zones. This signal indicates the absence of network segmentation that isolates critical systems, databases, and applications processing sensitive health information from general-purpose networks, guest networks, or untrusted zones. Proper network segmentation reduces the attack surface and limits lateral movement in the event of",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers Cloud-based healthcare platforms",
-      "definition_ref": "/v1.0.0/signals/HITRUST/NETWORK/CSE-HITRUST-NETWORK-NO-SEGMENTATION-001/",
+      "definition_ref": "/signals/HITRUST/NETWORK/CSE-HITRUST-NETWORK-NO-SEGMENTATION-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3160,7 +3160,7 @@
       "canonical_name": "Backup Procedures Missing",
       "description": "Backup copies of information and software are not taken and tested regularly in accordance with an agreed backup policy. This signal indicates that an organization lacks adequate backup procedures, which may result in data loss, inability to recover from failures, or extended service disruptions.",
       "applicability": "This signal applies to: Database backups and point-in-time recovery File system and storage backups Configuration and infrastructure-as-code backups Application state and user data backups System images and snapshots Cloud resource backups Version control and source code repositories Backup verification and restoration testing",
-      "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-BACKUP-006/",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-BACKUP-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3202,7 +3202,7 @@
       "canonical_name": "Capacity Management Missing",
       "description": "Capacity and performance of information processing resources are not monitored, tuned, or projected to ensure adequate system performance and prevent service disruptions. This signal indicates that an organization lacks processes to manage resource capacity, which may lead to performance degradation, service outages, or inability to meet business requirements.",
       "applicability": "This signal applies to: Compute resources (CPU, memory, instances) Storage systems (disk space, IOPS, throughput) Network bandwidth and connectivity Database capacity and performance Application performance and scalability Cloud service quotas and limits Backup storage and retention capacity Log aggregation and storage capacity",
-      "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-CAPACITY-003/",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-CAPACITY-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3244,7 +3244,7 @@
       "canonical_name": "Change Management Missing",
       "description": "Changes to information processing facilities, systems, or software are not controlled through a formal change management process. This signal indicates that an organization lacks a structured approach to managing changes, which may result in unauthorized modifications, system instability, security vulnerabilities, or service disruptions.",
       "applicability": "This signal applies to: Infrastructure changes (servers, network, cloud resources) Application code and configuration changes Database schema and data modifications Security control updates Third-party software and library updates Operating system and platform changes Network topology and firewall rule changes IAM and access control modifications",
-      "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-CHANGE-MANAGEMENT-002/",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-CHANGE-MANAGEMENT-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3286,7 +3286,7 @@
       "canonical_name": "Clock Synchronization Missing",
       "description": "The clocks of information processing systems are not synchronized with an accurate and agreed-upon time source. This signal indicates that systems lack proper time synchronization, which may result in inaccurate audit logs, failed authentication mechanisms, certificate validation errors, or inability to correlate security events across systems.",
       "applicability": "This signal applies to: Server and workstation system clocks Network device time synchronization Cloud instance time configuration Container and orchestration platform time Database timestamp accuracy Application logging timestamps Authentication token time validation Certificate validity period verification",
-      "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-CLOCK-SYNC-009/",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-CLOCK-SYNC-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3328,7 +3328,7 @@
       "canonical_name": "Environment Separation Missing",
       "description": "Development, testing, and production environments are not adequately separated to reduce the risk of unauthorized access or changes to the operational environment. This signal indicates that environments lack proper segregation, which may lead to accidental production changes, exposure of production data in non-production environments, or security vulnerabilities.",
       "applicability": "This signal applies to: Cloud infrastructure and account separation Network segmentation between environments Database and data storage separation Application deployment environments CI/CD pipeline environment isolation IAM and access control separation Secret and credential management DNS and service discovery separation",
-      "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-ENVIRONMENT-SEPARATION-004/",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-ENVIRONMENT-SEPARATION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3370,7 +3370,7 @@
       "canonical_name": "Information Exchange Procedures Missing",
       "description": "Formal policies, procedures, and controls are not established to protect the exchange of information through the use of all types of communication facilities. This signal indicates that an organization lacks adequate controls for information exchange, which may result in unauthorized disclosure, interception, or modification of sensitive data during transmission or sharing.",
       "applicability": "This signal applies to: Email communications and attachments File transfer protocols and services API data exchange and integration Electronic messaging and collaboration platforms Cloud file sharing and synchronization Business partner data exchange Third-party integrations and data feeds Physical media exchange and courier services",
-      "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-INFORMATION-EXCHANGE-012/",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-INFORMATION-EXCHANGE-012/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3412,7 +3412,7 @@
       "canonical_name": "Log Protection Missing",
       "description": "Logging facilities and log information are not protected against tampering, unauthorized access, or deletion. This signal indicates that audit logs lack adequate protection mechanisms, which may allow attackers to hide their activities, prevent incident detection, or compromise forensic evidence.",
       "applicability": "This signal applies to: Log file access controls and permissions Log storage encryption and integrity protection Centralized log aggregation systems Log retention and archival systems Log modification detection mechanisms Write-once or immutable log storage Log backup and recovery procedures Administrative access to logging infrastructure",
-      "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-LOG-PROTECTION-008/",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-LOG-PROTECTION-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3454,7 +3454,7 @@
       "canonical_name": "Operational Logging Missing",
       "description": "Audit logs recording user activities, exceptions, and information security events are not produced, kept, and regularly reviewed. This signal indicates that systems lack adequate logging capabilities, which may prevent detection of security incidents, hinder troubleshooting, and limit forensic investigation capabilities.",
       "applicability": "This signal applies to: Authentication and authorization events System and application access logs Administrative and privileged operations Security-relevant events and exceptions Data access and modification logs Network traffic and connection logs Cloud service and API activity logs Database query and transaction logs",
-      "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-LOGGING-007/",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-LOGGING-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3496,7 +3496,7 @@
       "canonical_name": "Malware Protection Missing",
       "description": "Malware detection and prevention controls are not implemented, maintained, or regularly updated to protect information systems and data. This signal indicates that systems lack adequate protection against malicious software, which may result in malware infections, data breaches, system compromise, or service disruptions.",
       "applicability": "This signal applies to: Endpoint protection (workstations, laptops, mobile devices) Server anti-malware solutions Email gateway scanning Web content filtering and scanning File upload and transfer scanning Container image scanning Cloud workload protection Network-based malware detection",
-      "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-MALWARE-PROTECTION-005/",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-MALWARE-PROTECTION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3538,7 +3538,7 @@
       "canonical_name": "Media Management Missing",
       "description": "Procedures for the management of removable media and the secure disposal of media are not implemented to prevent unauthorized disclosure, modification, removal, or destruction of information. This signal indicates that an organization lacks controls for media handling, which may result in data leakage, unauthorized access to sensitive information, or improper disposal of media containing confidential data.",
       "applicability": "This signal applies to: Removable storage devices (USB drives, external drives) Optical media (CDs, DVDs, Blu-ray) Magnetic media (backup tapes, hard drives) Printed documents and reports Mobile devices and tablets Legacy media formats Cloud storage transfer media Disposal and destruction of media",
-      "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-MEDIA-MANAGEMENT-011/",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-MEDIA-MANAGEMENT-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3580,7 +3580,7 @@
       "canonical_name": "Patch Management Missing",
       "description": "Technical vulnerabilities are not identified and evaluated in a timely manner, and appropriate software updates or patches are not applied to address identified vulnerabilities. This signal indicates that an organization lacks a systematic approach to patch management, which may leave systems exposed to known vulnerabilities and increase the risk of exploitation.",
       "applicability": "This signal applies to: Operating system security updates Application and middleware patches Third-party library and dependency updates Firmware and BIOS updates Container base image updates Cloud service agent and extension updates Database management system patches Network device and security appliance updates",
-      "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-PATCH-MANAGEMENT-010/",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-PATCH-MANAGEMENT-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3622,7 +3622,7 @@
       "canonical_name": "Operating Procedures Not Documented",
       "description": "Operating procedures and responsibilities for managing and operating information processing facilities are not documented, maintained, or made available to authorized personnel. This signal indicates that an organization lacks formal documentation of operational procedures for IT systems, which may lead to inconsistent operations, increased risk of errors, and difficulty in maintaining security controls.",
       "applicability": "This signal applies to: IT operations teams managing infrastructure and systems Cloud service operations and management procedures Database administration and maintenance procedures Network operations and monitoring procedures Application deployment and management procedures Backup and recovery operations Incident response and escalation procedures Change management processes",
-      "definition_ref": "/v1.0.0/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-PROCEDURES-001/",
+      "definition_ref": "/signals/HITRUST/OPS/CSE-HITRUST-OPS-NO-PROCEDURES-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3664,7 +3664,7 @@
       "canonical_name": "Security Authority Not Established",
       "description": "No designated authority has been established for making security decisions within the organization. This signal indicates that the organization lacks a formally assigned individual or group with the authority to make binding decisions regarding information security matters, including policy interpretation, risk acceptance, security exceptions, and incident response actions.",
       "applicability": "This signal applies to: Security governance structures Decision-making frameworks and processes Security policy documentation Risk management programs Exception and waiver processes Incident response procedures Change advisory boards Executive leadership documentation",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-AUTHORITY-003/",
+      "definition_ref": "/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-AUTHORITY-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3714,7 +3714,7 @@
       "canonical_name": "External Contact Process Missing",
       "description": "No documented process exists for engaging with external authorities or special interest groups on security matters. This signal indicates that the organization has not established formal procedures for maintaining relationships with, reporting to, or coordinating with external entities such as law enforcement, regulatory authorities, industry groups, information sharing organizations, or security response teams (e.g., CERT/CC, ISACs).",
       "applicability": "This signal applies to: Incident response procedures Breach notification processes Regulatory compliance programs Information sharing agreements Law enforcement coordination Industry partnership documentation Security operations procedures Crisis management plans",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-EXTERNAL-CONTACT-005/",
+      "definition_ref": "/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-EXTERNAL-CONTACT-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3764,7 +3764,7 @@
       "canonical_name": "Security Roles Not Defined",
       "description": "Security roles and responsibilities are not formally defined within the organization. This signal indicates that the organization has not established or documented specific roles responsible for information security activities, including defining security objectives, implementing controls, managing incidents, and maintaining compliance.",
       "applicability": "This signal applies to: Organizational security documentation and policies Role definitions and job descriptions Responsibility assignment matrices (RACI) Security governance frameworks Organizational charts and reporting structures Human resources documentation Security program charters Vendor and third-party contracts",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-ROLES-001/",
+      "definition_ref": "/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-ROLES-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3814,7 +3814,7 @@
       "canonical_name": "Organizational Segregation Missing",
       "description": "No segregation exists between security functions and operational functions within the organization. This signal indicates that the organization has not established separation of duties between those responsible for implementing and enforcing security controls and those performing day-to-day operational activities. This lack of segregation can create conflicts of interest and reduce the effectiveness of security oversight.",
       "applicability": "This signal applies to: Organizational structure and reporting lines Role and responsibility definitions Access control and privilege assignments Change management processes Security review and approval workflows Audit and compliance functions Risk management structures Incident response teams",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-SEGREGATION-002/",
+      "definition_ref": "/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-SEGREGATION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3864,7 +3864,7 @@
       "canonical_name": "Security Specialist Contact Missing",
       "description": "The organization has no documented access to security specialists or professional security groups. This signal indicates that the organization has not established or documented relationships with information security specialists, consultants, professional organizations, or special interest groups that can provide expertise, guidance, and support for security matters.",
       "applicability": "This signal applies to: Security program documentation Vendor and consultant relationships Professional membership records Incident response plans Security training and awareness programs Third-party service agreements Knowledge management systems Emergency contact lists",
-      "definition_ref": "/v1.0.0/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-SPECIALIST-004/",
+      "definition_ref": "/signals/HITRUST/ORG/CSE-HITRUST-ORG-NO-SPECIALIST-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3914,7 +3914,7 @@
       "canonical_name": "Cabling Security Missing",
       "description": "No security measures in place to protect power and telecommunications cabling carrying data or supporting information services from interception, interference, or damage.",
       "applicability": "This signal applies to: Network cabling infrastructure Power cabling for critical systems Telecommunications lines Fiber optic connections Data center structured cabling",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-CABLING-006/",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-CABLING-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3964,7 +3964,7 @@
       "canonical_name": "Secure Disposal Missing",
       "description": "No secure disposal procedures in place for equipment, media, or documents containing sensitive information to prevent unauthorized disclosure.",
       "applicability": "This signal applies to: Storage media (hard drives, SSDs, tapes) Paper documents and printouts Decommissioned equipment Backup media and archives Mobile devices and removable media",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-DISPOSAL-008/",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-DISPOSAL-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4014,7 +4014,7 @@
       "canonical_name": "Physical Entry Controls Missing",
       "description": "No physical entry controls in place to ensure only authorized personnel are allowed access to secure areas.",
       "applicability": "This signal applies to: Data centers and server rooms Secure areas containing sensitive information Information processing facilities Storage areas for sensitive media Restricted access zones within facilities",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-ENTRY-CONTROLS-002/",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-ENTRY-CONTROLS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4064,7 +4064,7 @@
       "canonical_name": "Equipment Protection Missing",
       "description": "No physical protection measures in place for equipment against environmental threats and unauthorized access.",
       "applicability": "This signal applies to: Servers and network equipment Data storage systems Workstations and laptops Mobile devices with access to sensitive information Backup media and systems",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-EQUIPMENT-PROTECTION-004/",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-EQUIPMENT-PROTECTION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4114,7 +4114,7 @@
       "canonical_name": "Equipment Maintenance Missing",
       "description": "No equipment maintenance procedures in place to ensure the continuing availability and integrity of information processing facilities.",
       "applicability": "This signal applies to: Servers and network infrastructure Data storage systems Environmental control systems Physical security systems Supporting utilities and backup systems",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-MAINTENANCE-007/",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-MAINTENANCE-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4164,7 +4164,7 @@
       "canonical_name": "Physical Security Perimeter Missing",
       "description": "No physical security perimeters defined to protect areas containing sensitive information and information processing facilities.",
       "applicability": "This signal applies to: Data centers and server rooms Office facilities with sensitive information Areas housing information processing equipment Storage areas containing sensitive media Facilities with access to covered information",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-PERIMETER-001/",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-PERIMETER-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4214,7 +4214,7 @@
       "canonical_name": "Secure Area Procedures Missing",
       "description": "No security procedures and controls for working in secure areas to prevent unauthorized access and protect information.",
       "applicability": "This signal applies to: Data centers and server rooms Secure offices and work areas Information processing facilities Areas with sensitive information access Restricted zones requiring special authorization",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-SECURE-AREAS-003/",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-SECURE-AREAS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4264,7 +4264,7 @@
       "canonical_name": "Supporting Utilities Not Protected",
       "description": "No protection in place for supporting utilities that enable information processing facilities including power, cooling, and telecommunications.",
       "applicability": "This signal applies to: Data center power systems and UPS HVAC and cooling systems Telecommunications infrastructure Emergency power generators Utility rooms and closets",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-SUPPORTING-UTILITIES-005/",
+      "definition_ref": "/signals/HITRUST/PHYSICAL/CSE-HITRUST-PHYSICAL-NO-SUPPORTING-UTILITIES-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4314,7 +4314,7 @@
       "canonical_name": "Policy Approval Not Obtained",
       "description": "Security policies have not been approved by management. Organizations must ensure that the information security policy is formally approved by executive leadership or designated management authority to demonstrate organizational commitment and provide governance authority. This signal indicates the absence of formal management approval for security policies.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA Organizations handling protected health information (PHI) Covered entities and business associates Health information technology vendors Organizations seeking HITRUST certification Any entity managing sensitive healthcare data",
-      "definition_ref": "/v1.0.0/signals/HITRUST/POLICY/CSE-HITRUST-POLICY-NO-APPROVAL-002/",
+      "definition_ref": "/signals/HITRUST/POLICY/CSE-HITRUST-POLICY-NO-APPROVAL-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4358,7 +4358,7 @@
       "canonical_name": "Policy Not Communicated",
       "description": "Policies have not been communicated to the workforce and relevant external parties. Organizations must ensure that security policies are effectively published, distributed, and communicated to all employees, contractors, and relevant third parties who need to understand and comply with security requirements. This signal indicates the failure to communicate security policies to affected parties.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA Organizations handling protected health information (PHI) Covered entities and business associates Health information technology vendors Organizations seeking HITRUST certification Any entity managing sensitive healthcare data",
-      "definition_ref": "/v1.0.0/signals/HITRUST/POLICY/CSE-HITRUST-POLICY-NO-COMMUNICATION-003/",
+      "definition_ref": "/signals/HITRUST/POLICY/CSE-HITRUST-POLICY-NO-COMMUNICATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4402,7 +4402,7 @@
       "canonical_name": "Security Policy Not Documented",
       "description": "No formal information security policy document exists. Organizations must establish, document, and maintain an information security policy that defines the organization's approach to managing information security, including objectives, principles, and responsibilities. This signal indicates the complete absence of a documented information security policy framework.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA Organizations handling protected health information (PHI) Covered entities and business associates Health information technology vendors Organizations seeking HITRUST certification Any entity managing sensitive healthcare data",
-      "definition_ref": "/v1.0.0/signals/HITRUST/POLICY/CSE-HITRUST-POLICY-NO-DOCUMENT-001/",
+      "definition_ref": "/signals/HITRUST/POLICY/CSE-HITRUST-POLICY-NO-DOCUMENT-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4446,7 +4446,7 @@
       "canonical_name": "Policy Review Not Conducted",
       "description": "No periodic review of policy relevance and effectiveness has been conducted. Organizations must regularly review and update security policies to ensure they remain appropriate, effective, and aligned with the current threat landscape, business objectives, regulatory requirements, and organizational changes. This signal indicates the absence of a policy review process or failure to conduct scheduled reviews.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA Organizations handling protected health information (PHI) Covered entities and business associates Health information technology vendors Organizations seeking HITRUST certification Any entity managing sensitive healthcare data",
-      "definition_ref": "/v1.0.0/signals/HITRUST/POLICY/CSE-HITRUST-POLICY-NO-REVIEW-004/",
+      "definition_ref": "/signals/HITRUST/POLICY/CSE-HITRUST-POLICY-NO-REVIEW-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4490,7 +4490,7 @@
       "canonical_name": "Individual Access Rights Missing",
       "description": "Mechanisms to enable individuals to access, review, and obtain copies of their personal or protected health information (PHI) have not been established or implemented. This signal indicates the absence of processes and systems that allow individuals to exercise their right to access their own information held by the organization. Individual access rights are fundamental to privacy regulations and enable individuals to verify the accuracy of their information, understand how it is being used, and",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Patient portals and health record systems Health information exchanges (HIEs) Medical billing and claims processing Laboratory and diagnostic services Pharmacy management systems",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-ACCESS-RIGHTS-004/",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-ACCESS-RIGHTS-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4540,7 +4540,7 @@
       "canonical_name": "Amendment Process Missing",
       "description": "A formal process to enable individuals to request amendments or corrections to their personal or protected health information (PHI) has not been established or documented. This signal indicates the absence of procedures and systems that allow individuals to request changes to inaccurate, incomplete, or outdated information held by the organization. The right to amendment is essential for data accuracy and individual autonomy, enabling individuals to correct errors that could impact their care, c",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Electronic health record (EHR) systems Patient portal platforms Medical billing and claims systems Health information exchanges (HIEs) Laboratory information systems",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-AMENDMENT-006/",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-AMENDMENT-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4590,7 +4590,7 @@
       "canonical_name": "Complaints Process Missing",
       "description": "A formal process to receive, investigate, and respond to privacy complaints from individuals has not been established or documented. This signal indicates the absence of mechanisms that enable individuals to file complaints about privacy practices, potential privacy violations, or concerns about how their personal or protected health information (PHI) is being handled. A complaints process is essential for accountability, continuous improvement, and demonstrating responsiveness to individual pri",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Patient advocacy programs Health information exchanges (HIEs) Healthcare customer service operations Privacy and compliance offices Healthcare SaaS providers",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-COMPLAINTS-007/",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-COMPLAINTS-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4640,7 +4640,7 @@
       "canonical_name": "Consent Management Missing",
       "description": "A formal consent management process has not been established for obtaining, recording, and managing individual consent for the collection, use, and disclosure of personal or protected health information (PHI). This signal indicates the absence of mechanisms to obtain explicit consent from individuals before collecting or using their information for purposes beyond treatment, payment, and healthcare operations. Consent management includes capturing consent decisions, maintaining records of consen",
       "applicability": "Healthcare organizations subject to HIPAA Research institutions conducting health studies Organizations pursuing HITRUST certification Digital health and wellness applications Genetic testing and personalized medicine providers Healthcare marketing and analytics platforms Third-party health information processors Telehealth and remote monitoring services",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-CONSENT-002/",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-CONSENT-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4690,7 +4690,7 @@
       "canonical_name": "Disclosure Tracking Missing",
       "description": "Systems and processes to track and record disclosures of personal or protected health information (PHI) to third parties have not been established or maintained. This signal indicates the absence of disclosure tracking mechanisms that record when, to whom, and for what purpose personal information is shared outside the organization. Disclosure tracking is essential for accountability, enabling organizations to provide individuals with an accounting of disclosures and ensuring compliance with pri",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Health information exchanges (HIEs) Research institutions sharing health data Third-party service providers Insurance claims processors Public health reporting entities",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-DISCLOSURE-TRACKING-005/",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-DISCLOSURE-TRACKING-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4740,7 +4740,7 @@
       "canonical_name": "Privacy Notice Missing",
       "description": "A privacy notice has not been established or provided to individuals whose personal or protected health information (PHI) is collected, processed, or maintained by the organization. This signal indicates the absence of a documented privacy notice that informs individuals about what personal information is collected, how it is used, with whom it is shared, and what rights individuals have regarding their information. A privacy notice is a fundamental requirement for transparency and regulatory co",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Health information exchanges (HIEs) Healthcare SaaS providers Medical device manufacturers collecting health data Digital health applications Telehealth platforms",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-NOTICE-001/",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-NOTICE-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4790,7 +4790,7 @@
       "canonical_name": "Privacy Training Missing",
       "description": "A formal privacy training and awareness program for workforce members who handle personal or protected health information (PHI) has not been established or implemented. This signal indicates the absence of training programs that educate employees, contractors, and other workforce members about privacy policies, individual privacy rights, regulatory requirements, and their responsibilities for protecting personal information. Privacy training is fundamental to creating a privacy-aware culture and",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Healthcare workforce development programs New employee onboarding processes Continuing education and compliance programs Privacy and security office operations Healthcare SaaS and technology providers",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-TRAINING-008/",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-TRAINING-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4840,7 +4840,7 @@
       "canonical_name": "Use Limitation Missing",
       "description": "Controls to limit the use of personal or protected health information (PHI) to specified, legitimate purposes have not been established or enforced. This signal indicates the absence of technical or procedural controls that restrict how personal information is used within the organization. Use limitation ensures that information collected for one purpose is not used for unrelated purposes without appropriate authorization or consent. This principle is fundamental to privacy protection and data m",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Health information exchanges (HIEs) Healthcare analytics and research organizations Medical device manufacturers Healthcare SaaS and cloud service providers Insurance companies processing health claims",
-      "definition_ref": "/v1.0.0/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-USE-LIMITATION-003/",
+      "definition_ref": "/signals/HITRUST/PRIVACY/CSE-HITRUST-PRIVACY-NO-USE-LIMITATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4890,7 +4890,7 @@
       "canonical_name": "Risk Acceptance Not Documented",
       "description": "Organization has not formally documented risk acceptance decisions with appropriate management authorization. When risks cannot be mitigated to acceptable levels or when mitigation is not cost-effective, formal risk acceptance must be documented with clear justification, management approval, residual risk levels, and review periods.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with residual or accepted risks",
-      "definition_ref": "/v1.0.0/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-ACCEPTANCE-004/",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-ACCEPTANCE-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4942,7 +4942,7 @@
       "canonical_name": "Risk Assessment Not Conducted",
       "description": "Organization has not conducted a comprehensive risk assessment to identify and evaluate risks to the confidentiality, integrity, and availability of information assets and systems. Risk assessments must systematically identify threats, vulnerabilities, likelihood, and potential impacts to enable informed risk management decisions.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with regulated information assets",
-      "definition_ref": "/v1.0.0/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-ASSESSMENT-001/",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-ASSESSMENT-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4994,7 +4994,7 @@
       "canonical_name": "Risk Assessment Methodology Missing",
       "description": "Organization lacks a documented, consistent, and repeatable risk assessment methodology. A formal methodology must define the approach, criteria, and procedures for identifying assets, threats, and vulnerabilities, evaluating likelihood and impact, and determining risk levels to ensure systematic and comparable risk assessments across the organization.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations requiring consistent risk evaluation processes",
-      "definition_ref": "/v1.0.0/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-METHODOLOGY-002/",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-METHODOLOGY-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5046,7 +5046,7 @@
       "canonical_name": "Risk Monitoring Not Implemented",
       "description": "Organization has not implemented ongoing risk monitoring processes to track changes in the risk environment, assess control effectiveness, and identify emerging threats. Risk monitoring must continuously evaluate the organization's risk posture, validate that risk treatments are effective, and detect new or evolving risks requiring management attention.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with dynamic threat landscapes",
-      "definition_ref": "/v1.0.0/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-MONITORING-005/",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-MONITORING-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5098,7 +5098,7 @@
       "canonical_name": "Periodic Risk Review Not Conducted",
       "description": "Organization does not conduct periodic reviews of risk assessments, risk treatment plans, and risk management processes to ensure they remain current, effective, and aligned with business objectives. Periodic reviews must reassess risks in light of organizational changes, new threats, control effectiveness, and evolving regulatory requirements.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with established risk management programs",
-      "definition_ref": "/v1.0.0/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-PERIODIC-REVIEW-008/",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-PERIODIC-REVIEW-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5150,7 +5150,7 @@
       "canonical_name": "Threat Intelligence Not Utilized",
       "description": "Organization does not integrate threat intelligence into risk management processes to identify emerging threats, attack patterns, and adversary tactics relevant to healthcare environments. Threat intelligence must be collected from internal and external sources, analyzed for relevance, and used to update risk assessments, strengthen defenses, and inform security decisions.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations facing sophisticated threat actors",
-      "definition_ref": "/v1.0.0/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-THREAT-INTELLIGENCE-006/",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-THREAT-INTELLIGENCE-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5202,7 +5202,7 @@
       "canonical_name": "Risk Treatment Plan Missing",
       "description": "Organization has not developed a risk treatment plan to address identified risks through mitigation, transfer, avoidance, or acceptance strategies. Risk treatment plans must document selected risk responses, assigned responsibilities, required resources, timelines, and expected outcomes for each significant risk.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with identified security and privacy risks",
-      "definition_ref": "/v1.0.0/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-TREATMENT-003/",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-TREATMENT-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5254,7 +5254,7 @@
       "canonical_name": "Vulnerability Management Missing",
       "description": "Organization lacks a systematic vulnerability management program to identify, assess, prioritize, and remediate security vulnerabilities in systems, applications, and infrastructure. Vulnerability management must include regular scanning, assessment of findings, risk-based prioritization, timely remediation, and verification of fixes to reduce the attack surface.",
       "applicability": "This signal applies to: Healthcare organizations subject to HIPAA requirements Organizations handling sensitive health information Entities subject to HITRUST CSF certification Cloud service providers in healthcare sector Business associates and covered entities Organizations with IT infrastructure and applications",
-      "definition_ref": "/v1.0.0/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-VULNERABILITY-MANAGEMENT-007/",
+      "definition_ref": "/signals/HITRUST/RISK/CSE-HITRUST-RISK-NO-VULNERABILITY-MANAGEMENT-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5306,7 +5306,7 @@
       "canonical_name": "Code Review Not Conducted",
       "description": "Security-focused code reviews have not been conducted for applications and systems processing protected health information (PHI) or other sensitive data, increasing the risk of security vulnerabilities, coding errors, and compliance issues. This signal indicates the absence of peer code review processes, security code analysis, or formal code inspection procedures that identify security flaws, logic errors, and deviations from secure coding standards. Code reviews should be performed by qualifie",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Software development teams building healthcare applications Organizations with custom application development Medical device manufacturers Healthcare SaaS providers Organizations modifying open-source healthcare software",
-      "definition_ref": "/v1.0.0/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-CODE-REVIEW-008/",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-CODE-REVIEW-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5356,7 +5356,7 @@
       "canonical_name": "Cryptographic Controls Missing",
       "description": "Cryptographic controls have not been implemented in information systems processing protected health information (PHI) or other sensitive data, leaving data vulnerable to unauthorized access, disclosure, or tampering. This signal indicates the absence of appropriate encryption, hashing, or other cryptographic mechanisms to protect data confidentiality and integrity. Cryptographic controls should include encryption of data at rest, encryption of data in transit, secure hashing of passwords, digita",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems storing or transmitting sensitive health information Patient portals and mobile health applications Electronic health record (EHR) systems Medical device communications Cloud-based healthcare services",
-      "definition_ref": "/v1.0.0/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-CRYPTOGRAPHY-005/",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-CRYPTOGRAPHY-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5406,7 +5406,7 @@
       "canonical_name": "Input Validation Missing",
       "description": "Input validation controls have not been implemented in information systems processing protected health information (PHI) or other sensitive data, leaving the system vulnerable to injection attacks, data corruption, and other input-based exploits. This signal indicates the absence of proper validation, sanitization, and filtering of user inputs, file uploads, API requests, and other data entering the system. Input validation is a critical security control that helps prevent SQL injection, cross-s",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Web applications and APIs handling patient data Medical device software Healthcare SaaS providers Electronic health record (EHR) systems",
-      "definition_ref": "/v1.0.0/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-INPUT-VALIDATION-002/",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-INPUT-VALIDATION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5456,7 +5456,7 @@
       "canonical_name": "Processing Integrity Controls Missing",
       "description": "Data processing integrity controls have not been implemented in information systems handling protected health information (PHI) or other sensitive data, creating risk of data corruption, unauthorized modification, or processing errors. This signal indicates the absence of controls that ensure data is processed completely, accurately, and in a timely manner. Processing integrity controls include transaction validation, error detection and correction, reconciliation procedures, checksums, digital",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Electronic health record (EHR) systems Health information exchanges (HIEs) Claims processing systems Laboratory information systems Pharmacy management systems",
-      "definition_ref": "/v1.0.0/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-INTEGRITY-CONTROLS-003/",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-INTEGRITY-CONTROLS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5506,7 +5506,7 @@
       "canonical_name": "Key Management Missing",
       "description": "Cryptographic key management controls have not been implemented in information systems processing protected health information (PHI) or other sensitive data, creating risk of key compromise, unauthorized data access, or inability to decrypt critical information. This signal indicates the absence of proper procedures and controls for generating, distributing, storing, rotating, revoking, and destroying cryptographic keys. Key management is essential for maintaining the security of encrypted data",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems using encryption for data protection Cloud-based healthcare services Applications with encrypted databases Mobile health applications Medical device manufacturers",
-      "definition_ref": "/v1.0.0/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-KEY-MANAGEMENT-006/",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-KEY-MANAGEMENT-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5556,7 +5556,7 @@
       "canonical_name": "Output Validation Missing",
       "description": "Output validation and encoding controls have not been implemented in information systems processing protected health information (PHI) or other sensitive data, creating vulnerability to cross-site scripting (XSS), data leakage, and other output-based security issues. This signal indicates the absence of proper encoding, sanitization, and validation of data being output to users, external systems, logs, reports, or other destinations. Output validation prevents injection of malicious content into",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Web applications displaying patient data Systems generating reports or exports APIs providing data to external systems Patient portals and healthcare applications Medical device interfaces",
-      "definition_ref": "/v1.0.0/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-OUTPUT-VALIDATION-004/",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-OUTPUT-VALIDATION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5606,7 +5606,7 @@
       "canonical_name": "Security Requirements Not Specified",
       "description": "Security requirements have not been defined, documented, or incorporated into the systems acquisition, development, and maintenance lifecycle for information systems processing protected health information (PHI) or other sensitive data. This signal indicates the absence of formal security requirements that should guide the design, development, and implementation of information systems. Security requirements should address confidentiality, integrity, availability, authentication, authorization, a",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Systems processing sensitive health information Health information exchanges (HIEs) Medical device manufacturers Healthcare SaaS providers Organizations developing custom healthcare applications",
-      "definition_ref": "/v1.0.0/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-REQUIREMENTS-001/",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-REQUIREMENTS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5656,7 +5656,7 @@
       "canonical_name": "Secure Development Practices Missing",
       "description": "Secure development practices and secure coding standards have not been established or followed in the development of information systems processing protected health information (PHI) or other sensitive data. This signal indicates the absence of formal secure development lifecycle (SDLC) processes, secure coding guidelines, developer training, security tools integration, and quality assurance practices that ensure security is built into applications from inception. Secure development practices in",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Software development teams building healthcare applications Organizations procuring custom software Medical device manufacturers Healthcare SaaS providers Organizations with in-house development teams",
-      "definition_ref": "/v1.0.0/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-SECURE-DEVELOPMENT-007/",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-SECURE-DEVELOPMENT-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5706,7 +5706,7 @@
       "canonical_name": "Test Data Protection Missing",
       "description": "Test data protection controls have not been implemented for development, testing, and quality assurance environments, creating risk of unauthorized access to protected health information (PHI) or other sensitive data used in non-production systems. This signal indicates the absence of controls for creating, using, and disposing of test data, including data masking, anonymization, synthetic data generation, and access controls. Production PHI should not be used in test environments without proper",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Software development teams with test environments Organizations conducting user acceptance testing Quality assurance teams Medical device manufacturers Healthcare SaaS providers with staging environments",
-      "definition_ref": "/v1.0.0/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-TEST-DATA-010/",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-TEST-DATA-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5756,7 +5756,7 @@
       "canonical_name": "Security Testing Missing",
       "description": "Security testing has not been conducted for applications and systems processing protected health information (PHI) or other sensitive data, leaving vulnerabilities undetected before deployment to production. This signal indicates the absence of systematic security testing activities including vulnerability scanning, penetration testing, security functional testing, static application security testing (SAST), dynamic application security testing (DAST), and software composition analysis (SCA). Se",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Software development teams building healthcare applications Organizations deploying new systems or major updates Medical device manufacturers Healthcare SaaS providers Patient portals and mobile health applications",
-      "definition_ref": "/v1.0.0/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-TESTING-009/",
+      "definition_ref": "/signals/HITRUST/SDLC/CSE-HITRUST-SDLC-NO-TESTING-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5806,7 +5806,7 @@
       "canonical_name": "Security Contract Requirements Missing",
       "description": "Detects the absence of security requirements in vendor and third-party service provider contracts. Organizations must ensure that contracts with vendors include appropriate security clauses covering data protection, security controls, incident notification, audit rights, compliance obligations, and liability provisions to protect the organization's information assets and maintain regulatory compliance.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector Organizations outsourcing critical business functions",
-      "definition_ref": "/v1.0.0/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-CONTRACT-REQUIREMENTS-002/",
+      "definition_ref": "/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-CONTRACT-REQUIREMENTS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5848,7 +5848,7 @@
       "canonical_name": "Vendor Due Diligence Missing",
       "description": "Detects the absence of ongoing due diligence processes for vendors and third-party service providers. Organizations must conduct periodic due diligence reviews to verify that vendors continue to meet security requirements, maintain appropriate controls, comply with contractual obligations, and address emerging risks throughout the business relationship lifecycle.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector Organizations with long-term vendor relationships",
-      "definition_ref": "/v1.0.0/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-DUE-DILIGENCE-003/",
+      "definition_ref": "/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-DUE-DILIGENCE-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5890,7 +5890,7 @@
       "canonical_name": "Control Inheritance Not Documented",
       "description": "Detects the absence of documented control inheritance from vendors and third-party service providers. Organizations must formally document which security controls are inherited from vendors, verify vendor implementation and effectiveness of inherited controls, maintain evidence of vendor compliance, and understand the shared responsibility model to ensure comprehensive security coverage and avoid gaps in control implementation.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector Organizations using cloud services, SaaS, or managed services",
-      "definition_ref": "/v1.0.0/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-INHERITANCE-006/",
+      "definition_ref": "/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-INHERITANCE-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5932,7 +5932,7 @@
       "canonical_name": "Vendor Monitoring Missing",
       "description": "Detects the absence of continuous monitoring processes for vendor and third-party service provider security performance. Organizations must implement ongoing monitoring of vendor security controls, compliance status, service delivery, incident response, and risk indicators to ensure vendors maintain appropriate security posture and meet contractual obligations throughout the engagement.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector Organizations with critical vendor dependencies",
-      "definition_ref": "/v1.0.0/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-MONITORING-004/",
+      "definition_ref": "/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-MONITORING-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5974,7 +5974,7 @@
       "canonical_name": "Vendor Risk Assessment Missing",
       "description": "Detects the absence of formal vendor risk assessments before engaging third-party service providers. Organizations must conduct comprehensive risk assessments of vendors and third-party service providers that will access, process, store, or transmit sensitive information, including evaluation of their security controls, compliance status, and potential risks to the organization's information assets.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector Organizations using cloud services or SaaS applications",
-      "definition_ref": "/v1.0.0/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-RISK-ASSESSMENT-001/",
+      "definition_ref": "/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-RISK-ASSESSMENT-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -6016,7 +6016,7 @@
       "canonical_name": "Vendor Termination Process Missing",
       "description": "Detects the absence of formal vendor termination and offboarding processes. Organizations must establish documented procedures for terminating vendor relationships, including data return or destruction, access revocation, asset recovery, final security assessments, and contractual closeout activities to ensure secure and complete disengagement from third-party service providers.",
       "applicability": "Healthcare organizations subject to HIPAA Business associates handling PHI Organizations pursuing HITRUST certification Technology vendors in healthcare sector Organizations managing vendor lifecycle",
-      "definition_ref": "/v1.0.0/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-TERMINATION-005/",
+      "definition_ref": "/signals/HITRUST/VENDOR/CSE-HITRUST-VENDOR-NO-TERMINATION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {

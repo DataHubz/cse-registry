@@ -1,10 +1,10 @@
 # CSE Registry v1.0.0
 
-**Registry Version:** 1.0.0  
-**Specification Version:** CSE Specification v1.0  
-**Status:** Stable  
-**Publication Date:** 2025  
-**Canonical URL:** https://cseregistry.org/v1.0.0/registry/
+**Registry Version:** 1.0.0
+**Specification Version:** CSE Specification v1.0
+**Status:** Stable
+**Publication Date:** 2025
+**Canonical URL:** https://cseregistry.org/registry/
 
 ## Overview
 
@@ -36,7 +36,7 @@ Future registry versions MAY introduce new signals or metadata but MUST preserve
 ## Directory Contents
 
 ```
-v1.0.0/
+registry/
 ├── index.json                 # Registry metadata + domain listing
 ├── domains/                   # Per-domain signal files
 │   ├── CMMC.json
@@ -110,18 +110,18 @@ Integrity verification is strongly recommended for:
 
 **For single-domain use (most efficient):**
 ```
-GET /v1.0.0/registry/index.json           # Discover domains
-GET /v1.0.0/registry/domains/GDPR.json    # Fetch only needed domain
+GET /registry/index.json           # Discover domains
+GET /registry/domains/GDPR.json    # Fetch only needed domain
 ```
 
 **For multi-domain or full access:**
 ```
-GET /v1.0.0/registry/cse-registry.json    # Full registry
+GET /registry/cse-registry.json    # Full registry
 ```
 
 **For streaming/ETL pipelines:**
 ```
-GET /v1.0.0/registry/cse-registry.ndjson  # Line-by-line processing
+GET /registry/cse-registry.ndjson  # Line-by-line processing
 ```
 
 ### General Guidelines
@@ -151,5 +151,5 @@ Inclusion of a signal does not imply compliance, certification, or regulatory ap
 ## Next Steps
 
 - Review the canonical registry artifacts in this directory
-- Explore human-readable signal definitions in `/v1.0.0/signals`
-- Validate integrations using schemas in `/v1.0.0/schemas`
+- Explore human-readable signal definitions in `/signals`
+- Validate integrations using schemas in `/schemas`

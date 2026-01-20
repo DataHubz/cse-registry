@@ -10,7 +10,7 @@
       "canonical_name": "No Capacity Management",
       "description": "The entity does not maintain, monitor, and evaluate current processing capacity and use of system components to manage capacity demand and enable implementation of additional capacity to help meet its objectives.",
       "applicability": "Infrastructure capacity planning, resource monitoring",
-      "definition_ref": "/v1.0.0/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-CAPACITY-MGMT-001/",
+      "definition_ref": "/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-CAPACITY-MGMT-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -49,7 +49,7 @@
       "canonical_name": "Capacity Planning Process Missing",
       "description": "The organization has not established a formal capacity planning process. This signal indicates the absence of procedures for monitoring and projecting system capacity needs to ensure availability.",
       "applicability": "Organizations pursuing SOC 2 certification, Service organizations with availability requirements",
-      "definition_ref": "/v1.0.0/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-CAPACITY-PLANNING-001/",
+      "definition_ref": "/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-CAPACITY-PLANNING-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -86,7 +86,7 @@
       "canonical_name": "No Environmental Protections and Recovery Infrastructure",
       "description": "The entity does not authorize, design, develop or acquire, implement, operate, approve, maintain, and monitor environmental protections, software, data backup processes, and recovery infrastructure to meet its objectives.",
       "applicability": "Disaster recovery, backup systems, environmental controls",
-      "definition_ref": "/v1.0.0/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002/",
+      "definition_ref": "/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-RECOVERY-INFRASTRUCTURE-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -125,7 +125,7 @@
       "canonical_name": "No Recovery Testing",
       "description": "The entity does not test recovery plan procedures supporting system recovery to meet its objectives.",
       "applicability": "DR testing, backup restoration testing, BCP exercises",
-      "definition_ref": "/v1.0.0/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-RECOVERY-TESTING-003/",
+      "definition_ref": "/signals/SOC2/AVAIL/CSE-SOC2-AVAIL-NO-RECOVERY-TESTING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -164,7 +164,7 @@
       "canonical_name": "No Anomaly Detection and Analysis",
       "description": "The entity does not monitor system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives.",
       "applicability": "SIEM, security monitoring, log analysis",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-ANOMALY-DETECTION-027/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-ANOMALY-DETECTION-027/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -209,7 +209,7 @@
       "canonical_name": "No Board Independence and Oversight",
       "description": "The board of directors does not demonstrate independence from management and does not exercise oversight of internal control development and performance.",
       "applicability": "Applies to all entities when the board lacks independent members, does not meet regularly to review controls, fails to challenge management on control decisions, or does not have expertise in risk management and internal controls.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-BOARD-OVERSIGHT-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -255,7 +255,7 @@
       "canonical_name": "No External Threat Protection",
       "description": "The entity does not implement logical access security measures to protect against threats from sources outside its system boundaries.",
       "applicability": "Firewalls, network security, boundary controls",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-BOUNDARY-PROTECTION-023/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-BOUNDARY-PROTECTION-023/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -300,7 +300,7 @@
       "canonical_name": "No Change Impact Assessment",
       "description": "The entity does not identify and assess changes that could significantly impact the system of internal control.",
       "applicability": "Applies to all entities when changes to systems, processes, or the business environment are not assessed for control impacts, change management processes are absent, or control updates are not triggered by significant changes.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-CHANGE-IMPACT-012/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CHANGE-IMPACT-012/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -346,7 +346,7 @@
       "canonical_name": "No Infrastructure and Software Change Management",
       "description": "The entity does not authorize, design, develop or acquire, configure, document, test, approve, and implement changes to infrastructure, data, software, and procedures to meet its objectives.",
       "applicability": "Change control processes, software development lifecycle",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-CHANGE-MANAGEMENT-031/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CHANGE-MANAGEMENT-031/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -391,7 +391,7 @@
       "canonical_name": "No Commitment to Competence",
       "description": "The entity does not demonstrate commitment to attract, develop, and retain competent individuals in alignment with objectives.",
       "applicability": "Applies to all entities when hiring processes do not assess competence, training and development programs are absent or inadequate, succession planning is missing, or retention of skilled personnel is not prioritized.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-COMPETENCE-COMMITMENT-004/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-COMPETENCE-COMMITMENT-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -437,7 +437,7 @@
       "canonical_name": "No Accountability for Internal Control",
       "description": "The entity does not hold individuals accountable for their internal control responsibilities in pursuit of objectives.",
       "applicability": "Applies to all entities when control responsibilities are not assigned, performance measures do not include control effectiveness, consequences for control failures are absent, or there is no monitoring of individual accountability for controls.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-ACCOUNTABILITY-005/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-ACCOUNTABILITY-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -483,7 +483,7 @@
       "canonical_name": "No Ongoing and Separate Evaluations",
       "description": "The entity does not select, develop, and perform ongoing and/or separate evaluations to ascertain whether the components of internal control are present and functioning.",
       "applicability": "Applies to all entities when control monitoring is not performed, control testing is absent, internal audits are not conducted, or there is no evidence of evaluating control effectiveness.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-EVALUATIONS-013/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-EVALUATIONS-013/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -529,7 +529,7 @@
       "canonical_name": "No Selection and Development of Controls",
       "description": "The entity does not select and develop control activities that contribute to the mitigation of risks to the achievement of objectives to acceptable levels.",
       "applicability": "Applies to all entities when controls are not designed based on risk assessments, control selection is arbitrary, controls do not address identified risks, or there is no methodology for control design and implementation.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-SELECTION-015/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-CONTROL-SELECTION-015/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -575,7 +575,7 @@
       "canonical_name": "No Communication of Deficiencies",
       "description": "The entity does not evaluate and communicate internal control deficiencies in a timely manner to those parties responsible for taking corrective action.",
       "applicability": "Applies to all entities when control deficiencies are not identified, deficiencies are not communicated to responsible parties, remediation is not tracked, or there is no escalation process for significant deficiencies.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-DEFICIENCY-COMMS-014/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-DEFICIENCY-COMMS-014/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -621,7 +621,7 @@
       "canonical_name": "No Security Event Evaluation",
       "description": "The entity does not evaluate security events to determine whether they could or have resulted in a failure to meet its objectives (security incidents).",
       "applicability": "Security event triage, incident classification",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-EVENT-EVALUATION-028/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-EVENT-EVALUATION-028/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -666,7 +666,7 @@
       "canonical_name": "No External Communication",
       "description": "The entity does not communicate with external parties regarding matters affecting the functioning of internal control.",
       "applicability": "Applies to all entities when there is no communication with external stakeholders about controls, third-party control requirements are not communicated, incident notifications to customers are absent, or regulatory reporting is inadequate.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-EXTERNAL-COMMS-008/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-EXTERNAL-COMMS-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -712,7 +712,7 @@
       "canonical_name": "No Fraud Risk Assessment",
       "description": "The entity does not consider the potential for fraud in assessing risks to the achievement of objectives.",
       "applicability": "Applies to all entities when fraud risk assessments are not conducted, fraud scenarios are not identified, anti-fraud controls are not evaluated, or fraud prevention is not part of the risk management process.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-FRAUD-ASSESSMENT-011/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-FRAUD-ASSESSMENT-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -758,7 +758,7 @@
       "canonical_name": "IT Governance Structure Missing",
       "description": "The organization has not established a formal IT governance structure. This signal indicates the absence of defined oversight mechanisms for technology risk management and security decision-making as required by SOC 2 Common Criteria.",
       "applicability": "Organizations pursuing SOC 2 certification, Service organizations providing technology services, Organizations requiring formal IT governance",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-GOVERNANCE-001/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-GOVERNANCE-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -801,7 +801,7 @@
       "canonical_name": "No Incident Recovery",
       "description": "The entity does not identify, develop, and implement activities to recover from identified security incidents.",
       "applicability": "Recovery procedures, business continuity",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RECOVERY-030/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -846,7 +846,7 @@
       "canonical_name": "Incident Resolution Process Missing",
       "description": "The organization has not established a formal process for resolving security incidents. This signal indicates the absence of documented procedures for investigating, containing, and remediating security incidents.",
       "applicability": "Organizations pursuing SOC 2 certification, Service organizations requiring incident management capabilities",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RESOLUTION-030/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RESOLUTION-030/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -888,7 +888,7 @@
       "canonical_name": "No Incident Response Program",
       "description": "The entity does not respond to identified security incidents by executing a defined incident-response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
       "applicability": "Incident response procedures, security operations",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-INCIDENT-RESPONSE-029/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -933,7 +933,7 @@
       "canonical_name": "No Commitment to Integrity and Ethical Values",
       "description": "The entity does not demonstrate commitment to integrity and ethical values through conduct standards, performance evaluations, and corrective actions.",
       "applicability": "Applies to all entities when leadership fails to establish, communicate, or enforce standards of conduct, ethical values are not integrated into hiring and evaluation processes, or remediation of misconduct is inadequate or inconsistent.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INTEGRITY-COMMITMENT-001/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-INTEGRITY-COMMITMENT-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -979,7 +979,7 @@
       "canonical_name": "No Internal Communication of Objectives",
       "description": "The entity does not internally communicate information, including objectives and responsibilities for internal control, necessary to support the functioning of internal control.",
       "applicability": "Applies to all entities when control objectives are not communicated to personnel, control responsibilities are not clearly articulated, communication channels are inadequate, or employees are unaware of their control duties.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-INTERNAL-COMMS-007/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-INTERNAL-COMMS-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1025,7 +1025,7 @@
       "canonical_name": "No Logical Access Security Software",
       "description": "The entity does not implement logical access security software, infrastructure, and architectures over protected information assets to protect them from security events.",
       "applicability": "All systems processing, storing, or transmitting protected data",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-LOGICAL-ACCESS-CONTROLS-018/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1070,7 +1070,7 @@
       "canonical_name": "No Malicious Software Prevention",
       "description": "The entity does not implement controls to prevent or detect and act upon the introduction of unauthorized or malicious software.",
       "applicability": "Endpoint protection, anti-malware systems",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-MALWARE-PREVENTION-025/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-MALWARE-PREVENTION-025/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1115,7 +1115,7 @@
       "canonical_name": "No Management Structure and Authority",
       "description": "Management has not established structures, reporting lines, and appropriate authorities and responsibilities in pursuit of objectives.",
       "applicability": "Applies to all entities when organizational structure is undefined, reporting relationships are unclear, roles and responsibilities are not documented, authority levels are ambiguous, or there is inadequate segregation of duties.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-MGMT-STRUCTURE-003/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-MGMT-STRUCTURE-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1161,7 +1161,7 @@
       "canonical_name": "No Specification of Objectives",
       "description": "The entity does not specify objectives with sufficient clarity to enable the identification and assessment of risks relating to objectives.",
       "applicability": "Applies to all entities when security, availability, confidentiality, privacy, or processing integrity objectives are not clearly defined, documented, or measurable.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-OBJECTIVES-SPEC-009/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-OBJECTIVES-SPEC-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1207,7 +1207,7 @@
       "canonical_name": "No Physical Access Restrictions",
       "description": "The entity does not restrict physical access to facilities and protected information assets to authorized personnel.",
       "applicability": "Data centers, server rooms, office facilities",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-PHYSICAL-ACCESS-021/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-PHYSICAL-ACCESS-021/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1252,7 +1252,7 @@
       "canonical_name": "No Deployment Through Policies",
       "description": "The entity does not deploy control activities through policies that establish what is expected and procedures that put policies into action.",
       "applicability": "Applies to all entities when policies do not exist, procedures are not documented, policies are not communicated or enforced, or there is a gap between policy and actual practice.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-POLICY-DEPLOYMENT-017/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-POLICY-DEPLOYMENT-017/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1298,7 +1298,7 @@
       "canonical_name": "No Quality Information for Internal Control",
       "description": "The entity does not obtain or generate and use relevant, quality information to support the functioning of internal control.",
       "applicability": "Applies to all entities when information systems do not provide timely and accurate data, control monitoring lacks quality metrics, decision-making is not based on reliable information, or data quality processes are absent.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-QUALITY-INFO-006/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-QUALITY-INFO-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1344,7 +1344,7 @@
       "canonical_name": "No Role-Based Access and Least Privilege",
       "description": "The entity does not authorize, modify, or remove access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes.",
       "applicability": "Access control systems, authorization processes",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-RBAC-CONTROLS-020/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-RBAC-CONTROLS-020/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1389,7 +1389,7 @@
       "canonical_name": "No Risk Identification and Analysis",
       "description": "The entity does not identify risks to the achievement of its objectives and does not analyze risks as a basis for determining how risks should be managed.",
       "applicability": "Applies to all entities when risk assessments are not performed, risks are not documented, risk analysis processes are absent, or risk management decisions are made without proper risk evaluation.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-RISK-IDENTIFICATION-010/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-RISK-IDENTIFICATION-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1435,7 +1435,7 @@
       "canonical_name": "No Risk Mitigation Activities",
       "description": "The entity does not identify, select, and develop risk mitigation activities for risks arising from potential business disruptions.",
       "applicability": "Business continuity planning, risk treatment",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-RISK-MITIGATION-032/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-RISK-MITIGATION-032/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1480,7 +1480,7 @@
       "canonical_name": "No Secure Asset Disposal",
       "description": "The entity does not discontinue logical and physical protections over physical assets only after the ability to read or recover data and software from those assets has been diminished.",
       "applicability": "Hardware disposal, media sanitization",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-SECURE-DISPOSAL-022/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-SECURE-DISPOSAL-022/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1525,7 +1525,7 @@
       "canonical_name": "No Technology General Controls",
       "description": "The entity does not select and develop general control activities over technology to support the achievement of objectives.",
       "applicability": "Applies to all entities when technology general controls (ITGC) are not designed or implemented, including controls over infrastructure, security management, change management, and operations.",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-TECH-CONTROLS-016/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-TECH-CONTROLS-016/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1571,7 +1571,7 @@
       "canonical_name": "Data Transmission Protection Missing",
       "description": "The organization has not implemented adequate protection for data in transit. This signal indicates the absence of encryption or other security measures to protect data during transmission.",
       "applicability": "Organizations pursuing SOC 2 certification, Service organizations transmitting sensitive data",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-TRANSMISSION-PROTECTION-024/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-TRANSMISSION-PROTECTION-024/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1614,7 +1614,7 @@
       "canonical_name": "No Information Transmission Security",
       "description": "The entity does not restrict the transmission, movement, and removal of information to authorized internal and external users and processes and does not protect it during transmission, movement, or removal.",
       "applicability": "Data transfer, encryption in transit, data movement",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-TRANSMISSION-SECURITY-024/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-TRANSMISSION-SECURITY-024/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1659,7 +1659,7 @@
       "canonical_name": "No User Registration and Authorization",
       "description": "Prior to issuing system credentials and granting system access, the entity does not register and authorize new internal and external users.",
       "applicability": "Identity and access management processes",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-USER-REGISTRATION-019/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-USER-REGISTRATION-019/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1704,7 +1704,7 @@
       "canonical_name": "User Access Removal Process Missing",
       "description": "The organization has not established a formal process for removing user access when no longer needed. This signal indicates the absence of procedures for timely revocation of access rights upon termination or role change.",
       "applicability": "Organizations pursuing SOC 2 certification, Service organizations with user access management requirements",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-USER-REMOVAL-020/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-USER-REMOVAL-020/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1747,7 +1747,7 @@
       "canonical_name": "No Vendor and Partner Risk Management",
       "description": "The entity does not assess and manage risks associated with vendors and business partners.",
       "applicability": "Third-party risk management, vendor assessments",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-VENDOR-RISK-MGMT-033/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1792,7 +1792,7 @@
       "canonical_name": "No Vulnerability Detection and Monitoring",
       "description": "The entity does not use detection and monitoring procedures to identify changes to configurations that result in the introduction of new vulnerabilities and susceptibilities to newly discovered vulnerabilities.",
       "applicability": "Vulnerability scanning, configuration monitoring",
-      "definition_ref": "/v1.0.0/signals/SOC2/CC/CSE-SOC2-CC-NO-VULN-DETECTION-026/",
+      "definition_ref": "/signals/SOC2/CC/CSE-SOC2-CC-NO-VULN-DETECTION-026/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1837,7 +1837,7 @@
       "canonical_name": "No Confidential Information Identification",
       "description": "The entity does not identify and maintain confidential information to meet the entity's objectives related to confidentiality.",
       "applicability": "Data classification, information inventory",
-      "definition_ref": "/v1.0.0/signals/SOC2/CONF/CSE-SOC2-CONF-NO-DATA-CLASSIFICATION-001/",
+      "definition_ref": "/signals/SOC2/CONF/CSE-SOC2-CONF-NO-DATA-CLASSIFICATION-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1876,7 +1876,7 @@
       "canonical_name": "No Confidential Information Disposal",
       "description": "The entity does not dispose of confidential information to meet the entity's objectives related to confidentiality.",
       "applicability": "Secure data destruction, retention policies",
-      "definition_ref": "/v1.0.0/signals/SOC2/CONF/CSE-SOC2-CONF-NO-DATA-DISPOSAL-002/",
+      "definition_ref": "/signals/SOC2/CONF/CSE-SOC2-CONF-NO-DATA-DISPOSAL-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1915,7 +1915,7 @@
       "canonical_name": "No Input and Output Storage Controls",
       "description": "The entity does not implement policies and procedures to store inputs, items in processing, and outputs completely, accurately, and timely in accordance with system specifications.",
       "applicability": "Data storage, archival processes",
-      "definition_ref": "/v1.0.0/signals/SOC2/PI/CSE-SOC2-PI-NO-DATA-STORAGE-CONTROLS-005/",
+      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-DATA-STORAGE-CONTROLS-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1954,7 +1954,7 @@
       "canonical_name": "No Input Completeness and Accuracy Controls",
       "description": "The entity does not implement policies and procedures over system inputs, including controls over completeness and accuracy.",
       "applicability": "Input validation, data quality controls",
-      "definition_ref": "/v1.0.0/signals/SOC2/PI/CSE-SOC2-PI-NO-INPUT-VALIDATION-002/",
+      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-INPUT-VALIDATION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1993,7 +1993,7 @@
       "canonical_name": "No Output Completeness and Accuracy Controls",
       "description": "The entity does not implement policies and procedures to make available or deliver output completely, accurately, and timely in accordance with specifications.",
       "applicability": "Output validation, reporting accuracy",
-      "definition_ref": "/v1.0.0/signals/SOC2/PI/CSE-SOC2-PI-NO-OUTPUT-VALIDATION-004/",
+      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-OUTPUT-VALIDATION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2032,7 +2032,7 @@
       "canonical_name": "No Processing Policies and Procedures",
       "description": "The entity does not implement policies and procedures over system processing to result in products, services, and reporting to meet the entity's product or service specifications.",
       "applicability": "Data processing controls, batch processing",
-      "definition_ref": "/v1.0.0/signals/SOC2/PI/CSE-SOC2-PI-NO-PROCESSING-CONTROLS-003/",
+      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-PROCESSING-CONTROLS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2071,7 +2071,7 @@
       "canonical_name": "No Processing Specifications",
       "description": "The entity does not obtain or generate, use, and communicate quality information regarding the objectives related to processing, including definitions of data processed and product and service specifications.",
       "applicability": "Data processing documentation, service specifications",
-      "definition_ref": "/v1.0.0/signals/SOC2/PI/CSE-SOC2-PI-NO-PROCESSING-SPECS-001/",
+      "definition_ref": "/signals/SOC2/PI/CSE-SOC2-PI-NO-PROCESSING-SPECS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2110,7 +2110,7 @@
       "canonical_name": "No Access Denial Notification",
       "description": "The entity does not inform data subjects if access to their personal information is denied and provides the reason for denial. This signal indicates that individuals are not adequately notified when their access requests are rejected, which undermines transparency and privacy rights.",
       "applicability": "Applicable to data subject access request workflows, customer service procedures, self-service portals, and any system or process that may deny access to personal information.",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-ACCESS-DENIAL-NOTICE-011/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-ACCESS-DENIAL-NOTICE-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2156,7 +2156,7 @@
       "canonical_name": "No Data Breach Notification",
       "description": "The entity does not notify affected data subjects, regulators, and others when a data breach has occurred in accordance with applicable laws and regulations. This signal indicates that critical breach notification obligations may not be met, potentially violating legal requirements and undermining trust.",
       "applicability": "Applicable to breach response procedures, notification workflows, regulatory compliance processes, incident management systems, and communication protocols for data breaches.",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-BREACH-NOTIFICATION-015/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-BREACH-NOTIFICATION-015/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2202,7 +2202,7 @@
       "canonical_name": "No Communication of Choices",
       "description": "The entity does not communicate choices available regarding the collection, use, retention, disclosure, and disposal of personal information to data subjects.",
       "applicability": "Consent mechanisms, preference centers",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-CHOICE-COMMUNICATION-002/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-CHOICE-COMMUNICATION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2248,7 +2248,7 @@
       "canonical_name": "No Collection Limitation",
       "description": "The entity does not limit the collection of personal information to that which is necessary to meet its objectives.",
       "applicability": "Data minimization, collection practices",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COLLECTION-LIMITATION-004/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COLLECTION-LIMITATION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2294,7 +2294,7 @@
       "canonical_name": "No Privacy Compliance Monitoring",
       "description": "The entity does not implement a process for receiving, addressing, resolving, and communicating the resolution of inquiries, complaints, and disputes from data subjects. This signal indicates that the organization lacks mechanisms to handle privacy concerns from individuals, undermining accountability and data subject rights.",
       "applicability": "Applicable to privacy complaint handling systems, customer service operations, data subject inquiry workflows, privacy team processes, and complaint tracking systems.",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COMPLIANCE-MONITORING-018/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COMPLIANCE-MONITORING-018/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2340,7 +2340,7 @@
       "canonical_name": "No Privacy Compliance Review",
       "description": "The entity does not periodically monitor compliance with its privacy policies and procedures. This signal indicates that the organization lacks ongoing oversight of privacy practices, potentially allowing policy violations and privacy risks to go undetected.",
       "applicability": "Applicable to privacy compliance programs, audit and review processes, privacy monitoring systems, internal controls, and privacy governance frameworks.",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COMPLIANCE-REVIEW-020/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-COMPLIANCE-REVIEW-020/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2386,7 +2386,7 @@
       "canonical_name": "No Consent for New Uses",
       "description": "The entity does not obtain consent for uses of personal information beyond those stated in the privacy notice when such consent is required.",
       "applicability": "Consent collection, purpose limitation",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-CONSENT-MECHANISM-003/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-CONSENT-MECHANISM-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2432,7 +2432,7 @@
       "canonical_name": "No Data Accuracy and Completeness",
       "description": "The entity does not collect and maintain accurate, up-to-date, complete, and relevant personal information for the purposes identified in the privacy notice. This signal indicates that data quality controls are insufficient, potentially leading to incorrect decisions, poor customer experiences, and privacy violations.",
       "applicability": "Applicable to data collection processes, data maintenance procedures, data validation systems, customer data management, and any system that stores or processes personal information.",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DATA-QUALITY-016/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DATA-QUALITY-016/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2478,7 +2478,7 @@
       "canonical_name": "No Data Relevance",
       "description": "The entity does not verify that personal information is relevant for the purposes for which it is collected and used. This signal indicates that the organization may be collecting excessive or unnecessary data, violating data minimization principles and increasing privacy risks.",
       "applicability": "Applicable to data collection forms, privacy impact assessments, data mapping exercises, system design reviews, and data governance processes.",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DATA-RELEVANCE-017/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DATA-RELEVANCE-017/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2524,7 +2524,7 @@
       "canonical_name": "No Disclosure Limitation",
       "description": "The entity does not disclose personal information to third parties only for the purposes identified in the privacy notice and with the implicit or explicit consent of the data subject. This signal indicates that personal data may be shared beyond stated purposes or without proper consent mechanisms, violating privacy commitments and data protection principles.",
       "applicability": "Applicable to any system, service, or process that shares personal information with third parties, including API integrations, data partnerships, marketing platforms, service providers, and data sharing agreements.",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISCLOSURE-LIMITS-012/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISCLOSURE-LIMITS-012/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2570,7 +2570,7 @@
       "canonical_name": "No Disclosure Records",
       "description": "The entity does not create and retain a complete, accurate, and timely record of detected or reported unauthorized disclosures of personal information. This signal indicates that privacy incidents involving data disclosure are not properly documented, hindering incident response and accountability.",
       "applicability": "Applicable to privacy incident management, breach response procedures, disclosure tracking systems, security monitoring, and incident documentation processes.",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISCLOSURE-RECORDS-014/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISCLOSURE-RECORDS-014/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2616,7 +2616,7 @@
       "canonical_name": "No Dispute Resolution",
       "description": "The entity does not have procedures for resolving disputes related to privacy. This signal indicates that the organization lacks formal mechanisms to address disagreements or conflicts with data subjects regarding privacy practices, potentially leading to escalated conflicts and regulatory issues.",
       "applicability": "Applicable to privacy dispute resolution processes, escalation procedures, privacy team operations, legal and compliance functions, and alternative dispute resolution mechanisms.",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISPUTE-RESOLUTION-019/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-DISPUTE-RESOLUTION-019/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2662,7 +2662,7 @@
       "canonical_name": "No Confirmation of Identity",
       "description": "The entity does not authenticate data subjects' identities before providing them with access to their personal information. This signal indicates that the organization lacks proper verification procedures to ensure that personal data is only disclosed to the legitimate data subject, potentially exposing sensitive information to unauthorized parties.",
       "applicability": "Applicable to any system or process that handles data subject access requests, including self-service portals, customer service workflows, data export functionality, and identity verification systems.",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-IDENTITY-VERIFICATION-010/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-IDENTITY-VERIFICATION-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2708,7 +2708,7 @@
       "canonical_name": "No Privacy Incident Reporting",
       "description": "The entity does not document and report privacy incidents to appropriate parties. This signal indicates that privacy violations and incidents are not properly tracked, escalated, or communicated to stakeholders, potentially hiding systemic issues and preventing effective response.",
       "applicability": "Applicable to privacy incident management, incident reporting systems, privacy team operations, management communication, and regulatory reporting processes.",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-INCIDENT-REPORTING-021/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-INCIDENT-REPORTING-021/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2754,7 +2754,7 @@
       "canonical_name": "No Privacy Notice",
       "description": "The entity does not provide notice to data subjects about its privacy practices to meet the entity's objectives related to privacy.",
       "applicability": "Privacy policies, data collection notices",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-PRIVACY-NOTICE-001/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-PRIVACY-NOTICE-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2800,7 +2800,7 @@
       "canonical_name": "No Retention Policies",
       "description": "The entity does not retain personal information for only as long as necessary to fulfill the stated purposes or as required by law or regulations.",
       "applicability": "Data retention schedules, storage limitation",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-RETENTION-POLICY-007/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-RETENTION-POLICY-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2846,7 +2846,7 @@
       "canonical_name": "No Secure PII Disposal",
       "description": "The entity does not securely dispose of personal information to meet the entity's objectives related to privacy.",
       "applicability": "Secure deletion, PII destruction",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SECURE-PII-DISPOSAL-008/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SECURE-PII-DISPOSAL-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2892,7 +2892,7 @@
       "canonical_name": "No Explicit Consent for Sensitive Data",
       "description": "The entity does not obtain explicit consent for collection of sensitive personal information.",
       "applicability": "Sensitive data categories, explicit consent",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SENSITIVE-DATA-CONSENT-005/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SENSITIVE-DATA-CONSENT-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2938,7 +2938,7 @@
       "canonical_name": "No Data Subject Access",
       "description": "The entity does not provide data subjects with access to their personal information for review and update. This signal indicates that individuals lack the ability to view, verify, or modify their own personal data held by the organization, which is a fundamental privacy requirement.",
       "applicability": "Applicable to any system, application, or service that processes personal information and should provide data subjects with access rights. Includes customer portals, self-service platforms, data access request workflows, and privacy management systems.",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SUBJECT-ACCESS-009/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-SUBJECT-ACCESS-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2984,7 +2984,7 @@
       "canonical_name": "No Third-Party Disclosure Authorization",
       "description": "The entity does not create and retain a record of authorized disclosures of personal information. This signal indicates that the organization lacks documentation of legitimate data sharing activities, making it difficult to demonstrate compliance with privacy commitments and track data flows.",
       "applicability": "Applicable to data sharing operations, third-party integrations, consent management systems, data processing agreements, and disclosure tracking mechanisms.",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-THIRD-PARTY-AUTH-013/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-THIRD-PARTY-AUTH-013/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3030,7 +3030,7 @@
       "canonical_name": "No Limitation on Use",
       "description": "The entity does not limit the use of personal information to the purposes identified in the privacy notice and for which the data subject has provided implicit or explicit consent.",
       "applicability": "Purpose limitation, secondary use controls",
-      "definition_ref": "/v1.0.0/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-USE-LIMITATION-006/",
+      "definition_ref": "/signals/SOC2/PRIV/CSE-SOC2-PRIV-NO-USE-LIMITATION-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {

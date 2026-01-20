@@ -10,7 +10,7 @@
       "canonical_name": "MFA for Admin Access Missing",
       "description": "Multi-factor authentication (MFA) is not required for users with administrative or privileged access to enterprise assets, systems, or applications. This signal indicates that administrative accounts can authenticate using only a password without requiring a second authentication factor, creating elevated risk if credentials are compromised.",
       "applicability": "This signal applies to: Domain administrator accounts Local administrator accounts Database administrator (DBA) accounts Cloud platform administrator roles (AWS root, Azure Global Admin, GCP Owner) Application administrator accounts Security administrator roles Network device administrative access Privileged Access Management (PAM) systems Break-glass/emergency access accounts",
-      "definition_ref": "/v1.0.0/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-MFA-ADMIN-005/",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-MFA-ADMIN-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -53,7 +53,7 @@
       "canonical_name": "MFA for All Applications Missing",
       "description": "Multi-factor authentication (MFA) is not required for all enterprise applications, including both internal and external-facing systems where MFA support is available. This signal indicates that while MFA may be implemented for some critical systems, it has not been comprehensively deployed across the full application portfolio, leaving gaps in authentication security.",
       "applicability": "This signal applies to: Enterprise applications (ERP, CRM, HRIS, etc.) Internal business applications Development and staging environments Collaboration platforms (email, chat, document sharing) Customer-facing applications Partner and vendor portals Cloud services and SaaS applications Database access and management tools DevOps and CI/CD platforms",
-      "definition_ref": "/v1.0.0/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-MFA-ALL-007/",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-MFA-ALL-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -96,7 +96,7 @@
       "canonical_name": "MFA for External Access Missing",
       "description": "Multi-factor authentication (MFA) is not required for user accounts accessing enterprise assets from external networks or the internet. This signal indicates that users can authenticate using only a password without requiring a second authentication factor when accessing resources from outside the organization's trusted network perimeter.",
       "applicability": "This signal applies to: External-facing applications and portals Internet-accessible services Cloud-based applications (SaaS, IaaS, PaaS) Web-based email and collaboration tools Customer or partner portals Public-facing APIs with user authentication Any system accessible from untrusted networks",
-      "definition_ref": "/v1.0.0/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-MFA-EXTERNAL-003/",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-MFA-EXTERNAL-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -139,7 +139,7 @@
       "canonical_name": "MFA for Remote Network Access Missing",
       "description": "Multi-factor authentication (MFA) is not required for users establishing remote network access to the enterprise network infrastructure. This signal indicates that remote access solutions such as VPN, remote desktop services, or jump hosts allow authentication with only username and password without requiring a second authentication factor.",
       "applicability": "This signal applies to: Virtual Private Network (VPN) connections Remote Desktop Protocol (RDP) gateways SSH bastion hosts and jump servers Remote access services (RAS) Zero Trust Network Access (ZTNA) solutions Cloud-based virtual desktops (VDI) Remote management interfaces Terminal services and jump boxes",
-      "definition_ref": "/v1.0.0/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-MFA-REMOTE-004/",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-MFA-REMOTE-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -182,7 +182,7 @@
       "canonical_name": "Access Granting Process Missing",
       "description": "The organization lacks a documented and established process for granting access to enterprise assets based on the principles of least privilege and need-to-know. This signal indicates that access may be granted in an ad-hoc manner without proper authorization workflows, documentation, or justification requirements.",
       "applicability": "This signal applies to: Access request and approval workflows Identity and access management (IAM) systems User provisioning processes Access control policies and procedures Service desk ticketing systems HR onboarding/offboarding processes Role assignment procedures",
-      "definition_ref": "/v1.0.0/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-PROCESS-001/",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -225,7 +225,7 @@
       "canonical_name": "Access Revocation Process Missing",
       "description": "The organization lacks a documented and established process for revoking access to enterprise assets in a timely manner upon termination, role change, or when access is no longer required. This signal indicates that user accounts, credentials, and permissions may remain active after they should have been removed, creating security risks from orphaned or unnecessary access.",
       "applicability": "This signal applies to: User account deprovisioning processes HR offboarding workflows Access revocation procedures Identity lifecycle management Account termination processes Role change management Periodic access reviews Automated deprovisioning systems",
-      "definition_ref": "/v1.0.0/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-REVOCATION-002/",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-REVOCATION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -268,7 +268,7 @@
       "canonical_name": "Role-Based Access Control Missing",
       "description": "The organization has not established or does not use a role-based access control (RBAC) system to assign permissions to user accounts based on defined job functions or business roles. This signal indicates that access permissions may be assigned individually to users rather than through standardized roles, making it difficult to consistently apply the principle of least privilege and maintain access controls as the organization scales.",
       "applicability": "This signal applies to: Identity and access management (IAM) systems Active Directory or LDAP security groups Cloud platform role assignments (AWS IAM roles, Azure RBAC, GCP IAM) Application-level role definitions Database role assignments Enterprise resource planning (ERP) system roles Access control matrices and documentation Security group design and management",
-      "definition_ref": "/v1.0.0/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-ROLE-BASED-006/",
+      "definition_ref": "/signals/CIS/ACCESS/CSE-CIS-ACCESS-NO-ROLE-BASED-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -311,7 +311,7 @@
       "canonical_name": "Admin Account Access Not Restricted",
       "description": "Administrative or privileged accounts can be accessed from any device, network location, or system without restrictions based on specific dedicated devices, secure workstations, or controlled network segments. This signal indicates that administrative access is not limited to hardened, monitored, or purpose-specific systems. Allowing administrative operations from arbitrary devices or networks increases the risk of credential compromise, malware infection, and unauthorized access, as administrat",
       "applicability": "This signal applies to: Domain administrator accounts in Active Directory Cloud platform administrative consoles (AWS, Azure, GCP) Database administrative accounts Network device management interfaces Hypervisor and virtualization platform administrators Privileged application accounts Root or superuser accounts on Unix/Linux systems Local administrator accounts on Windows systems Security tool and SIEM administrative access Backup system administrative accounts",
-      "definition_ref": "/v1.0.0/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-ACCESS-RESTRICTION-004/",
+      "definition_ref": "/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-ACCESS-RESTRICTION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -353,7 +353,7 @@
       "canonical_name": "Centralized Account Management Missing",
       "description": "The organization does not use a centralized authentication and authorization system for managing user accounts across enterprise assets and applications. This signal indicates that account management is performed using disparate, disconnected systems, local account databases, or manual processes across different platforms and services. Without centralized management, organizations face challenges in maintaining consistent access controls, enforcing uniform security policies, efficiently provisio",
       "applicability": "This signal applies to: Enterprise identity and access management (IAM) systems Active Directory or LDAP directory services Cloud identity providers (Azure AD, Okta, Google Workspace) Single Sign-On (SSO) solutions Privileged Access Management (PAM) platforms Application authentication systems Database user management Network device authentication (RADIUS, TACACS+) SaaS application user provisioning Multi-cloud account federation",
-      "definition_ref": "/v1.0.0/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-CENTRALIZED-MGMT-006/",
+      "definition_ref": "/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-CENTRALIZED-MGMT-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -395,7 +395,7 @@
       "canonical_name": "Default Passwords Not Changed",
       "description": "Default passwords for systems, applications, devices, or services have not been changed from their factory or vendor-supplied values. This signal indicates that accounts retain manufacturer or vendor default credentials, creating a well-known vulnerability that can be easily exploited by attackers. Default passwords are publicly documented and commonly used in automated attack tools, making systems with unchanged defaults highly susceptible to unauthorized access.",
       "applicability": "This signal applies to: Network devices (routers, switches, firewalls, access points) IoT devices and embedded systems Database management systems (MySQL, PostgreSQL, Oracle) Application servers and middleware Operating system default accounts (admin, root, administrator) Web application administrative interfaces Security appliances and monitoring tools Cloud service initial configurations Container images and base configurations Industrial control systems and SCADA devices",
-      "definition_ref": "/v1.0.0/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-DEFAULT-PASSWORDS-002/",
+      "definition_ref": "/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-DEFAULT-PASSWORDS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -437,7 +437,7 @@
       "canonical_name": "Inactive Accounts Not Disabled",
       "description": "User accounts that have been inactive for an extended period remain enabled and are not disabled or removed from the system. This signal indicates that accounts with no recent authentication activity, no resource access, or no operational use continue to have active access rights. Inactive accounts represent unnecessary security risks, as they may belong to former employees, unused service accounts, or forgotten test accounts that could be compromised without detection.",
       "applicability": "This signal applies to: User accounts in Active Directory or LDAP Cloud IAM users and service accounts (AWS, Azure, GCP) Application-specific user accounts Database user accounts VPN and remote access accounts SaaS application user accounts Administrative and privileged accounts Service accounts and API credentials Shared or generic accounts Contractor and temporary worker accounts",
-      "definition_ref": "/v1.0.0/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-INACTIVE-DISABLE-003/",
+      "definition_ref": "/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-INACTIVE-DISABLE-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -479,7 +479,7 @@
       "canonical_name": "Account Inventory Missing",
       "description": "An organization does not maintain a complete and accurate inventory of all accounts across its enterprise systems and services. This signal indicates that there is no centralized repository, documentation, or automated tracking system that comprehensively lists all user accounts, service accounts, administrative accounts, and system accounts. Without a complete inventory, organizations cannot effectively manage account lifecycles, detect unauthorized accounts, or ensure proper access controls.",
       "applicability": "This signal applies to: Enterprise identity and access management systems Cloud service provider accounts (AWS, Azure, GCP) Active Directory and LDAP services Application-specific user accounts Database user accounts Service accounts and API credentials Local system accounts on servers and workstations SaaS application user accounts Privileged and administrative accounts Third-party vendor and contractor accounts",
-      "definition_ref": "/v1.0.0/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-INVENTORY-001/",
+      "definition_ref": "/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-INVENTORY-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -521,7 +521,7 @@
       "canonical_name": "Unique Admin Accounts Missing",
       "description": "Administrative or privileged accounts are not uniquely assigned to individual users, resulting in shared administrative credentials or the use of generic administrative accounts. This signal indicates that multiple individuals share the same administrative account credentials, or that users perform administrative tasks using their standard user accounts that have been granted elevated privileges. Without unique administrative accounts, organizations cannot maintain proper accountability, audit t",
       "applicability": "This signal applies to: Windows domain administrator accounts Unix/Linux root or sudo-enabled accounts Cloud platform IAM administrative users (AWS, Azure, GCP) Database administrative accounts (sa, root, postgres, admin) Network device administrative accounts Application administrative accounts Hypervisor and virtualization platform administrators Container orchestration platform administrators Security tool administrative access Shared service accounts used for privileged operations",
-      "definition_ref": "/v1.0.0/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-UNIQUE-ADMIN-005/",
+      "definition_ref": "/signals/CIS/ACCOUNT/CSE-CIS-ACCOUNT-NO-UNIQUE-ADMIN-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -563,7 +563,7 @@
       "canonical_name": "Security Code Review Missing",
       "description": "An organization has not implemented security-focused code review processes for application development. This signal indicates the absence of systematic peer review of source code with a specific focus on identifying security vulnerabilities, insecure coding practices, and potential security weaknesses before code is merged and deployed.",
       "applicability": "This signal applies to: Software development teams Application security teams DevSecOps teams Security engineering teams Code review teams Senior developers and architects Quality assurance teams Engineering leadership",
-      "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-CODE-REVIEW-009/",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-CODE-REVIEW-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -605,7 +605,7 @@
       "canonical_name": "Dynamic Application Security Testing Missing",
       "description": "An organization has not implemented dynamic application security testing (DAST) in the software development lifecycle. This signal indicates the absence of automated security testing of running applications to identify vulnerabilities that are only detectable during runtime, such as authentication issues, server configuration errors, and injection flaws.",
       "applicability": "This signal applies to: Application security teams DevOps and DevSecOps teams Security engineering teams Quality assurance teams Web application development teams API development teams CI/CD pipeline administrators Penetration testing teams",
-      "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-DAST-006/",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-DAST-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -647,7 +647,7 @@
       "canonical_name": "Vulnerability Root Cause Analysis Missing",
       "description": "An organization has not implemented a process for performing root cause analysis of application security vulnerabilities. This signal indicates the absence of a systematic approach to investigating why vulnerabilities occur, identifying underlying causes, and implementing preventive measures to avoid similar issues in the future.",
       "applicability": "This signal applies to: Application security teams Software development teams Security engineering teams DevSecOps teams Quality assurance teams Incident response teams Security operations centers Engineering leadership",
-      "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-ROOT-CAUSE-003/",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-ROOT-CAUSE-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -689,7 +689,7 @@
       "canonical_name": "Static Application Security Testing Missing",
       "description": "An organization has not implemented static application security testing (SAST) in the software development lifecycle. This signal indicates the absence of automated source code analysis to identify security vulnerabilities, coding errors, and security weaknesses before code is compiled or executed.",
       "applicability": "This signal applies to: Software development teams Application security teams DevOps and DevSecOps teams Security engineering teams Quality assurance teams CI/CD pipeline administrators Code review teams Organizations developing custom software",
-      "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-SAST-005/",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-SAST-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -731,7 +731,7 @@
       "canonical_name": "Secure SDLC Missing",
       "description": "An organization has not established a secure software development lifecycle (SDLC) process. This signal indicates the absence of a documented and implemented secure SDLC that integrates security practices throughout all phases of software development, from requirements gathering through deployment and maintenance.",
       "applicability": "This signal applies to: Software development organizations Application development teams DevOps and DevSecOps teams Product management teams Engineering management Quality assurance teams Organizations developing custom applications Third-party software vendors",
-      "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-SDLC-001/",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-SDLC-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -773,7 +773,7 @@
       "canonical_name": "Production Separation Missing",
       "description": "An organization has not established proper separation between production and non-production application environments. This signal indicates the absence of adequate isolation between development, testing, staging, and production environments to prevent unauthorized access, data leakage, and security misconfigurations from affecting production systems.",
       "applicability": "This signal applies to: DevOps and DevSecOps teams Application development teams Infrastructure teams Cloud operations teams Platform engineering teams Database administrators Security operations teams IT operations teams",
-      "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-SEPARATION-008/",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-SEPARATION-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -815,7 +815,7 @@
       "canonical_name": "Secure Coding Standards Missing",
       "description": "An organization has not established secure coding standards for software development. This signal indicates the absence of documented secure coding practices, guidelines, and standards that developers must follow to prevent common vulnerabilities and security weaknesses in application code.",
       "applicability": "This signal applies to: Software development teams Application developers DevOps and DevSecOps teams Code review teams Quality assurance teams Engineering leadership Organizations developing custom software Third-party development contractors",
-      "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-STANDARDS-002/",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-STANDARDS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -857,7 +857,7 @@
       "canonical_name": "Third-Party Component Inventory Missing",
       "description": "An organization has not established and maintained an inventory of third-party software components used in applications. This signal indicates the absence of a comprehensive catalog of open-source libraries, commercial components, frameworks, and dependencies that are integrated into organizational applications, along with their versions and vulnerability status.",
       "applicability": "This signal applies to: Application development teams DevOps and DevSecOps teams Application security teams Software composition analysis teams Dependency management teams Open source program offices Supply chain security teams IT asset management teams",
-      "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-THIRD-PARTY-COMPONENTS-004/",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-THIRD-PARTY-COMPONENTS-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -899,7 +899,7 @@
       "canonical_name": "Threat Modeling Missing",
       "description": "An organization has not implemented threat modeling as part of the application development process. This signal indicates the absence of a systematic approach to identifying, evaluating, and mitigating security threats during the design and development phases of applications, before vulnerabilities are implemented in code.",
       "applicability": "This signal applies to: Application development teams Security architecture teams Application security teams Product security teams Software architects DevOps and DevSecOps teams Product management teams Engineering leadership",
-      "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-THREAT-MODELING-007/",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-THREAT-MODELING-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -941,7 +941,7 @@
       "canonical_name": "Web Application Firewall Missing",
       "description": "An organization has not deployed a Web Application Firewall (WAF) to protect web applications from common attacks. This signal indicates the absence of a security layer that filters, monitors, and blocks malicious HTTP/HTTPS traffic between web applications and the internet, protecting against attacks such as SQL injection, cross-site scripting (XSS), and other OWASP Top 10 vulnerabilities.",
       "applicability": "This signal applies to: Web application hosting environments Cloud infrastructure teams Security operations teams DevOps and DevSecOps teams Network security teams Application security teams API platform teams Organizations with internet-facing applications",
-      "definition_ref": "/v1.0.0/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-WAF-010/",
+      "definition_ref": "/signals/CIS/APPSEC/CSE-CIS-APPSEC-NO-WAF-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -983,7 +983,7 @@
       "canonical_name": "Asset Inventory Not Accurate",
       "description": "This signal detects when an organization's asset inventory is not maintained with sufficient accuracy or updated frequently enough to reflect the current state of enterprise assets. CIS Control 1.4 requires that the enterprise asset inventory be updated at least weekly, or more frequently, to ensure accuracy. An outdated or inaccurate inventory undermines security operations, incident response, vulnerability management, and compliance efforts.",
       "applicability": "Enterprise IT environments Cloud infrastructure On-premises data centers Remote/hybrid work environments Dynamic environments with frequent asset changes Regulated industries requiring accurate asset tracking",
-      "definition_ref": "/v1.0.0/signals/CIS/ASSET/CSE-CIS-ASSET-NO-ACCURATE-INVENTORY-004/",
+      "definition_ref": "/signals/CIS/ASSET/CSE-CIS-ASSET-NO-ACCURATE-INVENTORY-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1025,7 +1025,7 @@
       "canonical_name": "DHCP Logging Not Implemented",
       "description": "This signal detects when DHCP server logging is not enabled or not being actively monitored to identify new or unauthorized assets connecting to the network. DHCP logs provide valuable information about devices requesting network access, including MAC addresses, hostnames, and IP assignments. Without DHCP logging, organizations lose a critical detection mechanism for unauthorized or unknown devices joining their network infrastructure.",
       "applicability": "Enterprise IT environments Cloud infrastructure with managed DHCP services On-premises data centers Remote/hybrid work environments Branch office networks Wireless networks (corporate and guest)",
-      "definition_ref": "/v1.0.0/signals/CIS/ASSET/CSE-CIS-ASSET-NO-DHCP-LOGGING-003/",
+      "definition_ref": "/signals/CIS/ASSET/CSE-CIS-ASSET-NO-DHCP-LOGGING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1067,7 +1067,7 @@
       "canonical_name": "Enterprise Asset Inventory Missing",
       "description": "This signal detects when an organization lacks an accurate and up-to-date inventory of all enterprise assets (end-user devices, network devices, non-computing/IoT devices, and servers) on the network, where the address space is assigned by the organization. Without a comprehensive inventory, organizations cannot effectively manage, secure, or monitor their assets, leading to increased security risks and potential unauthorized access.",
       "applicability": "Enterprise IT environments Cloud infrastructure On-premises data centers Remote/hybrid work environments Manufacturing facilities with IoT devices Healthcare organizations with medical devices",
-      "definition_ref": "/v1.0.0/signals/CIS/ASSET/CSE-CIS-ASSET-NO-INVENTORY-001/",
+      "definition_ref": "/signals/CIS/ASSET/CSE-CIS-ASSET-NO-INVENTORY-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1109,7 +1109,7 @@
       "canonical_name": "Network-Based Asset Discovery Missing",
       "description": "This signal detects when an organization lacks an active network-based discovery tool to identify all assets connected to the enterprise's network infrastructure. CIS Control 1.5 requires organizations to use active discovery tools that can identify and enumerate devices, including passive devices that may not be easily detected by other means. Without network-based discovery, organizations have incomplete visibility into their attack surface and cannot effectively manage or secure unknown or un",
       "applicability": "Enterprise IT environments Cloud infrastructure On-premises data centers Remote/hybrid work environments Industrial control systems (ICS/SCADA) Healthcare environments with medical devices Multi-site or distributed networks",
-      "definition_ref": "/v1.0.0/signals/CIS/ASSET/CSE-CIS-ASSET-NO-NETWORK-DISCOVERY-005/",
+      "definition_ref": "/signals/CIS/ASSET/CSE-CIS-ASSET-NO-NETWORK-DISCOVERY-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1151,7 +1151,7 @@
       "canonical_name": "Unauthorized Asset Detection Missing",
       "description": "This signal detects when an organization has no established process or automated capability to identify and address unauthorized assets on their network. Unauthorized assets represent significant security risks as they may be compromised devices, shadow IT, or malicious systems introduced by threat actors. Organizations must have mechanisms to detect these assets and documented procedures to remove them or bring them into compliance.",
       "applicability": "Enterprise IT environments Cloud infrastructure On-premises data centers Remote/hybrid work environments Guest and visitor networks BYOD (Bring Your Own Device) environments",
-      "definition_ref": "/v1.0.0/signals/CIS/ASSET/CSE-CIS-ASSET-NO-UNAUTHORIZED-DETECTION-002/",
+      "definition_ref": "/signals/CIS/ASSET/CSE-CIS-ASSET-NO-UNAUTHORIZED-DETECTION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1193,7 +1193,7 @@
       "canonical_name": "Audit Log Storage Inadequate",
       "description": "Audit log storage capacity is inadequate to meet the organization's retention requirements. This signal indicates that log storage infrastructure cannot accommodate the volume of logs being generated, risking premature deletion, log rotation before retention requirements are met, or complete loss of audit data due to storage exhaustion.",
       "applicability": "This signal applies to: Log storage systems and infrastructure SIEM platforms and log aggregators Cloud-based logging services On-premises log storage arrays Database audit log storage Application log repositories Network device log storage Security tool log retention",
-      "definition_ref": "/v1.0.0/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-ADEQUATE-STORAGE-002/",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-ADEQUATE-STORAGE-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1236,7 +1236,7 @@
       "canonical_name": "Centralized Log Management Missing",
       "description": "The organization lacks a centralized log management system or SIEM platform to aggregate and analyze logs from distributed systems. This signal indicates that logs remain dispersed across individual systems without central collection, making it difficult to correlate events, detect distributed attacks, perform comprehensive security monitoring, or conduct effective incident response.",
       "applicability": "This signal applies to: Security information and event management (SIEM) platforms Log aggregation and centralization tools Cloud-based logging services (CloudWatch, Azure Monitor, Stackdriver) Open-source log management (ELK Stack, Graylog, Fluentd) Syslog servers and forwarders Enterprise monitoring platforms Security operations centers (SOC) Distributed system architectures",
-      "definition_ref": "/v1.0.0/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-CENTRALIZED-007/",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-CENTRALIZED-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1279,7 +1279,7 @@
       "canonical_name": "Detailed Command Logging Missing",
       "description": "Systems are not configured to log detailed command-line activity, including administrative commands executed by users. This signal indicates that there is insufficient logging of command execution, making it difficult to track privileged user actions, detect unauthorized activities, or conduct forensic investigations of security incidents.",
       "applicability": "This signal applies to: Linux/Unix shell command logging (bash, zsh, sh) Windows PowerShell logging Windows Command Prompt logging Privileged access management (PAM) systems Jump servers and bastion hosts Database command logging Network device CLI logging Container exec command logging SSH session logging",
-      "definition_ref": "/v1.0.0/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-DETAILED-LOGGING-004/",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-DETAILED-LOGGING-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1322,7 +1322,7 @@
       "canonical_name": "DNS Query Logging Missing",
       "description": "DNS query logging is not enabled or configured across the organization's DNS infrastructure. This signal indicates that DNS queries from internal systems are not being logged, preventing the detection of DNS-based attacks, command and control communication, data exfiltration attempts, or reconnaissance activities.",
       "applicability": "This signal applies to: Internal DNS servers (BIND, Windows DNS, dnsmasq) Cloud DNS services (Route 53, Azure DNS, Cloud DNS) DNS filtering and security services Recursive DNS resolvers Authoritative DNS servers DNS firewalls and security gateways Network security monitoring tools SIEM and log aggregation platforms",
-      "definition_ref": "/v1.0.0/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-DNS-LOGGING-005/",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-DNS-LOGGING-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1365,7 +1365,7 @@
       "canonical_name": "Audit Log Management Process Missing",
       "description": "The organization lacks a documented and implemented audit log management process. This signal indicates that there is no formal process to establish and maintain an audit logging program, including the identification of what events should be logged, where logs should be stored, and how they should be managed throughout their lifecycle.",
       "applicability": "This signal applies to: Enterprise audit logging policies and procedures Security information and event management (SIEM) programs Centralized logging infrastructure Organizational security documentation Compliance and governance frameworks Security operations center (SOC) operations Incident response capabilities",
-      "definition_ref": "/v1.0.0/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-PROCESS-001/",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1408,7 +1408,7 @@
       "canonical_name": "Audit Log Review Missing",
       "description": "The organization lacks a process for regular review and analysis of audit logs to detect anomalies, security events, or policy violations. This signal indicates that while logs may be collected, there is no systematic review process, automated alerting, or analytical capability to identify security incidents, suspicious activities, or compliance issues from the logged data.",
       "applicability": "This signal applies to: Security operations center (SOC) procedures SIEM alert and correlation rules Log analysis and review processes Automated security monitoring Incident detection capabilities Compliance audit procedures Security team responsibilities Threat hunting programs",
-      "definition_ref": "/v1.0.0/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-REVIEW-008/",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-REVIEW-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1451,7 +1451,7 @@
       "canonical_name": "Audit Log Timestamps Missing",
       "description": "Audit logs are missing standardized timestamps or time synchronization is not configured across logging systems. This signal indicates that log entries lack accurate or consistent timestamps, making it difficult to correlate events across systems, establish timelines for security incidents, or conduct effective forensic investigations.",
       "applicability": "This signal applies to: System and application log files Network device logs Security tool logs (SIEM, IDS/IPS, firewalls) Database audit logs Cloud service logs Container and orchestration platform logs Time synchronization infrastructure (NTP) Cross-system log correlation",
-      "definition_ref": "/v1.0.0/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-TIMESTAMPS-003/",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-TIMESTAMPS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1494,7 +1494,7 @@
       "canonical_name": "URL Request Logging Missing",
       "description": "Web proxy, firewall, or gateway systems are not configured to log URL requests from internal users and systems. This signal indicates that HTTP/HTTPS requests are not being logged, preventing visibility into web-based threats, data exfiltration attempts, policy violations, or malicious website access.",
       "applicability": "This signal applies to: Web proxy servers (Squid, Blue Coat, Zscaler) Web application firewalls (WAF) Cloud access security brokers (CASB) Next-generation firewalls (NGFW) Secure web gateways (SWG) Web content filtering solutions Network traffic analysis tools Browser-based security extensions",
-      "definition_ref": "/v1.0.0/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-URL-LOGGING-006/",
+      "definition_ref": "/signals/CIS/AUDIT/CSE-CIS-AUDIT-NO-URL-LOGGING-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1537,7 +1537,7 @@
       "canonical_name": "Certificate Management Missing",
       "description": "The organization lacks a formal process for managing digital certificates, including certificate issuance, renewal, revocation, and inventory management for unencrypted network traffic. This signal indicates that certificate lifecycle management may be ad-hoc, leading to expired certificates, unauthorized certificate usage, or lack of visibility into certificate inventory.",
       "applicability": "This signal applies to: SSL/TLS certificates for web services Code signing certificates Email certificates (S/MIME) Client authentication certificates Internal CA infrastructure Certificate inventory and tracking Certificate renewal processes Certificate revocation procedures",
-      "definition_ref": "/v1.0.0/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-CERTIFICATES-008/",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-CERTIFICATES-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1580,7 +1580,7 @@
       "canonical_name": "Default Deny Firewall Rule Missing",
       "description": "Firewalls and filtering systems do not implement a default deny rule, allowing traffic that is not explicitly permitted rather than blocking all traffic except what is specifically allowed. This signal indicates that network traffic control follows a permissive rather than restrictive security model.",
       "applicability": "This signal applies to: Host-based firewalls Network firewalls and ACLs Security groups (cloud environments) Web application firewalls Packet filtering systems Network access control lists Endpoint protection platforms",
-      "definition_ref": "/v1.0.0/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-DEFAULT-DENY-004/",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-DEFAULT-DENY-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1623,7 +1623,7 @@
       "canonical_name": "Host-Based Firewall Configuration Missing",
       "description": "Enterprise assets do not have host-based firewalls configured or enabled, or firewall configurations are not standardized across the organization. This signal indicates that individual systems may lack endpoint-level network protection and traffic filtering capabilities.",
       "applicability": "This signal applies to: Windows workstations and servers Linux/Unix systems macOS endpoints Virtual machines Cloud instances Container hosts Mobile devices with firewall capabilities",
-      "definition_ref": "/v1.0.0/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-FIREWALL-CONFIG-003/",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-FIREWALL-CONFIG-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1666,7 +1666,7 @@
       "canonical_name": "Automatic Lockout Not Configured",
       "description": "Systems and applications do not have automatic lockout mechanisms configured for mobile devices, workstations, or sessions after a period of inactivity. This signal indicates that unattended devices and sessions remain accessible, creating opportunities for unauthorized access.",
       "applicability": "This signal applies to: Workstation and desktop systems Mobile devices (phones, tablets) Server console sessions Web application sessions Remote desktop sessions Kiosk systems Physical access terminals",
-      "definition_ref": "/v1.0.0/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-LOCKOUT-005/",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-LOCKOUT-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1709,7 +1709,7 @@
       "canonical_name": "Network Infrastructure Security Configuration Missing",
       "description": "Network infrastructure devices lack documented secure configurations or are not configured according to established security baselines and industry best practices. This signal indicates that routers, switches, firewalls, and other network devices may have insecure default settings or inconsistent security configurations.",
       "applicability": "This signal applies to: Network routers and switches Firewalls and security appliances Wireless access points Load balancers VPN concentrators Network management systems SDN controllers",
-      "definition_ref": "/v1.0.0/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-NETWORK-SECURITY-002/",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-NETWORK-SECURITY-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1752,7 +1752,7 @@
       "canonical_name": "Remote Wipe Capability Missing",
       "description": "Mobile devices and portable enterprise assets lack remote wipe capabilities, preventing the organization from remotely erasing data in case of device loss, theft, or compromise. This signal indicates that sensitive data on lost or stolen devices cannot be remotely removed to prevent unauthorized access.",
       "applicability": "This signal applies to: Corporate mobile phones Tablets and portable devices Laptops with mobile connectivity Wearable devices IoT devices with data storage Removable storage devices BYOD (Bring Your Own Device) assets",
-      "definition_ref": "/v1.0.0/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-REMOTE-WIPE-006/",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-REMOTE-WIPE-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1795,7 +1795,7 @@
       "canonical_name": "Secure Configuration Process Missing",
       "description": "The organization lacks a documented, repeatable process for establishing and maintaining secure configurations across enterprise assets and software. This signal indicates that secure configuration management may be ad-hoc, inconsistent, or not formalized as a standard organizational practice.",
       "applicability": "This signal applies to: Enterprise configuration management processes Security baseline development procedures Configuration standards documentation Change management workflows Configuration review processes Hardening guide development Compliance validation procedures",
-      "definition_ref": "/v1.0.0/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-SECURE-PROCESS-001/",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-SECURE-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1838,7 +1838,7 @@
       "canonical_name": "Unused Ports Not Disabled",
       "description": "Network infrastructure devices and enterprise assets have unused physical and logical ports that remain enabled, creating unnecessary attack surface and potential entry points. This signal indicates that systems may have active ports, services, and interfaces that are not required for business operations.",
       "applicability": "This signal applies to: Network switches and unused switch ports Router interfaces Server network interfaces USB ports on workstations Wireless interfaces when not needed Serial/console ports Application listening ports",
-      "definition_ref": "/v1.0.0/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-UNUSED-PORTS-007/",
+      "definition_ref": "/signals/CIS/CONFIG/CSE-CIS-CONFIG-NO-UNUSED-PORTS-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1881,7 +1881,7 @@
       "canonical_name": "Data Classification Missing",
       "description": "An organization lacks a data classification scheme to categorize data based on sensitivity, criticality, and handling requirements. This signal indicates that data is not systematically labeled or tagged according to its confidentiality, integrity, and availability requirements, making it difficult to apply appropriate security controls.",
       "applicability": "This signal applies to: Documents and file repositories Database records and fields Cloud storage objects and containers Email and communication systems Application data stores Intellectual property repositories Customer and employee data Financial and regulatory data System and application logs",
-      "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-CLASSIFICATION-007/",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-CLASSIFICATION-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1924,7 +1924,7 @@
       "canonical_name": "Secure Data Disposal Missing",
       "description": "An organization lacks secure data disposal procedures to ensure that data is irretrievably destroyed when it reaches the end of its retention period. This signal indicates that data deletion may not be permanent, leaving sensitive information recoverable through forensic techniques or accessible in backups, snapshots, or replicas.",
       "applicability": "This signal applies to: Decommissioned servers and workstations Replaced hard drives and storage media Cloud storage and virtual machine disks Database records and tables Backup tapes and archives Mobile devices and removable media SaaS application data Container and ephemeral storage Log files and temporary data",
-      "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-DISPOSAL-005/",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-DISPOSAL-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1967,7 +1967,7 @@
       "canonical_name": "Data Loss Prevention Missing",
       "description": "An organization lacks data loss prevention (DLP) capabilities to detect and prevent unauthorized data exfiltration or sharing of sensitive information. This signal indicates that there are no technical controls to monitor, detect, or block sensitive data from leaving the organization's control through email, web uploads, removable media, or other channels.",
       "applicability": "This signal applies to: Email systems and gateways Web browsers and proxies Cloud application access (SaaS) File sharing and collaboration platforms Endpoint devices (laptops, workstations) USB and removable media Network data transfers Mobile device communications Print and fax systems",
-      "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-DLP-008/",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-DLP-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2010,7 +2010,7 @@
       "canonical_name": "Encryption at Rest Missing",
       "description": "Sensitive data stored on systems, storage devices, or in cloud services is not encrypted at rest, making it vulnerable to unauthorized access if the storage medium is compromised. This signal indicates that data is stored in plaintext or without adequate encryption protection, allowing anyone with physical or logical access to the storage to read the data.",
       "applicability": "This signal applies to: Database systems (MySQL, PostgreSQL, MongoDB, etc.) Cloud storage (S3, Azure Blob Storage, GCS) Virtual machine disks and volumes File servers and network-attached storage Laptop and desktop hard drives Mobile device storage Backup systems and archives Container persistent volumes SaaS application data stores",
-      "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-ENCRYPTION-AT-REST-006/",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-ENCRYPTION-AT-REST-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2053,7 +2053,7 @@
       "canonical_name": "Removable Media Encryption Missing",
       "description": "Removable media devices such as USB drives, external hard drives, or portable storage are not encrypted, creating risk of data exposure if the device is lost or stolen. This signal indicates that data stored on portable media can be accessed by anyone who physically obtains the device, without requiring authentication or decryption.",
       "applicability": "This signal applies to: USB flash drives and thumb drives External hard drives and SSDs SD cards and microSD cards Optical media (CDs, DVDs, Blu-ray) Portable backup drives Encrypted USB devices (not properly configured) Mobile device external storage Camera and recording device storage Legacy backup tapes",
-      "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-ENCRYPTION-REMOVABLE-009/",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-ENCRYPTION-REMOVABLE-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2096,7 +2096,7 @@
       "canonical_name": "Encryption in Transit Missing",
       "description": "Sensitive data transmitted over networks is not encrypted, exposing it to interception, eavesdropping, or man-in-the-middle attacks. This signal indicates that data communications use unencrypted protocols (HTTP, FTP, Telnet, etc.) or do not enforce encryption, allowing network traffic to be captured and read in plaintext.",
       "applicability": "This signal applies to: Web applications and APIs Database connections Email transmission (SMTP, IMAP, POP3) File transfers (FTP, SMB, NFS) Remote access and administration Internal network communications Cloud service connections Mobile application communications IoT device communications",
-      "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-ENCRYPTION-TRANSIT-010/",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-ENCRYPTION-TRANSIT-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2139,7 +2139,7 @@
       "canonical_name": "Sensitive Data Inventory Missing",
       "description": "An organization lacks an inventory of sensitive data, including data types, locations, access requirements, and processing restrictions. This signal indicates that the organization cannot identify what sensitive data it possesses, where it is stored, who has access to it, or what protection requirements apply.",
       "applicability": "This signal applies to: Databases containing personal information (PII) Customer relationship management (CRM) systems Financial transaction systems Healthcare records and patient data Employee records and HR systems Cloud storage repositories File servers and network shares Application data stores Backup and archive systems",
-      "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-INVENTORY-002/",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-INVENTORY-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2182,7 +2182,7 @@
       "canonical_name": "Data Management Process Missing",
       "description": "An organization lacks a documented and implemented data management process to establish and maintain the provenance of data. This signal indicates that there is no formal process for tracking where data originates, how it flows through systems, who has access to it, and what transformations or processing it undergoes throughout its lifecycle.",
       "applicability": "This signal applies to: Enterprise data governance frameworks Data warehouses and data lakes Cloud storage repositories (S3, Azure Blob, GCS) Database management systems Data integration and ETL pipelines File sharing and collaboration platforms Application data stores Data backup and archive systems",
-      "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-MANAGEMENT-PROCESS-001/",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-MANAGEMENT-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2225,7 +2225,7 @@
       "canonical_name": "Unnecessary Data Not Removed",
       "description": "An organization retains data that is no longer required for business purposes, increasing the attack surface and compliance risks. This signal indicates that data continues to exist beyond its useful lifecycle, including test data, deprecated datasets, obsolete backups, or data from completed projects.",
       "applicability": "This signal applies to: Development and testing environments Deprecated database systems Obsolete backup archives Completed project data Terminated customer accounts Legacy application data Decommissioned system data Temporary or staging data Log files beyond retention period",
-      "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-REMOVAL-003/",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-REMOVAL-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2268,7 +2268,7 @@
       "canonical_name": "Data Retention Policy Missing",
       "description": "An organization lacks a documented data retention policy that defines how long different types of data should be retained and when it should be disposed of. This signal indicates that there are no formal retention requirements governing data lifecycle, leading to inconsistent retention practices and potential compliance risks.",
       "applicability": "This signal applies to: Customer and client data Financial records and transactions Employee records and HR data Audit logs and security events Backup and archive systems Email and communications Contracts and legal documents Compliance and regulatory data Application logs and telemetry",
-      "definition_ref": "/v1.0.0/signals/CIS/DATA/CSE-CIS-DATA-NO-RETENTION-POLICY-004/",
+      "definition_ref": "/signals/CIS/DATA/CSE-CIS-DATA-NO-RETENTION-POLICY-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2311,7 +2311,7 @@
       "canonical_name": "DMARC Not Implemented",
       "description": "Domain-based Message Authentication, Reporting, and Conformance (DMARC) is not implemented for organizational email domains. Organizations must deploy DMARC policies along with SPF and DKIM to prevent email spoofing, protect brand reputation, and gain visibility into email authentication failures. Without DMARC, attackers can more easily spoof organizational domains in phishing attacks.",
       "applicability": "All organizational email domains Email infrastructure and mail servers DNS management systems Third-party email service providers Marketing and transactional email systems Partner and vendor email integrations",
-      "definition_ref": "/v1.0.0/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-DMARC-005/",
+      "definition_ref": "/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-DMARC-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2354,7 +2354,7 @@
       "canonical_name": "DNS Filtering Missing",
       "description": "DNS filtering is not configured to block access to known malicious domains. Organizations must implement DNS-layer security to prevent users from accessing malicious or unwanted websites by blocking DNS resolution requests for known bad domains, including those used for malware, phishing, and command-and-control communications.",
       "applicability": "All enterprise DNS infrastructure Network security controls and firewalls Remote access and VPN connections Public Wi-Fi and guest networks Cloud and hybrid environments Endpoints and mobile devices",
-      "definition_ref": "/v1.0.0/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-DNS-FILTERING-002/",
+      "definition_ref": "/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-DNS-FILTERING-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2397,7 +2397,7 @@
       "canonical_name": "Email File Type Blocking Missing",
       "description": "Email systems do not block or quarantine high-risk file types commonly used to deliver malware. Organizations must configure email security gateways to automatically block or quarantine dangerous file types and extensions that are frequently exploited in phishing and malware campaigns, reducing the attack surface from email-based threats.",
       "applicability": "Email security gateways and filters Microsoft 365/Exchange Online Protection Third-party email security solutions Anti-malware scanning systems Email attachment handling policies Security awareness training programs",
-      "definition_ref": "/v1.0.0/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-FILE-TYPE-BLOCKING-004/",
+      "definition_ref": "/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-FILE-TYPE-BLOCKING-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2440,7 +2440,7 @@
       "canonical_name": "Email Attachment Sandboxing Missing",
       "description": "Email attachment sandboxing capabilities are not deployed to detonate and analyze suspicious files in an isolated environment. Organizations must implement sandbox technology that executes email attachments in a controlled, virtualized environment to detect malicious behavior before delivering files to end users, protecting against zero-day threats and advanced malware.",
       "applicability": "Email security gateways and platforms Advanced threat protection solutions Microsoft 365 Defender/Safe Attachments Cloud email security services (Proofpoint, Mimecast) On-premises email security appliances Integrated email and endpoint protection platforms",
-      "definition_ref": "/v1.0.0/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-SANDBOX-006/",
+      "definition_ref": "/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-SANDBOX-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2483,7 +2483,7 @@
       "canonical_name": "Unsupported Browsers in Use",
       "description": "Unsupported or outdated web browsers are in use within the organization. Enterprises must maintain supported and up-to-date web browsers to ensure security patches are available and actively maintained by vendors. Using unsupported browsers exposes systems to known vulnerabilities that will never be patched.",
       "applicability": "All enterprise workstations and endpoints Web application access points Remote access and VPN systems Public-facing kiosks or terminals Mobile device management platforms Environments with browser-based applications",
-      "definition_ref": "/v1.0.0/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-SUPPORTED-BROWSERS-001/",
+      "definition_ref": "/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-SUPPORTED-BROWSERS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2526,7 +2526,7 @@
       "canonical_name": "URL Filtering Missing",
       "description": "URL filtering and categorization controls are not implemented to block access to malicious or inappropriate websites. Organizations must deploy web filtering solutions that inspect HTTP/HTTPS traffic and block access based on URL reputation, category, and threat intelligence to prevent users from accessing harmful content and enforce acceptable use policies.",
       "applicability": "Web proxies and secure web gateways Firewall and network security devices Endpoint protection platforms Cloud access security brokers (CASB) Remote access and VPN connections Email security gateways",
-      "definition_ref": "/v1.0.0/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-URL-FILTERING-003/",
+      "definition_ref": "/signals/CIS/EMAIL/CSE-CIS-EMAIL-NO-URL-FILTERING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2569,7 +2569,7 @@
       "canonical_name": "Incident Reporting Contacts Missing",
       "description": "The organization lacks documented incident reporting contacts and procedures. This signal indicates that there are no established and documented points of contact for reporting security incidents. Without clear reporting mechanisms, employees and stakeholders may not know how to report suspected security incidents, leading to delayed detection, prolonged incidents, and increased damage.",
       "applicability": "This signal applies to: Enterprise incident response programs Security awareness and training materials Internal communication procedures Security operations center (SOC) contact information Computer security incident response team (CSIRT) capabilities Employee handbooks and security policies Organizational communication channels",
-      "definition_ref": "/v1.0.0/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-CONTACTS-002/",
+      "definition_ref": "/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-CONTACTS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2612,7 +2612,7 @@
       "canonical_name": "Incident Response Exercises Missing",
       "description": "The organization lacks regular incident response exercises and testing. This signal indicates that the organization does not conduct regular tabletop exercises, simulations, or tests of incident response capabilities. Without periodic testing, the incident response plan may become outdated, personnel may not be familiar with their roles, and gaps in response capabilities may go undetected until a real incident occurs.",
       "applicability": "This signal applies to: Enterprise incident response programs Security operations center (SOC) training Computer security incident response team (CSIRT) readiness Business continuity and disaster recovery testing Security awareness programs Organizational resilience initiatives Compliance validation activities",
-      "definition_ref": "/v1.0.0/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-EXERCISES-004/",
+      "definition_ref": "/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-EXERCISES-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2655,7 +2655,7 @@
       "canonical_name": "Post-Incident Review Missing",
       "description": "The organization lacks a process for conducting post-incident reviews and lessons learned activities. This signal indicates that the organization does not systematically review and document lessons learned from security incidents. Without a formal post-incident review process, the organization cannot identify root causes, improve response capabilities, or prevent similar incidents from recurring. This represents a missed opportunity for continuous improvement of security posture.",
       "applicability": "This signal applies to: Enterprise incident response programs Security operations center (SOC) operations Computer security incident response team (CSIRT) activities Continuous improvement initiatives Risk management processes Security control enhancement Organizational learning programs",
-      "definition_ref": "/v1.0.0/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-LESSONS-LEARNED-005/",
+      "definition_ref": "/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-LESSONS-LEARNED-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2698,7 +2698,7 @@
       "canonical_name": "Incident Response Plan Missing",
       "description": "The organization lacks a documented and implemented incident response plan. This signal indicates that there is no formal incident response plan defining how the organization will detect, respond to, and recover from security incidents. Without a documented plan, the organization may be unprepared to effectively handle security events, leading to extended incident durations, increased damage, and regulatory non-compliance.",
       "applicability": "This signal applies to: Enterprise incident response policies and procedures Security operations center (SOC) operations Computer security incident response team (CSIRT) capabilities Business continuity and disaster recovery planning Organizational security documentation Compliance and governance frameworks Incident management programs",
-      "definition_ref": "/v1.0.0/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-PLAN-001/",
+      "definition_ref": "/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-PLAN-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2741,7 +2741,7 @@
       "canonical_name": "Incident Response Roles Missing",
       "description": "The organization lacks defined incident response roles and responsibilities. This signal indicates that there are no documented roles, responsibilities, and decision-making authorities for personnel involved in incident response activities. Without clearly defined roles, incident response efforts may be chaotic, uncoordinated, and ineffective, with confusion about who is responsible for critical decisions and actions.",
       "applicability": "This signal applies to: Enterprise incident response plans Security operations center (SOC) staffing Computer security incident response team (CSIRT) organization Organizational charts and role definitions Security policy documentation Job descriptions and responsibilities Incident management frameworks",
-      "definition_ref": "/v1.0.0/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-ROLES-003/",
+      "definition_ref": "/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-ROLES-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2784,7 +2784,7 @@
       "canonical_name": "Incident Escalation Thresholds Missing",
       "description": "The organization lacks defined incident escalation thresholds and criteria. This signal indicates that there are no documented criteria for when security incidents should be escalated to higher levels of management or external parties. Without clear escalation thresholds, incidents may not receive appropriate attention and resources based on their severity, potentially leading to inadequate responses to critical events or unnecessary escalation of minor issues.",
       "applicability": "This signal applies to: Enterprise incident response plans Security operations center (SOC) procedures Computer security incident response team (CSIRT) workflows Incident classification frameworks Management reporting procedures Regulatory notification requirements Crisis management protocols",
-      "definition_ref": "/v1.0.0/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-THRESHOLDS-006/",
+      "definition_ref": "/signals/CIS/INCIDENT/CSE-CIS-INCIDENT-NO-THRESHOLDS-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2827,7 +2827,7 @@
       "canonical_name": "Automatic Scanning Missing",
       "description": "Automatic or scheduled anti-malware scans of enterprise assets are not configured or executed regularly.",
       "applicability": "This signal applies to: Workstations and endpoint devices File servers and storage systems Email servers and gateways Web proxies and content filters Application servers Network attached storage",
-      "definition_ref": "/v1.0.0/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-AUTO-SCAN-004/",
+      "definition_ref": "/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-AUTO-SCAN-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2872,7 +2872,7 @@
       "canonical_name": "Auto-Update for Anti-Malware Missing",
       "description": "Automatic updates for anti-malware signatures and software are not configured or functioning.",
       "applicability": "This signal applies to: Anti-malware signature databases Endpoint protection platforms Anti-virus definition updates Malware detection engines Threat intelligence feeds Security agent software versions",
-      "definition_ref": "/v1.0.0/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-AUTO-UPDATE-002/",
+      "definition_ref": "/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-AUTO-UPDATE-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2917,7 +2917,7 @@
       "canonical_name": "Behavioral Analysis Missing",
       "description": "Anti-malware solutions lack behavioral analysis capabilities to detect unknown or zero-day threats based on behavior patterns.",
       "applicability": "This signal applies to: Endpoint detection and response (EDR) platforms Advanced anti-malware solutions Sandbox analysis systems Behavioral monitoring tools Next-generation anti-virus (NGAV) Threat hunting capabilities",
-      "definition_ref": "/v1.0.0/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-BEHAVIORAL-005/",
+      "definition_ref": "/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-BEHAVIORAL-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2962,7 +2962,7 @@
       "canonical_name": "Centralized Anti-Malware Management Missing",
       "description": "Centralized management and reporting for anti-malware solutions is not implemented across enterprise assets.",
       "applicability": "This signal applies to: Anti-malware management consoles Endpoint protection platforms Security information and event management (SIEM) Centralized logging and reporting systems Policy management and enforcement tools Threat detection and response coordination",
-      "definition_ref": "/v1.0.0/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-CENTRALIZED-MGMT-006/",
+      "definition_ref": "/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-CENTRALIZED-MGMT-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3007,7 +3007,7 @@
       "canonical_name": "Anti-Malware Software Missing",
       "description": "Anti-malware software is not deployed on enterprise assets.",
       "applicability": "This signal applies to: Workstations and laptops Servers (Windows, Linux, Unix) Mobile devices Virtual machines Cloud instances Endpoint devices accessing enterprise resources",
-      "definition_ref": "/v1.0.0/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-PROTECTION-001/",
+      "definition_ref": "/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-PROTECTION-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3052,7 +3052,7 @@
       "canonical_name": "Removable Media Scanning Missing",
       "description": "Automatic scanning of removable media and downloaded files is not enabled or configured.",
       "applicability": "This signal applies to: USB drives and external storage Network file shares and downloads Email attachments Cloud storage sync folders Removable optical media (CD/DVD) External hard drives",
-      "definition_ref": "/v1.0.0/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-USB-SCANNING-003/",
+      "definition_ref": "/signals/CIS/MALWARE/CSE-CIS-MALWARE-NO-USB-SCANNING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3097,7 +3097,7 @@
       "canonical_name": "Network Access Control Missing",
       "description": "The organization lacks network access control (NAC) capabilities to manage and enforce device authentication and authorization before granting network access. This signal indicates that there is no systematic method to verify device compliance, identity, or security posture before allowing network connectivity, potentially exposing the network to unauthorized or compromised devices.",
       "applicability": "This signal applies to: Wired and wireless network access points Enterprise network infrastructure Device authentication and authorization Network segmentation enforcement BYOD (Bring Your Own Device) policies Guest network access management IoT device network connectivity",
-      "definition_ref": "/v1.0.0/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-ACCESS-CONTROL-005/",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-ACCESS-CONTROL-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3139,7 +3139,7 @@
       "canonical_name": "Remote Device Management Missing",
       "description": "The organization lacks centralized management capabilities for remote and mobile devices accessing the network. This signal indicates that there is no systematic approach to monitor, manage, and enforce security policies on devices that connect remotely or from untrusted networks, potentially creating security gaps in endpoint protection and compliance.",
       "applicability": "This signal applies to: Remote workforce devices (laptops, workstations) Mobile devices (smartphones, tablets) Mobile device management (MDM) platforms Endpoint management systems Remote access security BYOD (Bring Your Own Device) programs Telecommuter security controls",
-      "definition_ref": "/v1.0.0/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-DEVICE-MGMT-006/",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-DEVICE-MGMT-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3181,7 +3181,7 @@
       "canonical_name": "Egress Traffic Filtering Missing",
       "description": "The organization lacks egress traffic filtering to monitor and control outbound network communications. This signal indicates that there is no systematic filtering or inspection of traffic leaving the network, which could allow data exfiltration, command and control communications, or connections to malicious external resources.",
       "applicability": "This signal applies to: Network perimeter security controls Firewall egress rules and policies Data loss prevention (DLP) systems Command and control (C2) prevention Malware communication blocking Data exfiltration prevention Enterprise network security architecture",
-      "definition_ref": "/v1.0.0/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-FILTERING-EGRESS-004/",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-FILTERING-EGRESS-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3223,7 +3223,7 @@
       "canonical_name": "Intrusion Detection Missing",
       "description": "The organization lacks an intrusion detection system (IDS) to monitor network traffic for malicious activity and policy violations. This signal indicates that there is no network-based or host-based intrusion detection capability deployed to identify potential security incidents, unauthorized access attempts, or anomalous network behavior.",
       "applicability": "This signal applies to: Network perimeter security monitoring Internal network traffic analysis Host-based intrusion detection systems Security operations center (SOC) capabilities Threat detection infrastructure Enterprise network security architecture Data center and cloud network monitoring",
-      "definition_ref": "/v1.0.0/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-IDS-001/",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-IDS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3265,7 +3265,7 @@
       "canonical_name": "Intrusion Prevention Missing",
       "description": "The organization lacks an intrusion prevention system (IPS) to actively block or prevent detected threats from compromising network resources. This signal indicates that there is no automated capability to take preventive action against identified malicious network traffic, attacks, or policy violations in real-time.",
       "applicability": "This signal applies to: Network perimeter defense systems Internal network segmentation points Host-based intrusion prevention systems Active threat blocking capabilities Automated incident response systems Enterprise network security architecture Data center and cloud network protection",
-      "definition_ref": "/v1.0.0/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-IPS-002/",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-IPS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3307,7 +3307,7 @@
       "canonical_name": "Network Traffic Collection Missing",
       "description": "The organization lacks network traffic flow collection and analysis capabilities for security monitoring and incident investigation. This signal indicates that there is no systematic collection of network flow data (NetFlow, sFlow, IPFIX, or similar) that enables visibility into network communications, traffic patterns, and potential security incidents.",
       "applicability": "This signal applies to: Network traffic monitoring infrastructure Security information and event management (SIEM) systems Network behavior analysis platforms Incident investigation and forensics Threat hunting capabilities Enterprise network visibility Data exfiltration detection",
-      "definition_ref": "/v1.0.0/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-NETFLOW-003/",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-NETFLOW-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3349,7 +3349,7 @@
       "canonical_name": "SIEM/Log Correlation Missing",
       "description": "The organization lacks a Security Information and Event Management (SIEM) system or equivalent capability to collect, correlate, and analyze security events from multiple sources. This signal indicates that there is no centralized platform for aggregating and analyzing security logs, which limits the ability to detect complex attacks, identify patterns across systems, and conduct effective incident investigation.",
       "applicability": "This signal applies to: Enterprise security operations centers (SOC) Security event monitoring and analysis Incident detection and response capabilities Compliance and audit requirements Threat detection and hunting programs Multi-source log correlation Advanced security analytics",
-      "definition_ref": "/v1.0.0/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-SIEM-007/",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-SIEM-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3391,7 +3391,7 @@
       "canonical_name": "Threat Intelligence Integration Missing",
       "description": "The organization lacks integration of external threat intelligence feeds into security monitoring and defense systems. This signal indicates that there is no systematic use of threat intelligence data (indicators of compromise, threat actor TTPs, vulnerability information) to enhance detection capabilities, prioritize responses, and proactively defend against known threats.",
       "applicability": "This signal applies to: Security information and event management (SIEM) platforms Intrusion detection and prevention systems Firewall and network security controls Endpoint detection and response (EDR) systems Security operations center (SOC) operations Threat hunting programs Incident response capabilities",
-      "definition_ref": "/v1.0.0/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-THREAT-INTEL-008/",
+      "definition_ref": "/signals/CIS/MONITOR/CSE-CIS-MONITOR-NO-THREAT-INTEL-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3433,7 +3433,7 @@
       "canonical_name": "Network Architecture Diagrams Missing",
       "description": "The organization lacks current and accurate network architecture diagrams that document the logical and physical topology of the network infrastructure. This signal indicates that understanding network data flows, security boundaries, and infrastructure dependencies may be difficult without proper documentation.",
       "applicability": "This signal applies to: Network topology documentation Network architecture diagrams Data flow diagrams Security zone mappings VLAN and subnet documentation Network infrastructure documentation Disaster recovery planning Security architecture reviews",
-      "definition_ref": "/v1.0.0/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-ARCHITECTURE-DIAGRAMS-004/",
+      "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-ARCHITECTURE-DIAGRAMS-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3476,7 +3476,7 @@
       "canonical_name": "Network Infrastructure Inventory Missing",
       "description": "The organization lacks a comprehensive inventory of network infrastructure devices including routers, switches, firewalls, and other network equipment. This signal indicates that the organization cannot maintain visibility into all network devices, their configurations, or their security posture without a complete and accurate inventory.",
       "applicability": "This signal applies to: Network routers and switches Firewalls and security appliances Load balancers Network access points VPN concentrators Network management systems Infrastructure monitoring tools Asset management databases",
-      "definition_ref": "/v1.0.0/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-INFRASTRUCTURE-INVENTORY-001/",
+      "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-INFRASTRUCTURE-INVENTORY-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3519,7 +3519,7 @@
       "canonical_name": "Network Management Isolation Missing",
       "description": "The organization lacks proper isolation of network infrastructure management interfaces from production networks and untrusted networks. This signal indicates that network device management interfaces may be accessible from production networks or the internet, increasing the attack surface and risk of unauthorized access.",
       "applicability": "This signal applies to: Network device management interfaces Out-of-band management networks Jump servers and bastion hosts Administrative access controls Management VLAN configurations Remote access to network infrastructure Network segmentation policies Privileged access management systems",
-      "definition_ref": "/v1.0.0/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-MGMT-ISOLATION-003/",
+      "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-MGMT-ISOLATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3562,7 +3562,7 @@
       "canonical_name": "Secure AAA Infrastructure Missing",
       "description": "The organization lacks centralized network Authentication, Authorization, and Auditing (AAA) infrastructure for managing access to network devices and resources. This signal indicates that network access may be managed using local device credentials, inconsistent authentication methods, or without comprehensive audit logging.",
       "applicability": "This signal applies to: RADIUS and TACACS+ servers IEEE 802.1X network access control Network device authentication Wireless network security VPN authentication systems Network access control (NAC) solutions Directory services integration Authentication audit logs",
-      "definition_ref": "/v1.0.0/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-SECURE-AAA-006/",
+      "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-SECURE-AAA-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3605,7 +3605,7 @@
       "canonical_name": "Secure Network Configuration Missing",
       "description": "The organization lacks established secure baseline configurations for network infrastructure devices or does not consistently apply these configurations across the network environment. This signal indicates that network devices may be deployed with default settings, inconsistent security configurations, or without adherence to security hardening standards.",
       "applicability": "This signal applies to: Network infrastructure configuration standards Router and switch security settings Firewall rule sets and policies Network device hardening procedures Configuration management systems Change control processes Security baseline documentation Infrastructure as Code (IaC) templates",
-      "definition_ref": "/v1.0.0/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-SECURE-CONFIG-002/",
+      "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-SECURE-CONFIG-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3648,7 +3648,7 @@
       "canonical_name": "Network Segmentation Missing",
       "description": "The organization lacks proper network segmentation to isolate sensitive assets, critical systems, and different security zones from one another. This signal indicates that a security breach in one part of the network could easily spread to other systems due to insufficient network boundaries and access controls.",
       "applicability": "This signal applies to: Network architecture and design VLAN configuration and management Firewall rules and access control lists Security zone definitions Micro-segmentation implementations Zero trust network architecture Cloud network security groups Industrial control system networks",
-      "definition_ref": "/v1.0.0/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-SEGMENTATION-005/",
+      "definition_ref": "/signals/CIS/NETWORK/CSE-CIS-NETWORK-NO-SEGMENTATION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3691,7 +3691,7 @@
       "canonical_name": "External Penetration Testing Missing",
       "description": "The organization has not performed external network penetration testing based on program requirements. This signal indicates that external-facing network infrastructure, applications, and services have not been tested from an attacker's perspective outside the organization's network perimeter. External penetration testing simulates real-world attacks to identify vulnerabilities that could be exploited by external threat actors, including misconfigurations, exposed services, weak authentication,",
       "applicability": "This signal applies to: Internet-facing web applications and services External network perimeter infrastructure Cloud-hosted applications and resources Remote access services (VPN, RDP, SSH) Public-facing APIs and web services Email and collaboration platforms DNS and domain infrastructure External third-party integrations DMZ and edge network devices",
-      "definition_ref": "/v1.0.0/signals/CIS/PENTEST/CSE-CIS-PENTEST-NO-EXTERNAL-002/",
+      "definition_ref": "/signals/CIS/PENTEST/CSE-CIS-PENTEST-NO-EXTERNAL-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3734,7 +3734,7 @@
       "canonical_name": "Internal Penetration Testing Missing",
       "description": "The organization has not performed internal network penetration testing based on program requirements. This signal indicates that internal network infrastructure, systems, and applications have not been tested from the perspective of an attacker who has gained access inside the organization's network perimeter. Internal penetration testing is critical for identifying lateral movement opportunities, privilege escalation paths, insecure internal services, segmentation failures, and other vulnerabi",
       "applicability": "This signal applies to: Internal network infrastructure and services Active Directory and identity systems Internal web applications and databases File servers and shared network resources Internal APIs and microservices Network segmentation and VLANs Workstations and endpoint devices Internal cloud resources and private networks Industrial control systems (ICS) and SCADA networks Building management and IoT systems",
-      "definition_ref": "/v1.0.0/signals/CIS/PENTEST/CSE-CIS-PENTEST-NO-INTERNAL-003/",
+      "definition_ref": "/signals/CIS/PENTEST/CSE-CIS-PENTEST-NO-INTERNAL-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3777,7 +3777,7 @@
       "canonical_name": "Penetration Testing Program Missing",
       "description": "The organization lacks a documented and implemented penetration testing program. This signal indicates that there is no formal program to establish and maintain a penetration testing process, including the identification of testing scope, frequency, methodology, and reporting requirements. Without a structured penetration testing program, organizations cannot systematically identify security vulnerabilities and weaknesses in their infrastructure, applications, and security controls before malici",
       "applicability": "This signal applies to: Enterprise security testing policies and procedures Information security management programs Vulnerability management frameworks Security assessment and authorization processes Risk management programs Application security testing initiatives Network security assessments Third-party security testing engagements",
-      "definition_ref": "/v1.0.0/signals/CIS/PENTEST/CSE-CIS-PENTEST-NO-PROGRAM-001/",
+      "definition_ref": "/signals/CIS/PENTEST/CSE-CIS-PENTEST-NO-PROGRAM-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3820,7 +3820,7 @@
       "canonical_name": "Remediation Validation Testing Missing",
       "description": "The organization has not validated that remediation efforts for high and critical vulnerabilities are complete and effective through penetration testing. This signal indicates that after identifying high and critical severity vulnerabilities through penetration testing or other security assessments, the organization has not performed follow-up validation testing to confirm that remediation actions were successful. Without remediation validation, organizations cannot be certain that identified vu",
       "applicability": "This signal applies to: Vulnerability remediation programs Penetration testing follow-up processes Security patch management validation Configuration change verification Security control effectiveness testing Risk mitigation verification Third-party security assessment follow-ups Application security remediation tracking Infrastructure hardening validation Compliance remediation verification",
-      "definition_ref": "/v1.0.0/signals/CIS/PENTEST/CSE-CIS-PENTEST-NO-REMEDIATION-VALIDATION-004/",
+      "definition_ref": "/signals/CIS/PENTEST/CSE-CIS-PENTEST-NO-REMEDIATION-VALIDATION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3863,7 +3863,7 @@
       "canonical_name": "Automated Backups Missing",
       "description": "The organization lacks automated backups of enterprise assets, relying on manual processes or having no systematic backup approach for critical data. This signal indicates that backup operations may be inconsistent, unreliable, or dependent on individual actions, increasing the risk of data loss.",
       "applicability": "This signal applies to: Backup automation systems and tools Data protection infrastructure Scheduled backup jobs and tasks Backup management platforms Cloud backup services Database backup automation File server backup systems Virtual machine backup solutions",
-      "definition_ref": "/v1.0.0/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-AUTOMATED-BACKUP-002/",
+      "definition_ref": "/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-AUTOMATED-BACKUP-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3906,7 +3906,7 @@
       "canonical_name": "Isolated Backup Copies Missing",
       "description": "The organization lacks isolated copies of backup data that are segmented from enterprise networks and protected from unauthorized access, making backups vulnerable to ransomware and other widespread attacks. This signal indicates that backup data may be continuously accessible from production systems, increasing the risk that attacks affecting production systems can also compromise or destroy backup data.",
       "applicability": "This signal applies to: Air-gapped backup systems Off-network backup storage Immutable backup copies Offline backup media Network segmentation for backup infrastructure Write-once-read-many (WORM) storage Cloud backup isolation configurations Backup vault security",
-      "definition_ref": "/v1.0.0/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-ISOLATED-BACKUP-004/",
+      "definition_ref": "/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-ISOLATED-BACKUP-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3949,7 +3949,7 @@
       "canonical_name": "Data Recovery Process Missing",
       "description": "The organization lacks a documented and established process for recovering data from backups to ensure business continuity and data availability after incidents. This signal indicates that data recovery may be performed in an ad-hoc manner without documented procedures, testing protocols, or clear roles and responsibilities.",
       "applicability": "This signal applies to: Data recovery procedures and runbooks Disaster recovery plans Business continuity management systems Backup and restore operations Incident response processes Data restoration workflows Recovery time objective (RTO) requirements Recovery point objective (RPO) requirements",
-      "definition_ref": "/v1.0.0/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-PROCESS-001/",
+      "definition_ref": "/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3992,7 +3992,7 @@
       "canonical_name": "Backup Data Protection Missing",
       "description": "The organization lacks adequate protection for backup data, including encryption and access controls, making backup data vulnerable to unauthorized access, theft, or tampering. This signal indicates that backup data may be stored unencrypted, accessible to unauthorized users, or insufficiently protected from security threats.",
       "applicability": "This signal applies to: Backup data encryption at rest Backup data encryption in transit Backup storage access controls Backup media security Backup encryption key management Backup repository authentication Off-site backup protection Cloud backup security",
-      "definition_ref": "/v1.0.0/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-PROTECTED-BACKUP-003/",
+      "definition_ref": "/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-PROTECTED-BACKUP-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4035,7 +4035,7 @@
       "canonical_name": "Backup Recovery Testing Missing",
       "description": "The organization lacks regular testing of backup recovery capabilities to validate that backups can be successfully restored and meet recovery time and recovery point objectives. This signal indicates that the organization may be unable to verify backup integrity, restore functionality, or recovery procedures until an actual disaster occurs.",
       "applicability": "This signal applies to: Backup recovery testing programs Disaster recovery exercises Backup validation procedures Recovery time objective (RTO) testing Recovery point objective (RPO) verification Restore operation drills Business continuity testing Backup integrity verification",
-      "definition_ref": "/v1.0.0/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-TESTING-005/",
+      "definition_ref": "/signals/CIS/RECOVERY/CSE-CIS-RECOVERY-NO-TESTING-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4078,7 +4078,7 @@
       "canonical_name": "Software Allowlisting Not Implemented",
       "description": "An organization does not use application allowlisting technology to prevent the execution of unauthorized software on enterprise assets. This signal indicates that while authorized software lists may exist, there are no technical controls enforcing those policies at the execution level, allowing any software to run regardless of authorization status.",
       "applicability": "This signal applies to: Enterprise workstations and laptops Servers (physical and virtual) Privileged access workstations Critical infrastructure systems Point-of-sale systems Industrial control systems Medical devices with computing capabilities Kiosks and dedicated-purpose devices",
-      "definition_ref": "/v1.0.0/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-ALLOWLISTING-005/",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-ALLOWLISTING-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4121,7 +4121,7 @@
       "canonical_name": "Library Allowlisting Not Implemented",
       "description": "An organization does not implement technical controls to ensure that only authorized software libraries and third-party components can be loaded or executed by applications. This signal indicates that applications can dynamically load any library or dependency without restriction, potentially allowing malicious or vulnerable components to be introduced at runtime.",
       "applicability": "This signal applies to: Application runtime environments Web application servers API gateways and microservices Container orchestration platforms Development and build environments Continuous integration/deployment pipelines Database systems with plugin support Browser extensions and plugins",
-      "definition_ref": "/v1.0.0/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-ALLOWLISTING-LIBRARIES-006/",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-ALLOWLISTING-LIBRARIES-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4164,7 +4164,7 @@
       "canonical_name": "Script Allowlisting Not Implemented",
       "description": "An organization does not implement technical controls to restrict the execution of unauthorized scripts on enterprise assets. This signal indicates that scripts in languages such as PowerShell, Bash, Python, JavaScript, and others can execute without verification or authorization checks, potentially allowing malicious code execution through scripting engines.",
       "applicability": "This signal applies to: Windows systems with PowerShell Linux/Unix systems with shell access macOS systems with Terminal access Web browsers executing JavaScript Application servers running server-side scripts Automation and orchestration platforms Database systems with stored procedures Configuration management tools",
-      "definition_ref": "/v1.0.0/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-ALLOWLISTING-SCRIPTS-007/",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-ALLOWLISTING-SCRIPTS-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4207,7 +4207,7 @@
       "canonical_name": "Authorized Software List Missing",
       "description": "An organization does not maintain a list of authorized software that is approved for use on enterprise assets. This signal indicates that there is no documented or enforced policy defining which software applications are permitted, making it impossible to distinguish between authorized and unauthorized software installations.",
       "applicability": "This signal applies to: Enterprise workstations and laptops Servers (physical and virtual) Cloud instances and containers Mobile devices managed by the organization Network devices with installable software Development and testing environments Contractor and temporary worker devices",
-      "definition_ref": "/v1.0.0/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-AUTHORIZED-LIST-002/",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-AUTHORIZED-LIST-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4250,7 +4250,7 @@
       "canonical_name": "Software Inventory Missing",
       "description": "An organization does not maintain a comprehensive inventory of authorized software installed on enterprise assets. This signal indicates that there is no centralized record or automated system tracking all software applications across the organization's infrastructure, making it difficult to identify unauthorized software, manage licenses, or ensure security updates are applied.",
       "applicability": "This signal applies to: Enterprise workstations and laptops Servers (physical and virtual) Cloud instances and containers Mobile devices managed by the organization Network devices with installable software IoT devices with software components Development and testing environments",
-      "definition_ref": "/v1.0.0/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-INVENTORY-001/",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-INVENTORY-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4293,7 +4293,7 @@
       "canonical_name": "Software Library Inventory Missing",
       "description": "An organization does not maintain an inventory of software libraries and third-party components used within enterprise applications. This signal indicates that there is no comprehensive tracking of dependencies, frameworks, and libraries that applications rely upon, making it difficult to identify vulnerable components or respond to supply chain security incidents.",
       "applicability": "This signal applies to: Custom-developed applications Web applications and APIs Mobile applications Containerized applications Microservices architectures Infrastructure as Code templates Build and deployment pipelines Open source software usage",
-      "definition_ref": "/v1.0.0/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-LIBRARY-INVENTORY-004/",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-LIBRARY-INVENTORY-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4336,7 +4336,7 @@
       "canonical_name": "Unauthorized Software Detection Missing",
       "description": "An organization does not have automated mechanisms to detect and alert on unauthorized software installations on enterprise assets. This signal indicates that while a software inventory or authorized software list may exist, there are no active processes to continuously monitor for software that is not on the authorized list, allowing unauthorized applications to remain undetected.",
       "applicability": "This signal applies to: Enterprise workstations and laptops Servers (physical and virtual) Cloud instances and containers Mobile devices managed by the organization Network devices with installable software Development and testing environments Privileged access workstations",
-      "definition_ref": "/v1.0.0/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-UNAUTHORIZED-DETECTION-003/",
+      "definition_ref": "/signals/CIS/SOFTWARE/CSE-CIS-SOFTWARE-NO-UNAUTHORIZED-DETECTION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4379,7 +4379,7 @@
       "canonical_name": "Phishing Exercises Missing",
       "description": "The organization lacks a program to conduct simulated phishing exercises to test and reinforce security awareness training. This signal indicates that there is no formal program to regularly test users' ability to recognize and respond to phishing attempts through controlled simulation exercises, measure effectiveness, and provide targeted training based on results.",
       "applicability": "This signal applies to: Security awareness training validation programs Phishing simulation and testing initiatives User behavior measurement and analytics Training effectiveness assessment Security culture development programs Incident response readiness testing Continuous security improvement initiatives",
-      "definition_ref": "/v1.0.0/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-PHISHING-EXERCISES-004/",
+      "definition_ref": "/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-PHISHING-EXERCISES-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4421,7 +4421,7 @@
       "canonical_name": "Security Awareness Program Missing",
       "description": "The organization lacks a documented and implemented security awareness training program. This signal indicates that there is no formal program to establish and maintain security awareness training for all users, including requirements for what topics should be covered, training frequency, delivery methods, and tracking of completion.",
       "applicability": "This signal applies to: Enterprise security awareness policies and procedures User training and education programs Human resources onboarding and continuous training Organizational security documentation Compliance and governance frameworks Security culture development initiatives Employee lifecycle management",
-      "definition_ref": "/v1.0.0/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-PROGRAM-001/",
+      "definition_ref": "/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-PROGRAM-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4463,7 +4463,7 @@
       "canonical_name": "Role-Specific Training Missing",
       "description": "The organization lacks role-specific security awareness training for personnel with elevated access or security responsibilities. This signal indicates that there is no formal program to provide specialized security training tailored to specific job roles, such as administrators, developers, security team members, and others with privileged access or security-critical responsibilities.",
       "applicability": "This signal applies to: Security training programs for privileged users Administrator and IT staff training requirements Developer security training and secure coding practices Security team professional development Third-party and contractor training obligations Role-based access control (RBAC) implementations Separation of duties enforcement",
-      "definition_ref": "/v1.0.0/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-ROLE-SPECIFIC-002/",
+      "definition_ref": "/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-ROLE-SPECIFIC-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4505,7 +4505,7 @@
       "canonical_name": "Secure Coding Training Missing",
       "description": "The organization lacks secure coding training for software developers and personnel involved in application development. This signal indicates that there is no formal program to train developers on secure coding practices, common vulnerabilities, defensive programming techniques, and security testing methods appropriate for the languages, frameworks, and platforms used by the organization.",
       "applicability": "This signal applies to: Software development training programs Secure coding standards and practices Application security initiatives Developer onboarding and continuous education Third-party developer requirements DevSecOps implementation Software development lifecycle (SDLC) security",
-      "definition_ref": "/v1.0.0/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-SECURE-CODING-006/",
+      "definition_ref": "/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-SECURE-CODING-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4547,7 +4547,7 @@
       "canonical_name": "Security Skills Assessment Missing",
       "description": "The organization lacks a program to assess security skills and knowledge of personnel with security responsibilities. This signal indicates that there is no formal process to regularly evaluate the technical security competencies and knowledge of staff members who have security-related job functions, identify skill gaps, and provide targeted training to address deficiencies.",
       "applicability": "This signal applies to: Security team professional development programs IT staff competency assessment initiatives Technical training needs analysis Security role qualification requirements Professional certification tracking Skills gap analysis and remediation Security operations center (SOC) capability development",
-      "definition_ref": "/v1.0.0/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-SKILLS-ASSESSMENT-005/",
+      "definition_ref": "/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-SKILLS-ASSESSMENT-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4589,7 +4589,7 @@
       "canonical_name": "Social Engineering Awareness Missing",
       "description": "The organization lacks training to make workforce members aware of social engineering and phishing attacks. This signal indicates that there is no formal training program focused on teaching users to recognize and respond to social engineering tactics, including phishing, pretexting, baiting, quid pro quo, and other manipulation techniques used by attackers.",
       "applicability": "This signal applies to: Security awareness training programs Phishing and social engineering awareness initiatives User education on email security Incident reporting procedures Human resources security training requirements Third-party and vendor personnel training Remote workforce security education",
-      "definition_ref": "/v1.0.0/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-SOCIAL-ENGINEERING-003/",
+      "definition_ref": "/signals/CIS/TRAINING/CSE-CIS-TRAINING-NO-SOCIAL-ENGINEERING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4631,7 +4631,7 @@
       "canonical_name": "Service Provider Assessment Missing",
       "description": "This signal detects when an organization fails to assess service providers based on the sensitivity of data processed, stored, or transmitted, and the criticality of the services provided. Regular security assessments verify that service providers implement and maintain security controls consistent with contractual requirements and the organization's risk tolerance. Without assessments, organizations cannot validate vendor security claims, identify risks introduced through the supply chain, or e",
       "applicability": "Organizations with classified service providers (requires CSE-CIS-VENDOR-NO-CLASSIFICATION-002) Companies processing sensitive data through vendors Enterprises dependent on critical IT services from third parties Healthcare organizations with business associates handling PHI Financial institutions with third-party processors Organizations subject to regulatory assessment requirements Companies with cloud infrastructure providers Enterprises using SaaS applications for core business functions",
-      "definition_ref": "/v1.0.0/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-ASSESSMENT-004/",
+      "definition_ref": "/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-ASSESSMENT-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4673,7 +4673,7 @@
       "canonical_name": "Service Provider Classification Missing",
       "description": "This signal detects when an organization fails to classify service providers based on the sensitivity of data they process, store, or transmit, and the criticality of the services they provide. Without proper classification, organizations cannot appropriately allocate security resources, conduct risk-based assessments, or implement proportional security controls for different vendors. Classification enables prioritization of vendor security efforts based on actual risk.",
       "applicability": "Organizations with multiple service providers Companies processing sensitive or regulated data Enterprises with critical IT infrastructure dependencies Healthcare organizations managing PHI with vendors Financial institutions with third-party processors Organizations subject to regulatory requirements (GDPR, HIPAA, PCI-DSS) Companies with complex supply chains",
-      "definition_ref": "/v1.0.0/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-CLASSIFICATION-002/",
+      "definition_ref": "/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-CLASSIFICATION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4715,7 +4715,7 @@
       "canonical_name": "Service Provider Inventory Missing",
       "description": "This signal detects when an organization lacks an inventory of service providers that hold sensitive data or are responsible for an enterprise's critical IT platforms or processes. Without a comprehensive service provider inventory, organizations cannot effectively manage third-party risks, ensure compliance with contractual obligations, or respond to supply chain security incidents. This is a foundational requirement for managing third-party risk and supply chain security.",
       "applicability": "Organizations using cloud service providers Companies with managed service providers (MSPs) Enterprises with SaaS applications Organizations outsourcing IT operations Companies with third-party data processors Healthcare organizations with business associates Financial institutions with third-party service providers",
-      "definition_ref": "/v1.0.0/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-INVENTORY-001/",
+      "definition_ref": "/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-INVENTORY-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4757,7 +4757,7 @@
       "canonical_name": "Service Provider Monitoring Missing",
       "description": "This signal detects when an organization fails to monitor service providers on an ongoing basis to ensure they are meeting their contractual security obligations and maintaining adequate security controls. While initial and periodic assessments validate security at specific points in time, continuous or regular monitoring detects security degradation, configuration changes, emerging threats, or compliance drift between formal assessments. Without ongoing monitoring, organizations lack visibility",
       "applicability": "Large enterprises with extensive service provider ecosystems Organizations processing highly sensitive or regulated data through vendors Companies with critical infrastructure dependencies on service providers Financial institutions with real-time transaction processors Healthcare organizations with critical health IT service providers Organizations subject to continuous compliance requirements Companies with stringent security SLAs and commitments Enterprises requiring real-time threat intellig",
-      "definition_ref": "/v1.0.0/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-MONITORING-005/",
+      "definition_ref": "/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-MONITORING-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4799,7 +4799,7 @@
       "canonical_name": "Security Requirements Missing in Contracts",
       "description": "This signal detects when an organization fails to establish and maintain security requirements in contracts with service providers that are consistent with the organization's enterprise security policy. Without contractually binding security requirements, organizations cannot enforce security standards, hold vendors accountable for security failures, or ensure third parties protect organizational assets and data appropriately. Security requirements must be documented in service-level agreements",
       "applicability": "Organizations with cloud service providers Companies outsourcing IT operations or services Enterprises using SaaS applications processing sensitive data Organizations with managed security service providers (MSSPs) Healthcare entities with business associates Financial institutions with third-party processors Companies subject to regulatory compliance requirements Organizations handling customer data through vendors",
-      "definition_ref": "/v1.0.0/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-REQUIREMENTS-003/",
+      "definition_ref": "/signals/CIS/VENDOR/CSE-CIS-VENDOR-NO-REQUIREMENTS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4841,7 +4841,7 @@
       "canonical_name": "Automated Application Patching Missing",
       "description": "An organization has not implemented automated application software patch management. This signal indicates the absence of automated mechanisms to deploy security patches and updates to applications across enterprise assets, potentially leaving applications vulnerable to known exploits.",
       "applicability": "This signal applies to: Web browsers (Chrome, Firefox, Edge, Safari) Office productivity suites (Microsoft Office, LibreOffice) PDF readers and document viewers Email clients Collaboration tools (Slack, Teams, Zoom) Development tools and IDEs Database management systems Web servers and application servers Third-party applications and utilities",
-      "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-AUTO-APP-PATCHING-004/",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-AUTO-APP-PATCHING-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4884,7 +4884,7 @@
       "canonical_name": "Automated OS Patching Missing",
       "description": "An organization has not implemented automated operating system patch management. This signal indicates the absence of automated mechanisms to deploy security patches and updates to operating systems across enterprise assets, potentially leaving systems vulnerable to known exploits.",
       "applicability": "This signal applies to: Windows, Linux, and macOS workstations Windows and Linux servers (physical and virtual) Cloud-based virtual machines and instances Container host operating systems Network appliance operating systems Mobile device operating systems IoT and embedded device operating systems",
-      "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-AUTO-PATCHING-003/",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-AUTO-PATCHING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4927,7 +4927,7 @@
       "canonical_name": "External Vulnerability Scanning Missing",
       "description": "An organization has not implemented automated external vulnerability scanning for internet-facing assets. This signal indicates the absence of regular, automated scanning of externally accessible assets to identify vulnerabilities, misconfigurations, and security weaknesses from an attacker's perspective.",
       "applicability": "This signal applies to: Public-facing web applications and APIs External DNS servers Email servers (SMTP, IMAP, POP3) VPN gateways and remote access portals Cloud infrastructure with public endpoints Content Delivery Networks (CDNs) External load balancers Public SaaS application configurations SSL/TLS configurations Open ports and services",
-      "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-EXTERNAL-SCANNING-006/",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-EXTERNAL-SCANNING-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4970,7 +4970,7 @@
       "canonical_name": "Internal Vulnerability Scanning Missing",
       "description": "An organization has not implemented automated internal vulnerability scanning for enterprise assets. This signal indicates the absence of regular, automated scanning of internal network assets to identify vulnerabilities, misconfigurations, and security weaknesses before they can be exploited by attackers.",
       "applicability": "This signal applies to: Internal network servers and workstations Cloud infrastructure and virtual machines Databases and data stores Network devices and appliances Web applications and APIs (internal) Container environments IoT and OT devices Internal SaaS applications",
-      "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-INTERNAL-SCANNING-005/",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-INTERNAL-SCANNING-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5013,7 +5013,7 @@
       "canonical_name": "Vulnerability Management Process Missing",
       "description": "An organization lacks a documented and established vulnerability management process. This signal indicates the absence of a formal, repeatable process for identifying, classifying, remediating, and mitigating vulnerabilities across the enterprise's technology assets.",
       "applicability": "This signal applies to: Enterprise vulnerability management programs Security operations teams IT asset owners and administrators Cloud infrastructure environments Application development teams Third-party service providers",
-      "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-PROCESS-001/",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-PROCESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5056,7 +5056,7 @@
       "canonical_name": "Vulnerability Remediation Process Missing",
       "description": "An organization lacks a documented and established process for remediating identified vulnerabilities. This signal indicates the absence of a formal remediation process that defines timelines, prioritization criteria, remediation methods, and verification procedures for addressing discovered vulnerabilities.",
       "applicability": "This signal applies to: Enterprise vulnerability remediation programs IT operations and system administration teams Application development and DevOps teams Cloud infrastructure management Third-party managed service providers Asset owners across all technology domains",
-      "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-REMEDIATION-002/",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-REMEDIATION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -5099,7 +5099,7 @@
       "canonical_name": "Risk-Based Remediation Missing",
       "description": "An organization has not implemented a risk-based approach to vulnerability remediation strategy. This signal indicates the absence of a systematic process for prioritizing vulnerability remediation based on risk factors such as asset criticality, threat intelligence, exploitability, and business impact rather than solely on vulnerability severity scores.",
       "applicability": "This signal applies to: Enterprise vulnerability management programs Security operations centers (SOCs) IT operations and system administration teams Application security teams Cloud security teams Risk management functions Asset owners across all domains",
-      "definition_ref": "/v1.0.0/signals/CIS/VULN/CSE-CIS-VULN-NO-RISK-REMEDIATION-007/",
+      "definition_ref": "/signals/CIS/VULN/CSE-CIS-VULN-NO-RISK-REMEDIATION-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {

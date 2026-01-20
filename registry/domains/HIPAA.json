@@ -10,7 +10,7 @@
       "canonical_name": "No Access Authorization",
       "description": "No policies and procedures exist for granting access to electronic protected health information (ePHI), including workstations, transactions, programs, and processes. This signal indicates the absence of documented processes that govern how access to ePHI is requested, approved, and provisioned.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACCESS-AUTH-009/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACCESS-AUTH-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -56,7 +56,7 @@
       "canonical_name": "No Access Establishment and Modification",
       "description": "No policies and procedures exist to document, review, and modify a user's right of access to workstations, transactions, programs, and processes based on access authorization and role changes. This signal indicates the absence of documented processes for managing changes to user access rights throughout the access lifecycle.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACCESS-MODIFY-010/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACCESS-MODIFY-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -102,7 +102,7 @@
       "canonical_name": "No Information System Activity Review",
       "description": "No regular review of information system activity records such as audit logs, access reports, and security incident tracking reports is being conducted. This signal indicates the absence of systematic monitoring and analysis of system activities to detect and respond to security events affecting ePHI.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACTIVITY-REVIEW-004/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-ACTIVITY-REVIEW-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -148,7 +148,7 @@
       "canonical_name": "No Workforce Clearance Procedure",
       "description": "No procedures exist to determine that the access of a workforce member to electronic protected health information (ePHI) is appropriate. This signal indicates the absence of documented processes to verify and validate that workforce members have legitimate business needs for the level of ePHI access they are granted.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-CLEARANCE-PROC-007/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-CLEARANCE-PROC-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -194,7 +194,7 @@
       "canonical_name": "No Data Backup Plan",
       "description": "No procedures exist to create and maintain retrievable exact copies of electronic protected health information (ePHI) to ensure data availability and business continuity. This signal indicates the absence of documented backup processes to protect against data loss and enable recovery of ePHI.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-DATA-BACKUP-016/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-DATA-BACKUP-016/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -240,7 +240,7 @@
       "canonical_name": "No Disaster Recovery Plan",
       "description": "No procedures exist for restoring any loss of data containing electronic protected health information (ePHI) following a disaster or system failure. This signal indicates the absence of documented disaster recovery processes to enable timely restoration of ePHI and related systems.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-DISASTER-RECOVERY-017/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-DISASTER-RECOVERY-017/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -286,7 +286,7 @@
       "canonical_name": "No Emergency Mode Operation Plan",
       "description": "No procedures exist to enable continuation of critical business processes for protection of the security of electronic protected health information (ePHI) while operating in emergency mode during system failures or natural disasters. This signal indicates the absence of documented emergency operations procedures to maintain ePHI security during contingency situations.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-EMERGENCY-MODE-018/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-EMERGENCY-MODE-018/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -332,7 +332,7 @@
       "canonical_name": "No Security Incident Response and Reporting",
       "description": "No policies and procedures exist to address security incidents affecting electronic protected health information (ePHI), including identification, response, mitigation, and documentation of security incidents. This signal indicates the absence of a documented incident response program to detect, respond to, and recover from security events.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-INCIDENT-RESPONSE-015/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -378,7 +378,7 @@
       "canonical_name": "No Log-in Monitoring",
       "description": "No procedures exist for monitoring log-in attempts to systems containing electronic protected health information (ePHI) and reporting discrepancies such as failed login attempts or unusual access patterns. This signal indicates the absence of documented processes to detect and respond to potentially unauthorized access attempts.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-LOGIN-MONITORING-013/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-LOGIN-MONITORING-013/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -424,7 +424,7 @@
       "canonical_name": "No Protection from Malicious Software",
       "description": "No procedures exist for guarding against, detecting, and reporting malicious software that could affect systems containing electronic protected health information (ePHI). This signal indicates the absence of documented processes and controls to protect against malware threats to ePHI systems.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-MALWARE-PROTECTION-012/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-MALWARE-PROTECTION-012/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -470,7 +470,7 @@
       "canonical_name": "No Password Management",
       "description": "No procedures exist for creating, changing, and safeguarding passwords used to authenticate users and protect electronic protected health information (ePHI). This signal indicates the absence of documented password management practices to ensure secure authentication to ePHI systems.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-PASSWORD-MGMT-014/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-PASSWORD-MGMT-014/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -516,7 +516,7 @@
       "canonical_name": "No Risk Analysis",
       "description": "No thorough assessment of potential risks and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) has been conducted. This signal indicates the absence of a documented risk analysis process that identifies and evaluates threats to ePHI across the organization's systems, networks, and business processes.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-RISK-ANALYSIS-001/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-RISK-ANALYSIS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -562,7 +562,7 @@
       "canonical_name": "No Risk Management",
       "description": "No security measures have been implemented to reduce risks and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) to a reasonable and appropriate level. This signal indicates the absence of a risk management process that implements safeguards to mitigate identified risks from the risk analysis.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-RISK-MANAGEMENT-002/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-RISK-MANAGEMENT-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -608,7 +608,7 @@
       "canonical_name": "No Sanction Policy",
       "description": "No policy exists for applying appropriate sanctions against workforce members who fail to comply with security policies and procedures. This signal indicates the absence of documented disciplinary measures or enforcement mechanisms to ensure workforce accountability for security violations.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SANCTION-POLICY-003/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SANCTION-POLICY-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -654,7 +654,7 @@
       "canonical_name": "No Assigned Security Responsibility",
       "description": "No designated security official has been assigned responsibility for developing and implementing security policies and procedures. This signal indicates the absence of a specific individual or role accountable for the organization's information security program and HIPAA compliance.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SECURITY-OFFICIAL-005/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SECURITY-OFFICIAL-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -700,7 +700,7 @@
       "canonical_name": "No Security Reminders",
       "description": "No periodic security updates are provided to workforce members about security threats, vulnerabilities, or changes to security policies and procedures. This signal indicates the absence of an ongoing security awareness communication program to keep workforce members informed about current security issues.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SECURITY-REMINDERS-011/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-SECURITY-REMINDERS-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -746,7 +746,7 @@
       "canonical_name": "No Termination Procedures",
       "description": "No procedures exist for terminating access to electronic protected health information (ePHI) when the employment of, or other arrangement with, a workforce member ends or as required by determinations made as specified in workforce clearance procedures. This signal indicates the absence of documented processes to revoke ePHI access promptly when workforce members leave or change roles.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-TERMINATION-PROC-008/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-TERMINATION-PROC-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -792,7 +792,7 @@
       "canonical_name": "No Workforce Authorization/Supervision",
       "description": "No procedures exist for authorizing and/or supervising workforce members who work with electronic protected health information (ePHI) or in locations where it might be accessed. This signal indicates the absence of documented processes to ensure workforce members have appropriate authorization before accessing ePHI and are supervised appropriately.",
       "applicability": "This signal applies to: Covered entities (healthcare providers, health plans, healthcare clearinghouses) Business associates handling ePHI Health information systems and EHR platforms Cloud service providers hosting ePHI IT infrastructure supporting healthcare operations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-WORKFORCE-AUTH-006/",
+      "definition_ref": "/signals/HIPAA/ADMIN/CSE-HIPAA-ADMIN-NO-WORKFORCE-AUTH-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -838,7 +838,7 @@
       "canonical_name": "No Business Associate Notification",
       "description": "Business associate did not notify covered entity of breach within 60 days.",
       "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-BA-NOTIFY-006/",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-BA-NOTIFY-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -877,7 +877,7 @@
       "canonical_name": "No Documentation for Burden of Proof",
       "description": "No documentation demonstrating notifications were made or breach assessment was performed.",
       "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-BURDEN-PROOF-008/",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-BURDEN-PROOF-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -916,7 +916,7 @@
       "canonical_name": "No HHS Secretary Notification",
       "description": "HHS Secretary not notified of breach as required.",
       "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-HHS-NOTIFY-005/",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-HHS-NOTIFY-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -955,7 +955,7 @@
       "canonical_name": "No Individual Notification",
       "description": "Individuals whose unsecured PHI was breached not notified of the breach.",
       "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-INDIVIDUAL-NOTIFY-001/",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-INDIVIDUAL-NOTIFY-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -994,7 +994,7 @@
       "canonical_name": "No Breach Log for Small Breaches",
       "description": "No log or documentation maintained for breaches affecting fewer than 500 individuals.",
       "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-LOG-MAINTENANCE-007/",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-LOG-MAINTENANCE-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1033,7 +1033,7 @@
       "canonical_name": "No Media Notification (500+ affected)",
       "description": "Prominent media outlets not notified when breach affects 500+ residents of a state or jurisdiction.",
       "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-MEDIA-NOTIFY-004/",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-MEDIA-NOTIFY-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1072,7 +1072,7 @@
       "canonical_name": "Incomplete Notification Content",
       "description": "Breach notifications do not contain all required elements (description, types of information, steps to take, entity's actions, contact info).",
       "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-NOTIFY-CONTENT-003/",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-NOTIFY-CONTENT-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1111,7 +1111,7 @@
       "canonical_name": "No Timely Notification (60 days)",
       "description": "Breach notifications not provided within 60 calendar days of discovery.",
       "applicability": "This signal applies to: Covered entities experiencing data breaches Business associates handling ePHI Incident response and security teams Legal and compliance departments Public relations and communications functions Healthcare organizations with breach notification obligations",
-      "definition_ref": "/v1.0.0/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-TIMELY-NOTIFY-002/",
+      "definition_ref": "/signals/HIPAA/BREACH/CSE-HIPAA-BREACH-NO-TIMELY-NOTIFY-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1150,7 +1150,7 @@
       "canonical_name": "No Business Associate Contracts",
       "description": "No written contract or arrangement with business associates requiring compliance with applicable Security Rule requirements.",
       "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-BA-CONTRACT-001/",
+      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-BA-CONTRACT-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1196,7 +1196,7 @@
       "canonical_name": "No Documentation Maintenance",
       "description": "No maintenance of policies and procedures in written or electronic form.",
       "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-DOCUMENTATION-005/",
+      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-DOCUMENTATION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1242,7 +1242,7 @@
       "canonical_name": "No Group Health Plan Safeguards",
       "description": "Group health plans do not ensure plan sponsor implements required safeguards.",
       "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-GROUP-HEALTH-SAFEGUARDS-003/",
+      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-GROUP-HEALTH-SAFEGUARDS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1288,7 +1288,7 @@
       "canonical_name": "No Policies and Procedures",
       "description": "No reasonable and appropriate policies and procedures to comply with Security Rule standards.",
       "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-POLICIES-PROCEDURES-004/",
+      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-POLICIES-PROCEDURES-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1334,7 +1334,7 @@
       "canonical_name": "No 6-Year Retention",
       "description": "Documentation not retained for 6 years from date of creation or when last in effect.",
       "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-RETENTION-006/",
+      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-RETENTION-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1380,7 +1380,7 @@
       "canonical_name": "No Subcontractor Requirements",
       "description": "Business associate contracts do not require subcontractors to implement same safeguards.",
       "applicability": "This signal applies to: Covered entities and business associates Healthcare organizations with business associate relationships Group health plans and plan sponsors Organizations requiring HIPAA compliance documentation Vendor management and contract administration functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-SUBCONTRACTOR-REQ-002/",
+      "definition_ref": "/signals/HIPAA/ORG/CSE-HIPAA-ORG-NO-SUBCONTRACTOR-REQ-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1426,7 +1426,7 @@
       "canonical_name": "No Access Control and Validation Procedures",
       "description": "No procedures to control and validate physical access based on role or function, including visitor control.",
       "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-ACCESS-CONTROL-003/",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-ACCESS-CONTROL-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1472,7 +1472,7 @@
       "canonical_name": "No Contingency Operations",
       "description": "No procedures allowing facility access in support of restoration of lost data under the disaster recovery plan and emergency mode operations plan.",
       "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-CONTINGENCY-OPS-001/",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-CONTINGENCY-OPS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1518,7 +1518,7 @@
       "canonical_name": "No Facility Security Plan",
       "description": "No policies and procedures to safeguard the facility and equipment from unauthorized physical access, tampering, and theft.",
       "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-FACILITY-PLAN-002/",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-FACILITY-PLAN-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1564,7 +1564,7 @@
       "canonical_name": "No Maintenance Records",
       "description": "No documentation of repairs and modifications to physical components of a facility related to security.",
       "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MAINTENANCE-RECORDS-004/",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MAINTENANCE-RECORDS-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1610,7 +1610,7 @@
       "canonical_name": "No Media Disposal",
       "description": "No policies and procedures for final disposition of ePHI and/or storage media.",
       "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MEDIA-DISPOSAL-007/",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MEDIA-DISPOSAL-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1656,7 +1656,7 @@
       "canonical_name": "No Media Re-use Controls",
       "description": "No procedures for removal of ePHI before media re-use.",
       "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MEDIA-REUSE-008/",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-MEDIA-REUSE-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1702,7 +1702,7 @@
       "canonical_name": "No Workstation Security",
       "description": "No physical safeguards for workstations to restrict access to authorized users only.",
       "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-WORKSTATION-SECURITY-006/",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-WORKSTATION-SECURITY-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1748,7 +1748,7 @@
       "canonical_name": "No Workstation Use Policy",
       "description": "No policies and procedures specifying proper functions, manner of performance, and physical surroundings for workstations accessing ePHI.",
       "applicability": "This signal applies to: Healthcare facilities and data centers Server rooms and network closets Workstations and portable devices accessing ePHI Storage media containing ePHI Physical access control systems",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-WORKSTATION-USE-005/",
+      "definition_ref": "/signals/HIPAA/PHYSICAL/CSE-HIPAA-PHYSICAL-NO-WORKSTATION-USE-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1794,7 +1794,7 @@
       "canonical_name": "No Individual Access Rights",
       "description": "Individuals not permitted to access and obtain copies of their PHI.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCESS-RIGHTS-014/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCESS-RIGHTS-014/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1833,7 +1833,7 @@
       "canonical_name": "No Timely Access Response",
       "description": "Access requests not responded to within 30 days (with possible 30-day extension).",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCESS-TIMELINESS-015/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCESS-TIMELINESS-015/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1872,7 +1872,7 @@
       "canonical_name": "No Accounting of Disclosures",
       "description": "No accounting of disclosures provided when requested.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCOUNTING-DISCLOSURES-017/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-ACCOUNTING-DISCLOSURES-017/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1911,7 +1911,7 @@
       "canonical_name": "No Amendment Rights",
       "description": "Individuals not permitted to request amendments to their PHI.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-AMENDMENT-RIGHTS-016/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-AMENDMENT-RIGHTS-016/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1950,7 +1950,7 @@
       "canonical_name": "No Valid Authorization",
       "description": "No valid written authorization obtained when required for uses and disclosures.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-AUTHORIZATION-005/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-AUTHORIZATION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1989,7 +1989,7 @@
       "canonical_name": "No Complaint Process",
       "description": "No process for individuals to file privacy complaints.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-COMPLAINT-PROCESS-022/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-COMPLAINT-PROCESS-022/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2028,7 +2028,7 @@
       "canonical_name": "No Confidential Communications",
       "description": "No accommodation of requests for confidential communications.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-CONFIDENTIAL-COMMS-013/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-CONFIDENTIAL-COMMS-013/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2067,7 +2067,7 @@
       "canonical_name": "No De-identification Standards",
       "description": "No proper de-identification of health information using Expert Determination or Safe Harbor methods.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-DEIDENTIFICATION-003/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-DEIDENTIFICATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2106,7 +2106,7 @@
       "canonical_name": "No Marketing Authorization",
       "description": "PHI used for marketing without required authorization or disclosure of financial remuneration.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MARKETING-AUTHORIZATION-007/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MARKETING-AUTHORIZATION-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2145,7 +2145,7 @@
       "canonical_name": "No Minimum Necessary Standard",
       "description": "No reasonable efforts to limit PHI to minimum necessary for the intended purpose.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MINIMUM-NECESSARY-002/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MINIMUM-NECESSARY-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2184,7 +2184,7 @@
       "canonical_name": "No Mitigation of Harmful Effects",
       "description": "No mitigation of known harmful effects of privacy violations.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MITIGATION-024/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-MITIGATION-024/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2223,7 +2223,7 @@
       "canonical_name": "Incomplete Notice Content",
       "description": "Notice of Privacy Practices does not contain all required elements.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-NOTICE-CONTENT-010/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-NOTICE-CONTENT-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2262,7 +2262,7 @@
       "canonical_name": "No Notice Provision to Individuals",
       "description": "Notice not provided at first service delivery, upon request, or as otherwise required.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-NOTICE-PROVISION-011/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-NOTICE-PROVISION-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2301,7 +2301,7 @@
       "canonical_name": "No Privacy Contact Person",
       "description": "No designated contact person/office for receiving complaints and providing information.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-CONTACT-019/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-CONTACT-019/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2340,7 +2340,7 @@
       "canonical_name": "No Notice of Privacy Practices",
       "description": "No Notice of Privacy Practices provided to individuals.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-NOTICE-009/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-NOTICE-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2379,7 +2379,7 @@
       "canonical_name": "No Designated Privacy Official",
       "description": "No designated privacy official responsible for privacy policies and procedures.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-OFFICER-018/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-OFFICER-018/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2418,7 +2418,7 @@
       "canonical_name": "No Privacy Training",
       "description": "No training provided to workforce members on privacy policies and procedures.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-TRAINING-020/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PRIVACY-TRAINING-020/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2457,7 +2457,7 @@
       "canonical_name": "No Psychotherapy Notes Protection",
       "description": "Psychotherapy notes used or disclosed without required authorization.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PSYCHOTHERAPY-PROTECTION-006/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-PSYCHOTHERAPY-PROTECTION-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2496,7 +2496,7 @@
       "canonical_name": "No Rights to Request Restrictions",
       "description": "Individuals not permitted to request restrictions on uses and disclosures of their PHI.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-RESTRICTION-RIGHTS-012/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-RESTRICTION-RIGHTS-012/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2535,7 +2535,7 @@
       "canonical_name": "No Retaliation Protection",
       "description": "Intimidation or retaliation against individuals exercising their privacy rights.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-RETALIATION-PROTECTION-025/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-RETALIATION-PROTECTION-025/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2574,7 +2574,7 @@
       "canonical_name": "No Administrative/Technical/Physical Safeguards",
       "description": "No appropriate administrative, technical, and physical safeguards to protect PHI.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SAFEGUARDS-021/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SAFEGUARDS-021/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2613,7 +2613,7 @@
       "canonical_name": "No PHI Sale Prohibition",
       "description": "PHI disclosed for remuneration without proper authorization.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SALE-PROHIBITION-008/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SALE-PROHIBITION-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2652,7 +2652,7 @@
       "canonical_name": "No Sanctions for Non-Compliance",
       "description": "No sanctions applied against workforce members for privacy violations.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SANCTIONS-023/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-SANCTIONS-023/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2691,7 +2691,7 @@
       "canonical_name": "No Treatment/Payment/Operations Limits",
       "description": "Uses and disclosures for treatment, payment, or health care operations exceed permitted scope.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-TPO-LIMITS-004/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-TPO-LIMITS-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2730,7 +2730,7 @@
       "canonical_name": "No Limits on Uses and Disclosures",
       "description": "No limits on uses and disclosures of PHI; disclosures made beyond permitted or required purposes.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Marketing and communications functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-USE-LIMITS-001/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-USE-LIMITS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2769,7 +2769,7 @@
       "canonical_name": "No Waiver Prohibition",
       "description": "Individuals required to waive rights as condition of treatment, payment, or benefits.",
       "applicability": "This signal applies to: Healthcare providers with direct patient relationships Health plans and insurers Healthcare clearinghouses Business associates handling PHI Patient-facing systems and portals Human resources and workforce management functions",
-      "definition_ref": "/v1.0.0/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-WAIVER-PROHIBITION-026/",
+      "definition_ref": "/signals/HIPAA/PRIVACY/CSE-HIPAA-PRIVACY-NO-WAIVER-PROHIBITION-026/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2808,7 +2808,7 @@
       "canonical_name": "No Audit Controls",
       "description": "No hardware, software, or procedural mechanisms to record and examine activity in systems containing ePHI.",
       "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
-      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUDIT-CONTROLS-005/",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUDIT-CONTROLS-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2854,7 +2854,7 @@
       "canonical_name": "No Person or Entity Authentication",
       "description": "No procedures to verify that a person or entity seeking access to ePHI is the one claimed.",
       "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
-      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUTHENTICATION-007/",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUTHENTICATION-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2900,7 +2900,7 @@
       "canonical_name": "No Automatic Logoff",
       "description": "No electronic procedures to terminate sessions after predetermined period of inactivity.",
       "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
-      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUTO-LOGOFF-003/",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-AUTO-LOGOFF-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2946,7 +2946,7 @@
       "canonical_name": "No Emergency Access Procedure",
       "description": "No procedures for obtaining necessary ePHI during an emergency.",
       "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
-      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-EMERGENCY-ACCESS-002/",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-EMERGENCY-ACCESS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2992,7 +2992,7 @@
       "canonical_name": "No Encryption and Decryption",
       "description": "No mechanism to encrypt and decrypt ePHI.",
       "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
-      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-ENCRYPTION-004/",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-ENCRYPTION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3038,7 +3038,7 @@
       "canonical_name": "No ePHI Integrity Mechanism",
       "description": "No electronic mechanisms to corroborate that ePHI has not been altered or destroyed in an unauthorized manner.",
       "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
-      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-INTEGRITY-MECHANISM-006/",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-INTEGRITY-MECHANISM-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3084,7 +3084,7 @@
       "canonical_name": "No Transmission Encryption",
       "description": "No mechanism to encrypt ePHI whenever deemed appropriate during transmission.",
       "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
-      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-TRANSMISSION-ENCRYPTION-009/",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-TRANSMISSION-ENCRYPTION-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3130,7 +3130,7 @@
       "canonical_name": "No Transmission Integrity Controls",
       "description": "No security measures to ensure electronically transmitted ePHI is not improperly modified without detection.",
       "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
-      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-TRANSMISSION-INTEGRITY-008/",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-TRANSMISSION-INTEGRITY-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3176,7 +3176,7 @@
       "canonical_name": "No Unique User Identification",
       "description": "No unique name and/or number assigned for identifying and tracking user identity.",
       "applicability": "This signal applies to: Electronic health record (EHR) systems Health information exchanges (HIEs) Patient portals and healthcare applications Database systems containing ePHI Network infrastructure transmitting ePHI Cloud services hosting healthcare data",
-      "definition_ref": "/v1.0.0/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-UNIQUE-USER-ID-001/",
+      "definition_ref": "/signals/HIPAA/TECH/CSE-HIPAA-TECH-NO-UNIQUE-USER-ID-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {

@@ -10,7 +10,7 @@
       "canonical_name": "No Access Policy",
       "description": "Access permissions, entitlements, and authorizations are not defined in policy.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Identity and access management teams Security awareness and training programs Organizations managing user authentication",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-ACCESS-POLICY-005/",
+      "definition_ref": "/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-ACCESS-POLICY-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -52,7 +52,7 @@
       "canonical_name": "No Identity Assertion Protection",
       "description": "Identity assertions are not protected, conveyed, and verified.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Identity and access management teams Security awareness and training programs Organizations managing user authentication",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-ASSERTION-PROTECTION-004/",
+      "definition_ref": "/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-ASSERTION-PROTECTION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -94,7 +94,7 @@
       "canonical_name": "No Authentication",
       "description": "Users, services, and hardware are not authenticated.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Identity and access management teams Security awareness and training programs Organizations managing user authentication",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-AUTHENTICATION-003/",
+      "definition_ref": "/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-AUTHENTICATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -136,7 +136,7 @@
       "canonical_name": "No Identity Management",
       "description": "Identities and credentials for authorized users, services, and hardware are not managed.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Identity and access management teams Security awareness and training programs Organizations managing user authentication",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-IDENTITY-MGMT-001/",
+      "definition_ref": "/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-IDENTITY-MGMT-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -178,7 +178,7 @@
       "canonical_name": "No Identity Proofing",
       "description": "Identities are not proofed and bound to credentials based on context.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Identity and access management teams Security awareness and training programs Organizations managing user authentication",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-IDENTITY-PROOFING-002/",
+      "definition_ref": "/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-IDENTITY-PROOFING-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -220,7 +220,7 @@
       "canonical_name": "No Physical Access Controls",
       "description": "Physical access to assets is not managed, monitored, and enforced.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Identity and access management teams Security awareness and training programs Organizations managing user authentication",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-PHYSICAL-ACCESS-006/",
+      "definition_ref": "/signals/NISTCSF/AA/CSE-NISTCSF-AA-NO-PHYSICAL-ACCESS-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -262,7 +262,7 @@
       "canonical_name": "No Adverse Event Analysis",
       "description": "Potentially adverse events are not analyzed to understand associated activities.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AE/CSE-NISTCSF-AE-NO-EVENT-ANALYSIS-002/",
+      "definition_ref": "/signals/NISTCSF/AE/CSE-NISTCSF-AE-NO-EVENT-ANALYSIS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -304,7 +304,7 @@
       "canonical_name": "No Impact and Scope Understanding",
       "description": "The estimated impact and scope of adverse events are not understood.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AE/CSE-NISTCSF-AE-NO-IMPACT-SCOPE-004/",
+      "definition_ref": "/signals/NISTCSF/AE/CSE-NISTCSF-AE-NO-IMPACT-SCOPE-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -346,7 +346,7 @@
       "canonical_name": "No Incident Declaration Process",
       "description": "Incidents are not declared when adverse events meet defined criteria.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AE/CSE-NISTCSF-AE-NO-INCIDENT-DECLARATION-008/",
+      "definition_ref": "/signals/NISTCSF/AE/CSE-NISTCSF-AE-NO-INCIDENT-DECLARATION-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -388,7 +388,7 @@
       "canonical_name": "No Information Correlation",
       "description": "Information from multiple sources is not correlated.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AE/CSE-NISTCSF-AE-NO-INFO-CORRELATION-003/",
+      "definition_ref": "/signals/NISTCSF/AE/CSE-NISTCSF-AE-NO-INFO-CORRELATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -430,7 +430,7 @@
       "canonical_name": "No Information Sharing on Adverse Events",
       "description": "Information on adverse events is not provided to authorized staff and tools.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AE/CSE-NISTCSF-AE-NO-INFO-SHARING-006/",
+      "definition_ref": "/signals/NISTCSF/AE/CSE-NISTCSF-AE-NO-INFO-SHARING-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -472,7 +472,7 @@
       "canonical_name": "No Threat Intelligence Integration",
       "description": "Cyber threat intelligence is not integrated into the analysis.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AE/CSE-NISTCSF-AE-NO-THREAT-INTEL-INTEGRATION-007/",
+      "definition_ref": "/signals/NISTCSF/AE/CSE-NISTCSF-AE-NO-THREAT-INTEL-INTEGRATION-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -514,7 +514,7 @@
       "canonical_name": "Assets Not Prioritized Based on Criticality and Impact",
       "description": "Assets are not prioritized based on classification, criticality, resources, and mission impact.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management IT asset management and inventory teams Configuration management programs Organizations maintaining technology inventories",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-ASSET-PRIORITIZATION-005/",
+      "definition_ref": "/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-ASSET-PRIORITIZATION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -556,7 +556,7 @@
       "canonical_name": "No Data and Metadata Inventory Maintained",
       "description": "Inventories of data and corresponding metadata are not maintained.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management IT asset management and inventory teams Configuration management programs Organizations maintaining technology inventories",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-DATA-INVENTORY-007/",
+      "definition_ref": "/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-DATA-INVENTORY-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -598,7 +598,7 @@
       "canonical_name": "No Hardware Inventory Maintained",
       "description": "Inventories of hardware managed by the organization are not maintained.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management IT asset management and inventory teams Configuration management programs Organizations maintaining technology inventories",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-HARDWARE-INVENTORY-001/",
+      "definition_ref": "/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-HARDWARE-INVENTORY-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -640,7 +640,7 @@
       "canonical_name": "Systems and Assets Not Managed Throughout Life Cycles",
       "description": "Systems, hardware, software, services, and data are not managed throughout their life cycles.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management IT asset management and inventory teams Configuration management programs Organizations maintaining technology inventories",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-LIFECYCLE-MGMT-008/",
+      "definition_ref": "/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-LIFECYCLE-MGMT-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -682,7 +682,7 @@
       "canonical_name": "No Network Communication and Data Flows Documented",
       "description": "Representations of authorized network communication and data flows are not maintained.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management IT asset management and inventory teams Configuration management programs Organizations maintaining technology inventories",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-NETWORK-FLOWS-003/",
+      "definition_ref": "/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-NETWORK-FLOWS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -724,7 +724,7 @@
       "canonical_name": "No Software Inventory Maintained",
       "description": "Inventories of software, services, and systems managed by the organization are not maintained.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management IT asset management and inventory teams Configuration management programs Organizations maintaining technology inventories",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-SOFTWARE-INVENTORY-002/",
+      "definition_ref": "/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-SOFTWARE-INVENTORY-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -766,7 +766,7 @@
       "canonical_name": "No Supplier Services Inventory Maintained",
       "description": "Inventories of services provided by suppliers are not maintained.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management IT asset management and inventory teams Configuration management programs Organizations maintaining technology inventories",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-SUPPLIER-INVENTORY-004/",
+      "definition_ref": "/signals/NISTCSF/AM/CSE-NISTCSF-AM-NO-SUPPLIER-INVENTORY-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -808,7 +808,7 @@
       "canonical_name": "Incident Data and Metadata Not Collected and Preserved",
       "description": "Incident data and metadata are not collected and preserved.",
       "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AN/CSE-NISTCSF-AN-NO-DATA-COLLECTION-007/",
+      "definition_ref": "/signals/NISTCSF/AN/CSE-NISTCSF-AN-NO-DATA-COLLECTION-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -850,7 +850,7 @@
       "canonical_name": "Actions Performed During Investigation Not Recorded",
       "description": "Actions performed during an investigation are not recorded.",
       "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AN/CSE-NISTCSF-AN-NO-INVESTIGATION-RECORDS-006/",
+      "definition_ref": "/signals/NISTCSF/AN/CSE-NISTCSF-AN-NO-INVESTIGATION-RECORDS-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -892,7 +892,7 @@
       "canonical_name": "Incident Magnitude Not Estimated and Validated",
       "description": "An incident's magnitude is not estimated and validated.",
       "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AN/CSE-NISTCSF-AN-NO-MAGNITUDE-ESTIMATION-008/",
+      "definition_ref": "/signals/NISTCSF/AN/CSE-NISTCSF-AN-NO-MAGNITUDE-ESTIMATION-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -934,7 +934,7 @@
       "canonical_name": "Analysis Not Performed to Establish What Took Place and Root Cause",
       "description": "Analysis is not performed to establish what has taken place and the root cause.",
       "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AN/CSE-NISTCSF-AN-NO-ROOT-CAUSE-003/",
+      "definition_ref": "/signals/NISTCSF/AN/CSE-NISTCSF-AN-NO-ROOT-CAUSE-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -976,7 +976,7 @@
       "canonical_name": "No General Cybersecurity Awareness",
       "description": "Personnel are not provided with awareness and training for general tasks.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Identity and access management teams Security awareness and training programs Organizations managing user authentication",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AT/CSE-NISTCSF-AT-NO-GENERAL-AWARENESS-001/",
+      "definition_ref": "/signals/NISTCSF/AT/CSE-NISTCSF-AT-NO-GENERAL-AWARENESS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1018,7 +1018,7 @@
       "canonical_name": "No Specialized Role Training",
       "description": "Individuals in specialized roles are not provided with awareness and training.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Identity and access management teams Security awareness and training programs Organizations managing user authentication",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/AT/CSE-NISTCSF-AT-NO-SPECIALIZED-TRAINING-002/",
+      "definition_ref": "/signals/NISTCSF/AT/CSE-NISTCSF-AT-NO-SPECIALIZED-TRAINING-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1060,7 +1060,7 @@
       "canonical_name": "No Computing Hardware and Software Monitoring",
       "description": "Computing hardware and software are not monitored for potentially adverse events.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/CM/CSE-NISTCSF-CM-NO-COMPUTING-MONITORING-009/",
+      "definition_ref": "/signals/NISTCSF/CM/CSE-NISTCSF-CM-NO-COMPUTING-MONITORING-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1102,7 +1102,7 @@
       "canonical_name": "No Network Monitoring",
       "description": "Networks and network services are not monitored for potentially adverse events.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/CM/CSE-NISTCSF-CM-NO-NETWORK-MONITORING-001/",
+      "definition_ref": "/signals/NISTCSF/CM/CSE-NISTCSF-CM-NO-NETWORK-MONITORING-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1144,7 +1144,7 @@
       "canonical_name": "No Personnel Activity Monitoring",
       "description": "Personnel activity and technology usage are not monitored for potentially adverse events.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/CM/CSE-NISTCSF-CM-NO-PERSONNEL-MONITORING-003/",
+      "definition_ref": "/signals/NISTCSF/CM/CSE-NISTCSF-CM-NO-PERSONNEL-MONITORING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1186,7 +1186,7 @@
       "canonical_name": "No Physical Environment Monitoring",
       "description": "The physical environment is not monitored for potentially adverse events.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/CM/CSE-NISTCSF-CM-NO-PHYSICAL-MONITORING-002/",
+      "definition_ref": "/signals/NISTCSF/CM/CSE-NISTCSF-CM-NO-PHYSICAL-MONITORING-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1228,7 +1228,7 @@
       "canonical_name": "No External Service Provider Monitoring",
       "description": "External service provider activities are not monitored for potentially adverse events.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity detection capabilities Security operations and monitoring teams Threat detection and analysis functions Organizations with continuous monitoring requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/CM/CSE-NISTCSF-CM-NO-PROVIDER-MONITORING-006/",
+      "definition_ref": "/signals/NISTCSF/CM/CSE-NISTCSF-CM-NO-PROVIDER-MONITORING-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1270,7 +1270,7 @@
       "canonical_name": "Information Not Shared with Designated Stakeholders",
       "description": "Information is not shared with designated internal and external stakeholders.",
       "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/CO/CSE-NISTCSF-CO-NO-INFO-SHARING-003/",
+      "definition_ref": "/signals/NISTCSF/CO/CSE-NISTCSF-CO-NO-INFO-SHARING-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1312,7 +1312,7 @@
       "canonical_name": "Internal and External Stakeholders Not Notified of Incidents",
       "description": "Internal and external stakeholders are not notified of incidents.",
       "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/CO/CSE-NISTCSF-CO-NO-STAKEHOLDER-NOTIFICATION-002/",
+      "definition_ref": "/signals/NISTCSF/CO/CSE-NISTCSF-CO-NO-STAKEHOLDER-NOTIFICATION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1354,7 +1354,7 @@
       "canonical_name": "Backups Not Protected",
       "description": "Backups of data are not created, protected, maintained, and tested.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/DS/CSE-NISTCSF-DS-NO-BACKUP-PROTECTION-011/",
+      "definition_ref": "/signals/NISTCSF/DS/CSE-NISTCSF-DS-NO-BACKUP-PROTECTION-011/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1396,7 +1396,7 @@
       "canonical_name": "Data at Rest Not Protected",
       "description": "The confidentiality, integrity, and availability of data-at-rest are not protected.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/DS/CSE-NISTCSF-DS-NO-DATA-AT-REST-001/",
+      "definition_ref": "/signals/NISTCSF/DS/CSE-NISTCSF-DS-NO-DATA-AT-REST-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1438,7 +1438,7 @@
       "canonical_name": "Data in Transit Not Protected",
       "description": "The confidentiality, integrity, and availability of data-in-transit are not protected.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/DS/CSE-NISTCSF-DS-NO-DATA-IN-TRANSIT-002/",
+      "definition_ref": "/signals/NISTCSF/DS/CSE-NISTCSF-DS-NO-DATA-IN-TRANSIT-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1480,7 +1480,7 @@
       "canonical_name": "Data in Use Not Protected",
       "description": "The confidentiality, integrity, and availability of data-in-use are not protected.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/DS/CSE-NISTCSF-DS-NO-DATA-IN-USE-010/",
+      "definition_ref": "/signals/NISTCSF/DS/CSE-NISTCSF-DS-NO-DATA-IN-USE-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1522,7 +1522,7 @@
       "canonical_name": "Improvements Not Identified from Evaluations",
       "description": "Improvements are not identified from evaluations.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Continuous improvement and process optimization teams Security testing and assessment functions Organizations conducting lessons learned activities",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/IM/CSE-NISTCSF-IM-NO-EVALUATION-IMPROVEMENTS-001/",
+      "definition_ref": "/signals/NISTCSF/IM/CSE-NISTCSF-IM-NO-EVALUATION-IMPROVEMENTS-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1564,7 +1564,7 @@
       "canonical_name": "Improvements Not Identified from Operational Execution",
       "description": "Improvements are not identified from execution of operational processes.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Continuous improvement and process optimization teams Security testing and assessment functions Organizations conducting lessons learned activities",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/IM/CSE-NISTCSF-IM-NO-OPERATIONAL-IMPROVEMENTS-003/",
+      "definition_ref": "/signals/NISTCSF/IM/CSE-NISTCSF-IM-NO-OPERATIONAL-IMPROVEMENTS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1606,7 +1606,7 @@
       "canonical_name": "Incident Response Plans and Cybersecurity Plans Not Maintained",
       "description": "Incident response plans and other cybersecurity plans are not established and maintained.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Continuous improvement and process optimization teams Security testing and assessment functions Organizations conducting lessons learned activities",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/IM/CSE-NISTCSF-IM-NO-PLANS-MAINTAINED-004/",
+      "definition_ref": "/signals/NISTCSF/IM/CSE-NISTCSF-IM-NO-PLANS-MAINTAINED-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1648,7 +1648,7 @@
       "canonical_name": "Improvements Not Identified from Security Tests and Exercises",
       "description": "Improvements are not identified from security tests and exercises.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Continuous improvement and process optimization teams Security testing and assessment functions Organizations conducting lessons learned activities",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/IM/CSE-NISTCSF-IM-NO-TEST-IMPROVEMENTS-002/",
+      "definition_ref": "/signals/NISTCSF/IM/CSE-NISTCSF-IM-NO-TEST-IMPROVEMENTS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1690,7 +1690,7 @@
       "canonical_name": "Resource Capacity Not Maintained",
       "description": "Adequate resource capacity to ensure availability is not maintained.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/IR/CSE-NISTCSF-IR-NO-CAPACITY-MGMT-004/",
+      "definition_ref": "/signals/NISTCSF/IR/CSE-NISTCSF-IR-NO-CAPACITY-MGMT-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1732,7 +1732,7 @@
       "canonical_name": "Technology Assets Not Protected from Environmental Threats",
       "description": "Technology assets are not protected from environmental threats.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/IR/CSE-NISTCSF-IR-NO-ENVIRONMENTAL-PROTECTION-002/",
+      "definition_ref": "/signals/NISTCSF/IR/CSE-NISTCSF-IR-NO-ENVIRONMENTAL-PROTECTION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1774,7 +1774,7 @@
       "canonical_name": "Networks Not Protected from Unauthorized Access",
       "description": "Networks and environments are not protected from unauthorized logical access.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/IR/CSE-NISTCSF-IR-NO-NETWORK-PROTECTION-001/",
+      "definition_ref": "/signals/NISTCSF/IR/CSE-NISTCSF-IR-NO-NETWORK-PROTECTION-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1816,7 +1816,7 @@
       "canonical_name": "Resilience Mechanisms Not Implemented",
       "description": "Mechanisms to achieve resilience requirements are not implemented.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/IR/CSE-NISTCSF-IR-NO-RESILIENCE-MECHANISMS-003/",
+      "definition_ref": "/signals/NISTCSF/IR/CSE-NISTCSF-IR-NO-RESILIENCE-MECHANISMS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1858,7 +1858,7 @@
       "canonical_name": "Incidents Not Categorized and Prioritized",
       "description": "Incidents are not categorized and prioritized.",
       "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/MA/CSE-NISTCSF-MA-NO-CATEGORIZATION-003/",
+      "definition_ref": "/signals/NISTCSF/MA/CSE-NISTCSF-MA-NO-CATEGORIZATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1900,7 +1900,7 @@
       "canonical_name": "Incidents Not Escalated or Elevated as Needed",
       "description": "Incidents are not escalated or elevated as needed.",
       "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/MA/CSE-NISTCSF-MA-NO-ESCALATION-004/",
+      "definition_ref": "/signals/NISTCSF/MA/CSE-NISTCSF-MA-NO-ESCALATION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1942,7 +1942,7 @@
       "canonical_name": "Incident Response Plan Not Executed with Third Parties",
       "description": "The incident response plan is not executed in coordination with relevant third parties.",
       "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/MA/CSE-NISTCSF-MA-NO-PLAN-EXECUTION-001/",
+      "definition_ref": "/signals/NISTCSF/MA/CSE-NISTCSF-MA-NO-PLAN-EXECUTION-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -1984,7 +1984,7 @@
       "canonical_name": "Criteria for Initiating Incident Recovery Not Applied",
       "description": "Criteria for initiating incident recovery are not applied.",
       "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/MA/CSE-NISTCSF-MA-NO-RECOVERY-CRITERIA-005/",
+      "definition_ref": "/signals/NISTCSF/MA/CSE-NISTCSF-MA-NO-RECOVERY-CRITERIA-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2026,7 +2026,7 @@
       "canonical_name": "Incident Reports Not Triaged and Validated",
       "description": "Incident reports are not triaged and validated.",
       "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/MA/CSE-NISTCSF-MA-NO-TRIAGE-002/",
+      "definition_ref": "/signals/NISTCSF/MA/CSE-NISTCSF-MA-NO-TRIAGE-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2068,7 +2068,7 @@
       "canonical_name": "Incidents Not Contained",
       "description": "Incidents are not contained.",
       "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/MI/CSE-NISTCSF-MI-NO-CONTAINMENT-001/",
+      "definition_ref": "/signals/NISTCSF/MI/CSE-NISTCSF-MI-NO-CONTAINMENT-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2110,7 +2110,7 @@
       "canonical_name": "Incidents Not Eradicated",
       "description": "Incidents are not eradicated.",
       "applicability": "This signal applies to: All organizations with incident response capabilities Security operations and incident response teams Forensics and investigation functions Organizations with breach notification requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/MI/CSE-NISTCSF-MI-NO-ERADICATION-002/",
+      "definition_ref": "/signals/NISTCSF/MI/CSE-NISTCSF-MI-NO-ERADICATION-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2152,7 +2152,7 @@
       "canonical_name": "No Critical Objectives for External Stakeholders",
       "description": "Critical objectives, capabilities, and services for stakeholders have not been determined.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/OC/CSE-NISTCSF-OC-NO-CRITICAL-OBJECTIVES-004/",
+      "definition_ref": "/signals/NISTCSF/OC/CSE-NISTCSF-OC-NO-CRITICAL-OBJECTIVES-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2194,7 +2194,7 @@
       "canonical_name": "No Legal Requirements Management",
       "description": "Legal, regulatory, and contractual cybersecurity requirements are not understood and managed.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/OC/CSE-NISTCSF-OC-NO-LEGAL-REQUIREMENTS-003/",
+      "definition_ref": "/signals/NISTCSF/OC/CSE-NISTCSF-OC-NO-LEGAL-REQUIREMENTS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2236,7 +2236,7 @@
       "canonical_name": "No Organizational Mission Understanding",
       "description": "The organizational mission is not understood to inform cybersecurity risk management.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/OC/CSE-NISTCSF-OC-NO-MISSION-UNDERSTANDING-001/",
+      "definition_ref": "/signals/NISTCSF/OC/CSE-NISTCSF-OC-NO-MISSION-UNDERSTANDING-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2278,7 +2278,7 @@
       "canonical_name": "No Outcomes Prioritized Based on Dependencies",
       "description": "Outcomes, capabilities, and services that depend on others are not prioritized.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/OC/CSE-NISTCSF-OC-NO-OUTCOMES-PRIORITIZED-005/",
+      "definition_ref": "/signals/NISTCSF/OC/CSE-NISTCSF-OC-NO-OUTCOMES-PRIORITIZED-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2320,7 +2320,7 @@
       "canonical_name": "No Internal Stakeholder Communications",
       "description": "Internal stakeholders are not identified and their expectations not communicated.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/OC/CSE-NISTCSF-OC-NO-STAKEHOLDER-COMMS-002/",
+      "definition_ref": "/signals/NISTCSF/OC/CSE-NISTCSF-OC-NO-STAKEHOLDER-COMMS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2362,7 +2362,7 @@
       "canonical_name": "Cybersecurity Strategy Not Adjusted Based on Requirements",
       "description": "The cybersecurity risk management strategy is not adjusted based on outcomes.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/OV/CSE-NISTCSF-OV-NO-ADJUSTMENT-STRATEGY-002/",
+      "definition_ref": "/signals/NISTCSF/OV/CSE-NISTCSF-OV-NO-ADJUSTMENT-STRATEGY-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2404,7 +2404,7 @@
       "canonical_name": "Cybersecurity Performance Not Evaluated",
       "description": "Organizational cybersecurity risk management performance is not evaluated and reviewed.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/OV/CSE-NISTCSF-OV-NO-PERFORMANCE-EVALUATION-003/",
+      "definition_ref": "/signals/NISTCSF/OV/CSE-NISTCSF-OV-NO-PERFORMANCE-EVALUATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2446,7 +2446,7 @@
       "canonical_name": "Cybersecurity Strategy Outcomes Not Reviewed",
       "description": "Cybersecurity risk management strategy outcomes are not reviewed to inform improvements.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/OV/CSE-NISTCSF-OV-NO-STRATEGY-REVIEW-001/",
+      "definition_ref": "/signals/NISTCSF/OV/CSE-NISTCSF-OV-NO-STRATEGY-REVIEW-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2488,7 +2488,7 @@
       "canonical_name": "Cybersecurity Risk Management Policy Not Established",
       "description": "A policy for cybersecurity risk management based on organizational context is not established.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/PO/CSE-NISTCSF-PO-NO-POLICY-ESTABLISHED-001/",
+      "definition_ref": "/signals/NISTCSF/PO/CSE-NISTCSF-PO-NO-POLICY-ESTABLISHED-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2530,7 +2530,7 @@
       "canonical_name": "Cybersecurity Policy Not Reviewed and Updated",
       "description": "Cybersecurity policy is not reviewed, updated, and communicated.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/PO/CSE-NISTCSF-PO-NO-POLICY-REVIEW-002/",
+      "definition_ref": "/signals/NISTCSF/PO/CSE-NISTCSF-PO-NO-POLICY-REVIEW-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2572,7 +2572,7 @@
       "canonical_name": "Configuration Management Not Established",
       "description": "Configuration management practices are not established and applied.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-CONFIG-MGMT-001/",
+      "definition_ref": "/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-CONFIG-MGMT-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2614,7 +2614,7 @@
       "canonical_name": "Hardware Not Properly Maintained",
       "description": "Hardware is not maintained, replaced, and removed commensurate with risk.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-HARDWARE-MAINTENANCE-003/",
+      "definition_ref": "/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-HARDWARE-MAINTENANCE-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2656,7 +2656,7 @@
       "canonical_name": "Log Records Not Generated",
       "description": "Log records are not generated and made available for continuous monitoring.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-LOG-GENERATION-004/",
+      "definition_ref": "/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-LOG-GENERATION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2698,7 +2698,7 @@
       "canonical_name": "Secure Development Practices Not Integrated",
       "description": "Secure software development practices are not integrated.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-SECURE-DEV-006/",
+      "definition_ref": "/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-SECURE-DEV-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2740,7 +2740,7 @@
       "canonical_name": "Software Not Properly Maintained",
       "description": "Software is not maintained, replaced, and removed commensurate with risk.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-SOFTWARE-MAINTENANCE-002/",
+      "definition_ref": "/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-SOFTWARE-MAINTENANCE-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2782,7 +2782,7 @@
       "canonical_name": "Unauthorized Software Not Prevented",
       "description": "Installation and execution of unauthorized software are not prevented.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity safeguards Data protection and platform security teams Infrastructure resilience programs Organizations managing technology platforms",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-UNAUTHORIZED-SW-PREVENTION-005/",
+      "definition_ref": "/signals/NISTCSF/PS/CSE-NISTCSF-PS-NO-UNAUTHORIZED-SW-PREVENTION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2824,7 +2824,7 @@
       "canonical_name": "No Change Management Risk Assessment",
       "description": "Changes and exceptions are not managed, assessed for risk impact, and tracked.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Risk assessment and vulnerability management teams Security operations and threat intelligence functions Organizations conducting security assessments",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-CHANGE-MGMT-007/",
+      "definition_ref": "/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-CHANGE-MGMT-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2866,7 +2866,7 @@
       "canonical_name": "No Hardware and Software Integrity Assessment",
       "description": "The authenticity and integrity of hardware and software are not assessed prior to acquisition.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Risk assessment and vulnerability management teams Security operations and threat intelligence functions Organizations conducting security assessments",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-HW-SW-INTEGRITY-009/",
+      "definition_ref": "/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-HW-SW-INTEGRITY-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2908,7 +2908,7 @@
       "canonical_name": "No Impact and Likelihood Assessment",
       "description": "Potential impacts and likelihoods of threats exploiting vulnerabilities are not identified.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Risk assessment and vulnerability management teams Security operations and threat intelligence functions Organizations conducting security assessments",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-IMPACT-LIKELIHOOD-004/",
+      "definition_ref": "/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-IMPACT-LIKELIHOOD-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2950,7 +2950,7 @@
       "canonical_name": "No Risk Response Management",
       "description": "Risk responses are not chosen, prioritized, planned, tracked, and communicated.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Risk assessment and vulnerability management teams Security operations and threat intelligence functions Organizations conducting security assessments",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-RISK-RESPONSE-006/",
+      "definition_ref": "/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-RISK-RESPONSE-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -2992,7 +2992,7 @@
       "canonical_name": "No Risk Understanding",
       "description": "Threats, vulnerabilities, likelihoods, and impacts are not used to understand inherent risk.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Risk assessment and vulnerability management teams Security operations and threat intelligence functions Organizations conducting security assessments",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-RISK-UNDERSTANDING-005/",
+      "definition_ref": "/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-RISK-UNDERSTANDING-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3034,7 +3034,7 @@
       "canonical_name": "No Supplier Assessment",
       "description": "Critical suppliers are not assessed prior to acquisition.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Risk assessment and vulnerability management teams Security operations and threat intelligence functions Organizations conducting security assessments",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-SUPPLIER-ASSESSMENT-010/",
+      "definition_ref": "/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-SUPPLIER-ASSESSMENT-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3076,7 +3076,7 @@
       "canonical_name": "No Threat Identification",
       "description": "Internal and external threats to the organization are not identified and recorded.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Risk assessment and vulnerability management teams Security operations and threat intelligence functions Organizations conducting security assessments",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-THREAT-IDENTIFICATION-003/",
+      "definition_ref": "/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-THREAT-IDENTIFICATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3118,7 +3118,7 @@
       "canonical_name": "No Threat Intelligence",
       "description": "Cyber threat intelligence is not received from information sharing forums and sources.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Risk assessment and vulnerability management teams Security operations and threat intelligence functions Organizations conducting security assessments",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-THREAT-INTEL-002/",
+      "definition_ref": "/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-THREAT-INTEL-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3160,7 +3160,7 @@
       "canonical_name": "No Vulnerability Disclosure Process",
       "description": "Processes for receiving, analyzing, and responding to vulnerability disclosures are not established.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Risk assessment and vulnerability management teams Security operations and threat intelligence functions Organizations conducting security assessments",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-VULN-DISCLOSURE-008/",
+      "definition_ref": "/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-VULN-DISCLOSURE-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3202,7 +3202,7 @@
       "canonical_name": "No Vulnerability Identification",
       "description": "Vulnerabilities in assets are not identified, validated, and recorded.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Risk assessment and vulnerability management teams Security operations and threat intelligence functions Organizations conducting security assessments",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-VULN-IDENTIFICATION-001/",
+      "definition_ref": "/signals/NISTCSF/RA/CSE-NISTCSF-RA-NO-VULN-IDENTIFICATION-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3244,7 +3244,7 @@
       "canonical_name": "Public Updates on Incident Recovery Not Shared Using Approved Methods",
       "description": "Public updates on incident recovery are not shared using approved methods.",
       "applicability": "This signal applies to: All organizations with business continuity and disaster recovery requirements Incident recovery and restoration teams Communications and public relations functions Organizations with regulatory recovery requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RCOM/CSE-NISTCSF-RCOM-NO-PUBLIC-UPDATES-004/",
+      "definition_ref": "/signals/NISTCSF/RCOM/CSE-NISTCSF-RCOM-NO-PUBLIC-UPDATES-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3286,7 +3286,7 @@
       "canonical_name": "Recovery Activities and Progress Not Communicated to Stakeholders",
       "description": "Recovery activities and progress are not communicated to stakeholders.",
       "applicability": "This signal applies to: All organizations with business continuity and disaster recovery requirements Incident recovery and restoration teams Communications and public relations functions Organizations with regulatory recovery requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RCOM/CSE-NISTCSF-RCOM-NO-RECOVERY-COMMS-003/",
+      "definition_ref": "/signals/NISTCSF/RCOM/CSE-NISTCSF-RCOM-NO-RECOVERY-COMMS-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3328,7 +3328,7 @@
       "canonical_name": "No Integration with Enterprise Risk Management",
       "description": "Cybersecurity risk management activities are not integrated into enterprise risk management.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-RISK-ACTIVITIES-003/",
+      "definition_ref": "/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-RISK-ACTIVITIES-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3370,7 +3370,7 @@
       "canonical_name": "No Risk Appetite and Tolerance Statements",
       "description": "Risk appetite and tolerance statements are not established, communicated, and maintained.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-RISK-APPETITE-002/",
+      "definition_ref": "/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-RISK-APPETITE-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3412,7 +3412,7 @@
       "canonical_name": "No Standardized Risk Management Method",
       "description": "A standardized method for calculating, documenting, and tracking risks is not established.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-RISK-MGMT-METHOD-006/",
+      "definition_ref": "/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-RISK-MGMT-METHOD-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3454,7 +3454,7 @@
       "canonical_name": "No Risk Management Objectives",
       "description": "Risk management objectives are not established and agreed to by organizational stakeholders.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-RISK-MGMT-OBJECTIVES-001/",
+      "definition_ref": "/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-RISK-MGMT-OBJECTIVES-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3496,7 +3496,7 @@
       "canonical_name": "No Risk-Informed Strategic Direction",
       "description": "Strategic direction is not informed by risk management outcomes.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-STRATEGIC-DIRECTION-004/",
+      "definition_ref": "/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-STRATEGIC-DIRECTION-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3538,7 +3538,7 @@
       "canonical_name": "No Strategic Opportunities in Risk Discussions",
       "description": "Strategic opportunities are not characterized and included in risk discussions.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-STRATEGIC-OPPORTUNITIES-007/",
+      "definition_ref": "/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-STRATEGIC-OPPORTUNITIES-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3580,7 +3580,7 @@
       "canonical_name": "No Supply Chain Risk Communication Lines",
       "description": "Lines of communication for cybersecurity risks across the supply chain are not established.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-SUPPLY-CHAIN-LINES-005/",
+      "definition_ref": "/signals/NISTCSF/RM/CSE-NISTCSF-RM-NO-SUPPLY-CHAIN-LINES-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3622,7 +3622,7 @@
       "canonical_name": "Backup and Restoration Asset Integrity Not Verified Before Use",
       "description": "The integrity of backups and other restoration assets is not verified before use.",
       "applicability": "This signal applies to: All organizations with business continuity and disaster recovery requirements Incident recovery and restoration teams Communications and public relations functions Organizations with regulatory recovery requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-BACKUP-INTEGRITY-003/",
+      "definition_ref": "/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-BACKUP-INTEGRITY-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3664,7 +3664,7 @@
       "canonical_name": "Critical Functions and Risk Not Considered for Post-Incident Norms",
       "description": "Critical mission functions and risk management are not considered to establish post-incident operational norms.",
       "applicability": "This signal applies to: All organizations with business continuity and disaster recovery requirements Incident recovery and restoration teams Communications and public relations functions Organizations with regulatory recovery requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-POST-INCIDENT-NORMS-004/",
+      "definition_ref": "/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-POST-INCIDENT-NORMS-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3706,7 +3706,7 @@
       "canonical_name": "Recovery Actions Not Selected, Scoped, Prioritized, and Performed",
       "description": "Recovery actions are not selected, scoped, prioritized, and performed.",
       "applicability": "This signal applies to: All organizations with business continuity and disaster recovery requirements Incident recovery and restoration teams Communications and public relations functions Organizations with regulatory recovery requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-RECOVERY-ACTIONS-002/",
+      "definition_ref": "/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-RECOVERY-ACTIONS-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3748,7 +3748,7 @@
       "canonical_name": "Incident Recovery End Not Declared Based on Criteria",
       "description": "The end of incident recovery is not declared based on criteria.",
       "applicability": "This signal applies to: All organizations with business continuity and disaster recovery requirements Incident recovery and restoration teams Communications and public relations functions Organizations with regulatory recovery requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-RECOVERY-CLOSURE-006/",
+      "definition_ref": "/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-RECOVERY-CLOSURE-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3790,7 +3790,7 @@
       "canonical_name": "Incident Recovery Plan Not Executed",
       "description": "The recovery portion of the incident response plan is not executed.",
       "applicability": "This signal applies to: All organizations with business continuity and disaster recovery requirements Incident recovery and restoration teams Communications and public relations functions Organizations with regulatory recovery requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-RECOVERY-EXECUTION-001/",
+      "definition_ref": "/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-RECOVERY-EXECUTION-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3832,7 +3832,7 @@
       "canonical_name": "Restored Asset Integrity Not Verified and Normal Status Not Confirmed",
       "description": "The integrity of restored assets is not verified and normal operating status not confirmed.",
       "applicability": "This signal applies to: All organizations with business continuity and disaster recovery requirements Incident recovery and restoration teams Communications and public relations functions Organizations with regulatory recovery requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-RESTORATION-VERIFICATION-005/",
+      "definition_ref": "/signals/NISTCSF/RP/CSE-NISTCSF-RP-NO-RESTORATION-VERIFICATION-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3874,7 +3874,7 @@
       "canonical_name": "Inadequate Resources Allocated for Cybersecurity",
       "description": "Adequate resources for cybersecurity implementation are not allocated.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RR/CSE-NISTCSF-RR-NO-ADEQUATE-RESOURCES-003/",
+      "definition_ref": "/signals/NISTCSF/RR/CSE-NISTCSF-RR-NO-ADEQUATE-RESOURCES-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3916,7 +3916,7 @@
       "canonical_name": "No Leadership Accountability for Cybersecurity Risk",
       "description": "Organizational leadership is not accountable for cybersecurity risk.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RR/CSE-NISTCSF-RR-NO-LEADERSHIP-ACCOUNTABILITY-001/",
+      "definition_ref": "/signals/NISTCSF/RR/CSE-NISTCSF-RR-NO-LEADERSHIP-ACCOUNTABILITY-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -3958,7 +3958,7 @@
       "canonical_name": "Cybersecurity Not Included in Human Resources Practices",
       "description": "Cybersecurity is not included in human resources practices.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RR/CSE-NISTCSF-RR-NO-PERFORMANCE-ASSESSMENT-004/",
+      "definition_ref": "/signals/NISTCSF/RR/CSE-NISTCSF-RR-NO-PERFORMANCE-ASSESSMENT-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4000,7 +4000,7 @@
       "canonical_name": "Cybersecurity Roles and Responsibilities Not Defined",
       "description": "Roles, responsibilities, and authorities for cybersecurity are not established and communicated.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Enterprise governance and leadership functions Strategic planning and risk management teams Organizations subject to regulatory compliance requirements",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/RR/CSE-NISTCSF-RR-NO-ROLES-DEFINED-002/",
+      "definition_ref": "/signals/NISTCSF/RR/CSE-NISTCSF-RR-NO-ROLES-DEFINED-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4042,7 +4042,7 @@
       "canonical_name": "Suppliers Not Included in Incident Planning and Response",
       "description": "Relevant suppliers and third parties are not included in cybersecurity exercises.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Organizations with supplier and third-party relationships Procurement and vendor management teams Supply chain security programs",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-CRITICAL-SUPPLIERS-008/",
+      "definition_ref": "/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-CRITICAL-SUPPLIERS-008/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4084,7 +4084,7 @@
       "canonical_name": "No Due Diligence on Prospective Suppliers",
       "description": "Due diligence is not performed on prospective suppliers.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Organizations with supplier and third-party relationships Procurement and vendor management teams Supply chain security programs",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-DUE-DILIGENCE-006/",
+      "definition_ref": "/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-DUE-DILIGENCE-006/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4126,7 +4126,7 @@
       "canonical_name": "No Post-Acquisition Supply Chain Risk Management Plans",
       "description": "Cybersecurity supply chain risk management plans are not monitored post-acquisition.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Organizations with supplier and third-party relationships Procurement and vendor management teams Supply chain security programs",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-POST-ACQUISITION-010/",
+      "definition_ref": "/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-POST-ACQUISITION-010/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4168,7 +4168,7 @@
       "canonical_name": "No Integration of Supply Chain Risk Management into Cybersecurity and Enterprise Risk Management",
       "description": "Cybersecurity supply chain risk management is not integrated into cybersecurity and enterprise risk management.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Organizations with supplier and third-party relationships Procurement and vendor management teams Supply chain security programs",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SCRM-INTEGRATION-003/",
+      "definition_ref": "/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SCRM-INTEGRATION-003/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4210,7 +4210,7 @@
       "canonical_name": "Supply Chain Security Practices Not Integrated into Acquisitions",
       "description": "Supply chain security practices are not integrated into acquisitions.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Organizations with supplier and third-party relationships Procurement and vendor management teams Supply chain security programs",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SCRM-PRACTICES-009/",
+      "definition_ref": "/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SCRM-PRACTICES-009/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4252,7 +4252,7 @@
       "canonical_name": "No Cybersecurity Supply Chain Risk Management Program",
       "description": "A cybersecurity supply chain risk management program and strategy are not established.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Organizations with supplier and third-party relationships Procurement and vendor management teams Supply chain security programs",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SCRM-PROGRAM-001/",
+      "definition_ref": "/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SCRM-PROGRAM-001/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4294,7 +4294,7 @@
       "canonical_name": "No Cybersecurity Roles and Responsibilities for Suppliers",
       "description": "Cybersecurity roles and responsibilities for suppliers are not established.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Organizations with supplier and third-party relationships Procurement and vendor management teams Supply chain security programs",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SCRM-ROLES-002/",
+      "definition_ref": "/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SCRM-ROLES-002/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4336,7 +4336,7 @@
       "canonical_name": "Suppliers Not Known and Prioritized by Criticality",
       "description": "Suppliers are not known and prioritized by criticality.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Organizations with supplier and third-party relationships Procurement and vendor management teams Supply chain security programs",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SUPPLIER-KNOWLEDGE-004/",
+      "definition_ref": "/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SUPPLIER-KNOWLEDGE-004/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4378,7 +4378,7 @@
       "canonical_name": "No Cybersecurity Requirements in Supply Chain Contracts",
       "description": "Requirements to address cybersecurity risks in supply chains are not established and communicated.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Organizations with supplier and third-party relationships Procurement and vendor management teams Supply chain security programs",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SUPPLIER-REQUIREMENTS-005/",
+      "definition_ref": "/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SUPPLIER-REQUIREMENTS-005/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
@@ -4420,7 +4420,7 @@
       "canonical_name": "Supplier Risks Not Understood and Managed",
       "description": "Risks posed by a supplier or other third party are not understood and managed.",
       "applicability": "This signal applies to: All organizations implementing cybersecurity risk management Organizations with supplier and third-party relationships Procurement and vendor management teams Supply chain security programs",
-      "definition_ref": "/v1.0.0/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SUPPLIER-RISKS-007/",
+      "definition_ref": "/signals/NISTCSF/SC/CSE-NISTCSF-SC-NO-SUPPLIER-RISKS-007/",
       "introduced_in": "1.0.0",
       "status": "active",
       "metadata": {
