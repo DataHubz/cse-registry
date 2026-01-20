@@ -647,7 +647,6 @@ This integrated approach enables:
 └── LICENSE
 ```
 
-> **Note:** Version history is managed via git tags. Use `git tag -l` to list versions or `git checkout v1.0.0` to access a specific release.
 
 ## Registry Formats
 
@@ -787,11 +786,12 @@ For production integrations requiring higher throughput and additional capabilit
 
 CSE is developed and stewarded by **[DataHubz](https://www.datahubz.com/)**.
 
-The specification and registry are public and versioned. Stewardship is centralized for v1.x to ensure stability, neutrality, and consistency.
+The specification and registry are public and versioned. Stewardship is centralized to ensure stability, neutrality, and consistency.
 
 ### Versioning
 
-- Registry versions follow semantic versioning
+- Registry versions follow [semantic versioning](https://semver.org/)
+- Version history is managed via git tags (`git tag -l` to list, `git checkout v1.0.0` to access)
 - Signal identifiers are immutable once published
 - Deprecated signals are marked but never removed
 - New signals are additive and backward-compatible
