@@ -55,16 +55,6 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Contributing guidelines
 - Glossary of terms
 
-### Changed
-
-#### Repository Structure
-- **BREAKING**: Migrated from folder-based versioning (`v1.0.0/`) to git tag-based versioning
-- All registry content now lives at repository root
-- Version history managed via git tags (use `git tag -l` to list versions)
-- Added `VERSION` file for programmatic version detection
-
-This change aligns CSE Registry with industry standard practices used by CVE, CWE, SPDX, OpenAPI, and similar registries
-
 ## Notes
 
 - Registry versions are immutable once published
